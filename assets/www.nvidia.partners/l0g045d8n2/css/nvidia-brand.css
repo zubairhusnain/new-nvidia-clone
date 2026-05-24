@@ -1,0 +1,254 @@
+/* { box-sizing:border-box; }
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {  margin:0;  padding:0;  border:0;  outline:0;  font-weight:NVIDIA,Arial,Helvetica,Sans-Serif;  font-style:normal;  font-family:NVIDIA,Arial,Helvetica,Sans-Serif;  text-decoration:none;  -webkit-text-size-adjust:none;  -ms-interpolation-mode:bicubic }
+body {   margin:0; line-height:1.3em;   line-height:1.36; font-family: NVIDIA,Arial,Helvetica,Sans-Serif;   }*/
+.sectionWrapper { position: relative; }
+.background-black { background-color: #000; }
+/* .p-t-105 { padding-top: 105px; }
+.p-b-105 { padding-bottom: 105px; } */
+.sectionWrapper .general-container {margin:0 auto; padding-left:15px; padding-right:15px; max-width:1280px; width:100%; }
+.large-12 {width:100%;}
+.text-center {text-align:center;}
+
+h2 { color:NVIDIA,Arial,Helvetica,Sans-Serif; font-family:NVIDIA,Arial,Helvetica,Sans-Serif;}
+
+.tab_menu { min-width: 280px; max-width: 1500px; width: 100%; margin:20px auto; position:relative; z-index:50; float:left; width:100%;  position:relative; text-align:center; }
+.tab_menuRow { z-index: 280;  -webkit-overflow-scrolling: touch; margin-right:0px; display: inline-block; margin-left: 0;  list-style:none; padding:0; margin:0; text-align:center; }
+.tab_menuRow li  { margin: 0 4px;  list-style: none; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: transparent; line-height: 28px; text-align: center; font-style: normal;  text-decoration: none; color: #fff;  display: inline-block; text-transform: none; cursor: pointer;  transition: all .15s ease-in-out; padding: 0 5px 6px 5px; font-size: 16px; }
+.tab_menuRow li.active {  color: #fff;  border-bottom-color: #76b900 ;  }
+.tab-content { width:100%; display:inline-block;  position:relative; }
+.tab-content > .tab-pane { display: none; }
+.tab-content > .active { display: block; }
+
+.brandList { width:100%; float:left; /*padding:15px 80px;*/  list-style:none; margin:0; text-align:center; margin:30px 0 0 0;  display: flex; flex-wrap: wrap; justify-content: space-evenly; max-width: 1280px;}
+
+.extrapadding.brandList { width:100%; float:left; /*padding:15px 80px;*/  list-style:none; margin:0; text-align:center; margin:30px 0 0 0;  display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center;  max-width: 1280px;}
+.brandList li{ width:30%; display:inline-block; float:left; padding:15px; list-style:none; margin:0; text-align:center;}
+.extrapadding.brandList li{ width:30.9%; display:inline-block; float:left; padding:15px; list-style:none; margin:0; text-align:center;}
+.brandList li a {  text-decoration:none; }
+.brandList li a img { max-width:100%; display:inline-block; max-height:100px;}
+.extrapadding.brandList li a img { max-width:150px; display:inline-block; max-height:100px;}
+.brandList-one{
+    justify-content:center !important;
+}
+/* bts new*/
+
+#nv-geforce-bts-b-container .productItem {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+#nv-geforce-bts-b-container .product-image-container {
+    width: 100%;
+    float: left;
+    padding: 30px 0px 0px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+#nv-geforce-bts-b-container .product-imgwidth {
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    height: 300px;
+    box-sizing: border-box;
+    position: relative;
+}
+#nv-geforce-bts-b-container .product-responsive-image {
+    display: block;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+#nv-geforce-bts-b-container .productInfo {
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+#nv-geforce-bts-b-container .product-description {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    float: left;
+    max-height: 97px!important;
+    min-height: 78px!important;
+    overflow: hidden;
+    /* margin: 15px 0; */
+}
+#nv-geforce-bts-b-container .product-description p {
+    margin: 0;
+    padding: 0;
+}
+#nv-geforce-bts-b-container .product-old-price {
+    color: #666;
+    font-size: 16px;
+    line-height: 16px;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+#nv-geforce-bts-b-container .product-old-price .oldPrice {
+    text-decoration: line-through;
+}
+#nv-geforce-bts-b-container .product-old-price .product-decimal {
+    font-size: 13px;
+    vertical-align: 2px;
+    text-decoration: line-through;
+}
+#nv-geforce-bts-b-container .product-feature-price {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#nv-geforce-bts-b-container .product-feature-price .product-decimal {
+    font-size: 16px;
+    vertical-align: 5px;
+}
+#nv-geforce-bts-b-container .product-text-button {
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}
+#nv-geforce-bts-b-container .product-link-btn {
+    border: 1px solid #76b900;
+    color: #fff;
+    display: inline-block;
+    font: bold 18px/1;
+    min-width: 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    background-color: #76b900;
+    cursor: pointer;
+}
+#nv-geforce-bts-b-container .product-link-btn .product-btn {
+    padding: 8px 16px;
+}
+#nv-geforce-bts-b-container .fullRow {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+}
+#nv-geforce-bts-b-container .productBrand {
+    display: inline-block;
+    vertical-align: middle;
+}
+/* End bts new*/
+
+
+@media (max-width: 767px) {
+	.brandList { padding:15px 24px; }
+.brandList li { width:100%; padding:24px;}
+}
+
+
+/* new  */
+
+
+
+body.base_v4.v4_design .h1, body.base_v4.v4_design .h2, body.base_v4.v4_design .h3, body.base_v4.v4_design .h4, body.base_v4.v4_design .h5, body.base_v4.v4_design .h6, body.base_v4.v4_design h1, body.base_v4.v4_design h2, body.base_v4.v4_design h3, body.base_v4.v4_design h4, body.base_v4.v4_design h5, body.base_v4.v4_design h6 {
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.brandWidget{
+        padding-top: 90px;
+        padding-bottom:90px;
+}
+.brandWidget .text-center h2#title{
+    font-size: 24px;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-transform: none;
+    padding: 8px 0;
+}
+@media (min-width: 1350px){
+.brandWidget .text-center h2#title{
+    font-size: 34px;
+}
+}
+.sectionenhanced .general-container h2, .sectionenhanced .general-container .h2 {
+    padding: 8px 0;
+}
+#wtb-edge-container ul, #wtb-edge-container ol {
+    color: #fff;
+    /* color: #1a1a1a; */
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: NVIDIA,Arial,Helvetica,Sans-Serif;
+    -webkit-padding-start: 0px;
+    /* -webkit-margin-before: 7px; */
+    /* -webkit-margin-after: 7px; */
+}
+#wtb-edge-container .tab_menuRow li.active{
+    color: #fff !important;
+}
+#wtb-edge-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* for 3090 */
+
+#sectionenhanced5083aac0_5fef_4a6f_a27c_32de7bef060f .brandList li{
+    width: 33%;
+}
+#sectionenhanced_15269269564bd6fee4_9ea6_4395_a22f_8a439190e211 .brandList li{
+    width: 33%;
+}
+#sectionenhanced_53084b8d579d_a28c_4194_a4d2_2a95d70e9730 .brandList li{
+    width: 33%;
+}
+
+#nv-logo-tabs .tab_menuRow li{
+    color: #fff !important;
+}
+
+#nv-logo-tabs .tab_menuRow li.active{
+    /* color: #000 !important; */
+}
+
+
+/* others partner hover  */
+
+#wtb-edge-container .brandListnologo a, #wtb-edge-container .brandListnologo a  {
+    color: NVIDIA,Arial,Helvetica,Sans-Serif;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #76b900;
+    text-decoration-color: #76b900;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.3125em;
+        font-weight: 700;
+}
+#wtb-edge-container .brandListnologo a:hover, #wtb-edge-container .brandListnologo a:hover {
+    /* color: NVIDIA,Arial,Helvetica,Sans-Serif; */
+    /* text-decoration: underline; */
+    -webkit-text-decoration-color: #fff;
+    text-decoration-color: #fff;
+    /* text-decoration-thickness: 2px; */
+    /* text-underline-offset: 0.3125em; */
+}
+
+@media (max-width: 420px) {
+    .extrapadding.brandList li{
+        /* width: auto; */
+    }
+    .extrapadding.brandList li a img{
+        max-width:100%;
+    }
+}

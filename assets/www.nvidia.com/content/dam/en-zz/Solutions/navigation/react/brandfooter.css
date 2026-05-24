@@ -1,0 +1,32 @@
+.page-footer__social__link svg {
+  fill: #999;
+  width: 24px;
+  -webkit-transition: color .3s ease-in-out;
+  transition: color .3s ease-in-out;
+  height: 24px;
+}
+.page-footer__social__link svg:hover {
+  fill: #f7f7f7
+}
+a.page-footer__social__link[href*="http://twitter.com/"]:before {
+  content: "";
+  font-family: Font Awesome\ 6 Brands;
+  font-weight: 400;
+  color: #999;
+  font-size: 24px;
+}
+a.page-footer__social__link[href*="http://twitter.com/"] svg {
+  display: none;
+}
+a.page-footer__social__link:hover:before {
+  color: #f7f7f7;
+}
+
+.page-footer-wrapper {
+    display: none;
+}
+
+
+#nv-footer .page-footer-wrapper {
+    display: block;
+}

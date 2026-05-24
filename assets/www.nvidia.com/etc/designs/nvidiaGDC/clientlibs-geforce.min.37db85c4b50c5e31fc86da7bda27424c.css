@@ -1,0 +1,119 @@
+h1{font-weight:bold}
+@media screen and (min-width:768px) and (max-width:1024px){h1{font-weight:bold}
+}
+@media screen and (min-width:1025px){h1{font-weight:bold}
+}
+.body-text{color:#eee}
+.intro-copy-text{color:#eee}
+.legal{color:#666}
+ul{color:#eee}
+.text-disabled{color:#1a1a1a;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:16px;line-height:16px}
+.text-disabled:lang(en-us),.text-disabled:lang(en-zz),.text-disabled:lang(en-gb),.text-disabled:lang(en-au),.text-disabled:lang(en-eu),.text-disabled:lang(en-in),.text-disabled:lang(es-la),.text-disabled:lang(es-uy),.text-disabled:lang(es-cl),.text-disabled:lang(es-py),.text-disabled:lang(es-ar),.text-disabled:lang(pt-br),.text-disabled:lang(en-sg),.text-disabled:lang(en-me),.text-disabled:lang(en-ph),.text-disabled:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.text-disabled:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.text-disabled:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.text-disabled:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.text-disabled:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.text-disabled:lang(de-at),.text-disabled:lang(fr-be),.text-disabled:lang(cs-cz),.text-disabled:lang(da-dk),.text-disabled:lang(nl-nl),.text-disabled:lang(nb-no),.text-disabled:lang(pl-pl),.text-disabled:lang(pt-pt),.text-disabled:lang(ro-ro),.text-disabled:lang(es-es),.text-disabled:lang(sv-se),.text-disabled:lang(de-ch),.text-disabled:lang(tr-tr),.text-disabled:lang(de-de),.text-disabled:lang(fr-fr),.text-disabled:lang(fi-fi),.text-disabled:lang(it-it),.text-disabled:lang(hu-hu),.text-disabled:lang(sl-si),.text-disabled:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.text-disabled:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.text-primary{color:#eee;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:16px;line-height:16px}
+.text-primary:lang(en-us),.text-primary:lang(en-zz),.text-primary:lang(en-gb),.text-primary:lang(en-au),.text-primary:lang(en-eu),.text-primary:lang(en-in),.text-primary:lang(es-la),.text-primary:lang(es-uy),.text-primary:lang(es-cl),.text-primary:lang(es-py),.text-primary:lang(es-ar),.text-primary:lang(pt-br),.text-primary:lang(en-sg),.text-primary:lang(en-me),.text-primary:lang(en-ph),.text-primary:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.text-primary:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.text-primary:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.text-primary:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.text-primary:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.text-primary:lang(de-at),.text-primary:lang(fr-be),.text-primary:lang(cs-cz),.text-primary:lang(da-dk),.text-primary:lang(nl-nl),.text-primary:lang(nb-no),.text-primary:lang(pl-pl),.text-primary:lang(pt-pt),.text-primary:lang(ro-ro),.text-primary:lang(es-es),.text-primary:lang(sv-se),.text-primary:lang(de-ch),.text-primary:lang(tr-tr),.text-primary:lang(de-de),.text-primary:lang(fr-fr),.text-primary:lang(fi-fi),.text-primary:lang(it-it),.text-primary:lang(hu-hu),.text-primary:lang(sl-si),.text-primary:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.text-primary:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.text-warning{color:#ffeb3b;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:16px;line-height:16px}
+.text-warning:lang(en-us),.text-warning:lang(en-zz),.text-warning:lang(en-gb),.text-warning:lang(en-au),.text-warning:lang(en-eu),.text-warning:lang(en-in),.text-warning:lang(es-la),.text-warning:lang(es-uy),.text-warning:lang(es-cl),.text-warning:lang(es-py),.text-warning:lang(es-ar),.text-warning:lang(pt-br),.text-warning:lang(en-sg),.text-warning:lang(en-me),.text-warning:lang(en-ph),.text-warning:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.text-warning:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.text-warning:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.text-warning:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.text-warning:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.text-warning:lang(de-at),.text-warning:lang(fr-be),.text-warning:lang(cs-cz),.text-warning:lang(da-dk),.text-warning:lang(nl-nl),.text-warning:lang(nb-no),.text-warning:lang(pl-pl),.text-warning:lang(pt-pt),.text-warning:lang(ro-ro),.text-warning:lang(es-es),.text-warning:lang(sv-se),.text-warning:lang(de-ch),.text-warning:lang(tr-tr),.text-warning:lang(de-de),.text-warning:lang(fr-fr),.text-warning:lang(fi-fi),.text-warning:lang(it-it),.text-warning:lang(hu-hu),.text-warning:lang(sl-si),.text-warning:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.text-warning:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.text-error{color:#f44336;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:16px;line-height:16px}
+.text-error:lang(en-us),.text-error:lang(en-zz),.text-error:lang(en-gb),.text-error:lang(en-au),.text-error:lang(en-eu),.text-error:lang(en-in),.text-error:lang(es-la),.text-error:lang(es-uy),.text-error:lang(es-cl),.text-error:lang(es-py),.text-error:lang(es-ar),.text-error:lang(pt-br),.text-error:lang(en-sg),.text-error:lang(en-me),.text-error:lang(en-ph),.text-error:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.text-error:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.text-error:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.text-error:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.text-error:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.text-error:lang(de-at),.text-error:lang(fr-be),.text-error:lang(cs-cz),.text-error:lang(da-dk),.text-error:lang(nl-nl),.text-error:lang(nb-no),.text-error:lang(pl-pl),.text-error:lang(pt-pt),.text-error:lang(ro-ro),.text-error:lang(es-es),.text-error:lang(sv-se),.text-error:lang(de-ch),.text-error:lang(tr-tr),.text-error:lang(de-de),.text-error:lang(fr-fr),.text-error:lang(fi-fi),.text-error:lang(it-it),.text-error:lang(hu-hu),.text-error:lang(sl-si),.text-error:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.text-error:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.text-success{color:#76b900;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:16px;line-height:16px}
+.text-success:lang(en-us),.text-success:lang(en-zz),.text-success:lang(en-gb),.text-success:lang(en-au),.text-success:lang(en-eu),.text-success:lang(en-in),.text-success:lang(es-la),.text-success:lang(es-uy),.text-success:lang(es-cl),.text-success:lang(es-py),.text-success:lang(es-ar),.text-success:lang(pt-br),.text-success:lang(en-sg),.text-success:lang(en-me),.text-success:lang(en-ph),.text-success:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.text-success:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.text-success:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.text-success:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.text-success:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.text-success:lang(de-at),.text-success:lang(fr-be),.text-success:lang(cs-cz),.text-success:lang(da-dk),.text-success:lang(nl-nl),.text-success:lang(nb-no),.text-success:lang(pl-pl),.text-success:lang(pt-pt),.text-success:lang(ro-ro),.text-success:lang(es-es),.text-success:lang(sv-se),.text-success:lang(de-ch),.text-success:lang(tr-tr),.text-success:lang(de-de),.text-success:lang(fr-fr),.text-success:lang(fi-fi),.text-success:lang(it-it),.text-success:lang(hu-hu),.text-success:lang(sl-si),.text-success:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.text-success:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.text-info{color:#004831;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:16px;line-height:16px}
+.text-info:lang(en-us),.text-info:lang(en-zz),.text-info:lang(en-gb),.text-info:lang(en-au),.text-info:lang(en-eu),.text-info:lang(en-in),.text-info:lang(es-la),.text-info:lang(es-uy),.text-info:lang(es-cl),.text-info:lang(es-py),.text-info:lang(es-ar),.text-info:lang(pt-br),.text-info:lang(en-sg),.text-info:lang(en-me),.text-info:lang(en-ph),.text-info:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.text-info:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.text-info:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.text-info:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.text-info:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.text-info:lang(de-at),.text-info:lang(fr-be),.text-info:lang(cs-cz),.text-info:lang(da-dk),.text-info:lang(nl-nl),.text-info:lang(nb-no),.text-info:lang(pl-pl),.text-info:lang(pt-pt),.text-info:lang(ro-ro),.text-info:lang(es-es),.text-info:lang(sv-se),.text-info:lang(de-ch),.text-info:lang(tr-tr),.text-info:lang(de-de),.text-info:lang(fr-fr),.text-info:lang(fi-fi),.text-info:lang(it-it),.text-info:lang(hu-hu),.text-info:lang(sl-si),.text-info:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.text-info:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.quote-copy{color:#eee;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:18px;line-height:27px}
+.quote-copy:lang(en-us),.quote-copy:lang(en-zz),.quote-copy:lang(en-gb),.quote-copy:lang(en-au),.quote-copy:lang(en-eu),.quote-copy:lang(en-in),.quote-copy:lang(es-la),.quote-copy:lang(es-uy),.quote-copy:lang(es-cl),.quote-copy:lang(es-py),.quote-copy:lang(es-ar),.quote-copy:lang(pt-br),.quote-copy:lang(en-sg),.quote-copy:lang(en-me),.quote-copy:lang(en-ph),.quote-copy:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.quote-copy:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.quote-copy:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.quote-copy:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.quote-copy:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.quote-copy:lang(de-at),.quote-copy:lang(fr-be),.quote-copy:lang(cs-cz),.quote-copy:lang(da-dk),.quote-copy:lang(nl-nl),.quote-copy:lang(nb-no),.quote-copy:lang(pl-pl),.quote-copy:lang(pt-pt),.quote-copy:lang(ro-ro),.quote-copy:lang(es-es),.quote-copy:lang(sv-se),.quote-copy:lang(de-ch),.quote-copy:lang(tr-tr),.quote-copy:lang(de-de),.quote-copy:lang(fr-fr),.quote-copy:lang(fi-fi),.quote-copy:lang(it-it),.quote-copy:lang(hu-hu),.quote-copy:lang(sl-si),.quote-copy:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.quote-copy:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.source{color:#eee;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:14px;line-height:14px}
+.source:lang(en-us),.source:lang(en-zz),.source:lang(en-gb),.source:lang(en-au),.source:lang(en-eu),.source:lang(en-in),.source:lang(es-la),.source:lang(es-uy),.source:lang(es-cl),.source:lang(es-py),.source:lang(es-ar),.source:lang(pt-br),.source:lang(en-sg),.source:lang(en-me),.source:lang(en-ph),.source:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.source:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.source:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.source:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.source:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.source:lang(de-at),.source:lang(fr-be),.source:lang(cs-cz),.source:lang(da-dk),.source:lang(nl-nl),.source:lang(nb-no),.source:lang(pl-pl),.source:lang(pt-pt),.source:lang(ro-ro),.source:lang(es-es),.source:lang(sv-se),.source:lang(de-ch),.source:lang(tr-tr),.source:lang(de-de),.source:lang(fr-fr),.source:lang(fi-fi),.source:lang(it-it),.source:lang(hu-hu),.source:lang(sl-si),.source:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.source:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.quotation-marks{color:#bdbdbd;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;font-weight:normal;font-size:72px;line-height:72px}
+.quotation-marks:lang(en-us),.quotation-marks:lang(en-zz),.quotation-marks:lang(en-gb),.quotation-marks:lang(en-au),.quotation-marks:lang(en-eu),.quotation-marks:lang(en-in),.quotation-marks:lang(es-la),.quotation-marks:lang(es-uy),.quotation-marks:lang(es-cl),.quotation-marks:lang(es-py),.quotation-marks:lang(es-ar),.quotation-marks:lang(pt-br),.quotation-marks:lang(en-sg),.quotation-marks:lang(en-me),.quotation-marks:lang(en-ph),.quotation-marks:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.quotation-marks:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.quotation-marks:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.quotation-marks:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.quotation-marks:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.quotation-marks:lang(de-at),.quotation-marks:lang(fr-be),.quotation-marks:lang(cs-cz),.quotation-marks:lang(da-dk),.quotation-marks:lang(nl-nl),.quotation-marks:lang(nb-no),.quotation-marks:lang(pl-pl),.quotation-marks:lang(pt-pt),.quotation-marks:lang(ro-ro),.quotation-marks:lang(es-es),.quotation-marks:lang(sv-se),.quotation-marks:lang(de-ch),.quotation-marks:lang(tr-tr),.quotation-marks:lang(de-de),.quotation-marks:lang(fr-fr),.quotation-marks:lang(fi-fi),.quotation-marks:lang(it-it),.quotation-marks:lang(hu-hu),.quotation-marks:lang(sl-si),.quotation-marks:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.quotation-marks:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.large-text-link .btn{font-size:18px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(en-us),.large-text-link .btn:lang(en-zz),.large-text-link .btn:lang(en-gb),.large-text-link .btn:lang(en-au),.large-text-link .btn:lang(en-eu),.large-text-link .btn:lang(en-in),.large-text-link .btn:lang(es-la),.large-text-link .btn:lang(es-uy),.large-text-link .btn:lang(es-cl),.large-text-link .btn:lang(es-py),.large-text-link .btn:lang(es-ar),.large-text-link .btn:lang(pt-br),.large-text-link .btn:lang(en-sg),.large-text-link .btn:lang(en-me),.large-text-link .btn:lang(en-ph),.large-text-link .btn:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(de-at),.large-text-link .btn:lang(fr-be),.large-text-link .btn:lang(cs-cz),.large-text-link .btn:lang(da-dk),.large-text-link .btn:lang(nl-nl),.large-text-link .btn:lang(nb-no),.large-text-link .btn:lang(pl-pl),.large-text-link .btn:lang(pt-pt),.large-text-link .btn:lang(ro-ro),.large-text-link .btn:lang(es-es),.large-text-link .btn:lang(sv-se),.large-text-link .btn:lang(de-ch),.large-text-link .btn:lang(tr-tr),.large-text-link .btn:lang(de-de),.large-text-link .btn:lang(fr-fr),.large-text-link .btn:lang(fi-fi),.large-text-link .btn:lang(it-it),.large-text-link .btn:lang(hu-hu),.large-text-link .btn:lang(sl-si),.large-text-link .btn:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.large-text-link .btn:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+.link-btn .disabled{background-color:#1a1a1a;color:#747474}
+.link-btn .input{border:#ccc}
+.link-btn .input-disabled{border:#1a1a1a}
+@media screen and (max-width:1024px){.big-text{font-size:48px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif}
+.big-text:lang(en-us),.big-text:lang(en-zz),.big-text:lang(en-gb),.big-text:lang(en-au),.big-text:lang(en-eu),.big-text:lang(en-in),.big-text:lang(es-la),.big-text:lang(es-uy),.big-text:lang(es-cl),.big-text:lang(es-py),.big-text:lang(es-ar),.big-text:lang(pt-br),.big-text:lang(en-sg),.big-text:lang(en-me),.big-text:lang(en-ph),.big-text:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.big-text:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.big-text:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.big-text:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.big-text:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.big-text:lang(de-at),.big-text:lang(fr-be),.big-text:lang(cs-cz),.big-text:lang(da-dk),.big-text:lang(nl-nl),.big-text:lang(nb-no),.big-text:lang(pl-pl),.big-text:lang(pt-pt),.big-text:lang(ro-ro),.big-text:lang(es-es),.big-text:lang(sv-se),.big-text:lang(de-ch),.big-text:lang(tr-tr),.big-text:lang(de-de),.big-text:lang(fr-fr),.big-text:lang(fi-fi),.big-text:lang(it-it),.big-text:lang(hu-hu),.big-text:lang(sl-si),.big-text:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.big-text:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+}
+@media screen and (min-width:1025px){.big-text{font-size:80px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif}
+.big-text:lang(en-us),.big-text:lang(en-zz),.big-text:lang(en-gb),.big-text:lang(en-au),.big-text:lang(en-eu),.big-text:lang(en-in),.big-text:lang(es-la),.big-text:lang(es-uy),.big-text:lang(es-cl),.big-text:lang(es-py),.big-text:lang(es-ar),.big-text:lang(pt-br),.big-text:lang(en-sg),.big-text:lang(en-me),.big-text:lang(en-ph),.big-text:lang(en-my){font-family:NVIDIA-NALA,Arial,Helvetica,Sans-Serif}
+.big-text:lang(ja-jp){font-family:NVIDIA-APAC,"source-han-sans-japanese",Arial,Helvetica,Sans-Serif}
+.big-text:lang(ko-kr){font-family:NVIDIA-APAC,"source-han-sans-korean",Arial,Helvetica,Sans-Serif}
+.big-text:lang(zh-tw){font-family:NVIDIA-APAC,"source-han-sans-traditional",Arial,Helvetica,Sans-Serif}
+.big-text:lang(zh-cn){font-family:NVIDIA-APAC,Source-Han-Sans-SC,Arial,Helvetica,Sans-Serif}
+.big-text:lang(de-at),.big-text:lang(fr-be),.big-text:lang(cs-cz),.big-text:lang(da-dk),.big-text:lang(nl-nl),.big-text:lang(nb-no),.big-text:lang(pl-pl),.big-text:lang(pt-pt),.big-text:lang(ro-ro),.big-text:lang(es-es),.big-text:lang(sv-se),.big-text:lang(de-ch),.big-text:lang(tr-tr),.big-text:lang(de-de),.big-text:lang(fr-fr),.big-text:lang(fi-fi),.big-text:lang(it-it),.big-text:lang(hu-hu),.big-text:lang(sl-si),.big-text:lang(sk-sk){font-family:NVIDIA-EMEA,Arial,Helvetica,Sans-Serif}
+.big-text:lang(ru-ru){font-family:NVIDIA-RU,Arial,Helvetica,Sans-Serif}
+}
+.productVariationButtonRow .btn-cart{margin:0}
+@media screen and (min-width:1025px){.sectionWrapper .general-container{padding-left:0;padding-right:0}
+}
+.blockquote{line-height:48px;text-transform:none}
+@media screen and (max-width:767px){.blockquote{line-height:26px}
+}
+@media screen and (min-width:768px) and (max-width:1280px){.blockquote{line-height:36px}
+}
+/*!# sourceMappingURL=nvidiaGDC/clientlibs-geforce/css/geforce-skin.css.map */

@@ -1,0 +1,465 @@
+var nvecom = { hide: function (e) { nvecom.hideElements(nvecom.getElements(e)) }, hideElements: function (e) { var t, n = e.length; for (t = 0; t < n; t++)nvecom.hideElement(e[t]) }, hideElement: function (e) { nvecom.styleElement(e, "display", "none") }, show: function (e, t) { var n = nvecom.getElements(e); t && nvecom.hideElements(n), nvecom.showElements(n) }, showElements: function (e) { var t, n = e.length; for (t = 0; t < n; t++)nvecom.showElement(e[t]) }, showElement: function (e) { nvecom.styleElement(e, "display", "block") }, addStyle: function (e, t, n) { nvecom.styleElements(nvecom.getElements(e), t, n) }, styleElements: function (e, t, n) { var l, s = e.length; for (l = 0; l < s; l++)nvecom.styleElement(e[l], t, n) }, styleElement: function (e, t, n) { e.style.setProperty(t, n) }, toggleShow: function (e) { var t, n = nvecom.getElements(e), l = n.length; for (t = 0; t < l; t++)"none" == n[t].style.display ? nvecom.styleElement(n[t], "display", "block") : nvecom.styleElement(n[t], "display", "none") }, addClass: function (e, t) { nvecom.addClassElements(nvecom.getElements(e), t) }, addClassElements: function (e, t) { var n, l = e.length; for (n = 0; n < l; n++)nvecom.addClassElement(e[n], t) }, addClassElement: function (e, t) { var n, l, s; for (l = e.className.split(" "), s = t.split(" "), n = 0; n < s.length; n++)-1 == l.indexOf(s[n]) && (e.className += " " + s[n]) }, removeClass: function (e, t) { nvecom.removeClassElements(nvecom.getElements(e), t) }, removeClassElements: function (e, t) { var n, l = e.length; for (n = 0; n < l; n++)nvecom.removeClassElement(e[n], t) }, removeClassElement: function (e, t) { var n, l, s; for (l = e.className.split(" "), s = t.split(" "), n = 0; n < s.length; n++)for (; -1 < l.indexOf(s[n]);)l.splice(l.indexOf(s[n]), 1); e.className = l.join(" ") }, toggleClass: function (e, t, n) { nvecom.toggleClassElements(nvecom.getElements(e), t, n) }, toggleClassElements: function (e, t, n) { var l, s = e.length; for (l = 0; l < s; l++)nvecom.toggleClassElement(e[l], t, n) }, toggleClassElement: function (e, t, n) { var l, s, r, a, o, i, u; if (s = n || "", r = (l = t || "").split(" "), a = s.split(" "), i = e.className.split(" "), 0 == a.length) { for (u = !0, o = 0; o < r.length; o++)-1 == i.indexOf(r[o]) && (u = !1); u ? nvecom.removeClassElement(e, l) : nvecom.addClassElement(e, l) } else { for (u = !0, o = 0; o < r.length; o++)-1 == i.indexOf(r[o]) && (u = !1); u ? (nvecom.removeClassElement(e, l), nvecom.addClassElement(e, s)) : (nvecom.removeClassElement(e, s), nvecom.addClassElement(e, l)) } }, getElements: function (e) { return "object" == typeof e ? [e] : document.querySelectorAll(e) }, filterHTML: function (e, t, n) { var l, s, r, a, o, i, u; for (l = nvecom.getElements(e), a = 0; a < l.length; a++)for (s = nvecom.getElements(t), o = 0; o < s.length; o++) { for (u = 0, -1 < s[o].innerHTML.toUpperCase().indexOf(n.toUpperCase()) && (u = 1), r = s[o].getElementsByTagName("*"), i = 0; i < r.length; i++)-1 < r[i].innerHTML.toUpperCase().indexOf(n.toUpperCase()) && (u = 1); s[o].style.display = 1 == u ? "" : "none" } }, sortHTML: function (e, t, n) { var l, s, r, a, o, i, u, c, d, f; for (l = nvecom.getElements(e), r = 0; r < l.length; r++)for (f = 0; f < 2; f++) { for (d = 0, o = 1; 1 == o;) { for (o = 0, s = l[r].querySelectorAll(t), a = 0; a < s.length - 1; a++)if (i = 0, n ? (u = s[a].querySelector(n).innerHTML.toLowerCase(), c = s[a + 1].querySelector(n).innerHTML.toLowerCase()) : (u = s[a].innerHTML.toLowerCase(), c = s[a + 1].innerHTML.toLowerCase()), 0 == f && c < u || 1 == f && u < c) { i = 1; break } 1 == i && (s[a].parentNode.insertBefore(s[a + 1], s[a]), o = 1, d++) } if (0 < d) break } }, slideshow: function (e, t, n) { var l, s = nvecom.getElements(e); s.length; return (l = { current: 1 }).x = s, l.ondisplaychange = n, isNaN(t) && 0 != t ? l.milliseconds = 1e3 : l.milliseconds = t, l.start = function () { l.display(l.current), l.ondisplaychange && l.ondisplaychange(), 0 < l.milliseconds && (window.clearTimeout(l.timeout), l.timeout = window.setTimeout(l.next, l.milliseconds)) }, l.next = function () { l.current += 1, l.current > l.x.length && (l.current = 1), l.start() }, l.previous = function () { l.current -= 1, l.current < 1 && (l.current = l.x.length), l.start() }, l.display = function (e) { nvecom.styleElements(l.x, "display", "none"), nvecom.styleElement(l.x[e - 1], "display", "block") }, l.start(), l }, includeHTML: function (e) { var t, n, l, s, r; for (t = document.getElementsByTagName("*"), n = 0; n < t.length; n++)if (s = (l = t[n]).getAttribute("nvidia-include-html")) return (r = new XMLHttpRequest).onreadystatechange = function () { 4 == this.readyState && (200 == this.status && (l.innerHTML = this.responseText), 404 == this.status && (l.innerHTML = "Page not found."), l.removeAttribute("nvidia-include-html"), nvecom.includeHTML(e)) }, r.open("GET", s, !0), void r.send(); e && e() }, getHttpData: function (e, t) { nvecom.http(e, function () { 4 == this.readyState && 200 == this.status && t(this.responseText) }) }, getHttpObject: function (e, t) { nvecom.http(e, function () { 4 == this.readyState && 200 == this.status && t(JSON.parse(this.responseText)) }) }, displayHttp: function (e, t) { nvecom.http(t, function () { 4 == this.readyState && 200 == this.status && nvecom.displayObject(e, JSON.parse(this.responseText)) }) }, http: function (e, t, n, l) { var s; l || (l = "GET"), window.XMLHttpRequest ? s = new XMLHttpRequest : window.ActiveXObject && (s = new ActiveXObject("Microsoft.XMLHTTP")), s && (t && (s.onreadystatechange = t), s.open(l, e, !0), s.send(n)) }, getElementsByAttribute: function (e, t) { var n, l, s = [], r = -1, a = e.getElementsByTagName("*"), o = t.toUpperCase(); for (l = a.length, n = -1; n < l; n += 1)-1 == n && (a[n] = e), null !== a[n].getAttribute(o) && (s[r += 1] = a[n]); return s }, dataObject: {}, displayObject: function (e, g) { var t, n, l, s, r, a, o, i, u, c, d, f = [], m = ""; for (n = function (e, t) { var n; if (n = t.cloneNode(!0), nvecom.dataObject.hasOwnProperty(e)) return nvecom.dataObject[e]; return nvecom.dataObject[e] = n }(e, t = document.getElementById(e)).cloneNode(!0), a = (f = nvecom.getElementsByAttribute(n, "nvidia-repeat")).length - 1; 0 <= a; a -= 1)if (1 == (u = f[a].getAttribute("nvidia-repeat").split(" ")).length ? c = u[0] : (m = u[0], c = u[2]), f[a].removeAttribute("nvidia-repeat"), (d = g[c]) && "object" == typeof d && "undefined" != d.length) for (r in o = 0, d) { for (o += 1, l = (s = p(s = f[a], "element", m, d[r])).attributes, i = 0; i < l.length; i += 1)l[i].value = p(l[i], "attribute", m, d[r]).value; o === d.length ? f[a].parentNode.replaceChild(s, f[a]) : f[a].parentNode.insertBefore(s, f[a]) } else console.log("nvidia-repeat must be an array. " + c + " is not an array."); function p(e, t, n, l) { var s, r, a, o, i, u, c, d, f, m = []; for (r = e.cloneNode(!0), a = 0; -1 < a && -1 !== (a = (i = "attribute" == t ? r.value : r.innerHTML).indexOf("{{", a));) { for (o = i.indexOf("}}", a + 1), m = (u = i.substring(a + 2, o)).split("||"), s = void 0, c = 0; c < m.length && (m[c] = m[c].replace(/^\s+|\s+$/gm, ""), l && (s = l[m[c]]), null == s && g && (s = g[m[c]]), null == s && (d = m[c].split("."))[0] == n && (s = l[d[1]]), null == s && m[c] == n && (s = l), null == s && ('"' == m[c].substr(0, 1) ? s = m[c].replace(/"/g, "") : "'" == m[c].substr(0, 1) && (s = m[c].replace(/'/g, ""))), null == s); c += 1); null != s && (f = "{{" + u + "}}", "attribute" == t ? r.value = r.value.replace(f, s) : w(r, f, s)), a += 1 } return r } function w(e, t, n) { var l, s, r; if (e.hasAttributes()) for (s = (l = e.attributes).length, r = 0; r < s; r += 1)-1 < l[r].value.indexOf(t) && (l[r].value = l[r].value.replace(t, n)); s = e.getElementsByTagName("*").length, e.innerHTML = e.innerHTML.replace(t, n) } n = p(n, "element"), t.parentNode.replaceChild(n, t) } };
+
+(function(d) {
+    var nlink = d.head;
+    var _latitude = null;
+    _longitude = null;
+    var visitor = -1;
+    var ENVIRONMENT = "prod";
+    var COOKIE_NAME="edge";
+
+    
+    var BASE_URL = "https://www.nvidia.partners";
+  
+    var WTB_LOCALE = "";
+    if(window.location.host==="www.nvidia.cn") {
+        WTB_LOCALE = "CN";
+    } else {
+        WTB_LOCALE = (window.location.pathname.split("/")[1].split("-")[1]).toUpperCase();
+    }
+    var JSON_URL = "https://api.nvidia.partners/products/v1/where-to-buy?url="+(window.location.origin+window.location.pathname);
+
+    var ASSET_PATH = BASE_URL + "/l0g045d8n2";
+    var NVIDIA_PARTNER_PATH = "https://www.nvidia.partners/l0g045d8n2";
+
+    var IMG_PATH = NVIDIA_PARTNER_PATH + "/images/";
+    var topBannerElem = null;
+    var promoContainer = null;
+
+    var LOADER_HEIGHT = 450;
+    var LOADER_CONTAINER_ID = "nvidia__sdk__loader";
+
+    var locale22 = "us";
+    try { locale22 = (window.location.pathname.split("/")[1].split("-")[1]).toLowerCase(); } catch (err) { }
+    var _env = "stg";
+    
+    var _translation = {
+        "br": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        }, "la": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        }, "us": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+            
+        }, "au": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+            
+        },"gb": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+            
+        },"uk": {
+           "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        },"de": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Weitere Partner",
+            "Coming Soon": "Bald verfügbar",
+            
+        },"at": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Weitere Partner",
+            "Coming Soon": "Bald verfügbar",
+            
+        },"pl": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Pozostali Partnerzy",
+            "Coming Soon": "Materiały partnerów dostępne wkrótce",
+            
+        },"es": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Otros Socios",
+            "Coming Soon": "Partners Coming soon",
+            
+        },"fr": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Autres Partenaires",
+            "Coming Soon": "Partenaires annoncés prochainement",
+            
+        },"cl": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        },"it": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Altri Partner",
+            "Coming Soon": "Partners Coming soon",
+        },"nl": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Hier vind je binnenkort onze partners",
+        },"ro": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Partenerii vor fi afișați în curând",
+        },"cz": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Partneři budou známí již brzy",
+        },"ru": {
+            "Where to Buy": "Где купить",            
+            "Other partners": "Другие партнеры",
+            "Coming Soon": "Скоро в продаже",
+        },"se": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "ÖVRIGA PARTNERS",
+            "Coming Soon": "Partner kommer snart",
+        },"dk": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "ANDRE PARTNERE",
+            "Coming Soon": "Partners kommer snart",
+        },"fi": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "MUUT KUMPPANIT",
+            "Coming Soon": "Kumppanien tiedot tulossa pian",
+        },"no": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "ANDRE PARTNERE",
+            "Coming Soon": "Partnere kommer snart",
+        },"tr": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Diğer ortaklar",
+            "Coming Soon": "Partnerler yakında geliyor",
+        },"be": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Partenaires annoncés prochainement",
+        },"en-eu": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        },"eu": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        },"me": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        },"en-me": {
+            "Where to Buy": "Where to Buy",            
+            "Other partners": "Other partners",
+            "Coming Soon": "Coming soon",
+        }
+    };
+
+
+    setCookie = function(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+    getCookie = function(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+
+    wtbTrack = function(_event, _section, _redirectUrl, itemid, elem) {
+
+      
+        if (_redirectUrl == 'N/A') {
+            _redirectUrl=window.location.href;
+        } else {
+          _section = jQuery.trim(jQuery("meta[property='og:title']").attr("content"));
+        }
+        let _data = {
+            "id": null,
+            "type": "WTB_"+WTB_LOCALE+"_"+_event,
+            "visitorId": null,
+            "section": _section,
+            "url": _redirectUrl,
+            "refererUrl": document.referrer,
+            "remoteAddress": null,
+            "latitude": null,
+            "longitude": null
+        }
+
+        jQuery.ajax({
+            url: "https://api.nvidia.partners/telemetry/v1/activity/etail",
+            type: "post",
+            dataType: "json",
+            contentType: "application/json",
+            crossDomain: true,
+            xhrFields: { withCredentials: true },
+
+            success: function(data) {},
+            complete:function(jqXHR,statusText) {
+               
+                if (elem) {
+                    var parentContainer = jQuery(elem).closest(".item-container");
+                    var _href = parentContainer.find("a").attr("href");
+                    if (_href) {
+                        window.location.href = _href;
+                    }
+                }
+              
+            },
+            data: JSON.stringify(_data)
+        });
+
+    }
+
+   // var TAB_DATA = {  };
+
+
+    showLoader = function(containerId) {
+        var loaderHtml = "<div id='" + LOADER_CONTAINER_ID + "' style='width:100%;height:" + LOADER_HEIGHT + "px;display:flex;justify-content:center;align-items:center'>";
+        loaderHtml += "<img src=' " + IMG_PATH + "loading16.gif'/><span style='margin-left:5px;font-size:14px;margin-top:-2px'>Loading...</span>"
+        loaderHtml += "</div>";
+
+        jQuery("#" + containerId).html(loaderHtml);
+    }
+    applyEvent = function() {
+        jQuery('ul.tab_menuRow li').click(function() {
+            var tab_id = $(this).attr('data-tab');
+
+            jQuery('ul.tab_menuRow li').removeClass('active');
+            jQuery('.tab-pane').removeClass('active');
+
+            jQuery(this).addClass('active');
+            jQuery("#" + tab_id).addClass('active');
+        })
+
+    }
+    var logoMapping = {
+    		"https://assets.nvidia.partners/logos/wtb/Amazon.png":"https://assets.nvidia.partners/logos/studio/amazon-blk.png",
+    			"https://assets.nvidia.partners/logos/wtb/retailers_bestbuy_new.png":"https://assets.nvidia.partners/logos/studio/bestbuy-blk.png",
+    			"https://assets.nvidia.partners/logos/wtb/amazon-canada-150x100-1.png":"https://assets.nvidia.partners/logos/studio/amazon-ca-blk.png",
+    			"https://assets.nvidia.partners/logos/wtb/retailer-b-and-h.png":"https://assets.nvidia.partners/logos/wtb/retailer-b-and-h.png",
+    			"https://assets.nvidia.partners/logos/wtb/Micro-Center.png":"https://assets.nvidia.partners/logos/studio/micro-center-blk.png",
+    			"https://assets.nvidia.partners/logos/wtb/retailer-newegg.png":"https://assets.nvidia.partners/logos/wtb/retailer-newegg.png",
+    			"https://assets.nvidia.partners/logos/wtb/retailer-newegg-ca.png":"https://assets.nvidia.partners/logos/wtb/retailer-newegg-ca.png",
+    			"https://assets.nvidia.partners/logos/retailer-asus.png":"https://assets.nvidia.partners/logos/studio/asus-blk.png",
+    			"https://assets.nvidia.partners/logos/wtb/retailer-dell.png":"https://assets.nvidia.partners/logos/wtb/retailer-dell.png",
+    			"https://assets.nvidia.partners/logos/retailer-gigabyte.png":"https://assets.nvidia.partners/logos/studio/gigabyte-blk.png"
+    			};
+    
+    var nvidia = {
+        build: function(id) {
+            var _div = d.createElement("div");
+            _div.setAttribute("nvidia-include-html", ASSET_PATH + "/widgets_data/widget_data.html");
+            _div.className = "nvidia-widget-container-data", d.getElementById(id).appendChild(_div);
+        },
+        visitorId: function() {
+            return visitor;
+        },
+        load: function(_id) {
+
+            var c1 = d.createElement("link");
+            c1.rel = "stylesheet";
+            c1.href = ASSET_PATH + "/css/nvidia-brand.css";
+            nlink.appendChild(c1);
+
+                showLoader(_id);
+                nvidia.build(_id);
+                nvecom.includeHTML(function() {
+                    jQuery.ajax({
+                     url: JSON_URL,
+                     type: 'get',
+                     async: false,
+                     dataType: 'json',
+                    
+                     success: function (data) {
+                        jd = jQuery.parseJSON(data);
+                        jd = jd.result;
+                        // console.log('data test----->', jd.tabDetails);
+                        jQuery('#title').html(jd.title);
+                        var tabContainer = "";
+                        var tabItems = "";
+                        var tabItemsNologo = "";
+                        var showLogotemp = false;
+                        var showlogoarr = [];
+						var hasTabs = (jd.tabs.length > 0);
+
+                        //check no of showlogo true and false under a ID
+                        var checker = arr => arr.every(v => v.showLogo === true);
+                        const checkerCount = arrlength => arrlength.filter((value) => value.showLogo).length;
+                        const checkerTotalCount = arrtlength => arrtlength.filter((value) => value).length;
+                        // var itemval;
+                        //  console.log("hasTabs-->", hasTabs)
+                        jQuery(jd.tabs).each(function(i, item) {
+                            tabItemsNologo = "";
+                            var otherPartners = false;
+                            // console.log("tabs-->", item)
+                            if(window.location.href === "https://preview.nvidia.com/en-us/geforce/campaigns/back-to-school/" || window.location.href === "https://www.nvidia.com/en-us/geforce/campaigns/back-to-school/" || window.location.href === "https://www.nvidia.com/en-us/studio/back-to-school-laptops/"){
+
+                                changePadding('brandWidget','0px');
+                                
+                                function changePadding(classname ,size) {
+                                    var cols = document.getElementsByClassName(classname);
+                                    for(i=0; i<cols.length; i++) {
+                                    cols[i].style.paddingTop = size;
+                                    cols[i].style.paddingBottom = size;
+                                    }
+                                    // console.log("---done--rmv--padding--->", classname, size);
+                                }
+
+                                jQuery("#nv-logo-tabs ul.tab_menuRow").append("<li style=\"display: none\" " + (i == 0 ? "class=\"active\"" : "") + "data-tab=\"nv-" + item.tabId + "\">" + item.tabName + "</li>");
+
+                                // console.log("back to school- 1 ->")
+
+                            }else{
+                                jQuery("#nv-logo-tabs ul.tab_menuRow").append("<li " + (i == 0 ? "class=\"active\"" : "") + "data-tab=\"nv-" + item.tabId + "\">" + item.tabName + "</li>");
+                                // console.log("other then - 1->")
+
+                            }
+
+                            if(hasTabs){
+                                if(window.location.href === "https://preview.nvidia.com/en-us/geforce/campaigns/back-to-school/" || window.location.href === "https://www.nvidia.com/en-us/geforce/campaigns/back-to-school/" || window.location.href === "https://www.nvidia.com/en-us/studio/back-to-school-laptops/"){
+
+                                tabContainer = "<div class=\"tab-pane wtb-tab-pane active\" id=\"nv-"+item.tabId+"\">";
+                            }else{
+                               tabContainer = "<div class=\"tab-pane wtb-tab-pane "+ (i == 0 ? "active" : "")+"\" id=\"nv-"+item.tabId+"\">";
+
+                            }
+                                if(locale22 === "us" || locale22 === "cn"){
+                                    // console.log("--locale-gb-->", locale22 )
+                                    tabItems = "  <ul id=\"brandlistwithlogo\" class=\"brandList\">"; 
+                                }else{
+                                    // console.log("--locale-othrs-->", locale22 )
+                                       if(checkerTotalCount(jd.tabDetails[item.tabId]) <= 2 ){
+                                        tabItems = "  <ul id=\"brandlistwithlogo\" class=\"brandList brandList-one"+ " extrapadding" +"\">";
+                                       }else{
+                                        tabItems = "  <ul id=\"brandlistwithlogo\" class=\"brandList brandList-many"+ " extrapadding" +"\">";
+                                       }
+                                }
+                                                                            
+                                
+                            } else {
+                                    tabContainer = "";
+                                    tabItems = "<ul style=\"margin:0; padding:0; line-height:0; \">";
+                            }
+
+                            jQuery.each(jd.tabDetails[item.tabId], function(key, val) {
+                               
+                            	 if((window.location.href.indexOf("studio/back-to-school-laptops/")!=-1
+                            			 || window.location.href.indexOf("studio/laptops-desktops-with-adobe-cc/")!=-1
+                            			 )&& logoMapping[val.logo]) {
+                            		 val.logo=logoMapping[val.logo];
+                            	 }
+
+                                 var alt_str =   val.redirectUrl;
+                                 try{
+                                      alt_str = alt_str.match(/^https?\:\/\/([^\/?#]+)(?:[\/?#]|$)/i) ;
+                                      if(alt_str == null){
+                                         alt_str =   val.redirectUrl;
+                                         alt_str = alt_str.match(/([^\/?#]+)(?:[\/?#]|$)/i);
+                                      }
+                                      if(alt_str && alt_str.length>1){
+                                        alt_str = alt_str[1];
+                                      }
+                                 } catch(err){
+                                 }
+                                 
+                                 if(val.showLogo == true && val.redirectUrl != null){
+                                   
+                                    tabItems = tabItems + '<li><a href="'+val.redirectUrl+'" alt="'+alt_str+'" title="'+alt_str+'" target="_blank" onclick="wtbTrack(\'BUY_NOW\', \'landing\', \''+val.redirectUrl+'\', \'N/A\')"><img src="'+val.logo+'" alt="'+alt_str+'" title="'+alt_str+'"></a></li>';
+                                 }
+
+                                //   console.log('All values are true--->', jd.tabDetails[item.tabId],"--true-N->", checkerCount(jd.tabDetails[item.tabId]), "---Total->", checkerTotalCount(jd.tabDetails[item.tabId]));
+
+                                if(!val.showLogo && val.redirectUrl != null){
+                                    
+                                    if(!otherPartners ){
+                                         tabItemsNologo = tabItemsNologo + '<h3 style=\"display: flex; width: 100%; justify-content: center; max-width: 1280px; margin: 0 auto; padding-top: 30px; color: #fff;\">' +_translation[locale22]['Other partners'] + '</h3>';
+                                         otherPartners = true;
+                                         if(locale22 === "us"){
+                                         tabItemsNologo = tabItemsNologo + '<ul class=\"brandListnologo brandList\">';
+
+                                         }else{
+                                            if(checkerTotalCount(jd.tabDetails[item.tabId]) == 1 ){
+                                                tabItemsNologo = tabItemsNologo + '<ul class=\"brandListnologo brandList brandList-one'+ " extrapadding" +'\">';
+                                            }else{
+                                                tabItemsNologo = tabItemsNologo + '<ul class=\"brandListnologo brandList brandList-many'+ " extrapadding" +'\">';
+                                            }
+
+                                         }
+                                    }
+                                        
+                                  /*  if(checker(jd.tabDetails[item.tabId]) === false){
+                                    // console.log("--tabid has both ",jd.tabDetails[item.tabId], "--C-->",checker(jd.tabDetails[item.tabId]), "--TB-->", item.tabName, "--CH Inc-->", jd.tabDetails[item.tabId].includes('showLogo', false) );
+                                       
+                                        if(checkerCount(jd.tabDetails[item.tabId]) == 0 ){
+                                            tabItems = "<ul class=\"empy\" style=\"margin:0; padding:0; line-height:0; \">";
+                                            tabItemsNologo='';
+                                        }
+                                    }  */
+                                      
+                                    tabItemsNologo = tabItemsNologo + '<li><a href="'+val.redirectUrl+'" alt="'+alt_str+'" title="'+alt_str+'" target="_blank" onclick="wtbTrack(\'BUY_NOW\', \'landing\', \''+val.redirectUrl+'\', \'N/A\')">' + val.retailerName + '</a></li>';
+                                      
+                                }
+                                
+                                if(checkerTotalCount(jd.tabDetails[item.tabId]) == 0 || val.redirectUrl == null){
+                                            tabItems = "<ul style=\"text-align: center; display: block; color: #fff;\" class=\"brandList\">" + _translation[locale22]['Coming Soon'];
+                                            tabItemsNologo='';
+                                        } 
+
+                            });
+
+                                
+                            if(hasTabs){                                
+                                if(tabItemsNologo!=""){
+                                    tabItemsNologo = tabItemsNologo + "</ul>";
+                                }
+                                tabContainer = tabContainer + tabItems + "</ul>" + tabItemsNologo +"</div>" ;
+                            } else {
+                                tabContainer = tabItems + "</ul>";
+                            }
+                            
+                            jQuery("#nv-tab-container").append(tabContainer);
+                        });
+                        // console.log("showlogoarr rslt--->", showlogoarr);
+                        if (hasTabs) {
+                            if(window.location.href === "https://preview.nvidia.com/en-us/geforce/campaigns/back-to-school/" || window.location.href === "https://www.nvidia.com/en-us/geforce/campaigns/back-to-school/" || window.location.href === "https://www.nvidia.com/en-us/studio/back-to-school-laptops/"){
+                                jQuery("#nv-logo-tabs").hide();
+                                // console.log("back to school-2->")
+                            }else{
+                                jQuery("#nv-logo-tabs").show();
+                                // console.log("otherpage- 2->")
+
+                            }
+
+                            // jQuery("#nv-logo-tabs").show();
+
+
+                        }
+                        applyEvent();
+                      }
+                    });
+
+                    jQuery("#" + LOADER_CONTAINER_ID).remove();
+
+                    setTimeout(function() {
+                        wtbTrack('PAGE_VIEW', 'landing', 'N/A', 'N/A');
+                    }, 700);
+                });
+           
+                // test for file conversion on deploy ci
+        }
+    };
+    window.nvidia = nvidia;
+
+}(document));

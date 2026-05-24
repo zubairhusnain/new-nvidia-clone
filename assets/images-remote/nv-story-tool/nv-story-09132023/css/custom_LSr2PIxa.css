@@ -1,0 +1,183 @@
+/* Panel Top 10 */
+.nLogo {
+  height: 20px;
+}
+
+.close {
+  top: 20px !important;
+  right: 20px !important;
+}
+
+.sidebar ul.mainMenu, .sidebar ul.social, .sidebar ul.subMenu {
+  margin-top: 50px;
+}
+
+.side-menu-hr {
+  border: 1px solid #999;
+}
+
+ul.brandMenu {
+  margin-top: 30px !important;
+}
+
+.brandMenu-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.breadcrumbsFix {
+  top: 50px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .panel .sections {
+    display: none;
+  }
+}
+/* our body of work (#1) */
+.gradientBack1 {
+  background: black;
+  background: linear-gradient(40deg, rgba(0, 0, 0, 0.5) 0%, rgba(41, 40, 40, 0) 100%);
+}
+
+.stroke.button.green {
+  border-color: #76b800 !important;
+}
+
+.mobile .slide.video .background[style] video {
+  display: inherit !important;
+}
+
+.stroke.button.green, .text-green {
+  color: #76b800 !important;
+}
+
+.green {
+  background: #76b800 !important;
+}
+
+.slide {
+  background: #000;
+}
+
+.button {
+  border-radius: 0px !important;
+}
+
+.floatLeft {
+  float: left !important;
+}
+
+*[tabindex]:focus {
+  border: solid #EEEEEE 1px;
+}
+
+.nv-scroller {
+  bottom: 15px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  left: 50%;
+  opacity: 0.6;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobileFixPosition {
+    max-width: 105%;
+    top: 61% !important;
+  }
+
+  .centeredFixMob {
+    vertical-align: top !important;
+  }
+
+  .leftFixMob {
+    text-align: center !important;
+  }
+
+  .container .wrap .spaceWrap, .container .wrap.spaceWrap, .container .wrap:not(.noSpaces) {
+    padding: 100px calc(4% + 15px) 0 calc(4% + 15px);
+  }
+}
+.videoMobFix {
+  width: 140%;
+  position: relative;
+  right: 20%;
+}
+
+/*.nv-arrow-scroll
+{
+  display: block;
+    font-size: 11px;
+    line-height: 1em;
+    margin-top: 3px;
+}*/
+/* Like no place youve even worked (#9) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-107-fe7048b8"] */
+.scroll .slide[data-cid=slide-107-fe7048b8].slide-107,
+.scroll .slide[data-cid=slide-107-fe7048b8].slide-107 .container {
+  min-height: 100vh;
+}
+
+.slide[data-cid=slide-107-fe7048b8].slide-107 .wrap {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1024px) and (max-width: 1240px) {
+  .slide[data-cid=slide-107-fe7048b8].slide-107 .wrap {
+    padding: 50px;
+  }
+}
+@media (min-width: 1600px) {
+  .slide[data-cid=slide-107-fe7048b8].slide-107 .wrap {
+    background-attachment: unset;
+  }
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-107-fe7048b8].slide-107 .container, .slide[data-cid=slide-107-fe7048b8].slide-107 .wrap {
+    width: 100% !important;
+    min-height: 30vh;
+  }
+  .slide[data-cid=slide-107-fe7048b8].slide-107 .container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .slide[data-cid=slide-107-fe7048b8].slide-107 .wrap {
+    display: table;
+    background-attachment: inherit;
+  }
+  .slide[data-cid=slide-107-fe7048b8].slide-107 .wrap .mobile-wrap {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+}
+.slide[data-cid=slide-107-fe7048b8] .socials-107 .button.actionButton:hover:not(:active) {
+  transform: scale(1.1) !important;
+}
+.slide[data-cid=slide-107-fe7048b8]:not(.whiteSlide) .socials-107 .actionButton svg {
+  fill: #202020 !important;
+}
+.slide[data-cid=slide-107-fe7048b8].whiteSlide .socials-107 .actionButton.white {
+  background: #BBBBBB !important;
+  fill: #202020 !important;
+}
+.slide[data-cid=slide-107-fe7048b8].whiteSlide .socials-107 .actionButton svg {
+  fill: #fff;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tFixHead {
+    background-position-y: -100px !important;
+  }
+}
