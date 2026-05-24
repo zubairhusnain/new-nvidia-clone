@@ -51,7 +51,20 @@
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/blog/wp-json/oembed/1.0/embed/">
 
 	
-<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css"></head>
+<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css">
+<link rel="stylesheet" id="wp-block-library-css" href="../../../assets/blogs.nvidia.com/wp-includes/css/dist/block-library/style.min.css" media="all">
+<link rel="stylesheet" id="nvb6-fonts-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/fonts.css" media="all">
+<link rel="stylesheet" id="nvb6-globals-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/globals.css" media="all">
+<link rel="stylesheet" id="nvb6-layout-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/full-width-layout.css" media="all">
+<link rel="stylesheet" id="highlight-and-share-css" href="../../../assets/blogs.nvidia.com/wp-content/plugins/highlight-and-share/dist/has-themes.css" media="all">
+<style id="blog-hero-offline-fix-v2">
+.full-width-layout__hero-media{position:relative;width:100%;aspect-ratio:16/9;max-height:70vh;overflow:hidden;background:#000}
+.full-width-layout__hero-poster,.full-width-layout__hero-video{display:block;width:100%;height:100%;object-fit:cover}
+.full-width-layout__hero-media .full-width-layout__hero-video:not(.is-loaded){display:none!important}
+.full-width-layout__image,.full-width-layout__dual-image-row-image{max-width:100%;height:auto}
+.full-width-layout__content img{max-width:100%;height:auto}
+</style>
+</head>
 
 <body class="wp-singular post-template post-template-full-width-layout-template post-template-full-width-layout-template-php single single-post postid-89402 single-format-standard wp-embed-responsive wp-theme-nvidia-blog-v6 site-lang-en group-blog has-body">
 <img src="../../../assets/www.nvidia.com/content/dam/1x1-00000000.png" width="1" height="1" style="display:none;" alt="country_code">
@@ -1231,7 +1244,7 @@
 	</div>
 
 	<div class="full-width-layout__hero-media">
-		<img id="full-width-layout__hero-poster" class="full-width-layout__hero-poster" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-768x432-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-768x432-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-2560x1440-1-scaled.jpg 1200w" sizes="(min-width: 1024px) 50vw, 100vw" alt=" style="width:100%">	</div>
+		<img id="full-width-layout__hero-poster" class="full-width-layout__hero-poster" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-768x432-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-768x432-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/hpc-corp-blog-earth-2-model-2560x1440-1-scaled.jpg 1200w" sizes="(min-width: 1024px) 50vw, 100vw" alt="" style="width:100%">	</div>
 
 	</div>
 
@@ -1342,7 +1355,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<div class="aspect-[16/9]"><img width="4500" height="3000" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/demo_fcst-1.gif" class="full-width-layout__image" alt=" loading="lazy" decoding="async"></div>	
+			<div class="aspect-[16/9]"><img width="4500" height="3000" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/demo_fcst-1.gif" class="full-width-layout__image" alt="" loading="lazy" decoding="async"></div>	
 	
 <div class="full-width-layout__inner">
 			<span class="full-width-layout__media-caption-callout">

@@ -51,7 +51,13 @@
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/blog/wp-json/oembed/1.0/embed/">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/blog/wp-json/oembed/1.0/embed/">
 
-<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css"></head>
+<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css">
+<link rel="stylesheet" id="wp-block-library-css" href="../../../assets/blogs.nvidia.com/wp-includes/css/dist/block-library/style.min.css" media="all">
+<link rel="stylesheet" id="nvb6-fonts-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/fonts.css" media="all">
+<link rel="stylesheet" id="nvb6-globals-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/globals.css" media="all">
+<link rel="stylesheet" id="nvb6-layout-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/single.css" media="all">
+<link rel="stylesheet" id="highlight-and-share-css" href="../../../assets/blogs.nvidia.com/wp-content/plugins/highlight-and-share/dist/has-themes.css" media="all">
+</head>
 
 <body class="wp-singular post-template-default single single-post postid-89522 single-format-standard wp-embed-responsive wp-theme-nvidia-blog-v6 site-lang-en group-blog has-body">
 <img src="../../../assets/www.nvidia.com/content/dam/1x1-00000000.png" width="1" height="1" style="display:none;" alt="country_code">
@@ -1313,7 +1319,7 @@
 		<!-- FEATURED IMG/VIDEO -->
 					<div class="entry-title img-bg orientation-landscape">
 				<div class="tile-image-wrapper">
-					<img width="1200" height="638" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1.jpg" class="attachment-medium_large size-medium_large" alt=" decoding="async" fetchpriority="high" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1-960x510.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1-630x335.jpg 630w" sizes="(max-width: 1200px) 100vw, 1200px">				</div>
+					<img width="1200" height="638" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1.jpg" class="attachment-medium_large size-medium_large" alt="" decoding="async" fetchpriority="high" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1-960x510.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/benz-nv-1280x680-1-630x335.jpg 630w" sizes="(max-width: 1200px) 100vw, 1200px">				</div>
 			</div>
 			</header>
 
@@ -1342,7 +1348,7 @@
 </ul>
 <p>Developed in accordance with <a target="_blank" href="/ai-trust-center/halos/autonomous-vehicles/">NVIDIA Halos</a> safety system, NVIDIA DRIVE Hyperion helps eliminate single points of failure and provides the foundation needed for L4-ready systems.</p>
 <p>This safety-first, resilient platform is mainly designed for premium robotaxi and chauffeured mobility services — enabling reliable, large-scale deployment in real-world environments.</p>
-<p><img decoding="async" class="alignnone size-medium wp-image-89530" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-960x641.jpg" alt=" width="960" height="641" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-960x641.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-1680x1122.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-1280x855.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-1536x1026.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-630x421.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026.jpg 1999w" sizes="(max-width: 960px) 100vw, 960px"></p>
+<p><img decoding="async" class="alignnone size-medium wp-image-89530" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-960x641.jpg" alt="" width="960" height="641" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-960x641.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-1680x1122.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-1280x855.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-1536x1026.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026-630x421.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/01/mb-s-class-2026.jpg 1999w" sizes="(max-width: 960px) 100vw, 960px"></p>
 <h2><b>From AI Foundations to Production-Ready Autonomy&nbsp;</b></h2>
 <p>NVIDIA’s broader AI ecosystem — including the <a target="_blank" href="/solutions/autonomous-vehicles/alpamayo/">NVIDIA Alpamayo</a> family of open models, simulation tools and datasets for autonomous vehicles — enables developers and partners to advance autonomous driving research and build their own driving software.</p>
 <p>Within NVIDIA DRIVE AV, these AI capabilities are further refined, optimized and engineered for production. It ensures reliable operation on automotive-grade hardware, with NVIDIA Halos applying strict safety standards to the AI pipeline, as well as seamless integration with Mercedes-Benz’s specific sensor and vehicle architectures.</p>

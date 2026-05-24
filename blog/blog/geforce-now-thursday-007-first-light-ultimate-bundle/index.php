@@ -50,7 +50,13 @@
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/blog/wp-json/oembed/1.0/embed/">
 <script src="/assets/nvidiablog.disqus.com/count-data.js"></script><script src="../../../assets/blogs.nvidia.com/wp-includes/js/wp-emoji-release.min.js" defer=""></script><script type="text/javascript" async=" src="/assets/nvidiablog.disqus.com/embed.js"></script>
 	
-<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css"></head>
+<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css">
+<link rel="stylesheet" id="wp-block-library-css" href="../../../assets/blogs.nvidia.com/wp-includes/css/dist/block-library/style.min.css" media="all">
+<link rel="stylesheet" id="nvb6-fonts-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/fonts.css" media="all">
+<link rel="stylesheet" id="nvb6-globals-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/globals.css" media="all">
+<link rel="stylesheet" id="nvb6-layout-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/single.css" media="all">
+<link rel="stylesheet" id="highlight-and-share-css" href="../../../assets/blogs.nvidia.com/wp-content/plugins/highlight-and-share/dist/has-themes.css" media="all">
+</head>
 
 <body class="wp-singular post-template-default single single-post postid-93181 single-format-standard wp-embed-responsive wp-theme-nvidia-blog-v6 site-lang-en group-blog has-body">
 <img src="../../../assets/www.nvidia.com/content/dam/1x1-00000000.png" width="1" height="1" style="display:none;" alt="country_code">

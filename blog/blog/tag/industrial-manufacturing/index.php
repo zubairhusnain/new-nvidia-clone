@@ -38,7 +38,13 @@
 <link rel="alternate" type="application/rss+xml" title="NVIDIA Blog » Comments Feed" href="/blog/comments/feed/">
 <link rel="alternate" type="application/rss+xml" title="NVIDIA Blog » Industrial and Manufacturing Tag Feed" href="/blog/blog/tag/industrial-manufacturing/feed/">
 
-<link rel="stylesheet" href="../../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css"></head>
+<link rel="stylesheet" href="../../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css">
+<link rel="stylesheet" id="wp-block-library-css" href="../../../../assets/blogs.nvidia.com/wp-includes/css/dist/block-library/style.min.css" media="all">
+<link rel="stylesheet" id="nvb6-fonts-css" href="../../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/fonts.css" media="all">
+<link rel="stylesheet" id="nvb6-globals-css" href="../../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/globals.css" media="all">
+<link rel="stylesheet" id="nvb6-layout-css" href="../../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/tag-archive.css" media="all">
+<link rel="stylesheet" id="highlight-and-share-css" href="../../../../assets/blogs.nvidia.com/wp-content/plugins/highlight-and-share/dist/has-themes.css" media="all">
+</head>
 
 <body class="archive tag tag-industrial-manufacturing tag-3317 wp-embed-responsive wp-theme-nvidia-blog-v6 site-lang-en group-blog has-body">
 <img src="../../../../assets/www.nvidia.com/content/dam/1x1-00000000.png" width="1" height="1" style="display:none;" alt="country_code">

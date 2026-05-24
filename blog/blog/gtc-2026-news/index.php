@@ -49,7 +49,20 @@
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/blog/wp-json/oembed/1.0/embed/">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/blog/wp-json/oembed/1.0/embed/">
 
-<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css"></head>
+<link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css"><link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css">
+<link rel="stylesheet" id="wp-block-library-css" href="../../../assets/blogs.nvidia.com/wp-includes/css/dist/block-library/style.min.css" media="all">
+<link rel="stylesheet" id="nvb6-fonts-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/fonts.css" media="all">
+<link rel="stylesheet" id="nvb6-globals-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/globals.css" media="all">
+<link rel="stylesheet" id="nvb6-layout-css" href="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/full-width-layout.css" media="all">
+<link rel="stylesheet" id="highlight-and-share-css" href="../../../assets/blogs.nvidia.com/wp-content/plugins/highlight-and-share/dist/has-themes.css" media="all">
+<style id="blog-hero-offline-fix-v2">
+.full-width-layout__hero-media{position:relative;width:100%;aspect-ratio:16/9;max-height:70vh;overflow:hidden;background:#000}
+.full-width-layout__hero-poster,.full-width-layout__hero-video{display:block;width:100%;height:100%;object-fit:cover}
+.full-width-layout__hero-media .full-width-layout__hero-video:not(.is-loaded){display:none!important}
+.full-width-layout__image,.full-width-layout__dual-image-row-image{max-width:100%;height:auto}
+.full-width-layout__content img{max-width:100%;height:auto}
+</style>
+</head>
 
 <body class="wp-singular post-template post-template-full-width-layout-template post-template-full-width-layout-template-php single single-post postid-91623 single-format-standard wp-embed-responsive wp-theme-nvidia-blog-v6 site-lang-en group-blog has-body">
 <img src="../../../assets/www.nvidia.com/content/dam/1x1-00000000.png" width="1" height="1" style="display:none;" alt="country_code">
@@ -1229,7 +1242,7 @@
 	</div>
 
 	<div class="full-width-layout__hero-media">
-		<img id="full-width-layout__hero-poster" class="full-width-layout__hero-poster" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg 1200w" sizes="(min-width: 1024px) 50vw, 100vw" alt=" style="width:100%"><video class="full-width-layout__hero-video js-responsive-video" autoplay=" muted=" loop=" playsinline=" data-sources="{&quot;mobile&quot;:[{&quot;src&quot;:&quot;../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/GTC-Day-2_Phone_768-x-432_v2.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;tablet&quot;:[{&quot;src&quot;:&quot;../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/GTC-Day-2_Tablet_1280-x-720_v2.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;desktop&quot;:[{&quot;src&quot;:&quot;../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/GTC-Day-2_Desktop_2560-x-1440_v2.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}]}">
+		<img id="full-width-layout__hero-poster" class="full-width-layout__hero-poster" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-DEB35146.jpeg 1200w" sizes="(min-width: 1024px) 50vw, 100vw" alt="" style="width:100%"><video class="full-width-layout__hero-video js-responsive-video" autoplay=" muted=" loop=" playsinline=" data-sources="{&quot;mobile&quot;:[{&quot;src&quot;:&quot;../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/GTC-Day-2_Phone_768-x-432_v2.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;tablet&quot;:[{&quot;src&quot;:&quot;../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/GTC-Day-2_Tablet_1280-x-720_v2.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;desktop&quot;:[{&quot;src&quot;:&quot;../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/GTC-Day-2_Desktop_2560-x-1440_v2.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}]}">
 					Your browser does not support the video tag.
 				</video>	</div>
 
@@ -1347,7 +1360,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1921" height="1082" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-blog-1920x1080-SAG_1927-2.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1921" height="1082" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1359,7 +1372,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-DEB35142-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1375,7 +1388,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-keynote-claw-sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1426,7 +1439,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw1-scaled.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1456,7 +1469,7 @@
 
 <div class="full-width-layout__50-50-image-row-section light">
 	<div class="image-container">
-		<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-630x355.jpeg" class="full-width-layout__50-50-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-400x225.jpeg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1.jpeg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div><div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-630x355.jpeg" class="full-width-layout__50-50-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-scaled.jpeg 2048w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-400x225.jpeg 400w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	</div>
+		<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-630x355.jpeg" class="full-width-layout__50-50-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1-400x225.jpeg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8408-1.jpeg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div><div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-630x355.jpeg" class="full-width-layout__50-50-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-scaled.jpeg 2048w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/claw4-400x225.jpeg 400w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	</div>
 	
 <div class="full-width-layout__inner">
 			<span class="full-width-layout__media-caption-callout">
@@ -1471,7 +1484,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2000" height="1125" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-gtc-park-day-market-_CH29371_sized.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2000" height="1125" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1486,7 +1499,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2000" height="1125" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/D1011011-2.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2000" height="1125" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1501,7 +1514,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1143" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-live-pregame-hosts-linkedin-16x9-r2-scaled.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1143" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1523,7 +1536,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2000" height="1125" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-pregame-Still023.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2000" height="1125" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1551,7 +1564,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/IGX-Thor.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1566,7 +1579,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1365" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSC09325-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1365" loading="lazy">	
 	
 <div class="full-width-layout__inner">
 			<span class="full-width-layout__media-caption-callout">
@@ -1583,7 +1596,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="720" height="405" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/owl_superwide_720.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="720" height="405" loading="lazy">	
 	
 <div class="full-width-layout__inner">
 			<span class="full-width-layout__media-caption-callout">
@@ -1616,7 +1629,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Agibot-26gtc-sj-robots-_MF98474-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1632,13 +1645,13 @@
 </div></div>
 
 <div class="full-width-layout__dual-image-row-section light">
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-630x355.jpg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-630x355.jpg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Humanoid_26gtc-sj-robots-JRC17144.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 			<figcaption class="full-width-layout__dual-image-row-caption full-width-layout__caption">
 							<span class="full-width-layout__caption-text">
 				Humanoid			</span>
 			
 					</figcaption>
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-630x355.jpg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1.jpg 2048w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-630x355.jpg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Hexagon_IMG_3204-1.jpg 2048w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 			<figcaption class="full-width-layout__dual-image-row-caption full-width-layout__caption">
 							<span class="full-width-layout__caption-text">
 				Hexagon Robotics			</span>
@@ -1666,7 +1679,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2000" height="1125" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/UR-26gtc-sj-robots-_MF97694-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2000" height="1125" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1683,13 +1696,13 @@
 </div></div>
 
 <div class="full-width-layout__dual-image-row-section light">
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-630x355.jpg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-630x355.jpg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Rovar-26gtc-sj-robots-JRC17364.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 			<figcaption class="full-width-layout__dual-image-row-caption full-width-layout__caption">
 							<span class="full-width-layout__caption-text">
 				Sentigent Technology's Rovar X3			</span>
 			
 					</figcaption>
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-630x355.png" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-630x355.png 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-1290x725.png 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-960x540.png 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-300x169.png 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-400x225.png 400w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-630x355.png" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-630x355.png 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-1290x725.png 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-960x540.png 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-300x169.png 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Serve-400x225.png 400w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 			<figcaption class="full-width-layout__dual-image-row-caption full-width-layout__caption">
 							<span class="full-width-layout__caption-text">
 				Serve Robotics			</span>
@@ -1709,7 +1722,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-spark-1920x1080-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1751,7 +1764,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1280" height="680" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-data-center-rtx-pro-4500-bse-gpu-blog-1280x680-1.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1280" height="680" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1787,7 +1800,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/Copy-of-workstation-blog-rtx-pro-general-kv-1920x1080-4016600.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1811,7 +1824,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<div class="aspect-[16/9]"><img width="1920" height="1080" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1.jpg" class="full-width-layout__image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1.jpg 1920w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-400x225.jpg 400w" sizes="auto, (max-width: 1920px) 100vw, 1920px"></div>	
+			<div class="aspect-[16/9]"><img width="1920" height="1080" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1.jpg" class="full-width-layout__image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1.jpg 1920w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/dgx-station-jensen-huang-andrej-karpathy-nvidia-1920x1080-1-400x225.jpg 400w" sizes="auto, (max-width: 1920px) 100vw, 1920px"></div>	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1841,7 +1854,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1280" height="680" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/aws-logo-lockup-dark-1280x680-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1280" height="680" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1874,7 +1887,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1280" height="680" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/microsoft-logo-lockup-dark-1280x680-1.png 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1280" height="680" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1901,7 +1914,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1280" height="680" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/oracle-logo-lockup-dark-1280x680-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1280" height="680" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1923,7 +1936,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<div class="aspect-[16/9]"><img width="1920" height="1080" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1.jpeg" class="full-width-layout__image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1.jpeg 1920w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-400x225.jpeg 400w" sizes="auto, (max-width: 1920px) 100vw, 1920px"></div>	
+			<div class="aspect-[16/9]"><img width="1920" height="1080" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1.jpeg" class="full-width-layout__image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1.jpeg 1920w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/partner-blog-ncp-ai-factory-announcement-1920x1080-1-400x225.jpeg 400w" sizes="auto, (max-width: 1920px) 100vw, 1920px"></div>	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1955,7 +1968,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hc-promo-pack-rheo-corp-blog-gtc26-1920x1080-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -1972,7 +1985,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/open-h-dataset-resized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	
 <div class="full-width-layout__inner">
 			<span class="full-width-layout__media-caption-callout">
@@ -2002,7 +2015,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/blog-1920x1080-1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2077,7 +2090,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_03339_sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2090,7 +2103,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtcsj26-S82480-open-models-GM_02878_sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2139,7 +2152,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/FSWL-S82167-ai-insights-24254.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	
 <div class="full-width-layout__inner">
 			<span class="full-width-layout__media-caption-callout">
@@ -2164,13 +2177,13 @@
 </div></div>
 
 <div class="full-width-layout__dual-image-row-section light">
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-630x355.jpg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-630x355.jpg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8113.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 			<figcaption class="full-width-layout__dual-image-row-caption full-width-layout__caption">
 							<span class="full-width-layout__caption-text">
 				Panelists included Yejin Choi, Marco Pavone, Sanja Fidler and Yashraj Narang.			</span>
 			
 					</figcaption>
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-630x355.jpg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-630x355.jpg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-630x354.jpg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-960x540.jpg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1680x945.jpg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1280x720.jpg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1536x864.jpg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-1290x725.jpg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-300x169.jpg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317-400x225.jpg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-S81810-research-breakthroughs-SAG-8317.jpg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 			<figcaption class="full-width-layout__dual-image-row-caption full-width-layout__caption">
 							<span class="full-width-layout__caption-text">
 				Moderator Károly Zsolnai‑Fehér engaged the audience with a guessing-game of key AI research papers like NVIDIA Research's 3DGUT.			</span>
@@ -2253,7 +2266,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/cuda-promo-cuest-gtc26-1920x1080-4862336.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2288,8 +2301,8 @@
 </div></div>
 
 <div class="full-width-layout__dual-image-row-section light">
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-630x355.jpeg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-400x225.jpeg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462.jpeg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
-				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-630x355.jpeg" class="full-width-layout__dual-image-row-image" alt=" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-400x225.jpeg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453.jpeg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-630x355.jpeg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462-400x225.jpeg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8462.jpeg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
+				<div class="aspect-[16/9]"><img width="630" height="355" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-630x355.jpeg" class="full-width-layout__dual-image-row-image" alt="" loading="lazy" decoding="async" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-630x354.jpeg 630w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-960x540.jpeg 960w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1680x945.jpeg 1680w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1280x720.jpeg 1280w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1536x864.jpeg 1536w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-1290x725.jpeg 1290w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-300x169.jpeg 300w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453-400x225.jpeg 400w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/DSCF8453.jpeg 2000w" sizes="auto, (max-width: 630px) 100vw, 630px"></div>	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2304,7 +2317,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/loreal.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2323,7 +2336,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/agentic-commerce-blueprint.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2357,7 +2370,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/media2.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2389,7 +2402,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/jump-trading-vera-rubin.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2404,7 +2417,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1365" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/hudson-river-trading-2-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1365" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2426,7 +2439,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/financial-models.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2444,7 +2457,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/26gtc-sj-preshow-various-_MF92538_sized-scaled.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2452,7 +2465,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="1920" height="1080" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/gtc26-blog-post-sap-center-1920x1080-op1.jpg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="1920" height="1080" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
@@ -2460,7 +2473,7 @@
 </div></div>
 
 <div class="full-width-layout__standard-image-section">
-			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt=" width="2048" height="1152" loading="lazy">	
+			<img class="full-width-layout__image" src="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg" srcset="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg 600w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg 900w, ../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/SJ_Civic-1-scaled.jpeg 1200w" sizes="(min-width: 1200px) 1200px, 100vw" alt="" width="2048" height="1152" loading="lazy">	
 	</div>
 
 <div class="full-width-layout__article-copy-section light">
