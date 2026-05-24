@@ -1,5 +1,7 @@
 RewriteEngine On
-RewriteBase /nvidia-clone/nvidia_offline/
+
+# If the site lives in a subdirectory (not domain docroot), uncomment and set:
+# RewriteBase /your-subfolder/
 
 # Do not serve index.php directly — always route through router.php for URL rewriting
 DirectoryIndex disabled

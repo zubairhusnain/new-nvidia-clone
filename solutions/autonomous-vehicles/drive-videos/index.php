@@ -260,7 +260,7 @@ NVIDIAGDC.customLoginPageURL='';
 <!--[if (gte IE 6)&(lte IE 8)]>
     
 <![endif]-->
-<!-- <noscript><link rel="stylesheet" href="/solutions/autonomous-vehicles/drive-videos/[fallback css]/" /></noscript> -->
+<!-- noscript fallback stylesheet removed for offline clone -->
 
 <script type="text/javascript">
 

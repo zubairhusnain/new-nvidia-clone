@@ -25,12 +25,23 @@ function cw_install_base_path(): string
     }
 
     $docRoot = $_SERVER['DOCUMENT_ROOT'] ?? '';
-    if ($docRoot !== '') {
+    $here = realpath(__DIR__);
+    if ($docRoot !== '' && $here !== false) {
         $root = realpath($docRoot);
-        $here = realpath(__DIR__);
-        if ($root !== false && $here !== false && $root === $here) {
-            $path = '';
-            return $path;
+        if ($root !== false) {
+            if ($root === $here) {
+                $path = '';
+                return $path;
+            }
+            $rootPrefix = $root . DIRECTORY_SEPARATOR;
+            if (str_starts_with($here, $rootPrefix)) {
+                $rel = substr($here, strlen($root));
+                $path = str_replace('\\', '/', $rel);
+                if ($path !== '' && !str_starts_with($path, '/')) {
+                    $path = '/' . $path;
+                }
+                return $path;
+            }
         }
     }
 
@@ -404,6 +415,37 @@ function cw_rewrite_external_urls_in_html(string $html, string $base): string
     return $html;
 }
 
+function cw_inject_contact_nav_link(string $html): string
+{
+    if (str_contains($html, 'data-cw-contact-nav')) {
+        return $html;
+    }
+
+    $contactDesktop = '<li class="nv-menu-item cw-contact-nav-item" role="none" data-cw-contact-nav="1"><a class="menu-button-link menu-level-1" href="/contact/" role="menuitem" target="_self">Contact</a>
+</li>';
+
+    $supportDesktop = '<li class="nv-menu-item" role="none"><a class="menu-button-link menu-level-1" href="/support/" role="menuitem" target="_self">Support</a>
+</li>';
+
+    if (str_contains($html, $supportDesktop)) {
+        $html = str_replace($supportDesktop, $supportDesktop . "\n" . $contactDesktop, $html);
+    }
+
+    $supportMobile = '<li class="menu-level-1" role="none">
+<a class="mm-btn-link" href="/support/" role="menuitem" target="_self">Support</a>
+</li>';
+
+    $contactMobile = '<li class="menu-level-1 cw-contact-nav-item" role="none" data-cw-contact-nav="1">
+<a class="mm-btn-link" href="/contact/" role="menuitem" target="_self">Contact</a>
+</li>';
+
+    if (str_contains($html, $supportMobile)) {
+        $html = str_replace($supportMobile, $supportMobile . "\n" . $contactMobile, $html);
+    }
+
+    return $html;
+}
+
 function cw_rewrite_asset_urls_in_html(string $html): string
 {
     $base = CW_BASE_URL;
@@ -435,6 +477,8 @@ function cw_rewrite_asset_urls_in_html(string $html): string
     if ($headInsert !== '') {
         $html = cw_inject_after_head_open($html, $headInsert);
     }
+
+    $html = cw_inject_contact_nav_link($html);
 
     // Head meta tags: og:url, twitter:url, etc. → local base URL
     $html = preg_replace_callback(

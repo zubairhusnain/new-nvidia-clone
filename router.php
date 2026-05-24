@@ -15,6 +15,16 @@ if (!is_string($path) || $path === '') {
 
 $path = cw_normalize_request_path($path);
 
+if (cw_forms_disabled() && strtoupper($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST') {
+    http_response_code(403);
+    header('Content-Type: text/html; charset=utf-8');
+    echo '<!DOCTYPE html><html><head><title>Form disabled</title></head><body>'
+        . '<p>Form submissions are disabled on this site.</p>'
+        . '<p><a href="' . htmlspecialchars(CW_BASE_URL . '/', ENT_QUOTES, 'UTF-8') . '">Return home</a></p>'
+        . '</body></html>';
+    exit;
+}
+
 $query = parse_url($uri, PHP_URL_QUERY);
 if (!is_string($query)) {
     $query = '';
@@ -51,6 +61,12 @@ if (str_ends_with($path, '.php')) {
 }
 
 $route = trim($path, '/');
+
+// Blog posts live under blog/blog/; /blog/ has no index in the mirror.
+if ($route === 'blog') {
+    header('Location: ' . CW_BASE_URL . '/blog/blog/ai-5-layer-cake/', true, 302);
+    exit;
+}
 
 if ($route === '') {
     $target = __DIR__ . '/index.php';

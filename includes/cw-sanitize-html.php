@@ -43,6 +43,12 @@ function cw_third_party_url(string $url): bool
         'taboola.com', 'outbrain.com',
         'yandex.ru/metrika',
         'quantserve.com', 'scorecardresearch',
+        'datadoghq', 'datadog-rum',
+        'pathfactory.com', 'cdn-app.pathfactory',
+        'lookbookhq.com', 'cdn.lookbookhq', 'app.cdn.lookbookhq',
+        'platform.twitter.com/widgets',
+        'useinsider.com', 'api.useinsider',
+        'pathfactory',
     ];
 
     foreach ($parts as $p) {
@@ -119,7 +125,19 @@ function cw_sanitize_html(string $html): string
 
     // External script tags by URL
     $html = preg_replace(
-        '~<script\b[^>]*\bsrc=(["\'])(?://|https?:)?/?(?:assets/)?[^"\']*(?:adobedtm|cookielaw|6sc\.co|facebook\.net|ads-twitter|hotjar|marketo|bizible|evgnet|licdn\.com|bat\.bing|googletagmanager|google-analytics|doubleclick|demdex|go-mpulse|optimizely)[^"\']*\1[^>]*>\s*</script>~is',
+        '~<script\b[^>]*\bsrc=(["\'])(?://|https?:)?/?(?:assets/)?[^"\']*(?:adobedtm|cookielaw|6sc\.co|facebook\.net|ads-twitter|hotjar|marketo|bizible|evgnet|licdn\.com|bat\.bing|googletagmanager|google-analytics|doubleclick|demdex|go-mpulse|optimizely|datadog|pathfactory|lookbookhq|useinsider|platform\.twitter\.com/widgets)[^"\']*\1[^>]*>\s*</script>~is',
+        '',
+        $html
+    ) ?? $html;
+
+    // Broken / split pathfactory script stubs saved in mirrored HTML
+    $html = preg_replace(
+        '~<script\b[^>]*\bsrc=(["\'])[^"\']*pathfactory[^"\']*\1[^>]*>\s*</script>~is',
+        '',
+        $html
+    ) ?? $html;
+    $html = preg_replace(
+        '~<script\b[^>]*\bsrc=(["\'])\s*assets=""[^>]*pathfactory[^>]*>\s*</script>~is',
         '',
         $html
     ) ?? $html;
@@ -146,9 +164,12 @@ function cw_sanitize_html(string $html): string
     // Adobe DTM _satellite inline blocks (can be huge, multiline)
     $html = preg_replace('~<script\b[^>]*>\s*_satellite\[["\']_runScript[\s\S]*?</script>~i', '', $html) ?? $html;
 
-    // Noscript tracking pixels
+    // Commented-out noscript stubs must not participate in tracking cleanup below
+    $html = preg_replace('~<!--\s*<noscript[\s\S]*?</noscript>\s*-->~i', '', $html) ?? $html;
+
+    // Noscript tracking pixels (keyword must appear inside the same noscript block)
     $html = preg_replace(
-        '~<noscript\b[^>]*>[\s\S]*?(?:facebook|google-analytics|googletagmanager|linkedin|twitter|doubleclick)[\s\S]*?</noscript>~i',
+        '~<noscript\b[^>]*>(?:(?!</noscript>).)*(?:facebook|google-analytics|googletagmanager|linkedin|twitter|doubleclick)(?:(?!</noscript>).)*</noscript>~is',
         '',
         $html
     ) ?? $html;
@@ -192,7 +213,85 @@ function cw_sanitize_html(string $html): string
         }
     }
 
+    // Inline loaders that pull third-party marketing scripts from mirrored assets
+    $html = preg_replace(
+        '~<script\b[^>]*>[\s\S]*?(?:pathfactory|lookbookhq|lbhq|datadoghq|datadog\.init|DD_RUM)[\s\S]*?</script>~i',
+        '',
+        $html
+    ) ?? $html;
+
+    // Third-party tracking / marketing iframes
+    $html = preg_replace(
+        '~<iframe\b[^>]*\bsrc=(["\'])[^"\']*(?:platform\.twitter\.com|facebook\.com/plugins|doubleclick|googletagmanager|marketo|pardot|info\.nvidia\.com)[^"\']*\1[^>]*>\s*</iframe>~is',
+        '',
+        $html
+    ) ?? $html;
+
     $html = preg_replace('~\n{3,}~', "\n\n", $html) ?? $html;
+
+    $html = cw_disable_forms_in_html($html);
+
+    return $html;
+}
+
+/** True unless CW_ENABLE_FORMS=1 is set in the environment. */
+function cw_forms_disabled(): bool
+{
+    return getenv('CW_ENABLE_FORMS') !== '1';
+}
+
+/**
+ * Disable every HTML form in output (AEM lead-gen, blog search, contact, etc.).
+ */
+function cw_disable_forms_in_html(string $html): string
+{
+    if (!cw_forms_disabled()) {
+        return $html;
+    }
+
+    if (!str_contains($html, 'id="cw-disable-forms"')) {
+        $block = '<style id="cw-disable-forms">'
+            . 'form[data-cw-form-disabled],form[data-cw-form-disabled] input,'
+            . 'form[data-cw-form-disabled] select,form[data-cw-form-disabled] textarea,'
+            . 'form[data-cw-form-disabled] button{pointer-events:none!important;cursor:not-allowed!important;}'
+            . 'form[data-cw-form-disabled]{opacity:.72;}'
+            . '.guideformcontainer,.aemformcontainer iframe{display:none!important;}'
+            . '</style>'
+            . '<script id="cw-disable-forms">(function(){'
+            . 'function lock(f){if(!f||f.getAttribute("data-cw-form-disabled"))return;'
+            . 'f.setAttribute("data-cw-form-disabled","1");f.setAttribute("action","#");'
+            . 'f.setAttribute("method","get");f.setAttribute("novalidate","novalidate");'
+            . 'f.querySelectorAll("input,select,textarea,button").forEach(function(el){el.disabled=true;});}'
+            . 'function run(){try{document.querySelectorAll("form").forEach(lock);}catch(e){}}'
+            . 'document.addEventListener("submit",function(e){if(e.target&&e.target.tagName==="FORM"){e.preventDefault();e.stopPropagation();}},true);'
+            . 'if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",run);}else{run();}'
+            . 'setTimeout(run,500);setTimeout(run,1500);'
+            . '})();</script>';
+        if (preg_match('~</head>~i', $html)) {
+            $html = preg_replace('~</head>~i', $block . '</head>', $html, 1) ?? $html;
+        }
+    }
+
+    $html = preg_replace_callback(
+        '~<form\b([^>]*)>~i',
+        static function (array $m): string {
+            $attrs = $m[1];
+            $attrs = preg_replace('~\saction=(["\'])[^"\']*\1~i', '', $attrs) ?? $attrs;
+            $attrs = preg_replace('~\smethod=(["\'])[^"\']*\1~i', '', $attrs) ?? $attrs;
+            if (!str_contains($attrs, 'data-cw-form-disabled')) {
+                $attrs .= ' data-cw-form-disabled="1" action="#" method="get" novalidate onsubmit="return false;"';
+            }
+            return '<form' . $attrs . '>';
+        },
+        $html
+    ) ?? $html;
+
+    // AEM form iframes and embedded form containers
+    $html = preg_replace(
+        '~<iframe\b[^>]*(?:data-form-page-path|guideContainer|forms/af/|marketo|pardot)[^>]*>[\s\S]*?</iframe>~i',
+        '',
+        $html
+    ) ?? $html;
 
     return $html;
 }

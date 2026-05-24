@@ -1,0 +1,166 @@
+.cw-contact-page {
+  background: #fff;
+  min-height: 60vh;
+}
+
+.cw-contact-hero {
+  background: #1a1a1a;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.cw-contact-hero__inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cw-contact-hero__title {
+  margin: 0 0 0.75rem;
+  font-size: 2.25rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.cw-contact-hero__lead {
+  margin: 0;
+  font-size: 1.125rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.cw-contact-form-section {
+  padding: 2rem 1.5rem 4rem;
+  background: #fff;
+}
+
+.cw-contact-form-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cw-contact-alert {
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.cw-contact-alert--success {
+  background: #e8f5e9;
+  color: #1b5e20;
+  border: 1px solid #a5d6a7;
+}
+
+.cw-contact-alert--error {
+  background: #ffebee;
+  color: #b71c1c;
+  border: 1px solid #ef9a9a;
+}
+
+.cw-contact-alert--info {
+  background: #f1f8e9;
+  color: #33691e;
+  border: 1px solid #c5e1a5;
+}
+
+.cw-contact-fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.cw-contact-fieldset:disabled .cw-contact-field label,
+.cw-contact-fieldset:disabled .cw-contact-field input,
+.cw-contact-fieldset:disabled .cw-contact-field textarea {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.cw-contact-submit:disabled {
+  background: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.cw-contact-submit:disabled:hover {
+  background: #9e9e9e;
+}
+
+.cw-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cw-contact-field label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.cw-contact-field input,
+.cw-contact-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  background: #fff;
+}
+
+.cw-contact-field input:focus,
+.cw-contact-field textarea:focus {
+  outline: 2px solid #76b900;
+  outline-offset: 1px;
+  border-color: #76b900;
+}
+
+.cw-contact-field textarea {
+  resize: vertical;
+  min-height: 160px;
+}
+
+.cw-contact-hp {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  overflow: hidden;
+}
+
+.cw-contact-submit {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  padding: 0.85rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  background: #76b900;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cw-contact-submit:hover {
+  background: #5a8f00;
+}
+
+.cw-contact-submit:focus {
+  outline: 2px solid #333;
+  outline-offset: 2px;
+}
+
+.cw-contact-page .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

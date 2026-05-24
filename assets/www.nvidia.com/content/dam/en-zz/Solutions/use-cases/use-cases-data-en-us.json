@@ -1,0 +1,2393 @@
+{
+  "translations": {
+    "business_goals":"Business Goal",
+    "workload":"Workload",
+    "products":"Products",
+    "industries":"Industries",
+    "technologies":"Technologies",
+    "featured":"Featured"
+  },
+  "data": [
+    {
+      "order": 1,
+      "featured": true,
+      "title": "Synthetic Data Generation for Healthcare Innovation",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/synthetic-data-generation-for-healthcare-innovation/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/synthetic-data-generation-sfg.jpg",
+      "workloads": [
+        {
+          "key": "simulation_or_modeling_or_design",
+          "value": "Simulation / Modeling / Design"
+        },
+        {
+          "key": "generative_ai_or_images",
+          "value": "Generative AI / Images"
+        }
+      ],
+      "product_tags": [{
+        "key": "nvidia_monai",
+        "value": "NVIDIA MONAI"
+      }],
+      "industry_tags": [{
+        "key": "healthcare_and_life_sciences",
+        "value": "Healthcare & Life Sciences"
+      }],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 2,
+      "featured": true,
+      "title": "Digital Human",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/digital-humans/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/digital-humans-use-cases-thumbnail-ari.jpg",
+      "workloads": [{
+        "key": "generative_ai_or_llms",
+        "value": "Generative AI / LLMs"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_ace",
+          "value": "NVIDIA ACE"
+        },
+        {
+          "key": "nvidia_riva",
+          "value": "NVIDIA Riva"
+        },
+        {
+          "key": "nvidia_nemotron",
+          "value": "NVIDIA NeMotron"
+        },
+        {
+          "key": "nvidia_a2x",
+          "value": "NVIDIA A2X"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        },
+        {
+          "key": "digital_health",
+          "value": "Digital Health"
+        }
+      ],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [
+        {
+          "key": "nvidia_audio2face_a2f",
+          "value": "NVIDIA Audio2Face (A2F)"
+        },
+        {
+          "key": "riva_automatic_speech_recognition_asr",
+          "value": "Riva Automatic Speech Recognition (ASR)"
+        },
+        {
+          "key": "riva_text-to-speech_tts",
+          "value": "Riva Text-To-Speech (TTS)"
+        },
+        {
+          "key": "rtx_global_illumination_rtxgi",
+          "value": "RTX Global Illumination (RTXGI)"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "featured": true,
+      "title": "Accelerating Content Generation",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/content-creation-using-generative-ai/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/ontent-creation-using-generative-ai-use-cases-thumbnail-ari.jpg",
+      "workloads": [{
+        "key": "generative_ai_or_llms",
+        "value": "Generative AI / LLMs"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_nemo",
+          "value": "NVIDIA NeMo"
+        },
+        {
+          "key": "nvidia_picasso",
+          "value": "NVIDIA Picasso"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [{
+        "key": "large_language_models_llms",
+        "value": "Large Language Models (LLMs)"
+      }]
+    },
+    {
+      "order": 4,
+      "featured": false,
+      "title": "Synthetic Data Generation",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/synthetic-data/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/synthetic-data-generation-use-cases-thumbnail-ari.jpg",
+      "workloads": [{
+        "key": "computer_vision_or_video_analytics",
+        "value": "Computer Vision / Video Analytics"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_omniverse_enterprise",
+          "value": "NVIDIA Omniverse Enterprise"
+        },
+        {
+          "key": "nvidia_drive",
+          "value": "NVIDIA DRIVE"
+        },
+        {
+          "key": "nvidia_isaac",
+          "value": "NVIDIA Isaac"
+        },
+        {
+          "key": "nvidia_metropolis",
+          "value": "NVIDIA Metropolis"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [
+        {
+          "key": "nvidia_omniverse™_replicator_sdk",
+          "value": "NVIDIA Omniverse™ Replicator SDK"
+        },
+        {
+          "key": "nvidia_isaac_sim",
+          "value": "NVIDIA Isaac Sim"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "featured": false,
+      "title": "Fraud Detection",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/ai-for-fraud-detection/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/ai-for-fraud-detection-use-cases-thumbnail-ari.jpg",
+      "workloads": [
+        {
+          "key": "data_science",
+          "value": "Data Science"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_rapids",
+          "value": "NVIDIA RAPIDS"
+        },
+        {
+          "key": "nvidia_morpheus",
+          "value": "NVIDIA Morpheus"
+        }
+      ],
+      "industry_tags": [{
+        "key": "financial_services",
+        "value": "Financial Services"
+      }],
+      "business_goals": [{
+        "key": "risk_mitigation",
+        "value": "Risk Mitigation"
+      }],
+      "technologies": [
+        {
+          "key": "apache_spark",
+          "value": "Apache Spark"
+        },
+        {
+          "key": "nvidia_triton_inference_server",
+          "value": "NVIDIA Triton Inference Server"
+        },
+        {
+          "key": "nvidia_tensorrt",
+          "value": "NVIDIA TensorRT"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "featured": false,
+      "title": "Network Operations",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/case-studies/network-operations-assist/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/network-operations-assist-use-cases-thumbnail-ari.jpg",
+      "workloads": [
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        },
+        {
+          "key": "data_center_or_cloud",
+          "value": "Data Center / Cloud"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_riva",
+          "value": "NVIDIA Riva"
+        },
+        {
+          "key": "nvidia_cuopt",
+          "value": "NVIDIA cuOpt"
+        },
+        {
+          "key": "nvidia_triton_inference_server",
+          "value": "NVIDIA Triton Inference Server"
+        },
+        {
+          "key": "nvidia_dgx_cloud",
+          "value": "NVIDIA DGX Cloud"
+        }
+      ],
+      "industry_tags": [{
+        "key": "telecommunications",
+        "value": "Telecommunications"
+      }],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [{
+        "key": "large_language_models_llms",
+        "value": "Large Language Models (LLMs)"
+      }]
+    },
+    {
+      "order": 7,
+      "featured": false,
+      "title": "AI Assistant",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/ai-assistants/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/customer-service-chatbot-use-cases-thumbnail-ari.jpg",
+      "workloads": [
+        {
+          "key": "conversational_ai_or_nlp",
+          "value": "Conversational AI / NLP"
+        },
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_nim",
+          "value": "NVIDIA NIM"
+        },
+        {
+          "key": "nvidia_nemo",
+          "value": "NVIDIA NeMo"
+        },
+        {
+          "key": "nvidia_nemo_retriever",
+          "value": "NVIDIA NeMo Retriever"
+        },
+        {
+          "key": "nvidia_riva",
+          "value": "NVIDIA Riva"
+        },
+        {
+          "key": "nvidia_ace",
+          "value": "NVIDIA ACE"
+        },
+        {
+          "key": "nvidia_dgx",
+          "value": "NVIDIA DGX"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 8,
+      "featured": false,
+      "title": "Industrial Facility Digital Twin",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/ai-for-virtual-factory-solutions/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/virtual-factory-use-cases-thumbnail-ari.jpg",
+      "workloads": [{
+        "key": "simulation_or_modeling_or_design",
+        "value": "Simulation / Modeling / Design"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_omniverse_enterprise",
+          "value": "NVIDIA Omniverse Enterprise"
+        },
+        {
+          "key": "isaac_sim",
+          "value": "Isaac Sim"
+        },
+        {
+          "key": "metropolis",
+          "value": "Metropolis"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        }
+      ],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 9,
+      "featured": false,
+      "title": "Document Intelligence",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/intelligent-document-processing/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/intelligent-document-processing-use-cases-thumbnail-ari.jpg",
+      "workloads": [{
+        "key": "generative_ai_or_llms",
+        "value": "Generative AI / LLMs"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_dgx",
+          "value": "NVIDIA DGX"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_nim",
+          "value": "NVIDIA NIM"
+        },
+        {
+          "key": "nviida_triton_inference_server",
+          "value": "NVIIDA Triton Inference Server"
+        },
+        {
+          "key": "nvidia_nemo",
+          "value": "NVIDIA NeMo"
+        }
+      ],
+      "industry_tags": [{
+        "key": "financial_services",
+        "value": "Financial Services"
+      }],
+      "business_goals": [
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        },
+        {
+          "key": "risk_mitigation",
+          "value": "Risk Mitigation"
+        }
+      ],
+      "technologies": [
+        {
+          "key": "large_language_models_llms",
+          "value": "Large Language Models (LLMs)"
+        },
+        {
+          "key": "nvidia_tensorrt-llm",
+          "value": "NVIDIA TensorRT-LLM"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "featured": false,
+      "title": "Hyper Personalized Shopping",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/hyper-personalized-shopping/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/hyper-personalized-shopping-use-cases-thumbnail-ari.jpg",
+      "workloads": [
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_merlin",
+          "value": "NVIDIA Merlin"
+        },
+        {
+          "key": "nvidia_rapids",
+          "value": "NVIDIA RAPIDS"
+        },
+        {
+          "key": "nvidia_nemo",
+          "value": "NVIDIA NeMo"
+        },
+        {
+          "key": "nvidia_triton_inference_server",
+          "value": "NVIDIA Triton Inference Server"
+        },
+        {
+          "key": "nvidia_nim",
+          "value": "NVIDIA NIM"
+        }
+      ],
+      "industry_tags": [{
+        "key": "retailor_consumer_packaged_goods",
+        "value": "Retail/ Consumer Packaged Goods"
+      }],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [
+        {
+          "key": "large_language_models_llms",
+          "value": "Large Language Models (LLMs)"
+        },
+        {
+          "key": "nvidia_tensorrt-llm",
+          "value": "NVIDIA TensorRT-LLM"
+        },
+        {
+          "key": "apache_spark",
+          "value": "Apache Spark"
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "featured": false,
+      "title": "Audio Transcription",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/audio-transcription/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/audio-transcription-2560x1440.jpg",
+      "workloads": [{
+        "key": "conversational_ai_or_nlp",
+        "value": "Conversational AI / NLP"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_riva",
+          "value": "NVIDIA Riva"
+        },
+        {
+          "key": "nvidia-certified_systems",
+          "value": "NVIDIA-Certified Systems"
+        },
+        {
+          "key": "nvidia_nemo",
+          "value": "NVIDIA NeMo"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [{
+        "key": "riva_text-to-speech_tts",
+        "value": "Riva Text-To-Speech (TTS)"
+      }]
+    },
+    {
+      "order": 12,
+      "featured": false,
+      "title": "Security Vulnerability Analysis",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/security-vulnerability-analysis/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/cve-ai-ari.jpg",
+      "workloads": [
+        {
+          "key": "cybersecurity",
+          "value": "Cybersecurity"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_morpheus",
+          "value": "NVIDIA Morpheus"
+        },
+        {
+          "key": "nvidia-certified_systems",
+          "value": "NVIDIA-Certified Systems"
+        },
+        {
+          "key": "nvidia_rapids",
+          "value": "NVIDIA RAPIDS"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "risk_mitigation",
+        "value": "Risk Mitigation"
+      }],
+      "technologies": [
+        {
+          "key": "cyber_log_accelerators",
+          "value": "Cyber Log Accelerators"
+        },
+        {
+          "key": "nvidia_cloud-native",
+          "value": "NVIDIA Cloud-Native"
+        },
+        {
+          "key": "nvidia_tensorrt",
+          "value": "NVIDIA TensorRT"
+        },
+        {
+          "key": "nvidia_triton_inference_server",
+          "value": "NVIDIA Triton Inference Server"
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "featured": false,
+      "title": "Spear Phishing Detection",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/spear-phishing/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/spear-phishing-detection-use-cases-thumbnail-ari.jpg",
+      "workloads": [
+        {
+          "key": "cybersecurity",
+          "value": "Cybersecurity"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_morpheus",
+          "value": "NVIDIA Morpheus"
+        },
+        {
+          "key": "nvidia-certified_systems",
+          "value": "NVIDIA-Certified Systems"
+        },
+        {
+          "key": "nvidia_rapids",
+          "value": "NVIDIA RAPIDS"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "risk_mitigation",
+        "value": "Risk Mitigation"
+      }],
+      "technologies": [
+        {
+          "key": "cyber_log_accelerators",
+          "value": "Cyber Log Accelerators"
+        },
+        {
+          "key": "nvidia_cloud-native",
+          "value": "NVIDIA Cloud-Native"
+        },
+        {
+          "key": "nvidia_tensorrt",
+          "value": "NVIDIA TensorRT"
+        },
+        {
+          "key": "nvidia_triton_inference_server",
+          "value": "NVIDIA Triton Inference Server"
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "featured": false,
+      "title": "Digital Fingerprinting for Cybersecurity Threat Detection",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/digital-fingerprinting/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/ai-workflow-digital-fingerprinting.png",
+      "workloads": [
+        {
+          "key": "cybersecurity",
+          "value": "Cybersecurity"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        },
+        {
+          "key": "data_center_or_cloud",
+          "value": "Data Center / Cloud"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_morpheus",
+          "value": "NVIDIA Morpheus"
+        },
+        {
+          "key": "nvidia-certified_systems",
+          "value": "NVIDIA-Certified Systems"
+        },
+        {
+          "key": "nvidia_rapids",
+          "value": "NVIDIA RAPIDS"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "risk_mitigation",
+        "value": "Risk Mitigation"
+      }],
+      "technologies": [
+        {
+          "key": "cyber_log_accelerators",
+          "value": "Cyber Log Accelerators"
+        },
+        {
+          "key": "nvidia_cloud-native",
+          "value": "NVIDIA Cloud-Native"
+        },
+        {
+          "key": "nvidia_tensorrt",
+          "value": "NVIDIA TensorRT"
+        },
+        {
+          "key": "nvidia_triton_inference_server",
+          "value": "NVIDIA Triton Inference Server"
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "featured": false,
+      "title": "Route Optimization",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/route-optimization/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/route-optimization-2560x1440.jpg",
+      "workloads": [{
+        "key": "data_science",
+        "value": "Data Science"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_metropolis",
+          "value": "NVIDIA Metropolis"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [
+        {
+          "key": "nvidia_cuopt_server_apis",
+          "value": "NVIDIA cuOpt Server APIs"
+        },
+        {
+          "key": "nvidia_cloud-native",
+          "value": "NVIDIA Cloud-Native"
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "featured": false,
+      "title": "Retail Loss Prevention",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/retail-loss-prevention/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/retail-loss-prevention-2560x1440.jpg",
+      "workloads": [{
+        "key": "computer_vision_or_video_analytics",
+        "value": "Computer Vision / Video Analytics"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_cuopt",
+          "value": "NVIDIA cuOpt"
+        },
+        {
+          "key": "nvidia-certified_systems",
+          "value": "NVIDIA-Certified Systems"
+        }
+      ],
+      "industry_tags": [{
+        "key": "retailor_consumer_packaged_goods",
+        "value": "Retail/ Consumer Packaged Goods"
+      }],
+      "business_goals": [{
+        "key": "risk_mitigation",
+        "value": "Risk Mitigation"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 17,
+      "featured": false,
+      "title": "Retail Store Analytics",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/ai-data-science/ai-workflows/retail-store-analytics/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/retail-store-analytics-2560x1440.jpg",
+      "workloads": [{
+        "key": "computer_vision_or_video_analytics",
+        "value": "Computer Vision / Video Analytics"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_cuopt",
+          "value": "NVIDIA cuOpt"
+        },
+        {
+          "key": "nvidia-certified_systems",
+          "value": "NVIDIA-Certified Systems"
+        }
+      ],
+      "industry_tags": [{
+        "key": "retailor_consumer_packaged_goods",
+        "value": "Retail/ Consumer Packaged Goods"
+      }],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "business_goals",
+          "value": "Business Goals"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 18,
+      "featured": false,
+      "title": "AI-Powered Multi-Camera Tracking",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/ai-powered-multi-camera-tracking/",
+      "thumbnail": "https://images.nvidia.com/nvimages/aem-dam/en-zz/Solutions/use-cases/nvidia-metropolis-multi-camera-tracking.jpg",
+      "workloads": [{
+        "key": "computer_vision_or_video_analytics",
+        "value": "Computer Vision / Video Analytics"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_omniverse",
+          "value": "NVIDIA Omniverse"
+        },
+        {
+          "key": "nvidia_metropolis",
+          "value": "NVIDIA Metropolis"
+        },
+        {
+          "key": "nvidia_tao",
+          "value": "NVIDIA TAO"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        },
+        {
+          "key": "risk_mitigation",
+          "value": "Risk Mitigation"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 19,
+      "featured": false,
+      "title": "Autonomous Vehicle Simulation",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/autonomous-vehicle-simulation/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/sdv-infrastructure-omniverse-api-1920x1080.jpeg",
+      "workloads": [{
+        "key": "simulation_or_modeling_or_design",
+        "value": "Simulation / Modeling / Design"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_omniverse_enterprise",
+          "value": "NVIDIA Omniverse Enterprise"
+        },
+        {
+          "key": "nvidia_ovx",
+          "value": "NVIDIA OVX"
+        },
+        {
+          "key": "nvidia_dgx",
+          "value": "NVIDIA DGX"
+        }
+      ],
+      "industry_tags": [{
+        "key": "automotive_or_transportation",
+        "value": "Automotive / Transportation"
+      }],
+      "business_goals": [
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        },
+        {
+          "key": "risk_mitigation",
+          "value": "Risk Mitigation"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 20,
+      "featured": false,
+      "title": "3D Product Configurators",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/3d-product-configurator/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/use-case-3d-product-configurators-catalog-ari.jpg",
+      "image_credit": {
+        "key": "nissan",
+        "value": "Nissan"
+      },
+      "workloads": [{
+        "key": "simulation_or_modeling_or_design",
+        "value": "Simulation / Modeling / Design"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_omniverse_enterprise",
+          "value": "NVIDIA Omniverse Enterprise"
+        },
+        {
+          "key": "nvidia_gdn",
+          "value": "NVIDIA GDN"
+        },
+        {
+          "key": "nvidia_nim",
+          "value": "NVIDIA NIM"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "retail_or_consumer_packaged_goods",
+          "value": "Retail / Consumer Packaged Goods"
+        }
+      ],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 21,
+      "featured": false,
+      "title": "Reinforcement Learning",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/reinforcement-learning/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/nvidia-robotics-reinforcement-learning-ari.jpg",
+      "image_credit": [
+        {
+          "key": "agility",
+          "value": "Agility"
+        },
+        {
+          "key": "apptronik",
+          "value": "Apptronik"
+        },
+        {
+          "key": "fourier_intelligence",
+          "value": "Fourier Intelligence"
+        },
+        {
+          "key": "unitree",
+          "value": "Unitree"
+        }
+      ],
+      "workloads": [{
+        "key": "robotics",
+        "value": "Robotics"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_omniverse",
+          "value": "NVIDIA Omniverse"
+        },
+        {
+          "key": "nvidia_omniverse_enterprise",
+          "value": "NVIDIA Omniverse Enterprise"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "nvidia_isaac",
+          "value": "NVIDIA Isaac"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 22,
+      "featured": false,
+      "title": "Generative AI-Powered Visual AI Agents",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/visual-ai-agents/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/metropolis-visual-ai-agent-thumbnail.jpg",
+      "workloads": [{
+        "key": "computer_vision_or_video_analytics",
+        "value": "Computer Vision / Video Analytics"
+      }],
+      "product_tags": [
+        {
+          "key": "nvidia_metropolis",
+          "value": "NVIDIA Metropolis"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "retail_or_consumer_packaged_goods",
+          "value": "Retail / Consumer Packaged Goods"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare and Life Sciences"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        },
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        }
+      ],
+      "technologies": [
+        {
+          "key": "nvidia_nim",
+          "value": "NVIDIA NIM"
+        },
+        {
+          "key": "ai_agent",
+          "value": "AI Agent"
+        },
+        {
+          "key": "vision_language_models",
+          "value": "Vision Language Models"
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "featured": false,
+      "title": "Robotics Simulation",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/robotics-simulation/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/use-case-robotics-thumbnail.jpg",
+      "workloads": [
+        {
+          "key": "robotics",
+          "value": "Robotics"
+        },
+        {
+          "key": "simulation_or_modeling_or_design",
+          "value": "Simulation / Modeling / Design"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_isaac_sim",
+          "value": "NVIDIA Isaac Sim"
+        },
+        {
+          "key": "nvidia_omniverse",
+          "value": "NVIDIA Omniverse"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "aerospace",
+          "value": "Aerospace"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "architecture_or_engineering_or_construction",
+          "value": "Architecture / Engineering / Construction"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "cloud_services",
+          "value": "Cloud Services"
+        },
+        {
+          "key": "consumer_internet",
+          "value": "Consumer Internet"
+        },
+        {
+          "key": "energy",
+          "value": "Energy"
+        },
+        {
+          "key": "financial_services",
+          "value": "Financial Services"
+        },
+        {
+          "key": "gaming",
+          "value": "Gaming"
+        },
+        {
+          "key": "hardware_or_semiconductor",
+          "value": "Hardware / Semiconductor"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_supercomputing",
+          "value": "HPC / Supercomputing"
+        },
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "media_and_entertainment",
+          "value": "Media & Entertainment"
+        },
+        {
+          "key": "public_sector",
+          "value": "Public Sector"
+        },
+        {
+          "key": "restaurant_or_quick-service",
+          "value": "Restaurant / Quick-Service"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        },
+        {
+          "key": "smart_cities_or_spaces",
+          "value": "Smart Cities / Spaces"
+        },
+        {
+          "key": "telecommunications",
+          "value": "Telecommunications"
+        }
+      ],
+      "business_goals": [{
+        "key": "innovation",
+        "value": "Innovation"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 24,
+      "featured": false,
+      "title": "Humanoid Robots",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/humanoid-robots/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/Solutions/use-cases/humanoid-robots/use-case-humanoid-robots-ari.jpg",
+      "workloads": [
+        {
+          "key": "robotics",
+          "value": "Robotics"
+        },
+        {
+          "key": "simulation_or_modeling_or_design",
+          "value": "Simulation / Modeling / Design"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_isaac_lab",
+          "value": "NVIDIA Isaac Lab"
+        },
+        {
+          "key": "nvidia_osmo",
+          "value": "NVIDIA OSMO"
+        },
+        {
+          "key": "nvidia_project_gr00t",
+          "value": "NVIDIA Project GR00T"
+        },
+        {
+          "key": "nvidia_jetson_thor",
+          "value": "NVIDIA Jetson Thor"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "manufacturing",
+          "value": "Manufacturing"
+        },
+        {
+          "key": "automotive_or_transportation",
+          "value": "Automotive / Transportation"
+        },
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "retailor_consumer_packaged_goods",
+          "value": "Retail/ Consumer Packaged Goods"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 25,
+      "featured": false,
+      "title": "Biomolecular Foundation Models for Discovery in Life Science",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/biomolecular-foundation-models-for-discovery-in-life-science/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/Solutions/use-cases/biomolecular-foundation-models/nvidia-biomolecular-foundation-models-ari.jpg",
+      "workloads": [
+        {
+          "key": "structural_biology",
+          "value": "Structural Biology"
+        },
+        {
+          "key": "molecular_design",
+          "value": "Molecular Design"
+        },
+        {
+          "key": "molecular_simulation",
+          "value": "Molecular Simulation"
+        },
+        {
+          "key": "biomedical_imaging",
+          "value": "Biomedical Imaging"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nims",
+          "value": "NIMs"
+        },
+        {
+          "key": "bionemo",
+          "value": "BioNeMo"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        },
+        {
+          "key": "monai",
+          "value": "MONAI"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "academia_or_higher_education",
+          "value": "Academia / Higher Education"
+        },
+        {
+          "key": "hpc_or_scientific_computing",
+          "value": "HPC / Scientific Computing"
+        },
+        {
+          "key": "agriculture",
+          "value": "Agriculture"
+        },
+        {
+          "key": "biopharma",
+          "value": "Biopharma"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 26,
+      "featured": false,
+      "title": "Intelligent Diagnostic Imaging",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/ai-powered-medical-imaging/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/Solutions/case-studies/ai-medical/nvidia-hc-use-case-intelligent-diagnostic-imaging-og.jpg",
+      "workloads": [
+        {
+          "key": "accelerated_computing_tools_and_techniques",
+          "value": "Accelerated Computing Tools & Techniques"
+        },
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        },
+        {
+          "key": "customized_inference",
+          "value": "Customized Inference"
+        }
+      ],
+      "product_tags": [
+        {
+          "key": "nvidia_dgx",
+          "value": "NVIDIA DGX"
+        },
+        {
+          "key": "nvidia_ai_enterprise",
+          "value": "NVIDIA AI Enterprise"
+        }
+      ],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare and Life Sciences"
+        },
+        {
+          "key": "medical_imaging",
+          "value": "Medical Imaging"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 27,
+      "featured": false,
+      "title": "Lab-in-the-Loop AI for Life Science",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/lab-in-the-loop-ai-for-life-science/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/nvidia-hc-lab-in-the-loop-structural-biology-1920x1080-new.jpg",
+      "workloads": [{
+        "key": "generative_ai_or_llms",
+        "value": "Generative AI / LLMs"
+      }],
+      "product_tags": [{
+        "key": "nvidia_bionemo",
+        "value": "NVIDIA BioNeMo"
+      }],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "biopharma",
+          "value": "Biopharma"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 28,
+      "featured": false,
+      "title": "Clinical Documentation Powered by Generative AI",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/digital-health-clinical-documentation/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/healthcare-call-center-1920x1080-new.jpg",
+      "workloads": [
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        },
+        {
+          "key": "accelerated_computing_tools_and_techniques",
+          "value": "Accelerated Computing Tools & Techniques"
+        }
+      ],
+      "product_tags": [{
+        "key": "nvidia_ai_enterprise",
+        "value": "NVIDIA AI Enterprise"
+      }],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "digital_health",
+          "value": "Digital Health"
+        }
+      ],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 29,
+      "featured": false,
+      "title": "Real-World Data Insights for Healthcare",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/real-world-data-insights-for-healthcare/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/hc-more-data-1920x1080-new.jpg",
+      "workloads": [
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        },
+        {
+          "key": "data_science",
+          "value": "Data Science"
+        }
+      ],
+      "product_tags": [{
+        "key": "nvidia_ai_enterprise",
+        "value": "NVIDIA AI Enterprise"
+      }],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "digital_health",
+          "value": "Digital Health"
+        }
+      ],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 30,
+      "featured": false,
+      "title": "AI Agents for Healthcare Contact Center",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/ai-agents-for-healthcare/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/hc-more-contract-1920x1080-new.jpg",
+      "workloads": [
+        {
+          "key": "generative_ai_or_llms",
+          "value": "Generative AI / LLMs"
+        },
+        {
+          "key": "conversational_aiornlp",
+          "value": "Conversational AI/NLP"
+        }
+      ],
+      "product_tags": [{
+        "key": "nvidia_ai_enterprise",
+        "value": "NVIDIA AI Enterprise"
+      }],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "digital_health",
+          "value": "Digital Health"
+        }
+      ],
+      "business_goals": [{
+        "key": "return_on_investment",
+        "value": "Return on Investment"
+      }],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    },
+    {
+      "order": 31,
+      "featured": true,
+      "title": "Genomics Analysis",
+      "use_case_explorer_catalog_url": "https://www.nvidia.com/en-us/use-cases/genomics-analysis/",
+      "thumbnail": "https://www.nvidia.com/content/dam/en-zz/use-case/bruker-spatial-biology-1920-1080-new.jpg",
+      "workloads": [{
+        "key": "generative_ai_or_llms",
+        "value": "Generative AI / LLMs"
+      }],
+      "product_tags": [{
+        "key": "nvidia_parabricks",
+        "value": "NVIDIA Parabricks"
+      }],
+      "industry_tags": [
+        {
+          "key": "healthcare_and_life_sciences",
+          "value": "Healthcare & Life Sciences"
+        },
+        {
+          "key": "genomics",
+          "value": "Genomics"
+        }
+      ],
+      "business_goals": [
+        {
+          "key": "innovation",
+          "value": "Innovation"
+        },
+        {
+          "key": "return_on_investment",
+          "value": "Return on Investment"
+        }
+      ],
+      "technologies": [{
+        "key": "",
+        "value": ""
+      }]
+    }
+  ]
+}
