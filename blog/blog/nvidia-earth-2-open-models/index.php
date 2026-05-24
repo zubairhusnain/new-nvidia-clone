@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA Launches Earth-2 Family of Open Models — the World’s First Fully Open, Accelerated Set of Models and Tools for AI Weather">
 	<meta property="og:description" content="NVIDIA Earth-2 makes weather AI accessible worldwide at every stage — from processing initial observation data to generating 15-day global forecasts or local storm forecasts.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/nvidia-earth-2-open-models/">
+	<meta property="og:url" content="/blog/blog/nvidia-earth-2-open-models/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-01-26T14:00:53+00:00">

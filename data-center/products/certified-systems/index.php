@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/products/certified-systems/">
+<meta property="og:url" content="/data-center/products/certified-systems/">
 <meta property="og:title" content="NVIDIA Certified Systems">
 <meta property="og:description" content="Accelerated systems from certified partners delivering performance and scale.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Certified Systems">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/products/certified-systems/">
+<meta name="twitter:url" content="/data-center/products/certified-systems/">
 <meta name="twitter:description" content="Accelerated systems from leading NVIDIA partners, certified to deliver maximum performance, reliability, and scale.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/nvidia-certified-systems-og-100_.jpg">

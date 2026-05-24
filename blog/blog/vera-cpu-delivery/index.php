@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs">
 	<meta property="og:description" content="Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/vera-cpu-delivery/">
+	<meta property="og:url" content="/blog/blog/vera-cpu-delivery/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-05-18T21:48:17+00:00">

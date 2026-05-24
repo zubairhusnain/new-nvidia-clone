@@ -22,7 +22,7 @@
 
 <meta property="og:site_name">
 <meta property="og:type">
-<meta property="og:url" content="https://www.nvidia.com/en-us/technologies/cuda-x/">
+<meta property="og:url" content="/technologies/cuda-x/">
 <meta property="og:title" content="CUDA X">
 <meta property="og:description" content="NVIDIA GPU-acceleration libraries for artificial intelligence">
 
@@ -32,7 +32,7 @@
 <meta name="twitter:site">
 <meta name="twitter:creator">
 <meta name="twitter:title" content="CUDA X">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/technologies/cuda-x/">
+<meta name="twitter:url" content="/technologies/cuda-x/">
 <meta name="twitter:description" content="NVIDIA GPU-acceleration libraries for AI and HPC">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-og.jpg">

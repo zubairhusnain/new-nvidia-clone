@@ -22,7 +22,7 @@ nvidia jetson">
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/">
+<meta property="og:url" content="/autonomous-machines/embedded-systems/">
 <meta property="og:title" content="NVIDIA Embedded Systems for Next-Gen Autonomous Machines">
 <meta property="og:description" content="Learn how the Jetson Portfolio is bringing the power of modern AI to embedded system and autonomous machines.">
 
@@ -32,7 +32,7 @@ nvidia jetson">
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Embedded Systems for Next-Gen Autonomous Machines">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/">
+<meta name="twitter:url" content="/autonomous-machines/embedded-systems/">
 <meta name="twitter:description" content="Learn how the Jetson Portfolio is bringing the power of modern AI to embedded system and autonomous machines.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-og.jpg">

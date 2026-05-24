@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/products/mgx/">
+<meta property="og:url" content="/data-center/products/mgx/">
 <meta property="og:title" content="NVIDIA MGX Platform">
 <meta property="og:description" content="Bring accelerated computing into any data center with modular server designs.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADC">
 <meta name="twitter:title" content="NVIDIA MGX Platform for Modular Server Design">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/products/mgx/">
+<meta name="twitter:url" content="/data-center/products/mgx/">
 <meta name="twitter:description" content="MGX provides a new standard for modular server design by improving ROI and reducing time to market.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/mgx/nvidia-mgx-og.jpg">

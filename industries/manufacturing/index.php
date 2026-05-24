@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/manufacturing/">
+<meta property="og:url" content="/industries/manufacturing/">
 <meta property="og:title" content="NVIDIA AI in Manufacturing">
 <meta property="og:description" content="From Design to Delivery.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA AI in Manufacturing">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/manufacturing/">
+<meta name="twitter:url" content="/industries/manufacturing/">
 <meta name="twitter:description" content="Discover How the Manufacturing Industry Is Using AI and Accelerated Computing.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/manufacturing-industry-og-1200x630.jpg">

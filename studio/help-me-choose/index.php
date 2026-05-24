@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/studio/help-me-choose/">
+<meta property="og:url" content="/studio/help-me-choose/">
 <meta property="og:title" content="Find the Best GPU for Creative Workflows">
 <meta property="og:description" content="Explore NVIDIA Studio laptops and desktops built for creators.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAStudio">
 <meta name="twitter:title" content="Choose the Best GPU for Creative Workflows - NVIDIA Studio">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/studio/help-me-choose/">
+<meta name="twitter:url" content="/studio/help-me-choose/">
 <meta name="twitter:description" content="Whether you’re into editing video, livestreaming, designing in 3D, or more, NVIDIA RTX-powered hardware delivers the speed, reliability and performance your projects demand.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">

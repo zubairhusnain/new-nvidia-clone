@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/design-visualization/software/broadcast-app/">
+<meta property="og:url" content="/design-visualization/software/broadcast-app/">
 <meta property="og:title" content="Conference calls have never looked so good.">
 <meta property="og:description" content="NVIDIA Broadcast App">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADesign ">
 <meta name="twitter:title" content="NVIDIA Broadcast App for Home Studios &amp; Offices">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/design-visualization/software/broadcast-app/">
+<meta name="twitter:url" content="/design-visualization/software/broadcast-app/">
 <meta name="twitter:description" content="NVIDIA Broadcast App">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/broadcast-app/nvidia-broadcast-app-announcement-gf-lp-og-1200x627.jpg">

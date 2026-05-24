@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/">
+<meta property="og:url" content="/solutions/autonomous-vehicles/partners/">
 <meta property="og:title" content="NVIDIA DRIVE Partner Ecosystem">
 <meta property="og:description" content="Accelerating automotive breakthroughs">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA  ">
 <meta name="twitter:creator" content="@NVIDIADRIVE">
 <meta name="twitter:title" content="NVIDIA DRIVE Partner Ecosystem">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/partners/">
+<meta name="twitter:url" content="/solutions/autonomous-vehicles/partners/">
 <meta name="twitter:description" content="This diverse ecosystem is accelerating innovation across the industry for safer, more intelligent transportation. Read about the automotive partners &amp; more.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/partners/drive-partner-ecosystem-og.jpg">

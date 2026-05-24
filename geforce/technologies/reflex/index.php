@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/technologies/reflex/">
+<meta property="og:url" content="/geforce/technologies/reflex/">
 <meta property="og:title" content="NVIDIA Reflex 2 Introduces Frame Warp ">
 <meta property="og:description" content="Reduces latency based on the game’s latest mouse input. ">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA Reflex 2 Introduces Frame Warp (Coming Soon!)">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/technologies/reflex/">
+<meta name="twitter:url" content="/geforce/technologies/reflex/">
 <meta name="twitter:description" content="Reflex technologies optimize the graphics pipeline for ultimate responsiveness, providing faster target acquisition, quicker reaction times, and improved aim precision in competitive games. ">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/reflex/geforce-rtx-reflex2-og-1200x630@2x.jpg">

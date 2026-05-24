@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/government/">
+<meta property="og:url" content="/industries/government/">
 <meta property="og:title" content="NVIDIA for Government : AI Innovation">
 <meta property="og:description" content="AI and accelerated computing solutions">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA for Government: AI &amp; Accelerated Computing">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/government/">
+<meta name="twitter:url" content="/industries/government/">
 <meta name="twitter:description" content="See how NVIDIA AI and accelerated computing enable smarter, more efficient government services across national and global agencies.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">

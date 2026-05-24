@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP">
 	<meta property="og:description" content="Creative AI agents, secured by the NVIDIA OpenShell runtime, generate on-brand content, transforming how brands create, personalize and activate content.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/adobe-ai-agents-nvidia-wpp/">
+	<meta property="og:url" content="/blog/blog/adobe-ai-agents-nvidia-wpp/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-04-20T13:00:50+00:00">

@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/">
+<meta property="og:url" content="/geforce/graphics-cards/50-series/">
 <meta property="og:title" content="NVIDIA GeForce RTX 50 Series Graphics Cards">
 <meta property="og:description" content="Powered by NVIDIA Blackwell.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA GeForce RTX 50 Series Graphics Cards">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/">
+<meta name="twitter:url" content="/geforce/graphics-cards/50-series/">
 <meta name="twitter:description" content="Powered by NVIDIA Blackwell, GeForce RTX 50 Series GPUs bring game-changing capabilities to gamers and creators. Equipped with a massive level of AI horsepower, enables new experiences and next-level graphics fidelity.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg">

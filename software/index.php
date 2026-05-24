@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/software/">
+<meta property="og:url" content="/software/">
 <meta property="og:title" content="NVIDIA Software">
 <meta property="og:description" content="The definitive list.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Software &amp; Applications">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/software/">
+<meta name="twitter:url" content="/software/">
 <meta name="twitter:description" content="Browse the entire collection of NVIDIA software for enterprise, gaming, creators, and developers. ">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/Datacenter-AI_Accelerated-407@2x.jpg">

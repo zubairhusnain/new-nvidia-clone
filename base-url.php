@@ -74,21 +74,56 @@ function cw_normalize_request_path(string $path): string
     return $path;
 }
 
-$baseUrl = 'http://localhost/nvidia-clone/nvidia_offline';
-if (!defined('CW_BASE_URL')) {
-    $override = getenv('CW_BASE_URL');
-    if (is_string($override) && $override !== '') {
-        $base = $override;
-    } elseif (isset($_SERVER['HTTP_HOST'])) {
-        $isHttps = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') || (($_SERVER['SERVER_PORT'] ?? '') === '443');
-        $scheme = $isHttps ? 'https' : 'http';
-        $host = (string)$_SERVER['HTTP_HOST'];
-        $base = $scheme . '://' . $host . cw_install_base_path();
-    } else {
-        $base = $baseUrl;
+function cw_request_is_https(): bool
+{
+    if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
+        return true;
+    }
+    if (($_SERVER['SERVER_PORT'] ?? '') === '443') {
+        return true;
+    }
+    if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strtolower((string)$_SERVER['HTTP_X_FORWARDED_PROTO']) === 'https') {
+        return true;
+    }
+    if (isset($_SERVER['HTTP_X_FORWARDED_SSL']) && strtolower((string)$_SERVER['HTTP_X_FORWARDED_SSL']) === 'on') {
+        return true;
     }
 
-    define('CW_BASE_URL', rtrim($base, '/'));
+    return false;
+}
+
+/** Resolve site base URL from CW_BASE_URL env or the current HTTP request. */
+function cw_detect_base_url(): string
+{
+    $override = getenv('CW_BASE_URL');
+    if (is_string($override) && $override !== '') {
+        return rtrim($override, '/');
+    }
+
+    $path = cw_install_base_path();
+    $host = '';
+
+    if (isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] !== '') {
+        $host = (string)$_SERVER['HTTP_HOST'];
+    } elseif (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] !== '') {
+        $host = (string)$_SERVER['SERVER_NAME'];
+        $port = (string)($_SERVER['SERVER_PORT'] ?? '');
+        if ($port !== '' && $port !== '80' && $port !== '443' && !str_contains($host, ':')) {
+            $host .= ':' . $port;
+        }
+    }
+
+    if ($host !== '') {
+        $scheme = cw_request_is_https() ? 'https' : 'http';
+
+        return rtrim($scheme . '://' . $host . $path, '/');
+    }
+
+    return $path === '' ? '' : rtrim($path, '/');
+}
+
+if (!defined('CW_BASE_URL')) {
+    define('CW_BASE_URL', cw_detect_base_url());
 }
 
 function cw_inject_after_head_open(string $html, string $insertion): string
@@ -145,6 +180,17 @@ function cw_to_clean_path(string $url): ?string
     }
 
     return $url;
+}
+
+/** Map nvidia.com / blogs.nvidia.com page URL to full local base URL. */
+function cw_nvidia_page_url_to_base(string $url, string $base): ?string
+{
+    $clean = cw_to_clean_path($url);
+    if ($clean === null) {
+        return null;
+    }
+
+    return $clean === '/' ? $base . '/' : $base . $clean;
 }
 
 function cw_rewrite_asset_urls_in_html(string $html): string
@@ -204,6 +250,59 @@ function cw_rewrite_asset_urls_in_html(string $html): string
     $html = preg_replace(
         '~\b(href|src)=(["\'])(?:https?:)?//blogs\.nvidia\.com/blog/([^"\']*)\2~i',
         '$1=$2' . $base . '/blog/blog/$3$2',
+        $html
+    ) ?? $html;
+
+    // Head meta tags: og:url, twitter:url, etc. → local base URL
+    $html = preg_replace_callback(
+        '~(<meta\b[^>]*\bcontent=(["\']))((?:https?:)?//(?:www\.)?nvidia\.com/(?:en-us/)?[^"\']*)\2~i',
+        static function (array $m) use ($base): string {
+            $url = $m[3];
+            if (preg_match('~^https?://(?:www\.)?nvidia\.com/content/(dam|nvidiaGDC)/~i', $url)) {
+                $path = preg_replace('~^https?://(?:www\.)?nvidia\.com/~i', '', $url);
+                return $m[1] . $base . '/assets/www.nvidia.com/' . ltrim($path, '/') . $m[2];
+            }
+            if (preg_match('~\.(css|js|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json)(\?|$)~i', $url)) {
+                return $m[0];
+            }
+            $local = cw_nvidia_page_url_to_base($url, $base);
+            return $local !== null ? $m[1] . $local . $m[2] : $m[0];
+        },
+        $html
+    ) ?? $html;
+    $html = preg_replace(
+        '~(<meta\b[^>]*\bcontent=(["\']))(?:https?:)?//blogs\.nvidia\.com/blog/([^"\']*)\2~i',
+        '$1' . $base . '/blog/blog/$3$2',
+        $html
+    ) ?? $html;
+    $html = preg_replace_callback(
+        '~(<meta\b[^>]*\bcontent=(["\']))(/(?!/|assets/|content/|etc\.clientlibs/)[^"\']*)\2~i',
+        static function (array $m) use ($base): string {
+            if (str_starts_with($m[3], $base)) {
+                return $m[0];
+            }
+            return $m[1] . $base . $m[3] . $m[2];
+        },
+        $html
+    ) ?? $html;
+
+    // Canonical link with nvidia.com href → local base URL
+    $html = preg_replace_callback(
+        '~(<link\b[^>]*\brel=(["\'])canonical\2[^>]*\bhref=(["\']))(?:https?:)?//(?:www\.)?nvidia\.com/(?:en-us/)?([^"\']*)\3~i',
+        static function (array $m) use ($base): string {
+            $url = 'https://www.nvidia.com/' . ltrim($m[4], '/');
+            $local = cw_nvidia_page_url_to_base($url, $base);
+            return $local !== null ? $m[1] . $local . $m[3] : $m[0];
+        },
+        $html
+    ) ?? $html;
+    $html = preg_replace_callback(
+        '~(<link\b[^>]*\bhref=(["\']))(?:https?:)?//(?:www\.)?nvidia\.com/(?:en-us/)?([^"\']*)\2[^>]*\brel=(["\'])canonical\4~i',
+        static function (array $m) use ($base): string {
+            $url = 'https://www.nvidia.com/' . ltrim($m[3], '/');
+            $local = cw_nvidia_page_url_to_base($url, $base);
+            return $local !== null ? $m[1] . $local . $m[2] : $m[0];
+        },
         $html
     ) ?? $html;
 
@@ -302,16 +401,6 @@ function cw_rewrite_asset_urls_in_html(string $html): string
     if (!str_contains($html, 'id="cw-hydrate-images"')) {
         $hydrate = '<script id="cw-hydrate-images">(function(){var b=' . json_encode($base) . ';function fix(u){if(!u||typeof u!=="string")return u;if(u.indexOf("data:image")===0)return u;if(/^https?:\\/\\//i.test(u))return u;if(u.indexOf("/content/dam/")===0)return b+"/assets/www.nvidia.com/content/dam/"+u.slice(13);if(u.indexOf("/content/nvidiaGDC/")===0)return b+"/assets/www.nvidia.com/content/nvidiaGDC/"+u.slice(18);if(u.indexOf("./assets/")===0)return b+u.slice(1);if(u.indexOf("../assets/")===0||u.indexOf("assets/")===0){var i=u.indexOf("assets/");if(i>=0)return b+"/"+u.slice(i);}return u;}function pickSrc(el){var a=el.getAttribute("data-asset");if(a&&a.indexOf("assets/")>=0)return fix(a);var c=el.getAttribute("data-cmp-src");if(c)return fix(c);return null;}function run(){try{document.querySelectorAll("[data-cmp-src],[data-cmp-desktopimage],[data-cmp-mobileimage],[data-src],img.cmp-image__image--is-loading").forEach(function(el){var attrs=["data-cmp-src","data-cmp-desktopimage","data-cmp-mobileimage","data-src","data-asset","src"];for(var i=0;i<attrs.length;i++){var a=attrs[i];var v=el.getAttribute(a);if(!v)continue;var nv=fix(v);if(nv!==v)el.setAttribute(a,nv);}var use=pickSrc(el);if(!use&&el.tagName==="IMG")use=fix(el.getAttribute("src"));if(use){var img=el.tagName==="IMG"?el:el.querySelector("img");if(img){var s=img.getAttribute("src")||"";if(!s||s.indexOf("data:image/gif")===0||/cmp-image__image--is-loading/.test(img.className)){img.setAttribute("src",use);img.classList.remove("cmp-image__image--is-loading");}}}});}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",run);}else{run();}setTimeout(run,400);setTimeout(run,1500);})();</script>';
         $html = preg_replace('~</head>~i', $hydrate . '</head>', $html, 1) ?? $html;
-    }
-
-    // Canonical on homepage
-    if ($path === '/' || $path === '') {
-        $html = preg_replace(
-            '~(<link\s+rel=["\']canonical["\'][^>]*href=["\'])([^"\']*)(["\'])~i',
-            '$1' . $base . '/$3',
-            $html,
-            1
-        ) ?? $html;
     }
 
     $html = cw_sanitize_html($html);

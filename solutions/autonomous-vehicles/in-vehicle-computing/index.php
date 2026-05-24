@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/in-vehicle-computing/">
+<meta property="og:url" content="/solutions/autonomous-vehicles/in-vehicle-computing/">
 <meta property="og:title" content="In-Vehicle Computing for Autonomous Vehicles">
 <meta property="og:description" content="Driving Next-Generation AV Breakthroughs.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADRIVE">
 <meta name="twitter:title" content="In-Vehicle Computing for Autonomous Vehicles">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/in-vehicle-computing/">
+<meta name="twitter:url" content="/solutions/autonomous-vehicles/in-vehicle-computing/">
 <meta name="twitter:description" content="NVIDIA DRIVE AGX powers AI-driven, safe driving, while DriveOS ensures real-time processing, security, and monitoring to meet functional safety standards.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/in-vehicle-computing/high-performance-in-vehicle-computing-for-autonomous-vehicles-og.jpg">

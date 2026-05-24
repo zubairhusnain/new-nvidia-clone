@@ -23,7 +23,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="From Simulation to Production: How to Build Robots With AI">
 	<meta property="og:description" content="The latest open models and frameworks from NVIDIA bring together simulation, robot learning and embedded compute to accelerate cloud-to-robot workflows.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/build-robots-with-ai/">
+	<meta property="og:url" content="/blog/blog/build-robots-with-ai/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-03-18T13:00:13+00:00">

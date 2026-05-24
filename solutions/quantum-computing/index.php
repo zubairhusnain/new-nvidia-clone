@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/solutions/quantum-computing/">
+<meta property="og:url" content="/solutions/quantum-computing/">
 <meta property="og:title" content="Quantum Computing Solutions from NVIDIA">
 <meta property="og:description" content="Accelerating the Future of Scientific Discovery. ">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Accelerated Quantum Computing Solutions from NVIDIA">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/quantum-computing/">
+<meta name="twitter:url" content="/solutions/quantum-computing/">
 <meta name="twitter:description" content="Discover how NVIDIA’s quantum computing solutions are shaping the future by integrating quantum processing units with AI supercomputers for groundbreaking scientific advancements.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/quantum-computing/nvidia-quantum-computing-og.jpg">

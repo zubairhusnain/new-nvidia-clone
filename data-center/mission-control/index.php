@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/mission-control/">
+<meta property="og:url" content="/data-center/mission-control/">
 <meta property="og:title" content="NVIDIA Mission Control">
 <meta property="og:description" content="Software-Defined Expertise and Intelligence for AI Factories. ">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Run Models for AI Factories with NVIDIA Mission Control">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/mission-control/">
+<meta name="twitter:url" content="/data-center/mission-control/">
 <meta name="twitter:description" content="NVIDIA Mission Control simplifies AI operations, from cluster deployment to workload orchestration to building management integration. ">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-ai-factory-mission-control-og.jpg">

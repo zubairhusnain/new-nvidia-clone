@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/dgx-platform/">
+<meta property="og:url" content="/data-center/dgx-platform/">
 <meta property="og:title" content="NVIDIA DGX Platform">
 <meta property="og:description" content="The best of NVIDIA AI - All in One Place.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA DGX Platform">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/dgx-platform/">
+<meta name="twitter:url" content="/data-center/dgx-platform/">
 <meta name="twitter:description" content="Built from the ground up for enterprise AI, the NVIDIA DGX platform, featuring NVIDIA DGX SuperPOD. ">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/73466-dgx-platform-og.jpg">

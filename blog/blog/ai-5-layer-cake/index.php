@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="AI Is a 5-Layer Cake">
 	<meta property="og:description" content="AI is one of the most powerful forces shaping the world today. It is not a clever app or a single model; it is essential infrastructure, like electricity and the internet.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/ai-5-layer-cake/">
+	<meta property="og:url" content="/blog/blog/ai-5-layer-cake/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-03-10T10:00:03+00:00">

@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="GeForce RTX 50 Series">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/campaigns/007-first-light-geforce-rtx-50-series-bundle/">
+<meta property="og:url" content="/geforce/campaigns/007-first-light-geforce-rtx-50-series-bundle/">
 <meta property="og:title" content="Get 007 First Light with RTX 50 Series">
 <meta property="og:description" content="Free with RTX 5090, 5080, 5070 Ti &amp; more.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="NVIDIA GeForce NOW">
 <meta name="twitter:title" content="Get 007 First Light with RTX 50 Series GPUs">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/campaigns/007-first-light-geforce-rtx-50-series-bundle/">
+<meta name="twitter:url" content="/geforce/campaigns/007-first-light-geforce-rtx-50-series-bundle/">
 <meta name="twitter:description" content="Step into the world of 007 with GeForce RTX 50 Series. Get 007 First Light free with qualifying RTX 5090, 5080, 5070 Ti, 5070, or 5060 Ti desktop or laptop purchase. Limited time offer.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/campaigns/007-first-light-geforce-rtx-50-series-bundle/geforce-rtx-007-first-light-bundle-og-1200x630.jpg">

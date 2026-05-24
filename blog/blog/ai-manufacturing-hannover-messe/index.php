@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA and Partners Showcase the Future of AI-Driven Manufacturing at Hannover Messe 2026">
 	<meta property="og:description" content="At Hannover Messe 2026, running April 20-24 in Hannover, Germany, NVIDIA and its partners are demonstrating AI-driven manufacturing in action.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe/">
+	<meta property="og:url" content="/blog/blog/ai-manufacturing-hannover-messe/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-04-20T08:30:55+00:00">

@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/drive-videos/">
+<meta property="og:url" content="/solutions/autonomous-vehicles/drive-videos/">
 <meta property="og:title" content=" NVIDIA Drive Video Series">
 <meta property="og:description" content="Experience Our Latest AV Innovations!!!">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Drive Video Series">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/drive-videos/">
+<meta name="twitter:url" content="/solutions/autonomous-vehicles/drive-videos/">
 <meta name="twitter:description" content="The NVIDIA DRIVE Software team is constantly innovating, developing redundant and diverse deep neural networks.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/drive-labs/nvidia-drive-labs.jpg">

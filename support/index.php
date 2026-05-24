@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/support/">
+<meta property="og:url" content="/support/">
 <meta property="og:title" content="NVIDIA Customer Support ">
 <meta property="og:description" content="Find help for gaming, graphics, or enterprise products.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Customer Support at NVIDIA">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/support/">
+<meta name="twitter:url" content="/support/">
 <meta name="twitter:description" content="Find the help you need, whether you’re a gamer, developer, or professional, we have the solutions you need.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/sfg/nvidia-corporate-og-image-1200x630.jpg">

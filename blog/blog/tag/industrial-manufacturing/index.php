@@ -21,7 +21,7 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Industrial and Manufacturing Archives">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/tag/industrial-manufacturing/">
+	<meta property="og:url" content="/blog/blog/tag/industrial-manufacturing/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="og:image" content="../../../../assets/blogs.nvidia.com/wp-content/uploads/2026/03/nvidia-kv-2026-ari.jpg">
 	<meta property="og:image:width" content="1920">

@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/">
+<meta property="og:url" content="/geforce/graphics-cards/">
 <meta property="og:title" content="NVIDIA GeForce Graphics Cards">
 <meta property="og:description" content="GeForce RTX 50 series, 40 series &amp; more.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA GeForce Graphics Cards">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/">
+<meta name="twitter:url" content="/geforce/graphics-cards/">
 <meta name="twitter:description" content="Explore NVIDIA GeForce graphics cards. RTX 50 Series, RTX 40 Series, and more.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg">

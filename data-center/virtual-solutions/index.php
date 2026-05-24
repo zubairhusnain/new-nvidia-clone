@@ -21,7 +21,7 @@
 
 <meta property="og:site_name">
 <meta property="og:type">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/virtual-solutions/">
+<meta property="og:url" content="/data-center/virtual-solutions/">
 <meta property="og:title" content="NVIDIA Virtual GPU for AI &amp; VDI">
 <meta property="og:description" content="Accelerate AI, virtual desktops, and graphics with NVIDIA vGPU software.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site">
 <meta name="twitter:creator">
 <meta name="twitter:title" content="NVIDIA Virtual GPU Software: Accelerate AI, VDI &amp; Graphics Workloads">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/virtual-solutions/">
+<meta name="twitter:url" content="/data-center/virtual-solutions/">
 <meta name="twitter:description" content="Virtual GPU software delivers accelerated computing for AI, virtual desktops, and graphics workloads. It enables scalable GPU sharing across VMs, enhancing performance, security, and IT manageability.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/virtual-solutions/vgpu-solution-og-new.jpg">

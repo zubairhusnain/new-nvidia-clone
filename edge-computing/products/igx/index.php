@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/edge-computing/products/igx/">
+<meta property="og:url" content="/edge-computing/products/igx/">
 <meta property="og:title" content="NVIDIA IGX Platform">
 <meta property="og:description" content="Advanced functional safety and security for edge AI.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA IGX Platform">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/edge-computing/products/igx/">
+<meta name="twitter:url" content="/edge-computing/products/igx/">
 <meta name="twitter:description" content="NVIDIA IGX is an industrial-grade edge AI platform that delivers high performance, advanced functional safety, and security. Purpose-built for industrial and medical environments.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-orin-devkit-rtxpro-og.jpg">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/technologies/ada-architecture/">
+<meta property="og:url" content="/technologies/ada-architecture/">
 <meta property="og:title" content="NVIDIA Ada Lovelace for Professional Visualization">
 <meta property="og:description" content="Engineered to perfection and featuring cutting-edge innovations.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA ">
 <meta name="twitter:title" content="NVIDIA Ada Lovelace for Professional Visualization">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/technologies/ada-architecture/">
+<meta name="twitter:url" content="/technologies/ada-architecture/">
 <meta name="twitter:description" content="The all new NVIDIA Ada Lovelace GPU architecture takes RTX to new heights for professional workloads.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/Ada-Lovelace-Architecture/nvidia-ada-lovelace-architecture-og.jpg">

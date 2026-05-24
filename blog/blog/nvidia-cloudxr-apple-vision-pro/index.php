@@ -23,7 +23,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="More Than Meets the Eye: NVIDIA RTX-Accelerated Computers Now Connect Directly to Apple Vision Pro">
 	<meta property="og:description" content="NVIDIA and Apple’s collaboration brings native integration of NVIDIA CloudXR 6.0 to visionOS, securely delivering NVIDIA RTX-powered simulators and professional 3D graphics applications — like Immersive for Autodesk VRED on Innoactive’s XR streaming solutions — to Apple Vision Pro.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/nvidia-cloudxr-apple-vision-pro/">
+	<meta property="og:url" content="/blog/blog/nvidia-cloudxr-apple-vision-pro/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-03-17T17:00:58+00:00">

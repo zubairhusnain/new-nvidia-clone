@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA GTC 2026: Live Updates on What’s Next in AI">
 	<meta property="og:description" content="Rolling coverage from San Jose, including NVIDIA CEO Jensen Huang’s keynote, news highlights, live demos and on‑the‑ground color through March 20.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/gtc-2026-news/">
+	<meta property="og:url" content="/blog/blog/gtc-2026-news/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-03-20T00:15:17+00:00">

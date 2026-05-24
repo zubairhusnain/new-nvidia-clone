@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/glossary/digital-twin/">
+<meta property="og:url" content="/glossary/digital-twin/">
 <meta property="og:title" content="What Is a Digital Twin?">
 <meta property="og:description" content="Check the NVIDIA Glossary for more details.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAAI">
 <meta name="twitter:title" content="What Is a Digital Twin? - NVIDIA Glossary">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/glossary/digital-twin/">
+<meta name="twitter:url" content="/glossary/digital-twin/">
 <meta name="twitter:description" content="Digital twins are virtual representations of products, processes, and facilities that enterprises use to design, simulate, and operate their physical counterparts.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/digital-twin-glossary-og.jpg">

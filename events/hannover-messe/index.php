@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/events/hannover-messe/">
+<meta property="og:url" content="/events/hannover-messe/">
 <meta property="og:title" content="NVIDIA at Hannover Messe 2026, April 20–24">
 <meta property="og:description" content="Hannover Exhibition Grounds, Germany #HM26">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA at Hannover Messe 2026, April 20–24">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/events/hannover-messe/">
+<meta name="twitter:url" content="/events/hannover-messe/">
 <meta name="twitter:description" content="The next era of industrial digitalization and software-defined manufacturing has arrived. At Hannover Messe 2026, join NVIDIA and our partners to explore the latest breakthroughs in industrial AI. #HM26">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/hannover-messe-event-lp-og.jpg">

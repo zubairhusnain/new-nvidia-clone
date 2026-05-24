@@ -31,7 +31,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/research/">
+<meta property="og:url" content="/research/">
 <meta property="og:title" content="Research at NVIDIA">
 <meta property="og:description" content="Explore State of the Art Generative AI, Graphics, and More.">
 
@@ -41,7 +41,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Research at NVIDIA">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/research/">
+<meta name="twitter:url" content="/research/">
 <meta name="twitter:description" content="Groundbreaking technology begins right here with the world's leading researchers.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/research/nvidia-arap-annoucement-social-1200x600-research-b.jpg">

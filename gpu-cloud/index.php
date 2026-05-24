@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/gpu-cloud/">
+<meta property="og:url" content="/gpu-cloud/">
 <meta property="og:title" content="Explore NVIDIA NGC">
 <meta property="og:description" content="GPU-optimized AI Software, Enterprise Services and Support">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="GPU-optimized AI Software, Enterprise Services and Support">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/gpu-cloud/">
+<meta name="twitter:url" content="/gpu-cloud/">
 <meta name="twitter:description" content="NVIDIA NGC provides access to GPU-optimized AI software, enterprise services and support.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/gpu-cloud/nvidia-ngc-og-image.jpg">

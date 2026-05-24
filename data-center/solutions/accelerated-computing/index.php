@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website or Article">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/solutions/accelerated-computing/">
+<meta property="og:url" content="/data-center/solutions/accelerated-computing/">
 <meta property="og:title" content="Accelerated Computing for Enterprise IT | NVIDIA">
 <meta property="og:description" content="With the increasing number of users, explosion of data rates, advent of virtualization, and cloud computing technologies, the computing burden on the data center is increasing. Enterprise data centers are at a tipping point—the legacy, hyper-converged data center is giving way to a modern, disaggregated IT infrastructure that is secure and accelerated. Today’s data center is increasingly software-defined for security, networking, storage, and management, and IT looks to accelerated computing to satisfy modern needs. <br/><br/>">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Accelerated Computing for Enterprise IT | NVIDIA">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/solutions/accelerated-computing/">
+<meta name="twitter:url" content="/data-center/solutions/accelerated-computing/">
 <meta name="twitter:description" content="Today’s data center is increasingly software-defined for security, networking, storage, and management, and IT looks to accelerated computing to satisfy modern needs. ">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/accelerated-computing/certified-systems-bb460_420-d.jpg">

@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/rtx-remix/">
+<meta property="og:url" content="/geforce/rtx-remix/">
 <meta property="og:title" content="NVIDIA RTX Remix Modding Platform">
 <meta property="og:description" content="Create stunning RTX remasters of classic games. Download Now!">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA RTX Remix Modding Platform">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/rtx-remix/">
+<meta name="twitter:url" content="/geforce/rtx-remix/">
 <meta name="twitter:description" content="Built on NVIDIA Omniverse, RTX Remix is an open-sourced platform that allows modders to easily capture game assets, automatically enhance materials with generative AI tools, and more.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-remix/35755-nvidia-rtx-remix-og-1200x630.jpg">

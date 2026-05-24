@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/studio/">
+<meta property="og:url" content="/studio/">
 <meta property="og:title" content="NVIDIA Studio">
 <meta property="og:description" content="AI-Powered Platform for Creators.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAStudio">
 <meta name="twitter:title" content="NVIDIA Studio - AI-Powered Platform for Creators">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/studio/">
+<meta name="twitter:url" content="/studio/">
 <meta name="twitter:description" content="NVIDIA Studio combines RTX GPU performance and AI acceleration for faster video editing, smoother 3D rendering, seamless livestreaming, and more. No limits. No delays. Just you and the freedom to create.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio-home/nvidia-studio-og-1200x630.jpg">

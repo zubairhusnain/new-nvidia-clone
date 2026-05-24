@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/networking/">
+<meta property="og:url" content="/networking/">
 <meta property="og:title" content="Accelerated Networking Solutions from NVIDIA">
 <meta property="og:description" content="High-performance, low-latency networking for AI workloads.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIANetworking">
 <meta name="twitter:title" content="NVIDIA Networking Solutions: Powering AI Data Centers">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/">
+<meta name="twitter:url" content="/networking/">
 <meta name="twitter:description" content="Experience next-gen networking for AI. NVIDIA delivers accelerated performance, high throughput, and low latency for retrieval-augmented generation, training, and inference workloads.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/home/networking-og.jpg">

@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce-now/">
+<meta property="og:url" content="/geforce-now/">
 <meta property="og:title" content="NVIDIA GeForce NOW">
 <meta property="og:description" content="Your Games, Your Devices, RTX On">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGFN">
 <meta name="twitter:title" content="NVIDIA GeForce NOW">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce-now/">
+<meta name="twitter:url" content="/geforce-now/">
 <meta name="twitter:description" content="The ultimate cloud gaming service. Stream your favorite PC games instantly to any device, anytime, anywhere. Join the gaming revolution today!">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/server-status/geforce-now-50-series-announce-nv-sfg-thumbnail-1920x1080.jpg">

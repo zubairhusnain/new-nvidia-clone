@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/software/nvidia-app/g-assist/">
+<meta property="og:url" content="/software/nvidia-app/g-assist/">
 <meta property="og:title" content="NVIDIA Project G-Assist">
 <meta property="og:description" content="AI Assistant Powered by GeForce RTX PC">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Project G-Assist">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/software/nvidia-app/g-assist/">
+<meta name="twitter:url" content="/software/nvidia-app/g-assist/">
 <meta name="twitter:description" content="Project G-Assist is an AI assistant powered by your GeForce RTX PC that helps you tune and optimize your system">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/g-assist-system-requirements/g-assist-ces26-og-1200x630.jpg">

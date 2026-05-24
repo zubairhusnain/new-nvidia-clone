@@ -20,7 +20,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/products/g-sync-monitors/">
+<meta property="og:url" content="/geforce/products/g-sync-monitors/">
 <meta property="og:title" content="NVIDIA G SYNC: The Best Gaming Monitors">
 <meta property="og:description" content="Full HD game monitor with up to 360Hz refresh rates. #madetogame">
 
@@ -30,7 +30,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA G-SYNC: The Best Gaming Displays">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/products/g-sync-monitors/">
+<meta name="twitter:url" content="/geforce/products/g-sync-monitors/">
 <meta name="twitter:description" content="Gaming monitors with exceptional performance,  lowest latency, and highest refresh rates for ultra-smooth graphics. #madetogame">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-gsync-product-page/nvidia-g-sync-360-hz-og-image-1200x630.jpg">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/products/workstations/rendering/">
+<meta property="og:url" content="/products/workstations/rendering/">
 <meta property="og:title" content="NVIDIA GPU Rendering for 3D Designers">
 <meta property="og:description" content="Real-time ray tracing and rendering">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADesign">
 <meta name="twitter:title" content="NVIDIA GPU Rendering Solutions for Creatives">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/rendering/">
+<meta name="twitter:url" content="/products/workstations/rendering/">
 <meta name="twitter:description" content="Real-time ray tracing and rendering with the most advanced GPU architectures and compute languages.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/solutions/rendering/nvidia-rtx-rendering-og-share-1200x630-r1.jpg">

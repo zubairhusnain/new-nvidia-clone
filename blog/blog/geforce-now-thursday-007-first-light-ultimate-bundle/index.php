@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle">
 	<meta property="og:description" content="Get '007 First Light' free on launch day with one-year Ultimate membership - just in time to catch 'Forza Horizon 6' launch in the cloud,">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/">
+	<meta property="og:url" content="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-05-21T13:00:22+00:00">

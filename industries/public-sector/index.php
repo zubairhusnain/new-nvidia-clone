@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/government/federal/">
+<meta property="og:url" content="/industries/government/federal/">
 <meta property="og:title" content="AI for the US Federal Government">
 <meta property="og:description" content="Brighter and safer future for the public sector">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAAI">
 <meta name="twitter:title" content="AI for the US Federal Government">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/government/federal/">
+<meta name="twitter:url" content="/industries/government/federal/">
 <meta name="twitter:description" content="NVIDIA provides a way to direct the power of innovation through GPUs and an AI platform that enables any federal data set to become a potential breakthrough.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/federal/us-federal-public-sector-industry-og.jpg">

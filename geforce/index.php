@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/">
+<meta property="og:url" content="/geforce/">
 <meta property="og:title" content="NVIDIA GeForce">
 <meta property="og:description" content="Ultimate gaming, creating, and AI with GeForce RTX">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA GeForce: Graphics Cards, Gaming Laptops &amp; More">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/">
+<meta name="twitter:url" content="/geforce/">
 <meta name="twitter:description" content="Explore the world's most advanced graphics cards, gaming solutions, AI technology, and more.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/geforce/geforce-ecosystem-og-image-1200x630.jpg">

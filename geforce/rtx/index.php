@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/rtx/">
+<meta property="og:url" content="/geforce/rtx/">
 <meta property="og:title" content="NVIDIA GeForce RTX">
 <meta property="og:description" content="Revolutionizing the ways we play and create.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA GeForce RTX">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/rtx/">
+<meta name="twitter:url" content="/geforce/rtx/">
 <meta name="twitter:description" content="The Most advanced platform for ray tracing and AI technologies.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/gforce-rtx-ray-tracing-ai-og.jpg">

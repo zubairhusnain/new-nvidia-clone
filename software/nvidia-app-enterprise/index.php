@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/software/nvidia-app-enterprise/">
+<meta property="og:url" content="/software/nvidia-app-enterprise/">
 <meta property="og:title" content="NVIDIA App for Enterprise">
 <meta property="og:description" content="Download the newest version of NVIDIA App.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA App for Enterprise">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/software/nvidia-app-enterprise/">
+<meta name="twitter:url" content="/software/nvidia-app-enterprise/">
 <meta name="twitter:description" content="The ultimate companion for professionals using NVIDIA RTX graphics cards. Optimize your applications with a unified GPU control center, record your desktop in resolutions up to 8K, and discover the latest NVIDIA tools and software.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app-enterprise/enterprise-nvidia-app-og.jpg">

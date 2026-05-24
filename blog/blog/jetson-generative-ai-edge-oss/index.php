@@ -23,7 +23,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="As Open Models Spark AI Boom, NVIDIA Jetson Brings It to Life at the Edge">
 	<meta property="og:description" content="Open source generative AI models are leaving the data center and showing up in machines that work in the physical world. From Orin to Thor, the NVIDIA Jetson family is becoming a common place to run models like NVIDIA Nemotron, Cosmos and Isaac GR00T and a growing list of community models like Qwen, Gemma, Mistral AI, GPT-OSS, PI and others.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/jetson-generative-ai-edge-oss/">
+	<meta property="og:url" content="/blog/blog/jetson-generative-ai-edge-oss/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-03-10T16:43:40+00:00">

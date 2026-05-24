@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/networking/products/data-processing-unit/">
+<meta property="og:url" content="/networking/products/data-processing-unit/">
 <meta property="og:title" content="NVIDIA BlueField Networking Platform">
 <meta property="og:description" content="Discover more ways to transform your data center.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIANetworking">
 <meta name="twitter:creator" content="@NVIDIANetworking">
 <meta name="twitter:title" content="NVIDIA BlueField Networking Platform">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/products/data-processing-unit/">
+<meta name="twitter:url" content="/networking/products/data-processing-unit/">
 <meta name="twitter:description" content="Discover the wide range of ways that the NVIDIA BlueField DPU can offload, isolate, accelerate, and transform your data center.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/data-processing-unit/nvidia-bluefield-platform-og.jpg">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/game-development/">
+<meta property="og:url" content="/industries/game-development/">
 <meta property="og:title" content="AI Solutions for Game Development">
 <meta property="og:description" content="Drive new possibilities for game development with AI.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIAGameDev">
 <meta name="twitter:creator" content="@NVIDIAGameDev">
 <meta name="twitter:title" content="NVIDIA Enterprise Solutions Game Development">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/game-development/">
+<meta name="twitter:url" content="/industries/game-development/">
 <meta name="twitter:description" content="Drive new possibilities for game development with AI.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-development-industry-og.jpg">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/colocation-partners/">
+<meta property="og:url" content="/data-center/colocation-partners/">
 <meta property="og:title" content="NVIDIA DGX-Ready Colocation Data Centers">
 <meta property="og:description" content="Accelerate the scaling of AI across your organization.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA DGX-Ready Colocation Data Centers">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/colocation-partners/">
+<meta name="twitter:url" content="/data-center/colocation-partners/">
 <meta name="twitter:description" content="Connect with a partner to host your DGX infrastructure.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/colocation-partners/dgx-colocation-og.jpg">

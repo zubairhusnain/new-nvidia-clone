@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/technologies/hopper-architecture/">
+<meta property="og:url" content="/data-center/technologies/hopper-architecture/">
 <meta property="og:title" content="NVIDIA Hopper GPU Architecture">
 <meta property="og:description" content="World’s most advanced GPU.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Hopper GPU Architecture">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/technologies/hopper-architecture/">
+<meta name="twitter:url" content="/data-center/technologies/hopper-architecture/">
 <meta name="twitter:description" content="NVIDIA Hopper architecture advances Hopper Tensor Cores with new Transformer Engines using a new 8-bit floating point precision to deliver 6X higher performance.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/hopper-architecture/hpc-h200-og-1200x630.jpg">

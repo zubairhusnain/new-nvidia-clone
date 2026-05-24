@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/">
+<meta property="og:url" content="/solutions/autonomous-vehicles/">
 <meta property="og:title" content="NVIDIA Autonomous Vehicles Technology ">
 <meta property="og:description" content="AI vehicles are transforming mobility.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADRIVE">
 <meta name="twitter:title" content="NVIDIA Autonomous Vehicles Technology &amp; Solutions">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/">
+<meta name="twitter:url" content="/solutions/autonomous-vehicles/">
 <meta name="twitter:description" content="NVIDIA advanced AI models for AV-embedded software and cloud solutions to accelerate real-world deployment and improve efficiency.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/home/automotive-sdv-og.jpg">

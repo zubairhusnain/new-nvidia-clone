@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/restaurants/">
+<meta property="og:url" content="/industries/restaurants/">
 <meta property="og:title" content="NVIDIA AI Solutions for QSRs">
 <meta property="og:description" content="Deliver New Speed and Efficiency.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA AI Solutions for QSRs">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/restaurants/">
+<meta name="twitter:url" content="/industries/restaurants/">
 <meta name="twitter:description" content="AI technology is helping quick-service restaurants (QSRs) address labor shortage and become more agile and efficient.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/restaurants/nvidia-restaurant-industry.jpg">

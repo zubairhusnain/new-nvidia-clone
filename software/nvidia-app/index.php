@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/software/nvidia-app/">
+<meta property="og:url" content="/software/nvidia-app/">
 <meta property="og:title" content="Download NVIDIA App">
 <meta property="og:description" content="The essential companion for PC gamers and creators. ">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Download NVIDIA App for Gamers and Creators">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/software/nvidia-app/">
+<meta name="twitter:url" content="/software/nvidia-app/">
 <meta name="twitter:description" content="Enhance your gaming and creative experience with the NVIDIA app - stay updated with the latest drivers, optimize games, and capture memorable moments effortlessly.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-oct24-og-1200x630.jpg">

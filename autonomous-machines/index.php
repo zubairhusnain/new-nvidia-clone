@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/autonomous-machines/">
+<meta property="og:url" content="/autonomous-machines/">
 <meta property="og:title" content="NVIDIA Jetson: The Future of Autonomous Machines">
 <meta property="og:description" content="Enabling the future of robotics, intelligent video analytics, and autonomous machines with AI.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="The Future of Autonomous Machines">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/autonomous-machines/">
+<meta name="twitter:url" content="/autonomous-machines/">
 <meta name="twitter:description" content="NVIDIA Jetson enables the future of robotics, intelligent video analytics, and autonomous machines with AI.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/home/jetson-og.jpg">

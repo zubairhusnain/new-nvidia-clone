@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://www.nvidia.com/location-selector/">
+<meta property="og:url" content="/location-selector/">
 <meta property="og:title" content="NVIDIA Location Selector">
 <meta property="og:description" content="Enjoy NVIDIA content in your language.">
 
@@ -27,7 +27,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Location Selector">
-<meta name="twitter:url" content="https://www.nvidia.com/location-selector/">
+<meta name="twitter:url" content="/location-selector/">
 <meta name="twitter:description" content="Experience NVIDIA content in your language.">
 
 	<meta property="fb:app_id" content="1679326302390196">

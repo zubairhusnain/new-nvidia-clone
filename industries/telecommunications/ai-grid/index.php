@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="AI Grids">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/telecommunications/ai-grid/">
+<meta property="og:url" content="/industries/telecommunications/ai-grid/">
 <meta property="og:title" content="NVIDIA AI Grids for Distributed AI Infrastructure">
 <meta property="og:description" content="The Connective Tissue for Modern AI.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA AI Grids Power Distributed AI at Scale">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/telecommunications/ai-grid/">
+<meta name="twitter:url" content="/industries/telecommunications/ai-grid/">
 <meta name="twitter:description" content="Connect AI factories, regional hubs, and edge sites into a unified platform—securely orchestrating workloads to power generative, agentic, and physical AI applications worldwide.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/industries/telecommunications/ai-grid/nvidia-ai-grids-og.jpg">

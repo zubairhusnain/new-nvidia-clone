@@ -22,7 +22,7 @@ NVIDIA Omniverse">
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/energy/">
+<meta property="og:url" content="/industries/energy/">
 <meta property="og:title" content="NVIDIA AI Solutions for Energy Industry">
 <meta property="og:description" content="Deliver Energy Affordability and Sustainability.">
 
@@ -32,7 +32,7 @@ NVIDIA Omniverse">
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA AI Solutions for Energy Industry">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/energy/">
+<meta name="twitter:url" content="/industries/energy/">
 <meta name="twitter:description" content="Energy companies are using AI to reduce emissions and environmental impact from subsurface operations.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/energy-og.jpg">

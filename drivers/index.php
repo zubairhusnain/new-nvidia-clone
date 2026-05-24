@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/drivers/">
+<meta property="og:url" content="/drivers/">
 <meta property="og:title" content="Download The Latest Official NVIDIA Drivers">
 <meta property="og:description" content="Download the latest official NVIDIA drivers to enhance your PC gaming experience and run apps faster.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="Official NVIDIA Drivers">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/drivers/">
+<meta name="twitter:url" content="/drivers/">
 <meta name="twitter:description" content="Get automatic notifications of new driver releases from NVIDIA.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/drivers/cut-graphics/nvidia-geforce-drivers-meta-image-1200x627.jpg">

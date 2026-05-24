@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/products/ai-enterprise/">
+<meta property="og:url" content="/data-center/products/ai-enterprise/">
 <meta property="og:title" content="NVIDIA AI Enterprise">
 <meta property="og:description" content="The Software Platform for Enterprise Generative AI">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA AI Enterprise">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/products/ai-enterprise/">
+<meta name="twitter:url" content="/data-center/products/ai-enterprise/">
 <meta name="twitter:description" content="Easy-to-use microservices provide optimized model performance with enterprise-grade security, support, and stability.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/nvaie-og.jpg">

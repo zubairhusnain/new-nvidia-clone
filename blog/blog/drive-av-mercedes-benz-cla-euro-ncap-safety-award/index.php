@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA DRIVE AV Raises the Bar for Vehicle Safety as Mercedes-Benz CLA Earns Top Euro NCAP Award">
 	<meta property="og:description" content="The Mercedes-Benz CLA was recently named Euro NCAP's Best Performer of 2025, combining traditional passive safety features with NVIDIA DRIVE AV software to achieve the highest overall safety score of the year.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/drive-av-mercedes-benz-cla-euro-ncap-safety-award/">
+	<meta property="og:url" content="/blog/blog/drive-av-mercedes-benz-cla-euro-ncap-safety-award/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-01-22T18:21:49+00:00">

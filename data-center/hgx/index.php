@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/hgx/">
+<meta property="og:url" content="/data-center/hgx/">
 <meta property="og:title" content="NVIDIA HGX Platform">
 <meta property="og:description" content="Supercharging AI and high-performance computing for every data center.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADC">
 <meta name="twitter:title" content="NVIDIA HGX Platform">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/hgx/">
+<meta name="twitter:url" content="/data-center/hgx/">
 <meta name="twitter:description" content="The platform brings together the full power of NVIDIA GPUs, NVLink, NVIDIA networking, and fully optimized AI and high-performance computing (HPC) software stacks.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-og-new.jpg">

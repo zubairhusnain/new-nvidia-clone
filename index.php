@@ -16,7 +16,7 @@ cw_start_asset_url_rewrite();
 <meta content="L2NvbnRlbnQvbnZpZGlhR0RDL3VzL2VuX1VTL2hvbWU=" name="nv-id">
 <meta content="NVIDIA" property="og:site_name">
 <meta content="website" property="og:type">
-<meta content="https://www.nvidia.com/en-us/" property="og:url">
+<meta content="/" property="og:url">
 <meta content="World Leader in AI Computing" property="og:title">
 <meta content="We create the world’s fastest supercomputer and largest gaming platform." property="og:description">
 <meta content="./assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/sfg/nvidia-corporate-og-image-1200x630.jpg" property="og:image">
@@ -24,7 +24,7 @@ cw_start_asset_url_rewrite();
 <meta content="@NVIDIA" name="twitter:site">
 <meta content="@NVIDIA" name="twitter:creator">
 <meta content="World Leader in Artificial Intelligence Computing" name="twitter:title">
-<meta content="https://www.nvidia.com/en-us/" name="twitter:url">
+<meta content="/" name="twitter:url">
 <meta content="NVIDIA invents the GPU, creates the largest gaming platform, powers the world’s fastest supercomputer, and drives advances in AI, HPC, gaming, creative design, autonomous vehicles, and robotics." name="twitter:description">
 <meta content="./assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/sfg/nvidia-corporate-og-image-1200x630.jpg" name="twitter:image">
 <meta content="1679326302390196" property="fb:app_id">

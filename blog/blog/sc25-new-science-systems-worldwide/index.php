@@ -23,7 +23,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA Accelerates AI for Over 80 New Science Systems Worldwide">
 	<meta property="og:description" content="NVIDIA drives global scientific discovery with a combined total of 4,500 exaflops of AI performance across systems unveiled in the past year.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/sc25-new-science-systems-worldwide/">
+	<meta property="og:url" content="/blog/blog/sc25-new-science-systems-worldwide/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2025-11-17T22:30:57+00:00">

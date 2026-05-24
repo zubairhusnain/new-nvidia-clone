@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/">
+<meta property="og:url" content="/industries/">
 <meta property="og:title" content="Discover The Future of AI in Industries">
 <meta property="og:description" content="NVIDIA enables the deployment of AI solutions for industrial applications.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="AI Solutions for Industrial Applications">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/">
+<meta name="twitter:url" content="/industries/">
 <meta name="twitter:description" content="Discover the possibility, power, and performance of AI computing from concept to reality.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industries-og.jpg">

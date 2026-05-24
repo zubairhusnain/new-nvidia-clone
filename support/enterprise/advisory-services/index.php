@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/support/enterprise/advisory-services/">
+<meta property="og:url" content="/support/enterprise/advisory-services/">
 <meta property="og:title" content="NVIDIA Advisory Services">
 <meta property="og:description" content="Accelerate your AI journey with NVIDIA experts.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Advisory Services to Fast-Track AI Projects">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/support/enterprise/advisory-services/">
+<meta name="twitter:url" content="/support/enterprise/advisory-services/">
 <meta name="twitter:description" content="NVIDIA offers specialized consulting to assist organizations throughout the lifecycle of AI projects.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/support/enterprise/advisory-services/nvidia-advisory-services-og.jpg">

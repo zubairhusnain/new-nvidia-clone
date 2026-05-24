@@ -13,7 +13,7 @@
   <meta name="nv-id" content="L2NvbnRlbnQvbnZpZGlhR0RDL3VzL2VuX1VTL2dlZm9yY2UvbmV3cy9mb3J6YS1ob3Jpem9uLTYtbHVuYS1hYnlzcy1kbHNz">
   <meta property="og:site_name" content="NVIDIA">
   <meta property="og:type" content="Article">
-  <meta property="og:url" content="https://www.nvidia.com/en-us/geforce/news/forza-horizon-6-luna-abyss-dlss/">
+  <meta property="og:url" content="/geforce/news/forza-horizon-6-luna-abyss-dlss/">
   <meta property="og:title" content="Forza Horizon 6 Is Available Now With DLSS &amp; Luna Abyss Launches May 21st">
   <meta property="og:description" content="Also, get the ultimate upgrade with the 007 First Light GeForce RTX 50 Series Bundle.">
   <meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-luna-abyss-dlss/forza-horizon-6-dlss-super-res-multi-frame-gen-ogimage.jpg">
@@ -21,7 +21,7 @@
   <meta name="twitter:site" content="@NVIDIAGeForce">
   <meta name="twitter:creator" content="@NVIDIAGeForce">
   <meta name="twitter:title" content="Forza Horizon 6 Is Available Now With DLSS &amp; Luna Abyss Launches May 21st">
-  <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/news/forza-horizon-6-luna-abyss-dlss/">
+  <meta name="twitter:url" content="/geforce/news/forza-horizon-6-luna-abyss-dlss/">
   <meta name="twitter:description" content="Also, get the ultimate upgrade with the 007 First Light GeForce RTX 50 Series Bundle.">
   <meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-luna-abyss-dlss/forza-horizon-6-dlss-super-res-multi-frame-gen-ogimage.jpg">
   <meta property="fb:app_id" content="1679326302390196">

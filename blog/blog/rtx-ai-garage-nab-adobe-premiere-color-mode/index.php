@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="New Adobe Premiere Color Grading Mode Accelerated on NVIDIA GPUs">
 	<meta property="og:description" content="New NVIDIA RTX-accelerated features streamline creative workflows in Adobe Premiere and system optimization with NVIDIA Project G-Assist.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/rtx-ai-garage-nab-adobe-premiere-color-mode/">
+	<meta property="og:url" content="/blog/blog/rtx-ai-garage-nab-adobe-premiere-color-mode/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-04-15T13:00:38+00:00">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/startups/">
+<meta property="og:url" content="/startups/">
 <meta property="og:title" content="Join NVIDIA Inception for Startups">
 <meta property="og:description" content="Join a global network of data science. HPC and gen AI startups.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Inception Program for Startups">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/startups/">
+<meta name="twitter:url" content="/startups/">
 <meta name="twitter:description" content="Join NVIDIA Inception’s global network of data science, HPC, and gen AI startups.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/startups/inception-og-100_.jpg">

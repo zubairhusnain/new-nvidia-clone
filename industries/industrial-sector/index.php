@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/industrial-sector/">
+<meta property="og:url" content="/industries/industrial-sector/">
 <meta property="og:title" content="NVIDIA AI for the Industrial Sector">
 <meta property="og:description" content="See how the Industrial Sector Is Using AI">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA AI Solutions for the Industrial Sector">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/industrial-sector/">
+<meta name="twitter:url" content="/industries/industrial-sector/">
 <meta name="twitter:description" content="Discover how the most progressive industrial sector companies in the world are implementing NVIDIA Technologies to deploy their AI Initiatives. ">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/industrial-manufacturing-og-100.jpg">

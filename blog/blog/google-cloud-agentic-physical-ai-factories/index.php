@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI">
 	<meta property="og:description" content="Companies can build AI factories with NVIDIA Vera Rubin-powered A5X instances scaling up to nearly 1 million Rubin GPUs, Gemini on Google Distributed Cloud, confidential NVIDIA Blackwell GPUs and agentic AI built on Gemini Enterprise Agent Platform with NVIDIA Nemotron and NeMo.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/">
+	<meta property="og:url" content="/blog/blog/google-cloud-agentic-physical-ai-factories/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-04-22T12:00:42+00:00">

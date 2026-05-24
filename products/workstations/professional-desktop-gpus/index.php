@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/">
+<meta property="og:url" content="/products/workstations/professional-desktop-gpus/">
 <meta property="og:title" content="NVIDIA RTX PRO in Desktops">
 <meta property="og:description" content="The World’s Most Powerful Platform for AI, Graphics, and Simulation.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIADesign">
 <meta name="twitter:title" content="NVIDIA RTX PRO in Desktops">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/">
+<meta name="twitter:url" content="/products/workstations/professional-desktop-gpus/">
 <meta name="twitter:description" content="Unlock the ultimate desktop experience with NVIDIA RTX PRO, The Top Platform for AI, Graphics, and Simulation.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/proviz-nvidia-rtx-overview-og-1200x630.jpg">

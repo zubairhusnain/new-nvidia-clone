@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’">
 	<meta property="og:description" content="NVIDIA CEO Jensen Huang joined Dell CEO Michael Dell on stage Monday to unveil the latest updates to the Dell AI Factory with NVIDIA — delivering a full-stack platform for autonomous agents, from deskside workstations to data center racks.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/">
+	<meta property="og:url" content="/blog/blog/dell-technologies-agent-enterprise-ai/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-05-18T22:28:59+00:00">

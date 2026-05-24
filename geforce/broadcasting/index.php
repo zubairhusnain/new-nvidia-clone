@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="article ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/broadcasting/">
+<meta property="og:url" content="/geforce/broadcasting/">
 <meta property="og:title" content="Go Live With NVIDIA GeForce RTX">
 <meta property="og:description" content="Steal The Show With Incredible Graphics, Powerful AI Effects &amp; Smooth, Stutter-Free Streaming">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIAGeForce">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="Go Live With NVIDIA GeForce RTX">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/broadcasting/">
+<meta name="twitter:url" content="/geforce/broadcasting/">
 <meta name="twitter:description" content="Steal The Show With Incredible Graphics, Powerful AI Effects &amp; Smooth, Stutter-Free Streaming">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/geforce-broadcasting/landing-page/geforce-broadcast-og-1200x630.jpg">

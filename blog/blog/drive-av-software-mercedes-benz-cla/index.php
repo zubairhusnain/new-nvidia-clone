@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA DRIVE AV Software Debuts in All-New Mercedes-Benz CLA">
 	<meta property="og:description" content="Production launch of enhanced level 2 driver-assistance system in the US this year signals start of broader rollout of NVIDIA’s full-stack software across the automotive industry.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/drive-av-software-mercedes-benz-cla/">
+	<meta property="og:url" content="/blog/blog/drive-av-software-mercedes-benz-cla/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-01-05T21:57:11+00:00">

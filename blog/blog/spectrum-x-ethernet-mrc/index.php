@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA Spectrum-X — the Open, AI-Native Ethernet Fabric — Sets the Standard for Gigascale AI, Now With MRC">
 	<meta property="og:description" content="Multipath Reliable Connection — a new transport protocol proven first and optimized on NVIDIA Spectrum-X Ethernet hardware — is now open to the industry.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/">
+	<meta property="og:url" content="/blog/blog/spectrum-x-ethernet-mrc/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-05-06T11:30:20+00:00">

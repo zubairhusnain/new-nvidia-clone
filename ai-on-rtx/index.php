@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/ai-on-rtx/">
+<meta property="og:url" content="/ai-on-rtx/">
 <meta property="og:title" content="RTX AI PCs | Next-Level AI Performance">
 <meta property="og:description" content="Unparalleled AI performance in gaming, creativity, and everyday.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="RTX AI PCs | Get Next-Level AI On GeForce RTX and NVIDIA RTX GPUs">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/ai-on-rtx/">
+<meta name="twitter:url" content="/ai-on-rtx/">
 <meta name="twitter:description" content="Upgrade to advanced AI with NVIDIA GeForce RTX™ GPUs and accelerate your gaming, creating, productivity, and development.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rtx-ai-windows-pc-1200x630.jpg">

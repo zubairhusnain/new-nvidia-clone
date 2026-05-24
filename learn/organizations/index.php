@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/learn/organizations/">
+<meta property="og:url" content="/learn/organizations/">
 <meta property="og:title" content="NVIDIA Training Program for Organizations">
 <meta property="og:description" content="Power up your team’s skills for the Age of AI, HPC and the metaverse">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Training Program for Enterprise">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/learn/organizations/">
+<meta name="twitter:url" content="/learn/organizations/">
 <meta name="twitter:description" content="Power up your team’s skills for the Age of AI, HPC and the metaverse">
 
 	

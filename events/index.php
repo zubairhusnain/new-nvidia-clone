@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/events/">
+<meta property="og:url" content="/events/">
 <meta property="og:title" content="NVIDIA Corporate and Investor Events Calendar">
 <meta property="og:description" content="NVIDIA corporate, developer, CUDA, and investor events.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Corporate and Investor Events Calendar">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/events/">
+<meta name="twitter:url" content="/events/">
 <meta name="twitter:description" content="Explore upcoming NVIDIA corporate, CUDA, developer, and investor events, featuring key sessions, updates, and industry insights.">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/corp-kv-og.jpg">

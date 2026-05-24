@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA Data Center Products">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/products/">
+<meta property="og:url" content="/data-center/products/">
 <meta property="og:title" content="NVIDIA Data Center Products: Next Wave of AI Innovation">
 <meta property="og:description" content="NVIDIA Data Center Products: Accelerating the Next Wave of AI Innovation">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Data Center Products: Accelerating the Next Wave of AI Innovation">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/products/">
+<meta name="twitter:url" content="/data-center/products/">
 <meta name="twitter:description" content="NVIDIA data center products across GPUs, CPUs, DPUs, networking, and AI software accelerate the next wave of AI innovation for every workload.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/data-center/products/data-center-products-og.jpg">

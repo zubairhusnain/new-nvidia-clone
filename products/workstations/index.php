@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/products/workstations/">
+<meta property="og:url" content="/products/workstations/">
 <meta property="og:title" content="NVIDIA RTX PRO Platform">
 <meta property="og:description" content="Accelerating professional AI, graphics, rendering, and compute workloads.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA RTX PRO Platform for Professionals">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/">
+<meta name="twitter:url" content="/products/workstations/">
 <meta name="twitter:description" content="From breathtaking architectural and industrial design to advanced special effects, AI tasks, and more, the NVIDIA RTX PRO platform is the heart of the world’s most powerful and efficient professional computing solutions.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-overview-og-1200x630.jpg">

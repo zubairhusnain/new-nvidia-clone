@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/geforce/technologies/dlss/">
+<meta property="og:url" content="/geforce/technologies/dlss/">
 <meta property="og:title" content="NVIDIA DLSS 4 Technology">
 <meta property="og:description" content="Supreme Speed. Superior Visuals. Powered by AI.">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAGeForce">
 <meta name="twitter:title" content="NVIDIA DLSS 4 Technology">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/technologies/dlss/">
+<meta name="twitter:url" content="/geforce/technologies/dlss/">
 <meta name="twitter:description" content="DLSS is a revolutionary suite of neural rendering technologies that uses AI to boost FPS, reduce latency, and improve image quality. ‌">
 
 	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-og-1200x630@2x.jpg">

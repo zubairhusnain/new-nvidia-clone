@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/robotics/">
+<meta property="og:url" content="/industries/robotics/">
 <meta property="og:title" content="NVIDIA Robotics Platform">
 <meta property="og:description" content="Accelerate the Next Wave of AI Robots.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Robotics Platform">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/robotics/">
+<meta name="twitter:url" content="/industries/robotics/">
 <meta name="twitter:description" content="AI robots can adapt, learn, and perform complex tasks with precision. This is made possible by advancements in AI, accelerated computing, physically based simulation, and a vast ecosystem of sensors and actuators.  ">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-industry-og-100_.jpg">

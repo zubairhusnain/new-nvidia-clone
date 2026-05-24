@@ -23,7 +23,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Mercedes-Benz Unveils New S-Class Built on NVIDIA DRIVE AV, Which Enables an L4-Ready Architecture">
 	<meta property="og:description" content="NVIDIA will deliver premium autonomous rides based on the new Mercedes-Benz S-Class, including through Uber’s global mobility platform.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/mercedes-benz-l4-s-class-drive-av-platform/">
+	<meta property="og:url" content="/blog/blog/mercedes-benz-l4-s-class-drive-av-platform/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-01-29T18:00:31+00:00">

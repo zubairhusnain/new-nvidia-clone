@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/dgx-cloud/">
+<meta property="og:url" content="/data-center/dgx-cloud/">
 <meta property="og:title" content="NVIDIA DGX Cloud">
 <meta property="og:description" content="Develop and Deploy Mission-Critical AI Faster.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA ">
 <meta name="twitter:title" content="NVIDIA DGX Cloud">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/dgx-cloud/">
+<meta name="twitter:url" content="/data-center/dgx-cloud/">
 <meta name="twitter:description" content="Every layer of NVIDIA DGX Cloud is optimized and managed by NVIDIA, ensuring higher performance of NVIDIA AI in the cloud.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-cloud/dgx-cloud-ov-og.jpg">

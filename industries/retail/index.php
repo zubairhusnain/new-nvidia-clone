@@ -21,7 +21,7 @@
 
 <meta property="og:site_name">
 <meta property="og:type" content="NVIDIA">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/retail/">
+<meta property="og:url" content="/industries/retail/">
 <meta property="og:title" content="Retail Industry Solutions Powered by AI ">
 <meta property="og:description" content="A New Era of Smarter Retail.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA ">
 <meta name="twitter:title" content="Retail Industry Solutions Powered by AI ">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/retail/">
+<meta name="twitter:url" content="/industries/retail/">
 <meta name="twitter:description" content="Leading retailers are tapping into AI to automate warehouse logistics, determine in-store promotions and real-time pricing.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/retail-industry-og.jpg">

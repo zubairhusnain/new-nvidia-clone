@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Steel, Sensors and Silicon: How Caterpillar Is Bringing Edge AI to the Jobsite">
 	<meta property="og:description" content="At CES, Caterpillar reveals how it’s integrating NVIDIA technologies, from NVIDIA Jetson Thor to speech models, to transform the world’s heavy industries.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/caterpillar-ces-2026/">
+	<meta property="og:url" content="/blog/blog/caterpillar-ces-2026/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-01-07T17:15:15+00:00">

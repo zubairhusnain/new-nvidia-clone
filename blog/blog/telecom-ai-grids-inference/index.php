@@ -21,7 +21,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA, Telecom Leaders Build AI Grids to Optimize Inference on Distributed Networks">
 	<meta property="og:description" content="As AI‑native applications scale to more users, agents and devices, the telecommunications network is becoming the next frontier for distributing AI.&nbsp; At NVIDIA GTC 2026, leading operators in the U.S. and Asia showed that this shift is underway, announcing AI grids — geographically distributed and interconnected AI infrastructure — using their network footprint to power […]">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/telecom-ai-grids-inference/">
+	<meta property="og:url" content="/blog/blog/telecom-ai-grids-inference/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-03-17T17:00:15+00:00">

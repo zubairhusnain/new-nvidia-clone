@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/ai/dynamo/">
+<meta property="og:url" content="/ai/dynamo/">
 <meta property="og:title" content="NVIDIA Dynamo">
 <meta property="og:description" content="Deploy, run, and scale AI for any application on any platform.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAAI">
 <meta name="twitter:title" content="Scale and Serve Generative AI with NVIDIA Dynamo">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/ai/dynamo/">
+<meta name="twitter:url" content="/ai/dynamo/">
 <meta name="twitter:description" content="Supports all major AI inference backends. Features LLM-specific optimizations, such as disaggregated serving. Available with NVIDIA AI Enterprise. Learn more.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg">

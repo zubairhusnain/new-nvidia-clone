@@ -19,7 +19,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/lp/high-performance-computing/hpc-ai-cloud-computing-ebook/">
+<meta property="og:url" content="/lp/high-performance-computing/hpc-ai-cloud-computing-ebook/">
 <meta property="og:title" content="NVIDIA Framework for High-Performance Computing">
 <meta property="og:description" content="Download Now!">
 
@@ -29,7 +29,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Framework for High-Performance Computing">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/lp/high-performance-computing/hpc-ai-cloud-computing-ebook/">
+<meta name="twitter:url" content="/lp/high-performance-computing/hpc-ai-cloud-computing-ebook/">
 <meta name="twitter:description" content="In this e-book you will discover best practices for HPC system design, gain a deeper understanding of the current and upcoming technology trends. Download Now!">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/Datacenter-AI_Accelerated-407@2x.jpg">

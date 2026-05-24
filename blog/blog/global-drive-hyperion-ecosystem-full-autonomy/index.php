@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA Expands Global DRIVE Hyperion Ecosystem to Accelerate the Road to Full Autonomy">
 	<meta property="og:description" content="Leading transportation and technology partners build on NVIDIA’s robotaxi-ready, level 4 platform, underpinned by NVIDIA Halos safety and development tools, to accelerate the shift in how people and goods move, safely and autonomously.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/global-drive-hyperion-ecosystem-full-autonomy/">
+	<meta property="og:url" content="/blog/blog/global-drive-hyperion-ecosystem-full-autonomy/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-01-05T22:48:47+00:00">

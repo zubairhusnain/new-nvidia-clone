@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark">
 	<meta property="og:description" content="Reliable, self-evolving and powered by the newest agentic large language models, Hermes brings a new class of agents to NVIDIA RTX PCs and workstations.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/">
+	<meta property="og:url" content="/blog/blog/rtx-ai-garage-hermes-agent-dgx-spark/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-05-13T13:00:10+00:00">

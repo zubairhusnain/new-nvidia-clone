@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/networking/products/ethernet/">
+<meta property="og:url" content="/networking/products/ethernet/">
 <meta property="og:title" content="The NVIDIA Spectrum Ethernet Platform">
 <meta property="og:description" content="Explore innovative, efficient Ethernet solutions for accelerated AI.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIANetworking">
 <meta name="twitter:title" content="NVIDIA Spectrum Ethernet Platform for Scalable AI Networks">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/products/ethernet/">
+<meta name="twitter:url" content="/networking/products/ethernet/">
 <meta name="twitter:description" content="NVIDIA Spectrum Ethernet delivers end-to-end, standards-based networking with switches, SuperNICs, DPUs, and software—powering efficient, high-scale AI, cloud, and data center workloads.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/Ethernet/nvidia-ethernet-overview-og.jpg">

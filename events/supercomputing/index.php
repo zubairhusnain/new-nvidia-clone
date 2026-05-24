@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/events/supercomputing/">
+<meta property="og:url" content="/events/supercomputing/">
 <meta property="og:title" content="NVIDIA at Supercomputing 2025">
 <meta property="og:description" content="Join NVIDIA at SC25, Nov 16–21,St. Louis, MO, Explore AI and HPC innovation.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA at Supercomputing 2025 -  November 16–21, St. Louis, MO">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/events/supercomputing/">
+<meta name="twitter:url" content="/events/supercomputing/">
 <meta name="twitter:description" content="Explore GPU, AI, HPC, and quantum breakthroughs with NVIDIA at Supercomputing 2025 (SC25). Join us for live demos, sessions, and innovation showcases.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/nvidia-supercompution-og.jpg">

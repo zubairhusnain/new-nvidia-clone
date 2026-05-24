@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents">
 	<meta property="og:description" content="Best-in-class open omni-modal reasoning model delivers the highest efficiency and accuracy to power agentic workflows such as computer use, document intelligence and audio-video reasoning.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/">
+	<meta property="og:url" content="/blog/blog/nemotron-3-nano-omni-multimodal-ai-agents/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-04-28T16:00:28+00:00">

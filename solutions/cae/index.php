@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/solutions/cae/">
+<meta property="og:url" content="/solutions/cae/">
 <meta property="og:title" content="NVIDIA Solutions for Computer-Aided Engineering (CAE) ">
 <meta property="og:description" content="Accelerate, Visualize and Deploy AI with NVIDIA to your CAE workflows.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Solutions for Computer-Aided Engineering (CAE) ">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/cae/">
+<meta name="twitter:url" content="/solutions/cae/">
 <meta name="twitter:description" content="NVIDIA is enabling industry developers to achieve real-time interactive design using AI-accelerated real-time digital twins. Accelerate, visualize, and deploy AI with NVIDIA to your Computer-Aided Engineering Workflows.">
 
 	<meta name="twitter:image" content="./assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-og-v1.jpg">

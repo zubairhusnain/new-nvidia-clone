@@ -23,7 +23,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="NVIDIA Accelerated Computing Enables Scientific Breakthroughs for Materials Discovery">
 	<meta property="og:description" content="NVIDIA Holoscan drives breakthroughs in real-time nano-imaging and NVIDIA ALCHEMI boosts discovery of advanced materials and cooling technologies.">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/ai-science-materials-discovery-sc25/">
+	<meta property="og:url" content="/blog/blog/ai-science-materials-discovery-sc25/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2025-11-17T22:30:54+00:00">

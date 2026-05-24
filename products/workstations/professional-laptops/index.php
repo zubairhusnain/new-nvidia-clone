@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/products/workstations/professional-laptops/">
+<meta property="og:url" content="/products/workstations/professional-laptops/">
 <meta property="og:title" content="NVIDIA RTX PRO in Laptops">
 <meta property="og:description" content="AI and visual computing accelerated anywhere.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA RTX PRO in Laptops and Mobile Workstations">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/professional-laptops/">
+<meta name="twitter:url" content="/products/workstations/professional-laptops/">
 <meta name="twitter:description" content="Access the most powerful AI and visual computing capabilities in thin and light mobile workstations anytime, anywhere.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptop-og.jpg">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA DGX Spark">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+<meta property="og:url" content="/products/workstations/dgx-spark/">
 <meta property="og:title" content="NVIDIA DGX Spark: AI Supercomputer on Your Desk">
 <meta property="og:description" content="Run autonomous AI agents from your desktop.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIAAI">
 <meta name="twitter:title" content="An AI Person Supercomputer on Your Desk: NVIDIA DGX Spark">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
+<meta name="twitter:url" content="/products/workstations/dgx-spark/">
 <meta name="twitter:description" content="DGX Spark is a personal AI supercomputer that’s powered by the NVIDIA GB10 Superchip. With NVIDIA OpenShell, you can build and run autonomous agents securely from your desktop.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/DGX-Spark-og.jpg">

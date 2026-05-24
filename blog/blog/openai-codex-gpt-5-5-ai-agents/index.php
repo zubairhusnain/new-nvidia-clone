@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work">
 	<meta property="og:description" content="Over 10,000 NVIDIANs across functions got early access to OpenAI’s latest frontier model, GPT-5.5. The results, one engineer said, are “blowing my mind.”">
-	<meta property="og:url" content="https://blogs.nvidia.com/blog/openai-codex-gpt-5-5-ai-agents/">
+	<meta property="og:url" content="/blog/blog/openai-codex-gpt-5-5-ai-agents/">
 	<meta property="og:site_name" content="NVIDIA Blog">
 	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
 	<meta property="article:published_time" content="2026-04-23T18:57:55+00:00">

@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/networking/products/infiniband/">
+<meta property="og:url" content="/networking/products/infiniband/">
 <meta property="og:title" content="Accelerated Scientific Innovation with InfiniBand | NVIDIA">
 <meta property="og:description" content="NVIDIA InfiniBand brings high-speed, low-latency, scalable solutions to supercomputers, AI and cloud data centers.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIANetworking">
 <meta name="twitter:title" content="Accelerated Scientific Innovation with InfiniBand">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/products/infiniband/">
+<meta name="twitter:url" content="/networking/products/infiniband/">
 <meta name="twitter:description" content="NVIDIA Mellanox InfiniBand solutions incorporate In-Network Computing technology up to 200Gb/s for Enterprise Data Centers, Web 2.0, Cloud Computing, and HPC.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/infiniband/infiniband-ndr-og-image-1200x675.png">

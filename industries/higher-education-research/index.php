@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website ">
-<meta property="og:url" content="https://www.nvidia.com/en-us/industries/higher-education-research/">
+<meta property="og:url" content="/industries/higher-education-research/">
 <meta property="og:title" content="NVIDIA Solutions for Higher Education and Research">
 <meta property="og:description" content="Explore Limitless Learning in Academia.">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Solutions for Higher Education and Research">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/higher-education-research/">
+<meta name="twitter:url" content="/industries/higher-education-research/">
 <meta name="twitter:description" content="Explore our diverse set of resources including hands-on workshops, self-paced courses, certifications, webinars, blogs, live events, grants, and developer news.">
 
 	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/higher-education-research-og.jpg">

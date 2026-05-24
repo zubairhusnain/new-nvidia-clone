@@ -21,7 +21,7 @@
 
 <meta property="og:site_name" content="NVIDIA">
 <meta property="og:type" content="Website">
-<meta property="og:url" content="https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/">
+<meta property="og:url" content="/data-center/technologies/blackwell-architecture/">
 <meta property="og:title" content="NVIDIA Blackwell Architecture">
 <meta property="og:description" content="The Engine Behind AI Factories For The Age of AI Reasoning. ">
 
@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@NVIDIA">
 <meta name="twitter:creator" content="@NVIDIA">
 <meta name="twitter:title" content="NVIDIA Blackwell Architecture">
-<meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/">
+<meta name="twitter:url" content="/data-center/technologies/blackwell-architecture/">
 <meta name="twitter:description" content="Explore the groundbreaking advancements the NVIDIA Blackwell architecture brings to generative AI and accelerated computing.">
 
 	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-blackwell-architecture-og.jpg">
