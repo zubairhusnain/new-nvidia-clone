@@ -1,0 +1,9153 @@
+<!DOCTYPE html><html class="html-page no-js device-macintosh browser-chrome device-desktop" xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" style="--nv-header-height: 104px; --nv-global-nav-pull-up: 44px; --vh: 720px;"><head>
+    
+    
+
+<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+
+    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+
+ 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="NOODP,NOYDIR"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="AI in industries, NVIDIA, GPU-powered AI solutions, GPU-accelerated technology, Ampere architecture">
+<meta name="description" content="The most progressive industries in the world are implementing NVIDIA technologies to deploy large-scale AI and deliver the best solutions to their end users.">
+<meta name="nv-pub-date" content="2026-04-20T16:10:15.000Z">
+<meta name="nv-cre-date" content="2022-10-26T18:40:00.000Z">
+<meta name="nv-update-date" content="2026-04-20T16:10:15.000Z">
+<meta name="nv-id" content="L2NvbnRlbnQvbnZpZGlhR0RDL3VzL2VuX1VTL2luZHVzdHJpZXMvaG9tZQ==">
+
+<meta property="og:site_name" content="NVIDIA">
+<meta property="og:type" content="Website">
+<meta property="og:url" content="https://www.nvidia.com/en-us/industries/">
+<meta property="og:title" content="Discover The Future of AI in Industries">
+<meta property="og:description" content="NVIDIA enables the deployment of AI solutions for industrial applications.">
+
+	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industries-og.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@NVIDIA">
+<meta name="twitter:creator" content="@NVIDIA">
+<meta name="twitter:title" content="AI Solutions for Industrial Applications">
+<meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/">
+<meta name="twitter:description" content="Discover the possibility, power, and performance of AI computing from concept to reality.">
+
+	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industries-og.jpg">
+
+	<meta property="fb:app_id" content="1679326302390196">
+
+	<meta property="interest" content="Data Science,Data Center / Cloud,Developer Tools &amp; Techniques">
+
+	
+
+<link rel="canonical" href="/industries/">
+
+	<link rel="alternate" hreflang="en-gr" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="pt-br" href="/pt-br/industries/">
+
+	<link rel="alternate" hreflang="en-pt" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="es-mx" href="/es-la/industries/">
+
+	<link rel="alternate" hreflang="es-es" href="/es-es/industries/">
+
+	<link rel="alternate" hreflang="en-lt" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="en-hu" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="en-lv" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="es-ar" href="/es-la/industries/">
+
+	<link rel="alternate" hreflang="en-ee" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="ko-kr" href="/ko-kr/industries/">
+
+	<link rel="alternate" hreflang="en-us" href="/industries/">
+
+	<link rel="alternate" hreflang="en-in" href="/en-in/industries/">
+
+	<link rel="alternate" hreflang="en-il" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="it-it" href="/it-it/industries/">
+
+	<link rel="alternate" hreflang="en-au" href="/en-au/industries/">
+
+	<link rel="alternate" hreflang="fr-fr" href="/fr-fr/industries/">
+
+	<link rel="alternate" hreflang="ja-jp" href="/ja-jp/industries/">
+
+	<link rel="alternate" hreflang="de-de" href="/de-de/industries/">
+
+	<link rel="alternate" hreflang="zh-tw" href="/zh-tw/industries/">
+
+	<link rel="alternate" hreflang="en-rs" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="es-co" href="/es-la/industries/">
+
+	<link rel="alternate" hreflang="es-cl" href="/es-la/industries/">
+
+	<link rel="alternate" hreflang="es-pe" href="/es-la/industries/">
+
+	<link rel="alternate" hreflang="en-sg" href="/en-sg/industries/">
+
+	<link rel="alternate" hreflang="en-sk" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="en-si" href="/en-eu/industries/">
+
+	<link rel="alternate" hreflang="en-gb" href="/en-gb/industries/">
+
+	<link rel="alternate" hreflang="en-ca" href="/industries/">
+
+	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/industries/">
+
+	<link rel="alternate" hreflang="de" href="/de-de/industries/">
+
+	<link rel="alternate" hreflang="fr" href="/fr-fr/industries/">
+
+	<link rel="alternate" hreflang="en" href="/industries/">
+
+	<link rel="alternate" hreflang="x-default" href="/industries/">
+
+<link rel="alternate" type="text/markdown" title="Discover The Future of AI in Industries" href="/industries.md/">
+
+<script src="/assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.js"></script>
+<link href="/assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.css" rel="stylesheet" type="text/css">
+
+<script>
+document.addEventListener("DOMContentLoaded",function(){window.addEventListener("message",function(e){var t=e.data.contentUrl;if(t){var n=document.getElementById("contentOverlay");n.setAttribute("data-lookbook-overlay-href",t),n.click()}},!1)});
+</script>
+
+
+<link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
+<link href="../assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.css" rel="stylesheet" type="text/css">
+<style>.librarian-ul-list {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-left: 0px;
+  list-style: none !important;
+}
+
+.librarian-results {
+  margin-bottom: 45px;
+  font-weight: 400;
+  list-style: none !important;
+}
+
+
+.librarian-result-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 8px;
+  justify-content: left;
+  text-align: left;
+}
+
+.librarian-result-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.librarian-result-title {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.librarian-result-number {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: calc(1.25em + 4px);
+  padding: 0 4px;
+  margin-right: 4px;
+  border: 2px solid #76B900;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.librarian-result-item:hover .librarian-result-number,
+.librarian-result-item:focus-visible .librarian-result-number {
+  border-color: #000;
+}
+
+.librarian-result-description {
+    font-size: 16px;
+    color: #1a1a1a;
+    padding-bottom: 0px !important;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}
+
+/* mobile and tablet viewport */
+@media screen and (max-width: 1023px) {
+  .librarian-result-description {
+    line-height: 22px;
+  }
+}
+
+/* laptop and desktop viewport */
+@media screen and (min-width: 1024px) {
+  .librarian-result-description {
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+}
+
+.librarian-result-item {
+  text-decoration: none !important;
+  display: block;
+  border-radius: 4px;
+}
+
+.librarian-result-item:focus {
+  outline: none;
+}
+
+.librarian-result-item:focus-visible {
+  outline: 2px solid #76B900;
+  outline-offset: -2px;
+}
+
+.librarian-result-link {
+  color: #999;
+  overflow-wrap: break-word;
+  font-size: 14px;
+  line-height: 22px;
+}
+</style>
+<style>.librarian-box-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  min-height: 50vh;
+  margin: 0 auto;
+  max-width: 1070px;
+  max-width: 100%;
+}
+
+.librarian-results-layout {
+  display: flex;
+}
+
+.librarian-search-row {
+  width: 100%;
+  display: flex;
+}
+
+.librarian-genai-summery-active {
+  margin-top: 30px;
+}
+
+.librarian-results-divider {
+  background: #ccc;
+  border: none;
+  height: 1px;
+}
+
+#target-div {
+  height: 10px;
+  background: transparent;
+}
+.librarian-error{
+  padding: 20px;
+}
+
+.librarian-result-count-and-promos {
+  width: 100%
+}
+
+.librarian-page-cascade {
+  width: 100%;
+}
+
+.librarian-page-cascade > * {
+  opacity: 0;
+}
+
+.librarian-page-cascade-ready > * {
+  animation: librarian-page-cascade-in 0.45s ease-out both;
+}
+
+.librarian-page-cascade-ready > *:nth-child(1) { animation-delay: 1.4s; }
+.librarian-page-cascade-ready > *:nth-child(2) { animation-delay: 1.5s; }
+.librarian-page-cascade-ready > *:nth-child(3) { animation-delay: 1.6s; }
+.librarian-page-cascade-ready > *:nth-child(4) { animation-delay: 1.7s; }
+.librarian-page-cascade-ready > *:nth-child(n+5) { animation-delay: 1.8s; }
+
+@keyframes librarian-page-cascade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.librarian-loader-container{
+  height: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.librarian-results-count{
+  font-size: 18px; 
+  font-weight: 700; 
+  color:#000;
+  line-height: 125%;
+  padding: 0px !important
+}
+
+.librarian-recommendedForYouDesktopAndLaptop{
+  width: 370px;
+  border-right: 2px solid #DEDFDF;
+  margin-right: 60px;
+  padding-right: 60px;
+}
+
+.librarian-showFilterIcon {
+  display: none;
+  width: 120px;
+  justify-content: space-evenly;
+}
+
+.librarian-showFilterIcon-opened {
+  p {
+    color: #76b900 !important;
+  }
+  svg {
+    path{
+    stroke: #76b900 !important;
+  }
+}
+}
+
+.librarian-showFilterIcon-label{
+  color: #76b900 !important;
+}
+.librarian-showFilterIcon-path{
+  stroke: #76b900 !important;
+}
+
+#nv__card__container {
+  padding: 0px !important;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 639px) {
+  .librarian-box-container{
+    width: 458px;
+  }
+  .librarian-recommendedForYouDesktopAndLaptop{
+    display: none;
+  }
+  .librarian-result-count-and-promos {
+    padding-top: 40px;
+  }
+  .librarian-showFilterIcon{
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .librarian-box-container{
+    width: 620px; 
+  }
+  .librarian-recommendedForYouDesktopAndLaptop{
+    display: none;
+  }
+  .librarian-result-count-and-promos {
+    padding-top: 40px;
+  }
+  .librarian-showFilterIcon{
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Laptop Devices */
+@media only screen and (min-width: 1024px) and (max-width: 1349px) {
+  .librarian-box-container{
+    width: 790px; 
+  }
+  .librarian-recommendedForYouMobileandTablet{
+    display: none;
+  }
+  .librarian-result-count-and-promos {
+    padding-top: 50px;
+  }
+}
+
+/* Desktop Devices */
+@media only screen and (min-width: 1350px) {
+  .librarian-box-container{
+    width: 1070px;
+  }
+  .librarian-search-row {
+    max-width: 900px;
+    align-self: flex-start;
+  }
+  .librarian-recommendedForYouMobileandTablet{
+    display: none;
+  }
+  .librarian-result-count-and-promos {
+    padding-top: 50px;
+  }
+}
+
+.librarian-recommendedForYouMobileandTablet {
+  margin-top: 30px;
+  align-self: flex-start;
+}
+
+#mobile-generated-banner-list {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+#search-promo-container #nv__rfc__section__wrapper #rfu123 .nv-teaser {
+  margin-bottom: 30px !important;
+}
+
+#mobile-generated-banner-list #nv__rfc__section__wrapper-2 #rfu123-2 .nv-teaser {
+  margin-right: 20px !important;
+}
+
+#mobile-generated-banner-list .at-rec-container-mobile {
+  padding-left: 0px !important;
+}
+
+#search-promo-container #nv__rfc__section__wrapper #rfu123 .nv-card-data {
+  padding-bottom: 15px !important;
+}
+
+#search-promo-container #nv__rfc__section__wrapper h4 {
+  font-size: 20px !important;
+  padding-top: 0px !important;
+}
+
+#mobile-generated-banner-list #nv__rfc__section__wrapper-2 h4 {
+  font-size: 20px !important;
+  padding-top: 0px !important;
+}
+
+</style>
+<style>@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotateGradientBorder {
+  from { --angle: 0deg; }
+  to   { --angle: 360deg; }
+}
+
+.rotating-gradient-border {
+  position: relative;
+  isolation: isolate;
+  border: 2px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  background-image:
+    linear-gradient(
+      var(--gradient-border-bg, transparent),
+      var(--gradient-border-bg, transparent)
+    ),
+    conic-gradient(
+      from var(--angle, 0deg),
+      #8b7355 0%, #6d5a3a 5%, #7a6542 10%, #d4c4a8 15%, #b8956e 20%,
+      #c9a86c 25%, #e8dcc4 30%, #f5ede0 35%, #c4a064 40%, #8b7355 45%,
+      #7a6542 50%, #b89b6a 55%, #d4c4a8 60%, #e8dcc4 65%, #c9a86c 70%,
+      #b8956e 75%, #a68b5b 80%, #8b7355 85%, #6d5a3a 90%, #9a8262 95%,
+      #8b7355 100%
+    );
+  animation: rotateGradientBorder 20s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rotating-gradient-border {
+    animation: none;
+  }
+}
+</style>
+<style>.librarian-search-input-wrapper {
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 6px 6px 14px;
+    height: 51px !important;
+    background-color: #0b0b0b;
+    box-shadow: 0 0 24px rgba(196, 160, 100, 0.18);
+    --gradient-border-bg: #0b0b0b;
+}
+
+.librarian-search-input-wrapper .librarian-search-ai-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.librarian-resultsContainer {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.librarian-search-input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #fff;
+    caret-color: #d4c4a8;
+}
+
+.librarian-search-input::placeholder {
+    color: #b3b3b3;
+    opacity: 1;
+}
+
+.librarian-search-input:focus {
+    outline: none;
+}
+
+.librarian-search-icon {
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    color: #b3b3b3;
+    cursor: pointer;
+}
+
+.librarian-cross-icon {
+    background-color: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #b3b3b3;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.librarian-cross-icon:hover {
+    color: #fff;
+}
+
+.librarian-paperplane-icon {
+    border: none;
+    background: #76B900;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.librarian-paperplane-icon:hover:not(:disabled) {
+    background: #8FD400;
+}
+
+.librarian-paperplane-icon:disabled {
+    cursor: auto;
+    opacity: 0.6;
+}
+
+.librarian-genAI-loader-title {
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    padding: 40px !important;
+    margin-block-start: 0px !important;
+}
+
+</style>
+<style>.librarian-search-pagination-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* only mobile viewport */
+@media screen and (max-width: 639px) {
+  .librarian-search-pagination-wrapper {
+    font-size: 14px;
+  }
+}
+
+/* tablet, laptop and desktop viewport */
+@media screen and (min-width: 640px) {
+  .librarian-search-pagination-wrapper {
+    font-size: 16px;
+  }
+}
+
+.librarian-pager-left {
+  flex: 0 0 128px;
+}
+
+.librarian-pager-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #f7f7f7 0 0 no-repeat padding-box;
+  letter-spacing: 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  height: 50px;
+}
+
+.librarian-pager-right {
+  flex: 0 0 128px;
+}
+
+.librarian-pagination-button {
+  width: 128px;
+  padding: 12px !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #76B900 0 0 no-repeat padding-box;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  font-size: 18px;
+  box-sizing: border-box;
+  height: 50px;
+
+  &:disabled {
+    background-color: #fff;
+    border: 2px solid #76B900;
+    cursor: auto;
+  }
+}</style>
+<style>.librarian-show-more {
+  font-size: 16px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.librarian-show-more-button {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  line-height: 125%;
+  font-weight: 700;
+  color: #EEE;
+  justify-content: flex-start;
+  padding: 0px !important;
+  gap: 6px;
+}
+
+.librarian-show-more-button:focus-visible {
+  outline: 2px solid #76B900;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.librarian-show-more-btn-container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  background-color: #000;
+  border-radius: 0 0 10px 10px;
+}
+
+.librarian-genAI-summary-btn-container .librarian-show-more-button {
+  margin-right: auto;
+}
+
+.librarian-show-more-btn-sub-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.librarian-arrow {
+  display: inline-block;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+  color: #76b900;
+}
+
+.librarian-rotated {
+  transform: rotate(-180deg);
+  padding-top: 0px;
+}
+
+.librarian-genai-summery {
+  width: 100%;
+  position: relative;
+}
+
+.librarian-genai-wrapper {
+  background-color: #161616;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 0 10px 10px 10px;
+  color: #EEE;
+}
+
+.librarian-genai-container{
+  p{
+    margin-bottom: 0px !important;
+  }
+}
+
+.librarian-genai-container {
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 14px 14px 0px 14px;
+  max-width: 100%;
+  color: #EEE;
+  background-color: #000;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 80px;
+  --gradient-border-bg: #000;
+}
+
+.librarian-genai-container.librarian-genai-measured {
+  max-height: var(--librarian-genai-container-height, 80px);
+}
+
+.librarian-genai-container.librarian-genai-revealed {
+  max-height: none;
+}
+
+.librarian-genai-container.librarian-genai-empty {
+  padding-bottom: 14px;
+}
+
+.librarian-genai-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.librarian-genai-title-text {
+  padding-left: 10px;
+}
+
+.librarian-genai-fade-in {
+  animation: librarian-genai-fade-in 0.45s ease-out both;
+  animation-delay: 0.5s;
+}
+
+.librarian-genai-fade-in ~ .librarian-genai-fade-in {
+  animation-delay: 0.6s;
+}
+
+.librarian-genai-fade-in ~ .librarian-genai-fade-in ~ .librarian-genai-fade-in {
+  animation-delay: 0.7s;
+}
+
+@keyframes librarian-genai-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.librarian-ai-summery-text {
+  position: relative;
+  display: block;
+  color: #EEE;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  padding-left: 65px !important;
+  font-size: 15px;
+  line-height: 25px;
+  white-space: pre-line;
+  list-style: none !important;
+  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.librarian-ai-summery-text::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 15px;
+  width: 2px;
+  background-color: #76B900;
+  border-radius: 2px;
+}
+
+.librarian-ai-summery-text > li {
+  margin-bottom: 15px;
+  list-style: none !important;
+  animation: librarian-genai-fade-in 0.45s ease-out both;
+}
+
+.librarian-ai-summery-text > li:nth-child(1) { animation-delay: 0.50s; }
+.librarian-ai-summery-text > li:nth-child(2) { animation-delay: 0.58s; }
+.librarian-ai-summery-text > li:nth-child(3) { animation-delay: 0.66s; }
+.librarian-ai-summery-text > li:nth-child(4) { animation-delay: 0.74s; }
+.librarian-ai-summery-text > li:nth-child(5) { animation-delay: 0.82s; }
+.librarian-ai-summery-text > li:nth-child(6) { animation-delay: 0.90s; }
+.librarian-ai-summery-text > li:nth-child(7) { animation-delay: 0.98s; }
+.librarian-ai-summery-text > li:nth-child(8) { animation-delay: 1.06s; }
+.librarian-ai-summery-text > li:nth-child(9) { animation-delay: 1.14s; }
+.librarian-ai-summery-text > li:nth-child(10) { animation-delay: 1.22s; }
+.librarian-ai-summery-text > li:nth-child(n+11) { animation-delay: 1.30s; }
+
+.librarian-ai-summery-text.librarian-summery-measured {
+  max-height: var(--librarian-genai-content-height, none);
+}
+
+.librarian-ai-summery-text.librarian-summery-measured.librarian-show-less-text {
+  max-height: 242px;
+}
+
+.librarian-ai-summery-text > li::marker {
+  content: '';
+}
+
+.librarian-ai-summery-text > li:last-child {
+  margin-bottom: 0;
+}
+
+.librarian-ai-summery-text>li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  margin-left: -16px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background: url("data:image/svg+xml;utf8,<svg xmlns=%27http://www.w3.org/2000/svg%27 width=%278%27 height=%2714%27 viewBox=%270 0 8 14%27 fill=%27none%27><path d=%27M1 1l6 6-6 6%27 stroke=%27%23EEEEEE%27 stroke-width=%272%27 stroke-linecap=%27square%27/></svg>") no-repeat center / contain;
+}
+
+.librarian-citation {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 4px;
+  font-weight: 700 !important;
+  color: #EEE !important;
+  font-family: inherit;
+  border: 1px solid #76B900;
+  text-decoration: none !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  text-align: center;
+  margin-right: 5px !important;
+}
+
+.librarian-citation:hover,
+.librarian-citation:focus-visible {
+  border-color: #FFFFFF;
+}
+
+.librarian-citation:last-child {
+  margin-right: 0px !important;
+}
+
+.librarian-show-less-text {
+  max-height: 242px;
+}
+
+.librarian-ai-summery-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 60%,
+    #000 100%
+  );
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.librarian-show-less-text::after {
+  opacity: 1;
+}
+
+.librarian-genAi-summery-title {
+  font-size: 15px;
+  color: #EEE;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding: 0px !important;
+}
+
+.librarian-genAi-summery-title > span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.librarian-genAI-summary-btn-container {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 8px 16px;
+
+  &:hover {
+    svg {
+      cursor: pointer;
+    }
+  }
+}
+
+.librarian-tooltip > div,
+.librarian-thumbs-up > div,
+.librarian-thumbs-down > div {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.librarian-tooltip,
+.librarian-thumbs-up,
+.librarian-thumbs-down {
+  position: relative;
+  display: inline-block;
+}
+
+.librarian-tooltip .librarian-tooltiptext,
+.librarian-thumbs-up .librarian-thumbsuptext,
+.librarian-thumbs-down .librarian-thumbsdowntext {
+  visibility: hidden;
+  width: max-content;
+  max-width: 240px;
+  background-color: #313131;
+  color: #fff;
+  text-align: center;
+  font-family: "NVIDIA Sans", "NVIDIA Sans Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  padding: 8px 16px;
+  border: 1px solid #636363;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+  position: absolute;
+  z-index: 1080;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* .librarian-tooltip .librarian-tooltiptext::after, .librarian-thumbs-up .librarian-thumbsuptext::after, .librarian-thumbs-down .librarian-thumbsdowntext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} */
+
+.librarian-tooltip:hover .librarian-tooltiptext,
+.librarian-thumbs-up:hover .librarian-thumbsuptext,
+.librarian-thumbs-down:hover .librarian-thumbsdowntext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 639px) {
+  .librarian-genai-container {
+    max-width: 460px;
+  }
+
+  .librarian-show-more-btn-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .librarian-show-more-btn-sub-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .librarian-show-less-text,
+  .librarian-ai-summery-text.librarian-summery-measured.librarian-show-less-text {
+    max-height: calc(240px + var(--librarian-btn-bar-height, 130px) + 12px);
+  }
+
+  .librarian-disclaimer-container {
+    margin-top: 5px;
+  }
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .librarian-show-more-btn-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .librarian-show-more-btn-sub-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .librarian-show-less-text,
+  .librarian-ai-summery-text.librarian-summery-measured.librarian-show-less-text {
+    max-height: calc(203px + var(--librarian-btn-bar-height, 120px) + 12px);
+  }
+
+  .librarian-disclaimer-container {
+    margin: auto;
+    margin-top: 5px;
+  }
+}
+
+/*Laptop*/
+@media only screen and (min-width: 1024px) and (max-width: 1349px) {
+  .librarian-genai-container {
+    max-width: 790px;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1350px) {
+  .librarian-genai-container {
+    max-width: 900px;
+  }
+}
+
+.librarian-search-refinements {
+  margin-top: 30px;
+  align-self: flex-start;
+}
+
+.librarian-search-refinements-header {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.7%;
+  padding: 0 !important
+}
+
+.librarian-search-refinements-items {
+  color: #EEE;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  border-bottom: 1px solid #76B900;
+  cursor: pointer;
+  padding-top: 15px;
+  width: fit-content
+}
+
+.librarian-search-refinements-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 16px;
+}
+
+.librarian-search-refinements-capsule {
+  color: #222;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+  border-radius: 18px;
+  border: 1px solid #808080;
+  padding: 5px 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.librarian-disclaimer-container {
+  font-size: 10px !important;
+  line-height: 130%;
+  p{
+    color: #CCC !important;
+    font-size: 10px !important;
+    padding: 0;
+  }
+}
+
+.librarian-disclaimer-container a {
+  text-decoration-thickness: 1px !important;
+  &:hover{
+    text-decoration-color: #fff;
+  }
+}
+
+.librarian-generating-dots > span {
+  display: inline-block;
+  opacity: 0;
+  animation: librarian-generating-dot 1.2s ease-in-out infinite;
+}
+
+.librarian-generating-dots > span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.librarian-generating-dots > span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes librarian-generating-dot {
+  0%, 80%, 100% { opacity: 0; }
+  40% { opacity: 1; }
+}</style>
+<style>img {
+    border: 0;
+}
+
+.librarian-search-results-wrapper {
+    padding-top: 30px;
+}
+
+/* only mobile viewport */
+@media screen and (max-width: 639px) {
+    .librarian-search-results-wrapper .search-results-item {
+        padding-bottom: 40px;
+    }
+
+    .librarian-search-results-wrapper .search-results-item:last-child {
+        padding-bottom: 0px !important;
+    }
+}
+
+
+/* tablet, laptop and desktop viewport */
+@media screen and (min-width: 640px) {
+    .librarian-search-results-wrapper .search-results-item {
+        padding-bottom: 30px;
+    }
+
+    .librarian-search-results-wrapper .search-results-item:last-child {
+        padding-bottom: 0px !important;
+    }
+}
+
+.librarian-search-results-wrapper .promoted-item {
+    align-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+/* laptop and desktop viewport */
+@media screen and (min-width: 1024px) {
+    .librarian-search-results-wrapper .promoted-item .event-item-image {
+        min-width: 30%;
+        width: 30%;
+    }
+
+    .librarian-search-results-wrapper .event-item-image {
+        display: inline-block;
+        padding: 0 30px 0 0;
+        height: auto;
+    }
+}
+
+/* only tablet viewport */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .librarian-search-results-wrapper .promoted-item .event-item-image {
+        min-width: 50%;
+        width: 50%;
+    }
+
+    .librarian-search-results-wrapper .event-item-image {
+        display: inline-block;
+        padding: 0 15px 0 0;
+        height: auto;
+    }
+}
+
+/* only mobile viewport */
+@media screen and (max-width: 639px) {
+    .librarian-search-results-wrapper .promoted-item .event-item-image {
+        min-width: 50%;
+        width: 50%;
+    }
+
+    .librarian-search-results-wrapper .event-item-image {
+        display: none;
+        padding: 0 30px 0 0;
+        height: auto;
+    }
+}
+
+/* only mobile viewport */
+@media screen and (max-width: 639px) {
+    .librarian-search-results-text {
+        max-width: 100%
+    }
+}
+
+/* only tablet viewport */
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    .librarian-search-results-text {
+        max-width: 50%
+    }
+}
+
+.librarian-item-image {
+    background-color: #ccc;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+}
+
+.librarian-item-image img.thumbnail {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s ease;
+    width: 100%;
+}
+
+.librarian-item-image img.thumbnail.in {
+    opacity: 1;
+}
+
+.librarian-search-results-wrapper .search-results-item>div {
+    line-height: 1.25em;
+}
+
+.librarian-search-results-wrapper .promoted-item .recommended {
+    border: 2px solid #ccc;
+    color: #000;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+/* mobile and tablet viewport */
+@media screen and (max-width: 1023px) {
+    .librarian-search-results-wrapper .promoted-item .recommended {
+        margin-bottom: 10px;
+    }
+}
+
+/* laptop and desktop viewport */
+@media screen and (min-width: 1024px) {
+    .librarian-search-results-wrapper .promoted-item .recommended {
+        margin-bottom: 15px;
+    }
+}
+
+.librarian-search-results-wrapper .search-results-item .librarian-item-title {
+    font-weight: bold;
+}
+
+/* mobile and tablet viewport */
+@media screen and (max-width: 1023px) {
+    .librarian-search-results-wrapper .search-results-item .librarian-item-title {
+        padding-bottom: 5px;
+    }
+}
+
+/* laptop and desktop viewport */
+@media screen and (min-width: 1024px) {
+    .librarian-search-results-wrapper .search-results-item .librarian-item-title {
+        padding-bottom: 10px;
+    }
+}
+
+/* only mobile viewport */
+@media screen and (max-width: 639px) {
+    .librarian-search-results-wrapper .search-results-item .librarian-item-title a {
+        font-size: 20px;
+        line-height: normal;
+    }
+}
+
+/* tablet, laptop and desktop viewport */
+@media screen and (min-width: 640px) {
+    .librarian-search-results-wrapper .search-results-item .librarian-item-title a {
+        font-size: 20px;
+        line-height: normal;
+    }
+}
+
+/* only mobile viewport */
+@media screen and (max-width: 639px) {
+    .librarian-search-results-wrapper .search-results-item .librarian-item-summary {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 5px;
+        color: #1a1a1a;
+    }
+}
+
+/* tablet, laptop and desktop viewport */
+@media screen and (min-width: 640px) {
+    .librarian-search-results-wrapper .search-results-item .librarian-item-summary {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 10px;
+        color: #1a1a1a;
+    }
+}
+
+.librarian-search-results-wrapper .search-results-item .librarian-item-footer {
+    padding-bottom: 0;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.librarian-search-results-wrapper .search-results-item .librarian-item-footer .librarian-item-footer-inner {
+    white-space: wrap;
+    clip: auto;
+}
+
+.librarian-search-results-wrapper .search-results-item .librarian-item-footer .librarian-item-footer-inner .librarian-item-link a {
+    color: #999;
+    text-decoration: none;
+}
+
+.librarian-result-item {
+    text-decoration: none !important;
+}</style>
+<style>.librarian-no-results-container {
+  width: 100%;
+}
+
+.librarian-no-results-text {
+  font-size: 22px;
+  line-height: 175%;
+}
+
+.librarian-no-results-term {
+  font-weight: bold;
+}
+
+.librarian-no-results-list {
+  list-style-type: disc;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666 !important;
+}
+.librarian-no-results-list li span{
+  color: #000 !important;
+}
+
+.librarian-no-result-tips {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.librarian-search-tips-container {
+  background-color: #f7f7f7;
+  padding: 20px 30px;  
+}
+</style>
+<style>.librarian-show-all-btn {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 0px !important;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 12px;
+  margin-top: -15px;
+  line-height: 1em;
+}
+
+.librarian-show-all-btn::before,
+.librarian-show-all-btn::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.librarian-more-less-btn {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: underline;
+  text-align: center;
+  padding: 0;
+  padding-left: 15px;
+  line-height: 1em;
+}
+
+.librarian-hide-filters {
+  max-height: 0;
+  display: none;
+  transition: max-height 1s ease-in-out;
+  transition: height 0.2s;
+}
+
+.librarian-filters-container {
+  width: 100%;
+  justify-content: space-around;
+  background-color: #F7F7F7;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  /* max-height: 5000px; */
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.librarian-filters-container-items {
+  display: flex;
+  padding: 30px;
+}
+
+.librarian-filters-container-hide {
+  opacity: 0;
+  max-height: 0;
+  margin-top: 0px;
+  transition: opacity 0.5s ease, max-height 0.5s ease, margin-top 0.5s ease;
+}
+
+.librarian-filter-title {
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.librarian-filters-reset-apply-container {
+  background-color: transparent !important;
+  margin-top: 8px !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 16px !important;
+  margin-top: 15px !important;
+}
+
+.librarian-reset-btn {
+  cursor: pointer !important;
+  background-color: #fff !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  padding: 6px !important;
+  color: #000 !important;
+  flex: 1 !important;
+  max-width: 130px !important;
+  text-transform: none !important;
+  line-height: normal !important;
+  text-align: center !important;
+  border: 2px solid  #76B900
+}
+
+.librarian-reset-btn:hover {
+  background-color: #f2f2f2 !important;
+}
+
+.librarian-apply-btn {
+  cursor: pointer !important;
+  background-color: #76b900 !important;
+  border: 2px solid #76b900 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  padding: 6px !important;
+  color: #000 !important;
+  flex: 1 !important;
+  max-width: 160px !important;
+  text-transform: none !important;
+  line-height: normal !important;
+  text-align: center !important;
+}
+
+.librarian-apply-btn:hover {
+  background-color: #659f00 !important;
+  border-color: #659f00 !important;
+}
+
+.librarian-filter-items-container {
+  padding: 30px 0;
+}
+
+.librarian-checkbox-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.librarian-checkbox-label {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  padding-left: 15px;
+  cursor: pointer;
+  color: #000 !important;
+}
+
+.librarian-checkbox-label-disabled {
+  color: #999 !important;
+  cursor: auto;
+}
+
+.librarian-select-deselect-top {
+  padding-top: 15px;
+}
+
+.librarian-site-filters-list {
+  padding: 30px 0 0 0;
+}
+
+.librarian-mobile-filters-content {
+  width: 100%;
+}
+
+.librarian-checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: #fff !important;
+  cursor: pointer;
+  appearance: none;
+  content: '' !important;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background-color: transparent !important;
+  position: relative;
+  margin:2px;
+
+  @supports (-webkit-touch-callout: none) {
+    content: '';
+    accent-color: #fff !important;
+  }
+}
+
+.librarian-checkbox-span {
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+  position: relative;
+  margin:2px;
+  cursor: pointer;
+}
+
+.librarian-checkbox:disabled {
+  cursor: auto;
+}
+
+.librarian-checkbox:checked::before {
+  outline: 2px solid #999;
+  content: '\f00c';
+  display: block;
+  text-align: center;
+  color: #666;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.librarian-checkbox:not(:checked) {
+  outline: 2px solid #999;
+  border-radius: 0px;
+
+  @supports (-webkit-touch-callout: none) {
+    outline: 2px solid #999;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0px;
+  }
+}
+
+.librarian-filter-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #dedfdf;
+}
+
+.librarian-arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.librarian-arrow-icon-rotated {
+  transform: rotate(180deg);
+}
+
+.librarian-filter-headings {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 30px;
+}
+
+.librarian-items-container {
+  display: flex;
+  column-gap: 40px;
+  row-gap: 0;
+  flex-wrap: wrap;
+  padding-top: 30px
+}
+
+.librarian-filter-headings p {
+  font-weight: bold;
+  font-size: 15px;
+  color: #000;
+  margin: 0;
+  padding: 0 !important;
+  line-height: 1em;
+}
+
+.librarian-select-deselect {
+  cursor: pointer;
+  color: #000;
+  font-family: "NVIDIA Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.7%;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.librarian-checkbox-all {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.librarian-select-deselect-label {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 639px) {
+  .librarian-filters-container-items {
+    justify-content: center;
+    padding-bottom: 0px !important;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .librarian-filters-container-items {
+    justify-content: center;
+  }
+
+  /* .librarian-checkbox-item {
+    display: block;
+  } */
+}
+
+/*Laptop and Desktop*/
+@media only screen and (min-width: 1024px) {
+  .librarian-filters-container {
+    display: none !important;
+  }
+
+  .librarian-filters-reset-apply-container {
+    justify-content: flex-start !important;
+    margin: 15px !important;
+  }
+
+  .librarian-reset-btn,
+  .librarian-apply-btn {
+    flex: none !important;
+    min-width: 100px !important;
+  }
+}</style>
+<style>.librarian-notfound-container {
+  text-align: center;
+  padding: 80px 20px;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.librarian-notfound-status {
+  color: #000;
+  font-size: 20px !important;
+  font-weight:700;
+  line-height: 25px !important;
+}
+
+.librarian-notfound-title {
+  color: #000;
+  font-size: 48px;
+  font-weight:700;
+  line-height: 60px;
+}
+
+.librarian-notfound-description {
+  font-size: 15px !important;
+  color: #000;
+  width: 740px;
+  max-width: 90%;
+  margin: auto;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.librarian-notfound-button {
+  background-color: #76b900;
+  color: #000;
+  border: none;
+  outline: none;
+  text-decoration: none !important;
+  padding: 13px 15px;
+  font-weight: 700 !important;
+  font-family: 18px !important;
+  display: inline-block;
+  &:hover {
+    background-color: #91c733;;
+  }
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .librarian-notfound-title{
+    font-size: 36px !important;
+    line-height: 45px !important;
+  }
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 639px){
+  .librarian-notfound-title{
+    font-size: 36px !important;
+    line-height: 45px !important;
+  }
+}</style>
+<style>/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a {
+    color: #000000;
+} */</style>
+<style>.librarian-overlay-container {
+  background: #161616;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.19), 0px 0px 2px 0px rgba(0, 0, 0, 0.19);
+  padding: 60px 0;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.librarian-overlay-text {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  line-height: 45px !important;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  .librarian-overlay-text {
+    font-size: 28px !important;
+    line-height: 35px !important;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .librarian-overlay-text {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+}
+
+.librarian-overlay-text-container {
+  margin: 0 auto;
+}
+
+.librarian-overlay-topWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.librarian-overlay {
+  position: fixed;
+  top: var(--nv-global-nav-pull-up, 44px);
+  left: 0;
+  height: calc(100% - 40px);
+  width: 100%;
+  min-height: 50%;
+  background-color: transparent;
+  box-shadow: 0 2px 4px #000d;
+  background-color: #0009;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.librarian-inline {
+  width: 100%;
+  display: block;
+}
+
+.librarian-inline .librarian-overlay-container.librarian-inline-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  padding: 60px 0;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  .librarian-overlay-container,
+  .librarian-inline .librarian-overlay-container.librarian-inline-container {
+    padding: 30px 0;
+  }
+}
+
+@media only screen and (max-width:639px){
+  .librarian-overlay-container,
+  .librarian-inline .librarian-overlay-container.librarian-inline-container {
+    padding-top: 0 !important;
+  }
+}
+
+.librarian-show-overlay {
+  display: block;
+}
+
+.librarian-close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.librarian-search-input-home {
+  max-width: 910px;
+}
+
+.librarian-search-ai-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.librarian-search-input-container .librarian-search-input {
+  flex: 1;
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+  outline: none !important;
+  font-size: 16px;
+  height: 100%;
+  caret-color: #d4c4a8;
+}
+
+.librarian-search-input-container .librarian-search-input::placeholder {
+  color: #b3b3b3;
+  opacity: 1;
+}
+
+.librarian-suggestedPillsWrapper {
+  /* overflow-x: scroll;
+  scrollbar-width: none; */
+  width: 731px;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.librarian-try-searches-header {
+  margin: 30px auto 0;
+  color: #fff !important;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 166.7%;
+  padding: 0 !important;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.librarian-try-searches-header:focus-visible {
+  outline: 2px solid #d4c4a8;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.librarian-try-searches-chevron {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.25s ease;
+}
+
+.librarian-try-searches-chevron.librarian-rotated {
+  transform: rotate(180deg);
+}
+
+.librarian-suggestedPillsContainer {
+  /* scrollbar-width: none;
+  -ms-overflow-style: none; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .librarian-suggestedPillsContainer::-webkit-scrollbar {
+  display: none;
+} */
+
+
+.librarian-suggestedPills {
+  color: #EEE;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+  border-radius: 18px;
+  border: 1px solid #808080;
+  padding: 5px 10px;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.librarian-hidden-div{
+  display: none;
+}
+
+@media only screen and (max-width:639px) {
+  .librarian-hidden-div{
+    display: block;
+    height: 100px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width:639px) {
+  .librarian-overlay-topWrapper {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width:399px) {
+  .librarian-overlay-container{
+    min-height: none;
+    overflow: scroll;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .librarian-overlay-container,
+  .librarian-inline .librarian-overlay-container.librarian-inline-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .librarian-overlay-container .general-container {
+    max-width: 630px !important;
+    width: 100% !important;
+    padding: 0px !important;
+  }
+
+  .librarian-search-input-home {
+    max-width: 455px;
+  }
+
+  .librarian-search-input {
+    font-size: 16px;
+  }
+
+  .librarian-suggestedPillsWrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+  .librarian-overlay-container .general-container {
+    max-width: 630px !important;
+    width: 100% !important;
+  }
+
+  .librarian-search-input-home {
+    max-width: 620px;
+  }
+
+  .librarian-search-input {
+    font-size: 16px;
+  }
+
+  .librarian-suggestedPillsWrapper {
+    width: 630px;
+    max-width: 100vw;
+  }
+}
+
+
+/* Laptop devices */
+@media only screen and (min-width: 1024px) and (max-width: 1349px) {
+  .librarian-overlay-container .general-container {
+    max-width: 954px !important;
+    width: 100% !important;
+  }
+
+  .librarian-search-input-home {
+    max-width: 790px;
+  }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1350px) {
+  .librarian-overlay-container .general-container {
+    max-width: 1290px !important;
+    width: 100% !important;
+  }
+
+  .librarian-search-input-home {
+    max-width: 910px;
+  }
+}
+
+#paperplane-icon-btn {
+  border: none;
+  background: #76b900;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+#paperplane-icon-btn:hover:not(:disabled) {
+  background: #8fd400;
+}
+
+#paperplane-icon-btn:disabled {
+  cursor: auto;
+  background: #ccc;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+
+.librarian-search-input-container .librarian-search-icon[aria-label="cross-button"] {
+  background: transparent;
+  border: none;
+  color: #b3b3b3;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  margin-right: 4px;
+}
+
+.librarian-search-input-container .librarian-search-icon[aria-label="cross-button"]:hover {
+  color: #fff;
+}</style>
+<style>/* :root {
+  --app-font: NVIDIA Sans, Arial, Helvetica, sans-serif;
+  --padding-tb-30: 30px 0px;
+  --padding-tb-15: 15px 0px;
+  --brand-color: #76b900;
+} */
+
+/* body {
+  font-family: NVIDIA-NALA, Arial, Helvetica, sans-serif;
+} */
+</style>
+<style type="text/css" id="nv-accordion-styles">.cmp-accordion__panel--hidden{max-height:0}</style>
+</head><body style="overflow: hidden auto;" class="body-page  nv-page-body theme-en-us theme-deeplearning  enterprise page basicpage"><a href="#" id="contentOverlay" data-lookbook-overlay-href=" data-lookbook-overlay-width=" 80%"="" data-lookbook-overlay-height="80%" style="display:none"></a>
+
+    
+<script src="../assets/www.nvidia.com/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js"></script>
+<script src="../assets/www.nvidia.com/etc.clientlibs/clientlibs/granite/utils.min.4a192b590a2c2926fb000264370c0588.js"></script>
+<script src="../assets/www.nvidia.com/etc.clientlibs/foundation/clientlibs/shared.min.e9d9a3990d7779c2e8e3361187f3d36b.js"></script>
+<script src="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-webfoundation.min.efc0fdf7ab6cfd024ef52932bbdebd3a.js"></script>
+
+		
+	
+	
+    
+        
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+<link rel="stylesheet" href="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css" type="text/css">
+<link rel="stylesheet" href="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css" type="text/css">
+
+    
+
+    
+
+         
+
+    
+<link rel="stylesheet" href="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-nvgdccart.min.d41d8cd98f00b204e9800998ecf8427e.css" type="text/css">
+
+<script type="text/javascript">
+
+var NVIDIAGDC = NVIDIAGDC || {};
+
+;(function ( nvidiaGDC ){
+  
+
+    nvidiaGDC.addProperty = function(obj, name, val){
+        if (!obj && !name){
+            return;
+        }
+        
+        nvidiaGDC[obj] = nvidiaGDC[obj] || {};
+        
+        if(typeof val != "undefined" && val != null){
+            if(!nvidiaGDC[obj].hasOwnProperty(name) || !nvidiaGDC[obj][name]){
+                nvidiaGDC[obj][name] = val;
+            }    
+        }
+    };
+
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
+	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('web', 'env', 'p-prod');
+    nvidiaGDC.addProperty('web', 'q1', '');
+    nvidiaGDC.addProperty('web', 'q2', '');
+    nvidiaGDC.addProperty('web', 'q3', '');
+    var genai="";
+    if(genai===""){
+    	genai="true";
+    }
+    nvidiaGDC.addProperty('ai', 'gen', genai);
+
+})(NVIDIAGDC);
+</script>
+
+    
+<script src="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-preload.min.b4fa5377a892c2f813b44eff3ffe516a.js"></script>
+
+<script type="text/javascript">
+
+var nvidiaGDClogqueue = [];
+var nvidiaGDClog = function() {
+    nvidiaGDClogqueue.push(arguments)
+};
+
+;(function ( nvidiaGDC ){
+    
+    nvidiaGDC.SC = nvidiaGDC.SC || {};
+    nvidiaGDC.SC.vars = nvidiaGDC.SC.vars || {};
+    nvidiaGDC.SC.vars.pageTemplate = "/conf/nvidiaweb/settings/wcm/templates/enterprise-template".toLowerCase();
+    
+
+    var nvidiaGDCFunctionQueue = function(){
+                this.queue = [];
+            };
+            nvidiaGDCFunctionQueue.prototype.addToQueue = function(funcItem){
+                nvidiaGDClog("funcqueue/add");
+                nvidiaGDClog(funcItem);
+                this.queue.push(funcItem);
+            };
+            nvidiaGDCFunctionQueue.prototype.clearQueue = function(){
+                this.queue.length = 0;
+            };
+            nvidiaGDCFunctionQueue.prototype.executeQueue = function(){
+
+                var nQueueLength = this.queue.length;
+                var sTargetID,
+                    sMethodName,
+                    aParams,
+                    $targetElement,
+                    fMethod;
+
+                for (var i = 0; i < this.queue.length; i++) {
+                    try {
+                        var funcItem = this.queue[i];
+
+                        if (typeof funcItem === 'object') {
+                            nvidiaGDClog("funcqueue/object: " + funcItem['method']);
+                                sTargetID = funcItem['id'];
+                                sMethodName = funcItem['method'];
+                                aParams = funcItem['params'];
+                                $targetElement = $(document.getElementById(sTargetID));
+                                fMethod = $targetElement[sMethodName];
+
+                            fMethod.apply($targetElement, aParams);
+
+                        } else if (typeof funcItem === 'string' && nvidiaGDC.Func) {
+                            nvidiaGDClog("funcqueue/string: " + funcItem);
+                            if (typeof nvidiaGDC.Func[funcItem] === 'function') {
+                                nvidiaGDC.Func[funcItem].call();
+                            }
+
+                        }
+                    } catch(err) {
+                        if (typeof console == "object") {
+                            nvidiaGDClog("Error running script - " + err + " (Has plugin been included?)");
+                            nvidiaGDClog({
+                                "sTargetID" : sTargetID,
+                                "sMethodName" : sMethodName,
+                                "aParams" : aParams,
+                                "$targetElement" : $targetElement,
+                                "fMethod" : fMethod
+                            });
+                        }
+                    }
+                }
+                this.clearQueue();
+            };
+
+            nvidiaGDC.funcQueue = nvidiaGDC.funcQueue || new nvidiaGDCFunctionQueue();
+     
+})(NVIDIAGDC);
+
+</script>
+
+    
+    <script>
+        (() => {
+            let getViewportDimensions = () => {
+                return {
+                    width: Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0),
+                    height: Math.max(document.documentElement.clientHeight || 0, window.clientHeight || 0)
+                }
+            }
+
+            let getViewportType = () => {
+                const viewport = getViewportDimensions();
+                if (viewport.width < 640) {
+                    return 'mobile';
+                } else if (viewport.width >= 640 && viewport.width < 1024) {
+                    return 'tablet';
+                } else if (viewport.width >= 1024 && viewport.width < 1350) {
+                    return 'laptop';
+                } else if (viewport.width >= 1350) {
+                    return 'desktop';
+                }
+            }
+            let currentViewportType = getViewportType();
+
+            window.addEventListener("resize", () => {
+                const oldResolution = currentViewportType;
+                currentViewportType = getViewportType();
+                if (oldResolution !== currentViewportType) {
+                    window.dispatchEvent(new CustomEvent("onNvBreakpointChange", {
+                      detail: {
+                            breakpoint: currentViewportType,
+                            changedFrom: oldResolution,
+                            vw: getViewportDimensions().width,
+                            vh: getViewportDimensions().height
+                        }
+                    }));
+                }
+            });
+
+            // START: Header Height Calculation and Custom Event for Header Height Change
+            
+            let lastTotalHeight = 0;
+            const headerSelectors = [
+                // Below are Common Selectors
+                '.global-nav:not(.pull-up)>.geo-locator', // Geo - Locator
+                '.global-nav:not(.pull-up)>.nav-header', // Main Nav - Desktop
+                '.global-nav:not(.pull-up)>.mobile-nav', // Main Nav - Mobile
+                '.global-nav>#unibrow-container', // Unibrow - Injected via Target
+                '.global-nav>.sub-brand-nav', // Common Sub Brand Nav
+                '.global-nav>.breadcrumb .subnav', // Page Sub Brand Nav
+                '.global-nav>.in-page-nav-outer-container', // In-page Nav
+                '.global-nav>.cmp-verticalnavigation__toc-mobile', // Vertical navigation
+            ];
+
+            // Configuration for MutationObservers.
+            // Add a `debugName` property to help identify which observer is firing.
+            const mutationObserversConfig = [
+              {
+                selector: 'nav.global-nav',
+                debugName: 'Global Navigation Container',
+                options: { attributes: true, attributeFilter: ['class', 'style'], childList: true }
+              },
+              {
+                selector: '.global-nav>.geo-locator',
+                debugName: 'Geo Locator',
+                options: { attributes: true, attributeFilter: ['class', 'style'], childList: true }
+              },
+              {
+                selector: '.global-nav>#unibrow-container',
+                debugName: 'Unibrow Container',
+                options: { attributes: true, attributeFilter: ['class', 'style'], childList: true }
+              }
+            ];
+
+            // Configuration for ResizeObservers.
+            // Add new objects to this array to monitor additional elements for size changes.
+            const resizeObserversConfig = [
+              {
+                selector: '.global-nav>.geo-locator',
+                debugName: 'Geo Locator (ResizeObserver)'
+              }
+            ];
+
+            // ---------------------------------------------------------------------
+            // Utility Functions
+            // ---------------------------------------------------------------------
+
+            /**
+             * Function to calculate the total height of the header elements.
+             * This function loops through the provided header selectors, calculates their height, 
+             * and returns the total sum of these heights.
+             * 
+             * @returns {Number} The total height of all header elements.
+             */
+            const calculateTotalHeight = () => {
+                let totalHeight = 0;
+                    headerSelectors.forEach((headerSelector) => {
+                    const headerHeight = document.querySelector(headerSelector)?.offsetHeight || 0;
+                    totalHeight += headerHeight;
+                });
+                return totalHeight;
+            }
+
+            /**
+             * Updates the header layout by recalculating the total header height,
+             * updating CSS custom properties, and dispatching a custom event if a change occurred.
+             */
+            const updateHeaderLayout = () => {
+              const newTotalHeight = calculateTotalHeight();
+              if (newTotalHeight !== lastTotalHeight) {
+                lastTotalHeight = newTotalHeight;
+                window.dispatchEvent(new CustomEvent("onNvHeaderHeightChange", { detail: newTotalHeight }));
+                document.documentElement.style.setProperty('--nv-header-height', newTotalHeight + 'px');
+              
+                // Calculate pull-up height using either the mobile navigation or desktop navigation
+                // plus the geo-locator height.
+                const mobileNavHeight = 
+                  document.querySelector('.global-nav>.mobile-nav')?.offsetHeight ||
+                  document.querySelector('.global-nav>.nav-header')?.offsetHeight || 0;
+                const geoLocatorHeight = document.querySelector('.global-nav>.geo-locator')?.offsetHeight || 0;
+                const pullUpHeight = mobileNavHeight + geoLocatorHeight;
+                document.documentElement.style.setProperty('--nv-global-nav-pull-up', pullUpHeight + 'px');
+              }
+            };
+
+            /**
+            * Attaches a MutationObserver to the given element using the specified options.
+            *
+            * @param {HTMLElement} element - The DOM element to observe.
+            * @param {Object} options - Options for the MutationObserver.
+            * @param {String} debugName - A name to identify this observer in logs.
+            */
+            const attachMutationObserver = (element, options, debugName = 'Unknown MutationObserver') => {
+              if (!element) return;
+              const observer = new MutationObserver((mutationsList) => {
+                updateHeaderLayout();
+              });
+              observer.observe(element, options);
+            };
+          
+            /**
+             * Attaches a ResizeObserver to the given element.
+             *
+             * @param {HTMLElement} element - The DOM element to observe for size changes.
+             * @param {String} debugName - A name to identify this observer in logs.
+             */
+            const attachResizeObserver = (element, debugName = 'Unknown ResizeObserver') => {
+              if (!element || !window.ResizeObserver) return;
+              const resizeObserver = new ResizeObserver((entries) => {
+                updateHeaderLayout();
+              });
+              resizeObserver.observe(element);
+            };
+          
+            // ---------------------------------------------------------------------
+            // Observer Initialization Functions
+            // ---------------------------------------------------------------------
+          
+            /**
+             * Initializes and attaches MutationObservers for all configured elements.
+             */
+            const setMutationObservers = () => {
+              mutationObserversConfig.forEach(config => {
+                const element = document.querySelector(config.selector);
+                attachMutationObserver(element, config.options, config.debugName);
+              });
+            };
+          
+            /**
+             * Initializes and attaches ResizeObservers for all configured elements.
+             */
+            const setResizeObservers = () => {
+              resizeObserversConfig.forEach(config => {
+                const element = document.querySelector(config.selector);
+                attachResizeObserver(element, config.debugName);
+              });
+            };
+              
+            /**
+             * Main function to set up all header observers—both MutationObservers and ResizeObservers.
+             * Calling window.setHeaderObservers() will initialize and attach all observers.
+             */
+            window.setHeaderObservers = () => {
+              setMutationObservers();
+              setResizeObservers();
+              // Perform an initial update to ensure proper header layout on load.
+              updateHeaderLayout();
+            };
+            
+            /**
+             * Function to get the current total height of all header elements.
+             * This function returns the total header height by retrieving --nv-header-height value.
+             * 
+             * @returns {Number} The current total height of all header elements.
+             */
+            window.getHeaderHeight = () => {
+                const rootStyles = getComputedStyle(document.documentElement);
+                const headerHeight = rootStyles.getPropertyValue('--nv-header-height').trim();
+                return parseFloat(headerHeight);
+            };
+            
+            // END: Header Height Calculation and Custom Event for Header Height Change
+
+            // START: setContainerHeight
+            /* 
+                setContainerHeight sets the height of nv-container image or video.
+                This is included in head section to improve the page performance
+            */
+            
+            const containerWithFitBgEnabled = [];
+            window.setContainerHeight = (containerID) => {
+                var element = document.getElementById(containerID);
+                var disableMidgroundImgAutoHeight = null;
+                var disableVideoAutoHeight = null;
+                if (element.classList.contains('v1-1')) {
+                    disableMidgroundImgAutoHeight = 'true';
+                    disableVideoAutoHeight = 'true';
+                }
+                var vpWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+                var imageContainer = element.querySelector('.nv-img-as-bg');
+                var videoContainer = element.querySelector('.nv-video-as-bg');
+                var image = element.querySelector('#image-' + containerID);
+                var video = element.querySelector('#video-' + containerID);
+                disableMidgroundImgAutoHeight = disableMidgroundImgAutoHeight || element.getAttribute('data-cmp-disableMidgroundAutoHeight');
+                disableVideoAutoHeight = disableVideoAutoHeight || element.getAttribute('data-cmp-disableVideoAutoHeight');
+                if (!image && !video) {
+                    return;
+                }
+                if (!containerWithFitBgEnabled.includes(containerID)
+                    && (imageContainer?.classList.contains('t-img-fit')
+                    || imageContainer?.classList.contains('p-img-fit')
+                    || imageContainer?.classList.contains('t-image-fit-contain')
+                    || imageContainer?.classList.contains('t-image-fit-cover')
+                    || imageContainer?.classList.contains('p-image-fit-contain')
+                    || imageContainer?.classList.contains('p-image-fit-cover')
+                    || videoContainer?.classList.contains('t-video-fit')
+                    || videoContainer?.classList.contains('p-video-fit')
+                    || videoContainer?.classList.contains('t-video-fit-contain')
+                    || videoContainer?.classList.contains('t-video-fit-cover')
+                    || videoContainer?.classList.contains('p-video-fit-contain')
+                    || videoContainer?.classList.contains('p-video-fit-cover'))) {
+                        containerWithFitBgEnabled.push(containerID);
+                }
+                if (image && !image.classList.contains('hide')) {
+                    var imgHeight = image.naturalHeight;
+                    var imgRenderedHeight = image.height;
+                    var childElement = imageContainer;
+                    if (imgHeight === 1 || imgRenderedHeight === 1) {
+                        return;
+                    }
+                }
+                if (video && !video.classList.contains('hide') && video.children.length > 0) {
+                    var videoHeight = video.videoHeight;
+                    var videoRenderedHeight = video.getBoundingClientRect().height;
+                    var childElement = videoContainer;
+                }
+
+                element.style.height = null;
+                if (childElement) childElement.style.height = null;
+
+                const isMobileViewport = vpWidth < 640;
+                const isTabletViewport = vpWidth >= 640 && vpWidth < 1024;
+
+                if (isMobileViewport) {
+                    if (imageContainer?.classList.contains('p-image-c-top') || imageContainer?.classList.contains('p-image-c-bottom')) {
+                        disableMidgroundImgAutoHeight = 'false';
+                    }
+                    if (videoContainer?.classList.contains('p-video-c-top') || videoContainer?.classList.contains('p-video-c-bottom')) {
+                        disableVideoAutoHeight = 'false';
+                    }
+                }
+
+                if (isTabletViewport) {
+                    if (imageContainer?.classList.contains('t-image-c-top') || imageContainer?.classList.contains('t-image-c-bottom')) {
+                        disableMidgroundImgAutoHeight = 'false';
+                    }
+                    if (videoContainer?.classList.contains('t-video-c-top') || videoContainer?.classList.contains('t-video-c-bottom')) {
+                        disableVideoAutoHeight = 'false';
+                    }   
+                }
+
+                if (videoHeight !== undefined && videoHeight != 1 && videoHeight !== 0 && disableVideoAutoHeight  !== 'true') {
+                    const pVideoCTop = childElement.classList.contains('p-video-c-top');
+                    const pVideoCBottom = childElement.classList.contains('p-video-c-bottom');
+                    const pVideoFit = childElement.classList.contains('p-video-fit');
+
+                    const tVideoCTop = childElement.classList.contains('t-video-c-top');
+                    const tVideoCBottom = childElement.classList.contains('t-video-c-bottom');
+                    const tVideoFit = childElement.classList.contains('t-video-fit');
+
+                    let setChildHeight = false;
+                    let height = videoHeight;
+
+                    if (isMobileViewport && (pVideoCTop || pVideoCBottom || pVideoFit)) {
+                      setChildHeight = pVideoCTop || pVideoCBottom;
+                      height = pVideoFit ? videoRenderedHeight : videoHeight;
+                    } else if (isTabletViewport && (tVideoCTop || tVideoCBottom || tVideoFit)) {
+                      setChildHeight = tVideoCTop || tVideoCBottom;
+                      height = tVideoFit ? videoRenderedHeight : videoHeight;
+                    }
+                    
+                    setChildHeight ? (childElement.style.height = height + 'px') : (element.style.height = height + 'px');
+                }
+                else if (imgHeight !== undefined && imgHeight != 1 && disableMidgroundImgAutoHeight !== 'true') {
+                    const pImageCTop = childElement.classList.contains('p-image-c-top');
+                    const pImageCBottom = childElement.classList.contains('p-image-c-bottom');
+                    const pImgFit = childElement.classList.contains('p-img-fit');
+
+                    const tImageCTop = childElement.classList.contains('t-image-c-top');
+                    const tImageCBottom = childElement.classList.contains('t-image-c-bottom');
+                    const tImgFit = childElement.classList.contains('t-img-fit');
+
+                    let height = imgHeight;
+                    let setChildHeight = false;
+
+                    if (isMobileViewport && (pImageCTop || pImageCBottom || pImgFit)) {
+                      height = imgRenderedHeight;
+                      setChildHeight = pImageCTop || pImageCBottom;
+                    } else if (isTabletViewport && (tImageCTop || tImageCBottom || tImgFit)) {
+                      height = imgRenderedHeight;
+                      setChildHeight = tImageCTop || tImageCBottom;
+                    }
+
+                    setChildHeight ? (childElement.style.height = height + 'px') : (element.style.height = height + 'px');
+                } else if (video?.hasAttribute('poster') && disableVideoAutoHeight !== 'true') {
+                    element.style.height = videoRenderedHeight + 'px';
+                }
+
+                // If container is authored inside carousel - adjust height as per first container height 
+                var nvContainer = element.parentNode,
+                    nvContainerParent = nvContainer?.parentNode,
+                    isCarouselSlide = nvContainerParent?.classList.contains('cmp-carousel__item') || false;
+                if (isCarouselSlide) {
+                    var carouselSlideId = nvContainerParent.getAttribute('id'),
+                        carouselId = carouselSlideId.match(/(.*)-item-(.*)-tabpanel/)[1],
+                        firstSlide = document.querySelector('#' + carouselId + ' [data-cmp-slide-no="1"]'),
+                        firstSlideImageHeight = firstSlide?.querySelector('.nv-img-as-bg')?.style.height,
+                        firstSlideVideoHeight = firstSlide?.querySelector('.nv-video-as-bg')?.style.height,
+                        containerImg = nvContainer.querySelector('.nv-img-as-bg'),
+                        containerVideo = nvContainer.querySelector('.nv-video-as-bg');
+
+                    if (firstSlideImageHeight && containerImg) containerImg.style.height = firstSlideImageHeight;
+                    if (firstSlideVideoHeight && containerVideo) containerVideo.style.height = firstSlideVideoHeight;
+                }
+            }
+
+            window.addEventListener('onNvBreakpointChange', (e) => {
+                document.querySelectorAll('[data-cmp-is="nv-container"]').forEach((container) => {
+                    const containerId = container.getAttribute('id');
+                    window.initBuildVideo(containerId);
+                    window.initLazyLoadingImages(containerId);
+                    window.setContainerHeight(containerId);
+                });
+            });
+
+            // Call setContainerHeight for containers with Fit Image Background or Fit Video Background is Enabled
+            // Fit Image / Video Background is applicabled only for Mobile & Tablet viewports
+            window.addEventListener('resize', (e) => {
+                if (containerWithFitBgEnabled.length > 0) {
+                    const vpWidth = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+                    if (vpWidth <= 1023) {
+                        containerWithFitBgEnabled.forEach(containerId => window.setContainerHeight(containerId));
+                    }
+                }
+            });
+            // END: setContainerHeight
+
+            // Variables
+            let videoSources = {};
+
+            /**
+             * @breif Accepts components JSON data to build source elements for each device type
+             * @param Object videoSource 
+             */
+            let buildSources = (videoSource) => {
+                for (const viewport in videoSource) {
+                    const fragment = createSrcFragment(videoSource[viewport]);
+                    videoSources[viewport] = fragment;
+                }
+            }
+
+            /**
+             * @breif Creats document fragment that contain maximum of upto 3 <source> tags (webm, mp4, ogg)
+             * @param {*} videos - Array of objects with type and src properties
+             * @returns DocumentFragment with maximum of upto 3 <source> tags
+             */
+            let createSrcFragment = (videos) => {
+                const fragment = new DocumentFragment();
+                const videoWebm = videos.find((src) => src.type === 'video/webm');
+                const videoMp4 = videos.find((src) => src.type === 'video/mp4');
+                const videoOgg = videos.find((src) => src.type === 'video/ogg');
+                if (videoWebm && videoWebm.src && videoWebm.type) {
+                    fragment.appendChild(createSource(videoWebm));
+                }
+                if (videoMp4 && videoMp4.src && videoMp4.type) {
+                    fragment.appendChild(createSource(videoMp4));
+                }
+                if (videoOgg && videoOgg.src && videoOgg.type) {
+                    fragment.appendChild(createSource(videoOgg));
+                }
+                return fragment;
+            }
+
+            /**
+             * @breif Creates source element
+             * @param {*} videos - Object with type and src properties
+             * @returns HTMLElement <source>
+             */
+            let createSource = (video) => {
+                const source = document.createElement('source');
+                source.setAttribute('src', video.src);
+                source.setAttribute('type', video.type);
+                return source;
+            }
+
+            /**
+             * Adds source elments to video and trigger play
+             * @param {*} videoEle 
+             * @param {*} videoSources 
+             */
+            let loadVideo = (videoEle, videoSources) => {
+                videoEle.classList.remove('hide');
+                videoEle.appendChild(videoSources);
+            }
+
+            let initLazyLoadingVideo = (containerId) => {
+                //Select all videos that have lazy loading enabled
+                const container = document.getElementById(containerId);
+                const videoTarget = container.querySelector('video[data-nv-lazyload]');
+            
+                if (videoTarget) {
+                    //Intersection Observer Callback Function
+                    const loadVideo = (entries, observer) => {
+                        const [entry] = entries;
+                        if (!entry.isIntersecting) {
+                            return;
+                        }
+                        entry.target.play();
+                    
+                        videoTarget.removeAttribute('data-nv-lazyload');
+                    
+                        observer.unobserve(entry.target);
+                    };
+                
+                    const videoObserver = new IntersectionObserver(loadVideo, {
+                        root: null,
+                        rootMargin: "300px"
+                    })
+                
+                    // Set the Videos to be observed
+                    videoObserver.observe(videoTarget);
+                
+                }
+            }
+
+            /**
+             * @breif Build <source> and append to <video>. Handles changing video source by screen size.
+             */
+            window.initBuildVideo = (containerId) => {
+                const container = document.getElementById(containerId);
+                const video = container.querySelector('.nv-video-load-src>video');
+                if (video) {
+                    const videoSource = JSON.parse(video.dataset.videoSource);
+                    let screen = document.documentElement.clientWidth || document.body.clientWidth;
+                    buildSources(videoSource);
+                
+                    if (Object.keys(videoSources).length > 0) {
+                        while (video.firstChild) {
+                            video.removeChild(video.lastChild);
+                        }
+                        if (screen < 640) {
+                            if (videoSources.mobile) loadVideo(video, videoSources.mobile);
+                            else video.classList.add('hide');
+                        } else if (screen >= 640 && screen < 1024) {
+                            if (videoSources.tablet) loadVideo(video, videoSources.tablet);
+                            else video.classList.add('hide');
+                        } else if (screen >= 1024 && screen < 1350) {
+                            if (videoSources.laptop) loadVideo(video, videoSources.laptop);
+                            else video.classList.add('hide');
+                        } else if (screen >= 1350) {
+                            if (videoSources.desktop) loadVideo(video, videoSources.desktop);
+                            else video.classList.add('hide');
+                        }
+                    }
+
+                    if (video.hasAttribute('poster')) {
+                        window.setContainerHeight(containerId);
+                    }
+                
+                    video.onloadeddata = function() {
+                        window.setContainerHeight(containerId);
+                        video.play();
+                    }
+                    video.onended = () => {
+                        if (!video.hasAttribute('loop')) {
+                            video.classList.add('hide');
+                            window.setContainerHeight(containerId);
+                        }
+                    }
+                
+                    if (video.hasAttribute('data-nv-lazyload')) {
+                        initLazyLoadingVideo(containerId);
+                    } else {
+                        video.load();
+                    }
+                
+                    video.classList.remove('nv-video-load-src');
+                    video.classList.add('nv-video-src-loaded');
+                }
+            }
+
+            window.initLazyLoadingImages = (containerId) => {
+                //Select all images that have lazy loading enabled
+                const container = document.getElementById(containerId);
+                const picture = container.querySelector('picture[data-nv-lazyload]');
+                if (picture) {
+                    const imageTarget = picture.querySelector('img');
+                
+                    //Intersection Observer Callback Function
+                    const loadImage = (entries, observer) => {
+                        const [entry] = entries;
+                        if (!entry.isIntersecting) {
+                            return;
+                        }
+                    
+                        const picture = entry.target.parentNode,
+                            srcsetMobile = picture.getAttribute('data-srcset-mobile'),
+                            srcsetTablet = picture.getAttribute('data-srcset-tablet'),
+                            srcsetLaptop = picture.getAttribute('data-srcset-laptop'),
+                            srcsetDesktop = picture.getAttribute('data-srcset-desktop');
+                        picture.querySelector('source[data-source-mobile]').srcset = srcsetMobile;
+                        picture.querySelector('source[data-source-tablet]').srcset = srcsetTablet;
+                        picture.querySelector('source[data-source-laptop]').srcset = srcsetLaptop;
+                        picture.querySelector('source[data-source-desktop]').srcset = srcsetDesktop;
+                        picture.querySelector('img').src = srcsetDesktop.split(',')[0];
+                        picture.querySelector('img').srcset = srcsetDesktop.split(',')[1];
+                    
+                        if (imageTarget.closest('.nv-img-as-bg')) {
+                            imageTarget.onload = function() {
+                                window.setContainerHeight(containerId);
+                            }
+                        }
+                    
+                        picture.removeAttribute('data-nv-lazyload');
+                    
+                        observer.unobserve(entry.target);
+                    };
+                
+                    const imageObserver = new IntersectionObserver(loadImage, {
+                        root: null,
+                        rootMargin: "300px"
+                    });
+                
+                    // Set the Images to be observed
+                    imageObserver.observe(imageTarget);
+                
+                }
+            };
+        })();
+    </script>
+
+<title>AI Solutions for Industries | NVIDIA</title>
+
+ 
+ 
+
+    
+
+    
+
+    
+	<style>
+body.v4_design.base_v4 .navigation ul {
+    line-height: inherit;
+}
+ #nv-login-mob { display: flex; align-items: center; } @media (max-width: 1023px) and (min-width: 640px) { .navigation:has(.account-icon):not(:has(.account-icon.logged-in)) .global-nav .nav-header-container .nav-tools-container .nav-header-list .nav-header-item.cart-item
+
+{ right: 80px!important; }
+}
+@media (max-width: 639px) {
+body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-container .nav-header-list {
+        width: 92%;
+    }
+}
+</style>
+
+    
+	    
+    	
+    	
+	    
+    
+    	
+        
+    	
+
+                      
+
+	<header id="main-header">
+<div class="meganavigation navigation">
+<!-- SVG SYMBOL DEFINITIONS -->
+<svg class="hide" style="display: none;" xmlns="http://www.w3.org/2000/svg">
+<symbol id="n24-nvidia-logo" viewBox="0 0 108.472 20">
+<title id="nvidia_logo_desktop">NVIDIA Home</title>
+<desc>NVIDIA Home</desc>
+<path d="M1072.628,253.918v-.3h.192c.105,0,.248.008.248.136s-.073.163-.2.163h-.243m0,.211h.129l.3.524h.327l-.33-.545a.3.3,0,0,0,.311-.323c0-.285-.2-.377-.53-.377h-.482v1.245h.276v-.524m1.4-.1a1.2,1.2,0,1,0-1.2,1.157,1.14,1.14,0,0,0,1.2-1.157m-.347,0a.854.854,0,0,1-.855.891v0a.889.889,0,1,1,.855-.887Z" id="nvidia-logo-reg" transform="translate(-965.557 -237.878)"></path>
+<path d="M463.9,151.934v13.127h3.707V151.934Zm-29.164-.018v13.145h3.74v-10.2l2.918.01a2.674,2.674,0,0,1,2.086.724c.586.625.826,1.632.826,3.476v5.995h3.624V157.8c0-5.183-3.3-5.882-6.536-5.882Zm35.134.018v13.127h6.013c3.2,0,4.249-.533,5.38-1.727a7.352,7.352,0,0,0,1.316-4.692,7.789,7.789,0,0,0-1.2-4.516c-1.373-1.833-3.352-2.191-6.306-2.191Zm3.677,2.858h1.594c2.312,0,3.808,1.039,3.808,3.733s-1.5,3.734-3.808,3.734h-1.594Zm-14.992-2.858-3.094,10.4-2.965-10.4h-4l4.234,13.127h5.343l4.267-13.127Zm25.749,13.127h3.708V151.935h-3.709ZM494.7,151.939l-5.177,13.117h3.656l.819-2.318h6.126l.775,2.318h3.969l-5.216-13.118Zm2.407,2.393,2.246,6.145h-4.562Z" id="nvidia-logo-NVIDIA" transform="translate(-399.551 -148.155)"></path>
+<path d="M129.832,124.085v-1.807c.175-.013.353-.022.533-.028,4.941-.155,8.183,4.246,8.183,4.246s-3.5,4.863-7.255,4.863a4.553,4.553,0,0,1-1.461-.234v-5.478c1.924.232,2.31,1.082,3.467,3.01l2.572-2.169a6.81,6.81,0,0,0-5.042-2.462,9.328,9.328,0,0,0-1,.059m0-5.968v2.7c.177-.014.355-.025.533-.032,6.871-.232,11.348,5.635,11.348,5.635s-5.142,6.253-10.5,6.253a7.906,7.906,0,0,1-1.383-.122v1.668a9.1,9.1,0,0,0,1.151.075c4.985,0,8.59-2.546,12.081-5.559.578.463,2.948,1.591,3.435,2.085-3.319,2.778-11.055,5.018-15.44,5.018-.423,0-.829-.026-1.228-.064v2.344h18.947v-20Zm0,13.009v1.424c-4.611-.822-5.89-5.615-5.89-5.615a9.967,9.967,0,0,1,5.89-2.85v1.563h-.007a4.424,4.424,0,0,0-3.437,1.571s.845,3.035,3.444,3.908m-8.189-4.4a11.419,11.419,0,0,1,8.189-4.449v-1.463c-6.043.485-11.277,5.6-11.277,5.6s2.964,8.569,11.277,9.354v-1.555C123.731,133.451,121.643,126.728,121.643,126.728Z" data-name="Eye Mark" fill="#74b71b" id="nvidia-logo-eye-mark" transform="translate(-118.555 -118.117)"></path>
+</symbol>
+<symbol id="n24-menu" viewBox="0 0 24 24">
+<title>Menu</title>
+<desc>Menu icon</desc>
+<defs>
+<style>
+.n24-icon-menu-bg {
+	opacity: 0;
+}
+
+.n24-icon-menu-stroke {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-menu-group">
+<g class="n24-icon-menu-bg" id="n24-icon-menu-boundary">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path></g>
+<line class="n24-icon-menu-stroke" x1="4.5" x2="19.5" y1="7.5" y2="7.5"></line>
+<line class="n24-icon-menu-stroke" x1="4.5" x2="19.5" y1="12" y2="12"></line>
+<line class="n24-icon-menu-stroke" x1="4.5" x2="19.5" y1="16.5" y2="16.5"></line>
+</g>
+</symbol>
+<symbol id="n32-menu" viewBox="0 0 32 32">
+<title>Menu</title>
+<desc>Menu icon</desc>
+<defs>
+<style>
+.n32-icon-menu-cls-1, .n32-icon-menu-cls-3, .n32-icon-menu-cls-4 {
+	fill: none;
+}
+
+.n32-icon-menu-cls-1, .n32-icon-menu-cls-4 {
+	stroke: #666;
+	stroke-width: 2px;
+}
+
+.n32-icon-menu-cls-1 {
+	stroke-miterlimit: 10;
+}
+
+.n32-icon-menu-cls-2 {
+	opacity: 0;
+}
+</style></defs>
+<line class="n32-icon-menu-cls-1" data-name="Line 3b" id="n32-icon-menu-line-3b" x1="16" x2="24" y1="23" y2="23"></line>
+<line class="n32-icon-menu-cls-1" data-name="Line 3a" id="n32-icon-menu-line-3a" x1="8" x2="16" y1="23" y2="23"></line>
+<line class="n32-icon-menu-cls-1" data-name="Line 2b" id="n32-icon-menu-line-2b" x1="16" x2="24" y1="16" y2="16"></line>
+<line class="n32-icon-menu-cls-1" data-name="Line 2a" id="n32-icon-menu-line-2a" x1="8" x2="16" y1="16" y2="16"></line>
+<line class="n32-icon-menu-cls-1" data-name="Line 1b" id="n32-icon-menu-line-1b" x1="16" x2="24" y1="9" y2="9"></line>
+<line class="n32-icon-menu-cls-1" data-name="Line 1a" id="n32-icon-menu-line-1a" x1="8" x2="16" y1="9" y2="9"></line>
+<g class="n32-icon-menu-cls-2" id="Container">
+<rect class="n32-icon-menu-cls-3" height="32" width="32"></rect>
+<rect class="n32-icon-menu-cls-4" height="30" width="30" x="1" y="1"></rect>
+</g>
+</symbol>
+<symbol id="n24-close-small" viewBox="0 0 24 24">
+<title>Close</title>
+<desc>Close icon</desc>
+<defs>
+<style>
+.n24-icon-close-small-cls-1 {
+	opacity: 0;
+}
+
+.n24-icon-close-small-cls-2 {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-close-small">
+<g id="boundary">
+<g class="n24-icon-close-small-cls-1">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path>
+</g>
+</g>
+<line class="n24-icon-close-small-cls-2" x1="7.50005" x2="16.50005" y1="7.50002" y2="16.50002"></line>
+<line class="n24-icon-close-small-cls-2" x1="7.50005" x2="16.50005" y1="16.50002" y2="7.50002"></line>
+</g>
+</symbol>
+<symbol id="n24-close" viewBox="0 0 24 24">
+<title>Close</title>
+<desc>Close icon</desc>
+<defs>
+<style>
+.n24-icon-close-cls-1 {
+	opacity: 0;
+}
+
+.n24-icon-close-cls-2 {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-close">
+<g id="boundary">
+<g class="n24-icon-close-cls-1">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path>
+</g>
+</g>
+<line class="n24-icon-close-cls-2" x1="4.5" x2="19.5" y1="4.5" y2="19.5"></line>
+<line class="n24-icon-close-cls-2" x1="4.5" x2="19.5" y1="19.5" y2="4.5"></line>
+</g>
+</symbol>
+<symbol id="n32-close" viewBox="0 0 32 32">
+<title>Close</title>
+<desc>Close icon</desc>
+<defs>
+<style>
+.close-icon {
+	fill: #666;
+	fill-rule: evenodd;
+}
+</style></defs>
+<path class="close-icon" d="M25,8.82,23.18,7,16,14.18,8.82,7,7,8.82,14.18,16,7,23.18,8.82,25,16,17.82,23.18,25,25,23.18,17.82,16Z" data-name="Close icon path" id="n32-icon-close-path"></path>
+</symbol>
+<symbol id="n24-caret-down" viewBox="0 0 24 24">
+<title>Caret down icon</title>
+<desc>Accordion is closed, click to open.</desc>
+<defs>
+<style>
+.n24-icon-caret-down-cls-1 {
+	opacity: 0;
+}
+
+.n24-icon-caret-down-cls-2 {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-caret-down">
+<g id="n24-icon-caret-down-boundary">
+<g class="n24-icon-caret-down-cls-1">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path>
+</g>
+</g>
+<polyline class="n24-icon-caret-down-cls-2" points="4.5 8.25 12 15.75 19.5 8.25"></polyline>
+</g>
+</symbol>
+<symbol id="n32-caret-down" viewBox="0 0 32 32">
+<title>Caret down icon</title>
+<desc>Accordion is closed, click to open.</desc>
+<path d="M1,0,8,7,1,14" data-name="Line 1" fill="none" id="n32-icon-caret-down-line-1" stroke="#666" stroke-width="2" transform="translate(22.5 11.5) rotate(90)"></path>
+<g fill="none" id="n32-icon-caret-down-container" opacity="0" stroke="#666" stroke-width="2">
+<rect height="32" stroke="none" width="32"></rect>
+<rect fill="none" height="30" width="30" x="1" y="1"></rect>
+</g>
+</symbol>
+<symbol id="n32-caret-up" viewBox="0 0 32 32">
+<title>Caret up icon</title>
+<desc>Accordion is open, click to close.</desc>
+<path d="M1,0,8,7,1,14" data-name="Line 1" fill="none" id="n32-icon-caret-up-line-1" stroke="#666" stroke-width="2" transform="translate(8.5 20.5) rotate(-90)"></path>
+<g fill="none" id="n32-icon-caret-up-container" opacity="0" stroke="#666" stroke-width="2">
+<rect height="32" stroke="none" width="32"></rect>
+<rect fill="none" height="30" width="30" x="1" y="1"></rect>
+</g>
+</symbol>
+<symbol id="n24-caret-right-small" viewBox="0 0 24 24">
+<title>Caret right icon</title>
+<desc>Click to expand</desc>
+<defs>
+<style>
+.n24-icon-caret-right-small-cls-1 {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+
+.n24-icon-caret-right-small-cls-2 {
+	opacity: 0;
+}
+</style></defs>
+<g id="n24-icon-caret-right-small">
+<g class="n24-icon-caret-right-small-cls-2">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path>
+</g>
+<polyline class="n24-icon-caret-right-small-cls-1" points="9.75 16.5 14.25 12 9.75 7.5"></polyline>
+</g>
+</symbol>
+<symbol id="n24-caret-right" viewBox="0 0 24 24">
+<title>Caret right icon</title>
+<desc>Click to expand</desc>
+<defs>
+<style>
+.n24-icon-caret-right-bg {
+	opacity: 0;
+}
+
+.n24-icon-caret-right-stroke {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-caret-right-icon">
+<g class="n24-icon-caret-right-bg" id="n24-icon-caret-boundary">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path></g>
+<polyline class="n24-icon-caret-right-stroke" points="8.25 19.5 15.75 12 8.25 4.5"></polyline>
+</g>
+</symbol>
+<symbol id="n32-caret-right" viewBox="0 0 32 32">
+<title>Caret right icon</title>
+<desc>Click to expand menu.</desc>
+<g fill="none" id="n32-icon-caret-right-bg" opacity="0" stroke="#666" stroke-width="2">
+<rect height="32" stroke="none" width="32"></rect>
+<rect fill="none" height="30" width="30" x="1" y="1"></rect>
+</g>
+<path d="M1,0,8,7,1,14" fill="none" id="n32-icon-caret-right-line-1" stroke="#666" stroke-width="2" transform="translate(11.5 9)"></path>
+</symbol>
+<symbol id="n24-caret-left-small" viewBox="0 0 24 24">
+<title>Caret left icon</title>
+<desc>Click to collapse menu.</desc>
+<defs>
+<style>
+.n24-caret-left-small-cls-1 {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+
+.n24-caret-left-small-cls-2 {
+	opacity: 0;
+}
+</style></defs>
+<g id="n24-icon-caret-left-small">
+<polyline class="n24-caret-left-small-cls-1" points="14.25 7.5 9.75 12 14.25 16.5"></polyline>
+<g class="n24-caret-left-small-cls-2">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path>
+</g>
+</g>
+</symbol>
+<symbol id="n24-caret-left" viewBox="0 0 24 24">
+<title>Caret left icon</title>
+<desc>Click to collapse menu.</desc>
+<defs>
+<style>
+.n24-icon-caret-left-bg {
+	opacity: 0;
+}
+
+.n24-icon-caret-left-stroke {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-caret-left">
+<g class="n24-icon-caret-left-bg" id="boundary">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path></g>
+<polyline class="n24-icon-caret-left-stroke" points="15.75 4.5 8.25 12 15.75 19.5"></polyline>
+</g>
+</symbol>
+<symbol id="n32-caret-left" viewBox="0 0 32 32">
+<title>Caret left icon</title>
+<desc>Click to collapse menu.</desc>
+<path d="M1,0,8,7,1,14" data-name="line 1" fill="none" id="n32-caret-left-line-1" stroke="#666" stroke-width="2" transform="translate(20.5 23) rotate(180)"></path>
+<g fill="none" id="n32-caret-left-container" opacity="0" stroke="#666" stroke-width="2">
+<rect height="32" stroke="none" width="32"></rect>
+<rect fill="none" height="30" width="30" x="1" y="1"></rect>
+</g>
+</symbol>
+<symbol id="n24-cart" viewBox="0 0 24 24">
+<title id="shopping_cart">Shopping Cart</title>
+<desc>Click to see cart items</desc>
+<defs>
+<style>
+.n24-icon-cart-bg {
+	opacity: 0;
+}
+
+.n24-icon-cart-stroke {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-cart-icon">
+<g class="n24-icon-cart-bg" id="n24-icon-cart-boundary">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path></g>
+<polyline class="n24-icon-cart-stroke" points="1.5 3.75 4.894 3.75 7.707 14.25 16.5 14.25"></polyline>
+<circle class="n24-icon-cart-stroke" cx="8.25" cy="18.75001" r="1.5"></circle>
+<circle class="n24-icon-cart-stroke" cx="15.75" cy="18.75001" r="1.5"></circle>
+<polyline class="n24-icon-cart-stroke" points="5.295 5.25 18.714 5.25 17.142 11.25 6.903 11.25"></polyline>
+</g>
+</symbol>
+<symbol id="n24-search" viewBox="0 0 24 24">
+<title id="search">Search icon</title>
+<desc>Click to search</desc>
+<defs>
+<style>
+.n24-icon-search-bg {
+	opacity: 0;
+}
+
+.n24-icon-search-fill {
+	fill: #666;
+}
+
+.n24-icon-search-stroke {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+</style></defs>
+<g id="n24-icon-search-icon">
+<g class="n24-icon-search-bg" id="n24-icon-search-boundary">
+<path d="M22.5,1.5v21H1.5V1.5h21M24,0H0V24H24V0Z"></path></g>
+<path class="n24-icon-search-fill" d="M9.9,4.05A5.85,5.85,0,1,1,4.05,9.9,5.8566,5.8566,0,0,1,9.9,4.05m0-1.5A7.35,7.35,0,1,0,17.25,9.9,7.35,7.35,0,0,0,9.9,2.55Z"></path>
+<line class="n24-icon-search-stroke" x1="15" x2="19.875" y1="15" y2="19.875"></line>
+</g>
+</symbol>
+<symbol id="n24-user-circle" viewBox="0 0 24 24">
+<defs>
+<style>
+.n24-user-circle-cls-1 {
+	fill: none;
+	stroke: #666;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5px;
+}
+
+.n24-bounds {
+	fill: none;
+}
+</style></defs>
+<rect class="n24-bounds" height="24" id="n24-icon-user-circle-bounds" width="24"></rect>
+<g id="n24-icon-user-circle">
+<circle class="n24-user-circle-cls-1" cx="12" cy="12" id="user-circle" r="9.75"></circle>
+<polyline class="n24-user-circle-cls-1" id="user-body" points="17.55 20.01 16.34 15.48 7.66 15.48 6.45 20.01"></polyline>
+<circle class="n24-user-circle-cls-1" cx="12" cy="9.91" id="user-head" r="3.48"></circle>
+</g>
+</symbol>
+</svg>
+<nav class="global-nav" id="meganavigation55c1b63f_f63e_4bd0_bb34_3be93688ea7b">
+<!-- Geo Locator Starts -->
+<div class="geo-locator hide">
+<div class="geo-locator-container">
+<div class="geo-locator-text">
+<p>Visit your regional NVIDIA website for local content, pricing, and where to buy partners specific to your country.</p>
+</div>
+<div class="geo-locator-actions">
+<div class="geo-locator-dropdown">
+<select aria-label="Select your country" id="country-selector">
+<option data-country="ar" value="/es-la/">Argentina</option>
+<option data-country="au" value="/en-au/">Australia</option>
+<option data-country="be-nl" value="/nl-nl/">België (Belgium)</option>
+<option data-country="be-fr" value="/fr-be/">Belgique (Belgium)</option>
+<option data-country="br" value="/pt-br/">Brasil (Brazil)</option>
+<option data-country="ca" value="/en-us/">Canada</option>
+<option data-country="cz" value="/cs-cz/">Česká Republika (Czech Republic)</option>
+<option data-country="cl" value="/es-la/">Chile</option>
+<option data-country="co" value="/es-la/">Colombia</option>
+<option data-country="dk" value="/da-dk/">Danmark (Denmark)</option>
+<option data-country="de" value="/de-de/">Deutschland (Germany)</option>
+<option data-country="es" value="/es-es/">España (Spain)</option>
+<option data-country="fr" value="/fr-fr/">France</option>
+<option data-country="in" value="/en-in/">India</option>
+<option data-country="it" value="/it-it/">Italia (Italy)</option>
+<option data-country="mx" value="/es-la/">México (Mexico)</option>
+<option data-country="me" value="/en-me/">Middle East</option>
+<option data-country="nl" value="/nl-nl/">Nederland (Netherlands)</option>
+<option data-country="no" value="/nb-no/">Norge (Norway)</option>
+<option data-country="at" value="/de-at/">Österreich (Austria)</option>
+<option data-country="pe" value="/es-la/">Peru</option>
+<option data-country="pl" value="/pl-pl/">Polska (Poland)</option>
+<option data-country="eu" value="/en-eu/">Rest of Europe</option>
+<option data-country="ro" value="/ro-ro/">România (Romania)</option>
+<option data-country="sg" value="/en-sg/">Singapore</option>
+<option data-country="fi" value="/fi-fi/">Suomi (Finland)</option>
+<option data-country="se" value="/sv-se/">Sverige (Sweden)</option>
+<option data-country="tr" value="/tr-tr/">Türkiye (Turkey)</option>
+<option data-country="gb" value="/en-gb/">United Kingdom</option>
+<option data-country="us" value="/en-us/">United States</option>
+<option data-country="kr" value="/ko-kr/">대한민국 (South Korea)</option>
+<option data-country="cn" value="/zh-cn/">中国大陆 (Mainland China)</option>
+<option data-country="tw" value="/zh-tw/">台灣 (Taiwan)</option>
+<option data-country="jp" value="/ja-jp/">日本 (Japan)</option>
+</select>
+<span class="fa-light fa-chevron-down"></span>
+</div>
+<div class="geo-locator-cta">
+<div class="nv-button button nv-button-small nv-no-left-padding nv-no-right-padding nv-no-top-padding nv-no-bottom-padding">
+<div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
+<a class="btn-content btncta" href="/" rel="noopener noreferrer">
+<span class="btn-text">Continue</span>
+</a>
+</div>
+</div>
+<button class="close-button">
+<span class="fa-light fa-xmark-large"></span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    (() => {
+      const countrySelector = document.querySelector('#country-selector');
+      const GEO_LOCATOR_COOKIE_NAME = 'geo_locator';
+      const DISMISSAL_DAYS = 7;
+      
+      // Get cookie value by name
+      const getCookie = (name) => {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        return parts.length === 2 ? parts.pop().split(";").shift() : null;
+      };
+      
+      // Set cookie with expiration and domain
+      const setCookie = (name, value, days) => {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = `expires=${date.toUTCString()}`;
+        document.cookie = `${name}=${value};${expires};domain=.nvidia.com;path=/`;
+      };
+      
+      // Get geo locator cookie data
+      const getGeoLocatorCookie = () => {
+        const cookieValue = getCookie(GEO_LOCATOR_COOKIE_NAME);
+        if (!cookieValue) return null;
+        try {
+          return JSON.parse(cookieValue);
+        } catch (e) {
+          return null;
+        }
+      };
+      
+      // Set geo locator cookie data
+      const setGeoLocatorCookie = (data) => {
+        setCookie(GEO_LOCATOR_COOKIE_NAME, JSON.stringify(data), DISMISSAL_DAYS);
+      };
+      
+      // Check if Geo Locator was dismissed
+      const isDismissed = () => {
+        const cookieData = getGeoLocatorCookie();
+        return cookieData && cookieData.dismissed === true;
+      };
+      
+      // Set dismissal status
+      const setDismissed = () => {
+        const existingData = getGeoLocatorCookie() || {};
+        const updatedData = {
+          ...existingData,
+          dismissed: true,
+          dismissedAt: new Date().toISOString()
+        };
+        setGeoLocatorCookie(updatedData);
+      };
+    
+      // Update select option values based on <link rel="alternate"> in head.
+      const updateOptionValuesFromHead = () => {
+        const alternateLinks = document.querySelectorAll('head link[rel="alternate"][hreflang][href]');
+        if (!alternateLinks.length) return;
+        if (!countrySelector) return;
+        Array.from(countrySelector.options).forEach(option => {
+          const optCountry = option.getAttribute('data-country');
+          if (!optCountry) return;
+          alternateLinks.forEach(link => {
+            const hreflang = link.getAttribute('hreflang');
+            if (hreflang && hreflang.includes('-') && hreflang.toLowerCase().endsWith(`-${optCountry.toLowerCase()}`)) {
+              option.value = link.getAttribute('href');
+            }
+          });
+        });
+      };
+    
+      // Fetch translations from the GraphQL endpoint.
+      const fetchTranslations = () => 
+        fetch('/graphql/execute.jsongeo-locator/translations')
+          .then(response => response.json())
+          .then(data => data.data.geoLocatorList.items)
+          .catch(err => {
+            console.error('Error fetching translations:', err);
+            return [];
+          });
+      
+      // Check current path against master.disableGeoLocRegExps
+      const matchesDisableByRegex = (translations) => {
+        const master = translations.find(item => item._variation === 'master');
+        if (!master || !Array.isArray(master.disableGeoLocRegExps)) return false;
+
+        const path = window.location.pathname;
+        return master.disableGeoLocRegExps.some(pattern => {
+          try {
+            const rx = new RegExp(pattern);
+            return rx.test(path);
+          } catch (err) {
+            console.error('Invalid regex in disableGeoLocRegExps:', pattern, err);
+            return false;
+          }
+        });
+      };
+
+      const getUserGeoLocatorFlag = (translations, userRegion) => {
+        const t = translations.find(item => {
+          if (item._variation.includes('-')) {
+            const regionPart = item._variation.split('-')[1].toUpperCase();
+            return regionPart === userRegion.toUpperCase();
+          }
+          return false;
+        });
+        return t?.disableGeoLocatorUserRegion;
+      };
+
+      const getGeoLocatorFlag = (translations, pageRegion) => {
+        const translation = translations.find(item => {
+          if (item._variation.includes('-')) {
+            const variantRegion = item._variation.split('-')[1].toUpperCase();
+            return variantRegion === pageRegion.toUpperCase();
+          }
+          return false;
+        });
+        return translation?.disableGeoLocatorPageRegion;
+      };
+    
+      // Select the correct translation by comparing last two characters of _variation with userRegion.
+      const getTranslation = (translations, userRegion) => {
+        let translation = translations.find(item => {
+          if (item._variation.includes('-')) {
+            const variantRegion = item._variation.split('-')[1].toUpperCase();
+            return variantRegion === userRegion.toUpperCase();
+          }
+          return false;
+        });
+        return translation || translations.find(item => item._variation.toLowerCase() === 'master');
+      };
+    
+      // Update the Geo Locator with the fetched translation and update UI.
+      const updateGeoLocator = (translation, userRegion, lookupKey) => {
+        if (!translation || translation?.disableGeoLocatorPageRegionFlag) return;
+        
+        // Check if Geo Locator was dismissed
+        if (isDismissed()) {
+          console.log('Geo Locator was dismissed by user. Will not show for 7 days.');
+          return;
+        }
+        
+        const geoLocator = document.querySelector('.geo-locator');
+        if (!geoLocator) return;
+        
+        // Update the message text
+        const geoLocatorText = geoLocator.querySelector('.geo-locator-text > p');
+        if (geoLocatorText && translation.geoLocatorMessage) {
+          geoLocatorText.textContent = translation.geoLocatorMessage.plaintext;
+        }
+        
+        // Update the Continue button text
+        const continueButton = geoLocator.querySelector('.geo-locator-cta .btn-content');
+        if (continueButton) {
+          continueButton.textContent = translation.continue;
+        }
+        
+        // Update the country dropdown selection to match the user's region
+        if (countrySelector) {
+          // Use lookupKey if provided (for special cases like BE), otherwise use userRegion
+          const countryKey = lookupKey || userRegion.toLowerCase();
+          const optionToSelect = countrySelector.querySelector(`option[data-country="${countryKey}"]`);
+          if (optionToSelect) {
+            optionToSelect.selected = true;
+            // Also update the Continue button's URL based on the selected option
+            if (continueButton) {
+              continueButton.href = optionToSelect.value;
+            }
+          }
+        }
+        
+        // Remove the hide class to display the Geo Locator
+        geoLocator.classList.remove('hide');
+      };
+    
+      // Retrieve user's region from the cookie and page region from the xml:lang attribute.
+      const userRegion = getCookie("c_code");
+      const pageLocale = document.documentElement.getAttribute("xml:lang");
+      let pageRegion = null;
+      if (pageLocale) {
+        const parts = pageLocale.split("-");
+        if (parts.length > 1) pageRegion = parts[1].toUpperCase();
+      }
+    
+      // Only proceed if both userRegion and pageRegion exist and they differ.
+      if (userRegion && pageRegion && userRegion.toUpperCase() !== pageRegion) {
+        // Special case: Skip Geo Locator for Canadian visitors on en-us pages to prevent infinite loop
+        if (userRegion.toUpperCase() === 'CA' && pageLocale && pageLocale.toLowerCase() === 'en-us') {
+          console.log('Skipping Geo Locator for Canadian visitors on en-us locale to prevent infinite loop.');
+          return;
+        }
+        
+        // Special case: Skip Geo Locator for Latin American visitors on es-la pages to prevent infinite loop
+        const latinAmericanCountries = ['MX', 'CO', 'AR', 'PE', 'CL'];
+        if (latinAmericanCountries.includes(userRegion.toUpperCase()) && pageLocale && pageLocale.toLowerCase() === 'es-la') {
+          console.log(`Skipping Geo Locator for ${userRegion} visitors on es-la locale to prevent infinite loop.`);
+          return;
+        }
+        
+        // map BE to be-fr, otherwise use raw
+        let lookupKey = userRegion.toLowerCase();
+        if (lookupKey === 'be') lookupKey = 'be-fr';
+
+        // if there's no matching dropdown entry, bail out
+        const userOption = countrySelector.querySelector(`option[data-country="${lookupKey}"]`);
+        // If we don't have a matching dropdown option, skip showing the Geo Locator
+        if (!userOption) return;
+
+        updateOptionValuesFromHead();
+        fetchTranslations().then(translations => {
+          if (matchesDisableByRegex(translations)) {
+            console.log('Page path matches disableGeoLocRegExps, skipping Geo Locator.');
+            return;
+          }
+          const pageFlag = getGeoLocatorFlag(translations, pageRegion);
+          const userFlag = getUserGeoLocatorFlag(translations, userRegion);
+
+          // only show if neither the page‐region nor the user‐region flag is set
+          if (!pageFlag && !userFlag) {
+            const translation = getTranslation(translations, userRegion);
+            updateGeoLocator(translation, userRegion, lookupKey);
+          }
+        });
+    
+        // Update Continue button URL on dropdown change.
+        if (countrySelector) {
+          countrySelector.addEventListener('change', (e) => {
+            const selectedUrl = e.target.value;
+            const continueButton = document.querySelector('.geo-locator-cta .btn-content');
+            if (continueButton) continueButton.href = selectedUrl;
+          });
+        }
+    
+        // Close button hides the Geo Locator.
+        const closeButton = document.querySelector('.geo-locator .close-button');
+        if (closeButton) {
+          closeButton.addEventListener('click', () => {
+            const geoLocator = document.querySelector('.geo-locator');
+            if (geoLocator) {
+              geoLocator.classList.add('hide');
+              // Set dismissal cookie when user closes the Geo Locator
+              setDismissed();
+              console.log('Geo Locator dismissed. Will not show for 7 days.');
+            }
+          });
+        }
+      } else {
+        // If there's no mismatch, do nothing or log as needed.
+        console.log("User region and page region match, or data is missing. Geo Locator will not be shown.");
+      }
+    })();
+</script>
+<!-- Geo Locator Ends -->
+<div class="nav-header desktop-nav">
+<a class="skip-main" href="#page-content"><span>Skip to main content</span></a>
+<div class="nav-header-container">
+<div class="brand-container"><a alt="Artificial Intelligence Computing Leadership from NVIDIA" aria-labelledby="nvidia_logo_desktop" class="brand-link pull-left nvidia-logo" href="/" title="Artificial Intelligence Computing Leadership from NVIDIA">
+<svg fill="none" height="35" viewBox="0 0 117 35" width="117" xmlns="http://www.w3.org/2000/svg">
+<title>Artificial Intelligence Computing Leadership from NVIDIA</title>
+<path d="M66.4201 15.476V29.238H70.2437V15.476H66.4201ZM36.3477 15.4573V29.238H40.2045V18.5408L43.2134 18.5513C44.2026 18.5513 44.8877 18.7928 45.3639 19.3097C45.9686 19.9653 46.2154 21.0212 46.2154 22.9532V29.238H49.9518V21.6243C49.9518 16.19 46.5447 15.4573 43.2122 15.4573H36.3477ZM72.5755 15.476V29.2368H78.7757C82.0795 29.2368 83.157 28.678 84.3241 27.4262C85.148 26.5465 85.6804 24.6168 85.6804 22.5075C85.6804 20.5732 85.2295 18.8477 84.4434 17.7732C83.0273 15.8517 80.987 15.476 77.9403 15.476H72.5755ZM76.367 18.472H78.0103C80.3949 18.472 81.9372 19.5605 81.9372 22.385C81.9372 25.2095 80.3949 26.2992 78.0103 26.2992H76.367V18.472ZM60.9085 15.476L57.7183 26.382L54.6613 15.476H50.5347L54.9011 29.2368H60.4104L64.8113 15.476H60.9096H60.9085ZM87.4591 29.2368H91.2827V15.476H87.458V29.2368H87.4591ZM98.176 15.4807L92.8377 29.2322H96.6073L97.4519 26.802H103.769L104.569 29.2322H108.661L103.283 15.4795H98.176V15.4807ZM100.657 17.9902L102.973 24.4325H98.2678L100.657 17.9902Z" fill="black"></path>
+<path d="M11.6925 17.7697V15.8762C11.8738 15.8633 12.0563 15.8528 12.2422 15.847C17.3372 15.6837 20.68 20.2978 20.68 20.2978C20.68 20.2978 17.0699 25.3962 13.1992 25.3962C12.6415 25.3962 12.1423 25.3052 11.6925 25.1511V19.4077C13.6766 19.6515 14.0748 20.5417 15.2671 22.5623L17.919 20.2885C17.919 20.2885 15.9831 17.7067 12.7195 17.7067C12.3649 17.7067 12.0253 17.7323 11.6913 17.7685L11.6925 17.7697ZM11.6913 11.5128V14.342C11.8738 14.3268 12.0574 14.3152 12.241 14.3082C19.3259 14.0655 23.9425 20.2162 23.9425 20.2162C23.9425 20.2162 18.6408 26.7705 13.1166 26.7705C12.6105 26.7705 12.1366 26.7227 11.6913 26.6433V28.3922C12.0723 28.4412 12.4671 28.4703 12.8779 28.4703C18.0177 28.4703 21.7358 25.8021 25.3356 22.6428C25.9323 23.1281 28.3754 24.31 28.8781 24.828C25.4549 27.7412 17.4795 30.0885 12.9571 30.0885C12.521 30.0885 12.1022 30.0617 11.6913 30.022V32.479H31.2282V11.514H11.6925L11.6913 11.5128ZM11.6913 25.15V26.6433C6.93708 25.7812 5.6174 20.7575 5.6174 20.7575C5.6174 20.7575 7.89986 18.1862 11.6913 17.7697V19.4077C11.6913 19.4077 11.6867 19.4077 11.6845 19.4077C9.69462 19.165 8.14085 21.055 8.14085 21.055C8.14085 21.055 9.01183 24.2365 11.6925 25.1523L11.6913 25.15ZM3.24888 20.5417C3.24888 20.5417 6.06609 16.3148 11.6925 15.8773V14.3443C5.46134 14.853 0.0644531 20.2185 0.0644531 20.2185C0.0644531 20.2185 3.12036 29.2018 11.6925 30.0243V28.3945C5.40167 27.5895 3.24888 20.5417 3.24888 20.5417Z" fill="#76B900"></path>
+</svg>
+</a></div>
+<!-- Mega menu code start -->
+<div class="navoverlay"></div>
+<input class="main-menu" id="nv-level1-tab1" name="nv-tab-level-1" type="radio" value="nv-level1-tab1">
+<input class="main-menu" id="nv-level1-tab2" name="nv-tab-level-1" type="radio" value="nv-level1-tab2">
+<input class="main-menu" id="nv-level1-tab3" name="nv-tab-level-1" type="radio" value="nv-level1-tab3">
+<div class="nv-nav-container nv-menu">
+<div class="menu-buttons-container">
+<span class="menu-button main-menu-buttons-desktop">
+<button class="menu-button caret-right hide">
+<svg aria-controls="main-menu-navigation" aria-label="menu expand" class="n24-icon menu-button caret-right">
+<use xlink:href="#n24-caret-right-small"></use></svg>
+<span class="hide" id="mega-menu-expand-label">Main Menu</span>
+</button>
+<button aria-label="menu collapse" class="menu-button caret-left hide">
+<svg class="n24-icon menu-button caret-left">
+<use xlink:href="#n24-caret-left-small"></use></svg>
+</button>
+<button aria-label="menu close" class="menu-button close hide">
+<svg class="n24-icon menu-button close">
+<use xlink:href="#n24-close-small"></use></svg>
+</button>
+</span>
+</div>
+<ul aria-label="menu" class="nv-menu-list left" id="main-menu-navigation" role="menu" style="visibility: visible; max-width: 880px; white-space: nowrap;">
+<li aria-expanded="false" aria-haspopup="true" class="nv-menu-item tmenu brand-nav-title" data-num="1" role="menuitem">
+<label class="nv-menu-button menu-level-1 brand-nav-chevron" for="nv-level1-tab1" tabindex="0">
+												Products
+												
+												
+											</label>
+<div class="nv-n-n25">
+<div class="nv-menu3-container nv-level1-tab1 one-lvl">
+<div class="nav-row-container">
+<div class="level-menu3">
+
+<div class="menu3-items">
+		<div id="menu1-tab1" class="menu3-items-container active">
+			<span class="h2-style">Products</span>
+			<div class="menu3-item">
+				<a class="menu3-item-card" href="/industries/healthcare-life-sciences/biopharma/" target="_self">
+					<div class="menu3-item-card-content">
+						<div class="nv-button button nv-button-text nv-button-caret">
+							<div class="btn-content btncta">
+								<span class="btn-text">BioNeMo</span>
+							</div>
+						</div>
+						<p>AI-driven platform for life sciences research and discovery</p>
+					</div>
+				</a>
+				<a class="menu3-item-card" href="/data-center/dgx-cloud/" target="_self">
+					<div class="menu3-item-card-content">
+						<div class="nv-button button nv-button-text nv-button-caret">
+							<div class="btn-content btncta">
+								<span class="btn-text">DGX Cloud</span>
+							</div>
+						</div>
+						<p>NVIDIA’s AI factory in the cloud</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li aria-expanded="false" aria-haspopup="true" class="nv-menu-item tmenu" data-num="2" role="menuitem">
+<label class="nv-menu-button menu-level-1 brand-nav-chevron" for="nv-level1-tab2" tabindex="0">
+												Solutions
+												
+												
+											</label>
+<div class="nv-n-n25">
+<div class="nv-menu3-container nv-level1-tab2 one-lvl">
+<div class="nav-row-container">
+<div class="level-menu3">
+
+<div class="menu3-items">
+		<div id="menu2-tab1" class="menu3-items-container active">
+			<span class="h2-style">Solutions</span>
+			<div class="menu3-item">
+				<a class="menu3-item-card" href="/solutions/ai/" target="_self">
+					<div class="menu3-item-card-content">
+						<div class="nv-button button nv-button-text nv-button-caret">
+							<div class="btn-content btncta">
+								<span class="btn-text">Overview</span>
+							</div>
+						</div>
+						<p>NVIDIA technology is power powering solutions for every industry</p>
+					</div>
+				</a>
+				<a class="menu3-item-card" href="/solutions/ai/agentic-ai/" target="_self">
+					<div class="menu3-item-card-content">
+						<div class="nv-button button nv-button-text nv-button-caret">
+							<div class="btn-content btncta">
+								<span class="btn-text">Agentic AI</span>
+							</div>
+						</div>
+						<p>Build and run agentic AI workflows and microservices</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li aria-expanded="false" aria-haspopup="true" class="nv-menu-item tmenu" data-num="3" role="menuitem">
+<label class="nv-menu-button menu-level-1 brand-nav-chevron" for="nv-level1-tab3" tabindex="0">
+												Industries
+												
+												
+											</label>
+<div class="nv-n-n25">
+<div class="nv-menu3-container nv-level1-tab3 one-lvl">
+<div class="nav-row-container">
+<div class="level-menu3">
+<div class="menu3-items">
+<div class="menu3-items-container active" id="menu3-tab1">
+<span class="h2-style">Industries</span>
+<div class="menu3-item"><div class="menu3-item-card">
+<a class="menu3-item-card-content" href="/industries/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Overview</span>
+</div>
+</div>
+</a>
+</div>
+<div class="menu3-item-card">
+<a class="menu3-item-card-content" href="/industries/aec/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Architecture, Engineering, Construction &amp; Operations</span>
+</div>
+</div>
+</a>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li class="nv-menu-item tmenu more"><a href="#">…</a><ul class="dropdown"></ul></li><li class="menu-slider" role="presentation"></li>
+</ul>
+<ul aria-label="menu" class="nv-menu-list right" role="menu">
+
+<li class="nv-menu-item" role="none"><a class="menu-button-link menu-level-1" href="/drivers/" role="menuitem" target="_self">Drivers</a>
+</li>
+<li class="nv-menu-item" role="none"><a class="menu-button-link menu-level-1" href="/support/" role="menuitem" target="_self">Support</a>
+</li>
+</ul>
+</div>
+<!-- Mega menu code ends -->
+<div class="nav-tools-container">
+<ul aria-label="Menu Tools" class="nav-header-list" role="list">
+
+<li class="nav-header-item profile-item">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
+<ul>
+
+</ul>
+</div>
+</li>
+<li class="nav-header-item hide"><a href="#" id="nod-login" style="display: none"> <span>Log In</span>
+</a> <a href="#" id="nod-logout" style="display: none"> <span>LogOut</span>
+</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Mobile navigation starts -->
+<div class="mobile-nav">
+<div class="nav-header">
+<a class="skip-main" href="#page-content"><span>Skip to main content</span></a>
+<div class="nav-header-container">
+<div class="nav-tools-container">
+<ul class="nav-header-list" role="list">
+<li class="nav-header-item mobile-menu-button-item">
+<button aria-controls="mobile-menu-navigation" aria-expanded="false" aria-label="Main Menu" class="menu-button mobile-menu-button toplevel" id="menu-toggle" tabindex="0">
+<span id="mega-nav-open-menu-icon">
+<svg class="n24-icon mega-nav-open-menu-icon">
+<use xlink:href="#n24-menu"></use>
+</svg>
+</span>
+<span class="hide" id="mega-nav-close-menu-icon">
+<svg class="n24-icon mega-nav-close-menu-icon">
+<use xlink:href="#n24-close"></use>
+</svg>
+</span>
+</button>
+</li>
+
+<li class="nav-header-item hide nv-cart-item" id="nv-cart-item" role="status">
+<span class="nav-badge cart-counter">0</span>
+<a aria-expanded="false" aria-haspopup="true" aria-label="Shopping Cart" class="nav-cart-link toplevel" href="/" role="status">
+<svg aria-labelledby="shopping_cart" class="n24-icon nvcarticon n24-cart" style="">
+<use xlink:href="#n24-cart"></use>
+</svg>
+</a>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="mega-nav" id="mega-nav" role="navigation">
+<div class="mega-menu" style="opacity: 1; height: 44px; left: 0px;">
+<!-- SVG SYMBOL DEFINITIONS -->
+<svg class="hide" style="display: none;" xmlns="http://www.w3.org/2000/svg">
+<symbol id="n24-nvidia-logo" viewBox="0 0 108.472 20">
+<title id="nvidia_logo">NVIDIA</title>
+<desc>NVIDIA logo</desc>
+<path d="M1072.628,253.918v-.3h.192c.105,0,.248.008.248.136s-.073.163-.2.163h-.243m0,.211h.129l.3.524h.327l-.33-.545a.3.3,0,0,0,.311-.323c0-.285-.2-.377-.53-.377h-.482v1.245h.276v-.524m1.4-.1a1.2,1.2,0,1,0-1.2,1.157,1.14,1.14,0,0,0,1.2-1.157m-.347,0a.854.854,0,0,1-.855.891v0a.889.889,0,1,1,.855-.887Z" id="nvidia-logo-reg" transform="translate(-965.557 -237.878)"></path>
+<path d="M463.9,151.934v13.127h3.707V151.934Zm-29.164-.018v13.145h3.74v-10.2l2.918.01a2.674,2.674,0,0,1,2.086.724c.586.625.826,1.632.826,3.476v5.995h3.624V157.8c0-5.183-3.3-5.882-6.536-5.882Zm35.134.018v13.127h6.013c3.2,0,4.249-.533,5.38-1.727a7.352,7.352,0,0,0,1.316-4.692,7.789,7.789,0,0,0-1.2-4.516c-1.373-1.833-3.352-2.191-6.306-2.191Zm3.677,2.858h1.594c2.312,0,3.808,1.039,3.808,3.733s-1.5,3.734-3.808,3.734h-1.594Zm-14.992-2.858-3.094,10.4-2.965-10.4h-4l4.234,13.127h5.343l4.267-13.127Zm25.749,13.127h3.708V151.935h-3.709ZM494.7,151.939l-5.177,13.117h3.656l.819-2.318h6.126l.775,2.318h3.969l-5.216-13.118Zm2.407,2.393,2.246,6.145h-4.562Z" id="nvidia-logo-NVIDIA" transform="translate(-399.551 -148.155)"></path>
+<path d="M129.832,124.085v-1.807c.175-.013.353-.022.533-.028,4.941-.155,8.183,4.246,8.183,4.246s-3.5,4.863-7.255,4.863a4.553,4.553,0,0,1-1.461-.234v-5.478c1.924.232,2.31,1.082,3.467,3.01l2.572-2.169a6.81,6.81,0,0,0-5.042-2.462,9.328,9.328,0,0,0-1,.059m0-5.968v2.7c.177-.014.355-.025.533-.032,6.871-.232,11.348,5.635,11.348,5.635s-5.142,6.253-10.5,6.253a7.906,7.906,0,0,1-1.383-.122v1.668a9.1,9.1,0,0,0,1.151.075c4.985,0,8.59-2.546,12.081-5.559.578.463,2.948,1.591,3.435,2.085-3.319,2.778-11.055,5.018-15.44,5.018-.423,0-.829-.026-1.228-.064v2.344h18.947v-20Zm0,13.009v1.424c-4.611-.822-5.89-5.615-5.89-5.615a9.967,9.967,0,0,1,5.89-2.85v1.563h-.007a4.424,4.424,0,0,0-3.437,1.571s.845,3.035,3.444,3.908m-8.189-4.4a11.419,11.419,0,0,1,8.189-4.449v-1.463c-6.043.485-11.277,5.6-11.277,5.6s2.964,8.569,11.277,9.354v-1.555C123.731,133.451,121.643,126.728,121.643,126.728Z" data-name="Eye Mark" fill="#74b71b" id="nvidia-logo-eye-mark" transform="translate(-118.555 -118.117)"></path>
+</symbol>
+</svg>
+<div class="nv-n-n25">
+<nav aria-label="Accordion Navigation" class="accordion-menu">
+<div class="menu-item">
+<button aria-controls="submenu-1" aria-expanded="false" class="accordion-btn" id="menu-btn-2">
+											Products
+											<span aria-hidden="true" class="caret"></span>
+</button>
+<!--
+-->
+<div aria-labelledby="menu-btn-1-1" class="submenu level-3-menu one-lvl" id="submenu-1-1" role="menu">
+		<div class="menu-item">
+			<div class="submenu level-3-menu-items" id="submenu-1-1-1" role="menu">
+				<a class="level-3-menu-item" href="/industries/healthcare-life-sciences/biopharma/" target="_self">
+					<div class="nv-button button nv-button-text nv-button-caret">
+						<div class="btn-content btncta">
+							<span class="btn-text">BioNeMo</span>
+						</div>
+					</div>
+					<p>AI-driven platform for life sciences research and discovery</p>
+				</a>
+				<a class="level-3-menu-item" href="/data-center/dgx-cloud/" target="_self">
+					<div class="nv-button button nv-button-text nv-button-caret">
+						<div class="btn-content btncta">
+							<span class="btn-text">DGX Cloud</span>
+						</div>
+					</div>
+					<p>NVIDIA’s AI factory in the cloud</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item">
+<button aria-controls="submenu-2" aria-expanded="false" class="accordion-btn" id="menu-btn-2">
+											Solutions
+											<span aria-hidden="true" class="caret"></span>
+</button>
+<!-- -->
+<div aria-labelledby="menu-btn-1-2" class="submenu level-3-menu one-lvl" id="submenu-1-2" role="menu">
+		<div class="menu-item">
+			<div class="submenu level-3-menu-items" id="submenu-1-2-1" role="menu">
+				<a class="level-3-menu-item" href="/solutions/ai/" target="_self">
+					<div class="nv-button button nv-button-text nv-button-caret">
+						<div class="btn-content btncta">
+							<span class="btn-text">Overview</span>
+						</div>
+					</div>
+					<p>NVIDIA technology is power powering solutions for every industry</p>
+				</a>
+				<a class="level-3-menu-item" href="/solutions/ai/agentic-ai/" target="_self">
+					<div class="nv-button button nv-button-text nv-button-caret">
+						<div class="btn-content btncta">
+							<span class="btn-text">Agentic AI</span>
+						</div>
+					</div>
+					<p>Build and run agentic AI workflows and microservices</p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="menu-item">
+<button aria-controls="submenu-3" aria-expanded="false" class="accordion-btn one-lvl-btn" id="menu-btn-2">
+															Industries
+															<span aria-hidden="true" class="caret"></span>
+</button>
+<div aria-labelledby="menu-btn-1-3" class="submenu level-3-menu one-lvl" id="submenu-1-3" role="menu">
+<div class="menu-item">
+<div class="submenu level-3-menu-items" id="submenu-1-3-1" role="menu">
+<a class="level-3-menu-item" href="/industries/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Overview</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/aec/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Architecture, Engineering, Construction &amp; Operations</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/automotive/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Automotive</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/solutions/ai/cybersecurity/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Cybersecurity</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/energy/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Energy</span>
+</div>
+</div>
+</a>
+
+<a class="level-3-menu-item" href="/industries/healthcare-life-sciences/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Healthcare and Life Sciences</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/higher-education-research/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Higher Education</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/game-development/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Game Development</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/government/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Government</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/manufacturing/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Manufacturing</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/media-and-entertainment/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Media and Entertainment</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/restaurants/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Restaurants </span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/retail/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Retail and CPG</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/robotics/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Robotics</span>
+</div>
+</div>
+</a>
+<a class="level-3-menu-item" href="/industries/smart-cities-and-spaces/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Smart Cities</span>
+</div>
+</div>
+</a>
+
+<a class="level-3-menu-item" href="/industries/telecommunications/" target="_self">
+<div class="nv-button button nv-button-text nv-button-caret">
+<div class="btn-content btncta">
+<span class="btn-text">Telecommunications</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<li>
+<div class="menu-right">
+<ul aria-label="menu" role="menu">
+
+<li class="menu-level-1" role="none">
+<a class="mm-btn-link" href="/drivers/" role="menuitem" target="_self">Drivers</a>
+</li>
+<li class="menu-level-1" role="none">
+<a class="mm-btn-link" href="/support/" role="menuitem" target="_self">Support</a>
+</li>
+</ul>
+</div>
+</li>
+</nav>
+</div>
+</div>
+</div>
+<div class="mega-overlay hide" style="opacity: 0;"></div>
+</div>
+<!-- Mobile navigation ends -->
+<div class="hide-unibrow" id="unibrow-container"></div>
+<!-- Common sub nav and brand nav Starts -->
+<!-- Common sub nav and brand nav ends -->
+<div class="cmp-verticalnavigation__toc-mobile hide">
+<div>
+<div class="cmp-verticalnavigation__toc-mobile-active-item">
+<span class="active-text"></span>
+<span class="active-arrow"></span>
+</div>
+</div>
+</div>
+<script id="starfleet-script" src="../assets/www.nvidia.com/assets/account-wrapper/starfleet.js"></script>
+<script>	
+	 	if(false){
+			var searchPath = document.getElementById("search-path");
+			searchPath.value = window.location.pathname;
+     	}
+	    NVIDIAGDC.funcQueue.addToQueue({ 
+	        id : "meganavigation55c1b63f_f63e_4bd0_bb34_3be93688ea7b",
+	        method : "navigation-megamenu",
+	        params : [{
+	            globalSite:true,
+	            breadCrumbAdded: false,
+	            enableSearchLibrary: true,
+	            isSolr:false,
+	            searchOptions: {
+	                destination: "https://www.nvidia.com/en-us/search/",
+	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                triggerId: 'nvidia-search-box-link',
+	                referenceId: 'nvidia-search-box-link'
+	              }
+	            }]
+	    });
+	    
+	    NVIDIAGDC.isBrandPage = false;
+		NVIDIAGDC.isMegaMenu = true;
+		NVIDIAGDC.disableOldBrandNav = false;
+		window.setHeaderObservers();
+	</script>
+</nav>
+</div>
+</header>
+
+    	<noscript>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+</noscript>
+        
+        
+            
+
+            
+<div class="root responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+	
+		<div id="bm-uf-industries-video" class="p-t-0 p-b-0  lap-p-t-0 
+         lap-p-b-0  tab-p-t-0 tab-p-b-0
+          mob-p-t-15 mob-p-b-0  
+          
+         with-video-as-bg 
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-center-align 
+         d-cont-h-m l-cont-h-m t-cont-h-m  
+         d-content-align-center l-content-align-center t-content-align-center m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none" style="height: 580px;">
+
+         
+         
+	<div class="nv-video-as-bg nv-video-load-src t-video-c-center p-video-c-bottom  ">
+		<video id="video-bm-uf-industries-video" muted=" playsinline=" preload="meta" data-video-source="{&quot;desktop&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl770-d.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl770-d.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;}],&quot;laptop&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl770-l.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl770-l.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;}],&quot;tablet&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl550-t.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl550-t.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;}],&quot;mobile&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-uf1080-p.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-uf1080-p.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;}]}" loop=" class=" nv-video-src-loaded"=""><source src="https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl770-l.webm" type="video/webm"><source src="https://images.nvidia.com/industries/retail/videos/nvidia-industries-overview-hero-bm-xl770-l.mp4" type="video/mp4"></video>
+		<script>
+			window.initBuildVideo("bm-uf-industries-video");
+		</script>
+	</div>
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="nv-title text h--large aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+  
+    
+      <div id="nv-title-83cb8ef070" class="general-container-text            ">
+        <div class="text-center lap-text-center tab-text-center mob-text-center">
+          <h1 class="title " style="color: #fff;">
+            
+                      Revolutionizing the Future of Industries
+          
+          </h1>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-separator separator aem-GridColumn aem-GridColumn--default--12">
+  
+  
+<div id="nv-separator-f6608725f7" class="cmp-separator">
+     
+     <style>
+         
+        
+        
+        
+        
+        @media screen and (max-width: 639px){
+        	 #nv-separator-f6608725f7{
+                 height:calc(56.25vw + 15px);
+            }
+        }
+         
+    </style>
+    
+</div></div>
+<div class="nv-rawhtml aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+    <div id="nv-rawhtml-c1cce78de1" class="general-container-text            ">
+    	
+		
+
+    <div> <style>
+@media (max-width: 639px){
+    #bm-uf-industries-video{height:auto!important;}
+    #bm-uf-industries-video>.nv-video-as-bg{height:auto!important;}
+    #bm-uf-industries-video>.nv-video-as-bg>video{bottom: 0;width: 100%;}
+    #bm-uf-industries-video>.nv-img-as-bg>picture>img{bottom: 0;width: 100%;}
+}
+</style></div>	
+
+    </div>
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #bm-uf-industries-video {
+        background-color:#111;
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #bm-uf-industries-video {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #bm-uf-industries-video {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #bm-uf-industries-video {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #bm-uf-industries-video {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-inpagenavigation responsivegrid aem-GridColumn aem-GridColumn--default--12">
+  
+  
+  <div class="in-page-nav-outer-container">
+    <div id="retail-inpage-nav" class="general-nav-container">
+      <ul class="in-page-nav-displayed-list" style="width: 718px;">
+        <div class="nv-tabs__line" style="left: 0px; width: 100px;"></div>
+        <li data-in-page-nav-item-index="0" class="in-page-nav-list-item-displayed in-page-nav-item-active">
+          <a href="#introduction">Our Industries</a>
+        </li>
+      
+        
+        <li data-in-page-nav-item-index="1" class="in-page-nav-list-item-displayed">
+          <a href="#state-of-ai-survey">State of AI Survey Reports</a>
+        </li>
+      
+        
+        <li data-in-page-nav-item-index="2" class="in-page-nav-list-item-displayed">
+          <a href="#customer-stories">Use Cases and Customer Stories</a>
+        </li>
+      
+        
+        <li data-in-page-nav-item-index="3" class="in-page-nav-list-item-displayed">
+          <a href="#get-started">Get Started</a>
+        </li>
+      </ul>
+      <div class="in-page-nav-displayed-list-mob">
+        <div>
+          <ul class="in-page-nav-displayed-list-mob-current-item"><li data-in-page-nav-item-index="0">
+          <a href="#introduction">Our Industries</a>
+        </li></ul>
+        </div>
+        <ul class="in-page-nav-displayed-list-mob-dropdown">
+          <li data-in-page-nav-item-index="0" class="in-page-nav-item-active">
+            <a href="#introduction">Our Industries</a>
+          </li>
+        
+          <li data-in-page-nav-item-index="1">
+            <a href="#state-of-ai-survey">State of AI Survey Reports</a>
+          </li>
+        
+          <li data-in-page-nav-item-index="2">
+            <a href="#customer-stories">Use Cases and Customer Stories</a>
+          </li>
+        
+          <li data-in-page-nav-item-index="3">
+            <a href="#get-started">Get Started</a>
+          </li>
+        </ul>
+      </div>
+      <div class="in-page-nav-truncated-list-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.4 5" height="24" width="24" fill="#FFFFFF">
+          <path d="M12613.6,1800.5a2.654,2.654,0,1,0-2.6,2.5A2.575,2.575,0,0,0,12613.6,1800.5Zm2.7,0a2.708,2.708,0,1,0,2.7-2.5A2.6,2.6,0,0,0,12616.3,1800.5Zm8.1,0a2.654,2.654,0,1,0,2.6-2.5A2.575,2.575,0,0,0,12624.4,1800.5Z" transform="translate(-12608.3 -1798)"></path>
+        </svg>
+        <ul class="in-page-nav-truncated-list">
+          <li data-in-page-nav-item-index="0" class="in-page-nav-item-active">
+            <a href="#introduction">Our Industries</a>
+          </li>
+        
+          <li data-in-page-nav-item-index="1">
+            <a href="#state-of-ai-survey">State of AI Survey Reports</a>
+          </li>
+        
+          <li data-in-page-nav-item-index="2">
+            <a href="#customer-stories">Use Cases and Customer Stories</a>
+          </li>
+        
+          <li data-in-page-nav-item-index="3">
+            <a href="#get-started">Get Started</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ip-nav-cta-cont">
+        <div>
+          
+            <div><div class="nv-button button">
+<div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
+  
+  <a id="subscribe-now-retail" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/preferences/email-signup/">
+    
+    
+
+    <span class="btn-text">Stay Informed</span>
+    
+  </a>
+</div>
+
+</div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+	
+		<div id="introduction" class="p-t-75 p-b-75  lap-p-t-75 
+         lap-p-b-75  tab-p-t-45 tab-p-b-45
+          mob-p-t-45 mob-p-b-45  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none" data-in-page-nav-item-index="1">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="nv-text text aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0">
+ 
+ 	
+    <div id="nv-text-59ef0d722d" class="general-container-text            ">
+			<div class="text-center lap-text-center tab-text-center mob-text-center">
+				<div class="description ">
+                	<p><span class="p--large">Discover the possibility, power, and performance of AI and accelerated computing from the cloud to the edge across industries.</span></p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="grid-block" class="v1-1 p-t-0 p-b-0  lap-p-t-0 
+         lap-p-b-0  tab-p-t-0 tab-p-b-0 
+          mob-p-t-0 mob-p-b-0  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         " data-cmp-is="nv-container">
+		
+		
+		
+       
+       
+    	<div class="general-container nv-flexbox d-col-4 l-col-4 t-col-2 p-col-1 d-justify-left l-justify-left t-justify-left p-justify-left    d-content-align-top l-content-align-top t-content-align-top m-content-align-top    ">
+	        
+	        <div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-9725218e69" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Architecture, Engineering, Construction, and Operations" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1776701414265/industry-aeco.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-aeco.jpg" data-title="Architecture, Engineering, Construction, and Operations" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/aec/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Architecture, Engineering, Construction, and Operations" title="Architecture, Engineering, Construction, and Operations" data-analytics="nv-image-9725218e69" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy.coreimg.100.190.jpeg/1776701414265/industry-aeco.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-9725218e69-cta-1ff78a2e5d" href="/industries/aec/">Architecture, Engineering, Construction, and Operations
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-29d01a2427" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Automotive" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy.coreimg.100.410.jpeg/1776701414308/industry-automotive.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-automotive.jpg" data-title="Automotive" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/automotive/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Automotive" title="Automotive" data-analytics="nv-image-29d01a2427" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy.coreimg.100.190.jpeg/1776701414308/industry-automotive.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-29d01a2427-cta-120a070db4" href="/industries/automotive/">Automotive
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-309334b87f" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Energy" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1730023834.coreimg.100.410.jpeg/1776701414353/industry-engery.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-engery.jpg" data-title="Energy" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/energy/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Energy" title="Energy" data-analytics="nv-image-309334b87f" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1730023834.coreimg.100.190.jpeg/1776701414353/industry-engery.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-309334b87f-cta-356a9e31a0" href="/industries/energy/">Energy
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-ca9826489f" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Financial Services" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__2011821188.coreimg.100.410.jpeg/1776701414396/industry-finance.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-finance.jpg" data-title="Financial Services" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/finance/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Financial Services" title="Financial Services" data-analytics="nv-image-ca9826489f" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__2011821188.coreimg.100.190.jpeg/1776701414396/industry-finance.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-ca9826489f-cta-dd7deed162" href="/industries/finance/">Financial Services
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-01efdc9523" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Gaming" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__4594439.coreimg.100.410.jpeg/1776701414440/industry-gaming.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-gaming.jpg" data-title="Gaming" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/game-development/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Gaming" title="Gaming" data-analytics="nv-image-01efdc9523" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__4594439.coreimg.100.190.jpeg/1776701414440/industry-gaming.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-01efdc9523-cta-6f3baec334" href="/industries/game-development/">Gaming
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-6416642825" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Global Public Sector" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-public-410x307@2x.jpg" data-title="Global Public Sector" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/government/global-public-sector/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Global Public Sector" title="Global Public Sector" data-analytics="nv-image-6416642825" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__882475524.coreimg.100.190.jpeg/1776701414483/industry-public-410x307-2x.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-6416642825-cta-357c3bfbc6" href="/industries/government/global-public-sector/">Global Public Sector
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-91819c0b7e" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Government Affairs" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-government-affairs-410x307.jpg" data-title="Government Affairs" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/government/government-affairs/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Government Affairs" title="Government Affairs" data-analytics="nv-image-91819c0b7e" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1234635105.coreimg.100.190.jpeg/1776701414528/industry-government-affairs-410x307.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-91819c0b7e-cta-748e7f4e17" href="/industries/government/government-affairs/">Government Affairs
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-6da882241b" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Healthcare and Life Sciences" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__341295902.coreimg.100.410.jpeg/1776701414573/industry-healthcare.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-healthcare.jpg" data-title="Healthcare and Life Sciences" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/healthcare-life-sciences/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Healthcare and Life Sciences" title="Healthcare and Life Sciences" data-analytics="nv-image-6da882241b" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__341295902.coreimg.100.190.jpeg/1776701414573/industry-healthcare.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-6da882241b-cta-69e50d1ab8" href="/industries/healthcare-life-sciences/">Healthcare and Life Sciences
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-6be41f22d2" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-higher-education-research.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-higher-education-research.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-higher-education-research.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-higher-education-research.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-higher-education-research.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt=" Pioneering AI in Higher Education and Research" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1644708168.coreimg.100.410.jpeg/1776701414616/industry-higher-education-research.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industry-higher-education-research.jpg" data-title=" Pioneering AI in Higher Education and Research" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/higher-education-research/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt=" Pioneering AI in Higher Education and Research" title=" Pioneering AI in Higher Education and Research" data-analytics="nv-image-6be41f22d2" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1644708168.coreimg.100.190.jpeg/1776701414616/industry-higher-education-research.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-6be41f22d2-cta-61fc57df04" href="/industries/higher-education-research/">Higher Education <br>and Research
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-7c1b6ccaf9" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Industrial" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__2069863188.coreimg.100.410.jpeg/1776701414660/industry-industrial.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-industrial.jpg" data-title="Industrial" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/industrial-sector/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Industrial" title="Industrial" data-analytics="nv-image-7c1b6ccaf9" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__2069863188.coreimg.100.190.jpeg/1776701414660/industry-industrial.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-7c1b6ccaf9-cta-09e7df4353" href="/industries/industrial-sector/">Industrial
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-8a62cc38d9" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Manufacturing" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1734394908.coreimg.100.410.jpeg/1776701414705/industry-manufacturing.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-manufacturing.jpg" data-title="Manufacturing" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/manufacturing/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Manufacturing" title="Manufacturing" data-analytics="nv-image-8a62cc38d9" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1734394908.coreimg.100.190.jpeg/1776701414705/industry-manufacturing.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-8a62cc38d9-cta-b6a579bbd0" href="/industries/manufacturing/">Manufacturing
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-d5b792631a" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Media and Entertainment" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__403510097.coreimg.100.410.jpeg/1776701414748/industry-media-entertainment.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-media-entertainment.jpg" data-title="Media and Entertainment" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/media-and-entertainment/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Media and Entertainment" title="Media and Entertainment" data-analytics="nv-image-d5b792631a" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__403510097.coreimg.100.190.jpeg/1776701414748/industry-media-entertainment.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-d5b792631a-cta-06fd823efa" href="/industries/media-and-entertainment/">Media and Entertainment
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-3d0913aba1" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Restaurants and Quick\u002DService" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__308822122.coreimg.100.410.jpeg/1776701414794/industry-restaurants.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-restaurants.jpg" data-title="Restaurants and Quick-Service" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/restaurants/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Restaurants and Quick-Service" title="Restaurants and Quick-Service" data-analytics="nv-image-3d0913aba1" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__308822122.coreimg.100.190.jpeg/1776701414794/industry-restaurants.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-3d0913aba1-cta-572b49644a" href="/industries/restaurants/">Restaurants and <br>Quick-Service
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-3a0dc54cfb" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Retail and Consumer Packaged Goods" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-retail@2x.jpg" data-title="Retail and Consumer Packaged Goods" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/retail/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Retail and Consumer Packaged Goods" title="Retail and Consumer Packaged Goods" data-analytics="nv-image-3a0dc54cfb" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__255931386.coreimg.100.190.jpeg/1776701414842/industry-retail-2x.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-3a0dc54cfb-cta-dec396ba87" href="/industries/retail/">Retail and Consumer Packaged Goods
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-c768a7e9c3" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Robotics" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1962101861.coreimg.100.410.jpeg/1776701414887/industry-robotics.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-robotics.jpg" data-title="Robotics" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/robotics/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Robotics" title="Robotics" data-analytics="nv-image-c768a7e9c3" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1962101861.coreimg.100.190.jpeg/1776701414887/industry-robotics.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-c768a7e9c3-cta-8ac416f0a1" href="/industries/robotics/">Robotics
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-e7b777f23e" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Smart Cities and Spaces" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1638759675.coreimg.100.410.jpeg/1776701414931/industry-smart-cities.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-smart-cities.jpg" data-title="Smart Cities and Spaces" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/smart-cities-and-spaces/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Smart Cities and Spaces" title="Smart Cities and Spaces" data-analytics="nv-image-e7b777f23e" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1638759675.coreimg.100.190.jpeg/1776701414931/industry-smart-cities.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-e7b777f23e-cta-d0ebe2de30" href="/industries/smart-cities-and-spaces/">Smart Cities and Spaces
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-7ebd65fd5f" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Supercomputing" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__123090031.coreimg.100.410.jpeg/1776701414974/industry-supercomputing.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-supercomputing.jpg" data-title="Supercomputing" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/supercomputing/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Supercomputing" title="Supercomputing" data-analytics="nv-image-7ebd65fd5f" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__123090031.coreimg.100.190.jpeg/1776701414974/industry-supercomputing.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-7ebd65fd5f-cta-d42c3257ae" href="/industries/supercomputing/">Supercomputing
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-269ee7eb06" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.1200.676="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.thumbnail.1200.676.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.600.338="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.thumbnail.600.338.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.300.169="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.thumbnail.300.169.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Telecommunications" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1518726053.coreimg.100.410.jpeg/1776701415018/industry-telco.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-telco.jpg" data-title="Telecommunications" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/telecommunications/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Telecommunications" title="Telecommunications" data-analytics="nv-image-269ee7eb06" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy__1518726053.coreimg.100.190.jpeg/1776701415018/industry-telco.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-269ee7eb06-cta-cdfa1cc7ae" href="/industries/telecommunications/">Telecommunications
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-dark">
+
+  
+<div id="nv-teaser-80fde45c49" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="U.S. Federal" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/industry-fed-410x307@2x.jpg" data-title="U.S. Federal" data-cmp-type="renditionUpload">
+     	<a class="cmp-image__link" href="/industries/government/federal/" target="_self" data-cmp-hook-image="link">
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="U.S. Federal" title="U.S. Federal" data-analytics="nv-image-80fde45c49" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1389807/nv_container/nv_teaser_copy_copy_.coreimg.100.190.jpeg/1776701415061/industry-fed-410x307-2x.jpeg">
+
+	    </a>
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	<div>
+
+	
+
+    <div id="nv-creditline-02feba0fbe" class="nv-credit-line        ">
+	    <p>Blackshark.ai</p>
+        
+     </div></div>
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    
+
+        
+    
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_self" id="teaser-80fde45c49-cta-fe478fd7d8" href="/industries/government/federal/">U.S. Federal
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+
+	        
+        </div>
+         
+    </div>
+
+    
+    
+
+ 
+
+<style>
+    #grid-block {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #grid-block {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #grid-block {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #grid-block {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #grid-block {
+            
+        }
+    }
+</style> 
+
+</div>
+<div class="ghost aem-GridColumn aem-GridColumn--default--12">
+
+</div>
+<div class="nv-rawhtml aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+    <div id="nv-rawhtml-f514e11b3a" class="general-container-text            ">
+    	
+		
+
+    <div> <style>
+#grid-block .cmp-teaser__action-container {
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+  right: 10px
+}
+</style></div>	
+
+    </div>
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #introduction {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #introduction {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #introduction {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #introduction {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #introduction {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+	
+    <div id="state-of-ai-survey" class="v1-1 p-t-75 p-b-75  lap-p-t-75 
+         lap-p-b-75  tab-p-t-45 tab-p-b-45
+          mob-p-t-45 mob-p-b-45  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none" data-in-page-nav-item-index="2">
+      
+      
+      
+      
+
+      
+      
+      <div class="general-container">
+        
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="nv-title text h--medium aem-GridColumn aem-GridColumn--default--12">
+  
+    
+      <div id="nv-title-1547141730" class="general-container-text            ">
+        <div class="text-center lap-text-center tab-text-center mob-text-center">
+          <h2 class="title ">
+            
+                      Take a Deeper Dive Into AI Across Industries
+          
+          </h2>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-text text aem-GridColumn aem-GridColumn--default--12">
+ 
+ 	
+    <div id="nv-text-f46ea2538b" class="general-container-text            ">
+			<div class="text-center lap-text-center tab-text-center mob-text-center">
+				<div class="description ">
+                	<p><span class="p--large">State of AI Reports</span></p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-d6d1559a93" class="v1-1 p-t-30 p-b-0  lap-p-t-30 
+         lap-p-b-0  tab-p-t-30 tab-p-b-0 
+          mob-p-t-30 mob-p-b-0  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-stretch l-content-align-stretch t-content-align-stretch m-content-align-top 
+         " data-cmp-is="nv-container">
+		
+		
+		
+       
+       
+    	<div class="general-container nv-flexbox d-col-4 l-col-4 t-col-2 p-col-1 d-justify-center l-justify-center t-justify-center p-justify-center    d-content-align-stretch l-content-align-stretch t-content-align-stretch m-content-align-top    ">
+	        
+	        <div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-white">
+
+  
+<div id="nv-teaser-3207408bf5" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="State of AI in Retail and CPG: 2026 Trends" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpg" data-title="State of AI in Retail and CPG: 2026 Trends" data-cmp-type="renditionUpload">
+     	
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="State of AI in Retail and CPG: 2026 Trends" title="State of AI in Retail and CPG: 2026 Trends" data-analytics="nv-image-3207408bf5" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_23278258/nv_container/nv_teaser.coreimg.100.410.jpeg/1775583907836/retail-promo-pack-state-of-ai-report-2026-1920x1080.jpeg">
+
+	    
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    <h3 class="cmp-teaser__title h--smallest" data-titlerow="One" data-titlerowlaptop="One" data-titlerowtablet="One">
+        State of AI in Retail and CPG: 2026 Trends
+    </h3>
+
+        
+    <div class="cmp-teaser__description">
+    	
+       		<p>Based on hundreds of responses from industry professionals, NVIDIA’s third annual State of AI in Retail and CPG survey shows how companies are using AI to deliver measurable business impact—highlighting the growing role of open-source models, agentic AI, and physical AI.</p>
+        
+    </div>
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_self" id="teaser-3207408bf5-cta-0a7125b9c4" href="/lp/industries/state-of-ai-in-retail-and-cpg/">Read Report
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-white">
+
+  
+<div id="nv-teaser-ebd323aa8c" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/fsi-press-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/fsi-press-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/fsi-press-state-of-ai-report-2026-1920x1080.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/fsi-press-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/fsi-press-state-of-ai-report-2026-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="State of AI in Financial Services: 2026 Trends" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_23278258/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1775583907858/fsi-press-state-of-ai-report-2026-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/fsi-press-state-of-ai-report-2026-1920x1080.jpg" data-title="State of AI in Financial Services: 2026 Trends" data-cmp-type="renditionUpload">
+     	
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="State of AI in Financial Services: 2026 Trends" title="State of AI in Financial Services: 2026 Trends" data-analytics="nv-image-ebd323aa8c" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_23278258/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1775583907858/fsi-press-state-of-ai-report-2026-1920x1080.jpeg">
+
+	    
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    <h3 class="cmp-teaser__title h--smallest" data-titlerow="One" data-titlerowlaptop="One" data-titlerowtablet="One">
+        State of AI in Financial Services: 2026 Trends
+    </h3>
+
+        
+    <div class="cmp-teaser__description">
+    	
+       		<p>Dive into the data compiled from a survey of over 800 financial services professionals—including executives, data scientists, developers, engineers, and IT specialists—from around the world. This year’s results reveal the trends, challenges, and opportunities that define the state of AI in financial services in 2026.</p>
+        
+    </div>
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_self" id="teaser-ebd323aa8c-cta-ef9f3c7104" href="/industries/finance/ai-financial-services-report/">Read Report
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-white">
+
+  
+<div id="nv-teaser-94b97ec753" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-category="Developer Tools &amp; Techniques" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="State of AI in Telecommunications: 2026 Trends" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telco-press-2026-state-of-ai-report-1920x1080.jpg" data-title="State of AI in Telecommunications: 2026 Trends" data-cmp-type="renditionUpload">
+     	
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="State of AI in Telecommunications: 2026 Trends" title="State of AI in Telecommunications: 2026 Trends" data-analytics="nv-image-94b97ec753" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_23278258/nv_container/nv_teaser_copy_995829316.coreimg.100.410.jpeg/1775583907880/telco-press-2026-state-of-ai-report-1920x1080.jpeg">
+
+	    
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    <h3 class="cmp-teaser__title h--smallest" data-titlerow="One" data-titlerowlaptop="One" data-titlerowtablet="One">
+        State of AI in Telecommunications: 2026 Trends
+    </h3>
+
+        
+    <div class="cmp-teaser__description">
+    	
+       		<p>Dive into the data compiled from a survey of over 1,000 industry telecom professionals from around the world. This year’s results highlight how AI has become the core growth engine of telecom operations, networks, and services.</p>
+        
+    </div>
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_self" id="teaser-94b97ec753-cta-8bc254c4da" href="/lp/industries/telecommunications/state-of-ai-in-telecom-survey-report/">Read Report
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+<div class="nv-teaser teaser nv-teaser--card nv-teaser--bg-white">
+
+  
+<div id="nv-teaser-d2d8e37695" class="cmp-teaser     " data-title-style="manual" data-rendition-thumbnail.48.48="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.48.48.png" data-rendition-thumbnail.140.100="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.140.100.png" data-category="Developer Tools &amp; Techniques" data-rendition-original="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpg" data-rendition-web.1280.1280="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpgjcr:content/renditions/cq5dam.web.1280.1280.jpeg" data-rendition-thumbnail.319.319="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpgjcr:content/renditions/cq5dam.thumbnail.319.319.png">
+        
+
+  
+   <div class="nv-teaser--holder">
+    <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="State of AI in Healthcare: 2026 Trends" data-altvaluefromdam="false">
+
+<div class="cmp-image             
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industries-reports-trends-1920x1080.jpg" data-title="State of AI in Healthcare: 2026 Trends" data-cmp-type="renditionUpload">
+     	
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="State of AI in Healthcare: 2026 Trends" title="State of AI in Healthcare: 2026 Trends" data-analytics="nv-image-d2d8e37695" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_23278258/nv_container/nv_teaser_copy_1054578893.coreimg.100.410.jpeg/1775583907920/industries-reports-trends-1920x1080.jpeg">
+
+	    
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+	
+	</div>
+
+  
+
+        
+    <div class="general-container-text        ">
+    <div class="text-left lap-text-left tab-text-left mob-text-left" style="padding: 0px 20px; width: calc(100% - 40px);">
+        
+    
+
+        
+    <h3 class="cmp-teaser__title h--smallest" data-titlerow="One" data-titlerowlaptop="One" data-titlerowtablet="One">
+        State of AI in Healthcare: 2026 Trends
+    </h3>
+
+        
+    <div class="cmp-teaser__description">
+    	
+       		<p>AI is no longer experimental in healthcare—it's already boosting revenue, cutting costs, and transforming how care is delivered. This report shows where leaders are getting measurable ROI today, where the biggest risks and roadblocks still are, and what the most advanced organizations are doing differently.​</p>
+        
+    </div>
+
+        
+	
+	
+	
+    <div class="cmp-teaser__action-container " data-ctaexpand="false">
+        
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_self" id="teaser-d2d8e37695-cta-1c5cc3be96" href="/lp/industries/healthcare-life-sciences/ai-survey-report/">Read Report
+       <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
+    </a>
+
+    </div>
+    
+    
+    
+
+    </div>
+    </div>
+       
+
+</div>
+
+    
+</div>
+
+	        
+        </div>
+         
+    </div>
+
+    
+    
+
+ 
+
+<style>
+    #container-d6d1559a93 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #container-d6d1559a93 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #container-d6d1559a93 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #container-d6d1559a93 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #container-d6d1559a93 {
+            
+        }
+    }
+</style> 
+
+</div>
+
+    
+</div>
+
+      </div>
+      
+    </div>
+    
+
+    
+    
+    
+
+ 
+
+<style>
+    #state-of-ai-survey {
+        background-color:#f7f7f7;
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #state-of-ai-survey {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #state-of-ai-survey {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #state-of-ai-survey {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #state-of-ai-survey {
+            
+        }
+    }
+</style> 
+
+</div>
+<div class="nv-container container responsivegrid nv-container--theme-dark aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="customer-stories" class="p-t-75 p-b-30  lap-p-t-75 
+         lap-p-b-30  tab-p-t-45 tab-p-b-15 
+          mob-p-t-45 mob-p-b-15  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-center m-content-align-top 
+         " data-cmp-is="nv-container" data-cmp-disablemidgroundautoheight="false" data-cmp-disablevideoautoheight="false" style="background-color:#000;" data-in-page-nav-item-index="3">
+
+		
+		
+		
+       
+       
+    	<div class="general-container nv-flexbox d-col-2 l-col-2 t-col-2 p-col-1 d-justify-left l-justify-left t-justify-left p-justify-left flex-align-center  ">
+	        
+	        <div class="nv-image image">
+
+<div id="nv-image-88ca935936" class="cmp-image             
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/customer-stories-1902x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/customer-stories-1902x1080.jpg" data-title="NVIDIA Customer Stories and Case Studies" data-cmp-type="renditionUpload">
+     	
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Customer Stories and Case Studies" title="NVIDIA Customer Stories and Case Studies" data-analytics="nv-image-88ca935936" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container_1661141105/nv_image.coreimg.100.410.jpeg/1775583907997/customer-stories-1902x1080.jpeg">
+
+	    
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+<div class="nv-container container responsivegrid">
+
+    
+	
+		<div id="container-c212aa7d73" class="    
+            
+             
+          
+          
+           
+            
+            
+             
+             
+         
+          " data-cmp-is="nv-container">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--tablet--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="nv-title text h--medium aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--phone--0">
+  
+    
+      <div id="nv-title-dbc90e7da2" class="general-container-text            ">
+        <div class="text-left lap-text-left tab-text-left mob-text-left">
+          <h2 class="title ">
+            
+                      Customer Stories
+          
+          </h2>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-text text aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+ 
+ 	
+    <div id="nv-text-d56d1c709c" class="general-container-text            ">
+			<div class="text-left lap-text-left tab-text-left mob-text-left">
+				<div class="description ">
+                	<p><span class="p--large">Find out how industry leaders are driving innovation with AI, accelerated computing, and simulation to modernize their businesses.</span></p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
+<div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
+  
+  <a id="nv-button-49adf2385c" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="/case-studies/">
+    
+    
+
+    <span class="btn-text">Read Customer Stories</span>
+    
+  </a>
+</div>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #container-c212aa7d73 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #container-c212aa7d73 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #container-c212aa7d73 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #container-c212aa7d73 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #container-c212aa7d73 {
+            
+        }
+    }
+</style>
+
+</div>
+
+	        
+        </div>
+         
+    </div>
+
+    
+    
+
+ 
+<style>
+    #customer-stories {
+        background-color:#000;
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #customer-stories {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #customer-stories {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #customer-stories {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #customer-stories {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-container container responsivegrid nv-container--theme-dark aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="container-73dff3aeb0" class="p-t-30 p-b-75  lap-p-t-30 
+         lap-p-b-75  tab-p-t-15 tab-p-b-45 
+          mob-p-t-15 mob-p-b-45  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         " data-cmp-is="nv-container" data-cmp-disablemidgroundautoheight="false" data-cmp-disablevideoautoheight="false" style="background-color:#000;">
+
+		
+		
+		
+       
+       
+    	<div class="general-container nv-flexbox d-col-2 l-col-2 t-col-2 p-col-1 d-justify-center l-justify-center t-justify-center p-justify-center flex-align-center p-column-reverse ">
+	        
+	        <div class="nv-container container responsivegrid">
+
+    
+	
+		<div id="container-22ac4f50c5" class="    
+            
+             
+          
+          
+           
+            
+            
+             
+             
+         
+          " data-cmp-is="nv-container">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="nv-title text h--medium aem-GridColumn aem-GridColumn--default--12">
+  
+    
+      <div id="nv-title-bd42bb0f63" class="general-container-text            ">
+        <div class="text-left lap-text-left tab-text-left mob-text-left">
+          <h2 class="title ">
+            
+                      Use Cases
+          
+          </h2>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-text text aem-GridColumn aem-GridColumn--default--12">
+ 
+ 	
+    <div id="nv-text-020033b3f0" class="general-container-text            ">
+			<div class="text-left lap-text-left tab-text-left mob-text-left">
+				<div class="description ">
+                	<p><span class="p--large">Ready to start building? Explore how you can put NVIDIA technology to work.</span></p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
+<div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
+  
+  <a id="nv-button-0c4ac1f8af" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="/use-cases/">
+    
+    
+
+    <span class="btn-text">See Use Cases</span>
+    
+  </a>
+</div>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #container-22ac4f50c5 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #container-22ac4f50c5 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #container-22ac4f50c5 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #container-22ac4f50c5 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #container-22ac4f50c5 {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-image image">
+
+<div id="nv-image-79be64f8b8" class="cmp-image             
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/use-cases-1902x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/home/use-cases-1902x1080.jpg" data-title="NVIDIA Use Cases" data-cmp-type="renditionUpload">
+     	
+           
+		   
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Use Cases" title="NVIDIA Use Cases" data-analytics="nv-image-79be64f8b8" data-cmp-hook-image="image" src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/home/_jcr_content/root/responsivegrid/nv_container/nv_image.coreimg.100.410.jpeg/1775583908174/use-cases-1902x1080.jpeg">
+
+	    
+	    
+	    
+	    
+  </div>
+
+    
+</div>
+
+	        
+        </div>
+         
+    </div>
+
+    
+    
+
+ 
+<style>
+    #container-73dff3aeb0 {
+        background-color:#000;
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #container-73dff3aeb0 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #container-73dff3aeb0 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #container-73dff3aeb0 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #container-73dff3aeb0 {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+	
+		<div id="get-started" class="p-t-75 p-b-75  lap-p-t-75 
+         lap-p-b-75  tab-p-t-45 tab-p-b-45
+          mob-p-t-45 mob-p-b-45  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none" data-in-page-nav-item-index="4">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="nv-title text h--smallest aem-GridColumn aem-GridColumn--default--12">
+  
+    
+      <div id="nv-title-88b84820c5" class="general-container-text            ">
+        <div class="text-center lap-text-center tab-text-center mob-text-center">
+          <h2 class="title ">
+            
+                       Get Started
+          
+          </h2>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-separator separator aem-GridColumn aem-GridColumn--default--12">
+  
+  
+<div id="nv-separator-8f944c6054" class="cmp-separator">
+     
+     <style>
+         
+        
+    	@media screen and (min-width:1350px){
+            #nv-separator-8f944c6054{
+                height:5px;
+            }
+        }
+         
+        
+        @media screen and (min-width:1024px) and (max-width:1349px){
+            #nv-separator-8f944c6054{
+                 height:5px;
+            }
+        }
+         
+        
+        @media screen and (min-width:640px) and (max-width:1023px){
+        	 #nv-separator-8f944c6054{
+                 height:5px;
+            }
+        }
+         
+        
+        @media screen and (max-width: 639px){
+        	 #nv-separator-8f944c6054{
+                 height:5px;
+            }
+        }
+         
+    </style>
+    
+</div></div>
+<div class="nv-title text h--medium aem-GridColumn aem-GridColumn--default--12">
+  
+    
+      <div id="nv-title-e3d9015b0d" class="general-container-text            ">
+        <div class="text-center lap-text-center tab-text-center mob-text-center">
+          <h2 class="title ">
+            
+                      Take the Next Steps
+          
+          </h2>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-separator separator aem-GridColumn aem-GridColumn--default--12">
+  
+  
+<div id="nv-separator-888507a5b5" class="cmp-separator">
+     
+     <style>
+         
+        
+        
+        
+        
+    </style>
+    
+</div></div>
+<div class="nv-container container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+	
+		<div id="container-aa90a20c77" class="p-t-45 p-b-0  lap-p-t-45 
+         lap-p-b-0  tab-p-t-30 tab-p-b-0
+          mob-p-t-30 mob-p-b-0  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none" data-cmp-disablemidgroundautoheight="false" data-cmp-disablevideoautoheight="false">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--tablet--12 aem-Grid--default--12 aem-Grid--phone--12 ">
+    
+    <div class="nv-container container responsivegrid aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+
+    
+	
+		<div id="container-4273711123" class="    
+            
+             
+          
+          
+           
+            
+            
+             
+             
+         
+          " data-cmp-is="nv-container">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--6 aem-Grid--tablet--12 aem-Grid--default--6 aem-Grid--phone--12 ">
+    
+    <div class="nv-title text h--small aem-GridColumn--tablet--12 aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0">
+  
+    
+      <div id="nv-title-a75242dce4" class="general-container-text            ">
+        <div class="text-left lap-text-left tab-text-left mob-text-left">
+          <h3 class="title ">
+            
+                       Develop Solutions to the Most Complex Challenges
+          
+          </h3>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-text text aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6">
+ 
+ 	
+    <div id="nv-text-d78b7d3247" class="general-container-text            ">
+			<div class="text-left lap-text-left tab-text-left mob-text-left">
+				<div class="description ">
+                	<p><span class="p--large">Access hundreds of GPU-accelerated containers, models, and SDKs—all the tools necessary to successfully build apps with NVIDIA technology.</span></p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-button button aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
+<div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
+  
+  <a id="subscribe-retail" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/solutions-and-industries#industries">
+    
+    
+
+    <span class="btn-text">Start Building</span>
+    
+  </a>
+</div>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #container-4273711123 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #container-4273711123 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #container-4273711123 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #container-4273711123 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #container-4273711123 {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-container container responsivegrid aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
+
+    
+	
+		<div id="get-start-col2" class="p-t-0 p-b-0  lap-p-t-0 
+         lap-p-b-0  tab-p-t-30 tab-p-b-0
+          mob-p-t-30 mob-p-b-0  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--3 aem-Grid--tablet--6 aem-Grid--default--3 aem-Grid--phone--12 ">
+    
+    <div class="nv-title text h--smallest aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
+  
+    
+      <div id="nv-title-4c7c252f2d" class="general-container-text            ">
+        <div class="text-left lap-text-left tab-text-left mob-text-left">
+          <h4 class="title ">
+            
+                       Discover Training to Meet Your Organization's Goals
+          
+          </h4>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-text text aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
+ 
+ 	
+    <div id="nv-text-7f4ac5ff94" class="general-container-text            ">
+			<div class="text-left lap-text-left tab-text-left mob-text-left">
+				<div class="description ">
+                	<p>Elevate your team's skills in AI, graphics and simulation, accelerated computing, and more with custom training plans, team pricing, and flexible delivery options.</p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
+<div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
+  
+  <a id="nv-button-fb73a0a9a3" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="/training/">
+    
+    
+
+    <span class="btn-text">Start Learning</span>
+    
+  </a>
+</div>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #get-start-col2 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #get-start-col2 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #get-start-col2 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #get-start-col2 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #get-start-col2 {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-container container responsivegrid aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
+
+    
+	
+		<div id="get-start-col2" class="p-t-0 p-b-0  lap-p-t-0 
+         lap-p-b-0  tab-p-t-30 tab-p-b-0
+          mob-p-t-30 mob-p-b-0  
+          
+          
+         d-top-align d-left-align 
+         l-left-align l-top-align t-left-align 
+         t-top-align m-top-align m-left-align 
+             
+         d-content-align-top l-content-align-top t-content-align-top m-content-align-top 
+         
+          " data-cmp-is="nv-container" data-cmp-breadcrumbcolor="none">
+
+         
+         
+
+    	
+
+        <div class="general-container">
+        	
+
+<div class="aem-Grid aem-Grid--3 aem-Grid--tablet--6 aem-Grid--default--3 aem-Grid--phone--12 ">
+    
+    <div class="nv-title text h--smallest aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
+  
+    
+      <div id="nv-title-dae14f6839" class="general-container-text            ">
+        <div class="text-left lap-text-left tab-text-left mob-text-left">
+          <h4 class="title ">
+            
+                       Re-Envision the Future of Your Business
+          
+          </h4>
+        </div>
+       </div>
+      
+    
+
+  
+  </div>
+<div class="nv-text text aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
+ 
+ 	
+    <div id="nv-text-36cb900dec" class="general-container-text            ">
+			<div class="text-left lap-text-left tab-text-left mob-text-left">
+				<div class="description ">
+                	<p>Explore resources for modern business leaders, including the guidance they need to innovate, mitigate risk, and capitalize on AI and accelerated computing opportunities.</p>
+                </div>
+			</div>
+	</div>
+
+    
+
+</div>
+<div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
+<div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
+  
+  <a id="nv-button-9e9307fb95" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="/executive-insights/">
+    
+    
+
+    <span class="btn-text">Learn More</span>
+    
+  </a>
+</div>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #get-start-col2 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #get-start-col2 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #get-start-col2 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #get-start-col2 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #get-start-col2 {
+            
+        }
+    }
+</style>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #container-aa90a20c77 {
+        
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #container-aa90a20c77 {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #container-aa90a20c77 {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #container-aa90a20c77 {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #container-aa90a20c77 {
+            
+        }
+    }
+</style>
+
+</div>
+
+    
+</div>
+
+        </div>
+        
+    </div>
+    
+
+    
+    
+    
+
+ 
+<style>
+    #get-started {
+        background-color:#fff;
+    }
+
+    /* Mobile: up to 639px */
+    @media only screen and (max-width: 639px) {
+        #get-started {
+            
+        }
+    }
+
+    /* Tablet: 640px to 1023px */
+    @media only screen and (min-width: 640px) and (max-width: 1023px) {
+        #get-started {
+            
+        }
+    }
+
+    /* Laptop: 1024px to 1349px */
+    @media only screen and (min-width: 1024px) and (max-width: 1349px) {
+        #get-started {
+            
+        }
+    }
+
+    /* Desktop: 1350px and up */
+    @media only screen and (min-width: 1350px) {
+        #get-started {
+            
+        }
+    }
+</style>
+
+</div>
+<div class="nv-rawhtml aem-GridColumn aem-GridColumn--default--12">
+
+	
+	
+    <div id="nv-rawhtml-d0e2e05165" class="general-container-text            ">
+    	
+		
+
+    <div> <!-- STEP 3: Inject Web Client. ADD this on AEM -->
+
+ 
+  <script src="/assets/d3mey6isb8np59.cloudfront.net/nvidia/main.js"></script> 
+  <script>
+
+      alloy("sendEvent", {});
+    </script> 
+  <style>
+      @font-face {
+        font-family: "NVIDIA Sans";
+        src: url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2") format("woff2");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      /* ==========================================================
+         RESET & BASE
+         ========================================================== */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* ==========================================================
+         FAB BUTTON (bottom-right trigger)
+         ========================================================== */
+      #fab-button {
+        position: fixed !important;
+        bottom: 24px !important;
+        right: 24px !important;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #1a1a1a;
+        border-radius: 8px;
+        padding: 12px 22px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: inherit;
+        cursor: pointer;
+        box-shadow: 0 0 12px rgba(180, 150, 100, 0.3),
+                    0 0 24px rgba(180, 150, 100, 0.12);
+        z-index: 10000 !important;
+        overflow: visible;
+        transition: transform 0.2s, box-shadow 0.2s, opacity 0.3s ease,
+          visibility 0.3s ease;
+      }
+
+      #fab-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 16px rgba(180, 150, 100, 0.45),
+                    0 0 32px rgba(180, 150, 100, 0.2);
+      }
+
+      #fab-button svg {
+        width: 20px;
+        height: 20px;
+        fill: currentColor;
+        flex-shrink: 0;
+      }
+
+      #fab-button.bc-hidden {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        pointer-events: none;
+      }
+
+      /* Gold gradient border for FAB and Close buttons */
+      #fab-button::before,
+      #close-button::before {
+        content: "";
+        position: absolute;
+        inset: -2px;
+        padding: 2px;
+        border-radius: 10px;
+        background: conic-gradient(
+          from var(--angle, 0deg),
+          #8b7355 0%, #6d5a3a 5%, #7a6542 10%, #d4c4a8 15%, #b8956e 20%,
+          #c9a86c 25%, #e8dcc4 30%, #f5ede0 35%, #c4a064 40%, #8b7355 45%,
+          #7a6542 50%, #b89b6a 55%, #d4c4a8 60%, #e8dcc4 65%, #c9a86c 70%,
+          #b8956e 75%, #a68b5b 80%, #8b7355 85%, #6d5a3a 90%, #9a8262 95%,
+          #8b7355 100%
+        );
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+        z-index: -1;
+        animation: rotateGradientBorder 20s linear infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        #fab-button::before,
+        #close-button::before {
+          animation: none;
+        }
+      }
+
+      /* ==========================================================
+         MODAL BACKDROP
+         ========================================================== */
+      #modal-backdrop {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        background: rgba(0, 0, 0, 0.8) !important;
+        z-index: 10100 !important;
+        display: none !important;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      #modal-backdrop.bc-visible {
+        display: block !important;
+        opacity: 1;
+      }
+
+      /* ==========================================================
+         CHAT MODAL
+         ========================================================== */
+      #chat-modal {
+        position: fixed !important;
+        top: 45% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        width: 85vw;
+        max-width: 1050px;
+        height: 85vh;
+        max-height: 800px;
+        border-radius: 16px;
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+        z-index: 10200 !important;
+        background: rgba(0, 0, 0, 0.9);
+      }
+
+      #chat-modal.bc-visible {
+        display: flex !important;
+      }
+
+      /* Modal adapts background based on state */
+      #chat-modal.state-welcome {
+        background: rgba(0, 0, 0, 0.9);
+      }
+
+      #chat-modal.state-chat {
+        background: rgba(0, 0, 0, 0.9);
+      }
+
+      /* Modal body */
+      #chat-modal .bc-modal-body {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+      }
+
+      /* ==========================================================
+         CLOSE BUTTON (external, bottom-right of page)
+         ========================================================== */
+      #close-button {
+        position: fixed !important;
+        bottom: calc((100vh - min(75vh, 900px)) / 2 - 60px) !important;
+        right: calc((100vw - min(75vw, 1050px)) / 2) !important;
+        display: none;
+        align-items: center;
+        gap: 8px;
+        background: #1a1a1a;
+        border-radius: 8px;
+        padding: 12px 22px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: inherit;
+        cursor: pointer;
+        box-shadow: 0 0 12px rgba(180, 150, 100, 0.3),
+                    0 0 24px rgba(180, 150, 100, 0.12);
+        z-index: 10300 !important;
+        overflow: visible;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+
+      #close-button.bc-visible {
+        display: flex !important;
+      }
+
+      #close-button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 16px rgba(180, 150, 100, 0.45),
+                    0 0 32px rgba(180, 150, 100, 0.2);
+      }
+
+      #close-button svg {
+        flex-shrink: 0;
+      }
+
+      /* ==========================================================
+         WELCOME CONTENT (custom entry point, dark theme)
+         ========================================================== */
+      #welcome-content {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+      }
+
+      #welcome-content.bc-hidden {
+        display: none !important;
+      }
+
+     .welcome__description , .welcome__privacy, .welcome__consent{
+ padding-top: 0;
+  padding-bottom: 0;
+}
+
+      .welcome__body {
+        flex: 1;
+        padding: 24px 16px 16px;
+        overflow-y: auto;
+      }
+
+      /* Two-column response layout (avatar column + content column) */
+      .welcome__response {
+        display: flex;
+        gap: 16px;
+      }
+
+      .welcome__avatar-col {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+        flex-shrink: 0;
+      }
+
+      .welcome__avatar-icon {
+        width: 24px;
+        height: 25px;
+        flex-shrink: 0;
+      }
+
+      .welcome__avatar-icon svg {
+        width: 24px;
+        height: 25px;
+        fill: #fff;
+      }
+
+      .welcome__avatar-line {
+        width: 2px;
+        flex: 1;
+        background: #76b900;
+      }
+
+      .welcome__content-col {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex: 1;
+        min-width: 0;
+      }
+
+      .welcome__title-text {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.25px;
+        color: #eeeeee;
+      }
+
+      .welcome__description {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #eeeeee;
+      }
+
+      .welcome__privacy {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #eeeeee;
+        margin-bottom: 12px;
+      }
+
+      .welcome__privacy a {
+        color: #eeeeee;
+        text-decoration: underline;
+        text-decoration-color: #8fcb2b;
+        text-underline-offset: 2px;
+        text-decoration-skip-ink: none;
+      }
+
+      .welcome__privacy a:hover {
+        color: #eeeeee;
+      }
+
+      .welcome__consent {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #eeeeee;
+        font-weight: 700;
+      }
+
+      .welcome__consent a {
+        color: #eeeeee;
+        text-decoration: underline;
+        text-decoration-color: #8fcb2b;
+        text-underline-offset: 2px;
+        text-decoration-skip-ink: none;
+      }
+
+      .welcome__consent a:hover {
+        color: #eeeeee;
+      }
+
+      /* Suggestion cards section */
+      .welcome__cards-heading {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+
+      .welcome__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-bottom: 0;
+      }
+
+      .welcome__card {
+        background: #292929;
+        border: 1px solid #5e5e5e;
+        border-radius: 4px;
+        padding: 16px;
+        cursor: pointer;
+        transition: background 0.2s, border-color 0.2s, transform 0.15s;
+      }
+
+      .welcome__card:hover {
+        background: #333;
+        border-color: #555;
+        transform: translateY(-2px);
+      }
+
+      .welcome__card:focus-visible {
+        outline: 2px solid #76b900;
+        outline-offset: 2px;
+      }
+
+      .welcome__card-icon {
+        width: 16px;
+        height: 16px;
+        margin-bottom: 12px;
+        opacity: 1;
+      }
+
+      .welcome__card-icon svg {
+        width: 16px;
+        height: 16px;
+        fill: #f2f2f2;
+      }
+
+      .welcome__card-title {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.25px;
+        color: #f2f2f2;
+        margin-bottom: 8px;
+      }
+
+      .welcome__card-text {
+        font-size: 14px;
+        color: #f2f2f2;
+        line-height: 1.5;
+      }
+
+      /* Input section (pinned at bottom of welcome) */
+      .welcome__input-section {
+        padding: 16px;
+        background: transparent;
+        flex-shrink: 0;
+      }
+
+      .welcome__input-wrap {
+        display: flex;
+        flex-direction: column;
+        background: #161616;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        padding: 0;
+        transition: border-color 0.2s;
+        height: 117px;
+        position: relative;
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.17), 0px 6px 18px 2px rgba(0,0,0,0.17);
+        overflow: hidden;
+        cursor: text;
+      }
+
+      .welcome__input-wrap:hover,
+      .welcome__input-wrap:focus-within {
+        border: 1px solid #76b900;
+      }
+
+      .welcome__prompt-area {
+        padding: 16px;
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .welcome__action-bar {
+        height: 61px;
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent;
+      }
+
+      .welcome__action-items {
+        display: flex;
+        align-items: center;
+      }
+
+      .welcome__input {
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 15px;
+        color: #ffffff;
+        font-family: inherit;
+        resize: none;
+        line-height: 1.667;
+      }
+
+      .welcome__input::placeholder {
+        color: #a7a7a7;
+      }
+
+      .welcome__send {
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        border: none;
+        background: #76b900;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        transition: background 0.2s, transform 0.1s;
+      }
+
+      .welcome__send:hover {
+        background: #8ad400;
+        transform: scale(1.05);
+      }
+
+      .welcome__send:disabled {
+        background: #444;
+        color: #777;
+        cursor: default;
+        transform: none;
+      }
+
+      .welcome__send svg {
+        width: 16px;
+        height: 16px;
+        fill: currentColor;
+      }
+
+      .welcome__disclaimer {
+        text-align: center;
+        font-size: 11px;
+        color: #eeeeee;
+        padding: 8px 16px 16px;
+        background: transparent;
+        flex-shrink: 0;
+      }
+
+      /* ==========================================================
+         BRAND CONCIERGE MOUNT
+         ========================================================== */
+      #brand-concierge-mount {
+        width: 100%;
+        height: 100%;
+      }
+
+      #brand-concierge-mount.bc-hidden {
+        display: none !important;
+      }
+
+      /* ==========================================================
+         MOBILE RESPONSIVE
+         ========================================================== */
+      @media (max-width: 768px) {
+        #chat-modal {
+          width: 100vw !important;
+          height: 100vh !important;
+          border-radius: 0;
+          top: 0 !important;
+          left: 0 !important;
+          transform: none !important;
+        }
+
+        #close-button {
+          bottom: 16px !important;
+          right: 16px !important;
+        }
+
+        .welcome__body {
+          padding: 16px 20px 0;
+        }
+
+        .welcome__cards {
+          grid-template-columns: 1fr;
+        }
+
+        .welcome__input-section {
+          padding: 12px 20px 12px;
+        }
+
+        .welcome__disclaimer {
+          padding: 8px 20px 12px;
+        }
+      }
+
+      /* ==========================================================
+         GOLD GRADIENT BORDER (rotating conic gradient)
+         ========================================================== */
+      @property --angle {
+        syntax: "<angle>";
+        initial-value: 0deg;
+        inherits: false;
+      }
+
+      @keyframes rotateGradientBorder {
+        from { --angle: 0deg; }
+        to   { --angle: 360deg; }
+      }
+
+      #chat-modal::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 2px;
+        border-radius: inherit;
+        background: conic-gradient(
+          from var(--angle, 0deg),
+          #8b7355 0%, #6d5a3a 5%, #7a6542 10%, #d4c4a8 15%, #b8956e 20%,
+          #c9a86c 25%, #e8dcc4 30%, #f5ede0 35%, #c4a064 40%, #8b7355 45%,
+          #7a6542 50%, #b89b6a 55%, #d4c4a8 60%, #e8dcc4 65%, #c9a86c 70%,
+          #b8956e 75%, #a68b5b 80%, #8b7355 85%, #6d5a3a 90%, #9a8262 95%,
+          #8b7355 100%
+        );
+        -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+        pointer-events: none;
+        z-index: 99;
+        animation: rotateGradientBorder 20s linear infinite;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        #chat-modal::before {
+          animation: none;
+        }
+      }
+
+      /* ==========================================================
+         HTTPS WARNING
+         ========================================================== */
+      .https-warning {
+        position: fixed;
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        color: #856404;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 13px;
+        z-index: 9999;
+        max-width: 600px;
+        width: calc(100% - 48px);
+        text-align: center;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        display: none;
+      }
+    </style> 
+  
+  
+  <!-- HTTPS WARNING. Do not add this in AEM --> 
+  <div id="https-warning" class="https-warning"> 
+   <strong>HTTPS Required:</strong> This page must be served over HTTPS for Brand Concierge to work. See console for details. 
+  </div> 
+  <!-- ==========================================================
+         FAB BUTTON (bottom-right trigger)
+         ========================================================== --> 
+   
+  <!-- MODAL BACKDROP --> 
+   
+  <!-- CLOSE BUTTON (external, bottom-right of page) --> 
+   
+  <!-- ==========================================================
+         CHAT MODAL (Welcome + Chat views)
+         ========================================================== --> 
+   
+  <!-- ==========================================================
+         JAVASCRIPT
+         ========================================================== --> 
+  <script>
+      // ============================================================
+      // STYLE CONFIGURATION (NVIDIA theme for Brand Concierge)
+      // ============================================================
+      const STYLE_CONFIGURATION = {
+        metadata: {
+          brand_name: "nvidia",
+          version: "1.0.0",
+          language: "en-US",
+          namespace: "brand-concierge",
+        },
+        behavior: {
+          multimodalCarousel: {
+            cardClickAction: "openLink",
+            cardStyle: "productCard",
+          },
+          input: {
+            type: "textarea",
+            showLoadingIndicatorInInputBar: true,
+            textarea: { 
+              rows: 3,
+            },
+            enableVoiceInput: false,
+            disableMultiline: true,
+            showAiChatIcon: false,
+            clearHistoryButtonBottom: "14px",
+          },
+          chat: {
+            messageAlignment: "normal",
+            messageWidth: "100%",
+          },
+          privacyNotice: {
+            title: "Privacy Notice",
+            text: "This is an AI chatbot powered by Adobe. AI generated content may have mistakes. Please verify. Chat messages are recorded to improve our services in accordance with our {Privacy Policy}. Please do not share personal or confidential information.\n\nBy using this chatbot you consent to such recording and agree to NVIDIA's {Terms of Service}.",
+            links: [
+              {
+                text: "Privacy Policy",
+                url: "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+              },
+              {
+                text: "Terms of Service",
+                url: "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+              },
+            ],
+          },
+          chatTranscript: {
+            enabled: false,
+            maxSessions: 1,
+            maxMessagesPerSession: 20,
+            cleanupInterval: 24,
+          },
+          meetingForm: {
+            fieldsPerRow: 2,
+            fieldLayoutRules: {
+              textInputs: {
+                allowTwoColumns: true,
+                fieldTypes: ["string", "email", "tel", "number"],
+              },
+              dropdowns: {
+                allowTwoColumns: false,
+                fieldTypes: ["select"],
+                identifyBy: "hasOptions",
+              },
+              checkboxes: {
+                allowTwoColumns: false,
+                fieldTypes: ["boolean", "checkbox"],
+              },
+            },
+            title: {
+              text: "Schedule an Analyst Briefing",
+              alignment: "left",
+            },
+            subtitle: {
+              text: "Connect with our Investor Relations team. Please fill out the form below, and we'll coordinate a time.",
+              alignment: "left",
+            },
+            buttons: {
+              submit: {
+                text: "Request Briefing",
+                alignment: "left",
+              },
+              cancel: {
+                text: "Cancel",
+                alignment: "left",
+              },
+            },
+          },
+          calendarWidget: {
+            title: {
+              text: "Select a Time",
+              alignment: "left",
+            },
+            subtitle: {
+              text: "Choose a time slot that fits your schedule:",
+              alignment: "left",
+            },
+            postTitle: {
+              text: "Confirmed. You will receive a calendar invite shortly. We look forward to speaking with you.",
+              alignment: "left",
+            },
+            buttons: {
+              confirm: {
+                text: "Confirm",
+                alignment: "left",
+              },
+              cancel: {
+                text: "Cancel",
+                alignment: "left",
+              },
+            },
+          },
+          productCard: {
+            actionButtonSize: "S",
+          },
+        },
+        disclaimer: {
+          text: "AI-generated content may be incomplete. Verify important info.",
+          links: [],
+        },
+        text: {
+          "welcome.heading": "The State of AI Across Industries",
+          "welcome.subheading": "Instant intelligence on strategic reports, financial performance, and AI infrastructure data.",
+          "input.placeholder": "Ask me here...",
+          "input.messageInput.aria": "Message input",
+          "input.send.aria": "Send message",
+          "input.ai_chat_icon.tooltip": "Ask NVIDIA AI",
+          "input.mic.aria": "Voice input",
+          "card.aria.select": "Select topic",
+          "carousel.prev.aria": "Previous cards",
+          "carousel.next.aria": "Next cards",
+          "scroll.bottom.aria": "Scroll to bottom",
+          "error.network": "Connection issue. Please try again.",
+          "loading.message": "",
+          "feedback.dialog.title.positive": "Helpful Response?",
+          "feedback.dialog.title.negative": "How can we improve?",
+          "feedback.dialog.question.positive": "What was most valuable?",
+          "feedback.dialog.question.negative": "What was missing?",
+          "feedback.dialog.notes": "Notes",
+          "feedback.dialog.submit": "Submit Feedback",
+          "feedback.dialog.cancel": "Cancel",
+          "feedback.dialog.notes.placeholder": "Optional details",
+          "feedback.toast.success": "Feedback received.",
+          "feedback.thumbsUp.aria": "Helpful",
+          "feedback.thumbsDown.aria": "Not helpful",
+        },
+        arrays: {
+          "welcome.examples": [
+            {
+              text: "What are the differences in AI usage and adoption across different industries?",
+              image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+            },
+            {
+              text: "What are the biggest challenges when it comes to using AI?",
+              image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+            },
+            {
+              text: "How is your budget going to change for AI in the coming year?",
+              image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&q=80",
+            },
+          ],
+          "feedback.positive.options": [
+            "Accurate Data",
+            "Clear Summary",
+            "Relevant Strategic Insight",
+            "Fast Response",
+            "Other",
+          ],
+          "feedback.negative.options": [
+            "Inaccurate Data",
+            "Unclear Summary",
+            "Irrelevant",
+            "Formatting Issue",
+            "Other",
+          ],
+        },
+        assets: {
+          icons: {
+            company: "",
+          },
+        },
+        theme: {
+          "--welcome-input-order": "3",
+          "--welcome-cards-order": "2",
+          "--font-family": "'NVIDIA Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+          "--line-height-body": "1.6",
+
+          "--color-primary": "#76B900",
+          "--color-primary-hover": "#5E9400",
+          "--color-text": "#FFFFFF",
+          "--color-text-muted": "#AAAAAA",
+          "--color-text-light": "#CCCCCC",
+          "--color-text-dark": "#FFFFFF",
+          "--color-text-primary": "#FFFFFF",
+          "--color-text-secondary": "#AAAAAA",
+          "--color-text-concierge": "#FFFFFF",
+          "--color-background": "transparent",
+          "--color-background-hover": "#1a1a1a",
+          "--color-surface-secondary": "#1a1a1a",
+          "--color-surface-tertiary": "#292929",
+
+          "--color-border": "#3D3D3D",
+          "--color-border-light": "#3D3D3D",
+          "--color-border-medium": "#505050",
+          "--color-border-dark": "#666666",
+          "--color-border-subtle": "#2E2E2E",
+
+          "--chat-history-padding-top-expanded": "16px",
+          "--chat-history-padding": "24px",
+          "--container-padding-desktop": "24px",
+          "--container-padding-mobile": "16px",
+          "--content-width-desktop": "100%",
+
+          "--main-container-background": "transparent",
+          "--chat-container-background": "transparent",
+          "--main-container-bottom-background": "linear-gradient(0deg, rgba(0,0,0,0.95) 170px, rgba(0,0,0,0)) no-repeat",
+          "--chat-container-bottom-background": "linear-gradient(0deg, rgba(0,0,0,0.95) 170px, rgba(0,0,0,0)) no-repeat",
+          "--message-blocker-height": "110px",
+          "--message-blocker-background": "linear-gradient(0deg, rgba(0,0,0,0.95) 90px, rgba(0,0,0,0) 110px)",
+          "--main-message-blocker-background": "linear-gradient(0deg, rgba(0,0,0,0.95) 90px, rgba(0,0,0,0) 110px)",
+
+          "--icon-fill-color": "#FFFFFF",
+          "--icon-fill-color-disabled": "#666666",
+
+          "--input-height": "56px",
+          "--input-height-mobile": "52px",
+          "--input-border-radius": "12px",
+          "--input-border-radius-mobile": "12px",
+          "--input-background": "#161616",
+          "--input-outline-color": "transparent",
+          "--input-outline-width": "1px",
+          "--input-box-shadow": "0 4px 12px rgba(0,0,0,0.2)",
+          "--input-hover-outline-color": "#76B900",
+          "--input-hover-outline-width": "1px",
+          "--input-focus-outline-width": "1px",
+          "--input-focus-outline-color": "#76B900",
+          "--input-font-size": "15px",
+          "--input-text-color": "#FFFFFF",
+          "--input-button-height": "36px",
+          "--input-button-width": "36px",
+          "--input-button-border-radius": "4px",
+          "--input-placeholder-font-size": "12px",
+          "--input-form-background": "#161616",
+          "--input-form-shadow": "rgba(0, 0, 0, 0.3)",
+
+          "--submit-button-fill-color": "#FFFFFF",
+          "--submit-button-fill-color-disabled": "#C4DEA2",
+          "--color-button-submit": "#76B900",
+          "--color-button-submit-hover": "#5E9400",
+          "--button-border-radius": "0px",
+          "--button-disabled-background": "#3D3D3D",
+          "--button-height-s": "32px",
+          "--button-primary-background": "#76B900",
+          "--button-primary-text": "#000000",
+          "--button-primary-hover": "#5E9400",
+          "--button-secondary-border": "#505050",
+          "--button-secondary-text": "#E0E0E0",
+          "--button-secondary-hover": "#FFFFFF",
+          "--color-button-secondary-hover-text": "#1A1A1A",
+
+          "--disclaimer-color": "#EEEEEE",
+          "--disclaimer-font-size": "11px",
+          "--disclaimer-font-weight": "400",
+
+          "--message-user-background": "#161616",
+          "--message-user-text": "#eeeeee",
+          "--message-border-radius": "16px 16px 0px 16px",
+          "--message-padding": "16px",
+          "--user-message-padding": "16px",
+          "--message-concierge-background": "transparent",
+          "--message-concierge-text": "#eeeeee",
+          "--message-concierge-border-width": "0px",
+          "--message-concierge-border-left-width": "3px",
+          "--message-concierge-border-left-style": "solid",
+          "--message-concierge-border-left-color": "#76B900",
+          "--message-concierge-border-radius": "0 8px 8px 0",
+          "--message-concierge-link-decoration": "underline",
+          "--message-concierge-link-color": "#FFFFFF",
+          "--message-concierge-link-hover-color": "#FFFFFF",
+          "--message-concierge-link-underline-color": "#76B900",
+          "--message-concierge-link-hover-underline-color": "#76B900",
+          "--message-max-width": "100%",
+          "--chat-interface-max-width": "100%",
+
+          "--loading-dot-background": "#76B900",
+          "--loading-message-background": "transparent",
+
+          "--scroll-button-background": "#161616",
+          "--scroll-button-border-color": "#313131",
+          "--scroll-button-fill-color": "#FFFFFF",
+
+          "--feedback-icon-btn-background": "transparent",
+          "--feedback-icon-btn-hover-background": "#3D3D3D",
+          "--feedback-icon-btn-size-desktop": "32px",
+          "--feedback-container-gap": "8px",
+          "--feedback-button-active-color": "#76B900",
+          "--feedback-button-active-icon-color": "#FFFFFF",
+          "--feedback-button-submitted-icon-color": "#76B900",
+
+          "--citations-text-font-weight": "600",
+          "--citations-desktop-button-font-size": "13px",
+          "--citations-button-text-color": "#AAAAAA",
+          "--citations-button-hover-text-color": "#FFFFFF",
+          "--citations-button-active-text-color": "#FFFFFF",
+          "--citations-number-text-color": "#FFFFFF",
+          "--citations-link-color": "#AAAAAA",
+          "--citations-link-hover-color": "#FFFFFF",
+          "--citation-number-background": "#555555",
+          "--citation-number-text-color": "#FFFFFF",
+          "--citation-number-width": "18px",
+          "--citation-number-height": "18px",
+          "--citation-number-padding": "2px 5px",
+          "--citation-number-font-size": "10px",
+          "--citation-number-border-radius": "50%",
+          "--citation-number-display": "inline-flex",
+          "--citation-number-align-items": "center",
+          "--citation-number-justify-content": "center",
+          "--citation-number-text-decoration": "none",
+          "--citation-number-margin-left": "5px",
+
+          "--multimodal-card-box-shadow": "0 8px 24px rgba(0,0,0,0.3)",
+          "--border-radius-card": "0px",
+          "--card-background": "#2E2E2E",
+          "--card-padding": "0px",
+          "--card-text-padding": "16px 20px",
+          "--card-text-color": "#FFFFFF",
+          "--card-image-height-desktop": "200px",
+
+          "--multimodal-image-thumbnail-base-height": 200,
+          "--multimodal-image-thumbnail-crop-factor": 0.9,
+          "--product-card-background": "#FFFFFF",
+          "--product-card-image-padding-bottom": "0px",
+          "--product-card-border-color": "#E0E0E0",
+          "--product-card-border-width": "1px",
+          "--product-card-box-shadow": "0 2px 8px rgba(0, 0, 0, 0.12)",
+          "--product-card-title-color": "#1A1A1A",
+          "--product-card-description-color": "#444444",
+          "--product-card-details-color": "#666666",
+          "--product-card-button-position": "end",
+
+          "--dialog-button-border-radius": "0",
+          "--dialog-button-primary-background": "#76b900",
+          "--dialog-button-primary-background-hover": "#5E9400",
+          "--dialog-button-primary-text-color": "#000000",
+
+          "--privacy-notice-background": "#161616",
+          "--privacy-notice-padding": "12px 16px",
+          "--privacy-notice-text-font-size": "12px",
+          "--privacy-notice-title-font-size": "13px",
+          "--privacy-notice-title-color": "#FFFFFF",
+          "--privacy-notice-text-color": "#EEEEEE",
+          "--privacy-notice-link-color": "#EEEEEE",
+          "--privacy-notice-link-underline-color": "#76B900",
+          "--privacy-notice-link-hover-underline-color": "#76B900",
+          "--privacy-notice-border-color": "#3D3D3D",
+
+          "--prompt-suggestions-flex-direction": "column",
+          "--prompt-suggestions-button-width": "fit-content",
+          "--prompt-suggestions-button-width-max": "100%",
+          "--prompt-suggestions-align-items": "flex-start",
+          "--prompt-suggestion-button-background": "transparent",
+          "--prompt-suggestion-button-border-color": "rgba(255,255,255,0.5)",
+          "--prompt-suggestion-button-border-radius": "999px",
+          "--prompt-suggestion-button-text-color": "#FFFFFF",
+          "--prompt-suggestion-button-font-weight": "500",
+          "--prompt-suggestion-button-padding": "12px 24px",
+          "--prompt-suggestion-button-background-hover": "rgba(255,255,255,0.08)",
+          "--prompt-suggestion-button-fill-color": "#FFFFFF",
+          "--prompt-suggestion-button-gap": "8px",
+          "--prompt-pill-background": "#3D3D3D",
+          "--prompt-pill-background-hover": "#505050",
+          "--prompt-pill-text-color": "#FFFFFF",
+          "--prompt-pill-border-color": "#505050",
+
+          "--form-input-background-color": "#161616",
+          "--form-input-text-color": "#FFFFFF",
+          "--form-input-placeholder-color": "#888888",
+          "--form-input-border-color": "#3D3D3D",
+          "--form-input-focus-border-color": "#76B900",
+          "--select-background-color": "#161616",
+          "--select-text-color": "#FFFFFF",
+          "--select-border-color": "#3D3D3D",
+          "--select-focus-border-color": "#76B900",
+
+          "--dialog-background": "#161616",
+          "--dialog-text-color": "#FFFFFF",
+          "--dialog-button-border-color": "#505050",
+          "--dialog-button-text-color": "#FFFFFF",
+          "--dialog-button-background": "#3D3D3D",
+          "--dialog-button-primary-text-color": "#000000",
+        },
+      };
+
+      // ============================================================
+      // STATE MANAGEMENT
+      // ============================================================
+      // States: "fab" | "welcome" | "chat"
+      let currentState = "fab";
+      let bcInitialized = false;
+
+      let dom = {};
+
+      /**
+       * Transition to a new UI state.
+       * - "fab": Only the FAB button is visible.
+       * - "welcome": Modal is open showing the custom welcome cards.
+       * - "chat": Modal is open showing the BC conversation.
+       */
+      function setState(newState) {
+        currentState = newState;
+
+        // FAB button
+        if (newState === "fab") {
+          dom.fabButton.classList.remove("bc-hidden");
+        } else {
+          dom.fabButton.classList.add("bc-hidden");
+        }
+
+        // Modal + backdrop + close button
+        if (newState === "welcome" || newState === "chat") {
+          dom.chatModal.classList.add("bc-visible");
+          dom.modalBackdrop.classList.add("bc-visible");
+          dom.closeButton.classList.add("bc-visible");
+        } else {
+          dom.chatModal.classList.remove("bc-visible");
+          dom.modalBackdrop.classList.remove("bc-visible");
+          dom.closeButton.classList.remove("bc-visible");
+        }
+
+        // Modal theme class (dark for welcome, light for chat)
+        if (newState === "welcome") {
+          dom.chatModal.classList.add("state-welcome");
+          dom.chatModal.classList.remove("state-chat");
+        } else if (newState === "chat") {
+          dom.chatModal.classList.remove("state-welcome");
+          dom.chatModal.classList.add("state-chat");
+        }
+
+        // Welcome content vs BC mount visibility
+        if (newState === "welcome") {
+          dom.welcomeContent.classList.remove("bc-hidden");
+          dom.mountElement.classList.add("bc-hidden");
+        } else if (newState === "chat") {
+          dom.welcomeContent.classList.add("bc-hidden");
+          dom.mountElement.classList.remove("bc-hidden");
+        }
+      }
+
+      // ============================================================
+      // BRAND CONCIERGE LIFECYCLE (direct mount, no iframe)
+      // ============================================================
+
+      /**
+       * Bootstrap Brand Concierge onto the mount element.
+       * Sets data-initial-message so BC auto-sends the user's first question
+       * and skips its internal welcome screen.
+       */
+      function bootstrapBC(initialMessage) {
+        if (
+          !window.adobe ||
+          !window.adobe.concierge ||
+          !window.adobe.concierge.bootstrap
+        ) {
+          console.error(
+            "[BC V2 Direct] Brand Concierge Web Client not loaded."
+          );
+          return;
+        }
+
+        if (initialMessage) {
+          dom.mountElement.setAttribute(
+            "data-initial-message",
+            initialMessage
+          );
+        } else {
+          dom.mountElement.removeAttribute("data-initial-message");
+        }
+
+        window.adobe.concierge.bootstrap({
+          instanceName: "alloy",
+          stylingConfigurations: STYLE_CONFIGURATION,
+          selector: "#brand-concierge-mount",
+          onClearHistory: function () {
+            console.log("[BC V2 Direct] Chat cleared, destroying instance and returning to welcome");
+            window.adobe.concierge.destroy();
+            bcInitialized = false;
+            setState("welcome");
+            dom.welcomeInput.focus();
+          },
+        });
+
+        bcInitialized = true;
+        console.log(
+          "[BC V2 Direct] Brand Concierge bootstrapped" +
+            (initialMessage ? " with initial message" : "")
+        );
+      }
+
+      // ============================================================
+      // UI ACTIONS
+      // ============================================================
+
+      /** FAB click: open welcome (first time) or chat (if BC alive). */
+      function handleFabClick() {
+        if (bcInitialized) {
+          setState("chat");
+          triggerResizeRecalculation();
+        } else {
+          setState("welcome");
+          dom.welcomeInput.focus();
+        }
+      }
+
+      /** Suggestion card click: initialize BC with the card's question. */
+      function handleCardClick(questionText) {
+        setState("chat");
+        bootstrapBC(questionText);
+      }
+
+      /** Welcome input submit: initialize BC with the typed question. */
+      function handleWelcomeSubmit() {
+        var message = dom.welcomeInput.value.trim();
+        if (!message) return;
+        dom.welcomeInput.value = "";
+        handleCardClick(message);
+      }
+
+      /** Close modal: hide everything, show FAB. BC stays alive. */
+      function handleClose() {
+        setState("fab");
+      }
+
+      /**
+       * After re-showing a hidden BC mount, the ResizeObserver may not
+       * have fired. Nudge the layout so BC recalculates responsive classes.
+       */
+      function triggerResizeRecalculation() {
+        requestAnimationFrame(function () {
+          window.dispatchEvent(new Event("resize"));
+        });
+      }
+
+      // ============================================================
+      // INITIALIZATION
+      // ============================================================
+
+      function initEventListeners() {
+        // FAB button
+        dom.fabButton.addEventListener("click", handleFabClick);
+
+        // Welcome input
+        dom.welcomeSend.addEventListener("click", handleWelcomeSubmit);
+        dom.welcomeInput.addEventListener("keydown", function (e) {
+          if (e.key === "Enter" && !e.shiftKey) {
+            e.preventDefault();
+            handleWelcomeSubmit();
+          }
+        });
+
+        // Clicking anywhere in the input wrap (e.g. padding, action bar) focuses the textarea
+        var welcomeInputWrap = document.querySelector(".welcome__input-wrap");
+        if (welcomeInputWrap) {
+          welcomeInputWrap.addEventListener("click", function (e) {
+            if (e.target !== dom.welcomeInput && !dom.welcomeSend.contains(e.target)) {
+              dom.welcomeInput.focus();
+            }
+          });
+        }
+
+        // Suggestion cards (click + keyboard)
+        var cards = document.querySelectorAll(".welcome__card");
+        cards.forEach(function (card) {
+          card.addEventListener("click", function () {
+            handleCardClick(card.getAttribute("data-question"));
+          });
+          card.addEventListener("keydown", function (e) {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              handleCardClick(card.getAttribute("data-question"));
+            }
+          });
+        });
+
+        // External close button
+        dom.closeButton.addEventListener("click", handleClose);
+
+        // Backdrop click closes modal
+        dom.modalBackdrop.addEventListener("click", handleClose);
+
+        // Keyboard: Escape closes modal
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && currentState !== "fab") {
+            handleClose();
+          }
+        });
+      }
+
+      function checkHTTPS() {
+        if (window.location.protocol !== "https:") {
+          document.getElementById("https-warning").style.display = "block";
+        }
+      }
+
+      function bcInit() {
+        dom = {
+          fabButton: document.getElementById("fab-button"),
+          modalBackdrop: document.getElementById("modal-backdrop"),
+          chatModal: document.getElementById("chat-modal"),
+          closeButton: document.getElementById("close-button"),
+          welcomeContent: document.getElementById("welcome-content"),
+          welcomeInput: document.getElementById("welcome-input"),
+          welcomeSend: document.getElementById("welcome-send"),
+          mountElement: document.getElementById("brand-concierge-mount"),
+        };
+
+        if (!dom.fabButton) {
+          console.error("[BC V2 Direct] FAB button not found. Aborting init.");
+          return;
+        }
+
+        // Append to <html> so fixed positioning is relative to viewport.
+        // AEM may apply transform/filter on body which breaks position:fixed.
+        var root = document.documentElement;
+        root.appendChild(dom.fabButton);
+        root.appendChild(dom.modalBackdrop);
+        root.appendChild(dom.closeButton);
+        root.appendChild(dom.chatModal);
+
+        checkHTTPS();
+        initEventListeners();
+        setState("fab");
+        console.log("[BC V2 Direct] NVIDIA Industry Insights Assistant initialized");
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", bcInit);
+      } else {
+        bcInit();
+      }
+    </script>
+ 
+</div>	
+
+    </div>
+</div>
+
+    
+</div>
+</div>
+<div class="footer aem-GridColumn aem-GridColumn--default--12">
+<div>
+<div class="page-footer-wrapper" id="brandFooter">
+<div class="page-footer">
+<div class="page-footer__links">
+<div class="page-footer-link-set set-3">
+<div class="page-footer-link-set__title">Company Information</div>
+<ul class="page-footer-link-set__links">
+<li>
+<a href="/about-nvidia/" target="_self">About Us</a>
+</li>
+
+<li>
+<a href="/research/" target="_self">Research</a>
+</li>
+
+<li>
+<a href="/technologies/" target="_self">Technologies</a>
+</li>
+
+</ul>
+</div>
+<div class="page-footer-link-set set-3">
+<div class="page-footer-link-set__title">News and Events</div>
+<ul class="page-footer-link-set__links">
+
+<li>
+<a href="/" target="_blank">Company Blog</a>
+</li>
+
+<li>
+<a href="/preferences/email-signup/" target="_self">Stay Informed</a>
+</li>
+<li>
+<a href="/events/" target="_self">Events Calendar</a>
+</li>
+
+<li>
+<a href="/on-demand/" target="_self">NVIDIA On-Demand</a>
+</li>
+</ul>
+</div>
+<div class="page-footer-link-set set-3">
+<div class="page-footer-link-set__title">Popular Links</div>
+<ul class="page-footer-link-set__links">
+
+<li>
+<a href="/startups/" target="_self">Startups and VCs</a>
+</li>
+
+<li>
+<a href="/learn/organizations/" target="_self">Technical Training</a>
+</li>
+<li>
+<a href="/support/enterprise/advisory-services/" target="_self">Professional Services for Data Science</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="page-footer__subscribe">
+<div class="cq-dd-paragraph"><div class="nv_rawhtml nv-rawhtml">
+<div class="general-container-text" id="nv-rawhtml-51422112d4">
+<div> <style>
+.subscribe-container {
+	width: 100%;
+	margin: 0 auto;
+}
+.subscribe-container .center-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0;
+	gap: 25px;
+}
+.subscribe-logo {
+	display: flex;
+	align-items: center;
+}
+.subscribe-logo svg {
+	display: block;
+}
+.subscribe-text {
+	font-size: 18px;
+	color: white;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	margin-left: 0;
+}
+.subscribe-container .button {
+	display: flex;
+	align-items: center;
+	margin-left: 0;
+	margin-top: 0;
+}
+.subscribe-container .btncta::after {
+	display: none !important;
+}
+.subscribe-container .nv-button {
+	background-color: #76b900;
+	padding: 8px 24px !important;
+	border-radius: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 38px;
+	box-sizing: border-box;
+}
+.subscribe-container .nv-button a.btncta {
+	color: #000 !important;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	cursor: default;
+}
+
+/* Social container styling overrides */
+.page-footer__social {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-end !important;
+	gap: 15px !important;
+	width: auto !important;
+	float: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.page-footer__social__label {
+	color: #999 !important;
+	font-size: 16px !important;
+	margin-right: 20px !important;
+	margin-bottom: 0 !important;
+	display: inline-block !important;
+	font-weight: 500;
+}
+.page-footer__social__link {
+	display: inline-flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	text-decoration: none !important;
+	width: 24px !important;
+	height: 24px !important;
+}
+.page-footer__social__link svg {
+	fill: #999;
+	transition: fill 0.3s ease-in-out;
+}
+.page-footer__social__link:hover svg {
+	fill: #fff;
+}
+
+/* Grid layout for the footer bottom bar on desktop */
+@media screen and (min-width: 1024px) {
+.page-footer {
+	display: grid !important;
+	grid-template-columns: 1fr 1fr !important;
+	align-items: center !important;
+	padding-bottom: 40px !important;
+}
+.page-footer__links {
+	grid-column: 1 / span 2 !important;
+	width: 100% !important;
+}
+.page-footer__subscribe {
+	grid-column: 1 !important;
+	width: 100% !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-start !important;
+	height: auto !important;
+	margin: 0 !important;
+}
+.page-footer__social {
+	grid-column: 2 !important;
+	width: 100% !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: flex-end !important;
+	height: auto !important;
+	margin: 0 !important;
+}
+}
+
+@media screen and (max-width: 1023px) {
+.page-footer__subscribe {
+	width: 100% !important;
+	margin-bottom: 30px !important;
+}
+.page-footer__social {
+	width: 100% !important;
+	justify-content: center !important;
+}
+.subscribe-container .center-content {
+	justify-content: center;
+}
+}
+
+@media screen and (max-width: 639px) {
+.subscribe-container .center-content {
+	flex-direction: column;
+	gap: 15px;
+	text-align: center;
+}
+.page-footer__social {
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+}
+}
+</style><div class="subscribe-container">
+<div class="center-content">
+<div class="subscribe-logo">
+<svg height="36" viewBox="0 0 48 36" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<image data-name="icon mail copy" height="36" id="icon_mail_copy" width="48" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAkCAMAAAD4m0k4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABnlBMVEWHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgAAAADqIFB3AAAAiHRSTlMAPqKqqKucL9zD8v383e77xqnO2fBFYfRSbfUDDgIPDF6QUA0SWJMIQI4qAQQznT8XHW7k6DEKadYFCUq3z1kGMqPt6XokK4fz55glwVQLX828VR6L4PeUNT2h/td9FUmv+tIWdtukcdCsTmU0md9/iY8HWr60TYLl2kOt+DoaE0djybDCPJ8umjQepgAAAAFiS0dEiRxhJswAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgChgTJSW4Gs96AAABYklEQVQ4y2NgZGJmIRqwsrEzcHSQBDgZuDo6uHmIBNwdHbwMfB38AoKsRAEWIZ4OYaAGEVEGIoGYOFgDlwSxGiSlKNAgLYNXqaycLKoGeQVFJWXc6lVU1STUUTRodHTwaGppY1euo6vX0SGii6JBXwQYKcJiBtjUGxoZAyVNTFE0mJlbgOJRUN8SXbmVtQ1IxtbOHi2UHBydgOLOLq6o6t3cPYDCnl7eWIJVTABklI+vH5Jn/QOAQvyBQdjjITgkFCgdFh4BUx8ZFQ0UiImNwxlx8QmJQBVJ5slg/SmpQI5UWiS+mFZJzwC5KxOYvLLAnhXItiKQNHJyQb7Myy9wBoVBoRbhtFRUXALLLaVlqFGJK/F5l1eAlFemBONJfKigqpq/hqkWQxhP8q5T9a1nIEUDdjCqYVBpEGkgVkMjRAN/E2szUYA5A1QYg4t7bqIATzSouE8lrUJpYWhtI6XKym0HAEPUyge2kF93AAAAAElFTkSuQmCC"></image>
+</svg>
+</div>
+<div class="subscribe-text">
+<span>Sign Up for NVIDIA News</span>
+</div>
+<div class="button">
+<div class="nv-button btn-content" style="padding: 0px;">
+<a class="btn-content btncta" href="javascript:void(0)" style="pointer-events: none; cursor: default;">
+<div class="btn-text">
+      Subscribe
+     </div> </a>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
+<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="global-footer-container">
+<div class="global-footer" id="globalFooter">
+<svg class="global-footer__logo" enable-background="new 0 407.8 1000 184.4" viewBox="0 407.8 1000 184.4" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<title>NVIDIA</title>
+<g id="nvidia-logo">
+<path d="M987.1 555.7v-2.8h1.7c0.9 0 2.3 0.1 2.3 1.2 0 1.2-0.7 1.5-1.8 1.5H987.1M987.1 557.6h1.2l2.8 4.8h3l-3.1-5c1.5-0.1 2.9-0.8 2.9-3 0-2.7-1.8-3.5-4.9-3.5h-4.4v11.5h2.6L987.1 557.6M1000 556.7c0-6.8-5.2-10.7-11.1-10.7 -5.8 0-11.1 3.9-11.1 10.7 0 6.8 5.2 10.7 11.1 10.7S1000 563.5 1000 556.7M996.8 556.7c0 4.9-3.6 8.2-7.9 8.2l0 0c-4.4 0-7.9-3.3-7.9-8.2 0-4.9 3.6-8.2 7.9-8.2C993.2 548.6 996.8 551.9 996.8 556.7z"></path>
+<path d="M593.2 442.7v121.1h34.2V442.7H593.2zM324.4 442.5v121.2h34.5v-94.1l26.9 0.1c8.8 0 15 2.2 19.2 6.7 5.4 5.7 7.6 15.1 7.6 32v55.3H446v-66.9c0-47.8-30.5-54.3-60.2-54.3C385.8 442.5 324.4 442.5 324.4 442.5zM648.3 442.7v121.1h55.4c29.5 0 39.2-4.9 49.6-15.9 7.4-7.7 12.1-24.7 12.1-43.3 0-17-4-32.2-11.1-41.7 -12.5-16.9-30.8-20.2-58.1-20.2H648.3zM682.2 469h14.7c21.3 0 35.1 9.5 35.1 34.4 0 24.8-13.7 34.4-35.1 34.4h-14.7V469zM544 442.7l-28.5 95.9 -27.3-95.9h-36.9l39 121.1h49.2l39.3-121.1H544zM781.4 563.7h34.2v-121h-34.2V563.7zM877.2 442.7l-47.7 121h33.7l7.6-21.3h56.5l7.2 21.3h36.6l-48.2-121H877.2zM899.4 464.8l20.7 56.6H878L899.4 464.8z"></path>
+<path d="M103.9 462.8v-16.6c1.6-0.1 3.3-0.2 4.9-0.2 45.6-1.4 75.4 39.1 75.4 39.1s-32.2 44.8-66.8 44.8c-5 0-9.4-0.8-13.4-2.2v-50.5c17.7 2.2 21.3 10 32 27.7l23.7-20c0 0-17.3-22.7-46.5-22.7C110 462.3 106.9 462.5 103.9 462.8M103.9 407.8v24.8c1.6-0.1 3.3-0.2 4.9-0.3 63.3-2.2 104.6 51.9 104.6 51.9s-47.4 57.7-96.7 57.7c-4.5 0-8.7-0.4-12.7-1.1v15.4c3.4 0.4 7 0.7 10.6 0.7 46 0 79.2-23.5 111.4-51.2 5.3 4.3 27.2 14.7 31.7 19.2 -30.6 25.6-101.9 46.3-142.3 46.3 -3.9 0-7.6-0.2-11.3-0.6v21.6h174.7V407.8H103.9zM103.9 527.8v13.1c-42.5-7.6-54.3-51.8-54.3-51.8s20.4-22.6 54.3-26.3v14.4c0 0 0 0-0.1 0 -17.7-2.2-31.7 14.5-31.7 14.5S80 519.6 103.9 527.8M28.4 487.2c0 0 25.2-37.1 75.5-41v-13.5C48.2 437.2 0 484.4 0 484.4s27.3 79 103.9 86.3v-14.4C47.7 549.2 28.4 487.2 28.4 487.2z"></path>
+</g>
+</svg>
+<div class="global-footer__region hide">
+<a href="/location-selector/" target="_self">
+<span class="global-footer__region__label">
+	           United States
+	        </span>
+</a>
+</div>
+<ul class="global-footer__links">
+
+</ul>
+<div class="global-footer__copyright">Copyright © 2026 NVIDIA Corporation</div>
+<script> $(function() {    if (window.location.href.indexOf("/industries/finance") > -1) {
+ if(!$('#main-header').find(".sub-brand-nav").length){ $( "#unibrow-container" ).after('<div class="sub-brand-nav"><div class="sub-brand-nav-container"><div class="brand-nav-left" style="width: auto;"><div id="sub-brand"><a class="sub-brand-name " href="/industries/"><span class="sub-brand-label size-small">Industries</span></a></div></div><div class="brand-nav-right financectadiv"><a href="#finance-subscribe" data-analytics="btn-manual:" data-title="Subscribe" data-href="#finance-subscribe" target="overlay" class="financecta breadcrumb-page-link model-popup cta link-btn btn-manual lb_iframe brand-green regular-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span><strong>Subscribe Now</strong></span></div></a> </div></div></div>') ; } 
+ $("body").removeClass("nv-megamenu");
+}else{
+if (window.location.href.indexOf("/industries/") > -1) {
+if(!$('#main-header').find(".sub-brand-nav").length){ $( "#unibrow-container" ).after('<div class="sub-brand-nav"><div class="sub-brand-nav-container"><div class="brand-nav-left"><div id="sub-brand"><a class="sub-brand-name " href="/industries/"><span class="sub-brand-label size-small">Industries</span></a></div></div></div></div>') ; } 
+ $("body").removeClass("nv-megamenu");
+}
+}
+ }); </script>
+<style>
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked~.menu3-container .nv-level3-tab8 {
+  background-color:#eee;
+  opacity:1;
+  -webkit-transform:rotateX(0);
+  transform:rotateX(0);
+  transition:.2s ease-out;
+  -webkit-transition:.2s ease-out;
+  -o-transition:.2s ease-out;
+  visibility:visible;
+  width:100%
+}
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
+  opacity: 1;
+}
+</style>
+</div>
+</div>
+</div>
+<style>
+    .image-container{
+        position:relative;
+    }
+.image-credit {
+    color: #ccc;
+    font-size: 11px;
+    line-height: 1.4em;
+    position:absolute;
+}
+.image-credit.credit--dark{
+    color: #333;
+}
+    .image-credit.position--top-left{
+        top:12px;
+        left:15px;
+    } 
+    .image-credit.position--top-right{
+        top:12px;
+        right:15px;
+    } 
+    .image-credit.position--bottom-left{
+        bottom:27px;
+        left:15px;
+    } 
+    .image-credit.position--bottom-right{
+        bottom:27px;
+        right:15px;
+    } 
+</style>
+<script>
+$(document).ready(function(){
+    $('.image-credit').each(function(){
+        var imageOuter = $(this).parent().parent().prev().children('.image-container').append(this);
+    })
+})
+</script>
+<style>
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked~.menu3-container .nv-level3-tab8 {
+  background-color:#eee;
+  opacity:1;
+  -webkit-transform:rotateX(0);
+  transform:rotateX(0);
+  transition:.2s ease-out;
+  -webkit-transition:.2s ease-out;
+  -o-transition:.2s ease-out;
+  visibility:visible;
+  width:100%
+}
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab8:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
+  opacity: 1;
+}
+
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab9:checked~.menu3-container .nv-level3-tab9 {
+  background-color:#eee;
+  opacity:1;
+  -webkit-transform:rotateX(0);
+  transform:rotateX(0);
+  transition:.2s ease-out;
+  -webkit-transition:.2s ease-out;
+  -o-transition:.2s ease-out;
+  visibility:visible;
+  width:100%
+}
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab9:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
+  opacity: 1;
+}
+
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab10:checked~.menu3-container .nv-level3-tab10 {
+  background-color:#eee;
+  opacity:1;
+  -webkit-transform:rotateX(0);
+  transform:rotateX(0);
+  transition:.2s ease-out;
+  -webkit-transition:.2s ease-out;
+  -o-transition:.2s ease-out;
+  visibility:visible;
+  width:100%
+}
+.navigation .global-nav .desktop-nav .nav-header-container #tab4-nv-level2-tab10:checked ~ .nv-level2-list-container .nv-menu-level2-list .slider-menu {
+  opacity: 1;
+}
+</style>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
+<div id="librarian-search"><div></div></div>
+<script defer="">
+window.addEventListener('load', () => {
+    LIBRARIAN.Home.mount({
+                elementId: 'librarian-search',
+                searchPage: false,
+                placeholder:'',
+                site : 'https://www.nvidia.com',
+                generateSummary: false,
+                page:"",  
+                searchRedirectPath: '',
+                preSelectedFilters: '',
+                retainFilters: false,
+                suggestedSearchPills: []
+	})
+});
+</script>
+</div>
+
+    
+</div>
+</div>
+
+            
+    
+    
+<script src="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.893cfee860d5277f6bad0372ec8a2411.js"></script>
+<script src="../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.c615b422b69815dda8c5379a2b245500.js"></script>
+
+    
+	
+	    
+    
+
+	
+	
+	
+	
+	
+
+	
+		<div id="country-selector-modal">
+			<div class="cs-modal-content">
+				<div class="cs-title h4">Select Location</div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/industries/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
+	
+	
+	<script>
+		$(function(){
+			$(window).bind('load', function(){
+				var ubContainer="";
+				if(typeof t_ubContainer !== 'undefined' && t_ubContainer.length>0){
+					ubContainer = t_ubContainer;
+					var cookieKey = "";
+					if(typeof t_cookieKey !== 'undefined' && t_cookieKey.length>0){
+						cookieKey = t_cookieKey
+					}
+					var ubcookie = "";
+					if(cookieKey.length>0){
+						ubcookie = Cookies.get(cookieKey)!=='undefined'?Cookies.get(cookieKey):"";
+					} else {
+						ubcookie = "";
+					}
+					// var ubcookie = Cookies.get(cookieKey);
+					var isCookie = typeof ubcookie !== 'undefined'?ubcookie:"";
+					if(!isCookie){
+						if(isCookie.length<1){
+							if ($('#unibrow-container').length >0){
+								$('#unibrow-container').removeClass('hide-unibrow');
+								$('#unibrow-container').append(ubContainer);
+
+								// Marquee initialization (only when .unibrow-marquee class is present)
+								if ($('#unibrow-style.unibrow-marquee').length > 0) {
+									// Apply configurable scroll speed from API variable
+									var scrollSpeed = 15;
+									if (typeof t_ubScrollSpeed !== 'undefined' && !isNaN(t_ubScrollSpeed)) {
+										scrollSpeed = t_ubScrollSpeed;
+									}
+									document.documentElement.style.setProperty('--unibrow-scroll-speed', scrollSpeed + 's');
+
+									// Clone text twice (3 copies total) for seamless continuous scroll
+									var $track = $('.unibrow-scroll-track');
+									if ($track.length > 0) {
+										var $original = $track.find('.unibrow-scroll-text');
+										var $clone1 = $original.clone().attr('aria-hidden', 'true');
+										var $clone2 = $original.clone().attr('aria-hidden', 'true');
+										$track.append($clone1).append($clone2);
+									}
+								}
+
+								if ($(".sub-brand-nav").length >0){
+									$(".sub-brand-nav").addClass('unibrow-top');
+								}
+								var ubsc = $(window).width();
+								if(ubsc < NVIDIAGDC.tabletBreakpoint){
+									var ml = $('#unibrow-container'),
+									mcurHeight = ml.height(),
+									mautoHeight = ml.css('height', 'auto').height();
+									ml.height(mcurHeight).css('height', mautoHeight+10+'px');
+								} else if(ubsc==NVIDIAGDC.desktopBreakpoint-1){
+									var el = $('#unibrow-container'),
+									tbcurHeight = el.height(),
+									tbautoHeight = el.css('height', 'auto').height();
+									el.height(tbcurHeight).css('height', tbautoHeight+11+'px');
+								} else if(ubsc > NVIDIAGDC.tabletBreakpoint && ubsc < NVIDIAGDC.desktopBreakpoint){
+									var ml = $('#unibrow-container'),
+									tcurHeight = ml.height(),
+									tautoHeight = ml.css('height', 'auto').height();
+									ml.height(tcurHeight).css('height', tautoHeight+10+'px');
+								} else {
+									var el = $('#unibrow-container'),
+									curHeight = el.height(),
+									autoHeight = el.css('height', 'auto').height();
+									el.height(curHeight).css('height', autoHeight+11+'px');
+								}
+								
+								// Trigger custom event when unibrow is loaded
+								if ($('#unibrow-container').height() > 0) {
+									window.dispatchEvent(new CustomEvent("nvOnUnibrowLoaded"));
+								}
+
+								if($(".unibrow-close").length >0){
+									$( ".unibrow-close" ).click(function(e) {
+										e.preventDefault();
+										//$(".unibrow-top").animate({'marginTop': '0px'}, { duration: animationCloseTime, queue: false });
+										$(".unibrow-top").css('marginTop', '0px');
+										//$("#unibrow-container").animate({'height': '0px'}, { duration: animationCloseTime, queue: false });
+										$("#unibrow-container").css('height', '0px');
+										$("#unibrow-style-outer").remove();
+										$('.sub-brand-nav').removeClass('unibrow-top');
+										if(ubsc < NVIDIAGDC.tabletBreakpoint){
+											$(".subnav").css('marginTop', '');
+										} else if(ubsc > NVIDIAGDC.tabletBreakpoint && ubsc < NVIDIAGDC.desktopBreakpoint){
+											$(".subnav").css('marginTop', '');
+										}
+										if(typeof t_cookieKey !== 'undefined' && t_cookieKey.length>0){
+											var cookieVal = "";
+											var cookieExpires = 0;
+											if(typeof t_cookieVal !== 'undefined' && t_cookieVal.length>0){
+												cookieVal = t_cookieVal;
+											}
+											if(typeof t_cookieExpires !== 'undefined'){ cookieExpires = t_cookieExpires; }
+											var expires = (new Date(Date.now()+ 86400*1000)).toUTCString();
+											document.cookie = cookieKey + "=" +  cookieVal + "; expires=" + cookieExpires + ";path=/;";
+										}
+		                                $("#unibrow-container").addClass('hide-unibrow');
+										if($(".subnav").length>0){
+											$(".subnav").removeClass('unibrow-subnav');
+										}
+										$(".nv-page-body > .root").css("marginTop","");
+										if($(".stbrdcrmbblock").length>0){
+											$(".stbrdcrmbblock").css("top","");
+		                                    $(".stbrdcrmbblock").css("position", "");
+		                                    $(".stbrdcrmbblock").addClass("stbrdcrmbshadow");
+										}
+
+										// Trigger custom event when unibrow is loaded
+										window.dispatchEvent(new CustomEvent("nvOnUnibrowClose"));
+									});
+								}
+							}
+						}
+						
+					}
+				}
+			});
+		});
+		
+		var position = $(window).scrollTop();
+		
+		$(window).scroll(function() {
+			if($(".hide-unibrow").length<1 && $(".stbrdcrmbblock.stbrdcrmbstick").length>0) {
+				var scroll = $(window).scrollTop();
+				if (scroll > position) {
+					if($(window).width() < NVIDIAGDC.tabletBreakpoint){
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+56+"px");
+					} else if($(window).width() > NVIDIAGDC.tabletBreakpoint && $(window).width() < NVIDIAGDC.desktopBreakpoint){
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+46+"px");
+					} else if($(window).width() == NVIDIAGDC.desktopBreakpoint) {
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))-46+"px");
+					} else {
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+"px");
+					}
+					$(".stbrdcrmbblock").addClass("stbrdcrmbstick");
+		            //console.log('scrollDown');
+				} else {
+					if($(window).width() < NVIDIAGDC.tabletBreakpoint){
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+46+56+"px");
+					} else if($(window).width() > NVIDIAGDC.tabletBreakpoint && $(window).width() < NVIDIAGDC.desktopBreakpoint){
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+46+46+"px");
+					} else if($(window).width() == NVIDIAGDC.desktopBreakpoint) {
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+"px");
+					} else {
+						$(".stbrdcrmbblock").css("top", parseInt($(".global-nav").css("height"))+46+"px");
+					}
+					$(".stbrdcrmbblock").addClass("stbrdcrmbstickwthhead");
+		            //console.log('scrollUp');
+				}
+				position = scroll;
+			}
+		});
+	</script>
+
+    
+
+    
+
+    
+    
+
+            
+
+        
+    
+    
+    
+    
+
+<script>
+try {
+    $('.nav-header a.nav-search-link').click(function() {
+        ClickOmniTrack(true, 'event10', 'img:header:', 'search');
+    });
+    $('.brand-container a.brand-link').click(function() {
+        ClickOmniTrack(true, 'event10', 'logo:header:', 'nvidia')
+    });
+    $('.brand-container a.dropdown-arrow').click(function() {
+        ClickOmniTrack(true, 'event10', 'link:header:nav:', 'nvidia-dropdown')
+    });
+    $('.menu-container .global-nav-link').click(function() {
+        var $this = $(this);
+        var getCal = $this.children('img.global-nav-image');
+        if (getCal.length > 0) {
+            ClickOmniTrackNav(true, 'event10,event11', 'img:header:nav:dropdown:' + $this.parents('.xl-8').find('.nav-section-title .body-text').text() + ':', $this.children('.global-nav-title').text());
+        } else {
+            ClickOmniTrackNav(true, 'event10,event11', 'link:header:nav:dropdown:' + $this.parents('.xl-4').find('.nav-section-title .body-text').text() + ':', $this.text());
+        }
+    });
+    $('.nav-tools-container a.nav-profile-link').click(function() {
+        ClickOmniTrack(true, 'event10', 'img:header:nav:', 'my account')
+    });
+    $('.sub-brand-nav a.sub-brand-name #sub-brand-logo').click(function() {
+        var getAttr = $(this).attr('src');
+        var getVal = getAttr.substring(getAttr.lastIndexOf('/') + 1).split('-Logo')[0];
+        ClickOmniTrack(true, 'event10', 'logo:header:', getVal);
+    });
+    if (document.URL.indexOf('www.nvidiaaiconference.com') > -1) {
+        $('.sub-brand-nav a.sub-brand-link,#sub-brand .sub-brand-name').click(function() {
+            var getTxt = $(this).text().trim();
+            ClickOmniTrackNav(true, 'event10,event11', 'link:header:nav:', getTxt)
+        })
+    }
+} catch (e) {}
+</script></body></html>

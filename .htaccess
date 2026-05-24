@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /nvidia-clone/nvidia_offline/
+
+# Do not serve index.php directly — always route through router.php for URL rewriting
+DirectoryIndex disabled
+
+# Legacy index.html → clean URL
+RewriteRule ^index\.html$ ./ [R=301,L]
+RewriteRule ^(.+/)index\.html$ $1 [R=301,L]
+
+# Serve static assets and non-page files (not index.php)
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} !/index\.php$
+RewriteRule ^ - [L]
+
+# All page requests → front controller
+RewriteRule ^ router.php [L,QSA]
