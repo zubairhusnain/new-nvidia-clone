@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="robots" content="NOODP,NOYDIR"> 
@@ -162,7 +162,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/software/nvidia-app/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/software/nvidia-app/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/software/nvidia-app/">
 
@@ -230,12 +230,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -1367,7 +1367,7 @@ var nvidiaGDClog = function() {
           <div class="geo-locator-cta">
               <div class="nv-button button nv-button-small nv-no-left-padding nv-no-right-padding nv-no-top-padding nv-no-bottom-padding">
                   <div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
-                      <a class="btn-content btncta" rel="noopener noreferrer" href="https://www.nvidia.com">
+                      <a class="btn-content btncta" rel="noopener noreferrer" href="/">
                           <span class="btn-text">Continue</span>
                       </a>
                   </div>
@@ -1805,7 +1805,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -1816,7 +1816,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2482,7 +2482,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/blueprints" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2548,7 +2548,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/rapids/" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/rapids/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2647,7 +2647,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/isaac/ros" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/isaac/ros" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2658,7 +2658,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/aerial" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/aerial" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2699,7 +2699,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/explore/discover" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2721,7 +2721,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/dcgm" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/dcgm" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2732,7 +2732,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/tools-overview" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/tools-overview" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2743,7 +2743,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://catalog.ngc.nvidia.com/" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -3693,7 +3693,7 @@ var nvidiaGDClog = function() {
 
 	<ul class="nv-menu-list right" aria-label="menu" role="menu">
 		
-			<li class="nv-menu-item" role="none"><a href="https://marketplace.nvidia.com/en-us/" class="menu-button-link menu-level-1" role="menuitem" target="_blank">Shop</a>
+			<li class="nv-menu-item" role="none"><a href="/" class="menu-button-link menu-level-1" role="menuitem" target="_blank">Shop</a>
 			</li>
 		
 			<li class="nv-menu-item" role="none"><a href="/drivers/" class="menu-button-link menu-level-1" role="menuitem" target="_self">Drivers</a>
@@ -4009,7 +4009,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">NVIDIA APIs</span>
@@ -4019,7 +4019,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Private Registry</span>
@@ -4667,7 +4667,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/blueprints" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">AI Blueprints</span>
@@ -4727,7 +4727,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/rapids/" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/rapids/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Data Science - RAPIDS</span>
@@ -4817,7 +4817,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/isaac/ros" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/isaac/ros" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Robotics - Isaac</span>
@@ -4827,7 +4827,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/aerial" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/aerial" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Telecommunications - Aerial</span>
@@ -4869,7 +4869,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/explore/discover" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">API Catalog</span>
@@ -4889,7 +4889,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/dcgm" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/dcgm" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">GPU Monitoring</span>
@@ -4899,7 +4899,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/tools-overview" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/tools-overview" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Nsight</span>
@@ -4909,7 +4909,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://catalog.ngc.nvidia.com/" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">NGC Catalog</span>
@@ -5701,7 +5701,7 @@ var nvidiaGDClog = function() {
 								<ul aria-label="menu" role="menu">
 									
 										<li class="menu-level-1" role="none">
-											<a href="https://marketplace.nvidia.com/en-us/" class="mm-btn-link" role="menuitem" target="_blank">Shop</a>
+											<a href="/" class="mm-btn-link" role="menuitem" target="_blank">Shop</a>
 										</li>
 									
 										<li class="menu-level-1" role="none">
@@ -6139,7 +6139,7 @@ var nvidiaGDClog = function() {
                                     
                                         
                                         
-                                            <a href="https://store.nvidia.com/en-us/geforce/store/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="sub-brand-link">Shop</a>
+                                            <a href="/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="sub-brand-link">Shop</a>
                                         
                                     
                                 </div>
@@ -6232,7 +6232,7 @@ var nvidiaGDClog = function() {
                                         <li class="more-element hide">
                                                 
                                                 
-                                                    <a href="https://store.nvidia.com/en-us/geforce/store/?page=1&amp;limit=9&amp;locale=en-us">Shop</a>
+                                                    <a href="/?page=1&amp;limit=9&amp;locale=en-us">Shop</a>
                                                 
                                             </li>
                                     
@@ -6601,7 +6601,7 @@ var nvidiaGDClog = function() {
                                 
                                     
                                     
-                                        <li><a href="https://store.nvidia.com/en-us/geforce/store/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="brand-nav-link">Shop</a></li>
+                                        <li><a href="/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="brand-nav-link">Shop</a></li>
                                     
                                 
                             
@@ -6639,8 +6639,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -6665,7 +6665,7 @@ var nvidiaGDClog = function() {
  
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -6703,12 +6703,12 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-c-bottom p-image-center p-image-c-bottom   t-image-fit-cover p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-hero-oct24-bm-af360-p.jpg," content=" dam=" en-zz=" solutions=" software=" nvidia-app=" nvidia-app-hero-oct24-bm-af360-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-hero-oct24-bm-af440-t.jpg," nvidia-app-hero-oct24-bm-af440-t@2x.jpg=" data-srcset-laptop=" ..="" assets="" www.nvidia.com="" dam="" solutions="" nvidia-app="" nvidia-app-hero-oct24-bm-l580-l.jpg,"="" nvidia-app-hero-oct24-bm-l580-l@2x.jpg=" data-srcset-desktop=" nvidia-app-hero-oct24-bm-l580-d.jpg,"="" nvidia-app-hero-oct24-bm-l580-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-af360-p.jpg,"="" nvidia-app-hero-oct24-bm-af360-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-af440-t.jpg,"="" nvidia-app-hero-oct24-bm-af440-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-l580-l.jpg,"="" nvidia-app-hero-oct24-bm-l580-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-l580-d.jpg,"="" nvidia-app-hero-oct24-bm-l580-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-af360-p.jpg,"="" nvidia-app-hero-oct24-bm-af360-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-af440-t.jpg,"="" nvidia-app-hero-oct24-bm-af440-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-l580-l.jpg,"="" nvidia-app-hero-oct24-bm-l580-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-hero-oct24-bm-l580-d.jpg,"="" nvidia-app-hero-oct24-bm-l580-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
                 
-                    <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-hero-oct24-bm-l580-d.jpg" alt=" title=" id="image-container-ebae346195" onload="window.initLazyLoadingImages('container-ebae346195');" srcset=" /content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-hero-oct24-bm-l580-d@2x.jpg 2x">
+                    <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-hero-oct24-bm-l580-d.jpg" alt=" title=" id="image-container-ebae346195" onload="window.initLazyLoadingImages('container-ebae346195');" srcset="/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-hero-oct24-bm-l580-d@2x.jpg 2x">
                 
                 
             </picture>
@@ -6791,7 +6791,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6">
 <div class="nv-button-download              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-46e5f44e06" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="https://us.download.nvidia.com/nvapp/client/11.0.7.247/NVIDIA_app_v11.0.7.247.exe">
+  <a id="nv-button-46e5f44e06" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="/">
     
     
 
@@ -6966,7 +6966,7 @@ var nvidiaGDClog = function() {
             <div><div class="nv-button button">
 <div class="nv-button-download              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-8e014779b8" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="https://us.download.nvidia.com/nvapp/client/11.0.7.247/NVIDIA_app_v11.0.7.247.exe">
+  <a id="nv-button-8e014779b8" class="btn-content btncta    " target="_self" data-cmp-clickable="false " href="/">
     
     
 
@@ -7040,7 +7040,7 @@ var nvidiaGDClog = function() {
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="/assets/www.youtube.com/embed/4gOCg_j-sLM/" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/4gOCg_j-sLM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-oct24-video-ari.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="/assets/www.youtube.com/embed/4gOCg_j-sLM/" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/4gOCg_j-sLM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-oct24-video-ari.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -7058,7 +7058,7 @@ var nvidiaGDClog = function() {
    <div class="nv-yt-embed__consent-overlay " role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -7067,7 +7067,7 @@ var nvidiaGDClog = function() {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=4gOCg_j-sLM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=4gOCg_j-sLM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
@@ -7539,10 +7539,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom      ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-dlss-4-5-nv-gf-hero-640-p.jpg,"="" nvidia-dlss-4-5-nv-gf-hero-640-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-dlss-4-5-nv-gf-hero-1024-t.jpg," nvidia-dlss-4-5-nv-gf-hero-1024-t@2x.jpg=" data-srcset-laptop=" nvidia-dlss-4-5-nv-gf-hero-1350-l.jpg,"="" nvidia-dlss-4-5-nv-gf-hero-1350-l@2x.jpg=" data-srcset-desktop=" nvidia-dlss-4-5-nv-gf-hero-2560-d.jpg,"="" nvidia-dlss-4-5-nv-gf-hero-2560-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="NVIDIA DLSS" title="NVIDIA DLSS" id="image-container-9d7e297cf6" onload="window.initLazyLoadingImages('container-9d7e297cf6');">
                 
@@ -7764,10 +7764,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-c-bottom p-image-center p-image-c-bottom   t-image-fit-cover p-image-fit-cover  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-gpu-control-center-bm-af360-p.jpg,"="" nvidia-app-gpu-control-center-bm-af360-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-gpu-control-center-bm-af440-t.jpg," nvidia-app-gpu-control-center-bm-af440-t@2x.jpg=" data-srcset-laptop=" nvidia-app-gpu-control-center-text-right-bm-l580-l.jpg,"="" nvidia-app-gpu-control-center-text-right-bm-l580-l@2x.jpg=" data-srcset-desktop=" nvidia-app-gpu-control-center-text-left-bm-l580-d.jpg,"="" nvidia-app-gpu-control-center-text-left-bm-l580-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="NVIDIA GPU Control Center" title="NVIDIA GPU Control Center" id="image-container-4b81a78f82" onload="window.initLazyLoadingImages('container-4b81a78f82');">
                 
@@ -7989,10 +7989,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-c-bottom p-image-center p-image-c-bottom   t-image-fit-cover p-image-fit-cover  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-shadowplay-bm-af360-p.jpg,"="" nvidia-app-shadowplay-bm-af360-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-shadowplay-bm-af440-t.jpg," nvidia-app-shadowplay-bm-af440-t@2x.jpg=" data-srcset-laptop=" nvidia-app-shadowplay-text-left-bm-l580-l.jpg,"="" nvidia-app-shadowplay-text-left-bm-l580-l@2x.jpg=" data-srcset-desktop=" nvidia-app-shadowplay-text-left-bm-l580-d.jpg,"="" nvidia-app-shadowplay-text-left-bm-l580-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Record and Capture Your Greatest Gaming Moments" title="Record and Capture Your Greatest Gaming Moments" id="image-shadowplay" onload="window.initLazyLoadingImages('shadowplay');">
                 
@@ -8214,10 +8214,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-c-bottom p-image-center p-image-c-bottom   t-image-fit-cover p-image-fit-cover  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" nvidia-app-overlay-bm-af360-p.jpg,"="" nvidia-app-overlay-bm-af360-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/nvidia-app-overlay-bm-af440-t.jpg," nvidia-app-overlay-bm-af440-t@2x.jpg=" data-srcset-laptop=" nvidia-app-overlay-text-right-bm-l580-l.jpg,"="" nvidia-app-overlay-text-right-bm-l580-l@2x.jpg=" data-srcset-desktop=" nvidia-app-overlay-text-right-bm-l580-d.jpg,"="" nvidia-app-overlay-text-right-bm-l580-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="NVIDIA Reflex Analyzer" title="NVIDIA Reflex Analyzer" id="image-Overlay" onload="window.initLazyLoadingImages('Overlay');">
                 
@@ -10604,11 +10604,11 @@ height: auto !important;
 		            			</li>
 							
 								<li>
-		                			<a href="https://investor.nvidia.com/home/default.aspx" target="_blank">Investors</a>
+		                			<a href="/" target="_blank">Investors</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://www.nventures.ai" target="_self">Venture Capital (NVentures)</a>
+		                			<a href="/" target="_self">Venture Capital (NVentures)</a>
 		            			</li>
 							
 								<li>
@@ -10638,15 +10638,15 @@ height: auto !important;
 		                <ul class="page-footer-link-set__links">
 		                	
 								<li>
-		                			<a href="https://nvidianews.nvidia.com/" target="_blank">Newsroom</a>
+		                			<a href="/" target="_blank">Newsroom</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://blogs.nvidia.com/" target="_blank">Company Blog</a>
+		                			<a href="/blog/blog/" target="_blank">Company Blog</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://developer.nvidia.com/blog/" target="_blank">Technical Blog</a>
+		                			<a href="./assets/developer.nvidia.com/blog/" target="_blank">Technical Blog</a>
 		            			</li>
 							
 								<li>
@@ -10676,7 +10676,7 @@ height: auto !important;
 		                <ul class="page-footer-link-set__links">
 		                	
 								<li>
-		                			<a href="https://developer.nvidia.com/" target="_blank">Developers</a>
+		                			<a href="./assets/developer.nvidia.com/" target="_blank">Developers</a>
 		            			</li>
 							
 								<li>
@@ -10696,7 +10696,7 @@ height: auto !important;
 		            			</li>
 							
 								<li>
-		                			<a href="https://docs.nvidia.com/" target="_blank">Documentation</a>
+		                			<a href="/" target="_blank">Documentation</a>
 		            			</li>
 							
 								<li>
@@ -10726,17 +10726,17 @@ height: auto !important;
 	        		
 					
 					
-	        			<a href="https://www.facebook.com/NVIDIA" class="page-footer__social__link facebook" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" facebook"="">" title="<util:i18n key="Follow GeForce on Facebook">"&gt;
+	        			<a href="/" class="page-footer__social__link facebook" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" facebook"="">" title="<util:i18n key="Follow GeForce on Facebook">"&gt;
 			               <i class="fa-brands fa-facebook-f" title="Facebook"></i>
 			            </util:i18n></a>
 	        		
 	        		
-			            <a href="https://www.instagram.com/nvidia/?hl=en" class="page-footer__social__link" target="_blank">
+			            <a href="/?hl=en" class="page-footer__social__link" target="_blank">
 	                         <i class="fa-brands fa-instagram" title="Instagram"></i>
 						</a>
 					
                     
-			            <a href="https://www.linkedin.com/company/nvidia/" class="page-footer__social__link" target="_blank">
+			            <a href="/" class="page-footer__social__link" target="_blank">
 							<i class="fa-brands fa-linkedin-in" title="LinkedIn"></i>
 						</a>
 					
@@ -10744,7 +10744,7 @@ height: auto !important;
                     
                     
 	        		
-	        			<a href="https://twitter.com/nvidia" class="page-footer__social__link" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" twitter"="">" title="<util:i18n key="Follow GeForce on Twitter">"&gt;
+	        			<a href="/" class="page-footer__social__link" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" twitter"="">" title="<util:i18n key="Follow GeForce on Twitter">"&gt;
 			               <i class="fa-brands fa-x-twitter" title="Twitter"></i>
 			            </util:i18n></a>
 	        		
@@ -10755,7 +10755,7 @@ height: auto !important;
 						
 					
 					
-			            <a href="https://www.youtube.com/user/nvidia" class="page-footer__social__link" target="_blank">
+			            <a href="./assets/www.youtube.com/user/nvidia" class="page-footer__social__link" target="_blank">
 							<i class="fa-brands fa-youtube" title="YouTube"></i>
 						</a>
 										
@@ -10953,7 +10953,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -10991,7 +10991,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/software/nvidia-app/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/software/nvidia-app/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/software/nvidia-app/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/software/nvidia-app/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/software/nvidia-app/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/software/nvidia-app/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/software/nvidia-app/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/software/nvidia-app/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/software/nvidia-app/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/software/nvidia-app/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/software/nvidia-app/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/software/nvidia-app/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/software/nvidia-app/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/software/nvidia-app/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/software/nvidia-app/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/software/nvidia-app/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/software/nvidia-app/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/software/nvidia-app/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/software/nvidia-app/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/software/nvidia-app/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/software/nvidia-app/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/software/nvidia-app/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/software/nvidia-app/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/software/nvidia-app/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/software/nvidia-app/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/software/nvidia-app/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/software/nvidia-app/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/software/nvidia-app/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/software/nvidia-app/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/software/nvidia-app/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/software/nvidia-app/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/nvidia-app/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/software/nvidia-app/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/software/nvidia-app/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/software/nvidia-app/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/software/nvidia-app/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/software/nvidia-app/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/software/nvidia-app/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/software/nvidia-app/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/software/nvidia-app/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/software/nvidia-app/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/software/nvidia-app/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/software/nvidia-app/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/software/nvidia-app/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/software/nvidia-app/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/software/nvidia-app/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/software/nvidia-app/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/software/nvidia-app/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/software/nvidia-app/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/software/nvidia-app/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/software/nvidia-app/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/software/nvidia-app/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/software/nvidia-app/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/software/nvidia-app/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/software/nvidia-app/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/software/nvidia-app/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/software/nvidia-app/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/software/nvidia-app/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js" "=""></script>

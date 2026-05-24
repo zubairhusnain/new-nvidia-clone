@@ -1179,8 +1179,8 @@
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1197,7 +1197,7 @@
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -1235,12 +1235,12 @@
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-center  p-img-fit  ">
             
             <picture data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-riva-bm-af-bottom-p.jpg," content=" dam=" en-zz=" solutions=" ai-homepage=" conversational-ai=" speech-ai-riva-bm-af-bottom-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-riva-bm-lg440-offset-t.jpg," speech-ai-riva-bm-lg440-offset-t@2x.jpg=" data-srcset-laptop=" ..="" assets="" www.nvidia.com="" dam="" solutions="" conversational-ai="" speech-ai-riva-bm-lg580-offset-left-l.jpg,"="" speech-ai-riva-bm-lg580-offset-left-l@2x.jpg=" data-srcset-desktop=" speech-ai-riva-bm-lg580-offset-left-d.jpg,"="" speech-ai-riva-bm-lg580-offset-left-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-af-bottom-p.jpg,"="" speech-ai-riva-bm-af-bottom-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-lg440-offset-t.jpg,"="" speech-ai-riva-bm-lg440-offset-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-lg580-offset-left-l.jpg,"="" speech-ai-riva-bm-lg580-offset-left-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-lg580-offset-left-d.jpg,"="" speech-ai-riva-bm-lg580-offset-left-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-af-bottom-p.jpg,"="" speech-ai-riva-bm-af-bottom-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-lg440-offset-t.jpg,"="" speech-ai-riva-bm-lg440-offset-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-lg580-offset-left-l.jpg,"="" speech-ai-riva-bm-lg580-offset-left-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-homepage="" conversational-ai="" speech-ai-riva-bm-lg580-offset-left-d.jpg,"="" speech-ai-riva-bm-lg580-offset-left-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
                 
-                	<img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-riva-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-bm-uf" onload="window.initLazyLoadingImages('bm-uf');" srcset=" /content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-riva-bm-lg580-offset-left-d@2x.jpg 2x">
+                	<img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-riva-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-bm-uf" onload="window.initLazyLoadingImages('bm-uf');" srcset="/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-riva-bm-lg580-offset-left-d@2x.jpg 2x">
                 
                 
             </picture>
@@ -1353,7 +1353,7 @@
     <div id="text-ctas" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/blog/tag/speech-ai/?ncid=no-ncid" target="_blank">Read Speech AI Blog</a> &nbsp; | &nbsp; &nbsp; <a href="https://build.nvidia.com/explore/speech?ncid=no-ncid" target="_blank">Try Now</a>&nbsp; &nbsp; |&nbsp; &nbsp; <a href="https://docs.nvidia.com/deeplearning/riva/user-guide/docs/index.html?ncid=no-ncid" target="_blank">For Developers</a></p>
+                	<p><a href="./assets/developer.nvidia.com/blog/tag/speech-ai/?ncid=no-ncid" target="_blank">Read Speech AI Blog</a> &nbsp; | &nbsp; &nbsp; <a href="/?ncid=no-ncid" target="_blank">Try Now</a>&nbsp; &nbsp; |&nbsp; &nbsp; <a href="/?ncid=no-ncid" target="_blank">For Developers</a></p>
                 </div>
 			</div>
 	</div>
@@ -1845,7 +1845,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-bc477885c0-cta-1a723a2c91" rel="noopener noreferrer" href="https://build.nvidia.com/explore/speech?ncid=no-ncid">Try Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-bc477885c0-cta-1a723a2c91" rel="noopener noreferrer" href="/?ncid=no-ncid">Try Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -1890,7 +1890,7 @@
         
     <div class="cmp-teaser__description">
     	
-       		<p>Create customized voices for your agentic AI needs.<a href="https://build.nvidia.com/nvidia/magpie-tts-multilingual?ncid=no-ncid" target="_blank"> With the multilingual NVIDIA Riva Magpie Text-to-Speech (TTS) NIM </a>or the open source model <a href="https://huggingface.co/nvidia/magpie_tts_multilingual_357m" target="_blank">available on Hugging Face</a>, you can convert text into audio in natural-sounding male and female voices. Magpie can be customized with additional, brand-specific voices and is a great companion to the leaderboard-topping ASR models available also both as <a href="https://build.nvidia.com/explore/speech?ncid=no-ncid" target="_blank">NVIDIA NIM™</a> and in the <a href="https://huggingface.co/collections/nvidia/nemotron-speech" target="_blank">Hugging Face Nemotron Speech collection</a>.&nbsp;</p>
+       		<p>Create customized voices for your agentic AI needs.<a href="/?ncid=no-ncid" target="_blank"> With the multilingual NVIDIA Riva Magpie Text-to-Speech (TTS) NIM </a>or the open source model <a href="/" target="_blank">available on Hugging Face</a>, you can convert text into audio in natural-sounding male and female voices. Magpie can be customized with additional, brand-specific voices and is a great companion to the leaderboard-topping ASR models available also both as <a href="/?ncid=no-ncid" target="_blank">NVIDIA NIM™</a> and in the <a href="/" target="_blank">Hugging Face Nemotron Speech collection</a>.&nbsp;</p>
         
     </div>
 
@@ -1900,7 +1900,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-b462e0ca0c-cta-bfc5aef8a2" rel="noopener noreferrer" href="https://build.nvidia.com/explore/speech?ncid=no-ncid">Try Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-b462e0ca0c-cta-bfc5aef8a2" rel="noopener noreferrer" href="/?ncid=no-ncid">Try Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -2904,7 +2904,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-a5a1a86632-cta-388db4dde8" rel="noopener noreferrer" href="https://developer.nvidia.com/nemotron?ncid=no-ncid">Learn More About Nemotron
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-a5a1a86632-cta-388db4dde8" rel="noopener noreferrer" href="./assets/developer.nvidia.com/nemotron?ncid=no-ncid">Learn More About Nemotron
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -2978,7 +2978,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-716b914452-cta-6a17320182" rel="noopener noreferrer" href="https://developer.nvidia.com/riva?ncid=no-ncid">Learn More About Riva
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-716b914452-cta-6a17320182" rel="noopener noreferrer" href="./assets/developer.nvidia.com/riva?ncid=no-ncid">Learn More About Riva
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3114,7 +3114,7 @@
     <div class="cmp-teaser__description">
     	
        		<ul> 
- <li>Quickly get started with reference applications for generative AI use cases such as the <a href="https://build.nvidia.com/nvidia/nemotron-voice-agent?ncid=no-ncid" style="background-color: rgb(240,240,240);" target="_blank">Voice Agent developer example</a><span style="">, the </span><a href="https://build.nvidia.com/nvidia/ambient-healthcare-agents?ncid=no-ncid" style="background-color: rgb(240,240,240);" target="_blank">Ambient Healthcare Agents </a><span style="">blueprint, or the </span><a href="https://build.nvidia.com/nvidia/video-search-and-summarization/blueprintcard?ncid=no-ncid" style="background-color: rgb(240,240,240);" target="_blank">Video Search and Summarization (VSS) blueprint</a><span style="">.</span></li> 
+ <li>Quickly get started with reference applications for generative AI use cases such as the <a href="/?ncid=no-ncid" style="background-color: rgb(240,240,240);" target="_blank">Voice Agent developer example</a><span style="">, the </span><a href="/?ncid=no-ncid" style="background-color: rgb(240,240,240);" target="_blank">Ambient Healthcare Agents </a><span style="">blueprint, or the </span><a href="/?ncid=no-ncid" style="background-color: rgb(240,240,240);" target="_blank">Video Search and Summarization (VSS) blueprint</a><span style="">.</span></li> 
  <li>Blueprints include reference code, customization documentation, and a Helm chart for deployment.</li> 
 </ul>
         
@@ -3479,7 +3479,7 @@
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--4">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-9f8dbeaa4d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/ambient-healthcare-agents?ncid=no-ncid">
+  <a id="nv-button-9f8dbeaa4d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -3682,7 +3682,7 @@
     <div id="nv-text-0bedd1be59" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Businesses are deploying AI virtual assistants to efficiently address the queries of millions of customers and employees around the clock. Powered by customized NVIDIA Nemotron models including <a href="https://developer.nvidia.com/nemotron?ncid=pa-srch-goog-599191&amp;_bt=797127771541&amp;_bk=nvidia%20llms&amp;_bm=p&amp;_bn=g&amp;_bg=194751055082&amp;gad_source=1&amp;gad_campaignid=23551395576&amp;gbraid=0AAAAAD4XAoHZfzk4lcXDqU7fMYGt8iWZi&amp;gclid=Cj0KCQiAhtvMBhDBARIsAL26pjFUGTO3t8dowp0nsDasl_rjwd35AdmcMat-5RiidTRPi4X_YRTOfloaAnlsEALw_wcB&amp;ncid=no-ncid" target="_blank">LLMs,</a> <a href="https://build.nvidia.com/explore/retrieval?ncid=no-ncid" target="_blank">RAG,</a> and <a href="https://build.nvidia.com/explore/speech?ncid=no-ncid" target="_blank">speech AI,</a> these AI teammates deliver immediate and natural-sounding responses, even in the presence of background noise, poor sound quality, and diverse dialects and accents.</p>
+                	<p>Businesses are deploying AI virtual assistants to efficiently address the queries of millions of customers and employees around the clock. Powered by customized NVIDIA Nemotron models including <a href="./assets/developer.nvidia.com/nemotron?ncid=pa-srch-goog-599191&amp;_bt=797127771541&amp;_bk=nvidia%20llms&amp;_bm=p&amp;_bn=g&amp;_bg=194751055082&amp;gad_source=1&amp;gad_campaignid=23551395576&amp;gbraid=0AAAAAD4XAoHZfzk4lcXDqU7fMYGt8iWZi&amp;gclid=Cj0KCQiAhtvMBhDBARIsAL26pjFUGTO3t8dowp0nsDasl_rjwd35AdmcMat-5RiidTRPi4X_YRTOfloaAnlsEALw_wcB&amp;ncid=no-ncid" target="_blank">LLMs,</a> <a href="/?ncid=no-ncid" target="_blank">RAG,</a> and <a href="/?ncid=no-ncid" target="_blank">speech AI,</a> these AI teammates deliver immediate and natural-sounding responses, even in the presence of background noise, poor sound quality, and diverse dialects and accents.</p>
                 </div>
 			</div>
 	</div>
@@ -3706,7 +3706,7 @@
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--4">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-280616f921" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/ai-virtual-assistant-for-customer-service?ncid=no-ncid">
+  <a id="nv-button-280616f921" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -3909,7 +3909,7 @@
     <div id="nv-text-1e43731b45" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Consumers expect contact center agents to resolve their issues quickly and efficiently. To help human agents deliver the best possible experiences, enterprises across diverse industries are deploying agent assist technology powered by NVIDIA Nemotron models for <a href="https://developer.nvidia.com/nemotron?ncid=pa-srch-goog-599191&amp;_bt=797127771541&amp;_bk=nvidia%20llms&amp;_bm=p&amp;_bn=g&amp;_bg=194751055082&amp;gad_source=1&amp;gad_campaignid=23551395576&amp;gbraid=0AAAAAD4XAoHZfzk4lcXDqU7fMYGt8iWZi&amp;gclid=Cj0KCQiAhtvMBhDBARIsAL26pjFUGTO3t8dowp0nsDasl_rjwd35AdmcMat-5RiidTRPi4X_YRTOfloaAnlsEALw_wcB&amp;ncid=no-ncid" target="_blank">LLMs,</a> <a href="https://build.nvidia.com/explore/retrieval?ncid=no-ncid" target="_blank">RAG,</a> and <a href="https://build.nvidia.com/explore/speech?ncid=no-ncid" target="_blank">speech AI</a>. This technology provides real-time facts and suggestions, helping agents respond more effectively and efficiently. The RAG Blueprint can enhance generative AI applications with quick information retrieval, infusing AI agents with instant knowledge collected from massive volumes of data.</p>
+                	<p>Consumers expect contact center agents to resolve their issues quickly and efficiently. To help human agents deliver the best possible experiences, enterprises across diverse industries are deploying agent assist technology powered by NVIDIA Nemotron models for <a href="./assets/developer.nvidia.com/nemotron?ncid=pa-srch-goog-599191&amp;_bt=797127771541&amp;_bk=nvidia%20llms&amp;_bm=p&amp;_bn=g&amp;_bg=194751055082&amp;gad_source=1&amp;gad_campaignid=23551395576&amp;gbraid=0AAAAAD4XAoHZfzk4lcXDqU7fMYGt8iWZi&amp;gclid=Cj0KCQiAhtvMBhDBARIsAL26pjFUGTO3t8dowp0nsDasl_rjwd35AdmcMat-5RiidTRPi4X_YRTOfloaAnlsEALw_wcB&amp;ncid=no-ncid" target="_blank">LLMs,</a> <a href="/?ncid=no-ncid" target="_blank">RAG,</a> and <a href="/?ncid=no-ncid" target="_blank">speech AI</a>. This technology provides real-time facts and suggestions, helping agents respond more effectively and efficiently. The RAG Blueprint can enhance generative AI applications with quick information retrieval, infusing AI agents with instant knowledge collected from massive volumes of data.</p>
                 </div>
 			</div>
 	</div>
@@ -3920,7 +3920,7 @@
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--4">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-784413b15f" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-speech-ai-content/agent-assists?lx=h9TPm5&amp;ncid=no-ncid">
+  <a id="nv-button-784413b15f" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?lx=h9TPm5&amp;ncid=no-ncid">
     
     
 
@@ -3933,7 +3933,7 @@
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--4">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-029819d713" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/multimodal-pdf-data-extraction-for-enterprise-rag?ncid=no-ncid">
+  <a id="nv-button-029819d713" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -4147,7 +4147,7 @@
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--4">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-0a88727350" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-speech-ai-content/world-class-speech-ai-for-the-best-video-conferencing-experience?lx=h9TPm5&amp;ncid=no-ncid">
+  <a id="nv-button-0a88727350" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?lx=h9TPm5&amp;ncid=no-ncid">
     
     
 
@@ -4374,7 +4374,7 @@
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--4">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-86fd3f1f76" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.jetson-ai-lab.com/">
+  <a id="nv-button-86fd3f1f76" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -4975,7 +4975,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-b933c9c384-cta-4d632cb8a8" rel="noopener noreferrer" href="https://developer.nvidia.com/blog/spotlight-personal-ai-brings-ai-receptionists-to-small-business-owners-with-nvidia-riva/?ncid=no-ncid">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-b933c9c384-cta-4d632cb8a8" rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/spotlight-personal-ai-brings-ai-receptionists-to-small-business-owners-with-nvidia-riva/?ncid=no-ncid">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6572,7 +6572,7 @@
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-cda8333334" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/conversational-ai/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" conversational-ai"="" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;categories=Conversational+AI&amp;tags=NLP&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-techblogtags="NLP" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-cda8333334" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/conversational-ai/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" conversational-ai"="" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;categories=Conversational+AI&amp;tags=NLP&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-techblogtags="NLP" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -6761,8 +6761,8 @@
               searchInput: {},
               site: site,
               language: $('html').attr('lang'),
-              voltronApiUrl: 'https://api-prod.nvidia.com/services/nod/api/v1/',
-              apiUrl:'https://api-prod.nvidia.com/search/graphql',
+              voltronApiUrl: './assets/api-prod.nvidia.com/services/nod/api/v1/',
+              apiUrl:'./assets/api-prod.nvidia.com/search/graphql',
               playlistId: 'playList-b1889e8b-7f36-4d1f-a8cd-5b8c527b41d2',
               isFeatured: true,
               header: '',
@@ -6984,7 +6984,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-50c6b14f72-cta-eb8e2d02f9" rel="noopener noreferrer" href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-04+V2&amp;ncid=no-ncid">Enroll Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-50c6b14f72-cta-eb8e2d02f9" rel="noopener noreferrer" href="/?course_id=course-v1:DLI+S-FX-04+V2&amp;ncid=no-ncid">Enroll Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7055,7 +7055,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-6e21fe6253-cta-b56b393004" rel="noopener noreferrer" href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-06+V2&amp;ncid=no-ncid">View Workshop
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-6e21fe6253-cta-b56b393004" rel="noopener noreferrer" href="/?course_id=course-v1:DLI+C-FX-06+V2&amp;ncid=no-ncid">View Workshop
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7474,7 +7474,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-button  " target="_blank" id="teaser-961ead5b76-cta-d350f0094e" rel="noopener noreferrer" href="https://developer.nvidia.com/topics/ai/conversational-ai/?ncid=no-ncid">Get Started
+    <a class="cmp-teaser__action-link nv-teaser-button  " target="_blank" id="teaser-961ead5b76-cta-d350f0094e" rel="noopener noreferrer" href="./assets/developer.nvidia.com/topics/ai/conversational-ai/?ncid=no-ncid">Get Started
          
     </a>
 
@@ -7876,7 +7876,7 @@ setTimeout(function () {
     navigation.mount({ 
         footerElemID: 'nv-footer', 
         showBrandFooter: true, 
-        url: 'https://www.nvidia.com/bin/service/nvHeaderFooterSrvc/?locale=en_US&brand=ai-data-science', 
+        url: '/bin/service/nvHeaderFooterSrvc/?locale=en_US&brand=ai-data-science', 
         enableMegaMenu: false 
         });        
 }, 1000);
@@ -8128,11 +8128,11 @@ setTimeout(function () {
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -8279,7 +8279,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -8316,7 +8316,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/solutions/ai/conversational-ai/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/solutions/ai/conversational-ai/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/solutions/ai/conversational-ai/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/solutions/ai/conversational-ai/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/solutions/ai/conversational-ai/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/solutions/ai/conversational-ai/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/solutions/ai/conversational-ai/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/solutions/ai/conversational-ai/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/solutions/ai/conversational-ai/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/solutions/ai/conversational-ai/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/solutions/ai/conversational-ai/?ncid=no-ncid" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/solutions/ai/conversational-ai/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/solutions/ai/conversational-ai/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/solutions/ai/conversational-ai/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/solutions/ai/conversational-ai/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/solutions/ai/conversational-ai/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/solutions/ai/conversational-ai/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/solutions/ai/conversational-ai/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/ai/conversational-ai/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/solutions/ai/conversational-ai/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/solutions/ai/conversational-ai/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/solutions/ai/conversational-ai/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/solutions/ai/conversational-ai/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/solutions/ai/conversational-ai/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/solutions/ai/conversational-ai/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/solutions/ai/conversational-ai/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/solutions/ai/conversational-ai/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/?ncid=no-ncid" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/solutions/ai/conversational-ai/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/solutions/ai/conversational-ai/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/solutions/ai/conversational-ai/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/solutions/ai/conversational-ai/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/solutions/ai/conversational-ai/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
@@ -8494,7 +8494,7 @@ window.addEventListener('load', () => {
     
 
 <script>
-!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
+!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="/",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
 </script><script>
 try {
   

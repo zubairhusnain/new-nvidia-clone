@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -112,7 +112,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/software/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/software/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/software/">
 
@@ -180,12 +180,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -1322,7 +1322,7 @@ var nvidiaGDClog = function() {
           <div class="geo-locator-cta">
               <div class="nv-button button nv-button-small nv-no-left-padding nv-no-right-padding nv-no-top-padding nv-no-bottom-padding">
                   <div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
-                      <a class="btn-content btncta" rel="noopener noreferrer" href="https://www.nvidia.com">
+                      <a class="btn-content btncta" rel="noopener noreferrer" href="/">
                           <span class="btn-text">Continue</span>
                       </a>
                   </div>
@@ -1760,7 +1760,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -1771,7 +1771,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2437,7 +2437,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/blueprints" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2503,7 +2503,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/rapids/" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/rapids/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2602,7 +2602,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/isaac/ros" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/isaac/ros" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2613,7 +2613,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/aerial" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/aerial" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2654,7 +2654,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/explore/discover" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2676,7 +2676,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/dcgm" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/dcgm" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2687,7 +2687,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/tools-overview" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/tools-overview" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -2698,7 +2698,7 @@ var nvidiaGDClog = function() {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://catalog.ngc.nvidia.com/" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -3648,7 +3648,7 @@ var nvidiaGDClog = function() {
 
 	<ul class="nv-menu-list right" aria-label="menu" role="menu">
 		
-			<li class="nv-menu-item" role="none"><a href="https://marketplace.nvidia.com/en-us/" class="menu-button-link menu-level-1" role="menuitem" target="_blank">Shop</a>
+			<li class="nv-menu-item" role="none"><a href="/" class="menu-button-link menu-level-1" role="menuitem" target="_blank">Shop</a>
 			</li>
 		
 			<li class="nv-menu-item" role="none"><a href="/drivers/" class="menu-button-link menu-level-1" role="menuitem" target="_self">Drivers</a>
@@ -3964,7 +3964,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">NVIDIA APIs</span>
@@ -3974,7 +3974,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Private Registry</span>
@@ -4622,7 +4622,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/blueprints" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">AI Blueprints</span>
@@ -4682,7 +4682,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/rapids/" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/rapids/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Data Science - RAPIDS</span>
@@ -4772,7 +4772,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/isaac/ros" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/isaac/ros" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Robotics - Isaac</span>
@@ -4782,7 +4782,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/aerial" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/aerial" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Telecommunications - Aerial</span>
@@ -4824,7 +4824,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/explore/discover" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">API Catalog</span>
@@ -4844,7 +4844,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/dcgm" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/dcgm" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">GPU Monitoring</span>
@@ -4854,7 +4854,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/tools-overview" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/tools-overview" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Nsight</span>
@@ -4864,7 +4864,7 @@ var nvidiaGDClog = function() {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://catalog.ngc.nvidia.com/" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">NGC Catalog</span>
@@ -5656,7 +5656,7 @@ var nvidiaGDClog = function() {
 								<ul aria-label="menu" role="menu">
 									
 										<li class="menu-level-1" role="none">
-											<a href="https://marketplace.nvidia.com/en-us/" class="mm-btn-link" role="menuitem" target="_blank">Shop</a>
+											<a href="/" class="mm-btn-link" role="menuitem" target="_blank">Shop</a>
 										</li>
 									
 										<li class="menu-level-1" role="none">
@@ -5791,8 +5791,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -5815,7 +5815,7 @@ var nvidiaGDClog = function() {
 	</header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -6049,7 +6049,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-77695110cf" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="/ai/dynamo/">AI Inference - Dynamo</a><br> <a href="/ai-data-science/products/nemo/get-started/">Large Language Models - NeMo Framework</a><br> <a href="/ai-data-science/products/riva/get-started/">Speech AI - Riva</a><br> <a href="https://developer.nvidia.com/ai-workbench-beta/" target="_blank">AI Workbench</a></p>
+                	<p><a href="/ai/dynamo/">AI Inference - Dynamo</a><br> <a href="/ai-data-science/products/nemo/get-started/">Large Language Models - NeMo Framework</a><br> <a href="/ai-data-science/products/riva/get-started/">Speech AI - Riva</a><br> <a href="./assets/developer.nvidia.com/ai-workbench-beta/" target="_blank">AI Workbench</a></p>
                 </div>
 			</div>
 	</div>
@@ -6415,7 +6415,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-5417a81b97" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://catalog.ngc.nvidia.com/" target="_blank">NGC Catalog</a><br> <a href="/omniverse/cloud/">Omniverse</a><br> <a href="/gpu-cloud/nemo-llm-service/">NeMo</a><br> <a href="/clara/bionemo/">BioNeMo</a><br> <a href="https://docs.nvidia.com/base-command-manager/index.html" target="_blank">Base Command Manager</a><br> <a href="/data-center/products/fleet-command/">Fleet Command</a></p>
+                	<p><a href="/" target="_blank">NGC Catalog</a><br> <a href="/omniverse/cloud/">Omniverse</a><br> <a href="/gpu-cloud/nemo-llm-service/">NeMo</a><br> <a href="/clara/bionemo/">BioNeMo</a><br> <a href="/" target="_blank">Base Command Manager</a><br> <a href="/data-center/products/fleet-command/">Fleet Command</a></p>
                 </div>
 			</div>
 	</div>
@@ -6694,7 +6694,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-18a2a60118" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/downloads" target="_blank">Developer Download Center</a><br> <a href="https://developer.nvidia.com/tools-overview" target="_blank">Developer Tools Overview</a><br> <a href="https://developer.nvidia.com/nvidia-texture-tools-exporter" target="_blank">Texture Tools Exporter</a><br> <a href="https://developer.nvidia.com/MAXINE" target="_blank">Cloud-AI Video Streaming - Maxine</a><br> <a href="https://developer.nvidia.com/culitho" target="_blank">Computational Lithography - cuLitho</a><br> </p>
+                	<p><a href="./assets/developer.nvidia.com/downloads" target="_blank">Developer Download Center</a><br> <a href="./assets/developer.nvidia.com/tools-overview" target="_blank">Developer Tools Overview</a><br> <a href="./assets/developer.nvidia.com/nvidia-texture-tools-exporter" target="_blank">Texture Tools Exporter</a><br> <a href="./assets/developer.nvidia.com/MAXINE" target="_blank">Cloud-AI Video Streaming - Maxine</a><br> <a href="./assets/developer.nvidia.com/culitho" target="_blank">Computational Lithography - cuLitho</a><br> </p>
                 </div>
 			</div>
 	</div>
@@ -6708,7 +6708,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-d902e53d30" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/morpheus-cybersecurity" target="_blank">Cybersecurity - Morpheus</a><br> <a href="https://developer.nvidia.com/hpc-sdk" target="_blank">High-Performance Computing</a><br> <a href="https://developer.nvidia.com/nvidia-omniverse-platform" target="_blank">Metaverse Applications - Omniverse</a><br> <a href="https://developer.nvidia.com/nvidia-merlin" target="_blank">Recommender Systems - Merlin</a><br> <a href="https://developer.nvidia.com/isaac-ros" target="_blank">Robotics - Isaac</a></p>
+                	<p><a href="./assets/developer.nvidia.com/morpheus-cybersecurity" target="_blank">Cybersecurity - Morpheus</a><br> <a href="./assets/developer.nvidia.com/hpc-sdk" target="_blank">High-Performance Computing</a><br> <a href="./assets/developer.nvidia.com/nvidia-omniverse-platform" target="_blank">Metaverse Applications - Omniverse</a><br> <a href="./assets/developer.nvidia.com/nvidia-merlin" target="_blank">Recommender Systems - Merlin</a><br> <a href="./assets/developer.nvidia.com/isaac-ros" target="_blank">Robotics - Isaac</a></p>
                 </div>
 			</div>
 	</div>
@@ -6722,7 +6722,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-892de995dc" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/dcgm" target="_blank">GPU Monitoring</a><br> <a href="https://developer.nvidia.com/aerial-sdk" target="_blank">Telecommunications - Aerial</a><br> <a href="https://developer.nvidia.com/flare" target="_blank">NVIDIA Flare (Federated Learning)</a><br> <a href="https://rapids.ai" target="_blank">Data Analytics / RAPIDS AI</a></p>
+                	<p><a href="./assets/developer.nvidia.com/dcgm" target="_blank">GPU Monitoring</a><br> <a href="./assets/developer.nvidia.com/aerial-sdk" target="_blank">Telecommunications - Aerial</a><br> <a href="./assets/developer.nvidia.com/flare" target="_blank">NVIDIA Flare (Federated Learning)</a><br> <a href="/" target="_blank">Data Analytics / RAPIDS AI</a></p>
                 </div>
 			</div>
 	</div>
@@ -7405,7 +7405,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-415cd8408a" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://github.com/NVIDIA-AI-IOT" target="_blank">NVIDIA AI IOT</a><br> <a href="https://github.com/NVIDIA/bionemo-framework" target="_blank">NVIDIA BioNeMo Framework</a><br> <a href="https://github.com/NVIDIAGameWorks" target="_blank">NVIDIA GameWorks</a><br> <a href="https://github.com/NVIDIA-Merlin/Merlin" target="_blank">NVIDIA Merlin</a><br> <a href="https://github.com/NVIDIA/NeMo" target="_blank">NVIDIA NeMo</a><br> <a href="https://github.com/NVIDIA-Omniverse" target="_blank">NVIDIA Omniverse</a><br> <a href="https://github.com/NVIDIA" target="_blank">NVIDIA on GitHub</a><br> <a href="https://github.com/NVlabs" target="_blank">NVIDIA Research</a></p>
+                	<p><a href="/" target="_blank">NVIDIA AI IOT</a><br> <a href="/" target="_blank">NVIDIA BioNeMo Framework</a><br> <a href="/" target="_blank">NVIDIA GameWorks</a><br> <a href="/" target="_blank">NVIDIA Merlin</a><br> <a href="/" target="_blank">NVIDIA NeMo</a><br> <a href="/" target="_blank">NVIDIA Omniverse</a><br> <a href="/" target="_blank">NVIDIA on GitHub</a><br> <a href="/" target="_blank">NVIDIA Research</a></p>
                 </div>
 			</div>
 	</div>
@@ -7835,7 +7835,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-b4d0f79b36" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="/clara/bionemo/">BioNeMo</a><br> <a href="https://catalog.ngc.nvidia.com/orgs/hpc/containers/gromacs" target="_blank">GROMACS</a><br> <a href="https://catalog.ngc.nvidia.com/orgs/hpc/containers/autodock" target="_blank">AUTODOC</a><br> <a href="https://catalog.ngc.nvidia.com/orgs/hpc/containers/relion" target="_blank">RELION</a><br> <a href="https://catalog.ngc.nvidia.com/orgs/hpc/containers/meld" target="_blank">MELD</a></p>
+                	<p><a href="/clara/bionemo/">BioNeMo</a><br> <a href="/" target="_blank">GROMACS</a><br> <a href="/" target="_blank">AUTODOC</a><br> <a href="/" target="_blank">RELION</a><br> <a href="/" target="_blank">MELD</a></p>
                 </div>
 			</div>
 	</div>
@@ -7942,7 +7942,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-ef4c253c94" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/holoscan-sdk" target="_blank">Holoscan SDK</a><br> <a href="https://catalog.ngc.nvidia.com/orgs/nvidia/teams/clara/containers/monai-toolkit" target="_blank">Monai Toolkit</a></p>
+                	<p><a href="./assets/developer.nvidia.com/holoscan-sdk" target="_blank">Holoscan SDK</a><br> <a href="/" target="_blank">Monai Toolkit</a></p>
                 </div>
 			</div>
 	</div>
@@ -8049,7 +8049,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-3c17904a0a" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://catalog.ngc.nvidia.com/orgs/nvidia/collections/claraparabricks" target="_blank">Parabricks</a></p>
+                	<p><a href="/" target="_blank">Parabricks</a></p>
                 </div>
 			</div>
 	</div>
@@ -8399,7 +8399,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-56b1ed406f" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="/data-center/products/ai-enterprise/">AI Enterprise Suite</a><br> <a href="https://developer.nvidia.com/egx-stack" target="_blank">Cloud Native Support</a><br> <a href="https://developer.nvidia.com/cluster-management" target="_blank">Cluster Management</a><br> <a href="/data-center/products/fleet-command/">Edge Deployment Management</a><br> <a href="/data-center/magnum-io/">IO Acceleration</a><br> <a href="/networking/products/software/">Networking</a><br> <a href="/data-center/virtual-solutions/">Virtual GPU</a></p>
+                	<p><a href="/data-center/products/ai-enterprise/">AI Enterprise Suite</a><br> <a href="./assets/developer.nvidia.com/egx-stack" target="_blank">Cloud Native Support</a><br> <a href="./assets/developer.nvidia.com/cluster-management" target="_blank">Cluster Management</a><br> <a href="/data-center/products/fleet-command/">Edge Deployment Management</a><br> <a href="/data-center/magnum-io/">IO Acceleration</a><br> <a href="/networking/products/software/">Networking</a><br> <a href="/data-center/virtual-solutions/">Virtual GPU</a></p>
                 </div>
 			</div>
 	</div>
@@ -8582,7 +8582,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-a979650164" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/networking/ethernet-software" target="_blank">Ethernet Software and Drivers</a><br> <a href="https://developer.nvidia.com/networking/infiniband-software" target="_blank">InfiniBand Software and Drivers</a><br> <a href="https://network.nvidia.com/support/firmware/firmware-downloads/" target="_blank">Firmware Downloads</a><br> <a href="/networking/products/software/">Networking Software</a></p>
+                	<p><a href="./assets/developer.nvidia.com/networking/ethernet-software" target="_blank">Ethernet Software and Drivers</a><br> <a href="./assets/developer.nvidia.com/networking/infiniband-software" target="_blank">InfiniBand Software and Drivers</a><br> <a href="/" target="_blank">Firmware Downloads</a><br> <a href="/networking/products/software/">Networking Software</a></p>
                 </div>
 			</div>
 	</div>
@@ -8765,7 +8765,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-c84b503ed6" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://developer.nvidia.com/drive/downloads" target="_blank">NVIDIA DRIVE Downloads</a><br> <a href="https://developer.nvidia.com/drive/os" target="_blank">NVIDIA DRIVE OS</a></p>
+                	<p><a href="./assets/developer.nvidia.com/drive/downloads" target="_blank">NVIDIA DRIVE Downloads</a><br> <a href="./assets/developer.nvidia.com/drive/os" target="_blank">NVIDIA DRIVE OS</a></p>
                 </div>
 			</div>
 	</div>
@@ -8965,11 +8965,11 @@ var nvidiaGDClog = function() {
 		            			</li>
 							
 								<li>
-		                			<a href="https://investor.nvidia.com/home/default.aspx" target="_blank">Investors</a>
+		                			<a href="/" target="_blank">Investors</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://www.nventures.ai" target="_self">Venture Capital (NVentures)</a>
+		                			<a href="/" target="_self">Venture Capital (NVentures)</a>
 		            			</li>
 							
 								<li>
@@ -8999,15 +8999,15 @@ var nvidiaGDClog = function() {
 		                <ul class="page-footer-link-set__links">
 		                	
 								<li>
-		                			<a href="https://nvidianews.nvidia.com/" target="_blank">Newsroom</a>
+		                			<a href="/" target="_blank">Newsroom</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://blogs.nvidia.com/" target="_blank">Company Blog</a>
+		                			<a href="/blog/blog/" target="_blank">Company Blog</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://developer.nvidia.com/blog/" target="_blank">Technical Blog</a>
+		                			<a href="./assets/developer.nvidia.com/blog/" target="_blank">Technical Blog</a>
 		            			</li>
 							
 								<li>
@@ -9037,7 +9037,7 @@ var nvidiaGDClog = function() {
 		                <ul class="page-footer-link-set__links">
 		                	
 								<li>
-		                			<a href="https://developer.nvidia.com/" target="_blank">Developers</a>
+		                			<a href="./assets/developer.nvidia.com/" target="_blank">Developers</a>
 		            			</li>
 							
 								<li>
@@ -9057,7 +9057,7 @@ var nvidiaGDClog = function() {
 		            			</li>
 							
 								<li>
-		                			<a href="https://docs.nvidia.com/" target="_blank">Documentation</a>
+		                			<a href="/" target="_blank">Documentation</a>
 		            			</li>
 							
 								<li>
@@ -9087,17 +9087,17 @@ var nvidiaGDClog = function() {
 	        		
 					
 					
-	        			<a href="https://www.facebook.com/NVIDIA" class="page-footer__social__link facebook" target="_blank" alt="<util:I18n key="Follow GeForce on Facebook" />" title="<util:I18n key="Follow GeForce on Facebook" />">
+	        			<a href="/" class="page-footer__social__link facebook" target="_blank" alt="<util:I18n key="Follow GeForce on Facebook" />" title="<util:I18n key="Follow GeForce on Facebook" />">
 			               <i class="fa-brands fa-facebook-f" title="Facebook"></i>
 			            </a>
 	        		
 	        		
-			            <a href="https://www.instagram.com/nvidia/?hl=en" class="page-footer__social__link" target="_blank">
+			            <a href="/?hl=en" class="page-footer__social__link" target="_blank">
 	                         <i class="fa-brands fa-instagram" title="Instagram"></i>
 						</a>
 					
                     
-			            <a href="https://www.linkedin.com/company/nvidia/" class="page-footer__social__link" target="_blank">
+			            <a href="/" class="page-footer__social__link" target="_blank">
 							<i class="fa-brands fa-linkedin-in" title="LinkedIn"></i>
 						</a>
 					
@@ -9105,7 +9105,7 @@ var nvidiaGDClog = function() {
                     
                     
 	        		
-	        			<a href="https://twitter.com/nvidia" class="page-footer__social__link" target="_blank" alt="<util:I18n key="Follow GeForce on Twitter" />" title="<util:I18n key="Follow GeForce on Twitter" />">
+	        			<a href="/" class="page-footer__social__link" target="_blank" alt="<util:I18n key="Follow GeForce on Twitter" />" title="<util:I18n key="Follow GeForce on Twitter" />">
 			               <i class="fa-brands fa-x-twitter" title="Twitter"></i>
 			            </a>
 	        		
@@ -9116,7 +9116,7 @@ var nvidiaGDClog = function() {
 						
 					
 					
-			            <a href="https://www.youtube.com/user/nvidia" class="page-footer__social__link" target="_blank">
+			            <a href="./assets/www.youtube.com/user/nvidia" class="page-footer__social__link" target="_blank">
 							<i class="fa-brands fa-youtube" title="YouTube"></i>
 						</a>
 										
@@ -9314,7 +9314,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -9352,7 +9352,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/software/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/software/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/software/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/software/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/software/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/software/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/software/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/software/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/software/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/software/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/software/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/software/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/software/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/software/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/software/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/software/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/software/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/software/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/software/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/software/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/software/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/software/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/software/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/software/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/software/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/software/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/software/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/software/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/software/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/software/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/software/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/software/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/software/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/software/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js""></script>

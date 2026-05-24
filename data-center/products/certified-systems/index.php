@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -112,7 +112,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/data-center/products/certified-systems/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/data-center/products/certified-systems/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/data-center/products/certified-systems/">
 
@@ -180,12 +180,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -2002,8 +2002,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2022,7 +2022,7 @@ var nvidiaGDClog = function() {
  
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2060,10 +2060,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-center    ">
             
             <picture data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-offset-bm-af-bottom-phone.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-offset-bm-af-bottom-phone@2x.jpg 2x" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-tablet.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-tablet@2x.jpg 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-laptop.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-laptop@2x.jpg 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-desktop.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-desktop@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-offset-bm-af-bottom-phone.jpg,="" certified-systems-offset-bm-af-bottom-phone@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-md-offset-tablet.jpg,="" certified-systems-md-offset-tablet@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-md-offset-laptop.jpg,="" certified-systems-md-offset-laptop@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-md-offset-desktop.jpg,="" certified-systems-md-offset-desktop@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-offset-bm-af-bottom-phone.jpg,="" certified-systems-offset-bm-af-bottom-phone@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-md-offset-tablet.jpg,="" certified-systems-md-offset-tablet@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-md-offset-laptop.jpg,="" certified-systems-md-offset-laptop@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" certified-systems="" certified-systems-md-offset-desktop.jpg,="" certified-systems-md-offset-desktop@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                 	<img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-desktop.jpg" alt="NVIDIA Certified Systems" title="NVIDIA Certified Systems" id="image-bm-uf" onload="window.initLazyLoadingImages('bm-uf');" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/certified-systems/certified-systems-md-offset-desktop@2x.jpg 2x">
                 
@@ -5180,7 +5180,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-small aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-d0b56a1061" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://resources.nvidia.com/c/collection-9563de54?x=sTI8RF">
+  <a id="nv-button-d0b56a1061" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?x=sTI8RF">
     
     
 
@@ -9981,7 +9981,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-a5903f15a7" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://marketplace.nvidia.com/en-us/enterprise/qualified-system-catalog/?start=0&amp;count=10&amp;pageNumber=1&amp;filters=eyJmaWx0ZXJzIjpbXSwic3ViRmlsdGVycyI6eyJ2YWxpZGF0aW9uVHlwZSI6WyJOVklESUEtQ2VydGlmaWVkIl19LCJjZXJ0aWZpZWRGaWx0ZXJzIjp7fSwicGF5bG9hZCI6W119">
+  <a id="nv-button-a5903f15a7" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?start=0&amp;count=10&amp;pageNumber=1&amp;filters=eyJmaWx0ZXJzIjpbXSwic3ViRmlsdGVycyI6eyJ2YWxpZGF0aW9uVHlwZSI6WyJOVklESUEtQ2VydGlmaWVkIl19LCJjZXJ0aWZpZWRGaWx0ZXJzIjp7fSwicGF5bG9hZCI6W119">
     
     
 
@@ -10139,7 +10139,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-cfbc523b43" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>To see what’s available, please visit the <a href="/data-center/data-center-gpus/qualified-system-catalog/">Qualified System Catalog</a> page and filter the list for any of the NVIDIA-Certified System categories. View the <a href="https://docs.nvidia.com/ngc/ngc-deploy-on-premises/nvidia-certified-systems/index.html" target="_blank">NVIDIA-Certified Systems documentation</a> for additional information.</p>
+                	<p>To see what’s available, please visit the <a href="/data-center/data-center-gpus/qualified-system-catalog/">Qualified System Catalog</a> page and filter the list for any of the NVIDIA-Certified System categories. View the <a href="/" target="_blank">NVIDIA-Certified Systems documentation</a> for additional information.</p>
                 </div>
 			</div>
 	</div>
@@ -10669,7 +10669,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:IPC@advantech.com.tw">IPC@advantech.com.tw</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.advantech.com/intelligent-systems/campaign/industrial-ai-iot-solution-nvidia" target="_blank">https://www.advantech.com/intelligent-systems/campaign/industrial-ai-iot-solution-nvidia</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">/</a></p>
                 </div>
 			</div>
 	</div>
@@ -10888,7 +10888,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:sales@altoscomputing.com">sales@altoscomputing.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.altoscomputing.com/en-US/products/server" target="_blank">altoscomputing.com</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">altoscomputing.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -11106,7 +11106,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:ASRockRack_sales@asrockrack.com">ASRockRack_sales@asrockrack.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.asrockrack.com" target="_blank">https://www.asrockrack.com</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">/</a></p>
                 </div>
 			</div>
 	</div>
@@ -11323,7 +11323,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:Server_info@asus.com">Server_info@asus.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.asus.com/Commercial-Servers-Workstations/ESC4000A-E10/" target="_blank">https://www.asus.com/Commercial-Servers-Workstations/ESC4000A-E10/</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">/</a></p>
                 </div>
 			</div>
 	</div>
@@ -11537,8 +11537,8 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Atos</h3> 
 <p>Atos, a global leader in high-performance and edge computing, delivers breakthrough technologies to help businesses harness the power of data faster, smarter, and greener.</p> 
-<p>Atos accompanies customers with an end-to-end approach, from cloud to edge. Atos has designed and delivered <a href="https://atos.net/en/solutions/high-performance-computing-hpc/dgx-superpod" target="_blank">Trusted SuperPOD</a> at a large scale to democratize AI applications. Its BullSequana Edge series runs Atos-patented solutions, best-in-class NVIDIA EGX ecosystem partner solutions, and provides managed services.</p> 
-<p>Explore Atos <a href="https://atos.net/en/solutions/high-performance-computing-hpc" target="_blank">High-Performance Computing</a> and <a href="https://atos.net/en/solutions/bullsequana-edge/edge-computing-for-retail" target="_blank">Edge Computing</a> offerings.</p>
+<p>Atos accompanies customers with an end-to-end approach, from cloud to edge. Atos has designed and delivered <a href="/" target="_blank">Trusted SuperPOD</a> at a large scale to democratize AI applications. Its BullSequana Edge series runs Atos-patented solutions, best-in-class NVIDIA EGX ecosystem partner solutions, and provides managed services.</p> 
+<p>Explore Atos <a href="/" target="_blank">High-Performance Computing</a> and <a href="/" target="_blank">Edge Computing</a> offerings.</p>
                 </div>
 			</div>
 	</div>
@@ -11752,7 +11752,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">BOXX</h3> 
 <p>BOXX is the leading innovator of high-performance workstation computers, rendering systems, and servers purpose-built for engineering, product design, architecture, media &amp; entertainment, data science, and more.</p> 
-<p>More information can be found at <a href="https://www.boxx.com/" target="_blank">boxx.com</a>.</p>
+<p>More information can be found at <a href="/" target="_blank">boxx.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -11968,7 +11968,7 @@ var nvidiaGDClog = function() {
 <p>The Cisco Unified Computing System (UCS) is a next-generation data center platform that unites compute, network, storage access, and virtualization into a cohesive system designed to reduce total cost of ownership (TCO) and increase business agility.</p> 
 <p>Enterprises need a scalable computing infrastructure that provides the performance, manageability, security, and scalability to deliver cutting-edge products and services, while increasing their operational efficiencies. Customers can use UCS systems that are NVIDIA-Certified Systems to enable enterprises to confidently deploy hardware solutions that securely and optimally run their modern accelerated workloads.</p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.cisco.com/site/us/en/products/computing/servers-unified-computing-systems/index.html" target="_blank">cisco.com/c/en/us/products/servers-unified-computing </a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">cisco.com/c/en/us/products/servers-unified-computing </a></p>
                 </div>
 			</div>
 	</div>
@@ -12182,7 +12182,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Dell Technologies</h3> 
 <p>Dell Technologies enables organizations to make big decisions and bold moves based on data-driven insights.</p> 
-<p>NVIDIA-Certified Dell EMC PowerEdge and Dell EMC VxRail systems simplify the configuration and deployment of AI-first infrastructure, enabling you to create new opportunities while reducing risk. Explore the list of <a href="/data-center/data-center-gpus/qualified-system-catalog/">NVIDIA-Certified Systems from Dell</a> and learn more about <a href="https://www.dell.com/en-us/shop/dell-poweredge-servers/sc/servers">Dell PowerEdge Server</a> and<a href="https://www.dell.com/en-us/dt/converged-infrastructure/vxrail/index.htm?gacd=9650523-1033-5761040-266691960-0&amp;dgc=st&amp;gclid=EAIaIQobChMI_7CR1Ijw8wIVpm1vBB3gJQ6MEAAYASAAEgJvqPD_BwE&amp;gclsrc=aw.ds&amp;nclid=e1SDhzvKKK84F4ed0wMeR2Z928WCUuIpeAtMngNZ-OWSs6ZFIWp_0E5EyEPcAQ08#tab0=0&amp;tab1=0"> VxRail</a> solutions.</p>
+<p>NVIDIA-Certified Dell EMC PowerEdge and Dell EMC VxRail systems simplify the configuration and deployment of AI-first infrastructure, enabling you to create new opportunities while reducing risk. Explore the list of <a href="/data-center/data-center-gpus/qualified-system-catalog/">NVIDIA-Certified Systems from Dell</a> and learn more about <a href="/">Dell PowerEdge Server</a> and<a href="/?gacd=9650523-1033-5761040-266691960-0&amp;dgc=st&amp;gclid=EAIaIQobChMI_7CR1Ijw8wIVpm1vBB3gJQ6MEAAYASAAEgJvqPD_BwE&amp;gclsrc=aw.ds&amp;nclid=e1SDhzvKKK84F4ed0wMeR2Z928WCUuIpeAtMngNZ-OWSs6ZFIWp_0E5EyEPcAQ08#tab0=0&amp;tab1=0"> VxRail</a> solutions.</p>
                 </div>
 			</div>
 	</div>
@@ -12397,7 +12397,7 @@ var nvidiaGDClog = function() {
                 	<h3 class="title text h--small">Fujitsu</h3> 
 <p>Fujitsu is a leading information and communications technology company that supports business through delivering robust and reliable IT systems. NVIDIA and Fujitsu continue to strengthen collaboration in HPC, AI, and VDI.</p> 
 <p>Fujitsu delivers AI solutions to customers with NVIDIA GPU computing and Fujitsu integration.</p> 
-<p>More information can be found at <a href="https://www.fujitsu.com/global/products/computing/servers/primergy/rack/rx2540m5/#specs" target="_blank">Fujitsu.com</a>.</p>
+<p>More information can be found at <a href="/#specs" target="_blank">Fujitsu.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -12614,7 +12614,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a>server.grp@gigabyte.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.gigabyte.com/Enterprise/G-Series?ncid=no-ncid" target="_blank">www.gigabyte.com/Enterprise/G-Series</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/?ncid=no-ncid" target="_blank">www.gigabyte.com/Enterprise/G-Series</a></p>
                 </div>
 			</div>
 	</div>
@@ -12829,7 +12829,7 @@ var nvidiaGDClog = function() {
                 	<h3 class="title text h--small">H3C</h3> 
 <p>H3C is an industry leader in the provision of digital solutions and is committed to becoming the most trusted partner of its customers in their quest for business innovation and digital transformation. We offer a full portfolio of digital infrastructure products, spanning across compute, storage, networking, 5G, security, and related domains and provide a comprehensive one-stop digital platform that includes cloud computing, big data, artificial intelligence, industrial internet, information security, intelligent connectivity, new safety, and edge computing, as well as end-to-end technical services. We’re also the exclusive provider of HPE servers, storage, and associated technical services in China.</p> 
 <p>H3C UniServer R5500 G5 GPU Server delivers unprecedented acceleration at every scale for AI, data analytics, and HPC. R5500 G5 features the world’s most advanced accelerator, the NVIDIA A100 Tensor Core GPU, which provides up to 20X higher performance over the prior generation. R5500 G5 can deliver up to 5 petaFLOPS of AI performance with the newest version of NVIDIA NVLink® and NVIDIA NVSwitch™ technologies. R5500 G5 supports up to dual AMD Rome/Milan or Intel Icelake CPUs and 4TB RAM.</p> 
-<p>More information can be found at <a href="https://www.h3c.com/" target="_blank">h3c.com</a>.</p>
+<p>More information can be found at <a href="/" target="_blank">h3c.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -13044,7 +13044,7 @@ var nvidiaGDClog = function() {
                 	<h3 class="title text h--small">HPE</h3> 
 <p>Hewlett Packard Enterprise (HPE),  the global edge-to-cloud platform as-a-service company,  has continued the decade-long partnership with NVIDIA to certify HPE Systems with NVIDIA GPUs,  SmartNICs,  and switches.   Leveraging the industry-leading HPE Apollo 6500 Gen10 Systems and HPE ProLiant DL380  Gen10  Servers, HPE one of the first partners to receive NVIDIA certification  using the NVIDIA  A100 Tensor  Core GPUs.  The systems have been comprehensively tested  by HPE engineers to help ensure  a faster, more reliable, and  predictable deployment.</p> 
 <p>Customers  can use HPE systems and servers that are NVIDIA-Certified knowing  that  they will  run GPU-accelerated applications to deliver unique  technology solutions, develop new business models, and increase operational performance.</p> 
-<p>More information can be found at <a href="https://www.hpe.com" target="_blank">hpe.com</a>.</p>
+<p>More information can be found at <a href="/" target="_blank">hpe.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -13259,7 +13259,7 @@ var nvidiaGDClog = function() {
                 	<h3 class="title text h--small">Hitachi</h3> 
 <p>Hitachi iQ, built on the NVIDIA AI Data Platform, enables organizations to modernize enterprise storage for the era of Agentic AI, helping users find information faster while empowering AI agents to more intelligently access and apply knowledge.</p> 
 <p>Hitachi Vantara introduces an integrated AI-driven approach that moves accelerated compute closer to storage and data, enabling advanced search capabilities such as semantic and multi-modal search, combined with generative AI and the latest large language models (LLMs).</p> 
-<p>For more information, please visit: <a href="https://www.hitachivantara.com/en-us/featured/iq-nvidia-ai-data-platform" title="Follow link" target="_blank">https://www.hitachivantara.com/en-us/featured/iq-nvidia-ai-data-platform</a></p>
+<p>For more information, please visit: <a href="/" title="Follow link" target="_blank">/</a></p>
                 </div>
 			</div>
 	</div>
@@ -13476,7 +13476,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:contact@lannerinc.com">contact@lannerinc.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://lannerinc.com/products/telecom-datacenter-appliances/hyper-converged-appliances/fx-3420" target="_blank">lannerinc.com/products/telecom-datacenter-appliances/hyper-converged-appliances/fx-3420</a><br> <span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://lannerinc.com/products/intelligent-edge-appliances/embedded-platform/lec-2290e" target="_blank">lannerinc.com/products/intelligent-edge-appliances/embedded-platform/lec-2290e </a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">lannerinc.com/products/telecom-datacenter-appliances/hyper-converged-appliances/fx-3420</a><br> <span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">lannerinc.com/products/intelligent-edge-appliances/embedded-platform/lec-2290e </a></p>
                 </div>
 			</div>
 	</div>
@@ -13693,7 +13693,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:sales@leadtek.com.tw">sales@leadtek.com.tw</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://system.leadtek.com/eng" target="_blank">system.leadtek.com/eng </a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">system.leadtek.com/eng </a></p>
                 </div>
 			</div>
 	</div>
@@ -13907,9 +13907,9 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Lenovo</h3> 
 <p>Lenovo is focused on a bold vision to deliver smarter technology for all, by developing world-changing technologies that create a more inclusive, trustworthy, and sustainable digital society. By designing, engineering, and building the world’s most complete portfolio of smart devices and infrastructure, Lenovo is also leading an Intelligent Transformation – to create better experiences and opportunities for millions of customers around the world.</p> 
-<p>Lenovo is the <a href="https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fresources%2Fdata-center-solutions%2Fanalyst-reports%2Fitic-2020-global-server-reliability-report%2F&amp;data=04%7C01%7Clanao%40nvidia.com%7C12d70c64438a4e4d618b08d8eedd3d8a%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C637521981284230413%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=kBoGm9DLVMikLws9vO6dEzCBRGKGNM%2BAQjRCTV7Wghc%3D&amp;reserved=0" target="_blank">global leader in server reliability</a>, a Gartner Top 35 Supply Chain provider since 2013, and according to Top500, is the number-one supercomputer provider in the world with its Lenovo Neptune™ cooling technology. Lenovo is unique in their ability to provide a broad portfolio of devices from the desktop to the data center, serving more than 180 countries and a channel ecosystem of over 20,000 partners.</p> 
+<p>Lenovo is the <a href="/?url=%2F&amp;data=04%7C01%7Clanao%40nvidia.com%7C12d70c64438a4e4d618b08d8eedd3d8a%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C637521981284230413%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=kBoGm9DLVMikLws9vO6dEzCBRGKGNM%2BAQjRCTV7Wghc%3D&amp;reserved=0" target="_blank">global leader in server reliability</a>, a Gartner Top 35 Supply Chain provider since 2013, and according to Top500, is the number-one supercomputer provider in the world with its Lenovo Neptune™ cooling technology. Lenovo is unique in their ability to provide a broad portfolio of devices from the desktop to the data center, serving more than 180 countries and a channel ecosystem of over 20,000 partners.</p> 
 <p>With industry leading technology, Lenovo takes a customer-centric approach to provide solutions that best meet your needs. As the first partner to go to market with NVIDIA’s A100 Tensor Core GPU coupled with our NVIDIA-Certified ThinkSystem servers, customers can reduce complexity by investing in a system that handles today's workload and expands to accommodate future growth.</p> 
-<p>Learn more about Lenovo and NVIDIA <a href="https://www.powerof2.nvidia.lenovo.com/" target="_blank">Power of 2</a>.</p>
+<p>Learn more about Lenovo and NVIDIA <a href="/" target="_blank">Power of 2</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -14124,7 +14124,7 @@ var nvidiaGDClog = function() {
                 	<h3 class="title text h--small">Nettrix</h3> 
 <p>Nettrix Information Industry (Beijing) Co., Ltd. is a server manufacturer integrating R&amp;D, production, deployment, and O&amp;M, as well as an IT system solution provider. It aims to provide customers with various types of servers and IT infrastructure products such as common rack based on X86 architecture, artificial intelligence, multiple nodes, edge computing and JDM life cycle customization.</p> 
 <p>With a focus on servers for 15 years, Nettrix has developed server products for industries including Internet, telecommunications, finance, medical care and education before the company was established. Over 90% of the employees in Nettrix are R&amp;D staff working in R&amp;D centers in Beijing and other cities. The company also has built its sales and after-sales network in provinces and cities nation-wide.</p> 
-<p>More information can be found at <a href="https://www.nettrix.com.cn/en" target="_blank">nettrix.com.cn</a>.</p>
+<p>More information can be found at <a href="/" target="_blank">nettrix.com.cn</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -14339,7 +14339,7 @@ var nvidiaGDClog = function() {
                 	<h3 class="title text h--small">Quanta Cloud Technology</h3> 
 <p>Quanta Cloud Technology (QCT) is a global data center solution provider that combines the efficiency of hyperscale hardware with infrastructure software from a diversity of industry leaders to solve next-generation data center design and operational challenges. QCT serves cloud service providers, telecoms and enterprises running public, hybrid and private clouds.</p> 
 <p>Product lines include hyperconverged and software-defined data center solutions as well as servers, storage, switches and integrated racks with an ecosystem of hardware components and software partners. QCT designs, manufactures, integrates and services its offerings via its own global network. The parent of QCT is Quanta Computer, Inc., a Fortune Global 500 corporation.</p> 
-<p>More information can be found at <a href="http://www.qct.io" target="_blank">QCT.io</a>.</p>
+<p>More information can be found at <a href="/" target="_blank">QCT.io</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -14556,7 +14556,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:NGCSupport@supermicro.com">&nbsp;NGCSupport@supermicro.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="https://www.supermicro.com/en/products/a100" target="_blank">www.supermicro.com/en/products/a100</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">www.supermicro.com/en/products/a100</a></p>
                 </div>
 			</div>
 	</div>
@@ -14780,7 +14780,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-71f95c0e57" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.xfusion.com">
+  <a id="nv-button-71f95c0e57" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -14996,7 +14996,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Amax</h3> 
 <p>AMAX is an award-winning global leader in data center, open-architecture platforms, HPC, Deep Learning, application-tailored cloud, and OEM server manufacturing solutions designed towards the highest efficiency and optimal performance. Whether you are a Fortune 1000 company seeking significant cost savings through better efficiency for your global data centers or a software startup seeking an experienced manufacturing partner to design and launch your flagship product, AMAX is your trusted solutions provider, delivering the results you need to meet your specific metrics for success.</p> 
-<p>For more information about AMAX, visit <a href="http://www.amax.com" target="_blank">http://www.amax.com</a>.</p>
+<p>For more information about AMAX, visit <a href="/" target="_blank">/</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -15210,7 +15210,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Colfax</h3> 
 <p>Colfax International is a leading provider of innovative and expertly engineered workstations, servers, clusters and storage solutions. Colfax HPC solutions are relied upon to drive mission-critical applications and environments in government agencies. Enterprises, universities, and labs accelerate their business and research outcomes with Colfax HPC solutions. Colfax helps SMBs future-proof their investments with standards-based solutions at significant price/performance advantages. Whatever may be your need, we have the flexibility and engineering expertise to design a solution - just for you.</p> 
-<p>Learn more at <a href="http://www.colfax-intl.com" target="_blank">www.colfax-intl.com</a>.</p>
+<p>Learn more at <a href="/" target="_blank">www.colfax-intl.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -15423,9 +15423,9 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">Exxact</h3> 
-<p>Founded in 1992, Exxact Corporation provides technology solutions that enable many of the world’s top national labs, research institutes, universities, startups, and Fortune 1000 companies to conduct cutting-edge artificial intelligence, drug discovery, and advanced engineering simulations, while also powering a host of other HPC, datacenter, <a href="https://www.exxactcorp.com/category/NVIDIA-Virtualization-Solutions?utm_source=web+referral&amp;utm_medium=backlink&amp;utm_campaign=NVIDIA-Certified-Systems" target="_blank">virtualization</a> and <a href="https://www.exxactcorp.com/NVIDIA-RTX-Server?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=NVIDIA-Certified-Systems" target="_blank">visualization</a> applications.</p> 
+<p>Founded in 1992, Exxact Corporation provides technology solutions that enable many of the world’s top national labs, research institutes, universities, startups, and Fortune 1000 companies to conduct cutting-edge artificial intelligence, drug discovery, and advanced engineering simulations, while also powering a host of other HPC, datacenter, <a href="/?utm_source=web+referral&amp;utm_medium=backlink&amp;utm_campaign=NVIDIA-Certified-Systems" target="_blank">virtualization</a> and <a href="/?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=NVIDIA-Certified-Systems" target="_blank">visualization</a> applications.</p> 
 <p>With a full range of engineering and logistics services, including consultancy, validation, manufacturing, implementation, colocation and support, Exxact helps their customers choose the right NVIDIA-Certified Systems™ for their needs.</p> 
-<p>To view Exxact's wide range of NVIDIA powered solutions from workstation to datacenter visit <a href="https://www.exxactcorp.com/category/NVIDIA-Solutions?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=NVIDIA-Certified-Systems" target="_blank">https://www.exxactcorp.com/NVIDIA-Solutions</a>.</p>
+<p>To view Exxact's wide range of NVIDIA powered solutions from workstation to datacenter visit <a href="/?utm_source=web%20referral&amp;utm_medium=backlink&amp;utm_campaign=NVIDIA-Certified-Systems" target="_blank">/</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -15639,7 +15639,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Koi</h3> 
 <p>Koi Computers builds custom, performance-optimized, and Trade Agreements Act (TAA)-compliant turnkey high-performance clusters, servers, and workstations for deep learning, artificial intelligence, and other compute-intensive applications. As an ISO 9001:2015 (with design)-certified company, our customizable solutions are built and tested in a trusted environment for quality control and assurance. As an ISO/IEC 20243:2018-certified organization, we implement best practices to mitigate key supply threats of counterfeit and maliciously tainted products. Our company is a Prime Contract Holder of the NASA SEWP V, NITAAC CIO-CS, and GSA MAS IT Category contracts and an Air Force 2GIT BPA Holder.</p> 
-<p>To learn more about Koi Computers’ NVIDIA-Certified solutions and to get a budgetary quote, find us at: <a href="https://www.koicomputers.com/products/gpu-servers/nvidia-data-center-platform/" target="_blank">koicomputers.com/products/gpu-servers/nvidia-data-center-platform</a></p>
+<p>To learn more about Koi Computers’ NVIDIA-Certified solutions and to get a budgetary quote, find us at: <a href="/" target="_blank">koicomputers.com/products/gpu-servers/nvidia-data-center-platform</a></p>
                 </div>
 			</div>
 	</div>
@@ -15852,7 +15852,7 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">Lambda</h3> 
-<p>Founded and led by AI and machine learning engineers, Lambda designs and builds deep learning computing infrastructure, including GPU-powered cloud services, servers, clusters, and workstations. Our customers include Apple, Intel, Microsoft, Amazon Research, Tencent, Kaiser Permanente, MIT, Stanford, Harvard, Caltech, and the Department of Defense. Find out more at <a href="https://lambdalabs.com/" target="_blank">www.lambdalabs.com</a>.</p>
+<p>Founded and led by AI and machine learning engineers, Lambda designs and builds deep learning computing infrastructure, including GPU-powered cloud services, servers, clusters, and workstations. Our customers include Apple, Intel, Microsoft, Amazon Research, Tencent, Kaiser Permanente, MIT, Stanford, Harvard, Caltech, and the Department of Defense. Find out more at <a href="/" target="_blank">www.lambdalabs.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -16071,7 +16071,7 @@ var nvidiaGDClog = function() {
 <p><strong>Contact</strong></p> 
 <p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="mailto:marketing@neousys-tech.com">marketing@neousys-tech.com</a></p> 
 <p><strong>Product Page</strong></p> 
-<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="http://en/discover/gpu-embedded-computing" target="_blank">neousys-tech.com</a></p>
+<p><span class="far fa-external-link fa-fw"></span>&nbsp;<a href="/" target="_blank">neousys-tech.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -16284,7 +16284,7 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">Siemens</h3> 
-<p>Siemens AG (Berlin and Munich) is a leading technology company focused on industry, infrastructure, transport, and healthcare. From more resource-efficient factories, resilient supply chains, and smarter buildings and grids, to cleaner and more comfortable transportation as well as advanced healthcare, the company creates technology with purpose adding real value for customers. By combining the real and the digital worlds, Siemens empowers its customers to transform their industries and markets, helping them to transform the everyday for billions of people. Siemens also owns a majority stake in the publicly listed company Siemens Healthineers, a globally leading medical technology provider shaping the future of healthcare. In fiscal 2023, which ended on September 30, 2023, the Siemens Group generated revenue of €77.8 billion and net income of €8.5 billion. As of September 30, 2023, the company employed around 320,000 people worldwide. Further information is available on the Internet at <a href="https://www.siemens.com/global/en.html?ncid=no-ncid" target="_blank">www.siemens.com</a>.</p>
+<p>Siemens AG (Berlin and Munich) is a leading technology company focused on industry, infrastructure, transport, and healthcare. From more resource-efficient factories, resilient supply chains, and smarter buildings and grids, to cleaner and more comfortable transportation as well as advanced healthcare, the company creates technology with purpose adding real value for customers. By combining the real and the digital worlds, Siemens empowers its customers to transform their industries and markets, helping them to transform the everyday for billions of people. Siemens also owns a majority stake in the publicly listed company Siemens Healthineers, a globally leading medical technology provider shaping the future of healthcare. In fiscal 2023, which ended on September 30, 2023, the Siemens Group generated revenue of €77.8 billion and net income of €8.5 billion. As of September 30, 2023, the company employed around 320,000 people worldwide. Further information is available on the Internet at <a href="/?ncid=no-ncid" target="_blank">www.siemens.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -16715,7 +16715,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<h3 class="title text h--small">Z by HP</h3> 
 <p>Z by HP is the trusted hardware partner for leading artists, data scientists, architects, engineers, product designers, and top companies in the world. Z offers high performance laptop and desktop workstations, packed with professional NVIDIA® graphics cards that are highly tuned to deliver stable performance with professional software. Z engineers work closely with NVIDIA® and the independent software vendors (ISVs) to test and certify the software, helping ensure Z PCs deliver peak performance for key professional applications. And, with over 360,000 hours of testing on every component, down to the screws, Z PCs are built to drive the most demanding workflows—24/7.</p> 
-<p>Learn more at <a href="https://www.hp.com/us-en/workstations/workstation-pcs.html?jumpid=va_6fsqyhva81" target="_blank">HP.com/Z</a></p>
+<p>Learn more at <a href="/?jumpid=va_6fsqyhva81" target="_blank">HP.com/Z</a></p>
                 </div>
 			</div>
 	</div>
@@ -17142,8 +17142,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About DDN</h3> 
-<p>DDN is the world’s leading AI and data intelligence company, empowering organizations to maximize the value of their data with end-to-end HPC and AI-focused solutions. Its customers range from the largest global enterprises and AI hyperscalers to cutting-edge research centers, all leveraging DDN’s proven data intelligence platform for scalable, secure, and high-performance AI deployments that drive 10x returns. For more information, visit <a href="http://www.ddn.com" target="_blank">www.ddn.com</a>.</p> 
-<p>Stay Informed: <a href="https://www.ddn.com/press-releases/ddn-announces-support-for-blackwell-based-systems-expanding-ai-data-infrastructure-for-next-gen-ai-workloads/" target="_blank">Click for the Latest News and Updates</a></p>
+<p>DDN is the world’s leading AI and data intelligence company, empowering organizations to maximize the value of their data with end-to-end HPC and AI-focused solutions. Its customers range from the largest global enterprises and AI hyperscalers to cutting-edge research centers, all leveraging DDN’s proven data intelligence platform for scalable, secure, and high-performance AI deployments that drive 10x returns. For more information, visit <a href="/" target="_blank">www.ddn.com</a>.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -17356,8 +17356,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About Dell Technologies</h3> 
-<p>Dell Technologies helps organizations and individuals build their digital future and transform how they work, live and play. The company provides customers with the industry’s broadest and most innovative technology and services portfolio for the AI era. For more information, visit<a href="http://www.dell.com" target="_blank"> www.dell.com.</a></p> 
-<p>Stay Informed: <a href="https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~03~corp.htm#/filter-on/Country:en-us" target="_blank">Click for the Latest News and Updates</a></p>
+<p>Dell Technologies helps organizations and individuals build their digital future and transform how they work, live and play. The company provides customers with the industry’s broadest and most innovative technology and services portfolio for the AI era. For more information, visit<a href="/" target="_blank"> www.dell.com.</a></p> 
+<p>Stay Informed: <a href="/#/filter-on/Country:en-us" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -17570,8 +17570,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About Hewlett Packard Enterprise</h3> 
-<p>Hewlett Packard Enterprise (NYSE: HPE) is the global edge-to-cloud company that helps organizations accelerate outcomes by unlocking value from all of their data, everywhere. Built on decades of reimagining the future and innovating to advance the way people live and work, HPE delivers unique, open, and intelligent technology solutions as a service.  With offerings spanning Cloud Services, Compute, High Performance Computing &amp; AI, Intelligent Edge, Software, and Storage, HPE provides a consistent experience across all clouds and edges, helping customers develop new business models, engage in new ways, and increase operational performance. For more information, visit: <a href="http://www.hpe.com/" target="_blank">www.hpe.com</a></p> 
-<p>Stay Informed: <a href="https://www.hpe.com/us/en/newsroom/press-release/2025/03/hewlett-packard-enterprise-drives-agentic-ai-era-with-an-intelligent-unified-data-layer-for-ai.html" target="_blank">Click for the Latest News and Updates</a></p>
+<p>Hewlett Packard Enterprise (NYSE: HPE) is the global edge-to-cloud company that helps organizations accelerate outcomes by unlocking value from all of their data, everywhere. Built on decades of reimagining the future and innovating to advance the way people live and work, HPE delivers unique, open, and intelligent technology solutions as a service.  With offerings spanning Cloud Services, Compute, High Performance Computing &amp; AI, Intelligent Edge, Software, and Storage, HPE provides a consistent experience across all clouds and edges, helping customers develop new business models, engage in new ways, and increase operational performance. For more information, visit: <a href="/" target="_blank">www.hpe.com</a></p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -17784,8 +17784,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About Hitachi Vantara</h3> 
-<p>Hitachi Vantara is transforming the way data fuels innovation. A wholly owned subsidiary of Hitachi Ltd., Hitachi Vantara provides the data foundation the world's leading innovators rely on. Through data storage, infrastructure systems, cloud management and digital expertise, the company helps customers build the foundation for sustainable business growth. To learn more, visit <a href="https://www.hitachivantara.com/en-us/solutions/ai-analytics/hitachi-iq" target="_blank">www.hitachivantara.com</a>.</p> 
-<p>Stay Informed: <a href="https://www.hitachivantara.com/en-us/news/gl250318" target="_blank">Click for the Latest News and Updates</a></p>
+<p>Hitachi Vantara is transforming the way data fuels innovation. A wholly owned subsidiary of Hitachi Ltd., Hitachi Vantara provides the data foundation the world's leading innovators rely on. Through data storage, infrastructure systems, cloud management and digital expertise, the company helps customers build the foundation for sustainable business growth. To learn more, visit <a href="/" target="_blank">www.hitachivantara.com</a>.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -17998,8 +17998,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About IBM</h3> 
-<p>IBM is a leading provider of global hybrid cloud and AI, and consulting expertise. We help clients in more than 175 countries capitalize on insights from their data, streamline business processes, reduce costs and gain a competitive edge in their industries. Thousands of government and corporate entities in critical infrastructure areas such as financial services, telecommunications and healthcare rely on IBM's hybrid cloud platform and Red Hat OpenShift to affect their digital transformations quickly, efficiently and securely. IBM's breakthrough innovations in AI, quantum computing, industry-specific cloud solutions and consulting deliver open and flexible options to our clients. All of this is backed by IBM's long-standing commitment to trust, transparency, responsibility, inclusivity and service. Visit <a href="http://www.ibm.com/" target="_blank">www.ibm.com</a> for more information.</p> 
-<p>Stay Informed: <a href="https://community.ibm.com/community/user/storage/blogs/ted-hoover/2025/03/18/ibm-storage-scale-system-6000-is-nvidia-certified" target="_blank">Click for the Latest News and Updates</a></p>
+<p>IBM is a leading provider of global hybrid cloud and AI, and consulting expertise. We help clients in more than 175 countries capitalize on insights from their data, streamline business processes, reduce costs and gain a competitive edge in their industries. Thousands of government and corporate entities in critical infrastructure areas such as financial services, telecommunications and healthcare rely on IBM's hybrid cloud platform and Red Hat OpenShift to affect their digital transformations quickly, efficiently and securely. IBM's breakthrough innovations in AI, quantum computing, industry-specific cloud solutions and consulting deliver open and flexible options to our clients. All of this is backed by IBM's long-standing commitment to trust, transparency, responsibility, inclusivity and service. Visit <a href="/" target="_blank">www.ibm.com</a> for more information.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -18212,8 +18212,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About NetApp</h3> 
-<p>NetApp is the intelligent data infrastructure company, combining unified data storage, integrated data, operational and workload services to turn a world of disruption into opportunity for every customer. NetApp creates silo-free infrastructure, harnessing observability and AI to enable the industry’s best data management. As the only enterprise-grade storage service natively embedded in the world’s biggest clouds, our data storage delivers seamless flexibility. In addition, our data services create a data advantage through superior cyber resilience, governance, and application agility. Our operational and workload services provide continuous optimization of performance and efficiency for infrastructure and workloads through observability and AI. No matter the data type, workload, or environment, with NetApp you can transform your data infrastructure to realize your business possibilities. Learn more at <a href="https://www.netapp.com/" target="_blank">www.netapp.com</a>.</p> 
-<p>Stay Informed: <a href="https://www.netapp.com/newsroom/press-releases/news-rel-20250318-592455/" target="_blank">Click for the Latest News and Updates</a></p>
+<p>NetApp is the intelligent data infrastructure company, combining unified data storage, integrated data, operational and workload services to turn a world of disruption into opportunity for every customer. NetApp creates silo-free infrastructure, harnessing observability and AI to enable the industry’s best data management. As the only enterprise-grade storage service natively embedded in the world’s biggest clouds, our data storage delivers seamless flexibility. In addition, our data services create a data advantage through superior cyber resilience, governance, and application agility. Our operational and workload services provide continuous optimization of performance and efficiency for infrastructure and workloads through observability and AI. No matter the data type, workload, or environment, with NetApp you can transform your data infrastructure to realize your business possibilities. Learn more at <a href="/" target="_blank">www.netapp.com</a>.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -18426,8 +18426,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About Nutanix</h3> 
-<p>Nutanix is a global leader in cloud software, offering organizations a single platform for running apps and data across clouds. With Nutanix, organizations can reduce complexity and simplify operations, freeing them to focus on their business outcomes. Building on its legacy as the pioneer of HCI, Nutanix is trusted by companies worldwide to power hybrid multicloud environments consistently, simply, and cost-effectively. Learn more at<a href="http://www.nutanix.com/" target="_blank"> www.nutanix.com</a>.</p> 
-<p>Stay Informed: <a href="http://www.nutanix.com/blog/nutanix-cloud-platform-empowers-enterprise-agentic-ai-built-with-the-nvidia-ai-data-platform" target="_blank">Click for the Latest News and Updates</a></p>
+<p>Nutanix is a global leader in cloud software, offering organizations a single platform for running apps and data across clouds. With Nutanix, organizations can reduce complexity and simplify operations, freeing them to focus on their business outcomes. Building on its legacy as the pioneer of HCI, Nutanix is trusted by companies worldwide to power hybrid multicloud environments consistently, simply, and cost-effectively. Learn more at<a href="/" target="_blank"> www.nutanix.com</a>.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -18640,8 +18640,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About Pure Storage</h3> 
-<p>Pure Storage (NYSE: PSTG) delivers the industry's most advanced data storage platform to store, manage, and protect the world's data at any scale. With Pure Storage, organizations have ultimate simplicity and flexibility, saving time, money, and energy. From AI to archive, Pure Storage delivers a cloud experience with one unified Storage as-a-Service platform across on premises, cloud, and hosted environments. Our platform is built on our Evergreen architecture that evolves with your business – always getting newer and better with zero planned downtime, guaranteed. Our customers are actively increasing their capacity and processing power while significantly reducing their carbon and energy footprint. It's easy to fall in love with Pure Storage, as evidenced by the highest Net Promoter Score in the industry. For more information, visit <a href="http://www.purestorage.com" target="_blank">www.purestorage.com</a>.</p> 
-<p>Stay Informed: <a href="https://www.purestorage.com/company/newsroom/press-releases/pure-storage-integrates-nvidia-ai-data-platform-into-flashblade.html" target="_blank">Click for the Latest News and Updates</a></p>
+<p>Pure Storage (NYSE: PSTG) delivers the industry's most advanced data storage platform to store, manage, and protect the world's data at any scale. With Pure Storage, organizations have ultimate simplicity and flexibility, saving time, money, and energy. From AI to archive, Pure Storage delivers a cloud experience with one unified Storage as-a-Service platform across on premises, cloud, and hosted environments. Our platform is built on our Evergreen architecture that evolves with your business – always getting newer and better with zero planned downtime, guaranteed. Our customers are actively increasing their capacity and processing power while significantly reducing their carbon and energy footprint. It's easy to fall in love with Pure Storage, as evidenced by the highest Net Promoter Score in the industry. For more information, visit <a href="/" target="_blank">www.purestorage.com</a>.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -18854,8 +18854,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About Vast Data</h3> 
-<p>VAST Data is the data platform company built for the AI era. As the new standard for enterprise AI infrastructure, organizations trust the VAST Data Platform to serve their most data-intensive computing needs. VAST Data empowers enterprises to unlock the full potential of all of their data by providing AI infrastructure that is simple, scalable, and architected from the ground up to power deep learning and GPU-accelerated data centers and clouds. Launched in 2019, VAST Data is the fastest growing data infrastructure company in history. For more information, please visit <a href="http://www.vastdata.com" target="_blank">www.vastdata.com</a>.</p> 
-<p>Stay Informed: <a href="https://www.vastdata.com/blog/vast-data-advances-ai-storage-leadership-with-nvidia-certified-storage" target="_blank">Click for the Latest News and Updates</a></p>
+<p>VAST Data is the data platform company built for the AI era. As the new standard for enterprise AI infrastructure, organizations trust the VAST Data Platform to serve their most data-intensive computing needs. VAST Data empowers enterprises to unlock the full potential of all of their data by providing AI infrastructure that is simple, scalable, and architected from the ground up to power deep learning and GPU-accelerated data centers and clouds. Launched in 2019, VAST Data is the fastest growing data infrastructure company in history. For more information, please visit <a href="/" target="_blank">www.vastdata.com</a>.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -19068,8 +19068,8 @@ var nvidiaGDClog = function() {
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
                 	<h3 class="title text h--small">About WEKA</h3> 
-<p>WEKA is architecting a new approach to the enterprise data stack built for the AI era. The WEKA® Data Platform sets the standard for AI infrastructure with a cloud and AI-native architecture that can be deployed anywhere, providing seamless data portability across on-premises, cloud, and edge environments. It transforms legacy data silos into dynamic data pipelines that accelerate GPUs, AI model training, inference, and other performance-intensive workloads, enabling them to work more efficiently, consume less energy, and reduce associated carbon emissions. WEKA helps the world’s most innovative enterprises and research organizations overcome complex data challenges to reach discoveries, insights, and outcomes faster and more sustainably – including 12 of the Fortune 50. Visit <a href="https://www.weka.io/" target="_blank">www.weka.io</a> to learn more.</p> 
-<p>Stay Informed: <a href="http://www.weka.io/company/weka-newsroom/press-releases/weka-unveils-nvidia-integrations-and-certifications-at-gtc-2025/" target="_blank">Click for the Latest News and Updates</a></p>
+<p>WEKA is architecting a new approach to the enterprise data stack built for the AI era. The WEKA® Data Platform sets the standard for AI infrastructure with a cloud and AI-native architecture that can be deployed anywhere, providing seamless data portability across on-premises, cloud, and edge environments. It transforms legacy data silos into dynamic data pipelines that accelerate GPUs, AI model training, inference, and other performance-intensive workloads, enabling them to work more efficiently, consume less energy, and reduce associated carbon emissions. WEKA helps the world’s most innovative enterprises and research organizations overcome complex data challenges to reach discoveries, insights, and outcomes faster and more sustainably – including 12 of the Fortune 50. Visit <a href="/" target="_blank">www.weka.io</a> to learn more.</p> 
+<p>Stay Informed: <a href="/" target="_blank">Click for the Latest News and Updates</a></p>
                 </div>
 			</div>
 	</div>
@@ -19296,7 +19296,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-16355ec6c0" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://svr.pegatroncorp.com/">
+  <a id="nv-button-16355ec6c0" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -19522,7 +19522,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-e9a6d38650" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.wistron.com/en/Product&amp;Services/Enterprise&amp;Networking">
+  <a id="nv-button-e9a6d38650" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -19885,11 +19885,11 @@ var nvidiaGDClog = function() {
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -20036,7 +20036,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -20073,7 +20073,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/data-center/products/certified-systems/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/data-center/products/certified-systems/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/data-center/products/certified-systems/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/data-center/products/certified-systems/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/data-center/products/certified-systems/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/data-center/products/certified-systems/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/data-center/products/certified-systems/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/data-center/products/certified-systems/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/data-center/products/certified-systems/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/data-center/products/certified-systems/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/data-center/products/certified-systems/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/data-center/products/certified-systems/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/data-center/products/certified-systems/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/data-center/products/certified-systems/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/data-center/products/certified-systems/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/data-center/products/certified-systems/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/data-center/products/certified-systems/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/data-center/products/certified-systems/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/data-center/products/certified-systems/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/data-center/products/certified-systems/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/data-center/products/certified-systems/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/data-center/products/certified-systems/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/data-center/products/certified-systems/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/data-center/products/certified-systems/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/data-center/products/certified-systems/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/data-center/products/certified-systems/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/data-center/products/certified-systems/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/data-center/products/certified-systems/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/data-center/products/certified-systems/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/data-center/products/certified-systems/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/data-center/products/certified-systems/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/data-center/products/certified-systems/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

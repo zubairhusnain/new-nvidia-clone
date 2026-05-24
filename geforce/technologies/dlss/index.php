@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="robots" content="NOODP,NOYDIR"> 
@@ -152,7 +152,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/geforce/technologies/dlss/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/geforce/technologies/dlss/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/geforce/technologies/dlss/">
 
@@ -220,12 +220,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -2035,8 +2035,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2053,7 +2053,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -3242,7 +3242,7 @@ height:620px;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -3251,12 +3251,12 @@ height:620px;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=8Ycy1ddgRfA" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=8Ycy1ddgRfA" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/8Ycy1ddgRfA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/8Ycy1ddgRfA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-video-alan-wake-1920x1080-play.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/8Ycy1ddgRfA?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/8Ycy1ddgRfA?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-video-alan-wake-1920x1080-play.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
     
     </div>
    </div>
@@ -3533,7 +3533,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -3542,12 +3542,12 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=uRHBzE7TvtU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=uRHBzE7TvtU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player2"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/uRHBzE7TvtU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/uRHBzE7TvtU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player2"></iframe>
     
     </div>
    </div>
@@ -3797,7 +3797,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -3806,12 +3806,12 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=GV4DOJNKfuw" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=GV4DOJNKfuw" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/GV4DOJNKfuw?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/GV4DOJNKfuw?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-dynamic-outer-worlds2-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player3"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/GV4DOJNKfuw?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/GV4DOJNKfuw?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-dynamic-outer-worlds2-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player3"></iframe>
     
     </div>
    </div>
@@ -4061,7 +4061,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -4070,12 +4070,12 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=YU1qU7-XabU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=YU1qU7-XabU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/YU1qU7-XabU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/YU1qU7-XabU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-frame-generation-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player4"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/YU1qU7-XabU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/YU1qU7-XabU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-frame-generation-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player4"></iframe>
     
     </div>
    </div>
@@ -4363,7 +4363,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -4372,12 +4372,12 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=bTJYvtPRRcM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=bTJYvtPRRcM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/bTJYvtPRRcM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/bTJYvtPRRcM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-ray-reconstruction-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player5"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/bTJYvtPRRcM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/bTJYvtPRRcM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-ray-reconstruction-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player5"></iframe>
     
     </div>
    </div>
@@ -4665,7 +4665,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -4674,12 +4674,12 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=K8DddlREHEE" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=K8DddlREHEE" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/K8DddlREHEE?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/K8DddlREHEE?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-super-resolution-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player6"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/K8DddlREHEE?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/K8DddlREHEE?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-super-resolution-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player6"></iframe>
     
     </div>
    </div>
@@ -4967,7 +4967,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -4976,12 +4976,12 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=CgSLIV7lWoI" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=CgSLIV7lWoI" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/CgSLIV7lWoI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/CgSLIV7lWoI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-anti-aliasing-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player7"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/CgSLIV7lWoI?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/CgSLIV7lWoI?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-dlss-anti-aliasing-video-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player7"></iframe>
     
     </div>
    </div>
@@ -5171,10 +5171,10 @@ background-size:cover;
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-c-bottom p-image-center p-image-c-bottom   t-image-fit-cover p-image-fit-cover  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" nvidia-app-hero-oct24-bm-af360-p.jpg,="" nvidia-app-hero-oct24-bm-af360-p@2x.jpg="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/nvidia-app-hero-oct24-bm-af440-t.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/nvidia-app-hero-oct24-bm-af440-t@2x.jpg 2x" data-srcset-laptop="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=,  2x" data-srcset-desktop="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=,  2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-nv-app" onload="window.setContainerHeight('nv-app'); window.initLazyLoadingImages('nv-app');">
                 
@@ -6428,7 +6428,7 @@ background-size:cover;
    <div class="nv-yt-embed__consent-overlay nv-yt-embed__consent-overlay--playlist" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -6437,7 +6437,7 @@ background-size:cover;
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
@@ -6445,10 +6445,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-1" id="vg-nv-playlist-862be82c9a-slide-1">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-super-resolution-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="DLSS 4.5 | Enhanced Super Resolution &amp; Dynamic Multi Frame Gen" title="DLSS 4.5 | Enhanced Super Resolution &amp; Dynamic Multi Frame Gen" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-1" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-1" data-slide="vg-nv-playlist-862be82c9a-slide-1" data-id="u4cfzFd9HzU"></span></div>
@@ -6465,10 +6465,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-2" id="vg-nv-playlist-862be82c9a-slide-2">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="GeForce On - Resident Evil Requiem Trailer" title="GeForce On - Resident Evil Requiem Trailer" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-2" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-2" data-slide="vg-nv-playlist-862be82c9a-slide-2" data-id="u0mgOPbpagc"></span></div>
@@ -6485,10 +6485,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-3" id="vg-nv-playlist-862be82c9a-slide-3">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-arc-raiders-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="ARC Raiders | 4K NVIDIA DLSS 4 Trailer" title="ARC Raiders | 4K NVIDIA DLSS 4 Trailer" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-3" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-3" data-slide="vg-nv-playlist-862be82c9a-slide-3" data-id="ub2OrMkdpYc"></span></div>
@@ -6505,10 +6505,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-4" id="vg-nv-playlist-862be82c9a-slide-4">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-battlefield6-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Battlefield 6 | 4K NVIDIA DLSS 4 Reveal" title="Battlefield 6 | 4K NVIDIA DLSS 4 Reveal" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-4" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-4" data-slide="vg-nv-playlist-862be82c9a-slide-4" data-id="ICJajlj_ujo"></span></div>
@@ -6525,10 +6525,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-5" id="vg-nv-playlist-862be82c9a-slide-5">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-explainer-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="DLSS 4 | New Multi Frame Gen Everything Enhanced" title="DLSS 4 | New Multi Frame Gen Everything Enhanced" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-5" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-5" data-slide="vg-nv-playlist-862be82c9a-slide-5" data-id="qQn3bsPNTyI"></span></div>
@@ -6545,10 +6545,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-6" id="vg-nv-playlist-862be82c9a-slide-6">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-overrides-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="DLSS 4 with DLSS Overrides in NVIDIA App" title="DLSS 4 with DLSS Overrides in NVIDIA App" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-6" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-6" data-slide="vg-nv-playlist-862be82c9a-slide-6" data-id="3WTr9sgMCb8"></span></div>
@@ -6565,10 +6565,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-7" id="vg-nv-playlist-862be82c9a-slide-7">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-doom-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" title="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-7" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-7" data-slide="vg-nv-playlist-862be82c9a-slide-7" data-id="v3q8taqRiGQ"></span></div>
@@ -6585,10 +6585,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-8" id="vg-nv-playlist-862be82c9a-slide-8">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="FBC: Firebreak | DLSS 4 Full Ray Tracing Reveal" title="FBC: Firebreak | DLSS 4 Full Ray Tracing Reveal" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-8" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-8" data-slide="vg-nv-playlist-862be82c9a-slide-8" data-id="gx0ni86-w-c"></span></div>
@@ -6605,10 +6605,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-9" id="vg-nv-playlist-862be82c9a-slide-9">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-wuchang-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" title="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-9" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-9" data-slide="vg-nv-playlist-862be82c9a-slide-9" data-id="fFzo_o8mH8w"></span></div>
@@ -6625,10 +6625,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-10" id="vg-nv-playlist-862be82c9a-slide-10">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-roadcraft-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="RoadCraft | 4K NVIDIA DLSS 4 Comparison" title="RoadCraft | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-10" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-10" data-slide="vg-nv-playlist-862be82c9a-slide-10" data-id="pXDtRgeXrvQ"></span></div>
@@ -6645,10 +6645,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-11" id="vg-nv-playlist-862be82c9a-slide-11">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-fragpunk-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="FragPunk | 4K NVIDIA DLSS 4 Comparison" title="FragPunk | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-11" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-11" data-slide="vg-nv-playlist-862be82c9a-slide-11" data-id="dXP8hCDDTOQ"></span></div>
@@ -6665,10 +6665,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-12" id="vg-nv-playlist-862be82c9a-slide-12">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Black Myth Wukong | DLSS 4 Launch Video" title="Black Myth Wukong | DLSS 4 Launch Video" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-12" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-12" data-slide="vg-nv-playlist-862be82c9a-slide-12" data-id="k6YkuhUxETE"></span></div>
@@ -6685,10 +6685,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-13" id="vg-nv-playlist-862be82c9a-slide-13">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation Ray Reconstruction" title="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation Ray Reconstruction" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-13" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-13" data-slide="vg-nv-playlist-862be82c9a-slide-13" data-id="laTPVKs0nqA"></span></div>
@@ -6705,10 +6705,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-14" id="vg-nv-playlist-862be82c9a-slide-14">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" title="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-14" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-14" data-slide="vg-nv-playlist-862be82c9a-slide-14" data-id="4JAQ29umYfU"></span></div>
@@ -6725,10 +6725,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-15" id="vg-nv-playlist-862be82c9a-slide-15">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" title="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-15" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-15" data-slide="vg-nv-playlist-862be82c9a-slide-15" data-id="avWMEd-H8Qg"></span></div>
@@ -6745,10 +6745,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-16" id="vg-nv-playlist-862be82c9a-slide-16">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" title="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-16" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-16" data-slide="vg-nv-playlist-862be82c9a-slide-16" data-id="UjnEiP9a9kQ"></span></div>
@@ -6765,10 +6765,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-17" id="vg-nv-playlist-862be82c9a-slide-17">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" title="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-17" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-17" data-slide="vg-nv-playlist-862be82c9a-slide-17" data-id="dR9i2WVcXTM"></span></div>
@@ -6785,10 +6785,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-18" id="vg-nv-playlist-862be82c9a-slide-18">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" cp2077dlss_v03_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal " title="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal " class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-18" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-18" data-slide="vg-nv-playlist-862be82c9a-slide-18" data-id="oMCC9TgsCDY"></span></div>
@@ -6805,10 +6805,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-19" id="vg-nv-playlist-862be82c9a-slide-19">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" aw2_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere " title="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere " class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-19" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-19" data-slide="vg-nv-playlist-862be82c9a-slide-19" data-id="HwGbQwoMCxM"></span></div>
@@ -6825,10 +6825,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-20" id="vg-nv-playlist-862be82c9a-slide-20">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" dlss3_5_techtalk_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" title="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-20" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-20" data-slide="vg-nv-playlist-862be82c9a-slide-20" data-id="sGKCrcNsVzo"></span></div>
@@ -6845,10 +6845,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-21" id="vg-nv-playlist-862be82c9a-slide-21">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" ratchetclank_v05_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Ratchet Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" title="Ratchet Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-21" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-21" data-slide="vg-nv-playlist-862be82c9a-slide-21" data-id="F6BWctU2n5g"></span></div>
@@ -6865,10 +6865,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-22" id="vg-nv-playlist-862be82c9a-slide-22">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" 221011_dlss3-thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="What is NVIDIA DLSS 3? | The Performance Multiplier" title="What is NVIDIA DLSS 3? | The Performance Multiplier" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-22" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-22" data-slide="vg-nv-playlist-862be82c9a-slide-22" data-id="pSiczcJgY1s"></span></div>
@@ -6885,10 +6885,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-23" id="vg-nv-playlist-862be82c9a-slide-23">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" warhammer_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" title="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-23" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-23" data-slide="vg-nv-playlist-862be82c9a-slide-23" data-id="a5oSMqe4a-Y"></span></div>
@@ -6905,10 +6905,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-24" id="vg-nv-playlist-862be82c9a-slide-24">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" 221122_spiderman-thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" title="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-24" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-24" data-slide="vg-nv-playlist-862be82c9a-slide-24" data-id="L41_LhVuBPU"></span></div>
@@ -6925,10 +6925,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-25" id="vg-nv-playlist-862be82c9a-slide-25">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" thefinals_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" title="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-25" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-25" data-slide="vg-nv-playlist-862be82c9a-slide-25" data-id="IQcoRHW3los"></span></div>
@@ -6945,10 +6945,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-26" id="vg-nv-playlist-862be82c9a-slide-26">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" dyinglight_v01_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" title="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-26" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-26" data-slide="vg-nv-playlist-862be82c9a-slide-26" data-id="3qWr_BYLsZo"></span></div>
@@ -6965,10 +6965,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-27" id="vg-nv-playlist-862be82c9a-slide-27">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" hitman_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" title="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-27" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-27" data-slide="vg-nv-playlist-862be82c9a-slide-27" data-id="y67wq6b0-HY"></span></div>
@@ -6985,10 +6985,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-28" id="vg-nv-playlist-862be82c9a-slide-28">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" fist_v02_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Comparison" title="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-28" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-28" data-slide="vg-nv-playlist-862be82c9a-slide-28" data-id="hSGlM3evfxo"></span></div>
@@ -7005,10 +7005,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-29" id="vg-nv-playlist-862be82c9a-slide-29">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" justice_v01_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Justice | 4K NVIDIA DLSS 3 Comparison" title="Justice | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-29" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-29" data-slide="vg-nv-playlist-862be82c9a-slide-29" data-id="qxXzRLiFSCw"></span></div>
@@ -7025,10 +7025,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-30" id="vg-nv-playlist-862be82c9a-slide-30">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" nfs_v02_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" title="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-30" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-30" data-slide="vg-nv-playlist-862be82c9a-slide-30" data-id="qJDec9mJgV4"></span></div>
@@ -7045,10 +7045,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-31" id="vg-nv-playlist-862be82c9a-slide-31">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ces-2023="" dlss="" dlss-thumb-large.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games Apps " title="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games Apps " class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-31" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-31" data-slide="vg-nv-playlist-862be82c9a-slide-31" data-id="GKpURmnNMoA"></span></div>
@@ -7065,10 +7065,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-32" id="vg-nv-playlist-862be82c9a-slide-32">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" msfs_v0-thumb2.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" title="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-32" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-32" data-slide="vg-nv-playlist-862be82c9a-slide-32" data-id="cJlo2I7CiD0"></span></div>
@@ -7085,10 +7085,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-33" id="vg-nv-playlist-862be82c9a-slide-33">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" gow-dlss-1280x720.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="God of War with DLSS" title="God of War with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-33" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-33" data-slide="vg-nv-playlist-862be82c9a-slide-33" data-id="K8DddlREHEE"></span></div>
@@ -7105,10 +7105,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-34" id="vg-nv-playlist-862be82c9a-slide-34">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" 220628_f1_v01-thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="F1 ® 22 | 4K NVIDIA DLSS Comparison" title="F1 ® 22 | 4K NVIDIA DLSS Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-34" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-34" data-slide="vg-nv-playlist-862be82c9a-slide-34" data-id="TZvyzK3t4Ok"></span></div>
@@ -7125,10 +7125,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-35" id="vg-nv-playlist-862be82c9a-slide-35">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" hitman-thumb-1280x720.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Hitman 3 with DLSS" title="Hitman 3 with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png" data-slide-id="vg-nv-playlist-862be82c9a-slide-35" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-35" data-slide="vg-nv-playlist-862be82c9a-slide-35" data-id="sJoWwMaYodw"></span></div>
@@ -7145,10 +7145,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-36" id="vg-nv-playlist-862be82c9a-slide-36">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" farmingsim_small.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Farming Simulator 22 with DLSS" title="Farming Simulator 22 with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-36" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-36" data-slide="vg-nv-playlist-862be82c9a-slide-36" data-id="X3judu8lLqo"></span></div>
@@ -7165,10 +7165,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-37" id="vg-nv-playlist-862be82c9a-slide-37">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" assettocorsa-small.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Assetto Corsa Competizione with DLSS" title="Assetto Corsa Competizione with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-37" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-37" data-slide="vg-nv-playlist-862be82c9a-slide-37" data-id="BWH8cwKutns"></span></div>
@@ -7185,10 +7185,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-38" id="vg-nv-playlist-862be82c9a-slide-38">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" 210713_rdr2dlss_1280x720.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Red Dead Redemption 2 with DLSS" title="Red Dead Redemption 2 with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-38" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-38" data-slide="vg-nv-playlist-862be82c9a-slide-38" data-id="k_sZG9Bao9Q"></span></div>
@@ -7205,10 +7205,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-39" id="vg-nv-playlist-862be82c9a-slide-39">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" r6r_dlss_large.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Rainbow Six Siege with DLSS" title="Rainbow Six Siege with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-39" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-39" data-slide="vg-nv-playlist-862be82c9a-slide-39" data-id="vgi-9sJW4Is"></span></div>
@@ -7225,10 +7225,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-40" id="vg-nv-playlist-862be82c9a-slide-40">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" geforce-dlss-video-cod-warzone-1070x602.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Call of Duty: Warzone With DLSS" title="Call of Duty: Warzone With DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-40" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-40" data-slide="vg-nv-playlist-862be82c9a-slide-40" data-id="XuFaBjOk4c0"></span></div>
@@ -7245,10 +7245,10 @@ background-size:cover;
         
         <div class="video-gallery-slide vg-nv-playlist-862be82c9a-slide-41" id="vg-nv-playlist-862be82c9a-slide-41">
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" geforce-dlss-video-outriders-1070x602.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg">
-            	<source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+            	<source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 <img alt="Outriders With DLSS" title="Outriders With DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg" data-slide-id="vg-nv-playlist-862be82c9a-slide-41" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-41" data-slide="vg-nv-playlist-862be82c9a-slide-41" data-id="icjLJ2EbYmk"></span></div>
@@ -7275,10 +7275,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-1" class="vg-video-item active">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-1">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-super-resolution-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="DLSS 4.5 | Enhanced Super Resolution &amp; Dynamic Multi Frame Gen" title="DLSS 4.5 | Enhanced Super Resolution &amp; Dynamic Multi Frame Gen" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-super-resolution-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-1" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-1" data-slide="vg-nv-playlist-862be82c9a-slide-1" data-id="u4cfzFd9HzU"></span>
@@ -7289,10 +7289,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-2" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-2">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="GeForce On - Resident Evil Requiem Trailer" title="GeForce On - Resident Evil Requiem Trailer" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-resident-evil-requiem-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-2" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-2" data-slide="vg-nv-playlist-862be82c9a-slide-2" data-id="u0mgOPbpagc"></span>
@@ -7303,10 +7303,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-3" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-3">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-arc-raiders-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="ARC Raiders | 4K NVIDIA DLSS 4 Trailer" title="ARC Raiders | 4K NVIDIA DLSS 4 Trailer" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-arc-raiders-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-3" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-3" data-slide="vg-nv-playlist-862be82c9a-slide-3" data-id="ub2OrMkdpYc"></span>
@@ -7317,10 +7317,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-4" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-4">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss4-battlefield6-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Battlefield 6 | 4K NVIDIA DLSS 4 Reveal" title="Battlefield 6 | 4K NVIDIA DLSS 4 Reveal" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss4-battlefield6-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-4" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-4" data-slide="vg-nv-playlist-862be82c9a-slide-4" data-id="ICJajlj_ujo"></span>
@@ -7331,10 +7331,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-5" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-5">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-explainer-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="DLSS 4 | New Multi Frame Gen Everything Enhanced" title="DLSS 4 | New Multi Frame Gen Everything Enhanced" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-explainer-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-5" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-5" data-slide="vg-nv-playlist-862be82c9a-slide-5" data-id="qQn3bsPNTyI"></span>
@@ -7345,10 +7345,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-6" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-6">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-overrides-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="DLSS 4 with DLSS Overrides in NVIDIA App" title="DLSS 4 with DLSS Overrides in NVIDIA App" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-overrides-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-6" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-6" data-slide="vg-nv-playlist-862be82c9a-slide-6" data-id="3WTr9sgMCb8"></span>
@@ -7359,10 +7359,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-7" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-7">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-doom-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" title="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-7" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-7" data-slide="vg-nv-playlist-862be82c9a-slide-7" data-id="v3q8taqRiGQ"></span>
@@ -7373,10 +7373,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-8" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-8">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="FBC: Firebreak | DLSS 4 Full Ray Tracing Reveal" title="FBC: Firebreak | DLSS 4 Full Ray Tracing Reveal" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-8" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-8" data-slide="vg-nv-playlist-862be82c9a-slide-8" data-id="gx0ni86-w-c"></span>
@@ -7387,10 +7387,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-9" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-9">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-wuchang-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" title="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-9" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-9" data-slide="vg-nv-playlist-862be82c9a-slide-9" data-id="fFzo_o8mH8w"></span>
@@ -7401,10 +7401,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-10" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-10">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-roadcraft-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="RoadCraft | 4K NVIDIA DLSS 4 Comparison" title="RoadCraft | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-10" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-10" data-slide="vg-nv-playlist-862be82c9a-slide-10" data-id="pXDtRgeXrvQ"></span>
@@ -7415,10 +7415,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-11" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-11">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" technologies="" dlss="" geforce-rtx-dlss-fragpunk-1920x1080.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="FragPunk | 4K NVIDIA DLSS 4 Comparison" title="FragPunk | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-1920x1080.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-11" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-11" data-slide="vg-nv-playlist-862be82c9a-slide-11" data-id="dXP8hCDDTOQ"></span>
@@ -7429,10 +7429,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-12" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-12">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Black Myth Wukong | DLSS 4 Launch Video" title="Black Myth Wukong | DLSS 4 Launch Video" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-black-myth-wukong-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-12" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-12" data-slide="vg-nv-playlist-862be82c9a-slide-12" data-id="k6YkuhUxETE"></span>
@@ -7443,10 +7443,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-13" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-13">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation Ray Reconstruction" title="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation Ray Reconstruction" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-indiana-jones-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-13" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-13" data-slide="vg-nv-playlist-862be82c9a-slide-13" data-id="laTPVKs0nqA"></span>
@@ -7457,10 +7457,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-14" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-14">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" title="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-marvel-rivals-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-14" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-14" data-slide="vg-nv-playlist-862be82c9a-slide-14" data-id="4JAQ29umYfU"></span>
@@ -7471,10 +7471,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-15" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-15">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" title="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-cyberpunk-2077-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-15" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-15" data-slide="vg-nv-playlist-862be82c9a-slide-15" data-id="avWMEd-H8Qg"></span>
@@ -7485,10 +7485,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-16" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-16">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" title="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-dune-awakening-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-16" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-16" data-slide="vg-nv-playlist-862be82c9a-slide-16" data-id="UjnEiP9a9kQ"></span>
@@ -7499,10 +7499,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-17" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-17">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" dlss="" geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" title="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/geforce-rtx-dlss4-video-star-wars-outlaws-1920x1080-play.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-17" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-17" data-slide="vg-nv-playlist-862be82c9a-slide-17" data-id="dR9i2WVcXTM"></span>
@@ -7513,10 +7513,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-18" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-18">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" cp2077dlss_v03_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal " title="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal " class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-18" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-18" data-slide="vg-nv-playlist-862be82c9a-slide-18" data-id="oMCC9TgsCDY"></span>
@@ -7527,10 +7527,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-19" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-19">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" aw2_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere " title="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere " class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-19" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-19" data-slide="vg-nv-playlist-862be82c9a-slide-19" data-id="HwGbQwoMCxM"></span>
@@ -7541,10 +7541,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-20" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-20">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" dlss3_5_techtalk_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" title="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-20" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-20" data-slide="vg-nv-playlist-862be82c9a-slide-20" data-id="sGKCrcNsVzo"></span>
@@ -7555,10 +7555,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-21" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-21">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" ratchetclank_v05_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Ratchet Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" title="Ratchet Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-21" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-21" data-slide="vg-nv-playlist-862be82c9a-slide-21" data-id="F6BWctU2n5g"></span>
@@ -7569,10 +7569,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-22" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-22">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" 221011_dlss3-thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="What is NVIDIA DLSS 3? | The Performance Multiplier" title="What is NVIDIA DLSS 3? | The Performance Multiplier" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-22" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-22" data-slide="vg-nv-playlist-862be82c9a-slide-22" data-id="pSiczcJgY1s"></span>
@@ -7583,10 +7583,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-23" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-23">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" warhammer_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" title="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-23" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-23" data-slide="vg-nv-playlist-862be82c9a-slide-23" data-id="a5oSMqe4a-Y"></span>
@@ -7597,10 +7597,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-24" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-24">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" 221122_spiderman-thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" title="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-24" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-24" data-slide="vg-nv-playlist-862be82c9a-slide-24" data-id="L41_LhVuBPU"></span>
@@ -7611,10 +7611,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-25" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-25">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" thefinals_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" title="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-25" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-25" data-slide="vg-nv-playlist-862be82c9a-slide-25" data-id="IQcoRHW3los"></span>
@@ -7625,10 +7625,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-26" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-26">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" dyinglight_v01_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" title="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-26" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-26" data-slide="vg-nv-playlist-862be82c9a-slide-26" data-id="3qWr_BYLsZo"></span>
@@ -7639,10 +7639,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-27" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-27">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" hitman_v04_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" title="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-27" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-27" data-slide="vg-nv-playlist-862be82c9a-slide-27" data-id="y67wq6b0-HY"></span>
@@ -7653,10 +7653,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-28" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-28">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" fist_v02_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Comparison" title="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-28" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-28" data-slide="vg-nv-playlist-862be82c9a-slide-28" data-id="hSGlM3evfxo"></span>
@@ -7667,10 +7667,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-29" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-29">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" justice_v01_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Justice | 4K NVIDIA DLSS 3 Comparison" title="Justice | 4K NVIDIA DLSS 3 Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-29" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-29" data-slide="vg-nv-playlist-862be82c9a-slide-29" data-id="qxXzRLiFSCw"></span>
@@ -7681,10 +7681,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-30" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-30">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" nfs_v02_thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" title="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-30" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-30" data-slide="vg-nv-playlist-862be82c9a-slide-30" data-id="qJDec9mJgV4"></span>
@@ -7695,10 +7695,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-31" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-31">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ces-2023="" dlss="" dlss-thumb-large.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games Apps " title="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games Apps " class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS-Thumb-large.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-31" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-31" data-slide="vg-nv-playlist-862be82c9a-slide-31" data-id="GKpURmnNMoA"></span>
@@ -7709,10 +7709,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-32" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-32">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" msfs_v0-thumb2.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" title="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v0-thumb2.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-32" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-32" data-slide="vg-nv-playlist-862be82c9a-slide-32" data-id="cJlo2I7CiD0"></span>
@@ -7723,10 +7723,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-33" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-33">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" technologies="" dlss="" gow-dlss-1280x720.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="God of War with DLSS" title="God of War with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-1280x720.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-33" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-33" data-slide="vg-nv-playlist-862be82c9a-slide-33" data-id="K8DddlREHEE"></span>
@@ -7737,10 +7737,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-34" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-34">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" 220628_f1_v01-thumb.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="F1 ® 22 | 4K NVIDIA DLSS Comparison" title="F1 ® 22 | 4K NVIDIA DLSS Comparison" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01-thumb.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-34" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-34" data-slide="vg-nv-playlist-862be82c9a-slide-34" data-id="TZvyzK3t4Ok"></span>
@@ -7751,10 +7751,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-35" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-35">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" hitman-thumb-1280x720.png"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Hitman 3 with DLSS" title="Hitman 3 with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-1280x720.png" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-35" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-35" data-slide="vg-nv-playlist-862be82c9a-slide-35" data-id="sJoWwMaYodw"></span>
@@ -7765,10 +7765,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-36" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-36">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" farmingsim_small.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Farming Simulator 22 with DLSS" title="Farming Simulator 22 with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-36" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-36" data-slide="vg-nv-playlist-862be82c9a-slide-36" data-id="X3judu8lLqo"></span>
@@ -7779,10 +7779,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-37" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-37">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" assettocorsa-small.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Assetto Corsa Competizione with DLSS" title="Assetto Corsa Competizione with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-37" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-37" data-slide="vg-nv-playlist-862be82c9a-slide-37" data-id="BWH8cwKutns"></span>
@@ -7793,10 +7793,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-38" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-38">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" 210713_rdr2dlss_1280x720.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Red Dead Redemption 2 with DLSS" title="Red Dead Redemption 2 with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_1280x720.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-38" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-38" data-slide="vg-nv-playlist-862be82c9a-slide-38" data-id="k_sZG9Bao9Q"></span>
@@ -7807,10 +7807,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-39" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-39">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" r6r_dlss_large.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Rainbow Six Siege with DLSS" title="Rainbow Six Siege with DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6R_DLSS_Large.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-39" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-39" data-slide="vg-nv-playlist-862be82c9a-slide-39" data-id="vgi-9sJW4Is"></span>
@@ -7821,10 +7821,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-40" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-40">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" geforce-dlss-video-cod-warzone-1070x602.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Call of Duty: Warzone With DLSS" title="Call of Duty: Warzone With DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-1070x602.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-40" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-40" data-slide="vg-nv-playlist-862be82c9a-slide-40" data-id="XuFaBjOk4c0"></span>
@@ -7835,10 +7835,10 @@ background-size:cover;
         <label for="vg-nv-playlist-862be82c9a-radio-41" class="vg-video-item ">
            <div class="vg-video-item-image" id="vg-nv-playlist-862be82c9a-thumbnail-41">
                 <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dlss-2-0="" game-logos="" geforce-dlss-video-outriders-1070x602.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg">
-                    <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                    <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                    <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                    <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                    <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                    <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                    <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                    <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                     <img alt="Outriders With DLSS" title="Outriders With DLSS" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-1070x602.jpg" data-thumbnail-id="vg-nv-playlist-862be82c9a-thumbnail-41" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-862be82c9a-radio-41" data-slide="vg-nv-playlist-862be82c9a-slide-41" data-id="icjLJ2EbYmk"></span>
@@ -9420,7 +9420,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">DLSS 4.5 explainer video</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="https://www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="./assets/www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9438,7 +9438,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">DLSS 4.5 game video #1</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="https://www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="./assets/www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9456,7 +9456,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">DLSS 4.5 game video #2</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="https://www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="./assets/www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9474,7 +9474,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">DLSS 4.5 game video #3</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="https://www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="./assets/www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9492,7 +9492,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">DLSS 4 | New Multi Frame Gen &nbsp; Everything Enhanced</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="https://www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qQn3bsPNTyI" data-val="./assets/www.youtube.com/watch?v=qQn3bsPNTyI?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9510,7 +9510,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">DLSS 4 with DLSS Overrides in NVIDIA App</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="3WTr9sgMCb8" data-val="https://www.youtube.com/watch?v=3WTr9sgMCb8?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="3WTr9sgMCb8" data-val="./assets/www.youtube.com/watch?v=3WTr9sgMCb8?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9528,7 +9528,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4</em></h3> 
        <div class="links">
-        <a href="javascript:;" data-id="v3q8taqRiGQ" data-val="https://www.youtube.com/watch?v=v3q8taqRiGQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="v3q8taqRiGQ" data-val="./assets/www.youtube.com/watch?v=v3q8taqRiGQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9546,7 +9546,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>FBC: Firebreak | DLSS 4 &nbsp; Full Ray Tracing Reveal</em></h3> 
        <div class="links">
-        <a href="javascript:;" data-id="gx0ni86-w-c" data-val="https://www.youtube.com/watch?v=gx0ni86-w-c?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="gx0ni86-w-c" data-val="./assets/www.youtube.com/watch?v=gx0ni86-w-c?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9564,7 +9564,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison</em></h3> 
        <div class="links">
-        <a href="javascript:;" data-id="fFzo_o8mH8w" data-val="https://www.youtube.com/watch?v=fFzo_o8mH8w?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="fFzo_o8mH8w" data-val="./assets/www.youtube.com/watch?v=fFzo_o8mH8w?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9582,7 +9582,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>RoadCraft | 4K NVIDIA DLSS 4 Comparison</em></h3> 
        <div class="links">
-        <a href="javascript:;" data-id="pXDtRgeXrvQ" data-val="https://www.youtube.com/watch?v=pXDtRgeXrvQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="pXDtRgeXrvQ" data-val="./assets/www.youtube.com/watch?v=pXDtRgeXrvQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9600,7 +9600,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>FragPunk | 4K NVIDIA DLSS 4 Comparison</em></h3> 
        <div class="links">
-        <a href="javascript:;" data-id="dXP8hCDDTOQ" data-val="https://www.youtube.com/watch?v=dXP8hCDDTOQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="dXP8hCDDTOQ" data-val="./assets/www.youtube.com/watch?v=dXP8hCDDTOQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9618,7 +9618,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>Black Myth Wukong</em> | DLSS 4 Launch Video</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="k6YkuhUxETE" data-val="https://www.youtube.com/watch?v=k6YkuhUxETE?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="k6YkuhUxETE" data-val="./assets/www.youtube.com/watch?v=k6YkuhUxETE?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9636,7 +9636,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>Indiana Jones and the Great Circle™</em> | DLSS 4 with Multi Frame Generation &nbsp; Ray Reconstruction</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="laTPVKs0nqA" data-val="https://www.youtube.com/watch?v=laTPVKs0nqA?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="laTPVKs0nqA" data-val="./assets/www.youtube.com/watch?v=laTPVKs0nqA?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9654,7 +9654,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>Marvel Rivals</em> | 4K NVIDIA DLSS 4 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="4JAQ29umYfU" data-val="https://www.youtube.com/watch?v=4JAQ29umYfU?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="4JAQ29umYfU" data-val="./assets/www.youtube.com/watch?v=4JAQ29umYfU?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9672,7 +9672,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>Cyberpunk 2077</em> | 4K NVIDIA DLSS 4 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="avWMEd-H8Qg" data-val="https://www.youtube.com/watch?v=avWMEd-H8Qg?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="avWMEd-H8Qg" data-val="./assets/www.youtube.com/watch?v=avWMEd-H8Qg?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9690,7 +9690,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>Dune: Awakening</em> | 4K NVIDIA DLSS 4 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="UjnEiP9a9kQ" data-val="https://www.youtube.com/watch?v=UjnEiP9a9kQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="UjnEiP9a9kQ" data-val="./assets/www.youtube.com/watch?v=UjnEiP9a9kQ?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9708,7 +9708,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"><em>Star Wars™ Outlaws</em> | DLSS 4 with Multi Frame Generation</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="dR9i2WVcXTM" data-val="https://www.youtube.com/watch?v=dR9i2WVcXTM?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="dR9i2WVcXTM" data-val="./assets/www.youtube.com/watch?v=dR9i2WVcXTM?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9726,7 +9726,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="oMCC9TgsCDY" data-val="https://www.youtube.com/embed/oMCC9TgsCDY?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="oMCC9TgsCDY" data-val="./assets/www.youtube.com/embed/oMCC9TgsCDY?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9744,7 +9744,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="HwGbQwoMCxM" data-val="https://www.youtube.com/embed/HwGbQwoMCxM?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="HwGbQwoMCxM" data-val="./assets/www.youtube.com/embed/HwGbQwoMCxM?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9762,7 +9762,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="sGKCrcNsVzo" data-val="https://www.youtube.com/embed/sGKCrcNsVzo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="sGKCrcNsVzo" data-val="./assets/www.youtube.com/embed/sGKCrcNsVzo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9780,7 +9780,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Ratchet &nbsp; Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="F6BWctU2n5g" data-val="https://www.youtube.com/embed/F6BWctU2n5g?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="F6BWctU2n5g" data-val="./assets/www.youtube.com/embed/F6BWctU2n5g?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9798,7 +9798,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">What is NVIDIA DLSS 3? | The Performance Multiplier</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="pSiczcJgY1s" data-val="https://www.youtube.com/embed/pSiczcJgY1s?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="pSiczcJgY1s" data-val="./assets/www.youtube.com/embed/pSiczcJgY1s?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9816,7 +9816,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Warhammer 40,000: Darktide | 4K DLSS 3 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="a5oSMqe4a-Y" data-val="https://www.youtube.com/embed/a5oSMqe4a-Y?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="a5oSMqe4a-Y" data-val="./assets/www.youtube.com/embed/a5oSMqe4a-Y?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9834,7 +9834,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="L41_LhVuBPU" data-val="https://www.youtube.com/embed/L41_LhVuBPU?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="L41_LhVuBPU" data-val="./assets/www.youtube.com/embed/L41_LhVuBPU?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9852,7 +9852,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="IQcoRHW3los" data-val="https://www.youtube.com/embed/IQcoRHW3los?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="IQcoRHW3los" data-val="./assets/www.youtube.com/embed/IQcoRHW3los?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9870,7 +9870,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="3qWr_BYLsZo" data-val="https://www.youtube.com/embed/3qWr_BYLsZo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="3qWr_BYLsZo" data-val="./assets/www.youtube.com/embed/3qWr_BYLsZo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9888,7 +9888,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Hitman 3 | 4K NVIDIA DLSS 3 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="y67wq6b0-HY" data-val="https://www.youtube.com/embed/y67wq6b0-HY?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="y67wq6b0-HY" data-val="./assets/www.youtube.com/embed/y67wq6b0-HY?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9906,7 +9906,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Compariso</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="hSGlM3evfxo" data-val="https://www.youtube.com/embed/hSGlM3evfxo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="hSGlM3evfxo" data-val="./assets/www.youtube.com/embed/hSGlM3evfxo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9924,7 +9924,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Justice | 4K NVIDIA DLSS 3 Comparison</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qxXzRLiFSCw" data-val="https://www.youtube.com/embed/qxXzRLiFSCw?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qxXzRLiFSCw" data-val="./assets/www.youtube.com/embed/qxXzRLiFSCw?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9942,7 +9942,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal</h3> 
        <div class="links">
-        <a href="javascript:;" data-id="qJDec9mJgV4" data-val="https://www.youtube.com/embed/qJDec9mJgV4?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="qJDec9mJgV4" data-val="./assets/www.youtube.com/embed/qJDec9mJgV4?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9960,7 +9960,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games &nbsp; Apps </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="GKpURmnNMoA" data-val="https://www.youtube.com/embed/GKpURmnNMoA?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="GKpURmnNMoA" data-val="./assets/www.youtube.com/embed/GKpURmnNMoA?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9978,7 +9978,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title">Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="cJlo2I7CiD0" data-val="https://www.youtube.com/embed/cJlo2I7CiD0?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="cJlo2I7CiD0" data-val="./assets/www.youtube.com/embed/cJlo2I7CiD0?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -9996,7 +9996,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> God of War with DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="K8DddlREHEE" data-val="https://www.youtube.com/embed/K8DddlREHEE?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="K8DddlREHEE" data-val="./assets/www.youtube.com/embed/K8DddlREHEE?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10014,7 +10014,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> F1 <sup>®</sup> 22 | 4K NVIDIA DLSS Comparison </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="TZvyzK3t4Ok" data-val="https://www.youtube.com/embed/TZvyzK3t4Ok?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="TZvyzK3t4Ok" data-val="./assets/www.youtube.com/embed/TZvyzK3t4Ok?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10032,7 +10032,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Hitman 3 with DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="sJoWwMaYodw" data-val="https://www.youtube.com/embed/sJoWwMaYodw?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="sJoWwMaYodw" data-val="./assets/www.youtube.com/embed/sJoWwMaYodw?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10050,7 +10050,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Farming Simulator 22 with DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="X3judu8lLqo" data-val="https://www.youtube.com/embed/X3judu8lLqo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="X3judu8lLqo" data-val="./assets/www.youtube.com/embed/X3judu8lLqo?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10068,7 +10068,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Assetto Corsa Competizione with DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="BWH8cwKutns" data-val="https://www.youtube.com/embed/BWH8cwKutns?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="BWH8cwKutns" data-val="./assets/www.youtube.com/embed/BWH8cwKutns?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10086,7 +10086,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Red Dead Redemption 2 with DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="k_sZG9Bao9Q" data-val="https://www.youtube.com/embed/k_sZG9Bao9Q?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="k_sZG9Bao9Q" data-val="./assets/www.youtube.com/embed/k_sZG9Bao9Q?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10104,7 +10104,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Rainbow Six Siege with DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="vgi-9sJW4Is" data-val="https://www.youtube.com/embed/vgi-9sJW4Is?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="vgi-9sJW4Is" data-val="./assets/www.youtube.com/embed/vgi-9sJW4Is?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10122,7 +10122,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Call of Duty: Warzone With DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="XuFaBjOk4c0" data-val="https://www.youtube.com/embed/XuFaBjOk4c0?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="XuFaBjOk4c0" data-val="./assets/www.youtube.com/embed/XuFaBjOk4c0?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10140,7 +10140,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Outriders With DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="icjLJ2EbYmk" data-val="https://www.youtube.com/embed/icjLJ2EbYmk?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="icjLJ2EbYmk" data-val="./assets/www.youtube.com/embed/icjLJ2EbYmk?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10158,7 +10158,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Cyberpunk 2077 With DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="a6IYyAPfB8Y" data-val="https://www.youtube.com/embed/a6IYyAPfB8Y?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="a6IYyAPfB8Y" data-val="./assets/www.youtube.com/embed/a6IYyAPfB8Y?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10176,7 +10176,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Fortnite With DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="i5WuzatxKzM" data-val="https://www.youtube.com/embed/i5WuzatxKzM?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="i5WuzatxKzM" data-val="./assets/www.youtube.com/embed/i5WuzatxKzM?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10194,7 +10194,7 @@ i.previous{left:-2.75%;}
       <div class="col-12"> 
        <h3 class="title"> Call of Duty: Black Ops Cold War With DLSS </h3> 
        <div class="links">
-        <a href="javascript:;" data-id="-G6sKZSxGP8" data-val="https://www.youtube.com/embed/-G6sKZSxGP8?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="-G6sKZSxGP8" data-val="./assets/www.youtube.com/embed/-G6sKZSxGP8?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10214,7 +10214,7 @@ i.previous{left:-2.75%;}
                         <p class="subtitle-tag">Dec 19, 2019</p>
                     </h4>--> 
        <div class="links">
-        <a href="javascript:;" data-id="xyJxRRc3Pa0" data-val="https://www.youtube.com/embed/xyJxRRc3Pa0?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
+        <a href="javascript:;" data-id="xyJxRRc3Pa0" data-val="./assets/www.youtube.com/embed/xyJxRRc3Pa0?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" class="button play-button showplayer">Play</a>
        </div> 
       </div> 
      </div> 
@@ -10227,7 +10227,7 @@ i.previous{left:-2.75%;}
       <div id="ytplayer"></div> 
       <button class="vjs-custom-button" type="button" aria-live="polite" aria-disabled="false"><span class=" aria-live=" polite"="">Next Video will Start in <b class="countdowntimer">-</b>s</span></button> 
       <!--<button class="playflix-button" type="button" aria-live="polite" aria-disabled="false" data-label="Next Video" data-icon="▶︎"><span class="vjs-control-text"></span></button>--> 
-      <!--<iframe class="yt_player_iframe" allow="autoplay; encrypted-media" frameborder="0" src="https://www.youtube.com/embed/x-kwlaKKhp4?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" allowfullscreen=" class="embed-responsive-item"></iframe>--> 
+      <!--<iframe class="yt_player_iframe" allow="autoplay; encrypted-media" frameborder="0" src="./assets/www.youtube.com/embed/x-kwlaKKhp4?modestbranding=1&amp;rel=0&amp;theme=light&amp;color=white" allowfullscreen=" class="embed-responsive-item"></iframe>--> 
      </div> 
     </div> 
    </div> 
@@ -10245,7 +10245,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 explainer video" title="DLSS 4.5 explainer video" data-analytics="digitalkeynote-video0" data-video="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-val="0"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 explainer video" title="DLSS 4.5 explainer video" data-analytics="digitalkeynote-video0" data-video="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-val="0"> 
        </div> 
        <div class="videoInfo">
         DLSS 4.5 explainer video
@@ -10256,7 +10256,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 game video #1" title="DLSS 4.5 game video #1" data-analytics="digitalkeynote-video1" data-video="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-val="1"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 game video #1" title="DLSS 4.5 game video #1" data-analytics="digitalkeynote-video1" data-video="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-val="1"> 
        </div> 
        <div class="videoInfo">
         DLSS 4.5 game video #1
@@ -10267,7 +10267,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 game video #2" title="DLSS 4.5 game video #2" data-analytics="digitalkeynote-video2" data-video="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-val="2"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 game video #2" title="DLSS 4.5 game video #2" data-analytics="digitalkeynote-video2" data-video="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-val="2"> 
        </div> 
        <div class="videoInfo">
         DLSS 4.5 game video #2
@@ -10278,7 +10278,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 game video #3" title="DLSS 4.5 game video #3" data-analytics="digitalkeynote-video3" data-video="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-val="3"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4.5 game video #3" title="DLSS 4.5 game video #3" data-analytics="digitalkeynote-video3" data-video="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-val="3"> 
        </div> 
        <div class="videoInfo">
         DLSS 4.5 game video #3
@@ -10289,7 +10289,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4 | New Multi Frame Gen &amp; Everything Enhanced" title="DLSS 4 | New Multi Frame Gen &amp; Everything Enhanced" data-analytics="digitalkeynote-video4" data-video="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="https://www.youtube.com/watch?v=qQn3bsPNTyI" data-val="4"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-explainer-300x169-play.png" alt="DLSS 4 | New Multi Frame Gen &amp; Everything Enhanced" title="DLSS 4 | New Multi Frame Gen &amp; Everything Enhanced" data-analytics="digitalkeynote-video4" data-video="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-lowvideo="./assets/www.youtube.com/watch?v=qQn3bsPNTyI" data-val="4"> 
        </div> 
        <div class="videoInfo">
         DLSS 4 | New Multi Frame Gen &nbsp; Everything Enhanced
@@ -10300,7 +10300,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-overrides-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-overrides-300x169-play.png" alt="DLSS 4 with DLSS Overrides in NVIDIA App" title="DLSS 4 with DLSS Overrides in NVIDIA App" data-analytics="digitalkeynote-video5" data-video="https://www.youtube.com/watch?v=3WTr9sgMCb8" data-lowvideo="https://www.youtube.com/watch?v=3WTr9sgMCb8" data-val="5"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-overrides-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-overrides-300x169-play.png" alt="DLSS 4 with DLSS Overrides in NVIDIA App" title="DLSS 4 with DLSS Overrides in NVIDIA App" data-analytics="digitalkeynote-video5" data-video="./assets/www.youtube.com/watch?v=3WTr9sgMCb8" data-lowvideo="./assets/www.youtube.com/watch?v=3WTr9sgMCb8" data-val="5"> 
        </div> 
        <div class="videoInfo">
         DLSS 4 with DLSS Overrides in NVIDIA App
@@ -10311,7 +10311,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-thumb-300x169@2x.jpg" alt="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" title="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" data-analytics="digitalkeynote-video40" data-video="https://www.youtube.com/watch?v=v3q8taqRiGQ" data-lowvideo="https://www.youtube.com/watch?v=v3q8taqRiGQ" data-val="40"> 
+        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-doom-thumb-300x169@2x.jpg" alt="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" title="DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4" data-analytics="digitalkeynote-video40" data-video="./assets/www.youtube.com/watch?v=v3q8taqRiGQ" data-lowvideo="./assets/www.youtube.com/watch?v=v3q8taqRiGQ" data-val="40"> 
        </div> 
        <div class="videoInfo">
         DOOM: The Dark Ages | 4K RTX Launch Trailer with Ray Tracing and DLSS 4
@@ -10322,7 +10322,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-thumb-300x169@2x.jpg" alt="FBC: Firebreak | DLSS 4 &amp; Full Ray Tracing Reveal" title="FBC: Firebreak | DLSS 4 &amp; Full Ray Tracing Reveal" data-analytics="digitalkeynote-video41" data-video="https://www.youtube.com/watch?v=gx0ni86-w-c" data-lowvideo="https://www.youtube.com/watch?v=gx0ni86-w-c" data-val="41"> 
+        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fbc-firebreak-thumb-300x169@2x.jpg" alt="FBC: Firebreak | DLSS 4 &amp; Full Ray Tracing Reveal" title="FBC: Firebreak | DLSS 4 &amp; Full Ray Tracing Reveal" data-analytics="digitalkeynote-video41" data-video="./assets/www.youtube.com/watch?v=gx0ni86-w-c" data-lowvideo="./assets/www.youtube.com/watch?v=gx0ni86-w-c" data-val="41"> 
        </div> 
        <div class="videoInfo">
         FBC: Firebreak | DLSS 4 &nbsp; Full Ray Tracing Reveal
@@ -10333,7 +10333,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-thumb-300x169@2x.jpg" alt="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" title="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video42" data-video="https://www.youtube.com/watch?v=fFzo_o8mH8w" data-lowvideo="https://www.youtube.com/watch?v=fFzo_o8mH8w" data-val="42"> 
+        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-wuchang-thumb-300x169@2x.jpg" alt="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" title="WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video42" data-video="./assets/www.youtube.com/watch?v=fFzo_o8mH8w" data-lowvideo="./assets/www.youtube.com/watch?v=fFzo_o8mH8w" data-val="42"> 
        </div> 
        <div class="videoInfo">
         WUCHANG: Fallen Feathers | 4K NVIDIA DLSS 4 Comparison
@@ -10344,7 +10344,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roaccraft-thumb-300x169@2x.jpg" alt="RoadCraft | 4K NVIDIA DLSS 4 Comparison" title="RoadCraft | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video43" data-video="https://www.youtube.com/watch?v=pXDtRgeXrvQ" data-lowvideo="https://www.youtube.com/watch?v=pXDtRgeXrvQ" data-val="43"> 
+        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roadcraft-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-roaccraft-thumb-300x169@2x.jpg" alt="RoadCraft | 4K NVIDIA DLSS 4 Comparison" title="RoadCraft | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video43" data-video="./assets/www.youtube.com/watch?v=pXDtRgeXrvQ" data-lowvideo="./assets/www.youtube.com/watch?v=pXDtRgeXrvQ" data-val="43"> 
        </div> 
        <div class="videoInfo">
         RoadCraft | 4K NVIDIA DLSS 4 Comparison
@@ -10355,7 +10355,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-thumb-300x169@2x.jpg" alt="FragPunk | 4K NVIDIA DLSS 4 Comparison" title="FragPunk | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video44" data-video="https://www.youtube.com/watch?v=dXP8hCDDTOQ" data-lowvideo="https://www.youtube.com/watch?v=dXP8hCDDTOQ" data-val="44"> 
+        <img class="image_height" data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-thumb-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-rtx-dlss-fragpunk-thumb-300x169@2x.jpg" alt="FragPunk | 4K NVIDIA DLSS 4 Comparison" title="FragPunk | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video44" data-video="./assets/www.youtube.com/watch?v=dXP8hCDDTOQ" data-lowvideo="./assets/www.youtube.com/watch?v=dXP8hCDDTOQ" data-val="44"> 
        </div> 
        <div class="videoInfo">
         FragPunk | 4K NVIDIA DLSS 4 Comparison
@@ -10366,7 +10366,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-black-myth-wukong-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-black-myth-wukong-300x169-play.png" alt="Black Myth Wukong | DLSS 4 Launch Video" title="Black Myth Wukong | DLSS 4 Launch Video" data-analytics="digitalkeynote-video6" data-video="https://www.youtube.com/watch?v=k6YkuhUxETE" data-lowvideo="https://www.youtube.com/watch?v=k6YkuhUxETE" data-val="6"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-black-myth-wukong-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-black-myth-wukong-300x169-play.png" alt="Black Myth Wukong | DLSS 4 Launch Video" title="Black Myth Wukong | DLSS 4 Launch Video" data-analytics="digitalkeynote-video6" data-video="./assets/www.youtube.com/watch?v=k6YkuhUxETE" data-lowvideo="./assets/www.youtube.com/watch?v=k6YkuhUxETE" data-val="6"> 
        </div> 
        <div class="videoInfo">
         <em>Black Myth Wukong</em> | DLSS 4 Launch Video
@@ -10377,7 +10377,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-indiana-jones-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-indiana-jones-300x169-play.png" alt="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation &amp; Ray Reconstruction" title="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation &amp; Ray Reconstruction" data-analytics="digitalkeynote-video7" data-video="https://www.youtube.com/watch?v=laTPVKs0nqA" data-lowvideo="https://www.youtube.com/watch?v=laTPVKs0nqA" data-val="7"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-indiana-jones-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-indiana-jones-300x169-play.png" alt="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation &amp; Ray Reconstruction" title="Indiana Jones and the Great Circle™ | DLSS 4 with Multi Frame Generation &amp; Ray Reconstruction" data-analytics="digitalkeynote-video7" data-video="./assets/www.youtube.com/watch?v=laTPVKs0nqA" data-lowvideo="./assets/www.youtube.com/watch?v=laTPVKs0nqA" data-val="7"> 
        </div> 
        <div class="videoInfo">
         <em>Indiana Jones and the Great Circle™</em> | DLSS 4 with Multi Frame Generation &nbsp; Ray Reconstruction
@@ -10388,7 +10388,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-marvel-rivals-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-marvel-rivals-300x169-play.png" alt="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" title="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video8" data-video="https://www.youtube.com/watch?v=4JAQ29umYfU" data-lowvideo="https://www.youtube.com/watch?v=4JAQ29umYfU" data-val="8"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-marvel-rivals-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-marvel-rivals-300x169-play.png" alt="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" title="Marvel Rivals | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video8" data-video="./assets/www.youtube.com/watch?v=4JAQ29umYfU" data-lowvideo="./assets/www.youtube.com/watch?v=4JAQ29umYfU" data-val="8"> 
        </div> 
        <div class="videoInfo">
         <em>Marvel Rivals</em> | 4K NVIDIA DLSS 4 Comparison
@@ -10399,7 +10399,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-cyberpunk-2077-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-cyberpunk-2077-300x169-play.png" alt="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" title="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video9" data-video="https://www.youtube.com/watch?v=avWMEd-H8Qg" data-lowvideo="https://www.youtube.com/watch?v=avWMEd-H8Qg" data-val="9"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-cyberpunk-2077-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-cyberpunk-2077-300x169-play.png" alt="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" title="Cyberpunk 2077 | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video9" data-video="./assets/www.youtube.com/watch?v=avWMEd-H8Qg" data-lowvideo="./assets/www.youtube.com/watch?v=avWMEd-H8Qg" data-val="9"> 
        </div> 
        <div class="videoInfo">
         <em>Cyberpunk 2077</em> | 4K NVIDIA DLSS 4 Comparison
@@ -10410,7 +10410,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-dune-awakening-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-dune-awakening-300x169-play.png" alt="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" title="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video10" data-video="https://www.youtube.com/watch?v=UjnEiP9a9kQ" data-lowvideo="https://www.youtube.com/watch?v=UjnEiP9a9kQ" data-val="10"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-dune-awakening-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-dune-awakening-300x169-play.png" alt="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" title="Dune: Awakening | 4K NVIDIA DLSS 4 Comparison" data-analytics="digitalkeynote-video10" data-video="./assets/www.youtube.com/watch?v=UjnEiP9a9kQ" data-lowvideo="./assets/www.youtube.com/watch?v=UjnEiP9a9kQ" data-val="10"> 
        </div> 
        <div class="videoInfo">
         <em>Dune: Awakening</em> | 4K NVIDIA DLSS 4 Comparison
@@ -10421,7 +10421,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-star-wars-outlaws-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-star-wars-outlaws-300x169-play.png" alt="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" title="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" data-analytics="digitalkeynote-video11" data-video="https://www.youtube.com/watch?v=dR9i2WVcXTM" data-lowvideo="https://www.youtube.com/watch?v=dR9i2WVcXTM" data-val="11"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-star-wars-outlaws-300x169-play.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/dlss/thumbnails/geforce-rtx-dlss4-video-star-wars-outlaws-300x169-play.png" alt="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" title="Star Wars™ Outlaws | DLSS 4 with Multi Frame Generation" data-analytics="digitalkeynote-video11" data-video="./assets/www.youtube.com/watch?v=dR9i2WVcXTM" data-lowvideo="./assets/www.youtube.com/watch?v=dR9i2WVcXTM" data-val="11"> 
        </div> 
        <div class="videoInfo">
         <em>Star Wars™ Outlaws</em> | DLSS 4 with Multi Frame Generation
@@ -10432,7 +10432,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb-300x169.jpg" alt="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal" title="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal" data-analytics="digitalkeynote-video12" data-video="https://www.youtube.com/watch?v=oMCC9TgsCDY" data-lowvideo="https://www.youtube.com/watch?v=oMCC9TgsCDY" data-val="12"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/CP2077DLSS_v03_Thumb-300x169.jpg" alt="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal" title="Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal" data-analytics="digitalkeynote-video12" data-video="./assets/www.youtube.com/watch?v=oMCC9TgsCDY" data-lowvideo="./assets/www.youtube.com/watch?v=oMCC9TgsCDY" data-val="12"> 
        </div> 
        <div class="videoInfo">
         Cyberpunk 2077: Phantom Liberty | 4K DLSS 3.5 Gameplay Reveal&nbsp;
@@ -10443,7 +10443,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/AW2_v04_Thumb-300x169.jpg" alt="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere" title="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere" data-analytics="digitalkeynote-video13" data-video="https://www.youtube.com/watch?v=HwGbQwoMCxM" data-lowvideo="https://www.youtube.com/watch?v=HwGbQwoMCxM" data-val="13"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/AW2_v04_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/AW2_v04_Thumb-300x169.jpg" alt="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere" title="Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere" data-analytics="digitalkeynote-video13" data-video="./assets/www.youtube.com/watch?v=HwGbQwoMCxM" data-lowvideo="./assets/www.youtube.com/watch?v=HwGbQwoMCxM" data-val="13"> 
        </div> 
        <div class="videoInfo">
         Alan Wake 2 | 4K NVIDIA DLSS 3.5 World Premiere&nbsp;
@@ -10454,7 +10454,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb-300x169.jpg" alt="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" title="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" data-analytics="digitalkeynote-video14" data-video="https://www.youtube.com/watch?v=sGKCrcNsVzo" data-lowvideo="https://www.youtube.com/watch?v=sGKCrcNsVzo" data-val="14"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/DLSS3_5_TechTalk_Thumb-300x169.jpg" alt="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" title="NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI" data-analytics="digitalkeynote-video14" data-video="./assets/www.youtube.com/watch?v=sGKCrcNsVzo" data-lowvideo="./assets/www.youtube.com/watch?v=sGKCrcNsVzo" data-val="14"> 
        </div> 
        <div class="videoInfo">
         NVIDIA DLSS 3.5 | New Ray Reconstruction Enhances Ray Tracing with AI
@@ -10465,7 +10465,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb-300x169.jpg" alt="Ratchet &amp; Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" title="Ratchet &amp; Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" data-analytics="digitalkeynote-video15" data-video="https://www.youtube.com/watch?v=F6BWctU2n5g" data-lowvideo="https://www.youtube.com/watch?v=F6BWctU2n5g" data-val="15"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/RatchetClank_v05_Thumb-300x169.jpg" alt="Ratchet &amp; Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" title="Ratchet &amp; Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison" data-analytics="digitalkeynote-video15" data-video="./assets/www.youtube.com/watch?v=F6BWctU2n5g" data-lowvideo="./assets/www.youtube.com/watch?v=F6BWctU2n5g" data-val="15"> 
        </div> 
        <div class="videoInfo">
         Ratchet &nbsp; Clank: Rift Apart | 4K DLSS 3 Gameplay Comparison
@@ -10476,7 +10476,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb-300x169.jpg" alt="What is NVIDIA DLSS 3? | The Performance Multiplier" title="What is NVIDIA DLSS 3? | The Performance Multiplier" data-analytics="digitalkeynote-video16" data-video="https://www.youtube.com/watch?v=pSiczcJgY1s" data-lowvideo="https://www.youtube.com/watch?v=pSiczcJgY1s" data-val="16"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/221011_DLSS3-thumb-300x169.jpg" alt="What is NVIDIA DLSS 3? | The Performance Multiplier" title="What is NVIDIA DLSS 3? | The Performance Multiplier" data-analytics="digitalkeynote-video16" data-video="./assets/www.youtube.com/watch?v=pSiczcJgY1s" data-lowvideo="./assets/www.youtube.com/watch?v=pSiczcJgY1s" data-val="16"> 
        </div> 
        <div class="videoInfo">
         What is NVIDIA DLSS 3? | The Performance Multiplier
@@ -10487,7 +10487,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb-300x169.jpg" alt="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" title="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" data-analytics="digitalkeynote-video17" data-video="https://www.youtube.com/watch?v=a5oSMqe4a-Y" data-lowvideo="https://www.youtube.com/watch?v=a5oSMqe4a-Y" data-val="17"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Warhammer_v04_Thumb-300x169.jpg" alt="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" title="Warhammer 40,000: Darktide | 4K DLSS 3 Comparison" data-analytics="digitalkeynote-video17" data-video="./assets/www.youtube.com/watch?v=a5oSMqe4a-Y" data-lowvideo="./assets/www.youtube.com/watch?v=a5oSMqe4a-Y" data-val="17"> 
        </div> 
        <div class="videoInfo">
         Warhammer 40,000: Darktide | 4K DLSS 3 Comparison
@@ -10498,7 +10498,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb-300x169.jpg" alt="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" title="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video18" data-video="https://www.youtube.com/watch?v=L41_LhVuBPU" data-lowvideo="https://www.youtube.com/watch?v=L41_LhVuBPU" data-val="18"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/221122_Spiderman-thumb-300x169.jpg" alt="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" title="Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video18" data-video="./assets/www.youtube.com/watch?v=L41_LhVuBPU" data-lowvideo="./assets/www.youtube.com/watch?v=L41_LhVuBPU" data-val="18"> 
        </div> 
        <div class="videoInfo">
         Marvel's Spider-Man: Miles Morales | 4K NVIDIA DLSS 3 Comparison
@@ -10509,7 +10509,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb-300x169.jpg" alt="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" title="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" data-analytics="digitalkeynote-video19" data-video="https://www.youtube.com/watch?v=IQcoRHW3los" data-lowvideo="https://www.youtube.com/watch?v=IQcoRHW3los" data-val="19"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/TheFinals_v04_thumb-300x169.jpg" alt="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" title="THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex" data-analytics="digitalkeynote-video19" data-video="./assets/www.youtube.com/watch?v=IQcoRHW3los" data-lowvideo="./assets/www.youtube.com/watch?v=IQcoRHW3los" data-val="19"> 
        </div> 
        <div class="videoInfo">
         THE FINALS | Beta Gameplay with DLSS 3, Ray Tracing, and NVIDIA Reflex
@@ -10520,7 +10520,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb-300x169.jpg" alt="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" title="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video20" data-video="https://www.youtube.com/watch?v=3qWr_BYLsZo" data-lowvideo="https://www.youtube.com/watch?v=3qWr_BYLsZo" data-val="20"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/DyingLight_v01_Thumb-300x169.jpg" alt="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" title="Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video20" data-video="./assets/www.youtube.com/watch?v=3qWr_BYLsZo" data-lowvideo="./assets/www.youtube.com/watch?v=3qWr_BYLsZo" data-val="20"> 
        </div> 
        <div class="videoInfo">
         Dying Light 2 Stay Human | 4K NVIDIA DLSS 3 Comparison
@@ -10531,7 +10531,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb-300x169.jpg" alt="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" title="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video21" data-video="https://www.youtube.com/watch?v=y67wq6b0-HY" data-lowvideo="https://www.youtube.com/watch?v=y67wq6b0-HY" data-val="21"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Hitman_v04_Thumb-300x169.jpg" alt="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" title="Hitman 3 | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video21" data-video="./assets/www.youtube.com/watch?v=y67wq6b0-HY" data-lowvideo="./assets/www.youtube.com/watch?v=y67wq6b0-HY" data-val="21"> 
        </div> 
        <div class="videoInfo">
         Hitman 3 | 4K NVIDIA DLSS 3 Comparison
@@ -10542,7 +10542,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/FIST_v02_Thumb-300x169.jpg" alt="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Compariso" title="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Compariso" data-analytics="digitalkeynote-video22" data-video="https://www.youtube.com/watch?v=hSGlM3evfxo" data-lowvideo="https://www.youtube.com/watch?v=hSGlM3evfxo" data-val="22"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/FIST_v02_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/FIST_v02_Thumb-300x169.jpg" alt="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Compariso" title="F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Compariso" data-analytics="digitalkeynote-video22" data-video="./assets/www.youtube.com/watch?v=hSGlM3evfxo" data-lowvideo="./assets/www.youtube.com/watch?v=hSGlM3evfxo" data-val="22"> 
        </div> 
        <div class="videoInfo">
         F.I.S.T.: Forged in Shadow Torch | 4K NVIDIA DLSS 3 Compariso
@@ -10553,7 +10553,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Justice_v01_Thumb-300x169.jpg" alt="Justice | 4K NVIDIA DLSS 3 Comparison" title="Justice | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video23" data-video="https://www.youtube.com/watch?v=qxXzRLiFSCw" data-lowvideo="https://www.youtube.com/watch?v=qxXzRLiFSCw" data-val="23"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Justice_v01_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Justice_v01_Thumb-300x169.jpg" alt="Justice | 4K NVIDIA DLSS 3 Comparison" title="Justice | 4K NVIDIA DLSS 3 Comparison" data-analytics="digitalkeynote-video23" data-video="./assets/www.youtube.com/watch?v=qxXzRLiFSCw" data-lowvideo="./assets/www.youtube.com/watch?v=qxXzRLiFSCw" data-val="23"> 
        </div> 
        <div class="videoInfo">
         Justice | 4K NVIDIA DLSS 3 Comparison
@@ -10564,7 +10564,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/NFS_v02_Thumb-300x169.jpg" alt="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" title="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" data-analytics="digitalkeynote-video24" data-video="https://www.youtube.com/watch?v=qJDec9mJgV4" data-lowvideo="https://www.youtube.com/watch?v=qJDec9mJgV4" data-val="24"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/NFS_v02_Thumb-300x169.jpg" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/NFS_v02_Thumb-300x169.jpg" alt="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" title="Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal" data-analytics="digitalkeynote-video24" data-video="./assets/www.youtube.com/watch?v=qJDec9mJgV4" data-lowvideo="./assets/www.youtube.com/watch?v=qJDec9mJgV4" data-val="24"> 
        </div> 
        <div class="videoInfo">
         Need for Speed Unbound | 4K NVIDIA DLSS 3 Reveal
@@ -10575,7 +10575,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS_Thumb-small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS_Thumb-small.jpg" alt="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games &amp; Apps" title="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games &amp; Apps" data-analytics="digitalkeynote-video25" data-video="https://www.youtube.com/watch?v=GKpURmnNMoA" data-lowvideo="https://www.youtube.com/watch?v=GKpURmnNMoA" data-val="25"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS_Thumb-small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/dlss/DLSS_Thumb-small.jpg" alt="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games &amp; Apps" title="NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games &amp; Apps" data-analytics="digitalkeynote-video25" data-video="./assets/www.youtube.com/watch?v=GKpURmnNMoA" data-lowvideo="./assets/www.youtube.com/watch?v=GKpURmnNMoA" data-val="25"> 
        </div> 
        <div class="videoInfo">
         NVIDIA DLSS 3 | AI-Powered Performance In Your Favorite Games &nbsp; Apps&nbsp;
@@ -10586,7 +10586,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v02_small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v02_small.jpg" alt="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" title="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" data-analytics="digitalkeynote-video26" data-video="https://www.youtube.com/watch?v=cJlo2I7CiD0" data-lowvideo="https://www.youtube.com/watch?v=cJlo2I7CiD0" data-val="26"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v02_small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/MSFS_v02_small.jpg" alt="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" title="Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look" data-analytics="digitalkeynote-video26" data-video="./assets/www.youtube.com/watch?v=cJlo2I7CiD0" data-lowvideo="./assets/www.youtube.com/watch?v=cJlo2I7CiD0" data-val="26"> 
        </div> 
        <div class="videoInfo">
         Microsoft Flight Simulator | NVIDIA DLSS 3 - Exclusive First-Look
@@ -10597,7 +10597,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-300x169.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Gow-DLSS-300x169.png" alt="God of War with DLSS" title="God of War with DLSS" data-analytics="digitalkeynote-video27" data-video="https://www.youtube.com/watch?v=K8DddlREHEE" data-lowvideo="https://www.youtube.com/watch?v=K8DddlREHEE" data-val="27"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/technologies/dlss/Gow-DLSS-300x169.png" src="../../../assets/images.nvidia.com/aem-dam/Solutions/geforce/technologies/dlss/Gow-DLSS-300x169.png" alt="God of War with DLSS" title="God of War with DLSS" data-analytics="digitalkeynote-video27" data-video="./assets/www.youtube.com/watch?v=K8DddlREHEE" data-lowvideo="./assets/www.youtube.com/watch?v=K8DddlREHEE" data-val="27"> 
        </div> 
        <div class="videoInfo">
         God of War with DLSS
@@ -10610,7 +10610,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01_small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01_small.jpg" alt="F1 <sup>®</sup> 22 | 4K NVIDIA DLSS Comparison" title="F1 <sup>®</sup> 22 | 4K NVIDIA DLSS Comparison" data-analytics="digitalkeynote-video28" data-video="https://www.youtube.com/watch?v=TZvyzK3t4Ok" data-lowvideo="https://www.youtube.com/watch?v=TZvyzK3t4Ok" data-val="28"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01_small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/220628_F1_v01_small.jpg" alt="F1 <sup>®</sup> 22 | 4K NVIDIA DLSS Comparison" title="F1 <sup>®</sup> 22 | 4K NVIDIA DLSS Comparison" data-analytics="digitalkeynote-video28" data-video="./assets/www.youtube.com/watch?v=TZvyzK3t4Ok" data-lowvideo="./assets/www.youtube.com/watch?v=TZvyzK3t4Ok" data-val="28"> 
        </div> 
        <div class="videoInfo">
         F1 
@@ -10622,7 +10622,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-300x169.png" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-300x169.png" alt="Hitman 3 with DLSS" title="Hitman 3 with DLSS" data-analytics="digitalkeynote-video29" data-video="https://www.youtube.com/watch?v=sJoWwMaYodw" data-lowvideo="https://www.youtube.com/watch?v=sJoWwMaYodw" data-val="29"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-300x169.png" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/Hitman-Thumb-300x169.png" alt="Hitman 3 with DLSS" title="Hitman 3 with DLSS" data-analytics="digitalkeynote-video29" data-video="./assets/www.youtube.com/watch?v=sJoWwMaYodw" data-lowvideo="./assets/www.youtube.com/watch?v=sJoWwMaYodw" data-val="29"> 
        </div> 
        <div class="videoInfo">
         Hitman 3 with DLSS
@@ -10633,7 +10633,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" alt="Farming Simulator 22 with DLSS" title="Farming Simulator 22 with DLSS" data-analytics="digitalkeynote-video30" data-video="https://www.youtube.com/watch?v=X3judu8lLqo" data-lowvideo="https://www.youtube.com/watch?v=X3judu8lLqo" data-val="30"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/FarmingSim_Small.jpg" alt="Farming Simulator 22 with DLSS" title="Farming Simulator 22 with DLSS" data-analytics="digitalkeynote-video30" data-video="./assets/www.youtube.com/watch?v=X3judu8lLqo" data-lowvideo="./assets/www.youtube.com/watch?v=X3judu8lLqo" data-val="30"> 
        </div> 
        <div class="videoInfo">
         Farming Simulator 22 with DLSS
@@ -10645,7 +10645,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" alt="Assetto Corsa Competizione with DLSS " title="Assetto Corsa Competizione with DLSS " data-analytics="digitalkeynote-video31" data-video="https://www.youtube.com/watch?v=BWH8cwKutns" data-lowvideo="https://www.youtube.com/watch?v=BWH8cwKutns" data-val="31"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/AssettoCorsa-Small.jpg" alt="Assetto Corsa Competizione with DLSS " title="Assetto Corsa Competizione with DLSS " data-analytics="digitalkeynote-video31" data-video="./assets/www.youtube.com/watch?v=BWH8cwKutns" data-lowvideo="./assets/www.youtube.com/watch?v=BWH8cwKutns" data-val="31"> 
        </div> 
        <div class="videoInfo">
         Assetto Corsa Competizione with DLSS
@@ -10657,7 +10657,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_300x169.jpg" alt="Red Dead Redemption 2 with DLSS" title="Red Dead Redemption 2 with DLSS" data-analytics="digitalkeynote-video32" data-video="https://www.youtube.com/watch?v=k_sZG9Bao9Q" data-lowvideo="https://www.youtube.com/watch?v=k_sZG9Bao9Q" data-val="32"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/210713_RDR2DLSS_300x169.jpg" alt="Red Dead Redemption 2 with DLSS" title="Red Dead Redemption 2 with DLSS" data-analytics="digitalkeynote-video32" data-video="./assets/www.youtube.com/watch?v=k_sZG9Bao9Q" data-lowvideo="./assets/www.youtube.com/watch?v=k_sZG9Bao9Q" data-val="32"> 
        </div> 
        <div class="videoInfo">
         Red Dead Redemption 2 with DLSS
@@ -10669,7 +10669,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6S_DLSS_300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6S_DLSS_300x169.jpg" alt="Rainbow Six Siege with DLSS" title="Rainbow Six Siege with DLSS" data-analytics="digitalkeynote-video33" data-video="https://www.youtube.com/watch?v=vgi-9sJW4Is " data-lowvideo="https://www.youtube.com/watch?v=vgi-9sJW4Is " data-val="33"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6S_DLSS_300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/R6S_DLSS_300x169.jpg" alt="Rainbow Six Siege with DLSS" title="Rainbow Six Siege with DLSS" data-analytics="digitalkeynote-video33" data-video="./assets/www.youtube.com/watch?v=vgi-9sJW4Is" data-lowvideo="./assets/www.youtube.com/watch?v=vgi-9sJW4Is" data-val="33"> 
        </div> 
        <div class="videoInfo">
         Rainbow Six Siege with DLSS
@@ -10681,7 +10681,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-300x169.jpg" alt="Call of Duty: Warzone With DLSS" title="Call of Duty: Warzone With DLSS" data-analytics="digitalkeynote-video34" data-video="https://www.youtube.com/watch?v=XuFaBjOk4c0" data-lowvideo="https://www.youtube.com/watch?v=XuFaBjOk4c0" data-val="34"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-warzone-300x169.jpg" alt="Call of Duty: Warzone With DLSS" title="Call of Duty: Warzone With DLSS" data-analytics="digitalkeynote-video34" data-video="./assets/www.youtube.com/watch?v=XuFaBjOk4c0" data-lowvideo="./assets/www.youtube.com/watch?v=XuFaBjOk4c0" data-val="34"> 
        </div> 
        <div class="videoInfo">
         Call of Duty: Warzone With DLSS
@@ -10693,7 +10693,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-300x169.jpg" alt="Outriders With DLSS" title="Outriders With DLSS" data-analytics="digitalkeynote-video35" data-video="https://www.youtube.com/watch?v=icjLJ2EbYmk" data-lowvideo="https://www.youtube.com/watch?v=icjLJ2EbYmk" data-val="35"> 
+        <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-outriders-300x169.jpg" alt="Outriders With DLSS" title="Outriders With DLSS" data-analytics="digitalkeynote-video35" data-video="./assets/www.youtube.com/watch?v=icjLJ2EbYmk" data-lowvideo="./assets/www.youtube.com/watch?v=icjLJ2EbYmk" data-val="35"> 
        </div> 
        <div class="videoInfo">
         Outriders With DLSS
@@ -10705,7 +10705,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cyberpunk2077-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cyberpunk2077-300x169.jpg" alt="Cyberpunk 2077 With DLSS " title="Cyberpunk 2077 With DLSS " data-analytics="digitalkeynote-video36" data-video="https://images.nvidia.com/gtc/keynote/video/video3/video-1080p.mp4" data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video3/video-720p.mp4" data-val="36"> 
+        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cyberpunk2077-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cyberpunk2077-300x169.jpg" alt="Cyberpunk 2077 With DLSS " title="Cyberpunk 2077 With DLSS " data-analytics="digitalkeynote-video36" data-video="./assets/images.nvidia.com/gtc/keynote/video/video3/video-1080p.mp4" data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video3/video-720p.mp4" data-val="36"> 
        </div> 
        <div class="videoInfo">
         Cyberpunk 2077 With DLSS
@@ -10717,7 +10717,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-fortnite-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-fortnite-300x169.jpg" alt="Fortnite With DLSS " title="Fortnite With DLSS " data-analytics="digitalkeynote-video37" data-video="https://images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4" data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4" data-val="37"> 
+        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-fortnite-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-fortnite-300x169.jpg" alt="Fortnite With DLSS " title="Fortnite With DLSS " data-analytics="digitalkeynote-video37" data-video="./assets/images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4" data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4" data-val="37"> 
        </div> 
        <div class="videoInfo">
         Fortnite With DLSS
@@ -10729,7 +10729,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-bocw-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-bocw-300x169.jpg" alt="Call of Duty: Black Ops Cold War With DLSS" title="Call of Duty: Black Ops Cold War With DLSS" data-analytics="digitalkeynote-video38" data-video="https://images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4" data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4" data-val="38"> 
+        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-bocw-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-cod-bocw-300x169.jpg" alt="Call of Duty: Black Ops Cold War With DLSS" title="Call of Duty: Black Ops Cold War With DLSS" data-analytics="digitalkeynote-video38" data-video="./assets/images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4" data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4" data-val="38"> 
        </div> 
        <div class="videoInfo">
         Call of Duty: Black Ops Cold War With DLSS
@@ -10740,7 +10740,7 @@ i.previous{left:-2.75%;}
         <div class="playWrapper">
          &nbsp;
         </div> 
-        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-minecraft-rtx-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-minecraft-rtx-300x169.jpg" alt="Minecraft RTX With DLSS " title="Minecraft RTX With DLSS " data-analytics="digitalkeynote-video39" data-video="https://images.nvidia.com/gtc/keynote/video/video1/video-1080p.mp4" data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video1/video-720p.mp4" data-cnvideo="https://images.nvidia.com/gtc2019/raytracting-essentials-part1-cn-1080p.mp4" data-val="39"> 
+        <img data-poster="../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-minecraft-rtx-300x169.jpg" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dlss-2-0/game-logos/geforce-dlss-video-minecraft-rtx-300x169.jpg" alt="Minecraft RTX With DLSS " title="Minecraft RTX With DLSS " data-analytics="digitalkeynote-video39" data-video="./assets/images.nvidia.com/gtc/keynote/video/video1/video-1080p.mp4" data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video1/video-720p.mp4" data-cnvideo="./assets/images.nvidia.com/gtc2019/raytracting-essentials-part1-cn-1080p.mp4" data-val="39"> 
        </div> 
        <!--<div class="videometadata">KEYNOTE | Part 1 | 12:55 Min</div>
 					<div class="videothumbtitle">Introduction</div>--> 
@@ -10758,9 +10758,9 @@ i.previous{left:-2.75%;}
                             src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/battle-royale/fwg-refresh-2020/video-module/geforce-fwg-video-why-4c25-d.jpg"
                             alt="Why High FPS Matters" title="Why High FPS Matters"
                             data-analytics="digitalkeynote-video5"
-                            data-video="https://images.nvidia.com/gtc/keynote/video/video2new/video-1080p.mp4"
-                            data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video2new/video-720p.mp4"
-                            data-cnvideo="https://www.nvidia.cn/content/dam/en-zz/zh_cn/Solutions/geforce/campaigns/frames-win-games/videos/CN%20PUBG%20FWG%20Video%20720p.mp4"
+                            data-video="./assets/images.nvidia.com/gtc/keynote/video/video2new/video-1080p.mp4"
+                            data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video2new/video-720p.mp4"
+                            data-cnvideo="./assets/www.nvidia.com/content/dam/en-zz/zh_cn/Solutions/geforce/campaigns/frames-win-games/videos/CN%20PUBG%20FWG%20Video%20720p.mp4"
                             data-val="5" />
                     </div>
 
@@ -10775,8 +10775,8 @@ i.previous{left:-2.75%;}
                             src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/battle-royale/fwg-refresh-2020/video-module/geforce-fwg-video-high-fps-codwz-4c25-d.jpg"
                             alt="High FPS in Call Of Duty Warzone" title="High FPS in Call Of Duty Warzone"
                             data-analytics="digitalkeynote-video6"
-                            data-video="https://images.nvidia.com/gtc/keynote/video/video4/video-1080p.mp4"
-                            data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video4/video-720p.mp4"
+                            data-video="./assets/images.nvidia.com/gtc/keynote/video/video4/video-1080p.mp4"
+                            data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video4/video-720p.mp4"
                             data-val="6" />
                     </div>
 
@@ -10792,8 +10792,8 @@ i.previous{left:-2.75%;}
                             src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/battle-royale/fwg-refresh-2020/video-module/geforce-fwg-video-high-fps-pubg-4c25-d.jpg"
                             alt="High FPS in Playerunknown's Battlegrounds"
                             title="High FPS in Playerunknown's Battlegrounds" data-analytics="digitalkeynote-video7"
-                            data-video="https://images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4"
-                            data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4"
+                            data-video="./assets/images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4"
+                            data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4"
                             data-val="7" />
                     </div>
 
@@ -10806,8 +10806,8 @@ i.previous{left:-2.75%;}
                         <img data-poster="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/battle-royale/fwg-refresh-2020/video-module/geforce-fwg-video-high-fps-csgo-4c25-d.jpg"
                             src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/battle-royale/fwg-refresh-2020/video-module/geforce-fwg-video-high-fps-csgo-4c25-d.jpg"
                             alt="High FPS in CS:GO" title="High FPS in CS:GO" data-analytics="digitalkeynote-video8"
-                            data-video="https://images.nvidia.com/gtc/keynote/video/video5/video-1080p.mp4"
-                            data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video5/video-720p.mp4"
+                            data-video="./assets/images.nvidia.com/gtc/keynote/video/video5/video-1080p.mp4"
+                            data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video5/video-720p.mp4"
                             data-val="8" />
                     </div>
 
@@ -10821,8 +10821,8 @@ i.previous{left:-2.75%;}
                             src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/GeForce/campaigns/battle-royale/fwg-refresh-2020/video-module/geforce-fwg-video-high-fps-overwatch-4c25-d.jpg"
                             alt="NHigh FPS in Overwatch" title="High FPS in Overwatch"
                             data-analytics="digitalkeynote-video9"
-                            data-video="https://images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4"
-                            data-lowvideo="https://images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4"
+                            data-video="./assets/images.nvidia.com/gtc/keynote/video/video6/video-1080p.mp4"
+                            data-lowvideo="./assets/images.nvidia.com/gtc/keynote/video/video6/video-720p.mp4"
                             data-val="9" />
 
                     </div>
@@ -11310,7 +11310,7 @@ i.previous{left:-2.75%;}
     document.addEventListener("DOMContentLoaded", function (event) {
         console.log("dom ready!");
         var tag = document.createElement('script');
-        tag.src = "https://www.youtube.com/player_api";
+        tag.src = "./assets/www.youtube.com/player_api";
         var firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     });
@@ -11995,7 +11995,7 @@ i.previous{left:-2.75%;}
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-462c921a8a" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="gf-news-feed" data-cmp-feedurl="https://www.nvidia.com/bin/nvidiaGDC/servlet/article.json?_t=1779517737894&amp;type=both&amp;locale=en_US&amp;region=us&amp;limit=3&amp;tag=nvidia-dlss" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="nvidia-dlss" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="https://developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-462c921a8a" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="gf-news-feed" data-cmp-feedurl="./assets/www.nvidia.com/bin/nvidiaGDC/servlet/article.json?_t=1779517737894&amp;type=both&amp;locale=en_US&amp;region=us&amp;limit=3&amp;tag=nvidia-dlss" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="nvidia-dlss" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="./assets/developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -12381,11 +12381,11 @@ i.previous{left:-2.75%;}
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -12532,7 +12532,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -12569,7 +12569,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/technologies/dlss/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/technologies/dlss/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/technologies/dlss/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/geforce/technologies/dlss/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/geforce/technologies/dlss/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/geforce/technologies/dlss/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/geforce/technologies/dlss/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/geforce/technologies/dlss/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/geforce/technologies/dlss/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/geforce/technologies/dlss/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/geforce/technologies/dlss/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/geforce/technologies/dlss/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/geforce/technologies/dlss/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/geforce/technologies/dlss/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/geforce/technologies/dlss/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/geforce/technologies/dlss/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/geforce/technologies/dlss/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/geforce/technologies/dlss/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/geforce/technologies/dlss/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/technologies/dlss/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/technologies/dlss/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/technologies/dlss/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/geforce/technologies/dlss/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/technologies/dlss/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/technologies/dlss/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/geforce/technologies/dlss/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/technologies/dlss/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/technologies/dlss/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/geforce/technologies/dlss/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/technologies/dlss/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/technologies/dlss/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/technologies/dlss/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/technologies/dlss/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/geforce/technologies/dlss/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/geforce/technologies/dlss/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/geforce/technologies/dlss/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/geforce/technologies/dlss/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/geforce/technologies/dlss/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/geforce/technologies/dlss/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/geforce/technologies/dlss/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/geforce/technologies/dlss/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/geforce/technologies/dlss/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/geforce/technologies/dlss/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/geforce/technologies/dlss/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/geforce/technologies/dlss/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/geforce/technologies/dlss/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/geforce/technologies/dlss/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/geforce/technologies/dlss/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/geforce/technologies/dlss/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/technologies/dlss/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/technologies/dlss/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/technologies/dlss/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/technologies/dlss/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/technologies/dlss/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/geforce/technologies/dlss/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/technologies/dlss/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/technologies/dlss/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/geforce/technologies/dlss/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
@@ -12747,7 +12747,7 @@ window.addEventListener('load', () => {
     
 
 <script>
-!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
+!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="/",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
 </script><script>
 try {
   

@@ -151,6 +151,10 @@ function cw_to_clean_path(string $url): ?string
 
     if (preg_match('~^(?:https?:)?//(?:www\.)?nvidia\.com/(?:en-us/)?([^?\#]*)~i', $url, $m)) {
         $url = '/' . ltrim($m[1], '/');
+    } elseif (preg_match('~^(?:https?:)?//(?:www\.)?nvidia\.com/(?:en-[a-z]{2}/)([^?\#]*)~i', $url, $m)) {
+        $url = '/' . ltrim($m[1], '/');
+    } elseif (preg_match('~^(?:https?:)?//(?:www\.)?nvidia\.cn/([^?\#]*)~i', $url, $m)) {
+        $url = '/' . ltrim($m[1], '/');
     } elseif (preg_match('~^(?:https?:)?//blogs\.nvidia\.com/blog/([^?\#]*?)~i', $url, $m)) {
         $url = '/blog/blog/' . ltrim($m[1], '/');
     }
@@ -193,6 +197,213 @@ function cw_nvidia_page_url_to_base(string $url, string $base): ?string
     return $clean === '/' ? $base . '/' : $base . $clean;
 }
 
+/** Hostnames with a mirrored tree under assets/{host}/ */
+function cw_mirrored_asset_hosts(): array
+{
+    static $hosts = null;
+    if ($hosts !== null) {
+        return $hosts;
+    }
+
+    $hosts = [];
+    $dir = __DIR__ . '/assets';
+    if (is_dir($dir)) {
+        foreach (scandir($dir) as $entry) {
+            if ($entry === '.' || $entry === '..') {
+                continue;
+            }
+            if (is_dir($dir . '/' . $entry)) {
+                $hosts[strtolower($entry)] = true;
+            }
+        }
+    }
+
+    return $hosts;
+}
+
+function cw_is_asset_file_path(string $path): bool
+{
+    return (bool)preg_match('~\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp4|webm|pdf|json|map|xml|txt)(\?|$)~i', $path);
+}
+
+/** Rewrite any absolute external URL to a local base URL or mirrored asset path. */
+function cw_rewrite_external_url(string $url, string $base): string
+{
+    $url = trim($url);
+    if ($url === '' || $url === '#') {
+        return $url;
+    }
+    if (str_starts_with($url, 'javascript:') || str_starts_with($url, 'mailto:') || str_starts_with($url, 'tel:') || str_starts_with($url, 'data:')) {
+        return $url;
+    }
+
+    if (str_starts_with($url, '//')) {
+        $url = 'https:' . $url;
+    }
+
+    if (!preg_match('~^https?://~i', $url)) {
+        return $url;
+    }
+
+    $baseHost = parse_url($base, PHP_URL_HOST);
+    $parsed = parse_url($url);
+    if (!is_array($parsed) || empty($parsed['host'])) {
+        return $base . '/';
+    }
+
+    $host = strtolower($parsed['host']);
+    $path = $parsed['path'] ?? '/';
+    $query = isset($parsed['query']) ? '?' . $parsed['query'] : '';
+    $fragment = isset($parsed['fragment']) ? '#' . $parsed['fragment'] : '';
+
+    if (in_array($host, ['schema.org', 'www.w3.org', 'purl.org'], true) || str_ends_with($host, '.w3.org')) {
+        return $url;
+    }
+
+    if (is_string($baseHost) && $baseHost !== '' && $host === strtolower($baseHost)) {
+        $basePath = parse_url($base, PHP_URL_PATH) ?? '';
+        if ($basePath === '' || $basePath === '/' || str_starts_with($path, $basePath)) {
+            return $url;
+        }
+    }
+
+    if (preg_match('/^(?:www\.)?nvidia\.com$/i', $host) || preg_match('/^www\.nvidia\.[a-z]{2,3}$/i', $host)) {
+        if (preg_match('~^/content/(dam|nvidiaGDC)/~i', $path)) {
+            return $base . '/assets/www.nvidia.com' . $path . $query . $fragment;
+        }
+        if (cw_is_asset_file_path($path)) {
+            return $base . '/assets/www.nvidia.com' . $path . $query . $fragment;
+        }
+        $local = cw_nvidia_page_url_to_base($url, $base);
+
+        return $local ?? $base . '/';
+    }
+
+    if ($host === 'blogs.nvidia.com') {
+        if (str_starts_with($path, '/blog/')) {
+            return $base . '/blog/blog' . substr($path, 4) . $query . $fragment;
+        }
+
+        return $base . '/blog/blog/' . ltrim($path, '/') . $query . $fragment;
+    }
+
+    $mirrored = cw_mirrored_asset_hosts();
+    if (isset($mirrored[$host])) {
+        return $base . '/assets/' . $host . $path . $query . $fragment;
+    }
+
+    $pagePath = cw_to_clean_path($url);
+    if ($pagePath !== null && !cw_is_asset_file_path($pagePath)) {
+        return $pagePath === '/' ? $base . '/' : $base . $pagePath;
+    }
+
+    return $base . '/';
+}
+
+function cw_rewrite_external_urls_in_html(string $html, string $base): string
+{
+    $linkAttrs = 'href|src|action|cite|poster|formaction|data-href|data-url|data-link|data-cta-url|data-video-url|data-embed-url|data-desktop-url|data-mobile-url';
+
+    $html = preg_replace_callback(
+        '~\b(' . $linkAttrs . ')=(["\'])(https?:[^"\']+)\2~i',
+        static function (array $m) use ($base): string {
+            return $m[1] . '=' . $m[2] . cw_rewrite_external_url($m[3], $base) . $m[2];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~\b(' . $linkAttrs . ')=(["\'])//([^"\']+)\2~i',
+        static function (array $m) use ($base): string {
+            return $m[1] . '=' . $m[2] . cw_rewrite_external_url('https://' . $m[3], $base) . $m[2];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~\bsrcset=(["\'])([^"\']+)\1~i',
+        static function (array $m) use ($base): string {
+            $parts = preg_split('/\s*,\s*/', $m[2]) ?: [];
+            $out = [];
+            foreach ($parts as $part) {
+                $bits = preg_split('/\s+/', trim($part), 2);
+                if ($bits === false || $bits === []) {
+                    continue;
+                }
+                $u = cw_rewrite_external_url($bits[0], $base);
+                $out[] = isset($bits[1]) ? $u . ' ' . $bits[1] : $u;
+            }
+
+            return 'srcset=' . $m[1] . implode(', ', $out) . $m[1];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~"((?:@id|url|item|mainEntityOfPage|contentUrl))"\s*:\s*"(https?:[^"]+)"~i',
+        static function (array $m) use ($base): string {
+            return '"' . $m[1] . '":"' . cw_rewrite_external_url($m[2], $base) . '"';
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~\b([a-z0-9_-]*url)=(["\'])(https?:[^"\']+)\2~i',
+        static function (array $m) use ($base): string {
+            return $m[1] . '=' . $m[2] . cw_rewrite_external_url($m[3], $base) . $m[2];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~\b(destination|apiUrl|endpoint|LoginPage|LoginGatePage|accountsJarvisSrvcBase)\s*[:=]\s*(["\'])(https?:[^"\']+)\3~i',
+        static function (array $m) use ($base): string {
+            return $m[1] . ': ' . $m[2] . cw_rewrite_external_url($m[3], $base) . $m[2];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~addProperty\s*\(\s*([^,]+)\s*,\s*([^,]+)\s*,\s*(["\'])(https?:[^"\']+)\3~i',
+        static function (array $m) use ($base): string {
+            return 'addProperty(' . $m[1] . ', ' . $m[2] . ', ' . $m[3] . cw_rewrite_external_url($m[4], $base) . $m[3];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~(["\'])(https?:\/\/[^"\']+)\1~i',
+        static function (array $m) use ($base): string {
+            if (preg_match('~w3\.org|schema\.org~i', $m[2])) {
+                return $m[0];
+            }
+            $next = cw_rewrite_external_url($m[2], $base);
+            return $next !== $m[2] ? $m[1] . $next . $m[1] : $m[0];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~https%3A%2F%2F(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}(?:%2F[^&"\']*)?~i',
+        static function (array $m) use ($base): string {
+            $decoded = rawurldecode($m[0]);
+            $next = cw_rewrite_external_url($decoded, $base);
+            return $next !== $decoded ? rawurlencode($next) : $m[0];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~https?://(?!(?:www\.)?w3\.org|schema\.org)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}(?::\d+)?(?:/[^\s"\'<>)\]]*)?~i',
+        static function (array $m) use ($base): string {
+            return cw_rewrite_external_url($m[0], $base);
+        },
+        $html
+    ) ?? $html;
+
+    return $html;
+}
+
 function cw_rewrite_asset_urls_in_html(string $html): string
 {
     $base = CW_BASE_URL;
@@ -219,39 +430,11 @@ function cw_rewrite_asset_urls_in_html(string $html): string
         $headInsert .= '<script id="cw-asset-root">window.__CW_ASSET_ROOT=' . json_encode($base) . ';</script>';
     }
     if (!str_contains($html, 'id="cw-fix-links"')) {
-        $headInsert .= '<script id="cw-fix-links">(function(){var b=' . json_encode($base) . ';function u(v){if(!v||typeof v!=="string")return v;var t=v.trim();if(t==="index.html"||t==="./index.html")return b+"/";if(t.slice(-11)==="/index.html")return b+t.slice(0,-10);var m=t.match(/^(?:https?:)?\\/\\/(?:www\\.)?nvidia\\.com\\/(?:en-us\\/)?([^?#]*)/i);if(m){var p="/"+m[1];if(p.slice(-11)==="/index.html")p=p.slice(0,-10);if(p!=="/"&&!p.endsWith("/")&&!/\\.[a-z0-9]{1,6}$/i.test(p))p+="/";return b+p;}return v;}function f(e){if(!e||!e.getAttribute)return;var a=["href","src","action"];for(var i=0;i<a.length;i++){var k=a[i];var v=e.getAttribute(k);if(!v)continue;var nv=u(v);if(nv!==v)e.setAttribute(k,nv);}}function s(){try{var n=document.querySelectorAll("[href],[src],[action]");for(var i=0;i<n.length;i++)f(n[i]);}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s);}else{s();}setTimeout(s,500);setTimeout(s,1500);})();</script>';
+        $headInsert .= '<script id="cw-fix-links">(function(){var b=' . json_encode($base) . ';function isAsset(p){return/\\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json|map)(\\?|$)/i.test(p);}function u(v){if(!v||typeof v!=="string")return v;var t=v.trim();if(/^https?:\\/\\//i.test(t)||t.indexOf("//")===0){if(t.indexOf("//")===0)t="https:"+t;var m=t.match(/^https?:\\/\\/([^\\/]+)(\\/[^?#]*)?/i);if(!m)return b+"/";var h=m[1].toLowerCase(),p=m[2]||"/",q=t.indexOf("?")>=0?t.slice(t.indexOf("?")):"";if(/^(?:www\\.)?nvidia\\.com$/i.test(h)||/^www\\.nvidia\\.[a-z]{2,3}$/i.test(h)){if(/^\\/content\\/(dam|nvidiaGDC)\\//i.test(p)||isAsset(p))return b+"/assets/www.nvidia.com"+p+q;var r=t.match(/^https?:\\/\\/(?:www\\.)?nvidia\\.com\\/(?:en-us\\/|en-[a-z]{2}\\/)?([^?#]*)/i);if(r){var x="/"+r[1];if(x.slice(-11)==="/index.html")x=x.slice(0,-10);if(x!=="/"&&!x.endsWith("/")&&!isAsset(x))x+="/";return b+x+q;}return b+"/"+q;}if(h==="blogs.nvidia.com"){return b+(p.indexOf("/blog/")===0?"/blog/blog"+p.slice(5):"/blog/blog"+p)+q;}if(t.indexOf(b)===0)return t;return b+"/"+q;}if(t==="index.html"||t==="./index.html")return b+"/";if(t.slice(-11)==="/index.html")return b+t.slice(0,-10);if(t.charAt(0)==="/"&&t.indexOf("/assets/")!==0)return b+t;return v;}function f(e){if(!e||!e.getAttribute)return;var a=["href","src","action","data-href","data-url","data-link","cite","poster","formaction"];for(var i=0;i<a.length;i++){var k=a[i],v=e.getAttribute(k);if(!v)continue;var nv=u(v);if(nv!==v)e.setAttribute(k,nv);}}function s(){try{document.querySelectorAll("[href],[src],[action],[data-href],[data-url],[data-link]").forEach(f);}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s);}else{s();}setTimeout(s,500);setTimeout(s,1500);})();</script>';
     }
     if ($headInsert !== '') {
         $html = cw_inject_after_head_open($html, $headInsert);
     }
-
-    // nvidia.com page links → local clean URLs
-    $html = preg_replace_callback(
-        '~\b(href|src|action)=(["\'])(?:https?:)?//(?:www\.)?nvidia\.com/(?:en-us/)?([^"\']*)\2~i',
-        static function (array $m) use ($base): string {
-            $rest = $m[3];
-            if (preg_match('~\.(css|js|png|jpg|jpeg|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json)$~i', $rest)) {
-                return $m[0];
-            }
-            if (str_ends_with($rest, 'index.html')) {
-                $rest = substr($rest, 0, -strlen('index.html'));
-            } elseif (str_ends_with($rest, '/index.html')) {
-                $rest = substr($rest, 0, -strlen('index.html'));
-            }
-            if ($rest !== '' && !str_ends_with($rest, '/') && !preg_match('~\.[a-z0-9]{1,6}$~i', $rest)) {
-                $rest .= '/';
-            }
-            return $m[1] . '=' . $m[2] . $base . '/' . ltrim($rest, '/') . $m[2];
-        },
-        $html
-    ) ?? $html;
-
-    // blogs.nvidia.com → local blog paths
-    $html = preg_replace(
-        '~\b(href|src)=(["\'])(?:https?:)?//blogs\.nvidia\.com/blog/([^"\']*)\2~i',
-        '$1=$2' . $base . '/blog/blog/$3$2',
-        $html
-    ) ?? $html;
 
     // Head meta tags: og:url, twitter:url, etc. → local base URL
     $html = preg_replace_callback(
@@ -395,6 +578,17 @@ function cw_rewrite_asset_urls_in_html(string $html): string
     $html = preg_replace(
         "~url\\(([\"']?)\\.\\/assets/~i",
         'url($1' . $base . '/assets/',
+        $html
+    ) ?? $html;
+
+    // All remaining absolute external URLs in link attributes, srcset, JSON-LD
+    $html = cw_rewrite_external_urls_in_html($html, $base);
+
+    $html = preg_replace_callback(
+        '~(<meta\b[^>]*\bcontent=(["\']))(https?:[^"\']+)\2~i',
+        static function (array $m) use ($base): string {
+            return $m[1] . cw_rewrite_external_url($m[3], $base) . $m[2];
+        },
         $html
     ) ?? $html;
 

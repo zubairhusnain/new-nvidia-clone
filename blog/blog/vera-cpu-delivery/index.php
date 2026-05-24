@@ -6,15 +6,15 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="profile" href="/">
 
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="alternate" hreflang="en-us" href="/blog/blog/vera-cpu-delivery/">
 <link rel="alternate" hreflang="x-default" href="/blog/blog/vera-cpu-delivery/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="/">
+<link rel="preconnect" href="/" crossorigin="">
 
-	<!-- This site is optimized with the Yoast SEO Premium plugin v27.6 (Yoast SEO v27.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.6 (Yoast SEO v27.6) - / -->
 	<title>Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs | NVIDIA Blog</title>
 	<meta name="description" content="Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production.">
 	<link rel="canonical" href="/blog/blog/vera-cpu-delivery/">
@@ -24,7 +24,7 @@
 	<meta property="og:description" content="Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production.">
 	<meta property="og:url" content="/blog/blog/vera-cpu-delivery/">
 	<meta property="og:site_name" content="NVIDIA Blog">
-	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
+	<meta property="article:publisher" content="/">
 	<meta property="article:published_time" content="2026-05-18T21:48:17+00:00">
 	<meta property="article:modified_time" content="2026-05-22T18:50:32+00:00">
 	<meta property="og:image" content="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/05/Vera-CPU_Tray_Open-34_Wide_R6C-FNL-5260651.jpg">
@@ -42,9 +42,9 @@
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#article","isPartOf":{"@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/"},"author":[{"@id":"https:\/\/blogs.nvidia.com\/#\/schema\/person\/34ca3d8e030724cc5275d30be821175c"}],"headline":"Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs","datePublished":"2026-05-18T21:48:17+00:00","dateModified":"2026-05-22T18:50:32+00:00","mainEntityOfPage":{"@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/"},"wordCount":14,"image":{"@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#primaryimage"},"thumbnailUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/Vera-CPU_Tray_Open-34_Wide_R6C-FNL-5260651.jpg","keywords":["Agentic AI","NVIDIA Vera"],"articleSection":["AI Infrastructure","Corporate"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/","url":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/","name":"Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs | NVIDIA Blog","isPartOf":{"@id":"https:\/\/blogs.nvidia.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#primaryimage"},"image":{"@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#primaryimage"},"thumbnailUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/Vera-CPU_Tray_Open-34_Wide_R6C-FNL-5260651.jpg","datePublished":"2026-05-18T21:48:17+00:00","dateModified":"2026-05-22T18:50:32+00:00","author":{"@id":"https:\/\/blogs.nvidia.com\/#\/schema\/person\/34ca3d8e030724cc5275d30be821175c"},"description":"Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production.","breadcrumb":{"@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#primaryimage","url":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/Vera-CPU_Tray_Open-34_Wide_R6C-FNL-5260651.jpg","contentUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/Vera-CPU_Tray_Open-34_Wide_R6C-FNL-5260651.jpg","width":11646,"height":6550},{"@type":"BreadcrumbList","@id":"https:\/\/blogs.nvidia.com\/blog\/vera-cpu-delivery\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/blogs.nvidia.com\/"},{"@type":"ListItem","position":2,"name":"Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs"}]},{"@type":"WebSite","@id":"https:\/\/blogs.nvidia.com\/#website","url":"https:\/\/blogs.nvidia.com\/","name":"NVIDIA Blog","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/blogs.nvidia.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/blogs.nvidia.com\/#\/schema\/person\/34ca3d8e030724cc5275d30be821175c","name":"Ian Finder","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2023\/03\/Ian-Finder-96x96.jpgf8b3a40e50d57549f6aa86e9902a5784","url":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2023\/03\/Ian-Finder-96x96.jpg","contentUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2023\/03\/Ian-Finder-96x96.jpg","caption":"Ian Finder"},"description":"Ian Finder leads product and business for NVIDIA’s Data Center CPUs, including Grace and Vera. Before that, he led product and platform architecture for the GPU and accelerated computing portfolio at a large hyperscaler, where he developed– among other things– the virtualized NVIDIA A100-based AI supercomputing infrastructure behind some of the breakout moments in scale-up foundation model training. He holds a Bachelor of Science in Computer Engineering from the Paul G. Allen School of Computer Science and Engineering (CSE) in Seattle, and is the product of a lifelong obsession with computer architecture— a point proven by the Control Data supercomputer occupying his garage.","url":"https:\/\/blogs.nvidia.com\/blog\/author\/ianfinder\/"}]}</script>
 	<!-- / Yoast SEO Premium plugin. -->
 
-<link rel="dns-prefetch" href="//images.nvidia.com">
-<link rel="dns-prefetch" href="//info.nvidia.com">
-<link rel="dns-prefetch" href="//nvidiablog.disqus.com">
+<link rel="dns-prefetch" href="./assets/images.nvidia.com/">
+<link rel="dns-prefetch" href="./assets/info.nvidia.com/">
+<link rel="dns-prefetch" href="./assets/nvidiablog.disqus.com/">
 <link rel="alternate" type="application/rss+xml" title="NVIDIA Blog » Feed" href="/blog/feed/">
 <link rel="alternate" type="application/rss+xml" title="NVIDIA Blog » Comments Feed" href="/blog/comments/feed/">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/blog/wp-json/oembed/1.0/embed/">
@@ -1208,8 +1208,8 @@
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1258,7 +1258,7 @@
 				Share			</span>
 			</div>
 
-			<a href="https://twitter.com/intent/tweet?text=Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-cpu-delivery%2F" class="nvb6-social-share-link flex gap-[15px] for-x" target="_blank">	<span class="share-icon rounded-[5px] p-px bg-black icon-for-twitter">
+			<a href="/?text=Vera%20Arrives:%20NVIDIA%E2%80%99s%20First%20CPU%20Built%20for%20Agents%20Lands%20at%20Top%20AI%20Labs%20%2Fblog%2Fblog%2Fvera-cpu-delivery%2F" class="nvb6-social-share-link flex gap-[15px] for-x" target="_blank">	<span class="share-icon rounded-[5px] p-px bg-black icon-for-twitter">
 		<svg class="icon-social-twitter" width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path fill="#fff" d="M13.903 10.469 21.348 2h-1.764l-6.465 7.353L7.955 2H2l7.808 11.12L2 22h1.764
 				l6.828-7.765L16.044 22H22l-8.097-11.531Zm-2.417 2.748-.791-1.107
@@ -1267,7 +1267,7 @@
 		</svg>
 	</span>
 	<p class="leading-[2]"> X </p>
-	</a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-cpu-delivery%2F" class="nvb6-social-share-link flex gap-[15px] for-facebook" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-facebook">
+	</a><a href="/?u=%2Fblog%2Fblog%2Fvera-cpu-delivery%2F" class="nvb6-social-share-link flex gap-[15px] for-facebook" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-facebook">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="25px" height="25px" fill="#fff">
 					<g>
 						<path d="M304,192h96v96h-96v224h-96V288h-96v-96h96v-40.2c0-38,12-86.1,35.8-112.4
@@ -1277,7 +1277,7 @@
 				</svg>
 			</span>
 			<p class="leading-[2]"> Facebook </p>
-			</a><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-cpu-delivery%2F&amp;title=Vera+Arrives%3A+NVIDIA%E2%80%99s+First+CPU+Built+for+Agents+Lands+at+Top+AI+Labs+%7C+NVIDIA+Blog" class="nvb6-social-share-link flex gap-[15px] for-linkedin" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-linkedin">
+			</a><a href="/?mini=true&amp;url=%2Fblog%2Fblog%2Fvera-cpu-delivery%2F&amp;title=Vera+Arrives%3A+NVIDIA%E2%80%99s+First+CPU+Built+for+Agents+Lands+at+Top+AI+Labs+%7C+NVIDIA+Blog" class="nvb6-social-share-link flex gap-[15px] for-linkedin" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-linkedin">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" width="25px" height="25px" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
 				<g>
 					<path d="M512,311.34v189.29H402.27V324.01
@@ -1304,7 +1304,7 @@
 <p><span style="font-weight: 400;">On Friday, that CPU went from NVIDIA’s labs into customer hands.</span></p>
 <p><span style="font-weight: 400;">The first NVIDIA Vera CPUs arrived at three of the world’s leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay, SpaceXAI in Palo Alto — followed by a delivery to Oracle Cloud Infrastructure in Santa Clara on Monday. NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck hand-delivered them.</span></p>
 <p><span style="font-weight: 400;">“</span><span style="font-weight: 400;">Agentic AI is creating a new CPU moment in the AI factory — as models move from answering to acting, Vera is purpose-built to keep that work moving at scale,</span><span style="font-weight: 400;">” Buck said.&nbsp;</span></p>
-<div class="twitter-tweet twitter-tweet-rendered" style="display: flex; max-width: 560px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" title="X Post" src="https://platform.twitter.com/embed/Tweet.html?creatorScreenName=NVIDIA&amp;dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=2056494241904271780&amp;lang=en&amp;maxWidth=560px&amp;origin=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-cpu-delivery%2F&amp;sessionId=d0e90306af5ebc574dcd28a5e1d17a6b316f82d7&amp;siteScreenName=NVIDIA&amp;theme=light&amp;widgetsVersion=6a3ad42b224df%3A1778106238597&amp;width=550px" style="position: static; visibility: visible; width: 560px; height: 2px; display: block; flex-grow: 1;" data-tweet-id="2056494241904271780"></iframe></div>
+<div class="twitter-tweet twitter-tweet-rendered" style="display: flex; max-width: 560px; width: 100%; margin-top: 10px; margin-bottom: 10px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" title="X Post" src="./assets/platform.twitter.com/embed/Tweet.html?creatorScreenName=NVIDIA&amp;dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideCard=false&amp;hideThread=false&amp;id=2056494241904271780&amp;lang=en&amp;maxWidth=560px&amp;origin=%2Fblog%2Fblog%2Fvera-cpu-delivery%2F&amp;sessionId=d0e90306af5ebc574dcd28a5e1d17a6b316f82d7&amp;siteScreenName=NVIDIA&amp;theme=light&amp;widgetsVersion=6a3ad42b224df%3A1778106238597&amp;width=550px" style="position: static; visibility: visible; width: 560px; height: 2px; display: block; flex-grow: 1;" data-tweet-id="2056494241904271780"></iframe></div>
 <p><script async=" src="/assets/platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 <p><span style="font-weight: 400;">The big idea: imagine you could work 10x faster. Could your computer keep up? Agentic AI puts more demand than ever on the infrastructure we use to do all kinds of work — from building slides to compiling and testing software, analyzing data, searching files or even running simulations.</span></p>
 <p><span style="font-weight: 400;">AI agents don’t run on GPUs alone. Every agentic sandbox, every tool call, every orchestration layer, every long-context retrieval operation — that’s CPU work. Vera is a new class of CPU designed with that reality as its starting point.</span></p>
@@ -1393,7 +1393,7 @@
 			<a href="/blog/blog/tag/agentic-ai/" class="nvidia-badge">Agentic AI</a><a href="/blog/blog/tag/nvidia-vera/" class="nvidia-badge">NVIDIA Vera</a>		</div>
 	</div>
 							<div class="nvidia-container py-30">
-				<div id="disqus_thread"><iframe id="dsq-app3430" name="dsq-app3430" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" allow="autoplay 'src' https://www.youtube.com https://youtube.com https://m.youtube.com https://youtu.be https://www.youtube-nocookie.com" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;f=nvidiablog&amp;t_u=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fvera-cpu-delivery%2F&amp;t_d=Vera%20Arrives%3A%20NVIDIA%E2%80%99s%20First%20CPU%20Built%20for%20Agents%20Lands%20at%20Top%20AI%20Labs&amp;t_t=Vera%20Arrives%3A%20NVIDIA%E2%80%99s%20First%20CPU%20Built%20for%20Agents%20Lands%20at%20Top%20AI%20Labs&amp;s_o=default#version=158e419d5c1d567bef64be7dbf55b5ff" style="width: 1px !important; min-width: 100% !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: initial !important; overflow: hidden !important; height: 461px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>	<div class="full-width-layout__news-section nvidia-container pt-30">
+				<div id="disqus_thread"><iframe id="dsq-app3430" name="dsq-app3430" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" allow="autoplay 'src' ./assets/www.youtube.com/ / / / /" width="100%" src="/?base=default&amp;f=nvidiablog&amp;t_u=%2Fblog%2Fblog%2Fvera-cpu-delivery%2F&amp;t_d=Vera%20Arrives%3A%20NVIDIA%E2%80%99s%20First%20CPU%20Built%20for%20Agents%20Lands%20at%20Top%20AI%20Labs&amp;t_t=Vera%20Arrives%3A%20NVIDIA%E2%80%99s%20First%20CPU%20Built%20for%20Agents%20Lands%20at%20Top%20AI%20Labs&amp;s_o=default#version=158e419d5c1d567bef64be7dbf55b5ff" style="width: 1px !important; min-width: 100% !important; border-width: medium !important; border-style: none !important; border-color: currentcolor !important; border-image: initial !important; overflow: hidden !important; height: 461px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>	<div class="full-width-layout__news-section nvidia-container pt-30">
 		<div class="full-width-layout__news-title nvidia-heading-medium">Related News</div>
 
 		<div class="full-width-layout__news nvidia-grid-4">
@@ -1686,11 +1686,11 @@
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -1837,7 +1837,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -1862,7 +1862,7 @@ window.addEventListener('load', () => {
 				color: #FFFFFF !important;
 			}
 		</style>
-		<div class="has_twitter has-tooltip" style="display: none;" data-type="twitter" data-tooltip="Share on X"><a href="https://x.com/intent/tweet?via=%username%&amp;url=%url%&amp;text=%prefix%%text%%suffix%&amp;hashtags=%hashtags%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-twitter-icon"></use></svg><span class="has-text">&nbsp;Share This</span></a></div><div class="has_facebook has-tooltip" style="display: none;" data-type="facebook" data-tooltip="Share on Facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=%url%&amp;t=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-facebook-icon"></use></svg><span class="has-text">&nbsp;Facebook</span></a></div><div class="has_linkedin has-tooltip" style="display: none;" data-type="linkedin" data-tooltip="Share on LinkedIn"><a href="https://www.linkedin.com/sharing/share-offsite/?mini=true&amp;url=%url%&amp;title=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-linkedin-icon"></use></svg><span class="has-text">&nbsp;LinkedIn</span></a></div></div><!-- #highlight-and-share-wrapper --></div><!-- #has-highlight-and-share -->		<svg width="0" height="0" class="hidden" style="display: none;">
+		<div class="has_twitter has-tooltip" style="display: none;" data-type="twitter" data-tooltip="Share on X"><a href="/?via=%username%&amp;url=%url%&amp;text=%prefix%%text%%suffix%&amp;hashtags=%hashtags%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-twitter-icon"></use></svg><span class="has-text">&nbsp;Share This</span></a></div><div class="has_facebook has-tooltip" style="display: none;" data-type="facebook" data-tooltip="Share on Facebook"><a href="/?u=%url%&amp;t=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-facebook-icon"></use></svg><span class="has-text">&nbsp;Facebook</span></a></div><div class="has_linkedin has-tooltip" style="display: none;" data-type="linkedin" data-tooltip="Share on LinkedIn"><a href="/?mini=true&amp;url=%url%&amp;title=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-linkedin-icon"></use></svg><span class="has-text">&nbsp;LinkedIn</span></a></div></div><!-- #highlight-and-share-wrapper --></div><!-- #has-highlight-and-share -->		<svg width="0" height="0" class="hidden" style="display: none;">
 			<symbol aria-hidden="true" data-prefix="fas" data-icon="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="has-twitter-icon">
 				<g><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g>
 			</symbol>
@@ -1932,7 +1932,7 @@ window.addEventListener('load', () => {
 			<h3>Share on Mastodon</h3>
 			<div class="mastodon-input-prompt">
 				<form class="has-mastodon-form">
-					<label><span class="has-mastodon-label">Enter your Mastodon instance URL (optional)</span><input type="text" placeholder="https://mastodon.social" tabindex="0"></label>
+					<label><span class="has-mastodon-label">Enter your Mastodon instance URL (optional)</span><input type="text" placeholder="/" tabindex="0"></label>
 					
 					<button id="has-mastodon-submit" tabindex="0" class="button button-primary">Share</button>
 				</form>
@@ -1947,7 +1947,7 @@ var yith_infs = {"navSelector":".nvb4-single-post-pagination","nextSelector":".f
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/plugins/yith-infinite-scrolling/assets/js/yith-infs.min.js" id="yith-infs-js"></script>
 <script id="nvb6-full-width-layout-js-extra">
-var nvb6_ajax = {"ajax_url":"https://blogs.nvidia.com/wp-admin/admin-ajax.php","rest_url":"https://blogs.nvidia.com/wp-json/nvidia-blog-v6/v2/","nonce":"21e8cc565b"};
+var nvb6_ajax = {"ajax_url":"/blog/blog/wp-admin/admin-ajax.php","rest_url":"/blog/blog/wp-json/nvidia-blog-v6/v2/","nonce":"21e8cc565b"};
 //# sourceURL=nvb6-full-width-layout-js-extra
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/full-width-layout.min.js" id="nvb6-full-width-layout-js"></script>
@@ -1957,7 +1957,7 @@ window.addEventListener("load", function() {MktoForms2.loadForm("//info.nvidia.c
 //# sourceURL=nvb6-mkto-forms-inline-2-js-after
 </script>
 <script id="load-disqus-single-js-extra">
-var nvbThemeVars = {"ajaxUrl":"https://blogs.nvidia.com/wp-admin/admin-ajax.php","disqus_url":"https://blogs.nvidia.com/blog/vera-cpu-delivery/","language":"ICL_LANGUAGE_CODE","site_url":"https://blogs.nvidia.com"};
+var nvbThemeVars = {"ajaxUrl":"/blog/blog/wp-admin/admin-ajax.php","disqus_url":"/blog/blog/vera-cpu-delivery/","language":"ICL_LANGUAGE_CODE","site_url":"/blog/blog/"};
 //# sourceURL=load-disqus-single-js-extra
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/load-disqus.min.js" id="load-disqus-single-js"></script>
@@ -1983,7 +1983,7 @@ var highlight_and_share = {"show_facebook":"1","show_twitter":"1","show_linkedin
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/plugins/highlight-and-share/dist/highlight-and-share.js" id="highlight-and-share-js"></script>
 <script id="ea-share-count-js-extra">
-var easc = {"url":"https://blogs.nvidia.com/wp-admin/admin-ajax.php"};
+var easc = {"url":"/blog/blog/wp-admin/admin-ajax.php"};
 //# sourceURL=ea-share-count-js-extra
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/plugins/cf-ea-share-count/assets/js/share-count.js" id="ea-share-count-js"></script>
@@ -1993,12 +1993,12 @@ var myObj = {"option":""};
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/plugins/read-meter/assets/js/bsf-rt-frontend.min.js" id="bsfrt_frontend-js"></script>
 <script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://blogs.nvidia.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+{"baseUrl":"/","ext":".png","svgUrl":"/","svgExt":".svg","source":{"concatemoji":"/blog/blog/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
 </script>
 <script type="module">
 /*! This file is auto-generated */
 const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
-//# sourceURL=https://blogs.nvidia.com/wp-includes/js/wp-emoji-loader.min.js
+//# sourceURL=/blog/blog/wp-includes/js/wp-emoji-loader.min.js
 </script>
 		<div id="easc-modal-wrap" style="display:none;">
 			<div class="easc-modal">
@@ -2064,4 +2064,4 @@ try {
 </script>
 	
 
-</div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fblogs.nvidia.com" title="Twitter settings iframe" style="display: none;"></iframe></body></html>
+</div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./assets/platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=%2Fblog%2Fblog%2F" title="Twitter settings iframe" style="display: none;"></iframe></body></html>

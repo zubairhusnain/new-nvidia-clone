@@ -1,6 +1,6 @@
 <!DOCTYPE html><html class="html-page no-js device-macintosh browser-chrome device-desktop" xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" style="--nv-header-height: 104px; --nv-global-nav-pull-up: 44px; --vh: 720px; --fixed-width: 246px; --absolute-bottom: 20px;"><head class="at-element-marker">
-  <link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
-  <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
+  <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="robots" content="NOODP,NOYDIR">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,7 +52,7 @@
   <link rel="alternate" hreflang="en-si" href="/en-eu/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/">
   <link rel="alternate" hreflang="en-gb" href="/en-gb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/">
   <link rel="alternate" hreflang="en-ca" href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/">
-  <link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/">
+  <link rel="alternate" hreflang="zh-cn" href="/">
   <link rel="alternate" hreflang="en" href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/">
   <link rel="alternate" hreflang="x-default" href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/">
   <link rel="alternate" type="text/markdown" title="Subnautica 2, Battlefield 6 Season 3, Directive 8020 &amp; Blades of Fire Are Out Now With DLSS" href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen.md/">
@@ -89,12 +89,12 @@
         };
     
     
-       nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-       nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-        nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+       nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+       nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+        nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
         nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
         nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-        nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+        nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
         nvidiaGDC.addProperty('web', 'env', 'p-prod');
         nvidiaGDC.addProperty('web', 'q1', '');
         nvidiaGDC.addProperty('web', 'q2', '');
@@ -1881,8 +1881,8 @@
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1899,7 +1899,7 @@
 </header>
   <noscript>
    <div class="no-js-warning">
-    This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a>
+    This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a>
    </div>
   </noscript>
   <div class="root responsivegrid">
@@ -1994,7 +1994,7 @@
                    <div id="nv-text-e35137b4e6" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend at the Horizon Festival, in Playground Games and Xbox Game Studios’ <a href="https://forza.net/forzahorizon6" target="_blank"><em>Forza Horizon 6</em></a>. Start your journey as a tourist and explore a world full of hit music and Japanese culture. Build a Valley Estate, acquire awe-inspiring homes, and display your prized car collection in fully Customizable Garages. Cruise the roads with your friends and join Car Meets around Japan, unleash your imagination with EventLab and build together in Horizon CoLab.</p>
+                      <p>Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend at the Horizon Festival, in Playground Games and Xbox Game Studios’ <a href="/" target="_blank"><em>Forza Horizon 6</em></a>. Start your journey as a tourist and explore a world full of hit music and Japanese culture. Build a Valley Estate, acquire awe-inspiring homes, and display your prized car collection in fully Customizable Garages. Cruise the roads with your friends and join Car Meets around Japan, unleash your imagination with EventLab and build together in Horizon CoLab.</p>
                       <p>In <em>Forza Horizon 6</em>, you will explore a vast campaign of discovery and Festival racing, playable solo and in co-op.&nbsp; Prove you’ve got what it takes to join the Horizon Festival as a rookie driver, all while you Discover Japan and complete your Collection Journal. Qualify for the Festival in the Horizon Invitational, then rise through the ranks in progressively faster cars and earn new Wristbands to become a Horizon Legend. Your newfound status will grant you access to Legend Island, an exclusive space reserved for the greatest drivers.</p>
                      </div>
                     </div>
@@ -2002,7 +2002,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-94577a6bdb" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="oYhaW-Vr4wg" data-thumbnail="https://img.youtube.com/vi_webp/oYhaW-Vr4wg/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="oYhaW-Vr4wg" data-thumbnail="./assets/img.youtube.com/vi_webp/oYhaW-Vr4wg/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/oYhaW-Vr4wg/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2013,7 +2013,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2024,11 +2024,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=oYhaW-Vr4wg" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=oYhaW-Vr4wg" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/oYhaW-Vr4wg?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="oYhaW-Vr4wg" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/oYhaW-Vr4wg?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="oYhaW-Vr4wg" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2090,10 +2090,10 @@
                   <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-image-139e56d118" class="cmp-image             
      d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" data-title=" " data-cmp-type="externalImg"><picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" geforce="" news="" forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen="" forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png,="" forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x">
-                     <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                     <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                     <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                     <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                     <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                      <img alt=" title=" id="image-nv-image-139e56d118" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-139e56d118');"> 
                     </picture>
                    </div>
@@ -2110,10 +2110,10 @@
                   <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-image-e108e73819" class="cmp-image             
      d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" data-title=" " data-cmp-type="externalImg"><picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" geforce="" news="" forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen="" forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png,="" forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x">
-                     <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                     <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                     <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                     <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                     <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                      <img alt=" title=" id="image-nv-image-e108e73819" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-e108e73819');"> 
                     </picture>
                    </div>
@@ -2131,10 +2131,10 @@
                   <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-image-012b30fdb3" class="cmp-image             
      d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" data-title=" " data-cmp-type="externalImg"><picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" geforce="" news="" forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen="" forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png,="" forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png 2x">
-                     <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                     <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                     <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                     <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                     <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                      <img alt=" title=" id="image-nv-image-012b30fdb3" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-012b30fdb3');"> 
                     </picture>
                    </div>
@@ -2151,10 +2151,10 @@
                   <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-image-e177515578" class="cmp-image             
      d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png" data-title=" " data-cmp-type="externalImg"><picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" geforce="" news="" forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen="" forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png,="" forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png 2x">
-                     <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                     <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                     <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                     <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                     <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                      <img alt=" title=" id="image-nv-image-e177515578" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-e177515578');"> 
                     </picture>
                    </div>
@@ -2171,10 +2171,10 @@
                   <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-image-ff8291ac30" class="cmp-image             
      d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png" data-title=" " data-cmp-type="externalImg"><picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" geforce="" news="" forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen="" forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png,="" forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png, ../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png 2x">
-                     <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                     <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                     <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                     <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                     <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                      <img alt=" title=" id="image-nv-image-ff8291ac30" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-ff8291ac30');"> 
                     </picture>
                    </div>
@@ -2223,7 +2223,7 @@
                    <div id="nv-text-780c18eb59" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>In <a href="https://store.steampowered.com/app/2255370/Directive_8020/" target="_blank"><em>Directive 8020</em></a>, Earth is dying and humanity is running out of time. 12 light years from home, Tau Ceti f offers a small sliver of hope. When the colony ship Cassiopeia crash lands on the planet, its crew soon realize they are far from being alone. From Supermassive Games, creators of Until Dawn and The Quarry, this all-new cinematic sci-fi horror adventure, set in their <em>Dark Pictures</em> universe, blends intense survival gameplay with meaningful choices and a branching storyline.</p>
+                      <p>In <a href="/" target="_blank"><em>Directive 8020</em></a>, Earth is dying and humanity is running out of time. 12 light years from home, Tau Ceti f offers a small sliver of hope. When the colony ship Cassiopeia crash lands on the planet, its crew soon realize they are far from being alone. From Supermassive Games, creators of Until Dawn and The Quarry, this all-new cinematic sci-fi horror adventure, set in their <em>Dark Pictures</em> universe, blends intense survival gameplay with meaningful choices and a branching storyline.</p>
                       <p>Hunted by an alien organism capable of mimicking its prey, the crew of the Cassiopeia must outwit their pursuers to make it home alive. ‘Fight to survive in single-player story mode or recruit up to five players to join you on your mission in couch-co-op movie night mode. Choose which crew members to control and work together with your friends to survive alien infiltrators, deadly dilemmas, and catastrophic system failures.</p>
                      </div>
                     </div>
@@ -2231,7 +2231,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-e2f879dc53" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="a75f2z_I7QU" data-thumbnail="https://img.youtube.com/vi_webp/a75f2z_I7QU/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="a75f2z_I7QU" data-thumbnail="./assets/img.youtube.com/vi_webp/a75f2z_I7QU/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/a75f2z_I7QU/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2242,7 +2242,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2253,11 +2253,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=a75f2z_I7QU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=a75f2z_I7QU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/a75f2z_I7QU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="a75f2z_I7QU" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/a75f2z_I7QU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="a75f2z_I7QU" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2273,7 +2273,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-a444cf6726" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="uxTdx-ksQXQ" data-thumbnail="https://img.youtube.com/vi_webp/uxTdx-ksQXQ/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="uxTdx-ksQXQ" data-thumbnail="./assets/img.youtube.com/vi_webp/uxTdx-ksQXQ/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/uxTdx-ksQXQ/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2284,7 +2284,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2295,11 +2295,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=uxTdx-ksQXQ" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=uxTdx-ksQXQ" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/uxTdx-ksQXQ?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="uxTdx-ksQXQ" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/uxTdx-ksQXQ?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="uxTdx-ksQXQ" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2315,7 +2315,7 @@
                    <div id="nv-text-0f6d4f656f" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>EA’s <a href="https://www.ea.com/games/battlefield/battlefield-6" target="_blank"><em>Battlefield 6</em></a> is the ultimate all-out warfare experience. Fight in high-intensity infantry combat. Rip through the skies in aerial dogfights. Demolish your environment for a strategic advantage. Harness complete control over every action and movement using the Kinesthetic Combat System. In a war of tanks, fighter jets, and massive combat arsenals, the deadliest weapon is your squad.</p>
+                      <p>EA’s <a href="/" target="_blank"><em>Battlefield 6</em></a> is the ultimate all-out warfare experience. Fight in high-intensity infantry combat. Rip through the skies in aerial dogfights. Demolish your environment for a strategic advantage. Harness complete control over every action and movement using the Kinesthetic Combat System. In a war of tanks, fighter jets, and massive combat arsenals, the deadliest weapon is your squad.</p>
                       <p><em>Battlefield 6</em> includes support for DLSS Multi Frame Generation, DLSS Frame Generation, DLSS Super Resolution, DLAA, and NVIDIA Reflex, giving GeForce RTX gamers the definitive experience.</p>
                       <p>At 4K, at Ultra settings, DLSS Multi Frame Generation and DLSS Super Resolution multiply <em>Battlefield 6</em>’s GeForce RTX 50 Series frame rates <a href="/geforce/news/battlefield-6-dlss-4-multi-frame-generation-nvidia-reflex/">by up to an average of 3.8X</a>, enabling gameplay at up to 460 frames per second on desktops, and 310 frames per second on GeForce RTX 50 Series Laptop GPUs.</p>
                      </div>
@@ -2366,7 +2366,7 @@
                   <div id="carousel-2fe6797a1a-item-809a3e9647-tabpanel" class="cmp-carousel__item cmp-carousel__item--active" role="tabpanel" aria-roledescription="slide" aria-label="Slide 1 of 2" data-cmp-slide-no="1" data-cmp-hook-carousel="item">
                    <div class="nv-embed embed">
                     <div id="nv-embed-809a3e9647" class="cmp-embed">
-                     <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="ICJajlj_ujo" data-thumbnail="https://img.youtube.com/vi_webp/ICJajlj_ujo/maxresdefault.webp">
+                     <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="ICJajlj_ujo" data-thumbnail="./assets/img.youtube.com/vi_webp/ICJajlj_ujo/maxresdefault.webp">
                       
                       <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/ICJajlj_ujo/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                         <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2377,7 +2377,7 @@
                         <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                          Consent for Optional Cookies
                         </div>
-                        <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                        <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                         <div class="nv-yt-embed__consent-buttons">
                          <div class="nv-button nv-button-small">
                           <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2388,11 +2388,11 @@
                           </div>
                          </div>
                         </div>
-                        <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=ICJajlj_ujo" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                        <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=ICJajlj_ujo" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                        </div>
                       </div>
                      
-                       <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/ICJajlj_ujo?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="ICJajlj_ujo" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                       <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/ICJajlj_ujo?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="ICJajlj_ujo" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                        </div>
                       </div>
                     </div>
@@ -2401,7 +2401,7 @@
                   <div id="carousel-2fe6797a1a-item-9a8e88de6c-tabpanel" class="cmp-carousel__item cmp-carousel__item--visuallyhidden" role="tabpanel" aria-roledescription="slide" aria-label="Slide 2 of 2" data-cmp-slide-no="2" data-cmp-hook-carousel="item" aria-hidden="true">
                    <div class="nv-embed embed">
                     <div id="nv-embed-9a8e88de6c" class="cmp-embed">
-                     <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="mMkXraa7mLM" data-thumbnail="https://img.youtube.com/vi_webp/mMkXraa7mLM/maxresdefault.webp">
+                     <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="mMkXraa7mLM" data-thumbnail="./assets/img.youtube.com/vi_webp/mMkXraa7mLM/maxresdefault.webp">
                       
                       <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/mMkXraa7mLM/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                         <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2412,7 +2412,7 @@
                         <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                          Consent for Optional Cookies
                         </div>
-                        <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                        <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                         <div class="nv-yt-embed__consent-buttons">
                          <div class="nv-button nv-button-small">
                           <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2423,11 +2423,11 @@
                           </div>
                          </div>
                         </div>
-                        <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=mMkXraa7mLM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                        <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=mMkXraa7mLM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                        </div>
                       </div>
                      
-                       <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/mMkXraa7mLM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="mMkXraa7mLM" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                       <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/mMkXraa7mLM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="mMkXraa7mLM" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                        </div>
                       </div>
                     </div>
@@ -2467,7 +2467,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-319095360e" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="OLR6PII5BoM" data-thumbnail="https://img.youtube.com/vi_webp/OLR6PII5BoM/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="OLR6PII5BoM" data-thumbnail="./assets/img.youtube.com/vi_webp/OLR6PII5BoM/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/OLR6PII5BoM/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2478,7 +2478,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2489,11 +2489,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=OLR6PII5BoM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=OLR6PII5BoM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/OLR6PII5BoM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="OLR6PII5BoM" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/OLR6PII5BoM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="OLR6PII5BoM" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2502,7 +2502,7 @@
                    <div id="nv-text-fcca77a146" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>Additionally, there are a ton of changes and enhancements to gameplay systems, details of which you can find on the <a href="https://www.ea.com/games/battlefield/battlefield-6/news?type=game-updates" target="_blank"><em>Battlefield 6</em> website</a>. And to see what’s coming next, head to the <a href="https://www.ea.com/games/battlefield/battlefield-6/seasons/battlefield-2026-roadmap" target="_blank"><em>Battlefield 6</em> Roadmap</a>.</p>
+                      <p>Additionally, there are a ton of changes and enhancements to gameplay systems, details of which you can find on the <a href="/?type=game-updates" target="_blank"><em>Battlefield 6</em> website</a>. And to see what’s coming next, head to the <a href="/" target="_blank"><em>Battlefield 6</em> Roadmap</a>.</p>
                      </div>
                     </div>
                    </div>
@@ -2518,7 +2518,7 @@
                    <div id="nv-text-30497daa7d" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>Unknown Worlds’ <a href="https://store.steampowered.com/app/1962700/Subnautica_2/" target="_blank"><em>Subnautica 2</em></a> is an underwater survival adventure game set on an all-new alien world. Driven from your home by ongoing conflict, Alterra offers you the chance at a new life. But as the colony ship CICADA shepherds you and your fellow Pioneers to your new home, something goes awry. The ship’s AI insists that your mission should continue. Stranded and faced with near-insurmountable odds, you must do everything in your power to survive. The future of humanity on this world is in your hands.</p>
+                      <p>Unknown Worlds’ <a href="/" target="_blank"><em>Subnautica 2</em></a> is an underwater survival adventure game set on an all-new alien world. Driven from your home by ongoing conflict, Alterra offers you the chance at a new life. But as the colony ship CICADA shepherds you and your fellow Pioneers to your new home, something goes awry. The ship’s AI insists that your mission should continue. Stranded and faced with near-insurmountable odds, you must do everything in your power to survive. The future of humanity on this world is in your hands.</p>
                       <p>To survive the depths and make this planet your home, you’ll need to utilize all the tools at your disposal, alone, or with the help of up to three friends in online co-op. Traverse vibrant and breathtaking biomes with your Tadpole submersible. Design and customize bases to return to when your adventures push you beyond the safety of shallow waters.</p>
                      </div>
                     </div>
@@ -2526,7 +2526,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-206b6cd60d" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="6t2nDHldoSk" data-thumbnail="https://img.youtube.com/vi_webp/6t2nDHldoSk/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="6t2nDHldoSk" data-thumbnail="./assets/img.youtube.com/vi_webp/6t2nDHldoSk/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/6t2nDHldoSk/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2537,7 +2537,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2548,11 +2548,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=6t2nDHldoSk" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=6t2nDHldoSk" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/6t2nDHldoSk?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="6t2nDHldoSk" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/6t2nDHldoSk?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="6t2nDHldoSk" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2577,7 +2577,7 @@
                    <div id="nv-text-fb1031346a" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>MercurySteam and 505 Games’ <a href="https://store.steampowered.com/app/2091020/Blades_of_Fire/" target="_blank"><em>Blades of Fire</em></a> is a dark fantasy adventure, in which players control Aran de Lira, the last warrior capable of forging true steel in a world where metal turns to stone. Your journey is not about collecting weapons, but about forging them through intent, sacrifice, and consequence, and surviving long enough to master their weight.</p>
+                      <p>MercurySteam and 505 Games’ <a href="/" target="_blank"><em>Blades of Fire</em></a> is a dark fantasy adventure, in which players control Aran de Lira, the last warrior capable of forging true steel in a world where metal turns to stone. Your journey is not about collecting weapons, but about forging them through intent, sacrifice, and consequence, and surviving long enough to master their weight.</p>
                       <p>Combat is deliberate and unforgiving. Every strike commits you. Every mistake costs you. Victory is earned through patience, positioning, and understanding both your enemy and the blade you forged to face them. Weapons are forged at the anvil through deliberate choices that permanently shape their behaviour, balance, and purpose. There is no endless loot. No disposable gear.</p>
                      </div>
                     </div>
@@ -2585,7 +2585,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-255e0d9b58" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="4QdCRYEeC0c" data-thumbnail="https://img.youtube.com/vi_webp/4QdCRYEeC0c/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="4QdCRYEeC0c" data-thumbnail="./assets/img.youtube.com/vi_webp/4QdCRYEeC0c/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/4QdCRYEeC0c/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2596,7 +2596,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2607,11 +2607,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=4QdCRYEeC0c" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=4QdCRYEeC0c" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/4QdCRYEeC0c?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="4QdCRYEeC0c" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/4QdCRYEeC0c?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="4QdCRYEeC0c" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2620,7 +2620,7 @@
                    <div id="nv-text-1dee0f01f3" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>On May 14th, <em>Blades of Fire</em> launches on Steam, accompanied by a massive 2.0 update that adds additional gameplay mechanics, New Game Plus, a new difficulty level, and a variety of other improvements and additions. Experience many of these today in the <a href="https://store.steampowered.com/app/2091020/Blades_of_Fire/" target="_blank"><em>Blades of Fire</em> Steam demo</a>, which includes the beginning of the game, with progress transferring to the full game should you buy it.&nbsp;</p>
+                      <p>On May 14th, <em>Blades of Fire</em> launches on Steam, accompanied by a massive 2.0 update that adds additional gameplay mechanics, New Game Plus, a new difficulty level, and a variety of other improvements and additions. Experience many of these today in the <a href="/" target="_blank"><em>Blades of Fire</em> Steam demo</a>, which includes the beginning of the game, with progress transferring to the full game should you buy it.&nbsp;</p>
                       <p>For GeForce RTX gamers, version 2.0 introduces support for DLSS Super Resolution and DLSS Frame Generation. In the full game, via the NVIDIA app, DLSS Super Resolution can be upgraded to DLSS 4.5 Super Resolution, and DLSS Frame Generation to DLSS 4.5 Multi Frame Generation 6X Mode, for even better image quality, and higher levels of performance.</p>
                      </div>
                     </div>
@@ -2637,7 +2637,7 @@
                    <div id="nv-text-8f36414985" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>In <a href="https://ioi.dk/007firstlightgame" target="_blank"><em>007 First Light</em></a>, launching May 27th, follow James Bond as a young, resourceful and sometimes reckless recruit in MI6's training program, and discover a reimagined origin story of the world’s most famous spy. This third-person action-adventure game incorporates IO Interactive’s signature stealth gameplay with bombastic James Bond action.</p>
+                      <p>In <a href="/" target="_blank"><em>007 First Light</em></a>, launching May 27th, follow James Bond as a young, resourceful and sometimes reckless recruit in MI6's training program, and discover a reimagined origin story of the world’s most famous spy. This third-person action-adventure game incorporates IO Interactive’s signature stealth gameplay with bombastic James Bond action.</p>
                       <p>Embark on missions in breathtaking locations around the globe, drive iconic vehicles, and dive into a cinematic adventure in pursuit of a rogue agent who’s always one step ahead.</p>
                      </div>
                     </div>
@@ -2645,7 +2645,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-696ac0afa1" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="Y1AHkgXCNjA" data-thumbnail="https://img.youtube.com/vi_webp/Y1AHkgXCNjA/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="Y1AHkgXCNjA" data-thumbnail="./assets/img.youtube.com/vi_webp/Y1AHkgXCNjA/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/Y1AHkgXCNjA/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2656,7 +2656,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2667,11 +2667,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=Y1AHkgXCNjA" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=Y1AHkgXCNjA" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/Y1AHkgXCNjA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="Y1AHkgXCNjA" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/Y1AHkgXCNjA?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="Y1AHkgXCNjA" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2713,14 +2713,14 @@
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
                       <p>Ahead of <em>007 First Light</em>’s release, we’re giving gamers the chance to win customized GeForce RTX 5080 Founders Edition graphics cards, <em>007 First Light</em> game codes and <em>007 First Light Legacy Editions.&nbsp;</em></p>
-                      <p>For a chance to win, respond to <em>007 First Light </em>posts on our <a href="https://www.facebook.com/NVIDIAGeForce" target="_blank">Facebook</a>, <a href="https://www.instagram.com/nvidiageforce/" target="_blank">Instagram</a>, <a href="https://www.tiktok.com/@nvidiageforce" target="_blank">Tiktok</a> and <a href="https://www.twitter.com/NVIDIAGeForce">X</a> pages, and Reddit communities, using <strong>#007FirstLightRTX</strong>. Users in <a href="/geforce/contests/007FirstLight-sweepstakes/" target="_blank">eligible, participating countries</a> will be randomly selected after May 27th to win, so be sure to keep an eye on your DMs.</p>
+                      <p>For a chance to win, respond to <em>007 First Light </em>posts on our <a href="/" target="_blank">Facebook</a>, <a href="/" target="_blank">Instagram</a>, <a href="/" target="_blank">Tiktok</a> and <a href="/">X</a> pages, and Reddit communities, using <strong>#007FirstLightRTX</strong>. Users in <a href="/geforce/contests/007FirstLight-sweepstakes/" target="_blank">eligible, participating countries</a> will be randomly selected after May 27th to win, so be sure to keep an eye on your DMs.</p>
                      </div>
                     </div>
                    </div>
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-823200a08d" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="IRSEvCQEiuQ" data-thumbnail="https://img.youtube.com/vi_webp/IRSEvCQEiuQ/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="IRSEvCQEiuQ" data-thumbnail="./assets/img.youtube.com/vi_webp/IRSEvCQEiuQ/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/IRSEvCQEiuQ/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2731,7 +2731,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2742,11 +2742,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=IRSEvCQEiuQ" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=IRSEvCQEiuQ" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/IRSEvCQEiuQ?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="IRSEvCQEiuQ" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/IRSEvCQEiuQ?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="IRSEvCQEiuQ" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2762,7 +2762,7 @@
                    <div id="nv-text-fecfae0208" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p><a href="https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/" target="_blank"><em>Resident Evil™ Requiem</em></a> has received unanimous critical and player acclaim, and has sold over 7 million copies since release! On PC, GeForce RTX players get the definitive experience thanks to its path-traced lighting and effects, which are enhanced, accelerated and optimized by DLSS Multi Frame Generation, DLSS Ray Reconstruction and NVIDIA Reflex.</p>
+                      <p><a href="/" target="_blank"><em>Resident Evil™ Requiem</em></a> has received unanimous critical and player acclaim, and has sold over 7 million copies since release! On PC, GeForce RTX players get the definitive experience thanks to its path-traced lighting and effects, which are enhanced, accelerated and optimized by DLSS Multi Frame Generation, DLSS Ray Reconstruction and NVIDIA Reflex.</p>
                       <p>If you’ve completed the <em>Resident Evil Requiem</em> story, you can now challenge your skills in the free “Leon Must Die Forever” mode. This minigame challenges you to clear numerous stages as Leon while unlocking exclusive enhancer abilities. The fast-paced action is distinct from the main story mode, and is packed with replay value. Can you make it to the end alive and defeat the boss within the time limit?</p>
                       <p>Multiple difficulty levels are available, including an extreme high-difficulty mode for only the most confident players. True to the title, you’ll "die forever"...</p>
                      </div>
@@ -2771,7 +2771,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-b415a19d99" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="ZaOvZJm_j4g" data-thumbnail="https://img.youtube.com/vi_webp/ZaOvZJm_j4g/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="ZaOvZJm_j4g" data-thumbnail="./assets/img.youtube.com/vi_webp/ZaOvZJm_j4g/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/ZaOvZJm_j4g/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2782,7 +2782,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2793,11 +2793,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=ZaOvZJm_j4g" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=ZaOvZJm_j4g" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/ZaOvZJm_j4g?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="ZaOvZJm_j4g" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/ZaOvZJm_j4g?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="ZaOvZJm_j4g" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2822,7 +2822,7 @@
                    <div id="nv-text-30281648a1" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>CAPCOM’s <a href="https://www.capcom-games.com/pragmata/en-us/about/" target="_blank"><em>PRAGMATA</em></a><em>™</em> has sold over a million copies in just two days, it’s one of the highest rated games of the year, and PC players love it, with over 11,000 accumulated Steam reviews awarding the game a 97% average, Overwhelmingly Positive rating.</p>
+                      <p>CAPCOM’s <a href="/" target="_blank"><em>PRAGMATA</em></a><em>™</em> has sold over a million copies in just two days, it’s one of the highest rated games of the year, and PC players love it, with over 11,000 accumulated Steam reviews awarding the game a 97% average, Overwhelmingly Positive rating.</p>
                       <p>Check out some press opinions in this cinematic, high-fidelity <em>PRAGMATA</em> RTX video:</p>
                      </div>
                     </div>
@@ -2830,7 +2830,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-d831bdadc9" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="L5XPOWqi8Ys" data-thumbnail="https://img.youtube.com/vi_webp/L5XPOWqi8Ys/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="L5XPOWqi8Ys" data-thumbnail="./assets/img.youtube.com/vi_webp/L5XPOWqi8Ys/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/L5XPOWqi8Ys/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2841,7 +2841,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2852,11 +2852,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=L5XPOWqi8Ys" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=L5XPOWqi8Ys" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/L5XPOWqi8Ys?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="L5XPOWqi8Ys" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/L5XPOWqi8Ys?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="L5XPOWqi8Ys" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2872,7 +2872,7 @@
                   </div>
                   <div class="nv-embed embed aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--laptop--8">
                    <div id="nv-embed-dc356c6d5e" class="cmp-embed">
-                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="t8tAbd_c6DY" data-thumbnail="https://img.youtube.com/vi_webp/t8tAbd_c6DY/maxresdefault.webp">
+                    <div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="t8tAbd_c6DY" data-thumbnail="./assets/img.youtube.com/vi_webp/t8tAbd_c6DY/maxresdefault.webp">
                      
                      <div class="nv-yt-embed__consent-poster"><img src="/assets/img.youtube.com/vi_webp/t8tAbd_c6DY/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy"> <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video">
                        <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path> <path d="M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z" fill="rgb(99,99,99)"></path>
@@ -2883,7 +2883,7 @@
                        <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">
                         Consent for Optional Cookies
                        </div>
-                       <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+                       <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
                        <div class="nv-yt-embed__consent-buttons">
                         <div class="nv-button nv-button-small">
                          <div class="nv-button-standard"><button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2894,11 +2894,11 @@
                          </div>
                         </div>
                        </div>
-                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=t8tAbd_c6DY" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+                       <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=t8tAbd_c6DY" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
                       </div>
                      </div>
                     
-                      <div class="iframe-wrapper"><iframe width="100%" src="https://www.youtube.com/embed/t8tAbd_c6DY?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="t8tAbd_c6DY" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+                      <div class="iframe-wrapper"><iframe width="100%" src="./assets/www.youtube.com/embed/t8tAbd_c6DY?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="t8tAbd_c6DY" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
                       </div>
                      </div>
                    </div>
@@ -2914,7 +2914,7 @@
                    <div id="nv-text-27aedac615" class="general-container-text            ">
                     <div class="text-left lap-text-left tab-text-left mob-text-left">
                      <div class="description ">
-                      <p>The<a href="https://developer.nvidia.com/rtx/dlss" target="_blank"> new DLSS 4.5 Unreal Engine plugin</a> adds support for DLSS 4.5 Dynamic Multi Frame Generation and Multi Frame Generation 6X.</p>
+                      <p>The<a href="./assets/developer.nvidia.com/rtx/dlss" target="_blank"> new DLSS 4.5 Unreal Engine plugin</a> adds support for DLSS 4.5 Dynamic Multi Frame Generation and Multi Frame Generation 6X.</p>
                       <p>The plugin provides direct access to the latest Super Resolution and Frame Generation updates. Built on Streamline, the plugin offers a consistent integration path across DLSS features, allowing developers to selectively adopt capabilities like Ray Reconstruction or Dynamic Multi Frame Generation. Updated APIs, documentation, and sample code help reduce integration time and make it easier to bring DLSS into both new and existing projects.</p>
                      </div>
                     </div>
@@ -3353,11 +3353,11 @@
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -3504,7 +3504,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -3523,7 +3523,7 @@ window.addEventListener('load', () => {
   <div id="country-selector-modal">
    <div class="cs-modal-content">
     <div class="cs-title h4">Select Location</div>
-    <div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+    <div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
    </div>
   </div>
   <script type="text/javascript" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

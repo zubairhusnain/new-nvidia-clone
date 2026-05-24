@@ -6,15 +6,15 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="profile" href="/">
 
 	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="alternate" hreflang="en-us" href="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/">
 <link rel="alternate" hreflang="x-default" href="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="preconnect" href="/">
+<link rel="preconnect" href="/" crossorigin="">
 
-	<!-- This site is optimized with the Yoast SEO Premium plugin v27.6 (Yoast SEO v27.6) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v27.6 (Yoast SEO v27.6) - / -->
 	<title>GFN Thursday: ‘007 First Light’ Ultimate Bundle | NVIDIA Blog</title>
 	<meta name="description" content="Get '007 First Light' free on launch day with one-year Ultimate membership - just in time to catch 'Forza Horizon 6' launch in the cloud,">
 	<link rel="canonical" href="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/">
@@ -24,7 +24,7 @@
 	<meta property="og:description" content="Get '007 First Light' free on launch day with one-year Ultimate membership - just in time to catch 'Forza Horizon 6' launch in the cloud,">
 	<meta property="og:url" content="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/">
 	<meta property="og:site_name" content="NVIDIA Blog">
-	<meta property="article:publisher" content="https://www.facebook.com/NVIDIA/">
+	<meta property="article:publisher" content="/">
 	<meta property="article:published_time" content="2026-05-21T13:00:22+00:00">
 	<meta property="og:image" content="../../../assets/blogs.nvidia.com/wp-content/uploads/2026/05/gfn-thursday-5-14-nv-blog-1280x680-logo-1.jpg">
 	<meta property="og:image:width" content="1280">
@@ -41,9 +41,9 @@
 	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#article","isPartOf":{"@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/"},"author":[{"@id":"https:\/\/blogs.nvidia.com\/#\/schema\/person\/eed9b743635d0248b2f3f5492e702484"}],"headline":"License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle","datePublished":"2026-05-21T13:00:22+00:00","mainEntityOfPage":{"@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/"},"wordCount":719,"image":{"@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#primaryimage"},"thumbnailUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/gfn-thursday-5-14-nv-blog-1280x680-logo-1.jpg","keywords":["Cloud Gaming","GeForce NOW"],"articleSection":["Gaming"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/","url":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/","name":"GFN Thursday: ‘007 First Light’ Ultimate Bundle | NVIDIA Blog","isPartOf":{"@id":"https:\/\/blogs.nvidia.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#primaryimage"},"image":{"@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#primaryimage"},"thumbnailUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/gfn-thursday-5-14-nv-blog-1280x680-logo-1.jpg","datePublished":"2026-05-21T13:00:22+00:00","author":{"@id":"https:\/\/blogs.nvidia.com\/#\/schema\/person\/eed9b743635d0248b2f3f5492e702484"},"description":"Get '007 First Light' free on launch day with one-year Ultimate membership - just in time to catch 'Forza Horizon 6' launch in the cloud,","breadcrumb":{"@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#primaryimage","url":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/gfn-thursday-5-14-nv-blog-1280x680-logo-1.jpg","contentUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2026\/05\/gfn-thursday-5-14-nv-blog-1280x680-logo-1.jpg","width":1280,"height":680,"caption":"007 First Light Game Launch offer on GeForce NOW"},{"@type":"BreadcrumbList","@id":"https:\/\/blogs.nvidia.com\/blog\/geforce-now-thursday-007-first-light-ultimate-bundle\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/blogs.nvidia.com\/"},{"@type":"ListItem","position":2,"name":"License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle"}]},{"@type":"WebSite","@id":"https:\/\/blogs.nvidia.com\/#website","url":"https:\/\/blogs.nvidia.com\/","name":"NVIDIA Blog","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/blogs.nvidia.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Person","@id":"https:\/\/blogs.nvidia.com\/#\/schema\/person\/eed9b743635d0248b2f3f5492e702484","name":"GeForce NOW Community","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2021\/02\/GFN-96x96.png18ef4d59d0099cb068caccf20676834a","url":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2021\/02\/GFN-96x96.png","contentUrl":"https:\/\/blogs.nvidia.com\/wp-content\/uploads\/2021\/02\/GFN-96x96.png","caption":"GeForce NOW Community"},"description":"GeForce NOW is NVIDIA’s cloud gaming service, instantly transforming nearly any laptop, desktop, Mac, SHIELD TV, Android device, iPhone or iPad into a PC gaming rig. GFN members can play the most demanding PC games and seamlessly play across most of their devices. The GeForce NOW community team will bring you the latest news on games, new platforms, service updates and more.","url":"https:\/\/blogs.nvidia.com\/blog\/author\/geforcenowcommunity\/"}]}</script>
 	<!-- / Yoast SEO Premium plugin. -->
 
-<link rel="dns-prefetch" href="//images.nvidia.com">
-<link rel="dns-prefetch" href="//info.nvidia.com">
-<link rel="dns-prefetch" href="//nvidiablog.disqus.com">
+<link rel="dns-prefetch" href="./assets/images.nvidia.com/">
+<link rel="dns-prefetch" href="./assets/info.nvidia.com/">
+<link rel="dns-prefetch" href="./assets/nvidiablog.disqus.com/">
 <link rel="alternate" type="application/rss+xml" title="NVIDIA Blog » Feed" href="/blog/feed/">
 <link rel="alternate" type="application/rss+xml" title="NVIDIA Blog » Comments Feed" href="/blog/comments/feed/">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/blog/wp-json/oembed/1.0/embed/">
@@ -1201,8 +1201,8 @@
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1220,7 +1220,7 @@
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 		<div class="nvidia-container">
-			<article id="post-93181" class="post-with-sidebar grid grid-cols-1 laptop:grid-cols-4 desktop:grid-cols-4 w-full gap-[30px] post-93181 post type-post status-publish format-standard has-post-thumbnail hentry category-gaming tag-cloud-gaming tag-geforce-now" data-url="https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/" data-identifier="93181 https://blogs.nvidia.com/?p=93181" data-title="License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle">
+			<article id="post-93181" class="post-with-sidebar grid grid-cols-1 laptop:grid-cols-4 desktop:grid-cols-4 w-full gap-[30px] post-93181 post type-post status-publish format-standard has-post-thumbnail hentry category-gaming tag-cloud-gaming tag-geforce-now" data-url="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/" data-identifier="93181 /blog/blog/?p=93181" data-title="License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle">
 
 	<header class="entry-header laptop:col-span-4 desktop:col-span-4">
 		<div class="inner3">
@@ -1257,7 +1257,7 @@
 				<div class="nvidia-share opacity-0 translate-y-2 pointer-events-none transition-all duration-200 ease-out hidden shadow-nvidia-share absolute top-[25px] right-0 md:left-0 bg-white p-[25px] shadow-lg min-w-[216px] z-[99]" id="nvidia-share-dropdown">
 					<p class="text-lg font-bold mb-[30px]"> Share This Article </p>
 					<ul class="entry-meta-social-links-list">
-						<li class="mb-[30px]"><a href="https://twitter.com/intent/tweet?text=License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgeforce-now-thursday-007-first-light-ultimate-bundle%2F" class="nvb6-social-share-link flex gap-[15px] for-x" target="_blank">	<span class="share-icon rounded-[5px] p-px bg-black icon-for-twitter">
+						<li class="mb-[30px]"><a href="/?text=License%20to%20Stream:%20%E2%80%98007%20First%20Light%E2%80%99%20Coming%20to%20GeForce%20NOW%20With%20an%20Ultimate%20Bundle%20%2Fblog%2Fblog%2Fgeforce-now-thursday-007-first-light-ultimate-bundle%2F" class="nvb6-social-share-link flex gap-[15px] for-x" target="_blank">	<span class="share-icon rounded-[5px] p-px bg-black icon-for-twitter">
 		<svg class="icon-social-twitter" width="25px" height="25px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path fill="#fff" d="M13.903 10.469 21.348 2h-1.764l-6.465 7.353L7.955 2H2l7.808 11.12L2 22h1.764
 				l6.828-7.765L16.044 22H22l-8.097-11.531Zm-2.417 2.748-.791-1.107
@@ -1266,7 +1266,7 @@
 		</svg>
 	</span>
 	<p class="leading-[2]"> X </p>
-	</a></li><li class="mb-[30px]"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgeforce-now-thursday-007-first-light-ultimate-bundle%2F" class="nvb6-social-share-link flex gap-[15px] for-facebook" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-facebook">
+	</a></li><li class="mb-[30px]"><a href="/?u=%2Fblog%2Fblog%2Fgeforce-now-thursday-007-first-light-ultimate-bundle%2F" class="nvb6-social-share-link flex gap-[15px] for-facebook" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-facebook">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="25px" height="25px" fill="#fff">
 					<g>
 						<path d="M304,192h96v96h-96v224h-96V288h-96v-96h96v-40.2c0-38,12-86.1,35.8-112.4
@@ -1276,7 +1276,7 @@
 				</svg>
 			</span>
 			<p class="leading-[2]"> Facebook </p>
-			</a></li><li class="mb-[30px]"><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fblogs.nvidia.com%2Fblog%2Fgeforce-now-thursday-007-first-light-ultimate-bundle%2F&amp;title=GFN+Thursday%3A+%E2%80%98007+First+Light%E2%80%99+Ultimate+Bundle+%7C+NVIDIA+Blog" class="nvb6-social-share-link flex gap-[15px] for-linkedin" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-linkedin">
+			</a></li><li class="mb-[30px]"><a href="/?mini=true&amp;url=%2Fblog%2Fblog%2Fgeforce-now-thursday-007-first-light-ultimate-bundle%2F&amp;title=GFN+Thursday%3A+%E2%80%98007+First+Light%E2%80%99+Ultimate+Bundle+%7C+NVIDIA+Blog" class="nvb6-social-share-link flex gap-[15px] for-linkedin" target="_blank">			<span class="share-icon rounded-[5px] p-px bg-black icon-linkedin">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" width="25px" height="25px" style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
 				<g>
 					<path d="M512,311.34v189.29H402.27V324.01
@@ -1337,25 +1337,25 @@
 <p><span style="font-weight: 400">Take on a wide range of events, from high-speed street races to off-road expeditions, or drop into live activities happening across the world. Build a garage of iconic cars spanning decades of automotive history, each brought to life with incredible detail and customization. The Horizon Festival is more than competition — it’s a celebration of car culture and music. Seamless online features connect players across events and challenges, making every session feel alive and unpredictable.</span></p>
 <p><span style="font-weight: 400">Powered by the cloud, GeForce NOW delivers the festival in stunning detail. Members experience ultrasmooth performance and vivid environments without needing to wait for installs or upgrading hardware. With technologies like </span><a target="_blank" href="/geforce/technologies/dlss/"><span style="font-weight: 400">NVIDIA DLSS</span></a><span style="font-weight: 400"> enhancing performance and visual fidelity, every reflection, speed blur and finish-line sprint hits at full intensity.</span></p>
 <h2><b>Community Spotlight</b></h2>
-<p><iframe loading="lazy" title="FULL Interview with GeForce Now LEAD Dev Andrew FEAR!" width="1200" height="675" src="https://www.youtube.com/embed/cf8QLpuTzQU?start=3&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
-<p><span style="font-weight: 400">Community-created content takes the spotlight this week, as GeForce NOW ambassador </span><a target="_blank" href="https://www.youtube.com/@CloudGamingBattle"><span style="font-weight: 400">Cloud Gaming Battle</span></a><span style="font-weight: 400"> sits down with Andrew Fear, GeForce NOW product manager director at NVIDIA, to dive into what makes the service tick. The conversation covers how GeForce NOW brings high-performance PC gaming from the cloud to a wide range of devices, giving a closer look at the tech, thinking and passion behind the platform. It’s a conversation that the </span><a target="_blank" href="https://www.reddit.com/r/GeForceNOW/comments/1t6pdyb/from_3dfx_to_nvidia_to_helping_create_geforce_now/"><span style="font-weight: 400">GFN Reddit community</span></a><span style="font-weight: 400"> is calling “genuinely inspirational.”</span></p>
+<p><iframe loading="lazy" title="FULL Interview with GeForce Now LEAD Dev Andrew FEAR!" width="1200" height="675" src="./assets/www.youtube.com/embed/cf8QLpuTzQU?start=3&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></p>
+<p><span style="font-weight: 400">Community-created content takes the spotlight this week, as GeForce NOW ambassador </span><a target="_blank" href="./assets/www.youtube.com/@CloudGamingBattle"><span style="font-weight: 400">Cloud Gaming Battle</span></a><span style="font-weight: 400"> sits down with Andrew Fear, GeForce NOW product manager director at NVIDIA, to dive into what makes the service tick. The conversation covers how GeForce NOW brings high-performance PC gaming from the cloud to a wide range of devices, giving a closer look at the tech, thinking and passion behind the platform. It’s a conversation that the </span><a target="_blank" href="/"><span style="font-weight: 400">GFN Reddit community</span></a><span style="font-weight: 400"> is calling “genuinely inspirational.”</span></p>
 <p><span style="font-weight: 400">In addition, members can look for the following:</span><i></i></p>
 <ul>
-<li><i><span style="font-weight: 400">Forza Horizon 6</span></i><span style="font-weight: 400"> (New release on </span><a target="_blank" href="https://store.steampowered.com/app/2483190?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400"> and </span><a target="_blank" href="https://www.xbox.com/games/store/forza-horizon-6/9nr1r1xwlcnb?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, available on Game Pass, May 19)</span></li>
-<li><i><span style="font-weight: 400">Deep Rock Galactic: Rogue Core </span></i><span style="font-weight: 400">(New release on </span><a target="_blank" href="https://store.steampowered.com/app/2605790?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400">, May 20)</span></li>
-<li><i><span style="font-weight: 400">Luna Abyss </span></i><span style="font-weight: 400">(New release on </span><a target="_blank" href="https://store.steampowered.com/app/1933000?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400"> and </span><a target="_blank" href="https://www.xbox.com/games/store/luna-abyss/9plbh9j0xgr8?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, available on Game Pass, May 21)</span></li>
-<li><i><span style="font-weight: 400">Warhammer 40,000: Mechanicus II</span></i><span style="font-weight: 400"> (New release on </span><a target="_blank" href="https://store.steampowered.com/app/2532480?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400">, May 21)</span></li>
-<li><i><span style="font-weight: 400">ZERO PARADES: For Dead Spies</span></i><span style="font-weight: 400"> (New release on </span><a target="_blank" href="https://store.steampowered.com/app/2863680?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400">, May 21)</span></li>
-<li><i><span style="font-weight: 400">Splitgate Arena Reloaded </span></i><span style="font-weight: 400">(</span><a target="_blank" href="https://www.xbox.com/games/store/splitgate-2/9pf5q1b0fhsl?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, Available on Game Pass)</span></li>
-<li><i><span style="font-weight: 400">Sunderfolk</span></i><span style="font-weight: 400"> (</span><a target="_blank" href="https://www.epicgames.com/store/p/sunderfolk-7300c3?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Epic Games Store</span></a><span style="font-weight: 400">)</span></li>
-<li><i><span style="font-weight: 400">TerraTech Legion </span></i><span style="font-weight: 400">(</span><a target="_blank" href="https://store.steampowered.com/app/3596700/TerraTech_Legion/"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400"> and </span><a target="_blank" href="https://www.xbox.com/games/store/terratech-legion/9ng66k0z31lh?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, available on Game Pass)</span></li>
+<li><i><span style="font-weight: 400">Forza Horizon 6</span></i><span style="font-weight: 400"> (New release on </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400"> and </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, available on Game Pass, May 19)</span></li>
+<li><i><span style="font-weight: 400">Deep Rock Galactic: Rogue Core </span></i><span style="font-weight: 400">(New release on </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400">, May 20)</span></li>
+<li><i><span style="font-weight: 400">Luna Abyss </span></i><span style="font-weight: 400">(New release on </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400"> and </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, available on Game Pass, May 21)</span></li>
+<li><i><span style="font-weight: 400">Warhammer 40,000: Mechanicus II</span></i><span style="font-weight: 400"> (New release on </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400">, May 21)</span></li>
+<li><i><span style="font-weight: 400">ZERO PARADES: For Dead Spies</span></i><span style="font-weight: 400"> (New release on </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400">, May 21)</span></li>
+<li><i><span style="font-weight: 400">Splitgate Arena Reloaded </span></i><span style="font-weight: 400">(</span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, Available on Game Pass)</span></li>
+<li><i><span style="font-weight: 400">Sunderfolk</span></i><span style="font-weight: 400"> (</span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Epic Games Store</span></a><span style="font-weight: 400">)</span></li>
+<li><i><span style="font-weight: 400">TerraTech Legion </span></i><span style="font-weight: 400">(</span><a target="_blank" href="/"><span style="font-weight: 400">Steam</span></a><span style="font-weight: 400"> and </span><a target="_blank" href="/?utm_source=nvidia&amp;utm_campaign=geforce_now"><span style="font-weight: 400">Xbox</span></a><span style="font-weight: 400">, available on Game Pass)</span></li>
 </ul>
-<p><span style="font-weight: 400">What are you planning to play this weekend? Let us know on </span><a target="_blank" href="https://www.twitter.com/nvidiagfn"><span style="font-weight: 400">X</span></a><span style="font-weight: 400"> or in the comments below.</span></p>
+<p><span style="font-weight: 400">What are you planning to play this weekend? Let us know on </span><a target="_blank" href="/"><span style="font-weight: 400">X</span></a><span style="font-weight: 400"> or in the comments below.</span></p>
 <blockquote class="twitter-tweet" data-width="550" data-dnt="true">
-<p lang="en" dir="ltr">Rev your engines — the Horizon Festival is calling. 🏁🏎️<a target="_blank" href="https://twitter.com/ForzaHorizon?ref_src=twsrc%5Etfw">@ForzaHorizon</a> 6 is now streaming on GeForce NOW – stream a world built for speed in the cloud today. 🌩️ <a target="_blank" href="https://t.co/hJuKFT2GZp">pic.twitter.com/hJuKFT2GZp</a></p>
-<p>— 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN) <a target="_blank" href="https://twitter.com/NVIDIAGFN/status/2056766835006095525?ref_src=twsrc%5Etfw">May 19, 2026</a></p></blockquote>
+<p lang="en" dir="ltr">Rev your engines — the Horizon Festival is calling. 🏁🏎️<a target="_blank" href="/?ref_src=twsrc%5Etfw">@ForzaHorizon</a> 6 is now streaming on GeForce NOW – stream a world built for speed in the cloud today. 🌩️ <a target="_blank" href="/">pic.twitter.com/hJuKFT2GZp</a></p>
+<p>— 🌩️ NVIDIA GeForce NOW (@NVIDIAGFN) <a target="_blank" href="/?ref_src=twsrc%5Etfw">May 19, 2026</a></p></blockquote>
 <p><script async=" src="/assets/platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<div class="has-social-placeholder has-content-area" data-url="https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/" data-title="License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle" data-hashtags=" data-post-id="93181"></div>		</div>
+<div class="has-social-placeholder has-content-area" data-url="/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/" data-title="License to Stream: ‘007 First Light’ Coming to GeForce NOW With an Ultimate Bundle" data-hashtags=" data-post-id="93181"></div>		</div>
 	</div>
 	<div class="nvidia-sidebar order-last laptop:order-none desktop:order-none laptop:col-span-1 desktop:col-span-1">
 		<div class="entry-sidebar">
@@ -1797,11 +1797,11 @@
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -1948,7 +1948,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -1973,7 +1973,7 @@ window.addEventListener('load', () => {
 				color: #FFFFFF !important;
 			}
 		</style>
-		<div class="has_twitter has-tooltip" style="display: none;" data-type="twitter" data-tooltip="Share on X"><a href="https://x.com/intent/tweet?via=%username%&amp;url=%url%&amp;text=%prefix%%text%%suffix%&amp;hashtags=%hashtags%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-twitter-icon"></use></svg><span class="has-text">&nbsp;Share This</span></a></div><div class="has_facebook has-tooltip" style="display: none;" data-type="facebook" data-tooltip="Share on Facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=%url%&amp;t=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-facebook-icon"></use></svg><span class="has-text">&nbsp;Facebook</span></a></div><div class="has_linkedin has-tooltip" style="display: none;" data-type="linkedin" data-tooltip="Share on LinkedIn"><a href="https://www.linkedin.com/sharing/share-offsite/?mini=true&amp;url=%url%&amp;title=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-linkedin-icon"></use></svg><span class="has-text">&nbsp;LinkedIn</span></a></div></div><!-- #highlight-and-share-wrapper --></div><!-- #has-highlight-and-share -->		<svg width="0" height="0" class="hidden" style="display: none;">
+		<div class="has_twitter has-tooltip" style="display: none;" data-type="twitter" data-tooltip="Share on X"><a href="/?via=%username%&amp;url=%url%&amp;text=%prefix%%text%%suffix%&amp;hashtags=%hashtags%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-twitter-icon"></use></svg><span class="has-text">&nbsp;Share This</span></a></div><div class="has_facebook has-tooltip" style="display: none;" data-type="facebook" data-tooltip="Share on Facebook"><a href="/?u=%url%&amp;t=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-facebook-icon"></use></svg><span class="has-text">&nbsp;Facebook</span></a></div><div class="has_linkedin has-tooltip" style="display: none;" data-type="linkedin" data-tooltip="Share on LinkedIn"><a href="/?mini=true&amp;url=%url%&amp;title=%title%" data-requires-popup="1"><svg class="has-icon"><use xlink:href="#has-linkedin-icon"></use></svg><span class="has-text">&nbsp;LinkedIn</span></a></div></div><!-- #highlight-and-share-wrapper --></div><!-- #has-highlight-and-share -->		<svg width="0" height="0" class="hidden" style="display: none;">
 			<symbol aria-hidden="true" data-prefix="fas" data-icon="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="has-twitter-icon">
 				<g><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g>
 			</symbol>
@@ -2043,7 +2043,7 @@ window.addEventListener('load', () => {
 			<h3>Share on Mastodon</h3>
 			<div class="mastodon-input-prompt">
 				<form class="has-mastodon-form">
-					<label><span class="has-mastodon-label">Enter your Mastodon instance URL (optional)</span><input type="text" placeholder="https://mastodon.social" tabindex="0"></label>
+					<label><span class="has-mastodon-label">Enter your Mastodon instance URL (optional)</span><input type="text" placeholder="/" tabindex="0"></label>
 					
 					<button id="has-mastodon-submit" tabindex="0" class="button button-primary">Share</button>
 				</form>
@@ -2058,7 +2058,7 @@ var yith_infs = {"navSelector":".nvb4-single-post-pagination","nextSelector":".f
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/plugins/yith-infinite-scrolling/assets/js/yith-infs.min.js" id="yith-infs-js"></script>
 <script id="nvb6-single-js-extra">
-var nvb6_ajax = {"ajax_url":"https://blogs.nvidia.com/wp-admin/admin-ajax.php","rest_url":"https://blogs.nvidia.com/wp-json/nvidia-blog-v6/v2/","nonce":"5a6e7e7d5b"};
+var nvb6_ajax = {"ajax_url":"/blog/blog/wp-admin/admin-ajax.php","rest_url":"/blog/blog/wp-json/nvidia-blog-v6/v2/","nonce":"5a6e7e7d5b"};
 //# sourceURL=nvb6-single-js-extra
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/single.min.js" id="nvb6-single-js"></script>
@@ -2068,7 +2068,7 @@ window.addEventListener("load", function() {MktoForms2.loadForm("//info.nvidia.c
 //# sourceURL=nvb6-mkto-forms-inline-2-js-after
 </script>
 <script id="load-disqus-single-js-extra">
-var nvbThemeVars = {"ajaxUrl":"https://blogs.nvidia.com/wp-admin/admin-ajax.php","disqus_url":"https://blogs.nvidia.com/blog/geforce-now-thursday-007-first-light-ultimate-bundle/","language":"ICL_LANGUAGE_CODE","site_url":"https://blogs.nvidia.com"};
+var nvbThemeVars = {"ajaxUrl":"/blog/blog/wp-admin/admin-ajax.php","disqus_url":"/blog/blog/geforce-now-thursday-007-first-light-ultimate-bundle/","language":"ICL_LANGUAGE_CODE","site_url":"/blog/blog/"};
 //# sourceURL=load-disqus-single-js-extra
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/themes/nvidia-blog-v6/build/load-disqus.min.js" id="load-disqus-single-js"></script>
@@ -2099,12 +2099,12 @@ var myObj = {"option":""};
 </script>
 <script src="../../../assets/blogs.nvidia.com/wp-content/plugins/read-meter/assets/js/bsf-rt-frontend.min.js" id="bsfrt_frontend-js"></script>
 <script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://blogs.nvidia.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+{"baseUrl":"/","ext":".png","svgUrl":"/","svgExt":".svg","source":{"concatemoji":"/blog/blog/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
 </script>
 <script type="module">
 /*! This file is auto-generated */
 const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
-//# sourceURL=https://blogs.nvidia.com/wp-includes/js/wp-emoji-loader.min.js
+//# sourceURL=/blog/blog/wp-includes/js/wp-emoji-loader.min.js
 </script>
 	<script>
 try {
@@ -2144,4 +2144,4 @@ try {
 </script>
 	
 
-<iframe scrolling="no" frameborder="0" allowtransparency="true" src="https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fblogs.nvidia.com" title="Twitter settings iframe" style="display: none;"></iframe></body></html>
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./assets/platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=%2Fblog%2Fblog%2F" title="Twitter settings iframe" style="display: none;"></iframe></body></html>

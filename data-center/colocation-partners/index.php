@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -178,12 +178,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -2000,8 +2000,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2018,7 +2018,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -3296,7 +3296,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-be980dc31a" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Each generation of NVIDIA DGX systems delivers more performance per petaFLOP over prior generations, enabling enterprises to tackle the most complex AI problems with even greater efficiency. Numerous DGX systems are recognized among the world’s most energy-efficient supercomputers, earning spots on the <a href="https://top500.org/lists/green500/" target="_blank">Green500 list</a>.</p>
+                	<p>Each generation of NVIDIA DGX systems delivers more performance per petaFLOP over prior generations, enabling enterprises to tackle the most complex AI problems with even greater efficiency. Numerous DGX systems are recognized among the world’s most energy-efficient supercomputers, earning spots on the <a href="/" target="_blank">Green500 list</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -3775,7 +3775,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-c4e4c415b6-cta-208aceb25d" rel="noopener noreferrer" href="https://www.equinix.com/resources/case-studies/continental-ai-learning">Continental accelerates AI learning with Platform Equinix to make vehicles safer
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-c4e4c415b6-cta-208aceb25d" rel="noopener noreferrer" href="/">Continental accelerates AI learning with Platform Equinix to make vehicles safer
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3846,7 +3846,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-9322d4e1fe-cta-abcd0d53d3" rel="noopener noreferrer" href="https://www.verneglobal.com/news/peptone-announces-collaboration">Peptone accelerates drug discovery at Verne Global’s NVIDIA DGX Campus
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-9322d4e1fe-cta-abcd0d53d3" rel="noopener noreferrer" href="/">Peptone accelerates drug discovery at Verne Global’s NVIDIA DGX Campus
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3917,7 +3917,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-1bd4eb3fd8-cta-3799b198c1" rel="noopener noreferrer" href="https://www.equinix.com/resources/videos/harrison-ai-success">harrison.ai accelerates development of AI-based health tech platform
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-1bd4eb3fd8-cta-3799b198c1" rel="noopener noreferrer" href="/">harrison.ai accelerates development of AI-based health tech platform
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4761,7 +4761,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
     <div id="nv-text-5ee2a6f192" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>With over 310 data centers across 25 countries, Digital Realty's <a href="https://www.digitalrealty.com/platform-digital" target="_blank">PlatformDIGITAL</a> provides secure and scalable colocation services with DGX systems, along with interconnection services that provide unparalleled connectivity while managing data gravity challenges. With 34 Energy Star-certified data centers, Digital Realty was awarded the Energy Star Partner of the Year by the Environmental Protection Agency (EPA) for their energy-efficiency efforts.</p>
+                	<p>With over 310 data centers across 25 countries, Digital Realty's <a href="/" target="_blank">PlatformDIGITAL</a> provides secure and scalable colocation services with DGX systems, along with interconnection services that provide unparalleled connectivity while managing data gravity challenges. With 34 Energy Star-certified data centers, Digital Realty was awarded the Energy Star Partner of the Year by the Environmental Protection Agency (EPA) for their energy-efficiency efforts.</p>
                 </div>
 			</div>
 	</div>
@@ -4772,7 +4772,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-1cce11b2e8" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.digitalrealty.com/">
+  <a id="nv-button-1cce11b2e8" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -4968,7 +4968,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
     <div id="nv-text-9a3c344c9d" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>In 71 markets across six continents, <a href="https://www.equinix.com/insights/platform-equinix" target="_blank">Platform Equinix</a> enables enterprises to support training on premises with DGX systems, tap into cloud services as needed, and extend AI workloads at the edge. In addition to secure colocation services, <a href="https://www.equinix.com/products/digital-infrastructure-services/equinix-fabric" target="_blank">Equinix Fabric</a> interconnection solutions and digital services improve data management and let enterprises easily and securely scale hybrid deployments. Using these solutions, Equinix offers a turnkey, ready-to-run AI development platform, <a href="/data-center/equinix-private-ai-with-dgx/">Equinix Private AI with NVIDIA DGX</a>, backed by a team of AI experts. With 96 percent renewables coverage of their data centers and a focus on design for the environment, enterprises can scale sustainably without compromise.</p>
+                	<p>In 71 markets across six continents, <a href="/" target="_blank">Platform Equinix</a> enables enterprises to support training on premises with DGX systems, tap into cloud services as needed, and extend AI workloads at the edge. In addition to secure colocation services, <a href="/" target="_blank">Equinix Fabric</a> interconnection solutions and digital services improve data management and let enterprises easily and securely scale hybrid deployments. Using these solutions, Equinix offers a turnkey, ready-to-run AI development platform, <a href="/data-center/equinix-private-ai-with-dgx/">Equinix Private AI with NVIDIA DGX</a>, backed by a team of AI experts. With 96 percent renewables coverage of their data centers and a focus on design for the environment, enterprises can scale sustainably without compromise.</p>
                 </div>
 			</div>
 	</div>
@@ -4979,7 +4979,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-2cf2dd1ba3" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.equinix.com/">
+  <a id="nv-button-2cf2dd1ba3" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5175,7 +5175,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
     <div id="nv-text-12d14add2a" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Flexential offers secure, redundant, and high-density-power colocation data centers powered by DGX systems and the <a href="https://www.flexential.com/solutions" target="_blank">FlexAnywhere platform</a>. Reduce costs with <a href="https://www.flexential.com/connectivity/Flexential-Interconnection" target="_blank">Flexential Interconnection</a>, which provides high-performance connectivity, and data centers that are highly efficient with low power usage effectiveness (PUE) in the range of 1.25–1.40, a water usage effectiveness (WUE) of zero, and Energy Star efficiency-rated uninterruptible power supply (UPS) systems.</p>
+                	<p>Flexential offers secure, redundant, and high-density-power colocation data centers powered by DGX systems and the <a href="/" target="_blank">FlexAnywhere platform</a>. Reduce costs with <a href="/" target="_blank">Flexential Interconnection</a>, which provides high-performance connectivity, and data centers that are highly efficient with low power usage effectiveness (PUE) in the range of 1.25–1.40, a water usage effectiveness (WUE) of zero, and Energy Star efficiency-rated uninterruptible power supply (UPS) systems.</p>
                 </div>
 			</div>
 	</div>
@@ -5186,7 +5186,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-9e4021d60f" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.flexential.com/colocation">
+  <a id="nv-button-9e4021d60f" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5393,7 +5393,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-b2ac2f62e4" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.fujitsu.com/global/themes/datacenter-systems/">
+  <a id="nv-button-b2ac2f62e4" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5600,7 +5600,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-1cb12c3c92" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://verneglobal.com/">
+  <a id="nv-button-1cb12c3c92" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -9855,7 +9855,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>U.S.: Illinois, Maryland, Utah, Texas, Virginia, Ohio, Oregon, Arizona; Canada: Quebec City; LATAM: Brazil, Colombia, Mexico, Chile</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.aligneddc.com" target="_blank">www.aligneddc.com</a></p> 
+<p><a href="/" target="_blank">www.aligneddc.com</a></p> 
 <p style="display: none;"><a href="mailto:sales@alignedenergy.com">sales@alignedenergy.com</a></p>
                 </div>
 			</div>
@@ -10089,7 +10089,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Alabama</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.aubix.net/" target="_blank">www.aubix.net</a></p>
+<p><a href="/" target="_blank">www.aubix.net</a></p>
                 </div>
 			</div>
 	</div>
@@ -10324,7 +10324,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>U.S. West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.colovore.com/nvidia-dgx-ready/" target="_blank">www.colovore.com/nvidia-dgx-ready</a></p>
+<p><a href="/" target="_blank">www.colovore.com/nvidia-dgx-ready</a></p>
                 </div>
 			</div>
 	</div>
@@ -10557,7 +10557,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Los Angeles and Silicon Valley, California; Chicago, Illinois; Virginia</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.coresite.com" target="_blank">www.coresite.com</a></p>
+<p><a href="/" target="_blank">www.coresite.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -10790,7 +10790,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>U.S. East, South, and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.cyrusone.com/" target="_blank">www.cyrusone.com</a></p>
+<p><a href="/" target="_blank">www.cyrusone.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -11024,7 +11024,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Atlanta, Denver, Dallas, New York, Minnesota</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.databank.com/contact-us/" target="_blank">www.databank.com/contact-us/</a></p>
+<p><a href="/" target="_blank">www.databank.com/contact-us/</a></p>
                 </div>
 			</div>
 	</div>
@@ -11258,7 +11258,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Sweden</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://ecodatacenter.tech/contact" target="_blank">www.ecodatacenter.tech/contact</a></p>
+<p><a href="/" target="_blank">www.ecodatacenter.tech/contact</a></p>
                 </div>
 			</div>
 	</div>
@@ -11494,7 +11494,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Australia (Canberra, Sydney, Melbourne), New Zealand (Auckland)</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://cdc.com/" target="_blank">www.cdc.com</a></p>
+<p><a href="/" target="_blank">www.cdc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -11728,7 +11728,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Australia (Sydney, Melbourne, Brisbane, Perth, Adelaide)</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.nextdc.com/" target="_blank">www.nextdc.com/</a></p>
+<p><a href="/" target="_blank">www.nextdc.com/</a></p>
                 </div>
 			</div>
 	</div>
@@ -11961,7 +11961,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Canada; U.S. East, South, and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.cyxtera.com/" target="_blank">www.cyxtera.com</a></p>
+<p><a href="/" target="_blank">www.cyxtera.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -12197,7 +12197,7 @@ span.fa.fa-external-link {
 <p>U.S. East, South, and West</p> 
 <p><strong>Contact</strong></p> 
 <p>5707 Southwest Parkway<br> Building 1, Suite 275<br> Austin, TX 78735<br> +1 (737) 281-0101</p> 
-<p><a href="http://www.digitalrealty.com/" target="_blank">www.digitalrealty.com</a></p> 
+<p><a href="/" target="_blank">www.digitalrealty.com</a></p> 
 <p><a href="mailto:sales@digitalrealty.com">sales@digitalrealty.com</a></p>
                 </div>
 			</div>
@@ -12432,7 +12432,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Canada; Colombia; U.S. East, South, and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.edgeconnex.com/" target="_blank">www.edgeconnex.com</a></p>
+<p><a href="/" target="_blank">www.edgeconnex.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -12666,7 +12666,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Brazil; Canada; U.S. East, North, South, and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.equinix.com" target="_blank">www.equinix.com</a></p>
+<p><a href="/" target="_blank">www.equinix.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -12902,7 +12902,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>U.S. North, South, East, and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.flexential.com/nvidia-dgx-ready-data-centers" target="_blank">www.flexential.com/nvidia-dgx-ready-data-centers</a></p> 
+<p><a href="/" target="_blank">www.flexential.com/nvidia-dgx-ready-data-centers</a></p> 
 <p>(888) 552-3539</p>
                 </div>
 			</div>
@@ -13132,11 +13132,11 @@ span.fa.fa-external-link {
     <div id="nv-text-bb5a486d1b" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Global Data Centers is a division of <a href="https://hello.global.ntt/" target="_blank">NTT Ltd</a>. Their global platform is one of the largest in the world. NTT is ranked as one of the top three leaders worldwide by IDC in their Colocation and Interconnection Services MarketScape, spanning more than 20 countries and regions, including North America, Europe, Africa, India, and APAC. As a neutral operator, they offer access to multiple cloud providers, a large variety of internet exchanges, and telecommunication network providers, including their own IPv6-compliant, tier 1 global IP network. Their clients benefit from tailored infrastructure and experience consistent best practices in design and operations across all of their reliable, scalable, and customizable data centers.</p> 
+                	<p>Global Data Centers is a division of <a href="/" target="_blank">NTT Ltd</a>. Their global platform is one of the largest in the world. NTT is ranked as one of the top three leaders worldwide by IDC in their Colocation and Interconnection Services MarketScape, spanning more than 20 countries and regions, including North America, Europe, Africa, India, and APAC. As a neutral operator, they offer access to multiple cloud providers, a large variety of internet exchanges, and telecommunication network providers, including their own IPv6-compliant, tier 1 global IP network. Their clients benefit from tailored infrastructure and experience consistent best practices in design and operations across all of their reliable, scalable, and customizable data centers.</p> 
 <p><strong>Subregions</strong></p> 
 <p>Ashburn, Virginia; Plano, Texas</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://datacenter.hello.global.ntt/" target="_blank">datacenter.hello.global.ntt</a></p>
+<p><a href="/" target="_blank">datacenter.hello.global.ntt</a></p>
                 </div>
 			</div>
 	</div>
@@ -13372,7 +13372,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>U.S. West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.scalematrix.com/nvidia" target="_blank">www.scalematrix.com/nvidia</a></p> 
+<p><a href="/" target="_blank">www.scalematrix.com/nvidia</a></p> 
 <p>nvidia@scalematrix.com</p>
                 </div>
 			</div>
@@ -13606,7 +13606,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Chicago, Illinois; Toronto, Canada; Moses Lake, Washington</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.serverfarmllc.com/" target="_blank">www.serverfarmllc.com</a></p>
+<p><a href="/" target="_blank">www.serverfarmllc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -13839,7 +13839,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Hillsboro, Oregon; Atlanta, Georgia; Chicago, Illinois; Dallas, Texas; New Albany, Ohio; San Jose, California</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.stackinfra.com/" target="_blank">www.stackinfra.com</a></p>
+<p><a href="/" target="_blank">www.stackinfra.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -14072,7 +14072,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>U.S. East and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.switch.com/nvidia-dgx-ready" target="_blank">www.switch.com/nvidia-dgx-ready</a></p>
+<p><a href="/" target="_blank">www.switch.com/nvidia-dgx-ready</a></p>
                 </div>
 			</div>
 	</div>
@@ -14305,7 +14305,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Ashburn, Virginia (Sterling); Richmond, Virginia</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.qtsdatacenters.com/" target="_blank">www.qtsdatacenters.com</a></p>
+<p><a href="/" target="_blank">www.qtsdatacenters.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -14539,7 +14539,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Canada, U.S. East and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://vantage-dc.com/contact/" target="_blank">vantage-dc.com/contact</a></p>
+<p><a href="/" target="_blank">vantage-dc.com/contact</a></p>
                 </div>
 			</div>
 	</div>
@@ -14774,7 +14774,7 @@ span.fa.fa-external-link {
 <p><strong>GPU as a Service</strong></p> 
 <p>Yes</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://atnorth.com/" target="_blank">atnorth.com</a> or <a href="mailto:sales@atnorth.com">sales@atnorth.com</a></p>
+<p><a href="/" target="_blank">atnorth.com</a> or <a href="mailto:sales@atnorth.com">sales@atnorth.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -15007,7 +15007,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Bulk’s N01 Campus in Kristiansand and OS-IX in Oslo are both located in Norway. DK01 is located in Esbjerg, Denmark.</p> 
 <p><strong>Contact</strong></p> 
-<p>Rob Elder, vice president of data centers: <a href="mailto:rob.elder@bulk.no">rob.elder@bulk.no</a><br> <a href="https://www.bulkinfrastructure.com/" target="_blank">www.bulkinfrastructure.com</a></p>
+<p>Rob Elder, vice president of data centers: <a href="mailto:rob.elder@bulk.no">rob.elder@bulk.no</a><br> <a href="/" target="_blank">www.bulkinfrastructure.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -15474,7 +15474,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Germany, United Kingdom</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.cyxtera.com/" target="_blank">www.cyxtera.com</a></p>
+<p><a href="/" target="_blank">www.cyxtera.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -15708,7 +15708,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Romania, Central and Eastern Europe</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://clusterpower.ro/" target="_blank">clusterpower.ro</a> or <a href="mailto:office@clusterpower.ro">office@clusterpower.ro</a></p>
+<p><a href="/" target="_blank">clusterpower.ro</a> or <a href="mailto:office@clusterpower.ro">office@clusterpower.ro</a></p>
                 </div>
 			</div>
 	</div>
@@ -15941,7 +15941,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Moscow, Russia</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.dataspace.ru/" target="_blank">www.dataspace.ru</a></p>
+<p><a href="/" target="_blank">www.dataspace.ru</a></p>
                 </div>
 			</div>
 	</div>
@@ -16177,7 +16177,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Amsterdam, Netherlands; Dublin, Ireland; London, United Kingdom, France</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.digitalrealty.com/" target="_blank">www.digitalrealty.com</a></p> 
+<p><a href="/" target="_blank">www.digitalrealty.com</a></p> 
 <p><a href="mailto:sales@digitalrealty.com">sales@digitalrealty.com</a></p>
                 </div>
 			</div>
@@ -16412,7 +16412,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>France, Germany, Ireland, Italy, Netherlands, Spain, Sweden, Turkey, United Kingdom</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.equinix.com" target="_blank">www.equinix.com</a></p>
+<p><a href="/" target="_blank">www.equinix.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -16646,7 +16646,7 @@ span.fa.fa-external-link {
 <p><strong>Sub-Regions</strong></p> 
 <p>Amsterdam, Brussel, Copenhagen, Dublin, Dusseldorf, London, Madrid, Paris, Marseille, Stockholm, Vienna, Zurich</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.interxion.com/products/colocation/ai-ready-data-centres/" target="_blank">https://www.interxion.com/products/colocation/ai-ready-data-centres/</a></p>
+<p><a href="/" target="_blank">/</a></p>
                 </div>
 			</div>
 	</div>
@@ -16879,7 +16879,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>United Kingdom</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.kaodata.com" target="_blank">www.kaodata.com</a></p>
+<p><a href="/" target="_blank">www.kaodata.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -17115,7 +17115,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Israel</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.megadc.com" target="_blank">www.megadc.com</a></p>
+<p><a href="/" target="_blank">www.megadc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -17349,7 +17349,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>London, United Kingdom (Hemel Hempstead and Dagenham)</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://datacenter.hello.global.ntt/en" target="_blank">datacenter.hello.global.ntt</a></p>
+<p><a href="/" target="_blank">datacenter.hello.global.ntt</a></p>
                 </div>
 			</div>
 	</div>
@@ -17582,7 +17582,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Amsterdam, the Netherlands; London, United Kingdom</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.serverfarmllc.com/" target="_blank">www.serverfarmllc.com</a></p>
+<p><a href="/" target="_blank">www.serverfarmllc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -17815,7 +17815,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Groningen, the Netherlands</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.qtsdatacenters.com/" target="_blank">www.qtsdatacenters.com</a></p>
+<p><a href="/" target="_blank">www.qtsdatacenters.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -18048,7 +18048,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Iceland, Finland</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.verneglobal.com" target="_blank">www.verneglobal.com</a></p>
+<p><a href="/" target="_blank">www.verneglobal.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -18281,7 +18281,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Cape Town, South Africa</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.africadatacentres.com/" target="_blank">www.africadatacentres.com</a></p>
+<p><a href="/" target="_blank">www.africadatacentres.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -18514,7 +18514,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Cape Town and Johannesburg, South Africa</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.teraco.co.za/about/" target="_blank">www.teraco.co.za/about</a></p> 
+<p><a href="/" target="_blank">www.teraco.co.za/about</a></p> 
 <p>+27 (0)11 573 2800</p> 
 <p>Chantel Ray: <a href="mailto:chantel@teraco.co.za">chantel@teraco.co.za</a>, <a href="mailto:sales@teraco.co.za">sales@teraco.co.za</a>, <a href="mailto:info@teraco.co.za">info@teraco.co.za</a></p>
                 </div>
@@ -18749,7 +18749,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Singapore</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.cyxtera.com/" target="_blank">www.cyxtera.com</a></p>
+<p><a href="/" target="_blank">www.cyxtera.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -18985,7 +18985,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Sydney, Australia; Osaka, Japan; Singapore; Tokyo, Japan; Seoul, South Korea</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.digitalrealty.com/" target="_blank">www.digitalrealty.com</a></p> 
+<p><a href="/" target="_blank">www.digitalrealty.com</a></p> 
 <p><a href="mailto:sales@digitalrealty.com">sales@digitalrealty.com</a></p>
                 </div>
 			</div>
@@ -19220,7 +19220,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Australia, China, Hong Kong, Japan, Korea, Singapore, Turkey</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="http://www.equinix.com" target="_blank">www.equinix.com</a></p>
+<p><a href="/" target="_blank">www.equinix.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -19455,7 +19455,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Japan, Australia (Western Sydney, Noble Park, Homebush)</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.fujitsu.com/global/themes/datacenter-systems/" target="_blank">www.fujitsu.com/global/themes/datacenter-systems</a></p>
+<p><a href="/" target="_blank">www.fujitsu.com/global/themes/datacenter-systems</a></p>
                 </div>
 			</div>
 	</div>
@@ -19691,7 +19691,7 @@ span.fa.fa-external-link {
 <p><strong>GPU as a Service</strong></p> 
 <p>Yes</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.idcf.jp/english/" target="_blank">www.idcf.jp/english</a></p>
+<p><a href="/" target="_blank">www.idcf.jp/english</a></p>
                 </div>
 			</div>
 	</div>
@@ -19924,7 +19924,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Japan</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.ntt.com/en" target="_blank">www.ntt.com/en</a></p>
+<p><a href="/" target="_blank">www.ntt.com/en</a></p>
                 </div>
 			</div>
 	</div>
@@ -20157,7 +20157,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Japan</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://dc.jp.nttdata.com/english/index.html" target="_blank">dc.jp.nttdata.com/english/index.html</a></p>
+<p><a href="/" target="_blank">dc.jp.nttdata.com/english/index.html</a></p>
                 </div>
 			</div>
 	</div>
@@ -20393,7 +20393,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Hyderabad (Air-Cooled), Mumbai (Liquid-Cooled), Chennai, Noida</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.sifytechnologies.com/" target="_blank">www.sifytechnologies.com</a></p> 
+<p><a href="/" target="_blank">www.sifytechnologies.com</a></p> 
 <p>Vijay Bellam: +1 (408) 507-1641</p>
                 </div>
 			</div>
@@ -20628,7 +20628,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Canada; U.S. East, South, and West</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.centersquaredc.com/" target="_blank">www.centersquaredc.com</a></p>
+<p><a href="/" target="_blank">www.centersquaredc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -20862,7 +20862,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Germany, United Kingdom</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.centersquaredc.com/" target="_blank">www.centersquaredc.com</a></p>
+<p><a href="/" target="_blank">www.centersquaredc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -21096,7 +21096,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Singapore</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.centersquaredc.com/" target="_blank">www.centersquaredc.com</a></p>
+<p><a href="/" target="_blank">www.centersquaredc.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -21332,7 +21332,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Australia, Japan, Malaysia</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://airtrunk.com/" target="_blank">www.airtrunk.com</a></p>
+<p><a href="/" target="_blank">www.airtrunk.com</a></p>
                 </div>
 			</div>
 	</div>
@@ -21573,7 +21573,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>France, Netherlands</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.globalswitch.com/" target="_blank">www.globalswitch.com</a></p> 
+<p><a href="/" target="_blank">www.globalswitch.com</a></p> 
 <p><a href="mailto:info@globalswitch.com">info@globalswitch.com</a></p>
                 </div>
 			</div>
@@ -21809,7 +21809,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Middle East and North Africa</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.khazna.ae/" target="_blank">www.khazna.ae/</a></p>
+<p><a href="/" target="_blank">www.khazna.ae/</a></p>
                 </div>
 			</div>
 	</div>
@@ -22045,7 +22045,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Indonesia</p> 
 <p><strong>Contact</strong></p> 
-<p><a href="https://www.bdxworld.com" target="_blank">www.bdxworld.com</a></p> 
+<p><a href="/" target="_blank">www.bdxworld.com</a></p> 
 <p><a href="mailto:marketing@bdxworld.com">marketing@bdxworld.com</a></p>
                 </div>
 			</div>
@@ -22514,7 +22514,7 @@ span.fa.fa-external-link {
 <p><strong>Subregions</strong></p> 
 <p>Singapore, Thailand</p> 
 <p><strong>Contact</strong></p> 
-<p><a target="_blank"></a><a href="https://www.sttelemediagdc.com/" target="_blank">www.sttelemediagdc.com</a></p> 
+<p><a target="_blank"></a><a href="/" target="_blank">www.sttelemediagdc.com</a></p> 
 <p><a href="mailto:marketing@sttelemediagdc.com">marketing@sttelemediagdc.com</a></p>
                 </div>
 			</div>
@@ -22876,11 +22876,11 @@ span.fa.fa-external-link {
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -23027,7 +23027,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',

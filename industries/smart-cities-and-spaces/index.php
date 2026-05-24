@@ -1149,8 +1149,8 @@
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1167,7 +1167,7 @@
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -1231,7 +1231,7 @@
       
       
 	<div class="nv-video-as-bg nv-video-load-src d-video-center d-video-middle l-video-center l-video-middle t-video-center t-video-middle p-video-center  p-video-bottom     p-video-fit-cover ">
-		<video id="video-container-98f3a1f5ec" muted=" playsinline=" preload="meta" data-video-source="{" desktop":[{"src":"https:="" images.nvidia.com="" aem-dam="" en-zz="" solutions="" industries="" smart-cities="" nvidia-smart-spaces-and-local-government-hero-bm-md460-d.webm","type":"video="" webm"},{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-md460-d.mp4","type":"video="" mp4"}],"laptop":[{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-md460-l.webm","type":"video="" nvidia-smart-spaces-and-local-government-hero-bm-md460-l.mp4","type":"video="" mp4"}],"tablet":[{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-md420-t.webm","type":"video="" nvidia-smart-spaces-and-local-government-hero-bm-md420-t.mp4","type":"video="" mp4"}],"mobile":[{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-uf1080-p.webm","type":"video="" run-ai="" nvidia-smart-spaces-and-local-government-hero-bm-uf1080-p.mp4","type":"video="" mp4"}]}"="" loop=" class=" nv-video-src-loaded"=""><source src="https://images.nvidia.com/aem-dam/en-zz/Solutions/industries/smart-cities/nvidia-smart-spaces-and-local-government-hero-bm-md460-l.webm" type="video/webm"><source src="https://images.nvidia.com/aem-dam/en-zz/Solutions/industries/smart-cities/nvidia-smart-spaces-and-local-government-hero-bm-md460-l.mp4" type="video/mp4"></video>
+		<video id="video-container-98f3a1f5ec" muted=" playsinline=" preload="meta" data-video-source="{" desktop":[{"src":"https:="" images.nvidia.com="" aem-dam="" en-zz="" solutions="" industries="" smart-cities="" nvidia-smart-spaces-and-local-government-hero-bm-md460-d.webm","type":"video="" webm"},{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-md460-d.mp4","type":"video="" mp4"}],"laptop":[{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-md460-l.webm","type":"video="" nvidia-smart-spaces-and-local-government-hero-bm-md460-l.mp4","type":"video="" mp4"}],"tablet":[{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-md420-t.webm","type":"video="" nvidia-smart-spaces-and-local-government-hero-bm-md420-t.mp4","type":"video="" mp4"}],"mobile":[{"src":"https:="" nvidia-smart-spaces-and-local-government-hero-bm-uf1080-p.webm","type":"video="" run-ai="" nvidia-smart-spaces-and-local-government-hero-bm-uf1080-p.mp4","type":"video="" mp4"}]}"="" loop=" class=" nv-video-src-loaded"=""><source src="./assets/images.nvidia.com/aem-dam/en-zz/Solutions/industries/smart-cities/nvidia-smart-spaces-and-local-government-hero-bm-md460-l.webm" type="video/webm"><source src="./assets/images.nvidia.com/aem-dam/en-zz/Solutions/industries/smart-cities/nvidia-smart-spaces-and-local-government-hero-bm-md460-l.mp4" type="video/mp4"></video>
 		<script>
 			window.initBuildVideo("container-98f3a1f5ec");
 		</script>
@@ -1831,7 +1831,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-db2fae39c3-cta-53f76a2bb6" href="https://www.youtube.com/watch?v=9k3Y6KRGPxo">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-db2fae39c3-cta-53f76a2bb6" href="./assets/www.youtube.com/watch?v=9k3Y6KRGPxo">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -2001,7 +2001,7 @@
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
@@ -2010,12 +2010,12 @@
                <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=TISROlsLYQg?si" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=TISROlsLYQg?si" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/TISROlsLYQg?si&amp;origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/TISROlsLYQg?si&amp;origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/smart-cities-video-ari.jpg' alt='Physical AI for Smart Cities Video link:  '></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/TISROlsLYQg?si&amp;origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/TISROlsLYQg?si&amp;origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/smart-cities-video-ari.jpg' alt='Physical AI for Smart Cities Video link:  '></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </div>
@@ -2086,7 +2086,7 @@
 <div class="nv-button button nv-button-text aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-10164a0816" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.youtube.com/watch?v=TISROlsLYQg">
+  <a id="nv-button-10164a0816" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=TISROlsLYQg">
     
     
 
@@ -2305,14 +2305,14 @@
           <div class="nv-usecase--card-expanded-content">
             <div class="nv-usecase--body-text">
               <div class="nv-usecase--body-text-wrapper">
-                <p>Discover how <a href="https://resources.nvidia.com/en-us-smart-spaces/smart-roadways?lx=ctJAQi" target="_blank">intelligent transportation systems</a> (ITS) use connected sensors, scenario simulation, and video analytics AI agents to boost the safety, efficiency, and sustainability of transport infrastructure, from roadways to public transit.</p>
+                <p>Discover how <a href="/?lx=ctJAQi" target="_blank">intelligent transportation systems</a> (ITS) use connected sensors, scenario simulation, and video analytics AI agents to boost the safety, efficiency, and sustainability of transport infrastructure, from roadways to public transit.</p>
               </div>
             </div>
             
               <div class="nv-container--card-dark">
                 <div class="nv-button button nv-button-text nv-button-caret" style="padding-left: 0px">
                   <div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
-                    <a class="btn-content btncta" data-title="Use Case CTA" href="https://resources.nvidia.com/en-us-smart-spaces/smart-roadways?lx=ctJAQi" target="_blank" rel="noopener noreferrer">
+                    <a class="btn-content btncta" data-title="Use Case CTA" href="/?lx=ctJAQi" target="_blank" rel="noopener noreferrer">
                       <span class="btn-text">
                         Learn How to Enhance Roadway Operations and Safety</span>
                     </a>
@@ -2376,14 +2376,14 @@
           <div class="nv-usecase--card-expanded-content">
             <div class="nv-usecase--body-text">
               <div class="nv-usecase--body-text-wrapper">
-                <p>Find out how ports across <a href="https://nvidia.highspot.com/items/651ae3b4a1eb75699afd4e6c#1">sea</a>, <a href="https://nvidia.highspot.com/items/633242c22cd67da3bfd3c7d1#1">air</a>, and logistics hubs are using AI tools to simulate complex operations, analyze sensor data in real time, and predict disruptions—creating faster, safer, and more efficient workflows in environments where even brief downtime or delays carry enormous financial and operational risk.</p>
+                <p>Find out how ports across <a href="/#1">sea</a>, <a href="/#1">air</a>, and logistics hubs are using AI tools to simulate complex operations, analyze sensor data in real time, and predict disruptions—creating faster, safer, and more efficient workflows in environments where even brief downtime or delays carry enormous financial and operational risk.</p>
               </div>
             </div>
             
               <div class="nv-container--card-dark">
                 <div class="nv-button button nv-button-text nv-button-caret" style="padding-left: 0px">
                   <div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
-                    <a class="btn-content btncta" data-title="Use Case CTA" href="https://resources.nvidia.com/en-us-metropolis-software-success-stories/metropolis-and-iva-airports?xs=369940" target="_blank" rel="noopener noreferrer">
+                    <a class="btn-content btncta" data-title="Use Case CTA" href="/?xs=369940" target="_blank" rel="noopener noreferrer">
                       <span class="btn-text">
                         Learn How NVIDIA Optimizes Port Operations</span>
                     </a>
@@ -2454,7 +2454,7 @@
               <div class="nv-container--card-dark">
                 <div class="nv-button button nv-button-text nv-button-caret" style="padding-left: 0px">
                   <div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
-                    <a class="btn-content btncta" data-title="Use Case CTA" href="https://resources.nvidia.com/en-us-smart-spaces/ai-for-smart-spaces-1?lx=ctJAQi&amp;topic=roadways" target="_blank" rel="noopener noreferrer">
+                    <a class="btn-content btncta" data-title="Use Case CTA" href="/?lx=ctJAQi&amp;topic=roadways" target="_blank" rel="noopener noreferrer">
                       <span class="btn-text">
                         Discover How to Boost Operational Efficiency and Safety in Physical Spaces</span>
                     </a>
@@ -2810,7 +2810,7 @@
   </div>
 <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-1e1e0670a4" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/smart-spaces/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" smart-spaces"="" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="https://developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-ispressrelease=" data-cmp-pressreleasefeedurl=" https:="" nvidianews.nvidia.com="" cats="" telecommunications.xml"="" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-1e1e0670a4" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/smart-spaces/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" smart-spaces"="" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="./assets/developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-ispressrelease=" data-cmp-pressreleasefeedurl=" https:="" nvidianews.nvidia.com="" cats="" telecommunications.xml"="" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -2828,16 +2828,16 @@
 						<!--/* <div class="latest-news__item_readmore"><a href="https:&#x2F;&#x2F;blogs.nvidia.com&#x2F;blog&#x2F;manufacturing-simulation-first&#x2F;" target="_blank">Read More<span class="fas fa-angle-right fa-fw"></span></a></div> */-->
 					</div></a>
 				</div><div class="latest-news__item ">						
-					<div class="latest-news__item__key-visual"><a href="https://nvidianews.nvidia.com/news/nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure" target="_blank"><img src="/assets/iprsoftwaremedia.com/219/files/202603/69b5ff713d63320de174de23_t-mobile-nvidia-edge-ai/t-mobile-nvidia-edge-ai_thmb.png" alt="NVIDIA, T-Mobile and Partners Integrate Physical AI Applications on AI-RAN-Ready Infrastructure" title="NVIDIA, T-Mobile and Partners Integrate Physical AI Applications on AI-RAN-Ready Infrastructure"></a></div>
-					<a href="https://nvidianews.nvidia.com/news/nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure" target="_blank"><div class="latest-news__item__body">							
+					<div class="latest-news__item__key-visual"><a href="/" target="_blank"><img src="/assets/iprsoftwaremedia.com/219/files/202603/69b5ff713d63320de174de23_t-mobile-nvidia-edge-ai/t-mobile-nvidia-edge-ai_thmb.png" alt="NVIDIA, T-Mobile and Partners Integrate Physical AI Applications on AI-RAN-Ready Infrastructure" title="NVIDIA, T-Mobile and Partners Integrate Physical AI Applications on AI-RAN-Ready Infrastructure"></a></div>
+					<a href="/" target="_blank"><div class="latest-news__item__body">							
 						<div class="latest-news__item__body__date">March 17, 2026</div>
 						<div class="latest-news__item__body__title">NVIDIA, T-Mobile and Partners Integrate Physical AI Applications on AI-RAN-Ready Infrastructure</div>
 						<div class="latest-news__item__body__description">NVIDIA and T-Mobile today announced they are working with Nokia and a growing ecosystem of developers to bring physical AI applications over distributed edge AI networks.</div>
 						<!--/* <div class="latest-news__item_readmore"><a href="https:&#x2F;&#x2F;nvidianews.nvidia.com&#x2F;news&#x2F;nvidia-t-mobile-and-partners-integrate-physical-ai-applications-on-ai-ran-ready-infrastructure" target="_blank">Read More<span class="fas fa-angle-right fa-fw"></span></a></div> */-->
 					</div></a>
 				</div><div class="latest-news__item ">						
-					<div class="latest-news__item__key-visual"><a href="https://nvidianews.nvidia.com/news/nvidia-and-global-telecom-leaders-commit-to-build-6g-on-open-and-secure-ai-native-platforms" target="_blank"><img src="/assets/iprsoftwaremedia.com/219/files/202603/69a605c63d6332287e04139c_telco-social-6g-western-pr-tower-1920x1080-4911400/telco-social-6g-western-pr-tower-1920x1080-4911400_thmb.jpg" alt="NVIDIA and Global Telecom Leaders Commit to Build 6G on Open and Secure AI-Native Platforms" title="NVIDIA and Global Telecom Leaders Commit to Build 6G on Open and Secure AI-Native Platforms"></a></div>
-					<a href="https://nvidianews.nvidia.com/news/nvidia-and-global-telecom-leaders-commit-to-build-6g-on-open-and-secure-ai-native-platforms" target="_blank"><div class="latest-news__item__body">							
+					<div class="latest-news__item__key-visual"><a href="/" target="_blank"><img src="/assets/iprsoftwaremedia.com/219/files/202603/69a605c63d6332287e04139c_telco-social-6g-western-pr-tower-1920x1080-4911400/telco-social-6g-western-pr-tower-1920x1080-4911400_thmb.jpg" alt="NVIDIA and Global Telecom Leaders Commit to Build 6G on Open and Secure AI-Native Platforms" title="NVIDIA and Global Telecom Leaders Commit to Build 6G on Open and Secure AI-Native Platforms"></a></div>
+					<a href="/" target="_blank"><div class="latest-news__item__body">							
 						<div class="latest-news__item__body__date">March 01, 2026</div>
 						<div class="latest-news__item__body__title">NVIDIA and Global Telecom Leaders Commit to Build 6G on Open and Secure AI-Native Platforms</div>
 						<div class="latest-news__item__body__description">NVIDIA today announced a commitment — together with Booz Allen, BT Group, Cisco, Deutsche Telekom, Ericsson, MITRE, Nokia, OCUDU Ecosystem Foundation, ODC, SK Telecom, SoftBank Corp. and T-Mobile — to build the world’s next generation of wireless networks on AI-native, open, secure and trustworthy platforms.</div>
@@ -2929,10 +2929,10 @@
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-bottom    p-image-fit-cover  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" smart-cities="" partner-blade-kv-bb460_420-p.jpg,"="" partner-blade-kv-bb460_420-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/partner-blade-kv-bb460_420-t.jpg," partner-blade-kv-bb460_420-t@2x.jpg=" data-srcset-laptop=" partner-blade-kv-bb460_420-l.jpg,"="" partner-blade-kv-bb460_420-l@2x.jpg=" data-srcset-desktop=" partner-blade-kv-bb460_420-d.jpg,"="" partner-blade-kv-bb460_420-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-container-75acc1dcf3" onload="window.initLazyLoadingImages('container-75acc1dcf3');">
                 
@@ -3357,7 +3357,7 @@
 
     
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-87847c694d-cta-c4a02f15a3" href="https://www.youtube.com/watch?v=9k3Y6KRGPxo">Watch the Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-87847c694d-cta-c4a02f15a3" href="./assets/www.youtube.com/watch?v=9k3Y6KRGPxo">Watch the Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3505,7 +3505,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-dc1dd0cca1-cta-10cb60c227" rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/cosmos-reason1-7b">Explore Cosmos Reasons
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-dc1dd0cca1-cta-10cb60c227" rel="noopener noreferrer" href="/">Explore Cosmos Reasons
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3946,8 +3946,8 @@
               searchInput: {},
               site: site,
               language: $('html').attr('lang'),
-              voltronApiUrl: 'https://api-prod.nvidia.com/services/nod/api/v1/',
-              apiUrl:'https://api-prod.nvidia.com/search/graphql',
+              voltronApiUrl: './assets/api-prod.nvidia.com/services/nod/api/v1/',
+              apiUrl:'./assets/api-prod.nvidia.com/search/graphql',
               playlistId: 'gtc26-local-government-and-smart-cities',
               isFeatured: true,
               header: '',
@@ -4090,7 +4090,7 @@
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/smart-cities-and-spaces/_jcr_content/root/responsivegrid/nv_container_27728083/nv_tabs/item_1761328855542/nv_container/nv_teaser_copy.coreimg.100.410.png/1778065307698/gtc26-social-phsysical-ai-at-the-edge-telco-1920x1080.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/gtc26-social-phsysical-ai-at-the-edge-telco-1920x1080.png" data-title="How AI-RAN Turns Telecom Networks into Real-Time AI Infrastructure" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=hwLLBfzoSko" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=hwLLBfzoSko" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="How AI-RAN Turns Telecom Networks into Real-Time AI Infrastructure" title="How AI-RAN Turns Telecom Networks into Real-Time AI Infrastructure" data-analytics="nv-image-97c36d357d" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -4132,7 +4132,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-97c36d357d-cta-6589d21eec" href="https://www.youtube.com/watch?v=hwLLBfzoSko">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-97c36d357d-cta-6589d21eec" href="./assets/www.youtube.com/watch?v=hwLLBfzoSko">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4161,7 +4161,7 @@
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/nvidia-blueprint.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/nvidia-blueprint.jpg" data-title="Build Smart City AI agents and digital twins" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=9k3Y6KRGPxo&amp;t=1s" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=9k3Y6KRGPxo&amp;t=1s" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Build Smart City AI agents and digital twins" title="Build Smart City AI agents and digital twins" data-analytics="nv-image-2d50b8de73" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/nvidia-blueprint.jpg">
@@ -4203,7 +4203,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-2d50b8de73-cta-3977dc4929" href="https://www.youtube.com/watch?v=9k3Y6KRGPxo&amp;t=1s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-2d50b8de73-cta-3977dc4929" href="./assets/www.youtube.com/watch?v=9k3Y6KRGPxo&amp;t=1s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4232,7 +4232,7 @@
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/smart-cities-and-spaces/_jcr_content/root/responsivegrid/nv_container_27728083/nv_tabs/item_1761328855542/nv_container/nv_teaser_2132608662.coreimg.100.410.jpeg/1778826859377/digital-twins-and-agentic-ai.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/smart-cities/digital-twins-and-agentic-ai.jpg" data-title="Build Smart Cities with digital twins and agentic AI" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=BJpBp2gwk2Y" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=BJpBp2gwk2Y" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Build Smart Cities with digital twins and agentic AI" title="Build Smart Cities with digital twins and agentic AI" data-analytics="nv-image-08dfa37651" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -4274,7 +4274,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-08dfa37651-cta-41b6e4ae07" href="https://www.youtube.com/watch?v=BJpBp2gwk2Y">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-08dfa37651-cta-41b6e4ae07" href="./assets/www.youtube.com/watch?v=BJpBp2gwk2Y">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4449,7 +4449,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-d8df1af5ff-cta-a22b42f0c0" rel="noopener noreferrer" href="https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/end2end/smart_city_sdg/workflow_e2e.html">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-d8df1af5ff-cta-a22b42f0c0" rel="noopener noreferrer" href="/">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4504,7 +4504,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-0df29df3c0-cta-0e9fd71f84" rel="noopener noreferrer" href="https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/post_training/reason1/intelligent-transportation/post_training.html">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-0df29df3c0-cta-0e9fd71f84" rel="noopener noreferrer" href="/">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4559,7 +4559,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-a1abbc058a-cta-d2316d7367" rel="noopener noreferrer" href="https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/post_training/predict2/its-accident/post_training.html">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-a1abbc058a-cta-d2316d7367" rel="noopener noreferrer" href="/">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4614,7 +4614,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-93b0bca07e-cta-c2f97d361f" rel="noopener noreferrer" href="https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/inference/predict2/inference-its/inference.html">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-93b0bca07e-cta-c2f97d361f" rel="noopener noreferrer" href="/">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4669,7 +4669,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-05ef7c0abd-cta-ecb645f070" rel="noopener noreferrer" href="https://nvidia-cosmos.github.io/cosmos-cookbook/recipes/inference/transfer1/inference-its-weather-augmentation/inference.html">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-05ef7c0abd-cta-ecb645f070" rel="noopener noreferrer" href="/">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4724,7 +4724,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-3a09d34a45-cta-393caeec77" rel="noopener noreferrer" href="https://docs.nvidia.com/vss/3.1.0/smartcity-docs/smartcity-toc.html">Read More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-3a09d34a45-cta-393caeec77" rel="noopener noreferrer" href="/">Read More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4893,7 +4893,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-8c0b51353d-cta-0f80343d07" rel="noopener noreferrer" href="https://developer.nvidia.com/developer-program">Join the Developer Program
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-8c0b51353d-cta-0f80343d07" rel="noopener noreferrer" href="./assets/developer.nvidia.com/developer-program">Join the Developer Program
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5677,7 +5677,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 		$.ajax({
 			type: "GET",
-			url: 'https://layouts.nvidiagrid.net/v1/serviceUrls',
+			url: '/',
 			crossDomain: true,
 			headers: {
 				'Accept': 'application/json',
@@ -8272,7 +8272,7 @@ $(window).load(function(){
     
     <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
                <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a>.</label>
@@ -8738,7 +8738,7 @@ $(window).load(function(){
     
     
 
-<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="TISROlsLYQg" data-thumbnail="https://img.youtube.com/vi_webp/TISROlsLYQg/maxresdefault.webp">
+<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="TISROlsLYQg" data-thumbnail="./assets/img.youtube.com/vi_webp/TISROlsLYQg/maxresdefault.webp">
 
    
    
@@ -8761,7 +8761,7 @@ $(window).load(function(){
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -8770,12 +8770,12 @@ $(window).load(function(){
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=TISROlsLYQg" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=TISROlsLYQg" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/TISROlsLYQg?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/TISROlsLYQg?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://img.youtube.com/vi_webp/TISROlsLYQg/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/TISROlsLYQg?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/TISROlsLYQg?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='./assets/img.youtube.com/vi_webp/TISROlsLYQg/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </div>
@@ -9039,11 +9039,11 @@ $(window).load(function(){
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -9190,7 +9190,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -9227,7 +9227,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/smart-cities-and-spaces/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/smart-cities-and-spaces/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/smart-cities-and-spaces/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/smart-cities-and-spaces/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/smart-cities-and-spaces/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/smart-cities-and-spaces/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/smart-cities-and-spaces/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/smart-cities-and-spaces/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/smart-cities-and-spaces/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/smart-cities-and-spaces/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/industries/smart-cities-and-spaces/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/smart-cities-and-spaces/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/smart-cities-and-spaces/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/smart-cities-and-spaces/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/smart-cities-and-spaces/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/smart-cities-and-spaces/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/smart-cities-and-spaces/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/smart-cities-and-spaces/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/smart-cities-and-spaces/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/smart-cities-and-spaces/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/smart-cities-and-spaces/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/smart-cities-and-spaces/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/smart-cities-and-spaces/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/smart-cities-and-spaces/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/smart-cities-and-spaces/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/smart-cities-and-spaces/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/smart-cities-and-spaces/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/smart-cities-and-spaces/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/smart-cities-and-spaces/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/smart-cities-and-spaces/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/smart-cities-and-spaces/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/smart-cities-and-spaces/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
@@ -9405,7 +9405,7 @@ window.addEventListener('load', () => {
     
 
 <script>
-!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
+!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="/",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
 </script><script>
 try {
   

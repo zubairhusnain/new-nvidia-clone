@@ -1,6 +1,6 @@
 <!DOCTYPE html><html class="html-page no-js device-macintosh browser-chrome device-desktop" xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" style="--nv-header-height: 100px; --nv-global-nav-pull-up: 45px; --vh: 720px;"><head class="at-element-marker"><style type="text/css" id="nv-accordion-styles">.nv-accordian-class_1.cmp-accordion__panel--expanded { max-height:70px}.nv-accordian-class_2.cmp-accordion__panel--expanded { max-height:70px}.nv-accordian-class_3.cmp-accordion__panel--expanded { max-height:45px}.nv-accordian-class_4.cmp-accordion__panel--expanded { max-height:70px}.nv-accordian-class_5.cmp-accordion__panel--expanded { max-height:45px}.nv-accordian-class_6.cmp-accordion__panel--expanded { max-height:95px}.nv-accordian-class_7.cmp-accordion__panel--expanded { max-height:70px}.nv-accordian-class_8.cmp-accordion__panel--expanded { max-height:70px}.cmp-accordion__panel--hidden{max-height:0}</style><script type="text/javascript" async=" src=" assets="" js.adsrvr.org="" up_loader.3.0.0.js"=""></script><script type="text/javascript" async=" src=" assets="" www.influ2.com="" tracker="" "=""></script><script type="text/javascript" async=" src=" assets="" t.contentsquare.net="" uxa="" c6af8848c2687.js"=""></script><script src="/assets/static.reo.dev/540df7f83845146/reo.js" defer=""></script>
 <title>Build Agentic AI with Multimodal Foundation Models | NVIDIA Nemotron</title>
-<link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
 <link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css" type="text/css">
 <link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css" type="text/css">
 <link rel="stylesheet" href="../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-nvgdccart.min.d41d8cd98f00b204e9800998ecf8427e.css" type="text/css">
@@ -4082,12 +4082,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
     };
 
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -5329,8 +5329,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -5347,7 +5347,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -5385,12 +5385,12 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nemotron-3-bm-af-bottom-p.jpg," content=" dam=" en-zz=" solutions=" ai-data-science=" llama-nemotron=" nemotron-3-bm-af-bottom-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nemotron-3-bm-lg440-offset-t.jpg," nemotron-3-bm-lg440-offset-t@2x.jpg=" data-srcset-laptop=" ..="" assets="" www.nvidia.com="" dam="" solutions="" llama-nemotron="" nemotron-3-bm-lg580-offset-left-l.jpg,"="" nemotron-3-bm-lg580-offset-left-l@2x.jpg=" data-srcset-desktop=" nemotron-3-bm-lg580-offset-left-d.jpg,"="" nemotron-3-bm-lg580-offset-left-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-af-bottom-p.jpg,"="" nemotron-3-bm-af-bottom-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-lg440-offset-t.jpg,"="" nemotron-3-bm-lg440-offset-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-lg580-offset-left-l.jpg,"="" nemotron-3-bm-lg580-offset-left-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-lg580-offset-left-d.jpg,"="" nemotron-3-bm-lg580-offset-left-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-af-bottom-p.jpg,"="" nemotron-3-bm-af-bottom-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-lg440-offset-t.jpg,"="" nemotron-3-bm-lg440-offset-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-lg580-offset-left-l.jpg,"="" nemotron-3-bm-lg580-offset-left-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" llama-nemotron="" nemotron-3-bm-lg580-offset-left-d.jpg,"="" nemotron-3-bm-lg580-offset-left-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
                 
-                    <img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nemotron-3-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-container-80ee68d4cd" onload="window.initLazyLoadingImages('container-80ee68d4cd');" srcset=" /content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nemotron-3-bm-lg580-offset-left-d@2x.jpg 2x">
+                    <img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nemotron-3-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-container-80ee68d4cd" onload="window.initLazyLoadingImages('container-80ee68d4cd');" srcset="/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nemotron-3-bm-lg580-offset-left-d@2x.jpg 2x">
                 
                 
             </picture>
@@ -5473,7 +5473,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-b8604b1e19" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/search/models?filters=publisher%3Anvidia&amp;q=Nemotron">
+  <a id="nv-button-b8604b1e19" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?filters=publisher%3Anvidia&amp;q=Nemotron">
     
     
 
@@ -5489,7 +5489,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-2bb7aed33e" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="/blog/blog/nemotron-open-source-ai/" target="_blank">Blog</a> | <a href="https://developer.nvidia.com/nemotron" target="_blank">For Developers</a> </p>
+                	<p><a href="/blog/blog/nemotron-open-source-ai/" target="_blank">Blog</a> | <a href="./assets/developer.nvidia.com/nemotron" target="_blank">For Developers</a> </p>
                 </div>
 			</div>
 	</div>
@@ -5760,7 +5760,7 @@ var nvidiaGDClog = function() {
             <div><div class="nv-button button">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="subscribe-now-finance" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/search/models?q=Nemotron">
+  <a id="subscribe-now-finance" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?q=Nemotron">
     
     
 
@@ -6049,7 +6049,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-7889fbc16b-cta-2404945fac" rel="noopener noreferrer" href="https://developer.nvidia.com/blog/nvidia-nemotron-3-nano-omni-powers-multimodal-agent-reasoning-in-a-single-efficient-open-model/">Read Blog
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-7889fbc16b-cta-2404945fac" rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/nvidia-nemotron-3-nano-omni-powers-multimodal-agent-reasoning-in-a-single-efficient-open-model/">Read Blog
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6289,7 +6289,7 @@ var nvidiaGDClog = function() {
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -6298,12 +6298,12 @@ var nvidiaGDClog = function() {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=_y9SEtn1lU8" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=_y9SEtn1lU8" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/_y9SEtn1lU8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/_y9SEtn1lU8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/bryan-catanzaro-nvidia-nemotron-ari.jpg' alt='Why NVIDIA Made Nemotron, featuring Bryan Catanzaro, VP of Applied Deep Learning Research at NVIDIA'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/_y9SEtn1lU8?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/_y9SEtn1lU8?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/bryan-catanzaro-nvidia-nemotron-ari.jpg' alt='Why NVIDIA Made Nemotron, featuring Bryan Catanzaro, VP of Applied Deep Learning Research at NVIDIA'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
     
     </div>
    </div>
@@ -6329,7 +6329,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-1a5353ff51" class="btn-content btncta    " target="_modal" data-cmp-clickable="false " href="https://www.youtube.com/watch?v=_y9SEtn1lU8">
+  <a id="nv-button-1a5353ff51" class="btn-content btncta    " target="_modal" data-cmp-clickable="false " href="./assets/www.youtube.com/watch?v=_y9SEtn1lU8">
     
     
 
@@ -7243,7 +7243,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-2b21133043" class="general-container-text            ">
 			<div class="text-center lap-text-center tab-text-center mob-text-center">
 				<div class="description ">
-                	<p><span class="p--large">Nemotron models excel in a range of agentic AI tasks, including reasoning, <a href="https://build.nvidia.com/search?filters=publisher%3Anvidia&amp;q=nemotron+omni" target="_blank">multimodal vision</a>, <a href="https://developer.nvidia.com/nemo-retriever?sortBy=developer_learning_library%2Fsort%2Ffeatured_in.nemo_retriever%3Adesc%2Ctitle%3Aasc" target="_blank">retrieval-augmented generation (RAG)</a>, <a href="/ai-data-science/products/riva/">speech</a>, and <a href="https://developer.nvidia.com/nemo-guardrails" target="_blank">safety</a>. <a href="https://research.nvidia.com/labs/adlr/projects/" target="_blank">Research models</a> are also available for experimentation.</span></p>
+                	<p><span class="p--large">Nemotron models excel in a range of agentic AI tasks, including reasoning, <a href="/?filters=publisher%3Anvidia&amp;q=nemotron+omni" target="_blank">multimodal vision</a>, <a href="./assets/developer.nvidia.com/nemo-retriever?sortBy=developer_learning_library%2Fsort%2Ffeatured_in.nemo_retriever%3Adesc%2Ctitle%3Aasc" target="_blank">retrieval-augmented generation (RAG)</a>, <a href="/ai-data-science/products/riva/">speech</a>, and <a href="./assets/developer.nvidia.com/nemo-guardrails" target="_blank">safety</a>. <a href="/" target="_blank">Research models</a> are also available for experimentation.</span></p>
                 </div>
 			</div>
 	</div>
@@ -7606,7 +7606,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--1">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-6427736f8b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/search/models?q=Nemotron">
+  <a id="nv-button-6427736f8b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?q=Nemotron">
     
     
 
@@ -7975,7 +7975,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-4ba816b2bf-cta-8d8c55b3ea" rel="noopener noreferrer" href="https://build.nvidia.com/blueprints">Get Started With Blueprints
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-4ba816b2bf-cta-8d8c55b3ea" rel="noopener noreferrer" href="/">Get Started With Blueprints
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8216,7 +8216,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-secondary-button  " target="_blank" id="teaser-62de3a8835-cta-396622a56e" rel="noopener noreferrer" href="https://build.nvidia.com/explore/discover">Build Now
+    <a class="cmp-teaser__action-link nv-teaser-secondary-button  " target="_blank" id="teaser-62de3a8835-cta-396622a56e" rel="noopener noreferrer" href="/">Build Now
          
     </a>
 
@@ -8276,7 +8276,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-secondary-button  " target="_blank" id="teaser-57ddc53546-cta-63bca89612" rel="noopener noreferrer" href="https://developer.nvidia.com/nemotron#:~:text=Run%20Nemotron%20Models%20on%20Inference%20Service%20Providers">Explore Inference Providers
+    <a class="cmp-teaser__action-link nv-teaser-secondary-button  " target="_blank" id="teaser-57ddc53546-cta-63bca89612" rel="noopener noreferrer" href="./assets/developer.nvidia.com/nemotron#:~:text=Run%20Nemotron%20Models%20on%20Inference%20Service%20Providers">Explore Inference Providers
          
     </a>
 
@@ -8979,13 +8979,13 @@ var nvidiaGDClog = function() {
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-5ab93185ca" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/nemotron/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" nemotron"="" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;tags=Nemotron&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-techblogtags="Nemotron" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-5ab93185ca" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/nemotron/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" nemotron"="" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;tags=Nemotron&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-techblogtags="Nemotron" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
     <div class="nv-see-all-links">
       
-        <a href="https://developer.nvidia.com/blog/tag/nemotron/" target="_blank" class="latest-news__see-all"><span class="latest-news__see-all-text">See All Tech Blogs</span><span class="far fa-angle-right fa-fw"></span></a>
+        <a href="./assets/developer.nvidia.com/blog/tag/nemotron/" target="_blank" class="latest-news__see-all"><span class="latest-news__see-all-text">See All Tech Blogs</span><span class="far fa-angle-right fa-fw"></span></a>
       
       
         <a href="/blog/blog/tag/nemotron/" target="_blank" class="latest-news__see-all"><span class="latest-news__see-all-text">See All Topic News</span><span class="far fa-angle-right fa-fw"></span></a>
@@ -9172,13 +9172,13 @@ var nvidiaGDClog = function() {
                 searchInput: {},
                // site: site,
               //  language: $('html').attr('lang'),
-                voltronApiUrl: 'https://api-prod.nvidia.com/services/nod/api/v1/',
-                apiUrl:'https://api-prod.nvidia.com/search/graphql',
+                voltronApiUrl: './assets/api-prod.nvidia.com/services/nod/api/v1/',
+                apiUrl:'./assets/api-prod.nvidia.com/search/graphql',
                 playlistId: 'playList-e3258a3d-bf58-4bf4-9b8c-4cd89e8bac7d',
                 isFeatured: true,
                 header: '',
               //  destinationSite: destinationSite,
-                destination: 'https://www.nvidia.com/en-us/on-demand/playlist/playList-e3258a3d-bf58-4bf4-9b8c-4cd89e8bac7d/',
+                destination: '/on-demand/playlist/playList-e3258a3d-bf58-4bf4-9b8c-4cd89e8bac7d/',
                 onLogin: () => { },
                 onLogout: () => {  },
                 widgetPlacementId: 'nvod-training-featured-1',
@@ -9406,7 +9406,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/bryan-catanzaro-nvidia-nemotron-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/bryan-catanzaro-nvidia-nemotron-ari.jpg" data-title="Why NVIDIA Made Nemotron, featuring Bryan Catanzaro, VP of Applied Deep Learning Research at NVIDIA" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=_y9SEtn1lU8" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=_y9SEtn1lU8" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Why NVIDIA Made Nemotron, featuring Bryan Catanzaro, VP of Applied Deep Learning Research at NVIDIA" title="Why NVIDIA Made Nemotron, featuring Bryan Catanzaro, VP of Applied Deep Learning Research at NVIDIA" data-analytics="nv-image-19f226ca30" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/bryan-catanzaro-nvidia-nemotron-ari.jpg">
@@ -9448,7 +9448,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-19f226ca30-cta-8b526e4f22" href="https://www.youtube.com/watch?v=_y9SEtn1lU8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-19f226ca30-cta-8b526e4f22" href="./assets/www.youtube.com/watch?v=_y9SEtn1lU8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9477,7 +9477,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1179929_1478817276/nv_tabs_copy/item_1753983240227/nv_container_copy/nv_teaser_copy.coreimg.100.410.jpeg/1777389294261/kurt-macdonald-servicenow-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/kurt-macdonald-servicenow-ari.jpg" data-title="ServiceNow and NVIDIA discussing Nemotron" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=lNUEZm7mMWU&amp;" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=lNUEZm7mMWU&amp;" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="ServiceNow and NVIDIA discussing Nemotron" title="ServiceNow and NVIDIA discussing Nemotron" data-analytics="nv-image-79956a7e1f" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -9519,7 +9519,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-79956a7e1f-cta-f36679f398" href="https://www.youtube.com/watch?v=lNUEZm7mMWU&amp;">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-79956a7e1f-cta-f36679f398" href="./assets/www.youtube.com/watch?v=lNUEZm7mMWU&amp;">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9548,7 +9548,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg" data-title="Reasoning agent with reasoning On vs. Off" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=v8SCni68w6U&amp;list=PLZHnYvH1qtObaqSjwoNRwzB2Tz_0OfX7U&amp;index=9" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=v8SCni68w6U&amp;list=PLZHnYvH1qtObaqSjwoNRwzB2Tz_0OfX7U&amp;index=9" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Reasoning agent with reasoning On vs. Off" title="Reasoning agent with reasoning On vs. Off" data-analytics="nv-image-874c828724" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg">
@@ -9590,7 +9590,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-874c828724-cta-bdfb1f8ac3" href="https://www.youtube.com/watch?v=v8SCni68w6U&amp;list=PLZHnYvH1qtObaqSjwoNRwzB2Tz_0OfX7U&amp;index=9">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-874c828724-cta-bdfb1f8ac3" href="./assets/www.youtube.com/watch?v=v8SCni68w6U&amp;list=PLZHnYvH1qtObaqSjwoNRwzB2Tz_0OfX7U&amp;index=9">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9694,7 +9694,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-a86a08ffa4" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PL5B692fm6--vdRKB14FImVi7MTJ77zjn4">
+  <a id="nv-button-a86a08ffa4" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/www.youtube.com/playlist?list=PL5B692fm6--vdRKB14FImVi7MTJ77zjn4">
     
     
 
@@ -9954,7 +9954,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-cef677d4f5" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Yes, you can download and run NVIDIA Nemotron models from <a href="https://huggingface.co/collections/nvidia/nvidia-nemotron-v3" target="_blank">Hugging Face</a>&nbsp;for free in production.</p>
+                	<p>Yes, you can download and run NVIDIA Nemotron models from <a href="/" target="_blank">Hugging Face</a>&nbsp;for free in production.</p>
                 </div>
 			</div>
 	</div>
@@ -9977,7 +9977,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-4756fa6490" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>NVIDIA also offers Nemotron models as NVIDIA NIM microservices for secure, scalable deployment, which requires an NVIDIA AI Enterprise license. You can try the Nemotron models and download the NIM microservices from <a href="https://build.nvidia.com/search?q=Nemotron" target="_blank">build.nvidia.com</a>.</p>
+                	<p>NVIDIA also offers Nemotron models as NVIDIA NIM microservices for secure, scalable deployment, which requires an NVIDIA AI Enterprise license. You can try the Nemotron models and download the NIM microservices from <a href="/?q=Nemotron" target="_blank">build.nvidia.com</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -10278,7 +10278,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--tablet--6 aem-GridColumn--default--6">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-9a1d1f175c" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/search?q=Llama%20Nemotron">
+  <a id="nv-button-9a1d1f175c" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?q=Llama%20Nemotron">
     
     
 
@@ -10876,11 +10876,11 @@ var nvidiaGDClog = function() {
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -11027,7 +11027,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -11064,7 +11064,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/ai-data-science/foundation-models/nemotron/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/foundation-models/nemotron/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/foundation-models/nemotron/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/ai-data-science/foundation-models/nemotron/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/ai-data-science/foundation-models/nemotron/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/ai-data-science/foundation-models/nemotron/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/ai-data-science/foundation-models/nemotron/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/ai-data-science/foundation-models/nemotron/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/ai-data-science/foundation-models/nemotron/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/ai-data-science/foundation-models/nemotron/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/ai-data-science/foundation-models/nemotron/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/ai-data-science/foundation-models/nemotron/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/ai-data-science/foundation-models/nemotron/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/ai-data-science/foundation-models/nemotron/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/ai-data-science/foundation-models/nemotron/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/ai-data-science/foundation-models/nemotron/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/ai-data-science/foundation-models/nemotron/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/foundation-models/nemotron/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/foundation-models/nemotron/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/foundation-models/nemotron/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/ai-data-science/foundation-models/nemotron/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/ai-data-science/foundation-models/nemotron/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/ai-data-science/foundation-models/nemotron/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/ai-data-science/foundation-models/nemotron/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/ai-data-science/foundation-models/nemotron/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/ai-data-science/foundation-models/nemotron/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/ai-data-science/foundation-models/nemotron/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/ai-data-science/foundation-models/nemotron/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/ai-data-science/foundation-models/nemotron/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/ai-data-science/foundation-models/nemotron/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/ai-data-science/foundation-models/nemotron/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/ai-data-science/foundation-models/nemotron/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
@@ -11242,7 +11242,7 @@ window.addEventListener('load', () => {
     
 
 <script>
-!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
+!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="/",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
 </script><script>
 try {
   

@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -100,7 +100,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/solutions/cae/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/solutions/cae/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/solutions/cae/">
 
@@ -168,12 +168,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -1991,8 +1991,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2011,7 +2011,7 @@ var nvidiaGDClog = function() {
  
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2049,10 +2049,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-ge-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-ge-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-ge-p.jpg,="" computer-aided-engineering-bbm-ge-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-gel-t.jpg,="" computer-aided-engineering-bbm-gel-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-gel-l.jpg,="" computer-aided-engineering-bbm-gel-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-gel-d.jpg,="" computer-aided-engineering-bbm-gel-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-ge-p.jpg,="" computer-aided-engineering-bbm-ge-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-gel-t.jpg,="" computer-aided-engineering-bbm-gel-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-gel-l.jpg,="" computer-aided-engineering-bbm-gel-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai="" computer-aided-engineering-bbm-gel-d.jpg,="" computer-aided-engineering-bbm-gel-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-d.jpg" alt=" title=" id="image-bg-hero-banner" onload="window.initLazyLoadingImages('bg-hero-banner');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-bbm-gel-d@2x.jpg 2x">
                 
@@ -2970,7 +2970,7 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<ul> 
  <li>Accelerate ISV solvers at massive scale using <a href="/data-center/technologies/blackwell-architecture/">NVIDIA Blackwell</a> and<a href="/data-center/grace-hopper-superchip/"> Grace Hopper</a> superchip.</li> 
- <li>Utilize NVIDIA CUDA-X™ libraries and <a href="https://developer.nvidia.com/warp-python" target="_blank">NVIDIA Warp </a>for GPU acceleration. <a href="/technologies/cuda-x/">CUDA-X libraries</a> are built on top of CUDA to simplify adoption of NVIDIA’s acceleration platform across data processing, AI, and HPC. &nbsp;</li> 
+ <li>Utilize NVIDIA CUDA-X™ libraries and <a href="./assets/developer.nvidia.com/warp-python" target="_blank">NVIDIA Warp </a>for GPU acceleration. <a href="/technologies/cuda-x/">CUDA-X libraries</a> are built on top of CUDA to simplify adoption of NVIDIA’s acceleration platform across data processing, AI, and HPC. &nbsp;</li> 
 </ul>
                 </div>
 			</div>
@@ -4781,7 +4781,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-427a0370ec" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/blog/recent-posts/?industry=Aerospace">
+  <a id="nv-button-427a0370ec" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/recent-posts/?industry=Aerospace">
     
     
 
@@ -6777,7 +6777,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-8659d67bf3" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/blog/tag/computational-fluid-dynamics/">
+  <a id="nv-button-8659d67bf3" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/tag/computational-fluid-dynamics/">
     
     
 
@@ -7011,7 +7011,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ece271a385-cta-40fd77544f" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-and-synopsys-announce-strategic-partnership-to-revolutionize-engineering-and-design">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ece271a385-cta-40fd77544f" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7089,7 +7089,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9763b8c59c-cta-056533c773" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-announces-omniverse-real-time-physics-digital-twins-with-industry-software-leaders">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9763b8c59c-cta-056533c773" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7167,7 +7167,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-6368552050-cta-fbf6f48483" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-blackwell-accelerates-computer-aided-engineering-software-by-orders-of-magnitude-for-real-time-digital-twins">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-6368552050-cta-fbf6f48483" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7238,7 +7238,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-fbb9af9337-cta-930e98e069" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-expands-omniverse-with-generative-physical-ai">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-fbb9af9337-cta-930e98e069" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7415,7 +7415,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/item_1741341285448/nv_container/nv_teaser_copy_copy.coreimg.100.410.jpeg/1767811911818/ai-supercomputing-thumbnail.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/ai-supercomputing-thumbnail.jpg" data-title=" Server rack and six icons representing key semiconductor AI use cases" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=7KxVR53PWMw" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=7KxVR53PWMw" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt=" Server rack and six icons representing key semiconductor AI use cases" title=" Server rack and six icons representing key semiconductor AI use cases" data-analytics="nv-image-9fbcc9500b" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7457,7 +7457,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9fbcc9500b-cta-2cb3f75431" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=7KxVR53PWMw">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9fbcc9500b-cta-2cb3f75431" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=7KxVR53PWMw">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7486,7 +7486,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/item_1741341285448/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1767811911856/computer-aided-engineering-video-ari-v1.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/computer-aided-engineering-video-ari-v1.jpg" data-title="green car in simulation cutting wind through" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=RIxrN7yedyQ" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=RIxrN7yedyQ" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="green car in simulation cutting wind through" title="green car in simulation cutting wind through" data-analytics="nv-image-3457b82275" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7528,7 +7528,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-3457b82275-cta-f8c38a2c09" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=RIxrN7yedyQ">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-3457b82275-cta-f8c38a2c09" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=RIxrN7yedyQ">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7557,7 +7557,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/item_1741341285448/nv_container/nv_teaser_copy_81329.coreimg.100.410.jpeg/1767811911897/cuda-x-video-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cuda-x-video-ari.jpg" data-title="Industries that CUDA-X libraries workloads represent" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=CyP0SutKhzw" target="_self" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=CyP0SutKhzw" target="_self" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Industries that CUDA-X libraries workloads represent" title="Industries that CUDA-X libraries workloads represent" data-analytics="nv-image-ecbba792e0" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7599,7 +7599,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ecbba792e0-cta-5a2b0b691c" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=CyP0SutKhzw">Watch Demo
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ecbba792e0-cta-5a2b0b691c" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=CyP0SutKhzw">Watch Demo
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8001,7 +8001,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-a08c769e45" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://github.com/NVIDIA-Omniverse-Blueprints/digital-twins-for-fluid-simulation">
+  <a id="nv-button-a08c769e45" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -8263,7 +8263,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-45c012629b-cta-f328ef8e00" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-announces-omniverse-real-time-physics-digital-twins-with-industry-software-leaders">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-45c012629b-cta-f328ef8e00" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8412,7 +8412,7 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-5a7d5419a1-cta-81e28a6228" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-and-synopsys-announce-strategic-partnership-to-revolutionize-engineering-and-design">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-5a7d5419a1-cta-81e28a6228" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8719,11 +8719,11 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -8870,7 +8870,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -8907,7 +8907,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/solutions/cae/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/solutions/cae/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/solutions/cae/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/solutions/cae/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/solutions/cae/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/solutions/cae/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/solutions/cae/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/solutions/cae/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/solutions/cae/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/solutions/cae/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/solutions/cae/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/solutions/cae/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/solutions/cae/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/solutions/cae/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/solutions/cae/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/solutions/cae/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/solutions/cae/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/solutions/cae/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/solutions/cae/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/solutions/cae/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/solutions/cae/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/solutions/cae/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/solutions/cae/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/solutions/cae/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/solutions/cae/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/solutions/cae/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/solutions/cae/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/solutions/cae/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/solutions/cae/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/solutions/cae/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/solutions/cae/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/solutions/cae/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

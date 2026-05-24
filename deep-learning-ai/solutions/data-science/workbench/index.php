@@ -1,6 +1,6 @@
 <!DOCTYPE html><html class="html-page no-js device-macintosh browser-chrome device-desktop" xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us" style="--nv-header-height: 100px; --nv-global-nav-pull-up: 45px; --vh: 720px;"><head class="at-element-marker"><style type="text/css" id="nv-accordion-styles">.cmp-accordion__panel--hidden{max-height:0}</style><script type="text/javascript" async=" src=" assets="" js.adsrvr.org="" up_loader.3.0.0.js"=""></script><script type="text/javascript" async=" src=" assets="" www.influ2.com="" tracker="" "=""></script><script type="text/javascript" async=" src=" assets="" t.contentsquare.net="" uxa="" c6af8848c2687.js"=""></script><script src="/assets/static.reo.dev/540df7f83845146/reo.js" defer=""></script><link id="sa-css" rel="stylesheet" type="text/css" href="/assets/tags.srv.stackadapt.com/sa.css" media="all">
 <title>Tools for AI Workstations | NVIDIA</title>
-<link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin="">
 <link href="../../../../assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="../../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-site.min.02949d2276e439ab0f1978f394215caf.css" type="text/css">
 <link rel="stylesheet" href="../../../../assets/www.nvidia.com/etc.clientlibs/nvidiaweb/clientlibs/clientlib-base.min.8684b0f16f804cac8396aa31fdf033e6.css" type="text/css">
@@ -4089,12 +4089,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
     };
 
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -5336,8 +5336,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -5354,7 +5354,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -5392,12 +5392,12 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-center    ">
             
             <picture data-srcset-mobile="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/workbench/ai-workbench-bm-uf1080-p.jpg.jpg," content=" dam=" en-zz=" solutions=" deep-learning=" deep-learning-solutions=" data-science=" workbench=" ai-workbench-bm-uf1080-p@2x.jpg.jpg=" 2x" ="="" data-srcset-tablet="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/workbench/ai-workbench-bm-l440-t.jpg.jpg," ai-workbench-bm-l440-t@2x.jpg.jpg=" data-srcset-laptop=" ..="" assets="" www.nvidia.com="" dam="" solutions="" deep-learning-solutions="" workbench="" ai-workbench-bm-l580-l.jpg.jpg,"="" ai-workbench-bm-l580-l@2x.jpg.jpg=" data-srcset-desktop=" ai-workbench-bm-l580-d.jpg.jpg,"="" ai-workbench-bm-l580-d@2x.jpg.jpg="">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-uf1080-p.jpg.jpg,"="" ai-workbench-bm-uf1080-p@2x.jpg.jpg=" 2x" ="="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-l440-t.jpg.jpg,"="" ai-workbench-bm-l440-t@2x.jpg.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-l580-l.jpg.jpg,"="" ai-workbench-bm-l580-l@2x.jpg.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-l580-d.jpg.jpg,"="" ai-workbench-bm-l580-d@2x.jpg.jpg=" 2x" ="="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-uf1080-p.jpg.jpg,"="" ai-workbench-bm-uf1080-p@2x.jpg.jpg=" 2x" ="="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-l440-t.jpg.jpg,"="" ai-workbench-bm-l440-t@2x.jpg.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-l580-l.jpg.jpg,"="" ai-workbench-bm-l580-l@2x.jpg.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" deep-learning="" deep-learning-solutions="" data-science="" workbench="" ai-workbench-bm-l580-d.jpg.jpg,"="" ai-workbench-bm-l580-d@2x.jpg.jpg=" 2x" ="="" media="(min-width:1350px)">
                 
-                	<img src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/workbench/ai-workbench-bm-l580-d.jpg.jpg" alt=" title=" id="image-bm-uf" onload="window.initLazyLoadingImages('bm-uf');" srcset=" /content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/workbench/ai-workbench-bm-l580-d@2x.jpg.jpg 2x">
+                	<img src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/workbench/ai-workbench-bm-l580-d.jpg.jpg" alt=" title=" id="image-bm-uf" onload="window.initLazyLoadingImages('bm-uf');" srcset="/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/workbench/ai-workbench-bm-l580-d@2x.jpg.jpg 2x">
                 
                 
             </picture>
@@ -5580,7 +5580,7 @@ var nvidiaGDClog = function() {
     <div id="text-cta-row" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><a href="https://resources.nvidia.com/en-us-workstation/proviz-ai-workbench-ai-workstation?lx=57iDsa&amp;ncid=no-ncid" target="_blank">Solution Overview</a>&nbsp; | &nbsp;<a href="https://www.youtube.com/watch?v=usnXmiBuUjc" target="_blank">Demo</a>&nbsp; | &nbsp;<a href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html" target="_blank">For Developers</a></p>
+                	<p><a href="/?lx=57iDsa&amp;ncid=no-ncid" target="_blank">Solution Overview</a>&nbsp; | &nbsp;<a href="./assets/www.youtube.com/watch?v=usnXmiBuUjc" target="_blank">Demo</a>&nbsp; | &nbsp;<a href="/" target="_blank">For Developers</a></p>
                 </div>
 			</div>
 	</div>
@@ -6023,7 +6023,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-5d9bf8ddaf-cta-68ecdd5862" rel="noopener noreferrer" href="https://www.insight.com/en_US/content-and-resources/webinars/how-nvidia-ai-workbench-makes-ai-accessible-to-all.html?srsltid=AfmBOopi3-smMJAyz3I4pihi6roCYXNA16b_xdpT7xzI6LN-M5BDf6BD">Watch Webinar
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-5d9bf8ddaf-cta-68ecdd5862" rel="noopener noreferrer" href="/?srsltid=AfmBOopi3-smMJAyz3I4pihi6roCYXNA16b_xdpT7xzI6LN-M5BDf6BD">Watch Webinar
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6202,7 +6202,7 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="ntMRzPzSvM4" data-thumbnail="https://img.youtube.com/vi_webp/ntMRzPzSvM4/maxresdefault.webp">
+<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="ntMRzPzSvM4" data-thumbnail="./assets/img.youtube.com/vi_webp/ntMRzPzSvM4/maxresdefault.webp">
 
    
    
@@ -6225,7 +6225,7 @@ var nvidiaGDClog = function() {
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -6234,12 +6234,12 @@ var nvidiaGDClog = function() {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=ntMRzPzSvM4" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=ntMRzPzSvM4" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/ntMRzPzSvM4?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/ntMRzPzSvM4?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://img.youtube.com/vi_webp/ntMRzPzSvM4/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/ntMRzPzSvM4?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/ntMRzPzSvM4?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='./assets/img.youtube.com/vi_webp/ntMRzPzSvM4/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
     
     </div>
    </div>
@@ -6251,7 +6251,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-7c43798e18" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.youtube.com/watch?v=ntMRzPzSvM4&amp;t=3s">
+  <a id="nv-button-7c43798e18" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=ntMRzPzSvM4&amp;t=3s">
     
     
 
@@ -6514,7 +6514,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--4 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--phone--9 aem-GridColumn--offset--phone--1 aem-GridColumn--offset--default--2 aem-GridColumn--default--3 aem-GridColumn--offset--tablet--1">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-446d180df2" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html">
+  <a id="nv-button-446d180df2" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -6651,7 +6651,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--4 aem-GridColumn--tablet--none aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--default--4 aem-GridColumn--offset--default--1">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-0658bc97f2" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/locations/locations.html">
+  <a id="nv-button-0658bc97f2" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -6788,7 +6788,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--4 aem-GridColumn--tablet--none aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--offset--default--2 aem-GridColumn--default--3 aem-GridColumn--offset--tablet--1">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-1179b606be" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/integrations/integrations.html">
+  <a id="nv-button-1179b606be" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -6925,7 +6925,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--4 aem-GridColumn--tablet--none aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--default--4 aem-GridColumn--offset--default--1">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-1c55ee5345" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/overview.html">
+  <a id="nv-button-1c55ee5345" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -7336,9 +7336,9 @@ var nvidiaGDClog = function() {
 				<div class="description ">
                 	<p>Easily create, use, and distribute RAG-powered AI chatbots with AI Workbench. Check out:</p> 
 <ul> 
- <li><a href="https://github.com/NVIDIA/workbench-example-hybrid-rag" target="_blank">Hybrid-RAG</a> for rapid prototyping: Run embedding locally and inference locally or in the cloud with NVIDIA NIM™ or an NVIDIA API.</li> 
- <li><a href="https://github.com/NVIDIA/workbench-example-agentic-rag" target="_blank">Agentic RAG</a> for improved response quality: Use AI agents for dynamic information retrieval across documents and web search. Run inference in the cloud with NVIDIA NIM or an NVIDIA API.&nbsp;</li> 
- <li><a href="https://github.com/NVIDIA/nim-anywhere" target="_blank">NIM-Anywhere</a> to get started today: Implement native RAG and build your own AI-powered tools with NVIDIA NIM.</li> 
+ <li><a href="/" target="_blank">Hybrid-RAG</a> for rapid prototyping: Run embedding locally and inference locally or in the cloud with NVIDIA NIM™ or an NVIDIA API.</li> 
+ <li><a href="/" target="_blank">Agentic RAG</a> for improved response quality: Use AI agents for dynamic information retrieval across documents and web search. Run inference in the cloud with NVIDIA NIM or an NVIDIA API.&nbsp;</li> 
+ <li><a href="/" target="_blank">NIM-Anywhere</a> to get started today: Implement native RAG and build your own AI-powered tools with NVIDIA NIM.</li> 
 </ul>
                 </div>
 			</div>
@@ -7350,7 +7350,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-490bbcd001" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://github.com/NVIDIA?q=ai+workbench+rag&amp;type=all&amp;language=&amp;sort=">
+  <a id="nv-button-490bbcd001" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?q=ai+workbench+rag&amp;type=all&amp;language=&amp;sort=">
     
     
 
@@ -7642,7 +7642,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-ce1875e213" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://github.com/NVIDIA?q=ai+workbench+finetune&amp;type=all&amp;language=&amp;sort=">
+  <a id="nv-button-ce1875e213" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?q=ai+workbench+finetune&amp;type=all&amp;language=&amp;sort=">
     
     
 
@@ -7932,7 +7932,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-d6023cfac6" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://github.com/NVIDIA/workbench-example-sdxl-customization">
+  <a id="nv-button-d6023cfac6" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -8452,7 +8452,7 @@ var nvidiaGDClog = function() {
                 	<p>Use AI Workbench for free. Support is available with an <a href="/data-center/products/ai-enterprise/">NVIDIA AI Enterprise license</a>.</p> 
 <p>By downloading, installing, or using the NVIDIA AI Workbench software, you agree to the terms of the <a href="/agreements/enterprise-software/nvidia-software-license-agreement/">NVIDIA AI Enterprise End User License Agreement</a>.&nbsp;</p> 
 <p>If you do not agree to the terms of the EULA, you are not authorized to download, install, or use the software.</p> 
-<p>Before downloading and using NVIDIA AI Workbench, please read our <a href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/security-model.html">Shared Security Model</a>.</p>
+<p>Before downloading and using NVIDIA AI Workbench, please read our <a href="/">Shared Security Model</a>.</p>
                 </div>
 			</div>
 	</div>
@@ -8468,7 +8468,7 @@ var nvidiaGDClog = function() {
     	
 		
 
-    <div> <div id="os-button"><div class="nv-button button aem-GridColumn aem-GridColumn--default--12"><div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left"><a id="nv-button-103391e162" class="btn-content btncta" href="https://workbench.download.nvidia.com/stable/workbench-desktop/latest/NVIDIA-AI-Workbench.dmg"><span class="btn-text">Download for macOS</span>		</a>		</div>	</div></div> 
+    <div> <div id="os-button"><div class="nv-button button aem-GridColumn aem-GridColumn--default--12"><div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left"><a id="nv-button-103391e162" class="btn-content btncta" href="/"><span class="btn-text">Download for macOS</span>		</a>		</div>	</div></div> 
 <script>
 	function getTextAndLinkBasedOnOS() {
 		const userAgent = window.navigator.userAgent
@@ -8479,15 +8479,15 @@ var nvidiaGDClog = function() {
 		let os = null
 
         if (windowsPlatforms.indexOf(platform) !== -1) {
-			return {buttonText: 'Download for Windows', url: 'https://workbench.download.nvidia.com/stable/workbench-desktop/latest/NVIDIA-AI-Workbench-Setup.exe'}
+			return {buttonText: 'Download for Windows', url: '/'}
 		}
     
 		if (macosPlatforms.indexOf(platform) !== -1) {
-			return {buttonText: "Download for macOS", url: "https://workbench.download.nvidia.com/stable/workbench-desktop/latest/NVIDIA-AI-Workbench.dmg"}
+			return {buttonText: "Download for macOS", url: "/"}
 		} 
 		 
 		if (/Linux/.test(platform)) {
-			return {buttonText: 'Download for Ubuntu', url: 'https://workbench.download.nvidia.com/stable/workbench-desktop/latest/NVIDIA-AI-Workbench-x86_64.AppImage'}
+			return {buttonText: 'Download for Ubuntu', url: '/'}
 		}
 		if (iosPlatforms.indexOf(platform) !== -1) {
 			return {buttonText: 'Download for Ubuntu/Windows/macOS', url: '#download'}
@@ -8699,7 +8699,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-secondary-button nv-teaser-cta-small " target="_blank" id="teaser-49a47dc546-cta-0a59a8df6f" rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html">Learn More
+    <a class="cmp-teaser__action-link nv-teaser-secondary-button nv-teaser-cta-small " target="_blank" id="teaser-49a47dc546-cta-0a59a8df6f" rel="noopener noreferrer" href="/">Learn More
          
     </a>
 
@@ -9333,7 +9333,7 @@ var nvidiaGDClog = function() {
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-88759fa852" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="dev-zone" data-cmp-feedurl="https://developer.nvidia.com/blog/tag/ai+workbench/feed" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="AI+Workbench" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-88759fa852" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="dev-zone" data-cmp-feedurl="./assets/developer.nvidia.com/blog/tag/ai+workbench/feed" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="AI+Workbench" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -9343,24 +9343,24 @@ var nvidiaGDClog = function() {
         <div class="latest-news latest-news--large three-grid">
             <div class="latest-news__items">
                 <div class="latest-news__item ">
-                    <div class="latest-news__item__key-visual"><a href="https://developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/" target="_blank"><img src="../../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/combined_grid1-ezgif.com-optimize-1.gif" alt="Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models" title="Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models"></a></div>
-                    <a href="https://developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/" target="_blank"><div class="latest-news__item__body">
+                    <div class="latest-news__item__key-visual"><a href="./assets/developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/" target="_blank"><img src="../../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/combined_grid1-ezgif.com-optimize-1.gif" alt="Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models" title="Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models"></a></div>
+                    <a href="./assets/developer.nvidia.com/blog/synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models/" target="_blank"><div class="latest-news__item__body">
                         <div class="latest-news__item__body__date">May 22, 2026</div>
                         <div class="latest-news__item__body__title">Synthesize Realistic 3D Medical Images at Scale to Ship Pre‑Trained Models</div>
                         <div class="latest-news__item__body__description">High‑quality 3D medical imaging data is the foundation of modern radiology AI, but access to it is often constrained by data scarcity, privacy restrictions…</div>
                         <!--/* <div class="latest-news__item_readmore"><a href="https:&#x2F;&#x2F;developer.nvidia.com&#x2F;blog&#x2F;synthesize-realistic-3d-medical-images-at-scale-to-ship-pre-trained-models&#x2F;" target="_blank">Read More<span class="fas fa-angle-right fa-fw"></span></a></div>     */-->
                     </div></a>
                 </div><div class="latest-news__item ">
-                    <div class="latest-news__item__key-visual"><a href="https://developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><img src="../../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/Quantitative_Agent-e1778800484153-660x370.webp" alt="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems" title="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems"></a></div>
-                    <a href="https://developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><div class="latest-news__item__body">
+                    <div class="latest-news__item__key-visual"><a href="./assets/developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><img src="../../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/Quantitative_Agent-e1778800484153-660x370.webp" alt="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems" title="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems"></a></div>
+                    <a href="./assets/developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><div class="latest-news__item__body">
                         <div class="latest-news__item__body__date">May 21, 2026</div>
                         <div class="latest-news__item__body__title">Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems</div>
                         <div class="latest-news__item__body__description">In quantitative finance, researchers build algorithms to trade assets, derivatives, and other financial instruments. A key part of that work is finding signals…</div>
                         <!--/* <div class="latest-news__item_readmore"><a href="https:&#x2F;&#x2F;developer.nvidia.com&#x2F;blog&#x2F;automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems&#x2F;" target="_blank">Read More<span class="fas fa-angle-right fa-fw"></span></a></div>     */-->
                     </div></a>
                 </div><div class="latest-news__item ">
-                    <div class="latest-news__item__key-visual"><a href="https://developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/" target="_blank"><img src="../../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/03/image3-1-660x370.png" alt="Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters" title="Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters"></a></div>
-                    <a href="https://developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/" target="_blank"><div class="latest-news__item__body">
+                    <div class="latest-news__item__key-visual"><a href="./assets/developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/" target="_blank"><img src="../../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/03/image3-1-660x370.png" alt="Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters" title="Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters"></a></div>
+                    <a href="./assets/developer.nvidia.com/blog/get-real-time-visibility-into-gpu-usage-across-kubernetes-clusters/" target="_blank"><div class="latest-news__item__body">
                         <div class="latest-news__item__body__date">May 21, 2026</div>
                         <div class="latest-news__item__body__title">Get Real-Time Visibility into GPU Usage Across Kubernetes Clusters</div>
                         <div class="latest-news__item__body__description">Maximizing the value of AI infrastructure demands deep visibility into GPU utilization. Yet many platform teams running AI workloads on Kubernetes operate with…</div>
@@ -9376,7 +9376,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--12 aem-GridColumn--offset--phone--0">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-c0b0202d5b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="https://developer.nvidia.com/blog/search-posts/?faceted_search_products_str=AI+Workbench">
+  <a id="nv-button-c0b0202d5b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/search-posts/?faceted_search_products_str=AI+Workbench">
     
     
 
@@ -9523,8 +9523,8 @@ var nvidiaGDClog = function() {
                 searchInput: {},
                 site: site,
                 language: $('html').attr('lang'),
-                voltronApiUrl: 'https://api-prod.nvidia.com/services/nod/api/v1/',
-                apiUrl:'https://api-prod.nvidia.com/search/graphql',
+                voltronApiUrl: './assets/api-prod.nvidia.com/services/nod/api/v1/',
+                apiUrl:'./assets/api-prod.nvidia.com/search/graphql',
                 playlistId: 'playList-6ee39157-d4af-4c22-b4d2-40248c1f577d',
                 isFeatured: true,
                 header: '',
@@ -9704,7 +9704,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/ai-workbench-workstation-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/ai-workbench-workstation-ari.jpg" data-title="individual using a workstation to do compute intensive work on multiple monitors." data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.insight.com/en_US/content-and-resources/webinars/how-nvidia-ai-workbench-makes-ai-accessible-to-all.html?srsltid=AfmBOopi3-smMJAyz3I4pihi6roCYXNA16b_xdpT7xzI6LN-M5BDf6BD" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?srsltid=AfmBOopi3-smMJAyz3I4pihi6roCYXNA16b_xdpT7xzI6LN-M5BDf6BD" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="individual using a workstation to do compute intensive work on multiple monitors." title="individual using a workstation to do compute intensive work on multiple monitors." data-analytics="nv-image-197ee5158a" data-cmp-hook-image="image" src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/ai-workbench-workstation-ari.jpg">
@@ -9746,7 +9746,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-197ee5158a-cta-e62b244946" rel="noopener noreferrer" href="https://www.insight.com/en_US/content-and-resources/webinars/how-nvidia-ai-workbench-makes-ai-accessible-to-all.html?srsltid=AfmBOopi3-smMJAyz3I4pihi6roCYXNA16b_xdpT7xzI6LN-M5BDf6BD">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-197ee5158a-cta-e62b244946" rel="noopener noreferrer" href="/?srsltid=AfmBOopi3-smMJAyz3I4pihi6roCYXNA16b_xdpT7xzI6LN-M5BDf6BD">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9775,7 +9775,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/generative-ai-rag-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/generative-ai-rag-ari.jpg" data-title="Developer looking at screen showing “My Projects” panel in AI workbench." data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://youtu.be/UXNyf88xI8w?feature=shared" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?feature=shared" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Developer looking at screen showing “My Projects” panel in AI workbench." title="Developer looking at screen showing “My Projects” panel in AI workbench." data-analytics="nv-image-d51725cb80" data-cmp-hook-image="image" src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/generative-ai-rag-ari.jpg">
@@ -9817,7 +9817,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-d51725cb80-cta-6bb909fcaa" rel="noopener noreferrer" href="https://youtu.be/UXNyf88xI8w?feature=shared">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-d51725cb80-cta-6bb909fcaa" rel="noopener noreferrer" href="/?feature=shared">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10139,7 +10139,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/deep-learning-ai/solutions/data-science/workbench/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_1720418765603/nv_container_copy/nv_teaser.coreimg.100.410.jpeg/1734545928524/ai-workbench-engineers-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/ai-workbench-engineers-ari.jpg" data-title="NVIDIA's NEW AI Workbench for AI Engineers" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=DcrFL_zNRKM" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=DcrFL_zNRKM" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA's NEW AI Workbench for AI Engineers" title="NVIDIA's NEW AI Workbench for AI Engineers" data-analytics="nv-image-8561e04819" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -10181,7 +10181,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-8561e04819-cta-650520d614" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=DcrFL_zNRKM">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-8561e04819-cta-650520d614" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=DcrFL_zNRKM">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10210,7 +10210,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/deep-learning-ai/solutions/data-science/workbench/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_1720418765603/nv_container_copy/nv_teaser_copy.coreimg.100.410.jpeg/1734545928606/fine-tuning-generative-ai-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/fine-tuning-generative-ai-ari.jpg" data-title="NVIDIA AI Workbench | Fine-Tuning Generative AI" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=ntMRzPzSvM4" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=ntMRzPzSvM4" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA AI Workbench | Fine-Tuning Generative AI" title="NVIDIA AI Workbench | Fine-Tuning Generative AI" data-analytics="nv-image-856f86305a" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -10252,7 +10252,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-856f86305a-cta-723bd10db0" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=ntMRzPzSvM4">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-856f86305a-cta-723bd10db0" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=ntMRzPzSvM4">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10281,7 +10281,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/deep-learning-ai/solutions/data-science/workbench/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_1720418765603/nv_container_copy/nv_teaser_copy_1454080331.coreimg.100.410.jpeg/1734545928687/create-deploy-generative-ai-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning-ai/solutions/data-science/create-deploy-generative-ai-ari.jpg" data-title="NVIDIA AI Workbench: Create and Deploy Generative AI Models, RAG, and LLMs Locally" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=4mfJIkXkQVk" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=4mfJIkXkQVk" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA AI Workbench: Create and Deploy Generative AI Models, RAG, and LLMs Locally" title="NVIDIA AI Workbench: Create and Deploy Generative AI Models, RAG, and LLMs Locally" data-analytics="nv-image-9168db6806" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -10323,7 +10323,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9168db6806-cta-7230db38ea" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=4mfJIkXkQVk">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9168db6806-cta-7230db38ea" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=4mfJIkXkQVk">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10426,7 +10426,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-166b0c5b61" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.youtube.com/results?search_query=%22nvidia+ai+workbench%22">
+  <a id="nv-button-166b0c5b61" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/www.youtube.com/results?search_query=%22nvidia+ai+workbench%22">
     
     
 
@@ -10708,7 +10708,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="subscribe-retail" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html">
+  <a id="subscribe-retail" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -10828,7 +10828,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-831959b4c5" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #fff; " rel="noopener noreferrer" href="https://forums.developer.nvidia.com/c/ai-data-science/nvidia-ai-workbench/671">
+  <a id="nv-button-831959b4c5" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #fff; " rel="noopener noreferrer" href="/">
     
     
 
@@ -11286,7 +11286,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 		$.ajax({
 			type: "GET",
-			url: 'https://layouts.nvidiagrid.net/v1/serviceUrls',
+			url: '/',
 			crossDomain: true,
 			headers: {
 				'Accept': 'application/json',
@@ -11457,7 +11457,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 		$.ajax({
 			type: "GET",
-			url: 'https://layouts.nvidiagrid.net/v1/serviceUrls',
+			url: '/',
 			crossDomain: true,
 			headers: {
 				'Accept': 'application/json',
@@ -11598,7 +11598,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     <div class="nv-button button aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--0">
 <div class="nv-button-download              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-92a669b069" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="https://workbench.download.nvidia.com/stable/workbench-desktop/latest/NVIDIA-AI-Workbench-Setup.exe">
+  <a id="nv-button-92a669b069" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="/">
     
     
 
@@ -11701,7 +11701,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     <div class="nv-button button aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="download-ubuntu-pkg" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="https://docs.nvidia.com/ai-workbench/user-guide/latest/install/desktop-app-install.html#install-on-ubuntu-desktop">
+  <a id="download-ubuntu-pkg" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="/#install-on-ubuntu-desktop">
     
     
 
@@ -11804,7 +11804,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     <div class="nv-button button aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="download-mac-pkg" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="https://workbench.download.nvidia.com/stable/workbench-desktop/latest/NVIDIA-AI-Workbench.dmg">
+  <a id="download-mac-pkg" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #000; " rel="noopener noreferrer" href="/">
     
     
 
@@ -11951,7 +11951,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     <div id="nv-text-1efd574828" class="general-container-text            ">
 			<div class="text-center lap-text-center tab-text-center mob-text-center">
 				<div class="description ">
-                	<p><a href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html" target="_blank">NVIDIA AI Workbench User Guide</a></p>
+                	<p><a href="/" target="_blank">NVIDIA AI Workbench User Guide</a></p>
                 </div>
 			</div>
 	</div>
@@ -11965,7 +11965,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     <div id="nv-text-11b400e0c3" class="general-container-text            ">
 			<div class="text-center lap-text-center tab-text-center mob-text-center">
 				<div class="description ">
-                	<p><a href="https://docs.nvidia.com/ai-workbench/user-guide/latest/installation/ubuntu-remote.html" target="_blank">Instructions for Remote Installation</a></p>
+                	<p><a href="/" target="_blank">Instructions for Remote Installation</a></p>
                 </div>
 			</div>
 	</div>
@@ -12024,7 +12024,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     <div id="nv-text-9312716929" class="general-container-text            ">
 			<div class="text-center lap-text-center tab-text-center mob-text-center">
 				<div class="description ">
-                	<p><span class="p--small">By downloading, installing, or using the NVIDIA AI Workbench software, you agree to the terms of the <a href="/agreements/enterprise-software/product-specific-terms-for-ai-products/">NVIDIA AI Enterprise End User License Agreement (EULA)</a>.</span> <span class="p--small">If you do not agree to the terms of the EULA, you are not authorized to download, install, or use the software.<br> Before downloading and using NVIDIA AI Workbench, please read our <a href="https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/security-model.html" target="_blank">Shared Security Model</a>.</span></p>
+                	<p><span class="p--small">By downloading, installing, or using the NVIDIA AI Workbench software, you agree to the terms of the <a href="/agreements/enterprise-software/product-specific-terms-for-ai-products/">NVIDIA AI Enterprise End User License Agreement (EULA)</a>.</span> <span class="p--small">If you do not agree to the terms of the EULA, you are not authorized to download, install, or use the software.<br> Before downloading and using NVIDIA AI Workbench, please read our <a href="/" target="_blank">Shared Security Model</a>.</span></p>
                 </div>
 			</div>
 	</div>
@@ -12287,11 +12287,11 @@ var NVIDIAGDC = NVIDIAGDC || {};
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -12438,7 +12438,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -12475,7 +12475,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/deep-learning-ai/solutions/data-science/workbench/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/deep-learning-ai/solutions/data-science/workbench/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/deep-learning-ai/solutions/data-science/workbench/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/deep-learning-ai/solutions/data-science/workbench/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/deep-learning-ai/solutions/data-science/workbench/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/deep-learning-ai/solutions/data-science/workbench/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/deep-learning-ai/solutions/data-science/workbench/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/deep-learning-ai/solutions/data-science/workbench/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/deep-learning-ai/solutions/data-science/workbench/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/deep-learning-ai/solutions/data-science/workbench/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/deep-learning-ai/solutions/data-science/workbench/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/deep-learning-ai/solutions/data-science/workbench/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/deep-learning-ai/solutions/data-science/workbench/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/deep-learning-ai/solutions/data-science/workbench/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/deep-learning-ai/solutions/data-science/workbench/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/deep-learning-ai/solutions/data-science/workbench/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/deep-learning-ai/solutions/data-science/workbench/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/deep-learning-ai/solutions/data-science/workbench/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/deep-learning-ai/solutions/data-science/workbench/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/deep-learning-ai/solutions/data-science/workbench/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/deep-learning-ai/solutions/data-science/workbench/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/deep-learning-ai/solutions/data-science/workbench/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/deep-learning-ai/solutions/data-science/workbench/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/deep-learning-ai/solutions/data-science/workbench/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/deep-learning-ai/solutions/data-science/workbench/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/deep-learning-ai/solutions/data-science/workbench/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/deep-learning-ai/solutions/data-science/workbench/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/deep-learning-ai/solutions/data-science/workbench/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/deep-learning-ai/solutions/data-science/workbench/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/deep-learning-ai/solutions/data-science/workbench/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/deep-learning-ai/solutions/data-science/workbench/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/deep-learning-ai/solutions/data-science/workbench/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
@@ -12816,7 +12816,7 @@ try {
             var getHeading = $(this).closest('.textcomp').find('h2.title').text().trim();
             ClickOmniTrack(true, 'event10', 'button:section:' + getHeading + ':', getVal);
         })
-        $('.button a[href*="devblogs"],.button a[href*="https://www.nvidia.com/en-us/deep-learning-ai/developer/"]').on('click', function() {
+        $('.button a[href*="devblogs"],.button a[href*="/deep-learning-ai/developer/"]').on('click', function() {
             var getVal = $(this).find('.btn').text().trim();
             var getHeading = $(this).closest('.textcomp').prev().find('h2.title').text().trim();
             ClickOmniTrack(true, 'event10', 'link:section:' + getHeading + ':', getVal);
@@ -13202,7 +13202,7 @@ try {
  
 } catch (e) {}
 </script><script>
-!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
+!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="/",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','t2_1w5wxf9o');rdt('track', 'PageVisit');
 </script><script>
 try {
   

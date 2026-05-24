@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -142,12 +142,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -1965,8 +1965,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1983,7 +1983,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2021,10 +2021,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-bottom    ">
             
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-t@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-p.jpg,="" learn-enterprise-kv-biab-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-t.jpg,="" learn-enterprise-kv-biab-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-t.jpg,="" learn-enterprise-kv-biab-t@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-d.jpg,="" learn-enterprise-kv-biab-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-p.jpg,="" learn-enterprise-kv-biab-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-t.jpg,="" learn-enterprise-kv-biab-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-t.jpg,="" learn-enterprise-kv-biab-t@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" learn-enterprise-kv-biab-d.jpg,="" learn-enterprise-kv-biab-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                 	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-d.jpg" alt="FY23 Foundation Annual Report" title="FY23 Foundation Annual Report" id="image-container-2fd15dd8ae" onload="window.initLazyLoadingImages('container-2fd15dd8ae');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/learn-enterprise-kv-biab-d@2x.jpg 2x">
                 
@@ -2106,7 +2106,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--5 aem-GridColumn aem-GridColumn--phone--4 aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-ac2a62449a" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvdam.widen.net/s/brxsxxtskb/dli-learning-journey-2009000-r5-web">
+  <a id="nv-button-ac2a62449a" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -2292,7 +2292,7 @@ var nvidiaGDClog = function() {
             <div><div class="nv-button button">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-02b5417f4b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvdam.widen.net/s/wlbgbqr7cj/nvidia-learning-training-course-catalog">
+  <a id="nv-button-02b5417f4b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -2614,7 +2614,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-3948b3eb1d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://learn.nvidia.com/">
+  <a id="nv-button-3948b3eb1d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -2751,7 +2751,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-5794738e8a" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://academy.nvidia.com/en/">
+  <a id="nv-button-5794738e8a" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -3097,10 +3097,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-bm-af-bottom-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-bm-af-bottom-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-certs-md420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-certs-md420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-md460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-md460-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-md460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-md460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-cert-bm-af-bottom-p.jpg,="" nvidia-cert-bm-af-bottom-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-certs-md420-t.jpg,="" nvidia-certs-md420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-cert-md460-l.jpg,="" nvidia-cert-md460-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-cert-md460-d.jpg,="" nvidia-cert-md460-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-cert-bm-af-bottom-p.jpg,="" nvidia-cert-bm-af-bottom-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-certs-md420-t.jpg,="" nvidia-certs-md420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-cert-md460-l.jpg,="" nvidia-cert-md460-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" learn="" certification="" nvidia-cert-md460-d.jpg,="" nvidia-cert-md460-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-md460-d.jpg" alt=" title=" id="image-container-15ec9fa011" onload="window.initLazyLoadingImages('container-15ec9fa011');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/certification/nvidia-cert-md460-d@2x.jpg 2x">
                 
@@ -4736,7 +4736,7 @@ var nvidiaGDClog = function() {
         
     <div class="cmp-teaser__description">
     	
-       		<p>Learning paths provide a recommended set of courses and workshops to deepen skills and knowledge in various topics, such as AI, deep learning, data science, accelerated computing, advanced networking, graphics, and simulation. Our curriculum is designed to meet the needs of developers, data scientists, creators, and researchers, as well as network and data center administrators.&nbsp;View learning paths <a href="https://nvdam.widen.net/s/brxsxxtskb/dli-learning-journey-2009000-r5-web" target="_blank">here</a>.</p>
+       		<p>Learning paths provide a recommended set of courses and workshops to deepen skills and knowledge in various topics, such as AI, deep learning, data science, accelerated computing, advanced networking, graphics, and simulation. Our curriculum is designed to meet the needs of developers, data scientists, creators, and researchers, as well as network and data center administrators.&nbsp;View learning paths <a href="/" target="_blank">here</a>.</p>
         
     </div>
 
@@ -6327,7 +6327,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--5 aem-GridColumn aem-GridColumn--phone--4 aem-GridColumn--default--6 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-29a27480be" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.youtube.com/watch?v=DxabRo_Rod8">
+  <a id="nv-button-29a27480be" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=DxabRo_Rod8">
     
     
 
@@ -6425,7 +6425,7 @@ var nvidiaGDClog = function() {
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/DxabRo_Rod8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/DxabRo_Rod8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/training-org-sarah-wagner-1920x1080.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/DxabRo_Rod8?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/DxabRo_Rod8?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/training-org-sarah-wagner-1920x1080.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -6443,7 +6443,7 @@ var nvidiaGDClog = function() {
    <div class="nv-yt-embed__consent-overlay " role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -6452,7 +6452,7 @@ var nvidiaGDClog = function() {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=DxabRo_Rod8" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=DxabRo_Rod8" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
@@ -7372,7 +7372,7 @@ var nvidiaGDClog = function() {
 #brandFooter {
     display: none;
 }
-</style><div id="nv-footer"><footer class="sc-dNFkOE MEtow"><div class="sc-fszimp lavZtk"><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">Courses and Credentials</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="https://nvdam.widen.net/s/brxsxxtskb/dli-learning-journey-2009000-r5-web" target="_self">Learning Paths</a></li><li class="sc-DZJJV gmaTyp"><a href="https://nvdam.widen.net/s/wlbgbqr7cj/nvidia-learning-training-course-catalog" target="_self">Course Catalog</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/instructor-led-workshops/" target="_self">Instructor-Led Workshops</a></li><li class="sc-DZJJV gmaTyp"><a href="https://enterprise-support.nvidia.com/s/training/request-training" target="_self">Private Workshop Request</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Free Self-Paced Courses</a></li><li class="sc-DZJJV gmaTyp"><a href="/learn/certification/" target="_self">Certification Exams</a></li></ul></div><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">Training by Topic</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Accelerated Computing</a></li><li class="sc-DZJJV gmaTyp"><a href="https://academy.nvidia.com/en/" target="_self">AI Infrastructure</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Data Science</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Deep Learning</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Generative AI / LLMs</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Graphics and Simulation</a></li></ul></div><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">Get Involved</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/gtc/training/" target="_self">Attend GTC</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/educator-programs/university-ambassador-program/" target="_self">Become an Ambassador</a></li><li class="sc-DZJJV gmaTyp"><a href="https://developer.nvidia.com/dli/cip/application-amb" target="_self">Become a Certified Instructor</a></li><li class="sc-DZJJV gmaTyp"><a href="/forums/" target="_self">Join Forums</a></li><li class="sc-DZJJV gmaTyp"><a href="/startups/" target="_self">Join Inception Program for Start-ups</a></li><li class="sc-DZJJV gmaTyp"><a href="/programs/isv/" target="_self">Join Connect Program for ISVs</a></li><li class="sc-DZJJV gmaTyp"><a href="https://developer.nvidia.com/developer-program" target="_self">Join NVIDIA Developer Program</a></li></ul></div><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">About Us</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/learn/training/support/" target="_self">Contact Us</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/newsletter/" target="_self">Training Newsletter</a></li><li class="sc-DZJJV gmaTyp"><a href="/learn/training/support/" target="_self">Training FAQ</a></li><li class="sc-DZJJV gmaTyp"><a href="/learn/certification/" target="_self">Certification FAQ</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/instructor-directory/" target="_self">Instructor Directory</a></li><li class="sc-DZJJV gmaTyp"><a href="/research/" target="_self">NVIDIA Research</a></li></ul></div></div><div class="sc-fhfEft eFKCgq"><div class="sc-ibashp IgjvQ"><p class="sc-blIAwI hxiLZz">Follow NVIDIA</p><div class="sc-itBLYH eYHMAC"><a href="https://www.facebook.com/NVIDIA" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-facebook-f"></i></a><a href="https://twitter.com/nvidia" target="_blank" rel="noreferrer" aria-label="X" title="X" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-x-twitter"></i></a><a href="https://www.youtube.com/user/nvidia" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-youtube"></i></a><a href="https://www.linkedin.com/company/nvidia/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-linkedin-in"></i></a><a href="https://www.instagram.com/nvidia/?hl=en" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-instagram"></i></a></div></div></div></footer></div> 
+</style><div id="nv-footer"><footer class="sc-dNFkOE MEtow"><div class="sc-fszimp lavZtk"><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">Courses and Credentials</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/" target="_self">Learning Paths</a></li><li class="sc-DZJJV gmaTyp"><a href="/" target="_self">Course Catalog</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/instructor-led-workshops/" target="_self">Instructor-Led Workshops</a></li><li class="sc-DZJJV gmaTyp"><a href="/" target="_self">Private Workshop Request</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Free Self-Paced Courses</a></li><li class="sc-DZJJV gmaTyp"><a href="/learn/certification/" target="_self">Certification Exams</a></li></ul></div><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">Training by Topic</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Accelerated Computing</a></li><li class="sc-DZJJV gmaTyp"><a href="/" target="_self">AI Infrastructure</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Data Science</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Deep Learning</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Generative AI / LLMs</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/find-training/" target="_self">Graphics and Simulation</a></li></ul></div><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">Get Involved</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/gtc/training/" target="_self">Attend GTC</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/educator-programs/university-ambassador-program/" target="_self">Become an Ambassador</a></li><li class="sc-DZJJV gmaTyp"><a href="./assets/developer.nvidia.com/dli/cip/application-amb" target="_self">Become a Certified Instructor</a></li><li class="sc-DZJJV gmaTyp"><a href="/forums/" target="_self">Join Forums</a></li><li class="sc-DZJJV gmaTyp"><a href="/startups/" target="_self">Join Inception Program for Start-ups</a></li><li class="sc-DZJJV gmaTyp"><a href="/programs/isv/" target="_self">Join Connect Program for ISVs</a></li><li class="sc-DZJJV gmaTyp"><a href="./assets/developer.nvidia.com/developer-program" target="_self">Join NVIDIA Developer Program</a></li></ul></div><div class="sc-etsjJW hwgvIj"><div class="sc-fYmhhH dgqXCF">About Us</div><ul class="sc-koBvLg jtUCRI"><li class="sc-DZJJV gmaTyp"><a href="/learn/training/support/" target="_self">Contact Us</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/newsletter/" target="_self">Training Newsletter</a></li><li class="sc-DZJJV gmaTyp"><a href="/learn/training/support/" target="_self">Training FAQ</a></li><li class="sc-DZJJV gmaTyp"><a href="/learn/certification/" target="_self">Certification FAQ</a></li><li class="sc-DZJJV gmaTyp"><a href="/training/instructor-directory/" target="_self">Instructor Directory</a></li><li class="sc-DZJJV gmaTyp"><a href="/research/" target="_self">NVIDIA Research</a></li></ul></div></div><div class="sc-fhfEft eFKCgq"><div class="sc-ibashp IgjvQ"><p class="sc-blIAwI hxiLZz">Follow NVIDIA</p><div class="sc-itBLYH eYHMAC"><a href="/" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-facebook-f"></i></a><a href="/" target="_blank" rel="noreferrer" aria-label="X" title="X" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-x-twitter"></i></a><a href="./assets/www.youtube.com/user/nvidia" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-youtube"></i></a><a href="/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-linkedin-in"></i></a><a href="/?hl=en" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram" class="sc-bEjUoa jMcgmb"><i class="fa-brands fa-instagram"></i></a></div></div></div></footer></div> 
 <script>
 navigation.mountSplit({
   footerElemID: 'nv-footer',
@@ -7631,11 +7631,11 @@ navigation.mountSplit({
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -7782,7 +7782,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',

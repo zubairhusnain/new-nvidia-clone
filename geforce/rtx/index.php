@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="robots" content="NOODP,NOYDIR"> 
@@ -162,7 +162,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/geforce/rtx/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/geforce/rtx/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/geforce/rtx/">
 
@@ -230,12 +230,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -2045,8 +2045,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2063,7 +2063,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2101,10 +2101,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-bottom  p-img-fit  ">
             
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-af360-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-af360-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l440-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l440-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l580-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l580-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l580-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l580-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-af360-p.jpg,="" geforce-rtx-games-gamescom25-bm-af360-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-l440-t.jpg,="" geforce-rtx-games-gamescom25-bm-l440-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-l580-l.jpg,="" geforce-rtx-games-gamescom25-bm-l580-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-l580-d.jpg,="" geforce-rtx-games-gamescom25-bm-l580-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-af360-p.jpg,="" geforce-rtx-games-gamescom25-bm-af360-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-l440-t.jpg,="" geforce-rtx-games-gamescom25-bm-l440-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-l580-l.jpg,="" geforce-rtx-games-gamescom25-bm-l580-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" ada="" rtx="" geforce-rtx-games-gamescom25-bm-l580-d.jpg,="" geforce-rtx-games-gamescom25-bm-l580-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                 	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l580-d.jpg" alt=" title=" id="image-rtx-its-on" onload="window.initLazyLoadingImages('rtx-its-on');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-gamescom25-bm-l580-d@2x.jpg 2x">
                 
@@ -2546,7 +2546,7 @@ var nvidiaGDClog = function() {
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/M3fglmDxD2U?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/M3fglmDxD2U?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-700-games-2.jpg' alt='Check out RTX in today’s biggest games'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/M3fglmDxD2U?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/M3fglmDxD2U?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-700-games-2.jpg' alt='Check out RTX in today’s biggest games'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -2564,7 +2564,7 @@ var nvidiaGDClog = function() {
    <div class="nv-yt-embed__consent-overlay " role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -2573,7 +2573,7 @@ var nvidiaGDClog = function() {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=M3fglmDxD2U" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=M3fglmDxD2U" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
@@ -2942,28 +2942,20 @@ var nvidiaGDClog = function() {
 				
 		<div class="nv-comp-item main">
     <picture>
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-640.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-640@2x.jpg 2x" media="(max-width: 639px)">
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1024.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1024@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1536.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1536@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-2048.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-2048@2x.jpg 2x" media="(min-width:1350px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-640.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-640@2x.jpg 2x" media="(max-width: 639px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1024.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1024@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1536.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-1536@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-2048.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-2048@2x.jpg 2x" media="(min-width:1350px)">
     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-2048.jpg" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-on-2048@2x.jpg 2x" alt="RTX On" title="RTX On" id="image-nv-comparisonslider-4fb4bf6b60">
     </picture>
 </div>
 		<div class="nv-comp-slider" style="height: 537px;"><div class="nv-arrow-container"></div></div>
 		<div class="nv-comp-item nv-comp-overlay">
     <picture>
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-640.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-640@2x.jpg 2x" media="(max-width: 639px)">
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1024.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1024@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1536.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1536@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-2048.jpg, 
-     ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-2048@2x.jpg 2x" media="(min-width:1350px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-640.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-640@2x.jpg 2x" media="(max-width: 639px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1024.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1024@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1536.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-1536@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
+    <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-2048.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-2048@2x.jpg 2x" media="(min-width:1350px)">
     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-2048.jpg" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-ray-tracing-half-life-2-rtx-off-2048@2x.jpg 2x" alt="RTX Off" title="RTX Off" id="image-nv-comparisonslider-4fb4bf6b60" style="width: 954px; height: 537px;">
     </picture>
 </div>
@@ -3187,7 +3179,7 @@ var nvidiaGDClog = function() {
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/uRHBzE7TvtU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/uRHBzE7TvtU?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -3205,7 +3197,7 @@ var nvidiaGDClog = function() {
    <div class="nv-yt-embed__consent-overlay " role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -3214,7 +3206,7 @@ var nvidiaGDClog = function() {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=uRHBzE7TvtU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=uRHBzE7TvtU" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
@@ -3417,7 +3409,7 @@ var nvidiaGDClog = function() {
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-ce9ee3cde6" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="gf-news-feed" data-cmp-feedurl="https://www.nvidia.com/bin/nvidiaGDC/servlet/article.json?_t=1779498948867&amp;type=both&amp;locale=en_US&amp;region=us&amp;limit=3&amp;tag=nvidia-dlss" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="nvidia-dlss" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="https://developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-ce9ee3cde6" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="gf-news-feed" data-cmp-feedurl="./assets/www.nvidia.com/bin/nvidiaGDC/servlet/article.json?_t=1779498948867&amp;type=both&amp;locale=en_US&amp;region=us&amp;limit=3&amp;tag=nvidia-dlss" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="nvidia-dlss" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="./assets/developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -3704,7 +3696,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-ca4aba35a6-cta-a489a017f0" href="https://www.youtube.com/watch?v=u0mgOPbpagc">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-ca4aba35a6-cta-a489a017f0" href="./assets/www.youtube.com/watch?v=u0mgOPbpagc">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3782,7 +3774,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-52ba149828-cta-9bf0dcc892" href="https://www.youtube.com/watch?v=0Y4D6D9mdHM">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-52ba149828-cta-9bf0dcc892" href="./assets/www.youtube.com/watch?v=0Y4D6D9mdHM">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3860,7 +3852,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-9a7eb54e93-cta-7bb24d9c00" href="https://www.youtube.com/watch?v=0F4WIZeo_KU">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-9a7eb54e93-cta-7bb24d9c00" href="./assets/www.youtube.com/watch?v=0F4WIZeo_KU">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -3938,7 +3930,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-df76fa662d-cta-747838b2c2" href="https://www.youtube.com/watch?v=fSVWQUWDGGc">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-df76fa662d-cta-747838b2c2" href="./assets/www.youtube.com/watch?v=fSVWQUWDGGc">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4016,7 +4008,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-10e1cfe6f0-cta-fd698897c0" href="https://www.youtube.com/watch?v=ICJajlj_ujo">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-10e1cfe6f0-cta-fd698897c0" href="./assets/www.youtube.com/watch?v=ICJajlj_ujo">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4094,7 +4086,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-8c7f203dad-cta-bd07864194" href="https://www.youtube.com/watch?v=ub2OrMkdpYc">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-8c7f203dad-cta-bd07864194" href="./assets/www.youtube.com/watch?v=ub2OrMkdpYc">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4172,7 +4164,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-29babd73ed-cta-024383eecc" href="https://www.youtube.com/watch?v=waizZ-UZr7U">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-29babd73ed-cta-024383eecc" href="./assets/www.youtube.com/watch?v=waizZ-UZr7U">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4250,7 +4242,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-0425ad6307-cta-dbbed84a44" href="https://www.youtube.com/watch?v=jaFfHMZmXV4">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-0425ad6307-cta-dbbed84a44" href="./assets/www.youtube.com/watch?v=jaFfHMZmXV4">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4328,7 +4320,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-402fa32141-cta-ace0dde262" href="https://www.youtube.com/watch?v=qxyb-vUApII">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-402fa32141-cta-ace0dde262" href="./assets/www.youtube.com/watch?v=qxyb-vUApII">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4406,7 +4398,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-1280ae17c9-cta-04d92468cb" href="https://www.youtube.com/watch?v=d-ceJ7vLyQk">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-1280ae17c9-cta-04d92468cb" href="./assets/www.youtube.com/watch?v=d-ceJ7vLyQk">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4484,7 +4476,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-47530166c7-cta-6e43176a78" href="https://www.youtube.com/watch?v=wcn25vlHgec">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-47530166c7-cta-6e43176a78" href="./assets/www.youtube.com/watch?v=wcn25vlHgec">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4562,7 +4554,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-07faac156f-cta-c18c66c5ba" href="https://www.youtube.com/watch?v=avWMEd-H8Qg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-07faac156f-cta-c18c66c5ba" href="./assets/www.youtube.com/watch?v=avWMEd-H8Qg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4640,7 +4632,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-df535e6ea2-cta-35de76448e" href="https://www.youtube.com/watch?v=f6frfhR_0Qk">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-df535e6ea2-cta-35de76448e" href="./assets/www.youtube.com/watch?v=f6frfhR_0Qk">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4718,7 +4710,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-b1415c0ae6-cta-403ffeeab2" href="https://www.youtube.com/watch?v=R0-F8sPprmA&amp;t=1s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-b1415c0ae6-cta-403ffeeab2" href="./assets/www.youtube.com/watch?v=R0-F8sPprmA&amp;t=1s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5069,7 +5061,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-5d428da555-cta-1bf23b2475" href="https://www.youtube.com/watch?v=XnxqBqXD8gg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-5d428da555-cta-1bf23b2475" href="./assets/www.youtube.com/watch?v=XnxqBqXD8gg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5147,7 +5139,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-c4950a188f-cta-a92a4ae3ec" href="https://www.youtube.com/watch?v=X0V05TNZZ5Y">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-c4950a188f-cta-a92a4ae3ec" href="./assets/www.youtube.com/watch?v=X0V05TNZZ5Y">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5225,7 +5217,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-de0014f3d5-cta-ec6b80aa36" href="https://www.youtube.com/watch?v=ejgW-upPMgk">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-de0014f3d5-cta-ec6b80aa36" href="./assets/www.youtube.com/watch?v=ejgW-upPMgk">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5303,7 +5295,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-be02114b12-cta-e31ff25bed" href="https://www.youtube.com/watch?v=QtUohYygHRg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-be02114b12-cta-e31ff25bed" href="./assets/www.youtube.com/watch?v=QtUohYygHRg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5381,7 +5373,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-e73bf7e32c-cta-d1977fe2b9" href="https://www.youtube.com/watch?v=_nAPBBKsfWM">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-e73bf7e32c-cta-d1977fe2b9" href="./assets/www.youtube.com/watch?v=_nAPBBKsfWM">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5459,7 +5451,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-ce53b11e44-cta-a1a181b782" href="https://www.youtube.com/watch?v=Q6-Tja9H01Q">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-ce53b11e44-cta-a1a181b782" href="./assets/www.youtube.com/watch?v=Q6-Tja9H01Q">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5537,7 +5529,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-bbc4cd744f-cta-8fb265357c" href="https://www.youtube.com/watch?v=fW2bD4HxRFI">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-bbc4cd744f-cta-8fb265357c" href="./assets/www.youtube.com/watch?v=fW2bD4HxRFI">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5615,7 +5607,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-da9a244d40-cta-d833ec1875" href="https://www.youtube.com/watch?v=LqfW01W4Md8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-da9a244d40-cta-d833ec1875" href="./assets/www.youtube.com/watch?v=LqfW01W4Md8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5693,7 +5685,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-bb7c35fbb2-cta-90ae7d6b35" href="https://www.youtube.com/watch?v=1Yx9J3T6gT4">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-bb7c35fbb2-cta-90ae7d6b35" href="./assets/www.youtube.com/watch?v=1Yx9J3T6gT4">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5771,7 +5763,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-0a65b652df-cta-c55caa06db" href="https://www.youtube.com/watch?v=UjnEiP9a9kQ">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-0a65b652df-cta-c55caa06db" href="./assets/www.youtube.com/watch?v=UjnEiP9a9kQ">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5850,7 +5842,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-3c9c5a3378-cta-13446c5e2c" href="https://www.youtube.com/watch?v=STrKl828Aeg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-3c9c5a3378-cta-13446c5e2c" href="./assets/www.youtube.com/watch?v=STrKl828Aeg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5928,7 +5920,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-031afcf3be-cta-c0b5f5952b" href="https://www.youtube.com/watch?v=ooQkq8z2ZKY&amp;t=64s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-031afcf3be-cta-c0b5f5952b" href="./assets/www.youtube.com/watch?v=ooQkq8z2ZKY&amp;t=64s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6006,7 +5998,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-746c9340d7-cta-0c709d47a4" href="https://www.youtube.com/watch?v=6FmMbOha8E8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-746c9340d7-cta-0c709d47a4" href="./assets/www.youtube.com/watch?v=6FmMbOha8E8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6084,7 +6076,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-737bdd9520-cta-75931de4fa" href="https://www.youtube.com/watch?v=nV2pLZxBWNk">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-737bdd9520-cta-75931de4fa" href="./assets/www.youtube.com/watch?v=nV2pLZxBWNk">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6162,7 +6154,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-cdcd2a6247-cta-1239774194" href="https://www.youtube.com/watch?v=I6rVjbzIwc8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-cdcd2a6247-cta-1239774194" href="./assets/www.youtube.com/watch?v=I6rVjbzIwc8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6240,7 +6232,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-71e1b09549-cta-54592a8f1b" href="https://www.youtube.com/watch?v=TzPdFPrM64M">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-71e1b09549-cta-54592a8f1b" href="./assets/www.youtube.com/watch?v=TzPdFPrM64M">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6318,7 +6310,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-f4552d0af4-cta-2b0921f100" href="https://www.youtube.com/watch?v=Tg1oRHd5zlw">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-f4552d0af4-cta-2b0921f100" href="./assets/www.youtube.com/watch?v=Tg1oRHd5zlw">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6396,7 +6388,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-d80b268a29-cta-ae2bd2ca7f" href="https://www.youtube.com/watch?v=XrnW9dMo9RE">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-d80b268a29-cta-ae2bd2ca7f" href="./assets/www.youtube.com/watch?v=XrnW9dMo9RE">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6474,7 +6466,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-3407053a9f-cta-a5f65874d0" href="https://www.youtube.com/watch?v=yAt1ckAjQjE">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-3407053a9f-cta-a5f65874d0" href="./assets/www.youtube.com/watch?v=yAt1ckAjQjE">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6552,7 +6544,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-cff7a61eb2-cta-fb08c7fcc1" href="https://www.youtube.com/watch?v=EiqcNH97c8k">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-cff7a61eb2-cta-fb08c7fcc1" href="./assets/www.youtube.com/watch?v=EiqcNH97c8k">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6630,7 +6622,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-d7bf0f174c-cta-0de2f0ab7c" href="https://www.youtube.com/watch?v=CAf1E7kCbMA">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-d7bf0f174c-cta-0de2f0ab7c" href="./assets/www.youtube.com/watch?v=CAf1E7kCbMA">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6708,7 +6700,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-15d8afa8b2-cta-65077c6abf" href="https://www.youtube.com/watch?v=MsrWR1ukPTw">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-15d8afa8b2-cta-65077c6abf" href="./assets/www.youtube.com/watch?v=MsrWR1ukPTw">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6786,7 +6778,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-17e5375a8d-cta-06027d88f7" href="https://www.youtube.com/watch?v=AS_3gm2SISk&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-17e5375a8d-cta-06027d88f7" href="./assets/www.youtube.com/watch?v=AS_3gm2SISk&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6864,7 +6856,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-8c3859fbb6-cta-95db94ed13" href="https://youtu.be/RaMT9u8CbZ0?si=zJGgDeVNqRfJ3KwJ">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-8c3859fbb6-cta-95db94ed13" href="/?si=zJGgDeVNqRfJ3KwJ">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6942,7 +6934,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-585a9ceab3-cta-79456309e7" href="https://www.youtube.com/watch?v=b3fWY-JGxt4&amp;t=1s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-585a9ceab3-cta-79456309e7" href="./assets/www.youtube.com/watch?v=b3fWY-JGxt4&amp;t=1s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7020,7 +7012,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-e6ce4d89f0-cta-7f32895404" href="https://www.youtube.com/watch?v=fGdnys7CKHY">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-e6ce4d89f0-cta-7f32895404" href="./assets/www.youtube.com/watch?v=fGdnys7CKHY">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7098,7 +7090,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-89838ae65e-cta-82b09553a7" href="https://www.youtube.com/watch?v=sFjQtCQoHXU">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-89838ae65e-cta-82b09553a7" href="./assets/www.youtube.com/watch?v=sFjQtCQoHXU">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7176,7 +7168,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-f2140b8779-cta-191d016806" href="https://www.youtube.com/watch?v=D1U1S5GzvJ8&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-f2140b8779-cta-191d016806" href="./assets/www.youtube.com/watch?v=D1U1S5GzvJ8&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7254,7 +7246,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-8f5fa2db72-cta-b9766e423f" href="https://youtu.be/zP_XjbDgwS8?si=0n8lALH93qCyaG8U">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-8f5fa2db72-cta-b9766e423f" href="/?si=0n8lALH93qCyaG8U">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7332,7 +7324,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-4a5d786a73-cta-05c792c0d4" href="https://www.youtube.com/watch?v=iOdAa0ou4b8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_modal" id="teaser-4a5d786a73-cta-05c792c0d4" href="./assets/www.youtube.com/watch?v=iOdAa0ou4b8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7410,7 +7402,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-8989e4fe8f-cta-c923a4080f" href="https://www.youtube.com/watch?v=C5AS9iaPUaM">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-8989e4fe8f-cta-c923a4080f" href="./assets/www.youtube.com/watch?v=C5AS9iaPUaM">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7488,7 +7480,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-8892f7a6fd-cta-d69b9e59ca" href="https://www.youtube.com/watch?v=ZCpD-lbmT9k">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-8892f7a6fd-cta-d69b9e59ca" href="./assets/www.youtube.com/watch?v=ZCpD-lbmT9k">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7566,7 +7558,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-35df95846c-cta-8bbd02bfe0" href="https://www.youtube.com/watch?v=50AqxhK0GxQ">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-35df95846c-cta-8bbd02bfe0" href="./assets/www.youtube.com/watch?v=50AqxhK0GxQ">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7644,7 +7636,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a4a81cac30-cta-e640235d37" href="https://www.youtube.com/watch?v=2cl4vjz6s4g">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a4a81cac30-cta-e640235d37" href="./assets/www.youtube.com/watch?v=2cl4vjz6s4g">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7722,7 +7714,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-689cbb5b87-cta-4a8512208e" href="https://www.youtube.com/watch?v=rgDYyxOKBgg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-689cbb5b87-cta-4a8512208e" href="./assets/www.youtube.com/watch?v=rgDYyxOKBgg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7800,7 +7792,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-db0c8d973c-cta-10a74cdf46" href="https://www.youtube.com/watch?v=a4TD8PJVkhU">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-db0c8d973c-cta-10a74cdf46" href="./assets/www.youtube.com/watch?v=a4TD8PJVkhU">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7878,7 +7870,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-28a508d61a-cta-4ac8ee727b" href="https://www.youtube.com/watch?v=L41_LhVuBPU">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-28a508d61a-cta-4ac8ee727b" href="./assets/www.youtube.com/watch?v=L41_LhVuBPU">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7956,7 +7948,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-754e9d8138-cta-6626601010" href="https://www.youtube.com/watch?v=0JHD_vb4jxE&amp;rco=1">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-754e9d8138-cta-6626601010" href="./assets/www.youtube.com/watch?v=0JHD_vb4jxE&amp;rco=1">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8034,7 +8026,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-99482478ec-cta-47347a62ba" href="https://www.youtube.com/watch?v=as97gR5N-yA">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-99482478ec-cta-47347a62ba" href="./assets/www.youtube.com/watch?v=as97gR5N-yA">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8112,7 +8104,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a391e546d8-cta-c7e0968a07" href="https://www.youtube.com/watch?v=erMOtLc5mZE">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a391e546d8-cta-c7e0968a07" href="./assets/www.youtube.com/watch?v=erMOtLc5mZE">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8190,7 +8182,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-5442062c93-cta-93d35486e9" href="https://www.youtube.com/watch?v=51822NydHwQ">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-5442062c93-cta-93d35486e9" href="./assets/www.youtube.com/watch?v=51822NydHwQ">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8268,7 +8260,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a1252005ad-cta-335195ee0d" href="https://www.youtube.com/watch?v=qJDec9mJgV4">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a1252005ad-cta-335195ee0d" href="./assets/www.youtube.com/watch?v=qJDec9mJgV4">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8346,7 +8338,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-b63f056f8f-cta-860f05c0db" href="https://www.youtube.com/watch?v=iFSrlONxKq4">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-b63f056f8f-cta-860f05c0db" href="./assets/www.youtube.com/watch?v=iFSrlONxKq4">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8424,7 +8416,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-e553b5ed7c-cta-20e5c13752" href="https://www.youtube.com/watch?v=KS1zgun0I0g">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-e553b5ed7c-cta-20e5c13752" href="./assets/www.youtube.com/watch?v=KS1zgun0I0g">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8502,7 +8494,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0e334234aa-cta-67ad8da1a2" href="https://www.youtube.com/watch?v=ISiRPpfyrN4">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0e334234aa-cta-67ad8da1a2" href="./assets/www.youtube.com/watch?v=ISiRPpfyrN4">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8580,7 +8572,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-63e7ef598d-cta-130efc25de" href="https://www.youtube.com/watch?v=Ul5lAbf_dP4">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-63e7ef598d-cta-130efc25de" href="./assets/www.youtube.com/watch?v=Ul5lAbf_dP4">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8658,7 +8650,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-cc5b4d282c-cta-ebb03c0d32" href="https://www.youtube.com/watch?v=X3judu8lLqo">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-cc5b4d282c-cta-ebb03c0d32" href="./assets/www.youtube.com/watch?v=X3judu8lLqo">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8736,7 +8728,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-4a67187294-cta-37d22efec0" href="https://www.youtube.com/watch?v=ah74ys4t3Fs">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-4a67187294-cta-37d22efec0" href="./assets/www.youtube.com/watch?v=ah74ys4t3Fs">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8814,7 +8806,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0a6e591450-cta-9e822a9153" href="https://www.youtube.com/watch?v=zzbc_fODYso">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0a6e591450-cta-9e822a9153" href="./assets/www.youtube.com/watch?v=zzbc_fODYso">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8892,7 +8884,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-32350fc1e6-cta-52bc3031be" href="https://www.youtube.com/watch?v=4L6hvbFWa7Y">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-32350fc1e6-cta-52bc3031be" href="./assets/www.youtube.com/watch?v=4L6hvbFWa7Y">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8970,7 +8962,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-4a98e481a3-cta-7103a339da" href="https://www.youtube.com/watch?v=_7WgorFRZ00">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-4a98e481a3-cta-7103a339da" href="./assets/www.youtube.com/watch?v=_7WgorFRZ00">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9120,7 +9112,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-651e88bbc8-cta-8fc571f3bb" href="https://www.youtube.com/watch?v=341KyDYjI0U">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-651e88bbc8-cta-8fc571f3bb" href="./assets/www.youtube.com/watch?v=341KyDYjI0U">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9198,7 +9190,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c84b7c9245-cta-fc32926374" href="https://www.youtube.com/watch?v=MbxDocKUZRM">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c84b7c9245-cta-fc32926374" href="./assets/www.youtube.com/watch?v=MbxDocKUZRM">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9276,7 +9268,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-e25383f822-cta-d5fcdb0cea" href="https://www.youtube.com/watch?v=5eENFHCgKgw&amp;t=6s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-e25383f822-cta-d5fcdb0cea" href="./assets/www.youtube.com/watch?v=5eENFHCgKgw&amp;t=6s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9354,7 +9346,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2dec83d91e-cta-40fa0f479a" href="https://www.youtube.com/watch?v=S8rZ1XdzdZw&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2dec83d91e-cta-40fa0f479a" href="./assets/www.youtube.com/watch?v=S8rZ1XdzdZw&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9432,7 +9424,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a516efa893-cta-a234fb38c7" href="https://www.youtube.com/watch?v=3qWr_BYLsZo">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a516efa893-cta-a234fb38c7" href="./assets/www.youtube.com/watch?v=3qWr_BYLsZo">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9510,7 +9502,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-448ce84c75-cta-95110cad82" href="https://www.youtube.com/watch?v=ZwGP79GPPWc">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-448ce84c75-cta-95110cad82" href="./assets/www.youtube.com/watch?v=ZwGP79GPPWc">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9588,7 +9580,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-b2ff0d009b-cta-c0adc816ee" href="https://www.youtube.com/watch?v=z97sDQCIhhg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-b2ff0d009b-cta-c0adc816ee" href="./assets/www.youtube.com/watch?v=z97sDQCIhhg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9666,7 +9658,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c126df83f6-cta-5fd942f021" href="https://www.youtube.com/watch?v=sO058e1kR7w">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c126df83f6-cta-5fd942f021" href="./assets/www.youtube.com/watch?v=sO058e1kR7w">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9744,7 +9736,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2b6cd3a8bd-cta-2b6c0d9d58" href="https://www.youtube.com/watch?v=cCUznY-Y2Js&amp;t=3s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2b6cd3a8bd-cta-2b6c0d9d58" href="./assets/www.youtube.com/watch?v=cCUznY-Y2Js&amp;t=3s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9822,7 +9814,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-6b6f620a23-cta-ef5fb1ee36" href="https://www.youtube.com/watch?v=xP2qESJExE0">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-6b6f620a23-cta-ef5fb1ee36" href="./assets/www.youtube.com/watch?v=xP2qESJExE0">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9900,7 +9892,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-604b515938-cta-4a5a83e300" href="https://www.youtube.com/watch?v=y67wq6b0-HY">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-604b515938-cta-4a5a83e300" href="./assets/www.youtube.com/watch?v=y67wq6b0-HY">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9978,7 +9970,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-724e115547-cta-9568a8ecec" href="https://www.youtube.com/watch?v=kz3ax3KnNaI">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-724e115547-cta-9568a8ecec" href="./assets/www.youtube.com/watch?v=kz3ax3KnNaI">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10056,7 +10048,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-b176b6a8f1-cta-db35bbcfa8" href="https://www.youtube.com/watch?v=jNC-Ipi2Im0">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-b176b6a8f1-cta-db35bbcfa8" href="./assets/www.youtube.com/watch?v=jNC-Ipi2Im0">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10134,7 +10126,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-f0b565da15-cta-b1da65d9c5" href="https://www.youtube.com/watch?v=zbGx8oK2UTM">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-f0b565da15-cta-b1da65d9c5" href="./assets/www.youtube.com/watch?v=zbGx8oK2UTM">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10212,7 +10204,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-e921e36e6d-cta-3178933e77" href="https://www.youtube.com/watch?v=uWTcz_wJino">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-e921e36e6d-cta-3178933e77" href="./assets/www.youtube.com/watch?v=uWTcz_wJino">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10290,7 +10282,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-3d52b8ff7b-cta-d43026e2fc" href="https://www.youtube.com/watch?v=K8DddlREHEE&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-3d52b8ff7b-cta-d43026e2fc" href="./assets/www.youtube.com/watch?v=K8DddlREHEE&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10368,7 +10360,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-f8f8927f6e-cta-f35308edeb" href="https://www.youtube.com/watch?v=Z5QwGHl1pF8&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-f8f8927f6e-cta-f35308edeb" href="./assets/www.youtube.com/watch?v=Z5QwGHl1pF8&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10446,7 +10438,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-dbd7b82e3d-cta-c7d33eb1a6" href="https://www.youtube.com/watch?v=26qqsYE626A&amp;t=50s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-dbd7b82e3d-cta-c7d33eb1a6" href="./assets/www.youtube.com/watch?v=26qqsYE626A&amp;t=50s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10524,7 +10516,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-7c7e43cc97-cta-b4387f52e3" href="https://www.youtube.com/watch?v=Jy0CfjTAQxg">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-7c7e43cc97-cta-b4387f52e3" href="./assets/www.youtube.com/watch?v=Jy0CfjTAQxg">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10602,7 +10594,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-02753b8529-cta-0b15d20f47" href="https://www.youtube.com/watch?v=979MFwUK93o">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-02753b8529-cta-0b15d20f47" href="./assets/www.youtube.com/watch?v=979MFwUK93o">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10680,7 +10672,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0455f471fe-cta-d2abcbbb34" href="https://www.youtube.com/watch?v=N84l62uNkb8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0455f471fe-cta-d2abcbbb34" href="./assets/www.youtube.com/watch?v=N84l62uNkb8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10758,7 +10750,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-7dcf3cf19f-cta-bab3ace725" href="https://www.youtube.com/watch?v=f6_rMEEEY6s">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-7dcf3cf19f-cta-bab3ace725" href="./assets/www.youtube.com/watch?v=f6_rMEEEY6s">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10836,7 +10828,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-4af3412f41-cta-72c88665d7" href="https://www.youtube.com/watch?v=UgAAFSOp0EI">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-4af3412f41-cta-72c88665d7" href="./assets/www.youtube.com/watch?v=UgAAFSOp0EI">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10914,7 +10906,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-01beb4d7f4-cta-6434421835" href="https://www.youtube.com/watch?v=k_sZG9Bao9Q&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-01beb4d7f4-cta-6434421835" href="./assets/www.youtube.com/watch?v=k_sZG9Bao9Q&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10992,7 +10984,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c68ed25287-cta-7c29c6fa85" href="https://www.youtube.com/watch?v=vgi-9sJW4Is">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c68ed25287-cta-7c29c6fa85" href="./assets/www.youtube.com/watch?v=vgi-9sJW4Is">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11070,7 +11062,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c0e54d7bf5-cta-3c72c99825" href="https://www.youtube.com/watch?v=nDaELJRrh2g">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-c0e54d7bf5-cta-3c72c99825" href="./assets/www.youtube.com/watch?v=nDaELJRrh2g">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11148,7 +11140,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-90d8f29eb2-cta-1c608e31c2" href="https://www.youtube.com/watch?v=XHiB8g0Klok">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-90d8f29eb2-cta-1c608e31c2" href="./assets/www.youtube.com/watch?v=XHiB8g0Klok">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11226,7 +11218,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-35eb18415f-cta-ee071ac587" href="https://www.youtube.com/watch?v=h040CQFrmPQ">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-35eb18415f-cta-ee071ac587" href="./assets/www.youtube.com/watch?v=h040CQFrmPQ">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11304,7 +11296,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a33e28a3f7-cta-c5ce114b26" href="https://www.youtube.com/watch?v=2p71ltZ_qH0">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-a33e28a3f7-cta-c5ce114b26" href="./assets/www.youtube.com/watch?v=2p71ltZ_qH0">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11382,7 +11374,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0fc63cdd6b-cta-365785ca73" href="https://www.youtube.com/watch?v=X9zMxCPqgGI">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-0fc63cdd6b-cta-365785ca73" href="./assets/www.youtube.com/watch?v=X9zMxCPqgGI">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11460,7 +11452,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-9d4881b9b3-cta-2ce72b61ce" href="https://www.youtube.com/watch?v=2rdaeTi6zFk">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-9d4881b9b3-cta-2ce72b61ce" href="./assets/www.youtube.com/watch?v=2rdaeTi6zFk">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11538,7 +11530,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-fd45196e7c-cta-1f506e5632" href="https://www.youtube.com/watch?v=icjLJ2EbYmk&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-fd45196e7c-cta-1f506e5632" href="./assets/www.youtube.com/watch?v=icjLJ2EbYmk&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11616,7 +11608,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2b2f2987f0-cta-900004cb68" href="https://www.youtube.com/watch?v=BenF1d4rD7E">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2b2f2987f0-cta-900004cb68" href="./assets/www.youtube.com/watch?v=BenF1d4rD7E">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11694,7 +11686,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2b0cfbdd5c-cta-86c18c8c0a" href="https://www.youtube.com/watch?v=MWSI3NKIds0">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-2b0cfbdd5c-cta-86c18c8c0a" href="./assets/www.youtube.com/watch?v=MWSI3NKIds0">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11772,7 +11764,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-f9e920e95c-cta-ff8858ef1f" href="https://www.youtube.com/watch?v=RmSgJ3LJkvQ&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-f9e920e95c-cta-ff8858ef1f" href="./assets/www.youtube.com/watch?v=RmSgJ3LJkvQ&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11850,7 +11842,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-d901679d23-cta-befbf275a7" href="https://www.youtube.com/watch?v=FKHmVyPiIOc&amp;feature=emb_title">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-d901679d23-cta-befbf275a7" href="./assets/www.youtube.com/watch?v=FKHmVyPiIOc&amp;feature=emb_title">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11928,7 +11920,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-98e687d51a-cta-7b96145205" href="https://www.youtube.com/watch?v=kOEUkbibzWc">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_modal" id="teaser-98e687d51a-cta-7b96145205" href="./assets/www.youtube.com/watch?v=kOEUkbibzWc">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -12143,10 +12135,10 @@ const $container = $('#loading-cards');
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-top    ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" geforce="" graphic-cards="" 50-series="" rtx-5080="" geforce-rtx-ai-pc-banner-offset-bm-af-bottom-phone.jpg,="" geforce-rtx-ai-pc-banner-offset-bm-af-bottom-phone@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-tablet.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-tablet@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-laptop.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-laptop@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-desktop.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-desktop@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-desktop.jpg" alt=" title=" id="image-ai-pcs" onload="window.initLazyLoadingImages('ai-pcs');">
                 
@@ -12517,7 +12509,7 @@ const $container = $('#loading-cards');
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-7fc0419a08-cta-6dbce013c5" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=jb4X-U1Riw8">Watch Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-7fc0419a08-cta-6dbce013c5" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=jb4X-U1Riw8">Watch Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -12659,7 +12651,7 @@ const $container = $('#loading-cards');
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-cebd170a13-cta-0087b53c7a" rel="noopener noreferrer" href="https://developer.nvidia.com/ai-apps-for-rtx-pcs">Learn More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-cebd170a13-cta-0087b53c7a" rel="noopener noreferrer" href="./assets/developer.nvidia.com/ai-apps-for-rtx-pcs">Learn More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -13499,11 +13491,11 @@ const $container = $('#loading-cards');
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -13650,7 +13642,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -13687,7 +13679,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/rtx/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/rtx/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/rtx/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/geforce/rtx/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/geforce/rtx/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/geforce/rtx/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/geforce/rtx/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/geforce/rtx/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/geforce/rtx/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/geforce/rtx/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/geforce/rtx/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/geforce/rtx/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/geforce/rtx/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/geforce/rtx/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/geforce/rtx/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/geforce/rtx/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/geforce/rtx/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/geforce/rtx/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/geforce/rtx/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/rtx/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/rtx/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/rtx/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/geforce/rtx/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/rtx/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/rtx/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/geforce/rtx/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/rtx/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/rtx/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/geforce/rtx/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/rtx/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/rtx/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/rtx/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/rtx/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/geforce/rtx/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/geforce/rtx/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/geforce/rtx/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/geforce/rtx/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/geforce/rtx/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/geforce/rtx/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/geforce/rtx/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/geforce/rtx/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/geforce/rtx/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/geforce/rtx/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/geforce/rtx/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/geforce/rtx/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/geforce/rtx/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/geforce/rtx/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/geforce/rtx/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/geforce/rtx/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/rtx/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/rtx/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/rtx/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/rtx/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/rtx/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/geforce/rtx/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/rtx/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/rtx/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/geforce/rtx/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

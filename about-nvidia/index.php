@@ -107,7 +107,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/about-nvidia/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/about-nvidia/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/about-nvidia/">
 
@@ -179,12 +179,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
     
-    nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+    nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
     nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
     nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
     nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-    nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
-    nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
+    nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
+    nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
     nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -241,11 +241,11 @@ var NVIDIAGDC = NVIDIAGDC || {};
 <title>Nvidia - NVIDIA Corp Brochure</title> 
   <meta property="og:title" content="Nvidia - NVIDIA Corp Brochure"> 
   <meta name="twitter:title" content="Nvidia - NVIDIA Corp Brochure"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""> 
+  <link rel="preconnect" href="/" crossorigin=""> 
   <!-- Compressed Styles --> 
   <link href="/assets/images-remote/nv-story-tool/nv-story-09132023/css/slides.min.css" rel="stylesheet" type="text/css" id="js-slides-css"> 
   <!-- Fonts and Material Icons --> 
-  <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Material+Icons&amp;display=swap" id="js-google-fonts"> 
+  <link rel="stylesheet" as="font" href="/?family=Inter:wght@400;500;700&amp;family=Material+Icons&amp;display=swap" id="js-google-fonts"> 
   <style type="text/css" id="js-slides-fonts">
     .slides,
     .slides p {
@@ -585,23 +585,23 @@ var NVIDIAGDC = NVIDIAGDC || {};
      <li><span class="brandMenu-title">About Us</span></li> 
      <li><a tabindex="0" href="/about-nvidia/">Company</a></li> 
      <li><a tabindex="0" href="/about-nvidia/careers/">Careers</a></li> 
-     <li><a tabindex="0" href="https://nvidianews.nvidia.com/">News</a></li> 
+     <li><a tabindex="0" href="/">News</a></li> 
      <li><a tabindex="0" href="/events/">Events</a></li> 
     </ul> 
     <ul class="social opacity-8"> 
-     <li> <a tabindex="0" href="https://www.facebook.com/NVIDIA" target="_blank"> 
+     <li> <a tabindex="0" href="/" target="_blank"> 
        <svg> 
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use> 
        </svg> </a> </li> 
-     <li> <a tabindex="0" href="https://www.twitter.com/nvidia" target="_blank"> 
+     <li> <a tabindex="0" href="/" target="_blank"> 
        <svg> 
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use> 
        </svg> </a> </li> 
-     <li> <a tabindex="0" href="https://www.linkedin.com/company/nvidia/" target="_blank"> 
+     <li> <a tabindex="0" href="/" target="_blank"> 
        <svg> 
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#linkedin"></use> 
        </svg> </a> </li> 
-     <li> <a tabindex="0" href="https://www.youtube.com/user/nvidia" target="_blank"> 
+     <li> <a tabindex="0" href="./assets/www.youtube.com/user/nvidia" target="_blank"> 
        <svg> 
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use> 
        </svg> </a> </li> 
@@ -636,8 +636,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div class="background"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/mask-group-2-min.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide03.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide03.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide03.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide03.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -652,16 +652,16 @@ var NVIDIAGDC = NVIDIAGDC || {};
        <p style="padding-top:20px" class="ae-2 smallest opacity-8">Credit: Runway AI, Adobe, Tabnine, WPP</p> 
       </div> 
       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/the-iphone-moment-of-ai-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-       <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.webm?p=Og5JyLeI" type="video/webm"> 
-       <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.mp4?p=Og5JyLeI" type="video/mp4"> 
+       <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.webm?p=Og5JyLeI" type="video/webm"> 
+       <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.mp4?p=Og5JyLeI" type="video/mp4"> 
       </video> 
      </div> 
     </div> 
    </div> 
    <div class="hideForPhone  background" style="opacity: 0.85;"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/the-iphone-moment-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -677,8 +677,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p class="ae-2 medium"><span class="opacity-8">NVIDIA engineers the most advanced chips, systems, and software for the AI factories of the future. We build new AI services that help companies create their own AI factories. </span></p> 
        </div> 
        <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nvidia-is-the-engine-of-ai-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.webm?p=Og5JyLeI" type="video/webm"> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.mp4?p=Og5JyLeI" type="video/mp4"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.webm?p=Og5JyLeI" type="video/webm"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
       </div> 
      </div> 
@@ -686,8 +686,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div class="hideForPhone background"> 
     <video poster="../assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nvidia-is-the-engine-of-ai-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -703,8 +703,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p class="ae-2 medium"><span class="opacity-8">NVIDIA RTX™ taps into AI and ray tracing to deliver a whole new level of realism in graphics. This year, we introduced the next breakthrough in AI-powered graphics: DLSS 3. </span></p> 
        </div> 
        <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/reinventing-modern-graphics-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.webm?p=Og5JyLeI" type="video/webm"> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.mp4?p=Og5JyLeI" type="video/mp4"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.webm?p=Og5JyLeI" type="video/webm"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
       </div> 
      </div> 
@@ -712,8 +712,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div style="opacity:0.85" class="background hideForPhone"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/reinventing-modern-graphics-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -728,8 +728,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p class="ae-2 medium"><span class="opacity-8">Omniverse, our platform for industrial digitalization, enables industries grounded in physical processes to become software-defined and connect large, highly skilled teams. </span></p> 
        </div> 
        <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/connecting-our-pyscial-worlds-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.webm?p=Og5JyLeI" type="video/webm"> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.mp4?p=Og5JyLeI" type="video/mp4"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.webm?p=Og5JyLeI" type="video/webm"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
       </div> 
      </div> 
@@ -737,8 +737,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div style="opacity:0.9" class="hideForPhone background"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/connecting-our-pyscial-worlds-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -755,8 +755,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p style="padding-top:20px" class="ae-2 smallest opacity-8">Credit: WPP, McLaren; Koenigsegg; BMW; Rimac </p> 
        </div> 
        <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/driving-automotive-growth-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.webm?p=Og5JyLeI" type="video/webm"> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.mp4?p=Og5JyLeI" type="video/mp4"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.webm?p=Og5JyLeI" type="video/webm"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
       </div> 
      </div> 
@@ -764,8 +764,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div style="opacity:0.85" class="hideForPhone background"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/driving-automotive-growth-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -781,8 +781,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p class="ae-2 medium"><span class="opacity-8">With NVIDIA, healthcare institutions can harness the power of AI and high-performance computing to define the future of medicine. </span></p> 
        </div> 
        <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/supercharging-healthcare-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.webm?p=Og5JyLeI" type="video/webm"> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.mp4?p=Og5JyLeI" type="video/mp4"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.webm?p=Og5JyLeI" type="video/webm"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
       </div> 
      </div> 
@@ -790,8 +790,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div style="opacity:0.85" class="hideForPhone background"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/supercharging-healthcare-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -807,8 +807,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p class="ae-2 medium"><span class="opacity-8">Data centers are already about 1-2% of global electricity consumption and growing. This is not sustainable for operating budgets and our planet. Acceleration is the best way to reclaim power and achieve sustainability and net zero. </span></p> 
        </div> 
        <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/accelerated-computing-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.webm?p=Og5JyLeI" type="video/webm"> 
-        <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.mp4?p=Og5JyLeI" type="video/mp4"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.webm?p=Og5JyLeI" type="video/webm"> 
+        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
       </div> 
      </div> 
@@ -816,8 +816,8 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
    <div class="background hideForPhone"> 
     <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/accelerated-computing-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.webm?p=Og5JyLeI" type="video/webm"> 
-     <source src="https://images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.mp4?p=Og5JyLeI" type="video/mp4"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.webm?p=Og5JyLeI" type="video/webm"> 
+     <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
    </div> 
   </section> 
@@ -923,14 +923,14 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <div class="card-description">
          A timeline of innovation
         </div> </a> 
-       <a href="https://investor.nvidia.com/home/default.aspx" class="card"> <img src="/assets/images-remote/nv-story-tool/nv-story-09132023/assets/about-nvidia/investors-ari.jpg" alt="Image 2"> 
+       <a href="/" class="card"> <img src="/assets/images-remote/nv-story-tool/nv-story-09132023/assets/about-nvidia/investors-ari.jpg" alt="Image 2"> 
         <div class="card-title">
          Investors
         </div> 
         <div class="card-description">
          Quarterly and historical results, resources
         </div> </a> 
-       <a href="https://nvidianews.nvidia.com/" class="card"> <img src="/assets/images-remote/nv-story-tool/nv-story-09132023/assets/about-nvidia/newsroom-ari.jpg" alt="Image 3"> 
+       <a href="/" class="card"> <img src="/assets/images-remote/nv-story-tool/nv-story-09132023/assets/about-nvidia/newsroom-ari.jpg" alt="Image 3"> 
         <div class="card-title">
          Newsroom
         </div> 
@@ -954,7 +954,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
   </section> 
   <!-- jQuery 3.6.0 --> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script src="/"></script> 
   <!-- Compressed Scripts --> 
   <script src="/assets/images-remote/nv-story-tool/nv-story-09132023/js/slides.min.js" type="text/javascript"></script>
 <style>

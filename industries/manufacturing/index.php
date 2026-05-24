@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -104,7 +104,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/industries/manufacturing/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/industries/manufacturing/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/industries/manufacturing/">
 
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           clearInterval(myInterval);
         }
         item.contentWindow.postMessage(
-          { url: "https://www.nvidia.com" },
+          { url: "/" },
           "*"
         );
       }, 500);
@@ -142,12 +142,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
             clearInterval(myNewInterval);
           }
           item.contentWindow.postMessage(
-            { url:"https://www.nvidia.com"},
+            { url:"/"},
             "*"
           );
         }, 500);
         item.contentWindow.postMessage(
-          { url: "https://www.nvidia.com" },
+          { url: "/" },
           "*"
         );
       };
@@ -231,12 +231,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -2054,8 +2054,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2072,7 +2072,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2139,10 +2139,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-bottom    ">
             
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/manufacturing-industry-biab-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/manufacturing-industry-biab-p@2x.jpg 2x" data-srcset-tablet="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=,  2x" data-srcset-laptop="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=,  2x" data-srcset-desktop="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=,  2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" manufacturing="" core="" manufacturing-industry-biab-p.jpg,="" manufacturing-industry-biab-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii="," 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii="," 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii="," 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" manufacturing="" core="" manufacturing-industry-biab-p.jpg,="" manufacturing-industry-biab-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii="," 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii="," 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii="," 2x"="" media="(min-width:1350px)">
                 
                 	<img src="data:image/png;base64" alt="finance-services" title="finance-services" id="image-ban-cont" onload="window.initLazyLoadingImages('ban-cont');" srcset="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
                 
@@ -3553,10 +3553,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" manufacturing="" core="" kawasaki-slalom-news-p.jpg,="" kawasaki-slalom-news-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/kawasaki-slalom-news-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/kawasaki-slalom-news-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/kawasaki-slalom-news-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/kawasaki-slalom-news-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/kawasaki-slalom-news-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/kawasaki-slalom-news-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-e349fccdbd" onload="window.initLazyLoadingImages('container-e349fccdbd');">
                 
@@ -3862,10 +3862,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-c-top p-image-center p-image-c-top   t-image-fit-contain p-image-fit-contain  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" manufacturing="" nvidia-success-stories-foxconn-p.jpg,="" core="" foxconn-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/foxconn-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/foxconn-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/foxconn-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/foxconn-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/foxconn-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/foxconn-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="White robotic arms are positioned over a production line with circuit boards in a factory." title="White robotic arms are positioned over a production line with circuit boards in a factory." id="image-container-1827807c7f" onload="window.initLazyLoadingImages('container-1827807c7f');">
                 
@@ -4126,10 +4126,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" manufacturing="" core="" bmw-success-stories-p.jpg,="" bmw-success-stories-p@="" 2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/bmw-success-stories-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/bmw-success-stories-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/bmw-success-stories-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/bmw-success-stories-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/bmw-success-stories-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/bmw-success-stories-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-4788825f3a" onload="window.initLazyLoadingImages('container-4788825f3a');">
                 
@@ -4759,7 +4759,7 @@ var nvidiaGDClog = function() {
   </div>
 <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-9fbc292ac0" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/industrial-manufacturing/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" industrial-manufacturing"="" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="https://developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-9fbc292ac0" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/industrial-manufacturing/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" industrial-manufacturing"="" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="./assets/developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -4921,7 +4921,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/manufacturing/_jcr_content/root/responsivegrid/nv_container_copy_40/copy_of_nv_carousel_/nv_teaser_copy_88305_2143467002.coreimg.100.410.png/1776971241824/ov-social-gtcp25-industrial-ai-cloud-1920x1080.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/ov-social-gtcp25-industrial-ai-cloud-1920x1080.png" data-title="European Manufacturers Adopt NVIDIA Industrial AI" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://nvidianews.nvidia.com/news/nvidia-builds-worlds-first-industrial-ai-cloud-to-advance-european-manufacturing" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="European Manufacturers Adopt NVIDIA Industrial AI" title="European Manufacturers Adopt NVIDIA Industrial AI" data-analytics="nv-image-45e0f6f408" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -4963,7 +4963,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-45e0f6f408-cta-19ffd98139" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-builds-worlds-first-industrial-ai-cloud-to-advance-european-manufacturing">Read Press Release
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-45e0f6f408-cta-19ffd98139" rel="noopener noreferrer" href="/">Read Press Release
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5281,7 +5281,7 @@ var nvidiaGDClog = function() {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/blackwell-1902x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/blackwell-1902x1080.jpg" data-title="NVIDIA Blackwell Accelerates Computer-Aided Engineering Software Ecosystem" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://nvidianews.nvidia.com/news/nvidia-blackwell-accelerates-computer-aided-engineering-software-by-orders-of-magnitude-for-real-time-digital-twins" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Blackwell Accelerates Computer-Aided Engineering Software Ecosystem" title="NVIDIA Blackwell Accelerates Computer-Aided Engineering Software Ecosystem" data-analytics="nv-image-80f2b68e44" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/core/blackwell-1902x1080.jpg">
@@ -5323,7 +5323,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-80f2b68e44-cta-7e954073b0" rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-blackwell-accelerates-computer-aided-engineering-software-by-orders-of-magnitude-for-real-time-digital-twins">Learn More
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-80f2b68e44-cta-7e954073b0" rel="noopener noreferrer" href="/">Learn More
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5657,7 +5657,7 @@ var nvidiaGDClog = function() {
         
     <div class="cmp-teaser__description">
     	
-       		<p>HPC and AI enable new levels of collaboration and efficiency in product design, engineering, simulation, and prototyping. <a href="/omniverse/">Digital twins</a> optimize design and operational flow in factories, warehouses, and distribution centers. Accelerated <a href="/deep-learning-ai/solutions/data-analytics/">data science</a> unlocks deeper insights for intelligent forecasting and decision-making. And technician dispatch and <a href="https://developer.nvidia.com/cuopt-logistics-optimization" target="_blank">vehicle routing</a> can be dynamically optimized to improve efficiency. These reduced operational burdens improve the ease of future expansions and relocations.</p>
+       		<p>HPC and AI enable new levels of collaboration and efficiency in product design, engineering, simulation, and prototyping. <a href="/omniverse/">Digital twins</a> optimize design and operational flow in factories, warehouses, and distribution centers. Accelerated <a href="/deep-learning-ai/solutions/data-analytics/">data science</a> unlocks deeper insights for intelligent forecasting and decision-making. And technician dispatch and <a href="./assets/developer.nvidia.com/cuopt-logistics-optimization" target="_blank">vehicle routing</a> can be dynamically optimized to improve efficiency. These reduced operational burdens improve the ease of future expansions and relocations.</p>
         
     </div>
 
@@ -5728,7 +5728,7 @@ var nvidiaGDClog = function() {
         
     <div class="cmp-teaser__description">
     	
-       		<p>Automation is creating new levels of speed and accuracy in industrial environments. <a href="/autonomous-machines/">Robotic systems</a> automate manufacturing, assembly, and material handling. Predictive maintenance and prognostics minimize downtime and maximize the life of equipment. And quality and throughput are increased with <a href="https://developer.nvidia.com/metropolis-for-factories" target="_blank">computer vision-enabled</a> inspection, productivity inspection, and bottleneck analysis.</p>
+       		<p>Automation is creating new levels of speed and accuracy in industrial environments. <a href="/autonomous-machines/">Robotic systems</a> automate manufacturing, assembly, and material handling. Predictive maintenance and prognostics minimize downtime and maximize the life of equipment. And quality and throughput are increased with <a href="./assets/developer.nvidia.com/metropolis-for-factories" target="_blank">computer vision-enabled</a> inspection, productivity inspection, and bottleneck analysis.</p>
         
     </div>
 
@@ -6195,7 +6195,7 @@ var nvidiaGDClog = function() {
 
 <div id="nv-image-d54a6e4a0e" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/manufacturing/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs/item_1670486338733/nv_container/nv_container/nv_container/nv_image.coreimg.100.410.jpeg/1776971242417/manufacturing-resources-vid-factory-03-ari-1920x1080---copy.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/manufacturing/manufacturing-resources-vid-factory-03-ari-1920x1080 - Copy.jpg" data-title="ABB Robotics" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://youtu.be/D8wSXABcW-A" target="_modal" data-cmp-hook-image="link">
+     	<a class="cmp-image__link" href="/" target="_modal" data-cmp-hook-image="link">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="ABB Robotics" title="ABB Robotics" data-analytics="nv-image-d54a6e4a0e" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -6360,7 +6360,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--tablet--6">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-5538fec405" class="btn-content btncta    " data-title="Watch Video" target="_modal" data-cmp-clickable="false" style="color: #000; " href="https://youtu.be/D8wSXABcW-A">
+  <a id="nv-button-5538fec405" class="btn-content btncta    " data-title="Watch Video" target="_modal" data-cmp-clickable="false" style="color: #000; " href="/">
     
     
 
@@ -6524,7 +6524,7 @@ var nvidiaGDClog = function() {
     
 		
 	
-    <a href="https://resources.nvidia.com/l/en-us-manufacturing-industry-resources" target="_blank" rel="noopener noreferrer" class="nv-pf--see-all"> See All</a>
+    <a href="/" target="_blank" rel="noopener noreferrer" class="nv-pf--see-all"> See All</a>
 
   </div>
 
@@ -6879,7 +6879,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-642bdb61fc-cta-8cc844702d" rel="noopener noreferrer" href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-MF-02+V1">Take the Workshop
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-642bdb61fc-cta-8cc844702d" rel="noopener noreferrer" href="/?course_id=course-v1:DLI+C-MF-02+V1">Take the Workshop
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -6950,7 +6950,7 @@ var nvidiaGDClog = function() {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-5e0f05f86c-cta-2ff9fdf311" rel="noopener noreferrer" href="https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-MF-01+V2">Take the Workshop
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-5e0f05f86c-cta-2ff9fdf311" rel="noopener noreferrer" href="/?course_id=course-v1:DLI+C-MF-01+V2">Take the Workshop
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7478,7 +7478,7 @@ $('.nv-teaser-text-link').each(function(){
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-d5e35005b7-cta-4221c00441" rel="noopener noreferrer" href="https://developer.nvidia.com/developer-program">Join the Developer Program
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-d5e35005b7-cta-4221c00441" rel="noopener noreferrer" href="./assets/developer.nvidia.com/developer-program">Join the Developer Program
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -7874,10 +7874,10 @@ function tabClick(item) {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-bottom    ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" industrial-sector="" nv-corp-kv-bb460_420-p.jpg,="" nv-corp-kv-bb460_420-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/nv-corp-kv-bb460_420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/nv-corp-kv-bb460_420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/nv-corp-kv-bb460_420-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/nv-corp-kv-bb460_420-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/nv-corp-kv-bb460_420-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/nv-corp-kv-bb460_420-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-partners" onload="window.initLazyLoadingImages('partners');">
                 
@@ -9120,7 +9120,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 		$.ajax({
 			type: "GET",
-			url: 'https://layouts.nvidiagrid.net/v1/serviceUrls',
+			url: '/',
 			crossDomain: true,
 			headers: {
 				'Accept': 'application/json',
@@ -11361,7 +11361,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
                <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a>.</label>
@@ -11851,13 +11851,13 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="D8wSXABcW-A" data-thumbnail="https://img.youtube.com/vi_webp/D8wSXABcW-A/maxresdefault.webp">
+<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="D8wSXABcW-A" data-thumbnail="./assets/img.youtube.com/vi_webp/D8wSXABcW-A/maxresdefault.webp">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/D8wSXABcW-A?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="D8wSXABcW-A" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe width="100%" src="./assets/www.youtube.com/embed/D8wSXABcW-A?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="D8wSXABcW-A" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     </div>
    </template>
 
@@ -11879,7 +11879,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
    <div class="nv-yt-embed__consent-overlay " role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -11888,7 +11888,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=D8wSXABcW-A" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=D8wSXABcW-A" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
@@ -11972,7 +11972,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
   <style>
       @font-face {
         font-family: "NVIDIA Sans";
-        src: url("https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2") format("woff2");
+        src: url("./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2") format("woff2");
         font-weight: 100 900;
         font-style: normal;
         font-display: swap;
@@ -12626,11 +12626,11 @@ var NVIDIAGDC = NVIDIAGDC || {};
             links: [
               {
                 text: "Privacy Policy",
-                url: "https://www.nvidia.com/en-us/about-nvidia/privacy-policy/",
+                url: "/about-nvidia/privacy-policy/",
               },
               {
                 text: "Terms of Service",
-                url: "https://www.nvidia.com/en-us/about-nvidia/terms-of-service/",
+                url: "/about-nvidia/terms-of-service/",
               },
             ],
           },
@@ -12738,15 +12738,15 @@ var NVIDIAGDC = NVIDIAGDC || {};
           "welcome.examples": [
             {
               text: "What are the differences in AI usage and adoption across different industries?",
-              image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+              image: "/?auto=format&fit=crop&w=800&q=80",
             },
             {
               text: "What are the biggest challenges when it comes to using AI?",
-              image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+              image: "/?auto=format&fit=crop&w=800&q=80",
             },
             {
               text: "How is your budget going to change for AI in the coming year?",
-              image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&q=80",
+              image: "/?auto=format&fit=crop&w=800&q=80",
             },
           ],
           "feedback.positive.options": [
@@ -13480,11 +13480,11 @@ var NVIDIAGDC = NVIDIAGDC || {};
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -13631,7 +13631,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -13668,7 +13668,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/manufacturing/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/manufacturing/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/manufacturing/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/manufacturing/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/manufacturing/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/manufacturing/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/manufacturing/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/manufacturing/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/manufacturing/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/manufacturing/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/industries/manufacturing/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/manufacturing/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/manufacturing/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/manufacturing/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/manufacturing/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/manufacturing/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/manufacturing/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/manufacturing/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/manufacturing/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/manufacturing/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/manufacturing/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/manufacturing/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/manufacturing/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/manufacturing/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/manufacturing/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/manufacturing/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/manufacturing/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/manufacturing/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/manufacturing/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/manufacturing/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/manufacturing/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/manufacturing/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

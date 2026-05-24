@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -107,7 +107,7 @@ nvidia jetson">
 
 	<link rel="alternate" hreflang="en-ca" href="/autonomous-machines/embedded-systems/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/autonomous-machines/embedded-systems/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/autonomous-machines/embedded-systems/">
 
@@ -175,12 +175,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -1997,8 +1997,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -2015,7 +2015,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2053,10 +2053,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-middle    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/embedded-systems/jetson-orin/jetson-kv-ai-summit-23-bb460_420-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-p.jpg,="" jetson-orin-bb460_420-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-t.jpg,="" jetson-orin-bb460_420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-l.jpg,="" jetson-orin-bb460_420-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gtcf22="" embedded-systems="" jetson-orin="" jetson-kv-ai-summit-23-bb460_420-d.jpg,="" intelligent-machines="" jetson-orin-bb460_420-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-p.jpg,="" jetson-orin-bb460_420-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-t.jpg,="" jetson-orin-bb460_420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-l.jpg,="" jetson-orin-bb460_420-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gtcf22="" embedded-systems="" jetson-orin="" jetson-kv-ai-summit-23-bb460_420-d.jpg,="" intelligent-machines="" jetson-orin-bb460_420-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/embedded-systems/jetson-orin/jetson-kv-ai-summit-23-bb460_420-d.jpg" alt=" title=" id="image-container-5ed33210d9" onload="window.initLazyLoadingImages('container-5ed33210d9');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-d@2x.jpg 2x">
                 
@@ -2328,7 +2328,7 @@ var nvidiaGDClog = function() {
             <div><div class="nv-button button">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="subscribe-now-retail" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://store.nvidia.com/jetson/store/">
+  <a id="subscribe-now-retail" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -2395,7 +2395,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-d53debc27a" class="general-container-text            ">
 			<div class="text-center lap-text-center tab-text-center mob-text-center">
 				<div class="description ">
-                	<p style="text-align: center;"><span class="p--large">NVIDIA Jetson™ is the leading platform for <a href="/industries/robotics/" target="_self">robotics</a> and&nbsp;<a href="/edge-computing/" target="_self">edge AI</a> applications, offering you compact yet powerful computers, supported by the <a href="https://developer.nvidia.com/embedded/jetpack" target="_blank">NVIDIA Jetpack™ SDK</a> for accelerated software development. <a href="https://developer.nvidia.com/embedded/develop/software" target="_blank">NVIDIA Jetpack</a>&nbsp;provides pre-built and cloud-native software services to fast-track development and deployment of sophisticated edge AI applications like <a href="/glossary/generative-ai/" target="_self">generative AI,</a> <a href="/glossary/computer-vision/" target="_self">computer vision</a>, advanced robotics, and <a href="https://nvidianews.nvidia.com/news/space-computing" target="_blank">geospatial intelligence</a>.</span></p>
+                	<p style="text-align: center;"><span class="p--large">NVIDIA Jetson™ is the leading platform for <a href="/industries/robotics/" target="_self">robotics</a> and&nbsp;<a href="/edge-computing/" target="_self">edge AI</a> applications, offering you compact yet powerful computers, supported by the <a href="./assets/developer.nvidia.com/embedded/jetpack" target="_blank">NVIDIA Jetpack™ SDK</a> for accelerated software development. <a href="./assets/developer.nvidia.com/embedded/develop/software" target="_blank">NVIDIA Jetpack</a>&nbsp;provides pre-built and cloud-native software services to fast-track development and deployment of sophisticated edge AI applications like <a href="/glossary/generative-ai/" target="_self">generative AI,</a> <a href="/glossary/computer-vision/" target="_self">computer vision</a>, advanced robotics, and <a href="/" target="_blank">geospatial intelligence</a>.</span></p>
                 </div>
 			</div>
 	</div>
@@ -2475,10 +2475,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-bottom    p-image-fit-cover  ">
         
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" robotics-embedded-systems-jetson-oss-bm-af360-p.jpg,="" robotics-embedded-systems-jetson-oss-bm-af360-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-t-new.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-t@2x-new.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/robotics-embedded-systems-jetson-oss-bm-m460-d.jpg" alt=" title=" id="image-container-d6df6d56c2" onload="window.initLazyLoadingImages('container-d6df6d56c2');">
                 
@@ -2881,10 +2881,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-center    ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-thor-bm-uf1080-p.jpg,="" jetson-thor-bm-uf1080-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-thor-bm-m460-d.jpg" alt=" title=" id="image-bm-uf-gen" onload="window.initLazyLoadingImages('bm-uf-gen');">
                 
@@ -2969,7 +2969,7 @@ var nvidiaGDClog = function() {
     <div id="nv-text-dd09d63a6a" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>The NVIDIA® Jetson AGX Thor™ Developer Kit gives you unmatched performance and scalability. It’s powered by the NVIDIA Blackwell GPU and 128 GB of memory, delivering up to 2070 FP4 TFLOPS of AI compute to effortlessly run the <a href="https://www.jetson-ai-lab.com/" target="_blank">latest generative AI models</a>—all within a 130 W power envelope. Compared to NVIDIA Jetson AGX Orin™, it delivers up to 7.5x higher AI compute and 3.5x better energy efficiency.</p>
+                	<p>The NVIDIA® Jetson AGX Thor™ Developer Kit gives you unmatched performance and scalability. It’s powered by the NVIDIA Blackwell GPU and 128 GB of memory, delivering up to 2070 FP4 TFLOPS of AI compute to effortlessly run the <a href="/" target="_blank">latest generative AI models</a>—all within a 130 W power envelope. Compared to NVIDIA Jetson AGX Orin™, it delivers up to 7.5x higher AI compute and 3.5x better energy efficiency.</p>
                 </div>
 			</div>
 	</div>
@@ -3304,7 +3304,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--1">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-7abf043977" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/embedded/develop/software">
+  <a id="nv-button-7abf043977" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/developer.nvidia.com/embedded/develop/software">
     
     
 
@@ -4658,7 +4658,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-transparent">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-center">
   
-  <a id="nv-button-5d68a0b7ae" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #fff; " rel="noopener noreferrer" href="https://developer.nvidia.com/embedded/develop/roadmap">
+  <a id="nv-button-5d68a0b7ae" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: #fff; " rel="noopener noreferrer" href="./assets/developer.nvidia.com/embedded/develop/roadmap">
     
     
 
@@ -5032,7 +5032,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--tablet--10 aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-d69e415f0e" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/embedded-computing">
+  <a id="nv-button-d69e415f0e" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/developer.nvidia.com/embedded-computing">
     
     
 
@@ -5286,7 +5286,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--tablet--10 aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-e522c2e598" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/?category=developer_kit&amp;page=1&amp;limit=15">
+  <a id="nv-button-e522c2e598" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?category=developer_kit&amp;page=1&amp;limit=15">
     
     
 
@@ -5938,7 +5938,7 @@ background: transparent;
     <td class="tableCMdata1" rowspan="1" colspan="2">1.43GHz</td> 
    </tr> 
    <tr> 
-    <td class="tableCLdata1"><a href="https://developer.nvidia.com/deep-learning-accelerator" target="_blank"> DL Accelerator </a></td> 
+    <td class="tableCLdata1"><a href="./assets/developer.nvidia.com/deep-learning-accelerator" target="_blank"> DL Accelerator </a></td> 
     <td class="tableCMdata1" rowspan="1">-</td> 
     <td class="tableCMdata1" rowspan="1">-</td> 
     <td class="tableCMdata1" rowspan="1">-</td> 
@@ -6343,7 +6343,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 		$.ajax({
 			type: "GET",
-			url: 'https://layouts.nvidiagrid.net/v1/serviceUrls',
+			url: '/',
 			crossDomain: true,
 			headers: {
 				'Accept': 'application/json',
@@ -8938,7 +8938,7 @@ $(window).load(function(){
     
     <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
                <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_492784922-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a>.</label>
@@ -9405,10 +9405,10 @@ $(window).load(function(){
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-center    ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" intelligent-machines="" embedded-systems="" jetson-orin-bb460_420-p.jpg,="" jetson-orin-bb460_420-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/intelligent-machines/embedded-systems/jetson-orin-bb460_420-d.jpg" alt="NVIDIA Isaac Platform for Robotics" title="NVIDIA Isaac Platform for Robotics" id="image-bm-uf" onload="window.initLazyLoadingImages('bm-uf');">
                 
@@ -9925,11 +9925,11 @@ $(window).load(function(){
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -10076,7 +10076,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -10113,7 +10113,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/autonomous-machines/embedded-systems/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/autonomous-machines/embedded-systems/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/autonomous-machines/embedded-systems/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/autonomous-machines/embedded-systems/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/autonomous-machines/embedded-systems/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/autonomous-machines/embedded-systems/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/autonomous-machines/embedded-systems/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/autonomous-machines/embedded-systems/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/autonomous-machines/embedded-systems/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/autonomous-machines/embedded-systems/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/autonomous-machines/embedded-systems/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/autonomous-machines/embedded-systems/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/autonomous-machines/embedded-systems/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/autonomous-machines/embedded-systems/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/autonomous-machines/embedded-systems/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/autonomous-machines/embedded-systems/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/autonomous-machines/embedded-systems/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/autonomous-machines/embedded-systems/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/autonomous-machines/embedded-systems/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/autonomous-machines/embedded-systems/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/autonomous-machines/embedded-systems/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/autonomous-machines/embedded-systems/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/autonomous-machines/embedded-systems/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/autonomous-machines/embedded-systems/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/autonomous-machines/embedded-systems/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/autonomous-machines/embedded-systems/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/autonomous-machines/embedded-systems/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/autonomous-machines/embedded-systems/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/autonomous-machines/embedded-systems/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/autonomous-machines/embedded-systems/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/autonomous-machines/embedded-systems/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/autonomous-machines/embedded-systems/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/autonomous-machines/embedded-systems/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/autonomous-machines/embedded-systems/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/autonomous-machines/embedded-systems/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/autonomous-machines/embedded-systems/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
@@ -10684,16 +10684,16 @@ if (document.URL.indexOf('/autonomous-machines/jetson-store/') > -1) {
     if (getV == 'nv:autonomous-machines') {
         setTimeout(function() {
             $('.latest-news__item__key-visual a img').click(function() {
-                var getVal = $(this).parents('a').attr('href').replace('https://blogs.nvidia.com/blog/', '');
+                var getVal = $(this).parents('a').attr('href').replace('/blog/blog/', '');
                 ClickOmniTrack(this, 'event10', 'img:section:', getVal);
             });
             $('.latest-news__item__body .latest-news__item__body__title a').click(function() {
-                var getVal = $(this).attr('href').replace('https://blogs.nvidia.com/blog/', '');
+                var getVal = $(this).attr('href').replace('/blog/blog/', '');
                 ClickOmniTrack(this, 'event10', 'link:section:', getVal);
             });
             $('.latest-news__item__body .latest-news__item__body__description a').click(function() {
                 var getTxt = $(this).text();
-                var getVal = $(this).attr('href').replace('https://blogs.nvidia.com/blog/', '');
+                var getVal = $(this).attr('href').replace('/blog/blog/', '');
                 ClickOmniTrack(this, 'event10', 'link:section:' + getVal + ':', getTxt);
             });
             $('.latest-news__see-all').click(function() {

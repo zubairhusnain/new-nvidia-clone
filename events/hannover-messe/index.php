@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -63,7 +63,7 @@
 <link rel="alternate" type="text/markdown" title="NVIDIA at Hannover Messe 2026, April 20–24" href="/events/hannover-messe.md/">
 
 <script type="application/ld+json"> 
-[{"@context": "https://schema.org", "@type": "Event", "location": {"@type": "Place", "name": "Hannover Messe"}, "startDate": "2026-04-20T00:00:00+00:00", "endDate": "2026-04-24T23:59:00+00:00", "performer": [{"@type": "Person", "name": "Peter Koerte"}, {"@type": "Person", "name": "Rev Lebaredian"}, {"@type": "Person", "name": "Dr. Ferri Abolhassan"}, {"@type": "Person", "name": "Adrien Bron"}, {"@type": "Person", "name": "Michael Schertler"}, {"@type": "Person", "name": "John Lervik"}, {"@type": "Person", "name": "Rainer Brehm"}, {"@type": "Person", "name": "Timo Kistner"}, {"@type": "Person", "name": "Robin Tuluie"}, {"@type": "Person", "name": "Christian Piechnick"}, {"@type": "Person", "name": "Markus Hacker"}], "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "name": "NVIDIA at Hannover Messe 2026", "description": "At Hannover Messe 2026, join NVIDIA and our partners to explore the latest breakthroughs in industrial AI. #HM26", "url": "https://www.nvidia.com/en-us/events/hannover-messe/", "image": "../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/hannover-messe-2025-02-og.jpg", "organizer": {"@type": "Organization", "name": "NVIDIA", "url": "https://www.nvidia.com/en-us/"}}] 
+[{"@context": "https://schema.org", "@type": "Event", "location": {"@type": "Place", "name": "Hannover Messe"}, "startDate": "2026-04-20T00:00:00+00:00", "endDate": "2026-04-24T23:59:00+00:00", "performer": [{"@type": "Person", "name": "Peter Koerte"}, {"@type": "Person", "name": "Rev Lebaredian"}, {"@type": "Person", "name": "Dr. Ferri Abolhassan"}, {"@type": "Person", "name": "Adrien Bron"}, {"@type": "Person", "name": "Michael Schertler"}, {"@type": "Person", "name": "John Lervik"}, {"@type": "Person", "name": "Rainer Brehm"}, {"@type": "Person", "name": "Timo Kistner"}, {"@type": "Person", "name": "Robin Tuluie"}, {"@type": "Person", "name": "Christian Piechnick"}, {"@type": "Person", "name": "Markus Hacker"}], "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "name": "NVIDIA at Hannover Messe 2026", "description": "At Hannover Messe 2026, join NVIDIA and our partners to explore the latest breakthroughs in industrial AI. #HM26", "url":"/events/hannover-messe/", "image": "../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/hannover-messe-2025-02-og.jpg", "organizer": {"@type": "Organization", "name": "NVIDIA", "url":"/"}}] 
 </script>
 
     
@@ -122,12 +122,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -1945,8 +1945,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1963,7 +1963,7 @@ var nvidiaGDClog = function() {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -2001,10 +2001,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-middle      ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m420-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m420-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-t@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m420-p.jpg,="" 5072750-hannover-messe-lp-bm-m420-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m460-t.jpg,="" 5072750-hannover-messe-lp-bm-m460-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m460-l.jpg,="" 5072750-hannover-messe-lp-bm-m460-t@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m460-d.jpg,="" 5072750-hannover-messe-lp-bm-m460-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m420-p.jpg,="" 5072750-hannover-messe-lp-bm-m420-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m460-t.jpg,="" 5072750-hannover-messe-lp-bm-m460-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m460-l.jpg,="" 5072750-hannover-messe-lp-bm-m460-t@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" events="" hannover-messe="" 5072750-hannover-messe-lp-bm-m460-d.jpg,="" 5072750-hannover-messe-lp-bm-m460-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-d.jpg" alt=" title=" id="image-container-f0c31a8d76" onload="window.initLazyLoadingImages('container-f0c31a8d76');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/5072750-hannover-messe-lp-bm-m460-d@2x.jpg 2x">
                 
@@ -2089,7 +2089,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-91dd92d452" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/en/application/registration/direct-entry-tickets-passes?code=TWkiR">
+  <a id="nv-button-91dd92d452" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?code=TWkiR">
     
     
 
@@ -2322,7 +2322,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-e0c76dc51b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/en/application/registration/direct-entry-tickets-passes?code=TWkiR">
+  <a id="nv-button-e0c76dc51b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?code=TWkiR">
     
     
 
@@ -2577,7 +2577,7 @@ var nvidiaGDClog = function() {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-4bed9fc044" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/the-industrial-ai-factory-powering-europe-s-next-era-of-innovation/pan/137512">
+  <a id="nv-button-4bed9fc044" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -2987,7 +2987,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-5095f00549" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-automation-to-collaboration-how-embodied-ai-is-unlocking-the-true-promise-of-industry-5-0/vor/42322">
+  <a id="nv-button-5095f00549" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -3102,7 +3102,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-588a36c069" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/1iSBNhM3ut7LBPlT-neLq75p3/?path=%2Fen%2F">
+  <a id="nv-button-588a36c069" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -3217,7 +3217,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-da979f566e" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/9kmFvjLIlAoMEyaA-ODeQujch/?path=%2Fen%2F">
+  <a id="nv-button-da979f566e" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -3332,7 +3332,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-a3acf684ad" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/9kmFvjLIlAoMEyaA-ODeQujch/?path=%2Fen%2F">
+  <a id="nv-button-a3acf684ad" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -3447,7 +3447,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-2b33b4a68d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/80QYKBEVkFlANHyh-RFZejf5Y/?path=%2Fen%2F">
+  <a id="nv-button-2b33b4a68d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -3562,7 +3562,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-10291022a5" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/accelerating-physical-ai-and-robotics-for-autonomous-manufacturing/ses/99984">
+  <a id="nv-button-10291022a5" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -3677,7 +3677,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-81a38ad129" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/physical-ai-in-practice-how-do-we-move-from-fixed-automation-to-adaptive-systems-/exp/98868">
+  <a id="nv-button-81a38ad129" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -3879,7 +3879,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-bc401ed62e" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/the-visual-cortex-for-industrial-robots-from-perception-to-predictable-autonomy/pan/42389">
+  <a id="nv-button-bc401ed62e" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -3994,7 +3994,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-4cc7901754" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/aZpfWF0tH0QH0NSG-c1wfmoOh/?path=%2Fen%2F">
+  <a id="nv-button-4cc7901754" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -4109,7 +4109,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-63c3199709" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-pyramid-to-hourglass-how-ai-is-reshaping-industrial-automation-profit-pools/ket/42488">
+  <a id="nv-button-63c3199709" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -4224,7 +4224,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-86059b58d9" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/0jGTgXhtIKehWlPH-qzxH04Mk/?path=%2Fen%2F">
+  <a id="nv-button-86059b58d9" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -4339,7 +4339,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-ef43182ad7" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-data-to-ground-truth-rethinking-operational-visibility-with-edge-ai/pan/42337">
+  <a id="nv-button-ef43182ad7" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -4454,7 +4454,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-d6227d143f" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-tools-to-agents-how-agentic-engineering-is-reshaping-simulation-driven-product-design/mc/85833">
+  <a id="nv-button-d6227d143f" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -4656,7 +4656,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-147d99f3ad" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/d0x6ya0k6K0zFU8b-NYCy3DZN/?path=%2Fen%2F">
+  <a id="nv-button-147d99f3ad" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -4771,7 +4771,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-5aa2b742c9" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/powering-industrial-organizations-with-ai-strategies-for-data-driven-innovation/pan/42350">
+  <a id="nv-button-5aa2b742c9" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -4988,7 +4988,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-180b64bf63" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-physical-ai-to-humanoid-robots-bringing-industrial-autonomy-to-life/pan/92704">
+  <a id="nv-button-180b64bf63" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5103,7 +5103,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-2856d6d0ce" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/physical-ai-foundation-from-digital-intelligence-to-real-world-impact/pan/99379">
+  <a id="nv-button-2856d6d0ce" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5305,7 +5305,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-224b100fe9" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/veranstaltung/from-simulation-to-certainty-how-platforms-change-industrial-automation-decisions/pan/42356">
+  <a id="nv-button-224b100fe9" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5420,7 +5420,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-04fbc85b6b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/autonomous-manufacturing-through-ai-convergence/pan/95564">
+  <a id="nv-button-04fbc85b6b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5535,7 +5535,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-609dbcdbd2" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/industrial-ai-in-the-cloud-best-practices-from-the-frontlines/pan/42708">
+  <a id="nv-button-609dbcdbd2" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5650,7 +5650,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-db94552f77" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://hm.virtualevent.siemens.com/share-event/fzS5ZXoPywg9moMm-GnmBlF85/?path=%2Fen%2F">
+  <a id="nv-button-db94552f77" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?path=%2Fen%2F">
     
     
 
@@ -5765,7 +5765,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-387e64cad4" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/forderung-der-mensch-roboter-zusammenarbeit-ki-gesteuertes-bewusstsein-in-dynamischen-industriezonen/vor/98708">
+  <a id="nv-button-387e64cad4" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5880,7 +5880,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-8a918c1145" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-smart-to-ai-manufacturing-orchestrating-with-the-human-in-the-lead/pan/42369">
+  <a id="nv-button-8a918c1145" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -5995,7 +5995,7 @@ div#headshots {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-458baed118" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.hannovermesse.de/event/from-pilots-to-production-how-industrial-leaders-are-scaling-ai-across-global-manufacturing/bt/102106">
+  <a id="nv-button-458baed118" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -6212,7 +6212,7 @@ div#headshots {
   </div>
 <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-0c6c609785" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/industrial-manufacturing,robotics,smart-spaces,sovereign-ai,digital-twin/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" industrial-manufacturing,robotics,smart-spaces,sovereign-ai,digital-twin"="" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="https://developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-0c6c609785" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/industrial-manufacturing,robotics,smart-spaces,sovereign-ai,digital-twin/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" industrial-manufacturing,robotics,smart-spaces,sovereign-ai,digital-twin"="" data-cmp-readmore="Read More" data-cmp-techblogfeedurl="./assets/developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -6878,7 +6878,7 @@ div#headshots {
 
 <div id="nv-image-9835e66883" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/accenture-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/accenture-logo.svg" data-title="Accenture Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.accenture.com/us-en/about/events/hannover-messe" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Accenture Logo" title="Accenture Logo" data-analytics="nv-image-9835e66883" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/accenture-logo.svg">
@@ -6895,7 +6895,7 @@ div#headshots {
 
 <div id="nv-image-cd03a96545" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/agile-robots-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/agile-robots-logo.svg" data-title="Agile Robots Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/agile-robots/N1605316?editor=visitorView&amp;scene-node=7tf31hm6" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=7tf31hm6" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Agile Robots Logo" title="Agile Robots Logo" data-analytics="nv-image-cd03a96545" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/agile-robots-logo.svg">
@@ -6912,7 +6912,7 @@ div#headshots {
 
 <div id="nv-image-5a4c9cf1cd" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/bain-logo-red.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/bain-logo-red.svg" data-title="Bain Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/bain-company/N1509076" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Bain Logo" title="Bain Logo" data-analytics="nv-image-5a4c9cf1cd" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/bain-logo-red.svg">
@@ -6929,7 +6929,7 @@ div#headshots {
 
 <div id="nv-image-d1de657841" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/bcg-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/bcg-logo.svg" data-title="BCG Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/the-boston-consulting-group/N1566351" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="BCG Logo" title="BCG Logo" data-analytics="nv-image-d1de657841" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/bcg-logo.svg">
@@ -6946,7 +6946,7 @@ div#headshots {
 
 <div id="nv-image-1a9c9a9373" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/capgemini-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/capgemini-logo.svg" data-title="Capgemini Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.capgemini.com/news/events/hannover-messe-2026/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Capgemini Logo" title="Capgemini Logo" data-analytics="nv-image-1a9c9a9373" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/capgemini-logo.svg">
@@ -6963,7 +6963,7 @@ div#headshots {
 
 <div id="nv-image-58772e540b" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/dassault-systemes-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/dassault-systemes-logo.svg" data-title="Dassault Systèmes Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://myevents.3ds.com/de/hannover-messe-2026" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Dassault Systèmes Logo" title="Dassault Systèmes Logo" data-analytics="nv-image-58772e540b" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/dassault-systemes-logo.svg">
@@ -6980,7 +6980,7 @@ div#headshots {
 
 <div id="nv-image-c885ee2e5a" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/dell-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/dell-logo.svg" data-title="Dell Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/dell-technologies/N1503956?editor=visitorView&amp;scene-node=n0v7zap2&amp;exhibitor=6zqrlj3d&amp;tdom-loc=ivx48qeq" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=n0v7zap2&amp;exhibitor=6zqrlj3d&amp;tdom-loc=ivx48qeq" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Dell Logo" title="Dell Logo" data-analytics="nv-image-c885ee2e5a" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/dell-logo.svg">
@@ -6997,7 +6997,7 @@ div#headshots {
 
 <div id="nv-image-3d37127661" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/deloitte-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/deloitte-logo.svg" data-title="Deloitte Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.deloitte.com/global/en/events/deloitte-hannover-messe.html" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Deloitte Logo" title="Deloitte Logo" data-analytics="nv-image-3d37127661" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/deloitte-logo.svg">
@@ -7014,7 +7014,7 @@ div#headshots {
 
 <div id="nv-image-55396bfa3d" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/Delta-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/Delta-logo.svg" data-title="Delta Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/delta-electronics-netherlands-/N1478738?editor=visitorView&amp;scene-node=s4o94vzm&amp;exhibitor=7m53rr4e&amp;tdom-loc=cw6httcs" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=s4o94vzm&amp;exhibitor=7m53rr4e&amp;tdom-loc=cw6httcs" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Delta Logo" title="Delta Logo" data-analytics="nv-image-55396bfa3d" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/Delta-logo.svg">
@@ -7031,7 +7031,7 @@ div#headshots {
 
 <div id="nv-image-875bd5c0d0" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/edag-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/edag-logo.svg" data-title="Edag  Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/edag-production-solutions/N1582719?editor=visitorView&amp;scene-node=fz54dzcy&amp;exhibitor=p033pheq&amp;tdom-loc=fl21vp0o" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=fz54dzcy&amp;exhibitor=p033pheq&amp;tdom-loc=fl21vp0o" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Edag  Logo" title="Edag  Logo" data-analytics="nv-image-875bd5c0d0" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/edag-logo.svg">
@@ -7048,7 +7048,7 @@ div#headshots {
 
 <div id="nv-image-5e35ceefe6" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/fogsphere.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/fogsphere.svg" data-title="Fogsphere Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/invisible-ai/N1606613" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Fogsphere Logo" title="Fogsphere Logo" data-analytics="nv-image-5e35ceefe6" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/fogsphere.svg">
@@ -7065,7 +7065,7 @@ div#headshots {
 
 <div id="nv-image-8f0851856c" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/hannover-messe/_jcr_content/root/responsivegrid/nv_container_7530011/nv_container/nv_image_copy_436936_602101862.coreimg.svg.svg/1776421103366/gtc24-spring-partner-logo-ibm-1250x703.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc24-spring-partner-logo-ibm-1250x703.svg" data-title="IBM Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/ibm-deutschland/N1577150?editor=visitorView" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="IBM Logo" title="IBM Logo" data-analytics="nv-image-8f0851856c" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7082,7 +7082,7 @@ div#headshots {
 
 <div id="nv-image-cbe6e1616d" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/invisible-ai-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/invisible-ai-logo.svg" data-title="Invisible AI Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/invisible-ai/N1606613" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Invisible AI Logo" title="Invisible AI Logo" data-analytics="nv-image-cbe6e1616d" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/invisible-ai-logo.svg">
@@ -7099,7 +7099,7 @@ div#headshots {
 
 <div id="nv-image-f6a48f5517" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/hannover-messe/_jcr_content/root/responsivegrid/nv_container_7530011/nv_container/nv_image_copy_436936_856401673.coreimg.svg.svg/1776421103383/hexagon-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/hexagon-logo.svg" data-title="Hexagon Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://go.manufacturing.hexagon.com/hannover-messe-2026/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Hexagon Logo" title="Hexagon Logo" data-analytics="nv-image-f6a48f5517" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7116,7 +7116,7 @@ div#headshots {
 
 <div id="nv-image-6828161a52" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/lenovo-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/lenovo-logo.svg" data-title="Lenovo Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/lenovo-united-states-/N1566161?editor=visitorView&amp;scene-node=wyiajtm0&amp;exhibitor=m2n1z5ib&amp;tdom-loc=g6nmqufp" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=wyiajtm0&amp;exhibitor=m2n1z5ib&amp;tdom-loc=g6nmqufp" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Lenovo Logo" title="Lenovo Logo" data-analytics="nv-image-6828161a52" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/lenovo-logo.svg">
@@ -7133,7 +7133,7 @@ div#headshots {
 
 <div id="nv-image-030fba12f9" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg" data-title="microsoft Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/microsoft/N1479704" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="microsoft Logo" title="microsoft Logo" data-analytics="nv-image-030fba12f9" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg">
@@ -7167,7 +7167,7 @@ div#headshots {
 
 <div id="nv-image-49293c0998" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/pny-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/pny-logo.svg" data-title="PNY Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/pny-technologies-quadro/N1476438" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="PNY Logo" title="PNY Logo" data-analytics="nv-image-49293c0998" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/pny-logo.svg">
@@ -7184,7 +7184,7 @@ div#headshots {
 
 <div id="nv-image-a20a708aee" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/ces/2026/ptc-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/ces/2026/ptc-logo.svg" data-title="PTC Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/ptc/N1485100?editor=visitorView&amp;scene-node=xz2vf2ju&amp;exhibitor=o68wab42&amp;tdom-loc=phyvc95g" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=xz2vf2ju&amp;exhibitor=o68wab42&amp;tdom-loc=phyvc95g" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="PTC Logo" title="PTC Logo" data-analytics="nv-image-a20a708aee" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/ces/2026/ptc-logo.svg">
@@ -7201,7 +7201,7 @@ div#headshots {
 
 <div id="nv-image-03283cf16b" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/realsense-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/realsense-logo.svg" data-title="RealSense Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/realsense/N1605554" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="RealSense Logo" title="RealSense Logo" data-analytics="nv-image-03283cf16b" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/realsense-logo.svg">
@@ -7218,7 +7218,7 @@ div#headshots {
 
 <div id="nv-image-156125ccc9" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtcParis-web-logo-sap-1250x703.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtcParis-web-logo-sap-1250x703.svg" data-title="SAP Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/sap/N1477395?editor=visitorView&amp;scene-node=wyiajtm0&amp;exhibitor=ezm8z9lh&amp;tdom-loc=hz6vavwm" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=wyiajtm0&amp;exhibitor=ezm8z9lh&amp;tdom-loc=hz6vavwm" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="SAP Logo" title="SAP Logo" data-analytics="nv-image-156125ccc9" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtcParis-web-logo-sap-1250x703.svg">
@@ -7235,7 +7235,7 @@ div#headshots {
 
 <div id="nv-image-3dceb28334" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/hannover-messe/_jcr_content/root/responsivegrid/nv_container_7530011/nv_container/nv_image_copy_436936_2119421313.coreimg.svg.svg/1776421103453/schneider-electric-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/schneider-electric-logo.svg" data-title="Schneider Electric Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/schneider-electric/N1480297" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Schneider Electric Logo" title="Schneider Electric Logo" data-analytics="nv-image-3dceb28334" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7252,7 +7252,7 @@ div#headshots {
 
 <div id="nv-image-85d966f2cf" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/siemens-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/siemens-logo.svg" data-title="Siemens AG Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.siemens.com/en-us/events/hannover-messe/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Siemens AG Logo" title="Siemens AG Logo" data-analytics="nv-image-85d966f2cf" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/siemens-logo.svg">
@@ -7269,7 +7269,7 @@ div#headshots {
 
 <div id="nv-image-aaf00698e8" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/softserve-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/softserve-logo.svg" data-title="Softserve Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/softserve-systems/N1614856" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Softserve Logo" title="Softserve Logo" data-analytics="nv-image-aaf00698e8" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/softserve-logo.svg">
@@ -7286,7 +7286,7 @@ div#headshots {
 
 <div id="nv-image-6b161d58a3" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/hannover-messe/_jcr_content/root/responsivegrid/nv_container_7530011/nv_container/nv_image_copy_436936_1208699756.coreimg.svg.svg/1776421103479/synopsys-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/synopsys-logo.svg" data-title="Synopsys Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/synopsys/N1614857" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Synopsys Logo" title="Synopsys Logo" data-analytics="nv-image-6b161d58a3" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -7303,7 +7303,7 @@ div#headshots {
 
 <div id="nv-image-18b791305c" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/omniverse/solutions/digital-twins/t-systems-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/omniverse/solutions/digital-twins/t-systems-logo.svg" data-title="T-Systems Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/t-systems-international/N1612801?editor=visitorView&amp;scene-node=w97c46oj&amp;exhibitor=sfebmejf&amp;tdom-loc=f9zst5c6" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=w97c46oj&amp;exhibitor=sfebmejf&amp;tdom-loc=f9zst5c6" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="T-Systems Logo" title="T-Systems Logo" data-analytics="nv-image-18b791305c" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/omniverse/solutions/digital-twins/t-systems-logo.svg">
@@ -7337,7 +7337,7 @@ div#headshots {
 
 <div id="nv-image-7332b1f9e0" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/tulip-interfaces-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/tulip-interfaces-logo.svg" data-title="Tulip Interfaces Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/tulip-interfaces/N1483674?editor=visitorView&amp;scene-node=wyiajtm0&amp;exhibitor=dmammely&amp;tdom-loc=pmlqz11w" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?editor=visitorView&amp;scene-node=wyiajtm0&amp;exhibitor=dmammely&amp;tdom-loc=pmlqz11w" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Tulip Interfaces Logo" title="Tulip Interfaces Logo" data-analytics="nv-image-7332b1f9e0" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/tulip-interfaces-logo.svg">
@@ -7354,7 +7354,7 @@ div#headshots {
 
 <div id="nv-image-c2778a366d" class="cmp-image             
      d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/wandelbots-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/wandelbots-logo.svg" data-title="Wandelbots Logo" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.hannovermesse.de/exhibitor/wandelbots/N1605636" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Wandelbots Logo" title="Wandelbots Logo" data-analytics="nv-image-c2778a366d" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/wandelbots-logo.svg">
@@ -7910,7 +7910,7 @@ div#headshots {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-4649dd82d2-cta-7e86b489a6" rel="noopener noreferrer" href="https://developer.nvidia.com/join-nvidia-developer-program">Join the NVIDIA Developer Program 
+    <a class="cmp-teaser__action-link nv-teaser-text-link nv-teaser-cta-small " target="_blank" id="teaser-4649dd82d2-cta-7e86b489a6" rel="noopener noreferrer" href="./assets/developer.nvidia.com/join-nvidia-developer-program">Join the NVIDIA Developer Program 
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8933,11 +8933,11 @@ div#headshots {
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -9084,7 +9084,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',

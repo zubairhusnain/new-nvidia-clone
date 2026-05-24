@@ -152,7 +152,7 @@
 
 	<link rel="alternate" hreflang="en-ca" href="/geforce/broadcasting/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/geforce/broadcasting/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/geforce/broadcasting/">
 
@@ -2308,22 +2308,22 @@ var NVIDIAGDC = NVIDIAGDC || {};
             }    
         }
     };
-    nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-    nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-    nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+    nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+    nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+    nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
     nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
     nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-    nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+    nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
     nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
     nvidiaGDC.addProperty('web', 'q3', '');
-    nvidiaGDC.addProperty('web', 'gfDriversNvServicesUrlEndpoint', 'https://gfwsl.geforce.com/nvidia_web_services');
-    nvidiaGDC.addProperty('web', 'gfDriversServicesToolkitUrlEndpoint', 'https://gfwsl.geforce.com/services_toolkit');
+    nvidiaGDC.addProperty('web', 'gfDriversNvServicesUrlEndpoint', '/');
+    nvidiaGDC.addProperty('web', 'gfDriversServicesToolkitUrlEndpoint', '/');
     nvidiaGDC.addProperty('web', 'gfDriversLangPathMappingObject', '{"cs-cz" :  { "LCID": [1029],"code": "cs-CZ","name": "čeština (Czech)","isoThreeLetter": "ces","countryCode": "CZ"},"da-dk" :  { "LCID": [1030],"code": "da-DK","name": "Dansk (Danish)","isoThreeLetter": "dan","countryCode": "DK"},"de-de" :  { "LCID": [1031],"code": "de-DE","name": "Deutsch (German)","isoThreeLetter": "deu","countryCode": "DE"},"el-gr" :  { "LCID": [1032],"code": "el-GR","name": "ελληνικά (Greek)","isoThreeLetter": "ell","countryCode": "GR"},"en-zz" :  { "LCID": [1033],"code": "en-US","name": "English (United States)","isoThreeLetter": "eng","countryCode": "US"},"en-us" :  { "LCID": [1033],"code": "en-US","name": "English (United States)","isoThreeLetter": "eng","countryCode": "US"},"en-gb" :  { "LCID": [1078],"code": "en-GB","name": "English (United Kingdom)","isoThreeLetter": "eng","countryCode": "GB"},"en-in" :  { "LCID": [1093],"code": "en-IN","name": "English (India)","isoThreeLetter": "ind","countryCode": "IN"},"es-es" :  { "LCID": [1069],"code": "es-ES","name": "Español (Spanish - Spain)","isoThreeLetter": "spa","countryCode": "ES"},"es-la" :  { "LCID": [11274],"code": "es-MX","cmsCode": "es_LA","name": "Español (Spanish - Mexico)","isoThreeLetter": "spa","countryCode": "LA"},"fi-fi" :  { "LCID": [1035],"code": "fi-FI","name": "Suomi (Finnish)","isoThreeLetter": "fin","countryCode": "FI"},"fr-fr" :  { "LCID": [1036],"code": "fr-FR","name": "Français (French)","isoThreeLetter": "fra","countryCode": "FR"},"hu-xx" :  { "LCID": [1038],"code": "hu-HU","name": "Magyar (Hungarian)","isoThreeLetter": "hun","countryCode": "HU"},"it-it" :  { "LCID": [1040],"code": "it-IT","name": "Italiano (Italian - Italy)","isoThreeLetter": "ita","countryCode": "IT"},"ja-jp" :  { "LCID": [1041],"code": "ja-JP","name": "日本語 (Japanese)","isoThreeLetter": "jpn","countryCode": "JP"},"ko-kr" :  { "LCID": [1042],"code": "ko-KR","name": "한국어´ (Korean)","isoThreeLetter": "kor","countryCode": "KR"},"nl-nl" :  { "LCID": [1043],"code": "nl-NL","name": "Nederlands (Dutch - Netherlands)","isoThreeLetter": "nld","countryCode": "NL"},"nb-no" :  { "LCID": [1044],"code": "nb-NO","name": "Norsk (Norwegian)","isoThreeLetter": "nor","countryCode": "NO"},"pl-pl" :  { "LCID": [1045],"code": "pl-PL","name": "Polski (Polish)","isoThreeLetter": "pol","countryCode": "PL"},"pt-pt" :  { "LCID": [2070],"code": "pt-PT","name": "Português (Portuguese - Portugal)","isoThreeLetter": "por","countryCode": "PT"},"pt-br" :  { "LCID": [1046],"code": "pt-BR","name": "Português-Brasil (Portuguese - Brazil)","isoThreeLetter": "por","countryCode": "BR"},"ru-ru" :  { "LCID": [2092],"code": "ru-RU","name": "Русский (Russian)","isoThreeLetter": "rus","countryCode": "RU"},"sk-xx" :  { "LCID": [1051],"code": "sk-SK","name": "slovenských (Slovak)","isoThreeLetter": "slk","countryCode": "SK"},"sl-xx" :  { "LCID": [1060],"code": "sl-SI","name": "slovenski (Slovenian)","isoThreeLetter": "slv","countryCode": "SI"},"sv-se" :  { "LCID": [1053],"code": "sv-SE","name": "Svenska (Swedish)","isoThreeLetter": "swe","countryCode": "SE"},"th-th" :  { "LCID": [1054],"code": "th-TH","name": "ไทย (Thai)","isoThreeLetter": "tha","countryCode": "TH"},"tr-tr" :  { "LCID": [1055],"code": "tr-TR","name": "Türkçe (Turkish)&","isoThreeLetter": "tur","countryCode": "TR"},"zh-cn" :  { "LCID": [2052],"code": "zh-CHS","cmsCode": "zh_CN","name": "简体中文 (Chinese - Simplified)","isoThreeLetter": "zho","countryCode": "CN"},"zh-tw" :  { "LCID": [1028],"code": "zh-CHT","cmsCode": "zh_TW","name": "繁體中文 (Chinese - Traditional)","isoThreeLetter": "twn","countryCode": "TW"},"en-eu" :  { "LCID": [1078],"code": "en-GB","name": "English (United Kingdom)","isoThreeLetter": "eng","countryCode": "GB"},"en-me" :  { "LCID": [1078],"code": "en-GB","name": "English (United Kingdom)","isoThreeLetter": "eng","countryCode": "GB"},"fr-be" :  { "LCID": [1036],"code": "fr-FR","name": "Français (French)","isoThreeLetter": "fra","countryCode": "FR"},"de-at" :  { "LCID": [1031],"code": "de-DE","name": "Deutsch (German)","isoThreeLetter": "deu","countryCode": "DE"},"en-au" :  { "LCID": [1033],"code": "en-US","name": "English (United States)","isoThreeLetter": "eng","countryCode": "US"},"en-sg" :  { "LCID": [1033],"code": "en-US","name": "English (United States)","isoThreeLetter": "eng","countryCode": "US"},"zz-zz" :  { "LCID": [9999],"code": "zz-DFLT","cmsCode": "zz_DFLT","name": "Default Static ExternalServicesImpl","isoThreeLetter": "DFLT","countryCode": "DFLT"}}');
     nvidiaGDC.addProperty('web', 'thisCfgFilename', 'config.publish.prod/com.nvidia.nvidiagdc.components.service.impl.ExternalServicesImpl.xml');
-    nvidiaGDC.addProperty('apps', 'searchjs', 'https://api-prod.nvidia.com/search/nvidia-search-page-widget.js');
-    nvidiaGDC.addProperty('apps', 'searchsrvc', 'https://api-prod.nvidia.com/search/graphql');
+    nvidiaGDC.addProperty('apps', 'searchjs', './assets/api-prod.nvidia.com/search/nvidia-search-page-widget.js');
+    nvidiaGDC.addProperty('apps', 'searchsrvc', './assets/api-prod.nvidia.com/search/graphql');
 })(NVIDIAGDC);
 </script>
 <script src="../../assets/www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_preload.min.3771ce0a94c02fd925cfa5723ce4dbe6.js"></script>
@@ -3553,8 +3553,8 @@ var nvidiaGDClog = function() {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -3578,7 +3578,7 @@ var nvidiaGDClog = function() {
                       
 
 <noscript>
-	<div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+	<div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
     
 
@@ -4233,7 +4233,7 @@ var nvidiaGDClog = function() {
     				
 				
 
-            	<div class="description color-white  body-text"><p>Meet the NVIDIA Encoder (NVENC). NVENC is an independent section of <a href="https://developer.nvidia.com/video-encode-decode-gpu-support-matrix">your GeForce® GPU</a> used to encode video, lifting the strain from your CPU. This frees up the system to run your games and tackle other resource-intensive tasks so you can focus on what’s truly important: delivering a show-stopping broadcast.</p></div>
+            	<div class="description color-white  body-text"><p>Meet the NVIDIA Encoder (NVENC). NVENC is an independent section of <a href="./assets/developer.nvidia.com/video-encode-decode-gpu-support-matrix">your GeForce® GPU</a> used to encode video, lifting the strain from your CPU. This frees up the system to run your games and tackle other resource-intensive tasks so you can focus on what’s truly important: delivering a show-stopping broadcast.</p></div>
             
             <div class="text-button">
 				<div class="textCmpEnhancedButton-par parsys">
@@ -4313,8 +4313,7 @@ var nvidiaGDClog = function() {
 								
                                     <video id="videovideocomponent5e787eda_81ae_467e_9a74_32f0cb9829c7" preload="auto" width="100%" autoplay=" loop=" muted="">
                                         <source src=" type=" video="" webm"="">
-                                        <source src="https://images.nvidia.com/aem-dam/Solutions/geforce/geforce-broadcasting/landing-page/gpu.mp4
-" type="video/mp4">
+                                        <source src="./assets/images.nvidia.com/aem-dam/Solutions/geforce/geforce-broadcasting/landing-page/gpu.mp4" type="video/mp4">
                                     </video>
 							    
 							
@@ -4364,8 +4363,7 @@ var nvidiaGDClog = function() {
 								
                                     <video id="videovideocomponent71df8011_345f_4e48_8649_617042e772c8" preload="auto" width="100%" autoplay=" loop=" muted="">
                                         <source src=" type=" video="" webm"="">
-                                        <source src="https://images.nvidia.com/aem-dam/Solutions/geforce/geforce-broadcasting/landing-page/cpu-2.mp4
-" type="video/mp4">
+                                        <source src="./assets/images.nvidia.com/aem-dam/Solutions/geforce/geforce-broadcasting/landing-page/cpu-2.mp4" type="video/mp4">
                                     </video>
 							    
 							
@@ -4719,7 +4717,7 @@ var nvidiaGDClog = function() {
 							<div class="youtube-container">
 							
 								 
-								<iframe width="840" height="472" id="playervideocomponentc4f75003_fd96_4c9b_800e_e4411fac26d7" src="https://www.youtube.com/embed/viWuC4MMXWc?autoplay=1&amp;mute=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container {display: flex;justify-content:center;cursor: pointer;}.play-button{width: 68px;height: 48px;}.ytp-large-play-button-bg{fill: #212121;fill-opacity: .8;}.play-button-container:hover .ytp-large-play-button-bg{fill:#f00;fill-opacity: 1;}</style><a href=https://www.youtube.com/embed/viWuC4MMXWc?autoplay=1&amp;mute=1><img src='https://img.youtube.com/vi/viWuC4MMXWc/hqdefault.jpg' alt=''><span class='play-button-container'><span class='play-button'><svg height='100%' version='1.1' viewBox='0 0 68 48' width='100%'><path class='ytp-large-play-button-bg' d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path><path d='M 45,24 27,14 27,34' fill='#fff'></path></svg></span></span></a>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=" loading=" lazy"=""></iframe>
+								<iframe width="840" height="472" id="playervideocomponentc4f75003_fd96_4c9b_800e_e4411fac26d7" src="./assets/www.youtube.com/embed/viWuC4MMXWc?autoplay=1&amp;mute=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container {display: flex;justify-content:center;cursor: pointer;}.play-button{width: 68px;height: 48px;}.ytp-large-play-button-bg{fill: #212121;fill-opacity: .8;}.play-button-container:hover .ytp-large-play-button-bg{fill:#f00;fill-opacity: 1;}</style><a href=./assets/www.youtube.com/embed/viWuC4MMXWc?autoplay=1&amp;mute=1><img src='./assets/img.youtube.com/vi/viWuC4MMXWc/hqdefault.jpg' alt=''><span class='play-button-container'><span class='play-button'><svg height='100%' version='1.1' viewBox='0 0 68 48' width='100%'><path class='ytp-large-play-button-bg' d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path><path d='M 45,24 27,14 27,34' fill='#fff'></path></svg></span></span></a>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=" loading=" lazy"=""></iframe>
 									
 								
 								
@@ -5785,7 +5783,7 @@ function drawHorizontalGroupedBarChart(chartContainer, barData, legendData, tick
     // Add milestone line
     if (milestone) {
         // It appears D3 adds .5 to ticks to get crispEdges for Safari
-        // (see https://github.com/d3/d3-axis/issues/8)
+        // (see /)
         var milestoneX = x(milestone.value) + .5;
         g.append("line")
             .attr("class", "milestone " + milestone.class)
@@ -5937,7 +5935,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_copy718d9dfb_3ee5_47b5_a62e_5a79b731ec18" class="image-container  p-t-0 p-b-15 lap-p-t-0 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -5976,7 +5974,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://obsproject.com/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -5992,7 +5990,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_copy_702561647cf8d3702_fe53_4227_b8f5_74b82de83814" class="image-container  p-t-30 p-b-15 lap-p-t-30 lap-p-b-15 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://www.xsplit.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -6031,7 +6029,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://www.xsplit.com/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -6047,7 +6045,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_1823863507566fad9b_5e4b_46e7_b085_5cf3a69dbf30" class="image-container  p-t-30 p-b-15 lap-p-t-30 lap-p-b-15 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://streamlabs.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -6086,7 +6084,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://streamlabs.com/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -6102,7 +6100,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_2069360000329dd20b_bca7_4bd9_a857_d0db8f8ba849" class="image-container  p-t-30 p-b-15 lap-p-t-30 lap-p-b-15 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://streamelements.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -6141,7 +6139,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://streamelements.com/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -6157,7 +6155,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_1883191350fc55beb7_ec3f_4cf3_82b2_5ba5a8d7536f" class="image-container  p-t-30 p-b-15 lap-p-t-30 lap-p-b-15 tab-p-t-30 tab-p-b-15 mob-p-t-30 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://discordapp.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -6196,7 +6194,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://discordapp.com/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -6446,7 +6444,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 							<div class="youtube-container">
 							
 								 
-								<iframe width="840" height="472" id="playervideocomponent29ec6556_e6a9_4ec0_81b8_713e6350a148" src="https://www.youtube.com/embed/bpoDanWJ4Cw?autoplay=1&amp;mute=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container {display: flex;justify-content:center;cursor: pointer;}.play-button{width: 68px;height: 48px;}.ytp-large-play-button-bg{fill: #212121;fill-opacity: .8;}.play-button-container:hover .ytp-large-play-button-bg{fill:#f00;fill-opacity: 1;}</style><a href=https://www.youtube.com/embed/bpoDanWJ4Cw?autoplay=1&amp;mute=1><img src='https://img.youtube.com/vi/bpoDanWJ4Cw/hqdefault.jpg' alt=''><span class='play-button-container'><span class='play-button'><svg height='100%' version='1.1' viewBox='0 0 68 48' width='100%'><path class='ytp-large-play-button-bg' d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path><path d='M 45,24 27,14 27,34' fill='#fff'></path></svg></span></span></a>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=" loading=" lazy"=""></iframe>
+								<iframe width="840" height="472" id="playervideocomponent29ec6556_e6a9_4ec0_81b8_713e6350a148" src="./assets/www.youtube.com/embed/bpoDanWJ4Cw?autoplay=1&amp;mute=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container {display: flex;justify-content:center;cursor: pointer;}.play-button{width: 68px;height: 48px;}.ytp-large-play-button-bg{fill: #212121;fill-opacity: .8;}.play-button-container:hover .ytp-large-play-button-bg{fill:#f00;fill-opacity: 1;}</style><a href=./assets/www.youtube.com/embed/bpoDanWJ4Cw?autoplay=1&amp;mute=1><img src='./assets/img.youtube.com/vi/bpoDanWJ4Cw/hqdefault.jpg' alt=''><span class='play-button-container'><span class='play-button'><svg height='100%' version='1.1' viewBox='0 0 68 48' width='100%'><path class='ytp-large-play-button-bg' d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path><path d='M 45,24 27,14 27,34' fill='#fff'></path></svg></span></span></a>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=" loading=" lazy"=""></iframe>
 									
 								
 								
@@ -6662,7 +6660,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
     				
 				
 
-            	<div class="description color-white  body-text"><p><a href="https://www.geforce.com/whats-new/guides/xsplit-broadcasting-guide">XSplit Guide</a></p></div>
+            	<div class="description color-white  body-text"><p><a href="/">XSplit Guide</a></p></div>
             
             <div class="text-button">
 				<div class="textCmpEnhancedButton-par parsys">
@@ -6751,7 +6749,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
     				
 				
 
-            	<div class="description color-white  body-text"><p><a href="https://blog.streamlabs.com/superb-video-and-sound-quality-with-streamlabs-obs-18532118eff2" target="_blank" rel="noopener noreferrer">Streamlabs Guide</a></p></div>
+            	<div class="description color-white  body-text"><p><a href="/" target="_blank" rel="noopener noreferrer">Streamlabs Guide</a></p></div>
             
             <div class="text-button">
 				<div class="textCmpEnhancedButton-par parsys">
@@ -7054,7 +7052,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_2097066787_copb0345b3d_bed0_4570_9832_492b3f76c29f" class="image-container  p-t-15 p-b-15 lap-p-t-15 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -7093,7 +7091,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://www.twitch.tv/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -7119,7 +7117,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_copy0e2c821f_4be6_4550_b479_f21271d7d309" class="image-container  p-t-75 p-b-15 lap-p-t-75 lap-p-b-15 tab-p-t-75 tab-p-b-15 mob-p-t-15 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="./assets/www.youtube.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -7158,7 +7156,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://www.youtube.com/',
+        		imageTargetURL:'./assets/www.youtube.com/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -7184,7 +7182,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_copy_copy_copyed10a71d_b9cd_4404_a96b_dc2a96d410a8" class="image-container  p-t-60 p-b-15 lap-p-t-60 lap-p-b-15 tab-p-t-60 tab-p-b-15 mob-p-t-15 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://www.facebook.com/live/create" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -7223,7 +7221,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://www.facebook.com/live/create',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -7249,7 +7247,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 		<div id="image_copy_copy_2028e8e63208_db48_4062_8433_d6c417edea79" class="image-container  p-t-75 p-b-0 lap-p-t-75 lap-p-b-0 tab-p-t-60 tab-p-b-15 mob-p-t-15 mob-p-b-15">
 			<div class="imgwidth ">
 				
-					<a href="https://discordapp.com/" target="_blank" rel="noopener noreferrer" class="imageLink">
+					<a href="/" target="_blank" rel="noopener noreferrer" class="imageLink">
 				
 					
 										
@@ -7288,7 +7286,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
         		imageLaptopCustWidth:'',
         		imageTabletCustWidth:'',
         		imagePhoneCustWidth:'',
-        		imageTargetURL:'https://discordapp.com/',
+        		imageTargetURL:'/',
             	oldBreakPointValue: 'true',
             	lazyloded: true
 			}]
@@ -7513,7 +7511,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 							<div class="youtube-container">
 							
 								 
-								<iframe width="840" height="472" id="playervideocomponent5ed0b010_f133_4876_ad14_c917f3013be9" src="https://www.youtube.com/embed/Tk7Zbzd-6fs?autoplay=1&amp;mute=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container {display: flex;justify-content:center;cursor: pointer;}.play-button{width: 68px;height: 48px;}.ytp-large-play-button-bg{fill: #212121;fill-opacity: .8;}.play-button-container:hover .ytp-large-play-button-bg{fill:#f00;fill-opacity: 1;}</style><a href=https://www.youtube.com/embed/Tk7Zbzd-6fs?autoplay=1&amp;mute=1><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/geforce-broadcasting/landing-page/geforce-rtx-broadcasting-ray-tracing-video-thumb-1920x1080.jpg' alt='geforce-rtx-broadcasting-ray-tracing-video-thumb-1920x1080'><span class='play-button-container'><span class='play-button'><svg height='100%' version='1.1' viewBox='0 0 68 48' width='100%'><path class='ytp-large-play-button-bg' d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path><path d='M 45,24 27,14 27,34' fill='#fff'></path></svg></span></span></a>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=" loading=" lazy"=""></iframe>
+								<iframe width="840" height="472" id="playervideocomponent5ed0b010_f133_4876_ad14_c917f3013be9" src="./assets/www.youtube.com/embed/Tk7Zbzd-6fs?autoplay=1&amp;mute=1" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container {display: flex;justify-content:center;cursor: pointer;}.play-button{width: 68px;height: 48px;}.ytp-large-play-button-bg{fill: #212121;fill-opacity: .8;}.play-button-container:hover .ytp-large-play-button-bg{fill:#f00;fill-opacity: 1;}</style><a href=./assets/www.youtube.com/embed/Tk7Zbzd-6fs?autoplay=1&amp;mute=1><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/geforce-broadcasting/landing-page/geforce-rtx-broadcasting-ray-tracing-video-thumb-1920x1080.jpg' alt='geforce-rtx-broadcasting-ray-tracing-video-thumb-1920x1080'><span class='play-button-container'><span class='play-button'><svg height='100%' version='1.1' viewBox='0 0 68 48' width='100%'><path class='ytp-large-play-button-bg' d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path><path d='M 45,24 27,14 27,34' fill='#fff'></path></svg></span></span></a>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=" loading=" lazy"=""></iframe>
 									
 								
 								
@@ -8976,7 +8974,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 	
 		<div class="text-center lap-text-center tab-text-center mob-text-center p-t-15 p-b-15 lap-p-t-15 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15 mobile-align ">
 			<div class="noicon  ">
-				<a href="https://marketplace.nvidia.com/en-us/consumer/graphics-cards/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" data-width="1061" data-height="500" data-analytics="btn-manual:notify-me-5090-btn" data-title="See All Buying Options" data-href="https://marketplace.nvidia.com/en-us/consumer/graphics-cards/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" rel="noopener noreferrer" target="_blank" id="notify-me-5090-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
+				<a href="/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" data-width="1061" data-height="500" data-analytics="btn-manual:notify-me-5090-btn" data-title="See All Buying Options" data-href="/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" rel="noopener noreferrer" target="_blank" id="notify-me-5090-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
 			</div>
 		</div>	
 	
@@ -9099,7 +9097,7 @@ createGroupedHorizontalBarChart(chart, barData, legendData, ticks, xAxisLabel, y
 	
 		<div class="text-center lap-text-center tab-text-center mob-text-center p-t-15 p-b-15 lap-p-t-15 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15 mobile-align ">
 			<div class="noicon  ">
-				<a href="https://marketplace.nvidia.com/en-us/consumer/gaming-desktops/?locale=en-us&amp;page=1&amp;limit=12&amp;category=DESKTOP&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" data-width="1061" data-height="500" data-analytics="btn-manual:notify-me-5090-desktop-btn" data-title="See All Buying Options" data-href="https://marketplace.nvidia.com/en-us/consumer/gaming-desktops/?locale=en-us&amp;page=1&amp;limit=12&amp;category=DESKTOP&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" rel="noopener noreferrer" target="_blank" id="notify-me-5090-desktop-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
+				<a href="/?locale=en-us&amp;page=1&amp;limit=12&amp;category=DESKTOP&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" data-width="1061" data-height="500" data-analytics="btn-manual:notify-me-5090-desktop-btn" data-title="See All Buying Options" data-href="/?locale=en-us&amp;page=1&amp;limit=12&amp;category=DESKTOP&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060%20Ti,RTX%205060" rel="noopener noreferrer" target="_blank" id="notify-me-5090-desktop-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
 			</div>
 		</div>	
 	
@@ -9416,7 +9414,7 @@ console.log('desktop btn clicked');
 	
 		<div class="text-center lap-text-center tab-text-center mob-text-center p-t-15 p-b-15 lap-p-t-15 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15 mobile-align ">
 			<div class="noicon  ">
-				<a href="https://marketplace.nvidia.com/en-us/consumer/gaming-laptops/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050" data-width="1061" data-height="550" data-analytics="btn-manual:notify-me-5090-laptops-btn" data-title=" data-href=" https:="" marketplace.nvidia.com="" en-us="" consumer="" gaming-laptops="" ?locale="en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050&quot;" rel="noopener noreferrer" target="_blank" id="notify-me-5090-laptops-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
+				<a href="/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050" data-width="1061" data-height="550" data-analytics="btn-manual:notify-me-5090-laptops-btn" data-title=" data-href=" https:="" marketplace.nvidia.com="" en-us="" consumer="" gaming-laptops="" ?locale="en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050&quot;" rel="noopener noreferrer" target="_blank" id="notify-me-5090-laptops-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
 			</div>
 		</div>	
 	
@@ -9539,7 +9537,7 @@ console.log('desktop btn clicked');
 	
 		<div class="text-center lap-text-center tab-text-center mob-text-center p-t-15 p-b-15 lap-p-t-15 lap-p-b-15 tab-p-t-15 tab-p-b-15 mob-p-t-15 mob-p-b-15 mobile-align ">
 			<div class="noicon  ">
-				<a href="https://marketplace.nvidia.com/en-us/consumer/studio-laptops/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050" data-width="1061" data-height="445" data-analytics="btn-manual:laptops-notify-me-btn" data-title="See All Buying Options" data-href="https://marketplace.nvidia.com/en-us/consumer/studio-laptops/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050" rel="noopener noreferrer" target="_blank" id="laptops-notify-me-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
+				<a href="/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050" data-width="1061" data-height="445" data-analytics="btn-manual:laptops-notify-me-btn" data-title="See All Buying Options" data-href="/?locale=en-us&amp;page=1&amp;limit=12&amp;gpu=RTX%205090,RTX%205080,RTX%205070%20Ti,RTX%205070,RTX%205060,RTX%205050" rel="noopener noreferrer" target="_blank" id="laptops-notify-me-btn" class="  link-btn btn-manual brand-green small-btn " onclick="NVIDIAGDC.button.click(this, $(this).data(&quot;href&quot;),true, function() { ;return NVIDIAGDC.button.callbacks(this); }); return false;"><div class="btn"><span class="fas fa-shopping-cart"></span> See All Buying Options</div></a>
 			</div>
 		</div>	
 	
@@ -9977,11 +9975,11 @@ console.log('desktop btn clicked');
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -10128,7 +10126,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -10196,7 +10194,7 @@ try {
 	<div id="country-selector-modal">
 		<div class="cs-modal-content">
 			<div class="cs-title h4">Select Location</div>
-			<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/broadcasting/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/broadcasting/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/broadcasting/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/geforce/broadcasting/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/geforce/broadcasting/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/geforce/broadcasting/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/geforce/broadcasting/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/geforce/broadcasting/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/geforce/broadcasting/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/geforce/broadcasting/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/geforce/broadcasting/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/geforce/broadcasting/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/geforce/broadcasting/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/geforce/broadcasting/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/geforce/broadcasting/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/geforce/broadcasting/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/geforce/broadcasting/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/geforce/broadcasting/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/geforce/broadcasting/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/broadcasting/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/broadcasting/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/broadcasting/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/geforce/broadcasting/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/broadcasting/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/broadcasting/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/geforce/broadcasting/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/broadcasting/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/broadcasting/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/geforce/broadcasting/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+			<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/geforce/broadcasting/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/geforce/broadcasting/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/geforce/broadcasting/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/geforce/broadcasting/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/geforce/broadcasting/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/geforce/broadcasting/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/geforce/broadcasting/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/geforce/broadcasting/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/geforce/broadcasting/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/geforce/broadcasting/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/geforce/broadcasting/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/geforce/broadcasting/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/geforce/broadcasting/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/geforce/broadcasting/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/geforce/broadcasting/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/geforce/broadcasting/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/geforce/broadcasting/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/geforce/broadcasting/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/geforce/broadcasting/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/geforce/broadcasting/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/geforce/broadcasting/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/geforce/broadcasting/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/geforce/broadcasting/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/geforce/broadcasting/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/geforce/broadcasting/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/geforce/broadcasting/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/geforce/broadcasting/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/geforce/broadcasting/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/geforce/broadcasting/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 		</div>
 	</div>
 	<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

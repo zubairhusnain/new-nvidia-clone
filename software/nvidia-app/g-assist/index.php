@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="robots" content="NOODP,NOYDIR"> 
@@ -218,12 +218,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -3414,7 +3414,7 @@ a {
           <div class="geo-locator-cta">
               <div class="nv-button button nv-button-small nv-no-left-padding nv-no-right-padding nv-no-top-padding nv-no-bottom-padding">
                   <div class="nv-button-standard button-left button-lap-left button-tab-left button-mob-left">
-                      <a class="btn-content btncta" rel="noopener noreferrer" href="https://www.nvidia.com">
+                      <a class="btn-content btncta" rel="noopener noreferrer" href="/">
                           <span class="btn-text">Continue</span>
                       </a>
                   </div>
@@ -3852,7 +3852,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -3863,7 +3863,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4529,7 +4529,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/blueprints" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4595,7 +4595,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/rapids/" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/rapids/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4694,7 +4694,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/isaac/ros" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/isaac/ros" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4705,7 +4705,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/aerial" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/aerial" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4746,7 +4746,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://build.nvidia.com/explore/discover" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4768,7 +4768,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/dcgm" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/dcgm" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4779,7 +4779,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://developer.nvidia.com/tools-overview" target="_blank">
+															<a class="menu3-item-card" href="./assets/developer.nvidia.com/tools-overview" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -4790,7 +4790,7 @@ a {
 																</div>
 															</a>
 														
-															<a class="menu3-item-card" href="https://catalog.ngc.nvidia.com/" target="_blank">
+															<a class="menu3-item-card" href="/" target="_blank">
 																<div class="menu3-item-card-content">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
@@ -5740,7 +5740,7 @@ a {
 
 	<ul class="nv-menu-list right" aria-label="menu" role="menu">
 		
-			<li class="nv-menu-item" role="none"><a href="https://marketplace.nvidia.com/en-us/" class="menu-button-link menu-level-1" role="menuitem" target="_blank">Shop</a>
+			<li class="nv-menu-item" role="none"><a href="/" class="menu-button-link menu-level-1" role="menuitem" target="_blank">Shop</a>
 			</li>
 		
 			<li class="nv-menu-item" role="none"><a href="/drivers/" class="menu-button-link menu-level-1" role="menuitem" target="_self">Drivers</a>
@@ -6056,7 +6056,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">NVIDIA APIs</span>
@@ -6066,7 +6066,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://docs.nvidia.com/ngc/latest/ngc-private-registry-user-guide.html" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Private Registry</span>
@@ -6714,7 +6714,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/blueprints" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">AI Blueprints</span>
@@ -6774,7 +6774,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/rapids/" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/rapids/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Data Science - RAPIDS</span>
@@ -6864,7 +6864,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/isaac/ros" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/isaac/ros" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Robotics - Isaac</span>
@@ -6874,7 +6874,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/aerial" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/aerial" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Telecommunications - Aerial</span>
@@ -6916,7 +6916,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://build.nvidia.com/explore/discover" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">API Catalog</span>
@@ -6936,7 +6936,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/dcgm" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/dcgm" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">GPU Monitoring</span>
@@ -6946,7 +6946,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://developer.nvidia.com/tools-overview" target="_blank">
+																<a class="level-3-menu-item" href="./assets/developer.nvidia.com/tools-overview" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">Nsight</span>
@@ -6956,7 +6956,7 @@ a {
 																</a>
 															
 																
-																<a class="level-3-menu-item" href="https://catalog.ngc.nvidia.com/" target="_blank">
+																<a class="level-3-menu-item" href="/" target="_blank">
 																	<div class="nv-button button nv-button-text nv-button-caret">
 																		<div class="btn-content btncta">
 																			<span class="btn-text">NGC Catalog</span>
@@ -7748,7 +7748,7 @@ a {
 								<ul aria-label="menu" role="menu">
 									
 										<li class="menu-level-1" role="none">
-											<a href="https://marketplace.nvidia.com/en-us/" class="mm-btn-link" role="menuitem" target="_blank">Shop</a>
+											<a href="/" class="mm-btn-link" role="menuitem" target="_blank">Shop</a>
 										</li>
 									
 										<li class="menu-level-1" role="none">
@@ -8186,7 +8186,7 @@ a {
                                     
                                         
                                         
-                                            <a href="https://store.nvidia.com/en-us/geforce/store/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="sub-brand-link">Shop</a>
+                                            <a href="/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="sub-brand-link">Shop</a>
                                         
                                     
                                 </div>
@@ -8279,7 +8279,7 @@ a {
                                         <li class="more-element hide">
                                                 
                                                 
-                                                    <a href="https://store.nvidia.com/en-us/geforce/store/?page=1&amp;limit=9&amp;locale=en-us">Shop</a>
+                                                    <a href="/?page=1&amp;limit=9&amp;locale=en-us">Shop</a>
                                                 
                                             </li>
                                     
@@ -8648,7 +8648,7 @@ a {
                                 
                                     
                                     
-                                        <li><a href="https://store.nvidia.com/en-us/geforce/store/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="brand-nav-link">Shop</a></li>
+                                        <li><a href="/?page=1&amp;limit=9&amp;locale=en-us" target="_self" class="brand-nav-link">Shop</a></li>
                                     
                                 
                             
@@ -8686,8 +8686,8 @@ a {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -8712,7 +8712,7 @@ a {
  
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -8750,12 +8750,12 @@ a {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/g-assist-system-requirements/g-assist-ces26-nv-gf-hero-640-p.jpg," content=" dam=" en-zz=" solutions=" software=" nvidia-app=" g-assist-system-requirements=" g-assist-ces26-nv-gf-hero-640-p@2x.jpg=" 2x"=" data-srcset-tablet=" ..="" assets="" www.nvidia.com="" dam="" solutions="" nvidia-app="" g-assist-ces26-nv-gf-hero-1024-t.jpg,"="" g-assist-ces26-nv-gf-hero-1024-t@2x.jpg=" data-srcset-laptop=" g-assist-ces26-nv-gf-hero-1350-l.jpg,"="" g-assist-ces26-nv-gf-hero-1350-l@2x.jpg=" data-srcset-desktop=" g-assist-ces26-nv-gf-hero-2560-d.jpg,"="" g-assist-ces26-nv-gf-hero-2560-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-640-p.jpg,"="" 2x"=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-1024-t.jpg,"="" 2x"=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-1350-l.jpg,"="" 2x"=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-2560-d.jpg,"="" 2x"=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-640-p.jpg,"="" 2x"=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-1024-t.jpg,"="" 2x"=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-1350-l.jpg,"="" 2x"=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" software="" nvidia-app="" g-assist-system-requirements="" g-assist-ces26-nv-gf-hero-2560-d.jpg,"="" 2x"=" media=" (min-width:1350px)"="">
                 
-                    <img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/g-assist-system-requirements/g-assist-ces26-nv-gf-hero-2560-d.jpg" alt=" title=" id="image-container-78fab0bd8a" onload="window.initLazyLoadingImages('container-78fab0bd8a');" srcset=" /content/dam/en-zz/Solutions/software/nvidia-app/g-assist-system-requirements/g-assist-ces26-nv-gf-hero-2560-d@2x.jpg 2x">
+                    <img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/g-assist-system-requirements/g-assist-ces26-nv-gf-hero-2560-d.jpg" alt=" title=" id="image-container-78fab0bd8a" onload="window.initLazyLoadingImages('container-78fab0bd8a');" srcset="/content/dam/en-zz/Solutions/software/nvidia-app/g-assist-system-requirements/g-assist-ces26-nv-gf-hero-2560-d@2x.jpg 2x">
                 
                 
             </picture>
@@ -9113,7 +9113,7 @@ a {
 <p><strong>Plug-in Improvements</strong></p> 
 <ul> 
  <li><strong>Streamlined Plug-in Installation:</strong> Users can now download plugins directly in G-Assist, and use them instantly, with no restart required. Just ask for what plugins are available and then indicate the one you want to download.</li> 
- <li>New Cursor-based Plug-in Builder for vibe coding plug-ins, using Cursor’s AI-enabled integrated dev environment. The new Plug-in Builder also enables developers to quickly turn their MCP servers into G-Assist plug-ins. Access the new Plug-in Builder from this <a href="https://github.com/NVIDIA/G-Assist/tree/dev/prerelease/v2.0/plugins/plugin-builder/cursor" target="_blank">link</a>.</li> 
+ <li>New Cursor-based Plug-in Builder for vibe coding plug-ins, using Cursor’s AI-enabled integrated dev environment. The new Plug-in Builder also enables developers to quickly turn their MCP servers into G-Assist plug-ins. Access the new Plug-in Builder from this <a href="/" target="_blank">link</a>.</li> 
 </ul> 
 <p><strong>User Experience Improvements</strong></p> 
 <ul> 
@@ -9181,12 +9181,12 @@ a {
  <li>Intelligently resolves ambiguous commands by automatically selecting the optimal tool / plug-in</li> 
  <li>Performance, stability and UX improvements</li> 
 </ul> 
-<p>Discover Plug-ins on <a href="http://mod.io/g/g-assist" target="_blank">Mod.io</a></p> 
+<p>Discover Plug-ins on <a href="/" target="_blank">Mod.io</a></p> 
 <p>Plug-ins are lightweight add-ons that extend G-Assist’s capabilities.</p> 
 <ul> 
- <li>Easily browse, discover, share, and install plug-ins through <a href="http://mod.io/g/g-assist" target="_blank">Mod.io</a></li> 
+ <li>Easily browse, discover, share, and install plug-ins through <a href="/" target="_blank">Mod.io</a></li> 
  <li>Community-built plug-ins enabling integrations with Logitech, Corsair, MSI, Discord, Twitch, Spotify, IFTTT, Google, Nanoleaf, and more</li> 
- <li>Install plug-ins directly from G-Assist using the mod.io plug-in, now available with G-Assist. Configure with your <a href="http://mod.io" target="_blank">mod.io</a> account to begin using</li> 
+ <li>Install plug-ins directly from G-Assist using the mod.io plug-in, now available with G-Assist. Configure with your <a href="/" target="_blank">mod.io</a> account to begin using</li> 
 </ul>
                 </div>
 			</div>
@@ -9217,8 +9217,8 @@ a {
 <p>Unlike massive cloud-hosted AI models that require online access and paid subscriptions, G-Assist runs on your GeForce RTX GPU. This means it is responsive, free to use, and can run offline.</p> 
 <p>Under the hood, G-Assist now uses a Llama-based Instruct model with 8 billion parameters, packing language understanding into a tiny fraction of the size of today’s large scale AI models. This allows G-Assist to run locally on GeForce RTX hardware. When G-Assist is prompted for help your GeForce RTX GPU briefly allocates a portion of its horsepower to AI inference. If you’re simultaneously gaming or running another GPU-heavy application, a short dip in render rate or inference completion speed may occur during those few seconds. Once G-Assist finishes its task, the GPU returns to delivering full performance to the game or app.</p> 
 <p><strong>Creating Your Own Assistant</strong></p> 
-<p>G-Assist was built for community-driven expansion. To get started, NVIDIA has published a <a href="https://github.com/NVIDIA/g-assist" target="_blank">GitHub repository</a> with samples and instructions for creating plugins that add new functionality. &nbsp;Community developers can define functions in simple JSON formats and drop config files into a designated directory, allowing G-Assist to automatically load and interpret them. Developers can even submit plugins to NVIDIA for review and potential inclusion, making these new capabilities available for others.</p> 
-<p>Details on how to build, share, and load plugins, are available in <a href="https://github.com/NVIDIA/G-Assist" target="_blank">documentation in the GitHub repo</a>.&nbsp; We can’t wait to see what the community dreams up! To learn more about plugins and community-built AI applications, <a href="/blog/blog/rtx-ai-garage-nim-blueprints-g-assist/" target="_blank">check out NVIDIA’s RTX AI Garage blog series.</a></p>
+<p>G-Assist was built for community-driven expansion. To get started, NVIDIA has published a <a href="/" target="_blank">GitHub repository</a> with samples and instructions for creating plugins that add new functionality. &nbsp;Community developers can define functions in simple JSON formats and drop config files into a designated directory, allowing G-Assist to automatically load and interpret them. Developers can even submit plugins to NVIDIA for review and potential inclusion, making these new capabilities available for others.</p> 
+<p>Details on how to build, share, and load plugins, are available in <a href="/" target="_blank">documentation in the GitHub repo</a>.&nbsp; We can’t wait to see what the community dreams up! To learn more about plugins and community-built AI applications, <a href="/blog/blog/rtx-ai-garage-nim-blueprints-g-assist/" target="_blank">check out NVIDIA’s RTX AI Garage blog series.</a></p>
                 </div>
 			</div>
 	</div>
@@ -10171,7 +10171,7 @@ color: #76b900;
    <tr>
     <td width="31%" style="padding: 10.0px;"><h2><strong>Supported Plugin &amp; Device System Requirements &amp; Setup</strong></h2> </td> 
     <td width="21%" style="padding: 10.0px;"><strong>Plug-ins:</strong></td> 
-    <td width="47%" style="padding: 10.0px;"><strong>Please refer to <a href="http://mod.io/g/g-assist" target="_blank">this link</a> for information on system requirements and set up for specific plugins.</strong><br> <br> Mouse DPI, headphone EQ and fan and cooling settings are only supported on compatible Corsair devices, require iCue v5.39+ to be installed, and iCue SDK to be granted access.</td> 
+    <td width="47%" style="padding: 10.0px;"><strong>Please refer to <a href="/" target="_blank">this link</a> for information on system requirements and set up for specific plugins.</strong><br> <br> Mouse DPI, headphone EQ and fan and cooling settings are only supported on compatible Corsair devices, require iCue v5.39+ to be installed, and iCue SDK to be granted access.</td> 
    </tr>
    <tr>
     <td width="31%" style="padding: 10.0px;">&nbsp;</td> 
@@ -10409,11 +10409,11 @@ color: #76b900;
 		            			</li>
 							
 								<li>
-		                			<a href="https://investor.nvidia.com/home/default.aspx" target="_blank">Investors</a>
+		                			<a href="/" target="_blank">Investors</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://www.nventures.ai" target="_self">Venture Capital (NVentures)</a>
+		                			<a href="/" target="_self">Venture Capital (NVentures)</a>
 		            			</li>
 							
 								<li>
@@ -10443,15 +10443,15 @@ color: #76b900;
 		                <ul class="page-footer-link-set__links">
 		                	
 								<li>
-		                			<a href="https://nvidianews.nvidia.com/" target="_blank">Newsroom</a>
+		                			<a href="/" target="_blank">Newsroom</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://blogs.nvidia.com/" target="_blank">Company Blog</a>
+		                			<a href="/blog/blog/" target="_blank">Company Blog</a>
 		            			</li>
 							
 								<li>
-		                			<a href="https://developer.nvidia.com/blog/" target="_blank">Technical Blog</a>
+		                			<a href="./assets/developer.nvidia.com/blog/" target="_blank">Technical Blog</a>
 		            			</li>
 							
 								<li>
@@ -10481,7 +10481,7 @@ color: #76b900;
 		                <ul class="page-footer-link-set__links">
 		                	
 								<li>
-		                			<a href="https://developer.nvidia.com/" target="_blank">Developers</a>
+		                			<a href="./assets/developer.nvidia.com/" target="_blank">Developers</a>
 		            			</li>
 							
 								<li>
@@ -10501,7 +10501,7 @@ color: #76b900;
 		            			</li>
 							
 								<li>
-		                			<a href="https://docs.nvidia.com/" target="_blank">Documentation</a>
+		                			<a href="/" target="_blank">Documentation</a>
 		            			</li>
 							
 								<li>
@@ -10531,17 +10531,17 @@ color: #76b900;
 	        		
 					
 					
-	        			<a href="https://www.facebook.com/NVIDIA" class="page-footer__social__link facebook" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" facebook"="">" title="<util:i18n key="Follow GeForce on Facebook">"&gt;
+	        			<a href="/" class="page-footer__social__link facebook" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" facebook"="">" title="<util:i18n key="Follow GeForce on Facebook">"&gt;
 			               <i class="fa-brands fa-facebook-f" title="Facebook"></i>
 			            </util:i18n></a>
 	        		
 	        		
-			            <a href="https://www.instagram.com/nvidia/?hl=en" class="page-footer__social__link" target="_blank">
+			            <a href="/?hl=en" class="page-footer__social__link" target="_blank">
 	                         <i class="fa-brands fa-instagram" title="Instagram"></i>
 						</a>
 					
                     
-			            <a href="https://www.linkedin.com/company/nvidia/" class="page-footer__social__link" target="_blank">
+			            <a href="/" class="page-footer__social__link" target="_blank">
 							<i class="fa-brands fa-linkedin-in" title="LinkedIn"></i>
 						</a>
 					
@@ -10549,7 +10549,7 @@ color: #76b900;
                     
                     
 	        		
-	        			<a href="https://twitter.com/nvidia" class="page-footer__social__link" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" twitter"="">" title="<util:i18n key="Follow GeForce on Twitter">"&gt;
+	        			<a href="/" class="page-footer__social__link" target="_blank" alt="<util:I18n key=" follow="" geforce="" on="" twitter"="">" title="<util:i18n key="Follow GeForce on Twitter">"&gt;
 			               <i class="fa-brands fa-x-twitter" title="Twitter"></i>
 			            </util:i18n></a>
 	        		
@@ -10560,7 +10560,7 @@ color: #76b900;
 						
 					
 					
-			            <a href="https://www.youtube.com/user/nvidia" class="page-footer__social__link" target="_blank">
+			            <a href="./assets/www.youtube.com/user/nvidia" class="page-footer__social__link" target="_blank">
 							<i class="fa-brands fa-youtube" title="YouTube"></i>
 						</a>
 										
@@ -10758,7 +10758,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',

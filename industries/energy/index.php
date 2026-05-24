@@ -2,9 +2,9 @@
     
     
 
-<link rel="preconnect" href="https://images.nvidia.com" crossorigin="">
+<link rel="preconnect" href="./assets/images.nvidia.com/" crossorigin="">
 
-    <link rel="preload" href="https://images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
+    <link rel="preload" href="./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/fonts/nvidia-sans/NALA/var/NVIDIASansVF_NALA_W_Wght.woff2" as="font" type="font/woff2" crossorigin=""> 
 
  
 
@@ -105,7 +105,7 @@ NVIDIA Omniverse">
 
 	<link rel="alternate" hreflang="en-ca" href="/industries/energy/">
 
-	<link rel="alternate" hreflang="zh-cn" href="https://www.nvidia.cn/industries/energy/">
+	<link rel="alternate" hreflang="zh-cn" href="/">
 
 	<link rel="alternate" hreflang="de" href="/de-de/industries/energy/">
 
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
           clearInterval(myInterval);
         }
         item.contentWindow.postMessage(
-          { url: "https://www.nvidia.com" },
+          { url: "/" },
           "*"
         );
       }, 500);
@@ -143,12 +143,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
             clearInterval(myNewInterval);
           }
           item.contentWindow.postMessage(
-            { url:"https://www.nvidia.com"},
+            { url:"/"},
             "*"
           );
         }, 500);
         item.contentWindow.postMessage(
-          { url: "https://www.nvidia.com" },
+          { url: "/" },
           "*"
         );
       };
@@ -226,12 +226,12 @@ var NVIDIAGDC = NVIDIAGDC || {};
         }
     };
 
-   nvidiaGDC.addProperty('Accounts', 'LoginPage', 'https://www.nvidia.com/en-us/account/');
-   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', 'https://www.nvidia.com/en-us/account/login-gate/');
-	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', 'https://accounts.nvgs.nvidia.com');
+   nvidiaGDC.addProperty('Accounts', 'LoginPage', '/account/');
+   nvidiaGDC.addProperty('Accounts', 'LoginGatePage', '/account/login-gate/');
+	nvidiaGDC.addProperty('Accounts', 'accountsJarvisSrvcBase', '/');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderMagicValue', '');
 	nvidiaGDC.addProperty('Accounts', 'accountsJarvisHeaderCFGRefereID', 'Account Mini-Site');
-	nvidiaGDC.addProperty('apps', 'endpoint', 'https://api-prod.nvidia.com');
+	nvidiaGDC.addProperty('apps', 'endpoint', './assets/api-prod.nvidia.com/');
 	nvidiaGDC.addProperty('web', 'env', 'p-prod');
     nvidiaGDC.addProperty('web', 'q1', '');
     nvidiaGDC.addProperty('web', 'q2', '');
@@ -4076,8 +4076,8 @@ a {
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -4094,7 +4094,7 @@ a {
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -4172,7 +4172,7 @@ a {
          
          
 	<div class="nv-video-as-bg nv-video-load-src t-video-c-center p-video-c-bottom  ">
-		<video id="video-ban-cont" muted=" playsinline=" preload="meta" data-video-source="{" desktop":[{"src":"https:="" images.nvidia.com="" aem-dam="" solutions="" industries="" energy="" 2911753-enterprise-energy-video-header-banner-industry-page-aug23-desktop.mp4","type":"video="" mp4"},{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-desktop.webm","type":"video="" webm"}],"laptop":[{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-laptop.mp4","type":"video="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-laptop_1.webm","type":"video="" webm"}],"tablet":[{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-tablet.mp4","type":"video="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-tablet_1.webm","type":"video="" webm"}],"mobile":[{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-phone-1.mp4","type":"video="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-phone-1_1.webm","type":"video="" webm"}]}"="" loop=" class=" nv-video-src-loaded"=""><source src="https://images.nvidia.com/aem-dam/Solutions/industries/energy/2739800-Enterprise-Digital-ISC-2023-KV-Review-Animation-Apr25-Laptop_1.webm" type="video/webm"><source src="https://images.nvidia.com/aem-dam/Solutions/industries/energy/2739800-Enterprise-Digital-ISC-2023-KV-Review-Animation-Apr25-Laptop.mp4" type="video/mp4"></video>
+		<video id="video-ban-cont" muted=" playsinline=" preload="meta" data-video-source="{" desktop":[{"src":"https:="" images.nvidia.com="" aem-dam="" solutions="" industries="" energy="" 2911753-enterprise-energy-video-header-banner-industry-page-aug23-desktop.mp4","type":"video="" mp4"},{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-desktop.webm","type":"video="" webm"}],"laptop":[{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-laptop.mp4","type":"video="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-laptop_1.webm","type":"video="" webm"}],"tablet":[{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-tablet.mp4","type":"video="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-tablet_1.webm","type":"video="" webm"}],"mobile":[{"src":"https:="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-phone-1.mp4","type":"video="" 2739800-enterprise-digital-isc-2023-kv-review-animation-apr25-phone-1_1.webm","type":"video="" webm"}]}"="" loop=" class=" nv-video-src-loaded"=""><source src="./assets/images.nvidia.com/aem-dam/Solutions/industries/energy/2739800-Enterprise-Digital-ISC-2023-KV-Review-Animation-Apr25-Laptop_1.webm" type="video/webm"><source src="./assets/images.nvidia.com/aem-dam/Solutions/industries/energy/2739800-Enterprise-Digital-ISC-2023-KV-Review-Animation-Apr25-Laptop.mp4" type="video/mp4"></video>
 		<script>
 			window.initBuildVideo("ban-cont");
 		</script>
@@ -4756,7 +4756,7 @@ height: 130px !important;
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-c43372c5d5-cta-bada58fd96" rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-upstream-energy/energy-success-story?lx=d-5uUJ">Read Case Study
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-c43372c5d5-cta-bada58fd96" rel="noopener noreferrer" href="/?lx=d-5uUJ">Read Case Study
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -4801,7 +4801,7 @@ height: 130px !important;
         
     <div class="cmp-teaser__description">
     	
-       		<p>Siemens Gamesa is optimizing their offshore wind farms for maximum power output at minimal cost using <a href="/omniverse/">NVIDIA Omniverse™</a> and <a href="https://developer.nvidia.com/physicsnemo" target="_blank">NVIDIA PhysicsNeMo</a>. Find out how neural super-resolution accelerates simulation times from 40 days to 15 minutes.</p>
+       		<p>Siemens Gamesa is optimizing their offshore wind farms for maximum power output at minimal cost using <a href="/omniverse/">NVIDIA Omniverse™</a> and <a href="./assets/developer.nvidia.com/physicsnemo" target="_blank">NVIDIA PhysicsNeMo</a>. Find out how neural super-resolution accelerates simulation times from 40 days to 15 minutes.</p>
         
     </div>
 
@@ -4811,7 +4811,7 @@ height: 130px !important;
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-7523923179-cta-777222a68a" rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-energy-utilities/siemens-gamesa-wind">Watch Demo
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-7523923179-cta-777222a68a" rel="noopener noreferrer" href="/">Watch Demo
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -5487,10 +5487,10 @@ height: 130px !important;
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" success-stories-deloitte-p.jpg,"="" success-stories-deloitte-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/success-stories-deloitte-t.jpg," success-stories-deloitte-t@2x.jpg=" data-srcset-laptop=" success-stories-deloitte-l.jpg,"="" success-stories-deloitte-l@2x.jpg=" data-srcset-desktop=" success-stories-deloitte-d.jpg,"="" success-stories-deloitte-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Exelon, Deloitte" title="Exelon, Deloitte" id="image-container-3403e7192f" onload="window.initLazyLoadingImages('container-3403e7192f');">
                 
@@ -5808,10 +5808,10 @@ height: 130px !important;
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" success-stories-parabole-p.jpg,"="" success-stories-parabole-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/success-stories-parabole-t.jpg," success-stories-parabole-t@2x.jpg=" data-srcset-laptop=" success-stories-parabole-l.jpg,"="" success-stories-parabole-l@2x.jpg=" data-srcset-desktop=" success-stories-parabole-d.jpg,"="" success-stories-parabole-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Parabole AI" title="Parabole AI" id="image-container-188b004683" onload="window.initLazyLoadingImages('container-188b004683');">
                 
@@ -6063,10 +6063,10 @@ height: 130px !important;
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" success-stories-srt-p.jpg,"="" success-stories-srt-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/success-stories-srt-t.jpg," success-stories-srt-t@2x.jpg=" data-srcset-laptop=" success-stories-srt-l.jpg,"="" success-stories-srt-l@2x.jpg=" data-srcset-desktop=" success-stories-srt-d.jpg,"="" success-stories-srt-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-a48fc549f9" onload="window.initLazyLoadingImages('container-a48fc549f9');">
                 
@@ -6197,7 +6197,7 @@ height: 130px !important;
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn--phone--newline aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-651dec637b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://stoneridgetechnology.com/company/blog/leap-ahead-with-hopper-2/">
+  <a id="nv-button-651dec637b" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -6280,10 +6280,10 @@ height: 130px !important;
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" success-stories-siemens-p.jpg,"="" success-stories-siemens-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/success-stories-siemens-t.jpg," success-stories-siemens-t@2x.jpg=" data-srcset-laptop=" success-stories-siemens-l.jpg,"="" success-stories-siemens-l@2x.jpg=" data-srcset-desktop=" success-stories-siemens-d.jpg,"="" success-stories-siemens-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-31b62d187a" onload="window.initLazyLoadingImages('container-31b62d187a');">
                 
@@ -6422,7 +6422,7 @@ height: 130px !important;
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--10">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-78b8d106ba" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-energy-utilities/siemens-energy-nvidia">
+  <a id="nv-button-78b8d106ba" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -6543,10 +6543,10 @@ height: 130px !important;
            <div class="nv-img-as-bg d-image-vp-left l-image-vp-left t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" success-stories-firstenergy-p.jpg,"="" success-stories-firstenergy-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/success-stories-firstenergy-t.jpg," success-stories-firstenergy-t@2x.jpg=" data-srcset-laptop=" success-stories-firstenergy-l.jpg,"="" success-stories-firstenergy-l@2x.jpg=" data-srcset-desktop=" success-stories-firstenergy-d.jpg,"="" success-stories-firstenergy-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-ad2b306108" onload="window.initLazyLoadingImages('container-ad2b306108');">
                 
@@ -6691,7 +6691,7 @@ height: 130px !important;
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn--phone--newline aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-794fb75120" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-energy-utilities/power-utility-ai-edge">
+  <a id="nv-button-794fb75120" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -7843,10 +7843,10 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
            <div class="nv-img-as-bg d-image-center l-image-center t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" omniverse-blueprint-news-p.jpg,"="" omniverse-blueprint-news-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/omniverse-blueprint-news-t.jpg," omniverse-blueprint-news-t@2x.jpg=" data-srcset-laptop=" omniverse-blueprint-news-l.jpg,"="" omniverse-blueprint-news-l@2x.jpg=" data-srcset-desktop=" omniverse-blueprint-news-d.jpg,"="" omniverse-blueprint-news-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-9750054c15" onload="window.initLazyLoadingImages('container-9750054c15');">
                 
@@ -7997,7 +7997,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--phone--newline aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-6a0607112d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/nvidia-announces-omniverse-real-time-physics-digital-twins-with-industry-software-leaders">
+  <a id="nv-button-6a0607112d" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -8106,10 +8106,10 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
            <div class="nv-img-as-bg d-image-center l-image-center t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" oil-and-gas-operations="" news-slb-p.jpg,"="" 2x"=" data-srcset-tablet=" news-slb-t.jpg,"="" news-slb-t@2x.jpg=" data-srcset-laptop=" news-slb-l.jpg,"="" news-stories-slb-l@2x.jpg=" data-srcset-desktop=" news-slb-d.jpg,"="" news-slb-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Utilidata smart grid chip, powered by NVIDIA.." title="Utilidata smart grid chip, powered by NVIDIA.." id="image-container-413b9c05c7" onload="window.initLazyLoadingImages('container-413b9c05c7');">
                 
@@ -8260,7 +8260,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--phone--newline aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-fcc0ff595f" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-upstream-energy/tech-brief-slb-intersect">
+  <a id="nv-button-fcc0ff595f" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -8381,10 +8381,10 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
            <div class="nv-img-as-bg d-image-center l-image-center t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" shearwater-news-p.jpg,"="" shearwater-news-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/shearwater-news-t.jpg," shearwater-news-t@2x.jpg=" data-srcset-laptop=" shearwater-news-l.jpg,"="" shearwater-news-l@2x.jpg=" data-srcset-desktop=" shearwater-news-d.jpg,"="" shearwater-news-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="BMW" title="BMW" id="image-container-11d145c9d1" onload="window.initLazyLoadingImages('container-11d145c9d1');">
                 
@@ -8515,7 +8515,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--phone--newline aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-a87e0c09e8" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: rgb(0, 0, 0); --custom-button-color: #000; --custom-button-hover-color: #000;" rel="noopener noreferrer" databgcolor="#000" href="https://www.shearwatergeo.com/news/accelerating-seismic-processing-with-the-nvidia-grace-hopper-superchip">
+  <a id="nv-button-a87e0c09e8" class="btn-content btncta    " target="_blank" data-cmp-clickable="false" style="color: rgb(0, 0, 0); --custom-button-color: #000; --custom-button-hover-color: #000;" rel="noopener noreferrer" databgcolor="#000" href="/">
     
     
 
@@ -8647,10 +8647,10 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
            <div class="nv-img-as-bg d-image-center l-image-center t-image-c-top p-image-c-top  p-img-fit  ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" utilidata-news-p.jpg,"="" utilidata-news-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/utilidata-news-t.jpg," utilidata-news-t@2x.jpg=" data-srcset-laptop=" utilidata-news-l.jpg,"="" utilidata-news-l@2x.jpg=" data-srcset-desktop=" utilidata-news-d.jpg,"="" utilidata-news-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="Utilidata smart grid chip, powered by NVIDIA.." title="Utilidata smart grid chip, powered by NVIDIA.." id="image-container-3f0f721959" onload="window.initLazyLoadingImages('container-3f0f721959');">
                 
@@ -8801,7 +8801,7 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--default--none aem-GridColumn--phone--12 aem-GridColumn--phone--newline aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-20c9d71ff6" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://utilidata.com/press-release/utilidata-partners-with-aclara-to-bring-distributed-ai-to-the-grid-edge">
+  <a id="nv-button-20c9d71ff6" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -9006,10 +9006,10 @@ content:"\201C";font-size:72px;font-family:NVIDIA,Arial,Helvetica,Sans-Serif;col
 
             
             <picture>
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-uf-bottom-p.jpg," content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-uf-bottom-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md420-offset-t.jpg," content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-md420-offset-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md460-offset-l.jpg," content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-md460-offset-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md460-offset-d.jpg," content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-md460-offset-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-uf-bottom-p.jpg, " content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-uf-bottom-p@2x.jpg=" 2x" ="="" media="(max-width: 639px)">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md420-offset-t.jpg, " content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-md420-offset-t@2x.jpg=" 2x" ="="" media="(min-width:640px) and (max-width:1023px)">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md460-offset-l.jpg, " content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-md460-offset-l@2x.jpg=" 2x" ="="" media="(min-width:1024px) and (max-width:1349px)">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md460-offset-d.jpg, " content=" dam=" en-zz=" solutions=" data-center=" dgx-platform=" nvidia-dgx-spark-bm-md460-offset-d@2x.jpg=" 2x" ="="" media="(min-width:1350px)">
                 
               		<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md460-offset-d.jpg" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/nvidia-dgx-spark-bm-md460-offset-d@2x.jpg" 2x"=" alt=" title=" id=" image-bm-uf"="" onload="setContainerHeight('bm-uf')">
                 
@@ -9851,7 +9851,7 @@ font-size: 14px;
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-32928f14a6-cta-406fcb92a9" rel="noopener noreferrer" href="https://developer.nvidia.com/hpc-sdk">Explore the HPC SDK
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-32928f14a6-cta-406fcb92a9" rel="noopener noreferrer" href="./assets/developer.nvidia.com/hpc-sdk">Explore the HPC SDK
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9922,7 +9922,7 @@ font-size: 14px;
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-49e5787950-cta-8c4a85260d" rel="noopener noreferrer" href="https://developer.nvidia.com/physicsnemo">Explore PhysicsNeMo
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-49e5787950-cta-8c4a85260d" rel="noopener noreferrer" href="./assets/developer.nvidia.com/physicsnemo">Explore PhysicsNeMo
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10123,7 +10123,7 @@ font-size: 14px;
         
     <div class="cmp-teaser__description">
     	
-       		<p>NVIDIA Jetson brings accelerated AI performance to the edge in a power-efficient and compact form factor. Together with the <a href="https://developer.nvidia.com/embedded/jetpack" target="_blank">NVIDIA JetPack™ SDK</a> and <a href="/deep-learning-ai/industries/robotics/">NVIDIA Isaac™</a> software for Robotics Operating System, these Jetson modules, including <a href="/autonomous-machines/embedded-systems/jetson-orin/">NVIDIA Jetson Orin Nano™</a>, support a full range of edge AI and robotics applications.</p>
+       		<p>NVIDIA Jetson brings accelerated AI performance to the edge in a power-efficient and compact form factor. Together with the <a href="./assets/developer.nvidia.com/embedded/jetpack" target="_blank">NVIDIA JetPack™ SDK</a> and <a href="/deep-learning-ai/industries/robotics/">NVIDIA Isaac™</a> software for Robotics Operating System, these Jetson modules, including <a href="/autonomous-machines/embedded-systems/jetson-orin/">NVIDIA Jetson Orin Nano™</a>, support a full range of edge AI and robotics applications.</p>
         
     </div>
 
@@ -10133,7 +10133,7 @@ font-size: 14px;
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-4bc5d7d177-cta-46f0e77ba0" rel="noopener noreferrer" href="https://developer.nvidia.com/embedded-computing">Explore Jetson
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-4bc5d7d177-cta-46f0e77ba0" rel="noopener noreferrer" href="./assets/developer.nvidia.com/embedded-computing">Explore Jetson
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -10428,10 +10428,10 @@ font-size: 14px;
            <div class="nv-img-as-bg d-image-center l-image-vp-left t-image-center p-image-center    ">
             
             <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" energy="" energy-resources-vidbanner-background-image-spec2-bb770_550-p.jpg,"="" energy-resources-vidbanner-background-image-spec2-bb580_440-p@2x.jpg=" 2x" ="="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/energy-resources-vidbanner-background-image-spec2-bb770_550-t.jpg," energy-resources-vidbanner-background-image-spec2-bb580_440-t@2x.jpg=" data-srcset-laptop=" energy-resources-vidbanner-background-image-spec2-bb770_550-l.jpg,"="" energy-resources-vidbanner-background-image-spec2-bb580_440-l@2x.jpg=" data-srcset-desktop=" energy-resources-vidbanner-background-image-spec2-bb770_550-d.jpg,"="" energy-resources-vidbanner-background-image-spec2-bb580_440-d@2x.jpg="">
-                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
-                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
+                <source data-source-mobile=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset="data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-tab-slide-1" onload="window.initLazyLoadingImages('tab-slide-1');">
                 
@@ -10592,7 +10592,7 @@ font-size: 14px;
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--tablet--6">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-4b7a890eb0" class="btn-content btncta    " data-title="Watch Video" target="_blank" data-cmp-clickable="false" style="color: #fff; " rel="noopener noreferrer" href="https://youtu.be/zrcxLZmOyNA">
+  <a id="nv-button-4b7a890eb0" class="btn-content btncta    " data-title="Watch Video" target="_blank" data-cmp-clickable="false" style="color: #fff; " rel="noopener noreferrer" href="/">
     
     
 
@@ -10752,7 +10752,7 @@ document.getElementById("industry-resources-section-container").innerHTML="check
     
 		
 	
-    <a href="https://resources.nvidia.com/l/en-us-upstream-energy" target="_blank" rel="noopener noreferrer" class="nv-pf--see-all"> See All</a>
+    <a href="/" target="_blank" rel="noopener noreferrer" class="nv-pf--see-all"> See All</a>
 
   </div>
 
@@ -10839,7 +10839,7 @@ document.getElementById("industry-resources-section-container").innerHTML="check
     
 		
 	
-    <a href="https://resources.nvidia.com/l/en-us-upstream-energy" target="_blank" rel="noopener noreferrer" class="nv-pf--see-all"> See All</a>
+    <a href="/" target="_blank" rel="noopener noreferrer" class="nv-pf--see-all"> See All</a>
 
   </div>
 
@@ -11101,7 +11101,7 @@ document.getElementById("industry-resources-section-container").innerHTML="check
         
     <div class="cmp-teaser__description">
     	
-       		<p>Gain an understanding of the various building blocks of <a href="https://developer.nvidia.com/physicsnemo" target="_blank">NVIDIA PhysicsNeMo</a>, the basics of physics-informed deep learning, and how the framework integrates with the overall <a href="/omniverse/">Omniverse platform</a>.</p>
+       		<p>Gain an understanding of the various building blocks of <a href="./assets/developer.nvidia.com/physicsnemo" target="_blank">NVIDIA PhysicsNeMo</a>, the basics of physics-informed deep learning, and how the framework integrates with the overall <a href="/omniverse/">Omniverse platform</a>.</p>
         
     </div>
 
@@ -11111,7 +11111,7 @@ document.getElementById("industry-resources-section-container").innerHTML="check
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-7b297b57a9-cta-9a96773329" rel="noopener noreferrer" href="https://courses.nvidia.com/courses/course-v1:DLI+S-OV-04+V1/">Learn How to Build Physics-Informed Neural Networks With PhysicsNeMo
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-7b297b57a9-cta-9a96773329" rel="noopener noreferrer" href="/">Learn How to Build Physics-Informed Neural Networks With PhysicsNeMo
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -11243,7 +11243,7 @@ document.getElementById("industry-resources-section-container").innerHTML="check
         
     <div class="cmp-teaser__description">
     	
-       		<p>Learn how to use Jupyter iPython notebooks on a <a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank">Jetson Nano Developer Kit</a> to build a deep learning classification project with computer vision models. This easy-to-use, powerful computer runs multiple neural networks in parallel.</p>
+       		<p>Learn how to use Jupyter iPython notebooks on a <a href="./assets/developer.nvidia.com/embedded/jetson-nano-developer-kit" target="_blank">Jetson Nano Developer Kit</a> to build a deep learning classification project with computer vision models. This easy-to-use, powerful computer runs multiple neural networks in parallel.</p>
         
     </div>
 
@@ -11253,7 +11253,7 @@ document.getElementById("industry-resources-section-container").innerHTML="check
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ad19e5ddd9-cta-6587e03e9d" rel="noopener noreferrer" href="https://courses.nvidia.com/courses/course-v1:DLI+S-RX-02+V2/?ncid=em-news-168929-vt31#cid=_em-news_en-us">Get Trained
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ad19e5ddd9-cta-6587e03e9d" rel="noopener noreferrer" href="/?ncid=em-news-168929-vt31#cid=_em-news_en-us">Get Trained
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -12023,7 +12023,7 @@ $('.nv-teaser-text-link').each(function(){
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9bb5fc1bf3-cta-24d0463ad0" rel="noopener noreferrer" href="https://developer.nvidia.com/developer-program">Join the Developer Program
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-9bb5fc1bf3-cta-24d0463ad0" rel="noopener noreferrer" href="./assets/developer.nvidia.com/developer-program">Join the Developer Program
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -12342,10 +12342,10 @@ function tabClick(item) {
 
             
             <picture>
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-p.jpg," content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-p@2x.jpg=" 2x"=" media=" (max-width:="" 639px)"="">
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-t.jpg," content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-t@2x.jpg=" 2x"=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-l.jpg," content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-l@2x.jpg=" 2x"=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-d.jpg," content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-d@2x.jpg=" 2x"=" media=" (min-width:1350px)"="">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-p.jpg, " content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-p@2x.jpg=" 2x"=" media=" (max-width:="" 639px)"="">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-t.jpg, " content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-t@2x.jpg=" 2x"=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-l.jpg, " content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-l@2x.jpg=" 2x"=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-d.jpg, " content=" dam=" en-zz=" solutions=" industries=" energy=" partners=" nv-corp-kv-bb460_420-d@2x.jpg=" 2x"=" media=" (min-width:1350px)"="">
                 
               		<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-d.jpg" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/energy/partners/nv-corp-kv-bb460_420-d@2x.jpg" 2x"=" alt=" dgx="" basepod="" for="" enterprise="" ai"="" title="DGX BasePOD for Enterprise AI" id="image-partners" onload="setContainerHeight('partners')">
                 
@@ -13158,7 +13158,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 		$.ajax({
 			type: "GET",
-			url: 'https://layouts.nvidiagrid.net/v1/serviceUrls',
+			url: '/',
 			crossDomain: true,
 			headers: {
 				'Accept': 'application/json',
@@ -15237,7 +15237,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
                <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a>.</label>
@@ -15946,11 +15946,11 @@ var NVIDIAGDC = NVIDIAGDC || {};
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -16097,7 +16097,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -16134,7 +16134,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/energy/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/energy/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/energy/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/energy/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/energy/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/energy/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/energy/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/energy/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/energy/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/energy/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/industries/energy/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/energy/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/energy/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/energy/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/energy/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/energy/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/industries/energy/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/industries/energy/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/industries/energy/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/industries/energy/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/industries/energy/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/industries/energy/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/industries/energy/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/industries/energy/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/industries/energy/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/industries/energy/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/industries/energy/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/industries/energy/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/industries/energy/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/industries/energy/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/industries/energy/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/industries/energy/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>

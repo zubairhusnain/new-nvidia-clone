@@ -1150,8 +1150,8 @@
 	            enableSearchLibrary: true,
 	            isSolr:false,
 	            searchOptions: {
-	                destination: "https://www.nvidia.com/en-us/search/",
-	                apiUrl: "https://api-prod.nvidia.com/search/graphql",
+	                destination: "/search/",
+	                apiUrl: "./assets/api-prod.nvidia.com/search/graphql",
 	                triggerId: 'nvidia-search-box-link',
 	                referenceId: 'nvidia-search-box-link'
 	              }
@@ -1168,7 +1168,7 @@
 </header>
 
     	<noscript>
-   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="http://www.enable-javascript.com/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
+   <div class="no-js-warning">This site requires Javascript in order to view all its content. Please enable Javascript in order to access all the functionality of this web site. Here are the <a href="/" target="_blank">instructions how to enable JavaScript in your web browser.</a></div>
 </noscript>
         
         
@@ -1206,10 +1206,10 @@
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-uf-bottom-p.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-uf-bottom-p@2x.jpg 2x" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg440-offset-t.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg580-offset-left-l.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg580-offset-left-l@2x.jpg 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg580-offset-left-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg580-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-uf-bottom-p.jpg,="" nvidia-nemo-bm-uf-bottom-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-lg440-offset-t.jpg,="" nvidia-nemo-bm-lg440-offset-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-lg580-offset-left-l.jpg,="" nvidia-nemo-bm-lg580-offset-left-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-lg580-offset-left-d.jpg,="" nvidia-nemo-bm-lg580-offset-left-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-uf-bottom-p.jpg,="" nvidia-nemo-bm-uf-bottom-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-lg440-offset-t.jpg,="" nvidia-nemo-bm-lg440-offset-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-lg580-offset-left-l.jpg,="" nvidia-nemo-bm-lg580-offset-left-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset="..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" nemo-megatron="" nvidia-nemo-bm-lg580-offset-left-d.jpg,="" nvidia-nemo-bm-lg580-offset-left-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-container-96e5df5f2d" onload="window.initLazyLoadingImages('container-96e5df5f2d');" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nvidia-nemo-bm-lg580-offset-left-d@2x.jpg 2x">
                 
@@ -1310,7 +1310,7 @@
     <div id="documentation" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p><span style="color: rgb(255,255,255);"><a href="https://docs.nvidia.com/nemo/?ncid=no-ncid" target="_blank">Documentation</a></span></p>
+                	<p><span style="color: rgb(255,255,255);"><a href="/?ncid=no-ncid" target="_blank">Documentation</a></span></p>
                 </div>
 			</div>
 	</div>
@@ -1793,7 +1793,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-25734f1f65-cta-c3fe52d820" rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/build-an-enterprise-data-flywheel?ncid=no-ncid">Try Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-25734f1f65-cta-c3fe52d820" rel="noopener noreferrer" href="/?ncid=no-ncid">Try Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -1848,7 +1848,7 @@
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-1faf7388e5-cta-34a9a911cc" rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/aiq?ncid=no-ncid">Try Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-1faf7388e5-cta-34a9a911cc" rel="noopener noreferrer" href="/?ncid=no-ncid">Try Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -2171,16 +2171,16 @@
         <th scope="row" data-cell-value="<strong>Prepare AI-ready data</strong> <br> Process existing multimodal datasets into high-quality, AI-ready formats for development pipelines, and generate synthetic data to close critical data gaps. " data-col-index="0" data-row-index="1" class=" first-column odd-column even-row"><strong>Prepare AI-ready data</strong> <br> Process existing multimodal datasets into high-quality, AI-ready formats for development pipelines, and generate synthetic data to close critical data gaps. </th> 
         <td data-cell-value="<div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;http://developer.nvidia.com/nemo-curator&quot; target=&quot;_blank&quot;>NeMo Curator</a> <br>
+    <li><a href=&quot;./assets/developer.nvidia.com/nemo-curator&quot; target=&quot;_blank&quot;>NeMo Curator</a> <br>
       Clean, filter, and prepare safe multimodal data for agentic use cases and model training. </li>
-    <li><a href=&quot;https://build.nvidia.com/nemo/data-designer&quot; target=&quot;_blank&quot;>NeMo Data Designer </a> <br>
+    <li><a href=&quot;/; target=&quot;_blank&quot;>NeMo Data Designer </a> <br>
       Create domain‑specific synthetic datasets from scratch for building and evaluating specialized agents. </li>
   </ul>
 </div>" data-col-index="1" data-row-index="1" class="even-column even-row second-column"><div class="nv-text">
   <ul>
-    <li><a href="http://developer.nvidia.com/nemo-curator?ncid=no-ncid" target="_blank">NeMo Curator</a> <br>
+    <li><a href="./assets/developer.nvidia.com/nemo-curator?ncid=no-ncid" target="_blank">NeMo Curator</a> <br>
       Clean, filter, and prepare safe multimodal data for agentic use cases and model training. </li>
-    <li><a href="https://build.nvidia.com/nemo/data-designer?ncid=no-ncid" target="_blank">NeMo Data Designer </a> <br>
+    <li><a href="/?ncid=no-ncid" target="_blank">NeMo Data Designer </a> <br>
       Create domain‑specific synthetic datasets from scratch for building and evaluating specialized agents. </li>
   </ul>
 </div></td> 
@@ -2192,13 +2192,13 @@ Pick or build models suited to the use case: selecting from open Nemotron models
         <td data-cell-value="
 <div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/&quot; target=&quot;_blank&quot;>NVIDIA Nemotron </a> <br>
+    <li><a href=&quot;/ai-data-science/foundation-models/nemotron/&quot/; target=&quot;_blank&quot;>NVIDIA Nemotron </a> <br>
        State-of-the-art open NVIDIA models for reasoning, RAG, speech, vision, and safety.  </li>
-    <li><a href=&quot;http://developer.nvidia.com/nemo-retriever&quot; target=&quot;_blank&quot;>NeMo Retriever  </a> <br>
+    <li><a href=&quot;./assets/developer.nvidia.com/nemo-retriever&quot; target=&quot;_blank&quot;>NeMo Retriever  </a> <br>
       Build scalable pipelines to extract text, tables, charts, and images from complex documents.   </li>
 	  
 	  
-	      <li><a href=&quot;http://developer.nvidia.com/nemo-evaluator/&quot; target=&quot;_blank&quot;>NeMo Evaluator  </a> <br>
+	      <li><a href=&quot;./assets/developer.nvidia.com/nemo-evaluator/&quot; target=&quot;_blank&quot;>NeMo Evaluator  </a> <br>
       Benchmark and test models and agents using academic, LLM-as-a-judge, and custom evaluations. </li>
 	  
 	  
@@ -2209,11 +2209,11 @@ Pick or build models suited to the use case: selecting from open Nemotron models
   <ul>
     <li><a href="/ai-data-science/foundation-models/nemotron/" target="_blank">NVIDIA Nemotron </a> <br>
        State-of-the-art open NVIDIA models for reasoning, RAG, speech, vision, and safety.  </li>
-    <li><a href="http://developer.nvidia.com/nemo-retriever?ncid=no-ncid" target="_blank">NeMo Retriever  </a> <br>
+    <li><a href="./assets/developer.nvidia.com/nemo-retriever?ncid=no-ncid" target="_blank">NeMo Retriever  </a> <br>
       Build scalable pipelines to extract text, tables, charts, and images from complex documents.   </li>
 	  
 	  
-	      <li><a href="http://developer.nvidia.com/nemo-evaluator/?ncid=no-ncid" target="_blank">NeMo Evaluator  </a> <br>
+	      <li><a href="./assets/developer.nvidia.com/nemo-evaluator/?ncid=no-ncid" target="_blank">NeMo Evaluator  </a> <br>
       Benchmark and test models and agents using academic, LLM-as-a-judge, and custom evaluations. </li>
 	  
 	  
@@ -2227,14 +2227,14 @@ Profile and optimize agentic workflows across frameworks, with built-in performa
 Profile and optimize agentic workflows across frameworks, with built-in performance analysis, bottleneck detection, evaluation-driven RL tuning, and interoperability with LangChain, LlamaIndex, and other agent ecosystems. </th> 
         <td data-cell-value="<div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;https://developer.nvidia.com/nemo-agent-toolkit&quot; target=&quot;_blank&quot;>NeMo Agent Toolkit</a> <br>
+    <li><a href=&quot;./assets/developer.nvidia.com/nemo-agent-toolkit&quot; target=&quot;_blank&quot;>NeMo Agent Toolkit</a> <br>
       Framework-agnostic, open library to build, profile, and optimize AI agents. </li>
      
 	  
   </ul>
 </div>" data-col-index="1" data-row-index="3" class="even-column even-row second-column"><div class="nv-text">
   <ul>
-    <li><a href="https://developer.nvidia.com/nemo-agent-toolkit?ncid=no-ncid" target="_blank">NeMo Agent Toolkit</a> <br>
+    <li><a href="./assets/developer.nvidia.com/nemo-agent-toolkit?ncid=no-ncid" target="_blank">NeMo Agent Toolkit</a> <br>
       Framework-agnostic, open library to build, profile, and optimize AI agents. </li>
      
 	  
@@ -2251,14 +2251,14 @@ Optimize your agent for production with high-throughput, low-latency inference, 
 Optimize your agent for production with high-throughput, low-latency inference, ensuring it can scale to meet enterprise demands and deliver fast, reliable responses. </th> 
         <td data-cell-value="<div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;http://developer.nvidia.com/nim/&quot; target=&quot;_blank&quot;>NVIDIA NIM </a> <br>
+    <li><a href=&quot;./assets/developer.nvidia.com/nim/&quot; target=&quot;_blank&quot;>NVIDIA NIM </a> <br>
       Run AI models in optimized containers, exposed as OpenAI-compatible APIs.  </li>
      
 	  
   </ul>
 </div>" data-col-index="1" data-row-index="5" class="even-column even-row second-column"><div class="nv-text">
   <ul>
-    <li><a href="http://developer.nvidia.com/nim/?ncid=no-ncid" target="_blank">NVIDIA NIM </a> <br>
+    <li><a href="./assets/developer.nvidia.com/nim/?ncid=no-ncid" target="_blank">NVIDIA NIM </a> <br>
       Run AI models in optimized containers, exposed as OpenAI-compatible APIs.  </li>
      
 	  
@@ -2271,21 +2271,21 @@ Use retrieval-augmented generation (RAG) to anchor agent responses in trusted kn
 Use retrieval-augmented generation (RAG) to anchor agent responses in trusted knowledge while applying safety, compliance, and content moderation guardrails. </th> 
         <td data-cell-value="<div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;http://developer.nvidia.com/nemo-retriever&quot; target=&quot;_blank&quot;>NeMo Retriever  </a> <br>
+    <li><a href=&quot;./assets/developer.nvidia.com/nemo-retriever&quot; target=&quot;_blank&quot;>NeMo Retriever  </a> <br>
       Build accurate, privacy-preserving RAG pipelines.   </li>
      
 	  
-	     <li><a href=&quot;http://developer.nvidia.com/nemo-guardrails/&quot; target=&quot;_blank&quot;>NeMo Guardrails </a> <br>
+	     <li><a href=&quot;./assets/developer.nvidia.com/nemo-guardrails/&quot; target=&quot;_blank&quot;>NeMo Guardrails </a> <br>
        Enhance safety, compliance, and control across AI interactions.  </li>
 	  
   </ul>
 </div>" data-col-index="1" data-row-index="6" class="even-column odd-row second-column"><div class="nv-text">
   <ul>
-    <li><a href="http://developer.nvidia.com/nemo-retriever?ncid=no-ncid" target="_blank">NeMo Retriever  </a> <br>
+    <li><a href="./assets/developer.nvidia.com/nemo-retriever?ncid=no-ncid" target="_blank">NeMo Retriever  </a> <br>
       Build accurate, privacy-preserving RAG pipelines.   </li>
      
 	  
-	     <li><a href="http://developer.nvidia.com/nemo-guardrails/?ncid=no-ncid" target="_blank">NeMo Guardrails </a> <br>
+	     <li><a href="./assets/developer.nvidia.com/nemo-guardrails/?ncid=no-ncid" target="_blank">NeMo Guardrails </a> <br>
        Enhance safety, compliance, and control across AI interactions.  </li>
 	  
   </ul>
@@ -2301,24 +2301,24 @@ Track the agent's real-world interactions with users and other systems. Systemat
 Track the agent's real-world interactions with users and other systems. Systematically evaluate its performance and accuracy, finding opportunities to continuously improve.</th> 
         <td data-cell-value="<div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;https://developer.nvidia.com/nemo-agent-toolkit&quot; target=&quot;_blank&quot;>NeMo Agent Toolkit  </a> <br>
+    <li><a href=&quot;./assets/developer.nvidia.com/nemo-agent-toolkit&quot; target=&quot;_blank&quot;>NeMo Agent Toolkit  </a> <br>
      Framework-agnostic, open library to build, profile, and optimize AI agents.     </li>
      
 	  
-	     <li><a href=&quot;https://developer.nvidia.com/nemo-customizer&quot; target=&quot;_blank&quot;>NeMo Customizer </a> <br>
+	     <li><a href=&quot;./assets/developer.nvidia.com/nemo-customizer&quot; target=&quot;_blank&quot;>NeMo Customizer </a> <br>
       Microservice to fine-tune and align models with domain data. </li>
-	    <li><a href=&quot;https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html&quot; target=&quot;_blank&quot;>NeMo Framework </a> <br>
+	    <li><a href=&quot;/; target=&quot;_blank&quot;>NeMo Framework </a> <br>
       Collection of all open-source NeMo libraries for training and aligning LLMs and multimodal models efficiently at scale. </li>
   </ul>
 </div>" data-col-index="1" data-row-index="8" class="even-column odd-row second-column"><div class="nv-text">
   <ul>
-    <li><a href="https://developer.nvidia.com/nemo-agent-toolkit?ncid=no-ncid" target="_blank">NeMo Agent Toolkit  </a> <br>
+    <li><a href="./assets/developer.nvidia.com/nemo-agent-toolkit?ncid=no-ncid" target="_blank">NeMo Agent Toolkit  </a> <br>
      Framework-agnostic, open library to build, profile, and optimize AI agents.     </li>
      
 	  
-	     <li><a href="https://developer.nvidia.com/nemo-customizer?ncid=no-ncid" target="_blank">NeMo Customizer </a> <br>
+	     <li><a href="./assets/developer.nvidia.com/nemo-customizer?ncid=no-ncid" target="_blank">NeMo Customizer </a> <br>
       Microservice to fine-tune and align models with domain data. </li>
-	    <li><a href="https://docs.nvidia.com/nemo-framework/user-guide/latest/overview.html?ncid=no-ncid" target="_blank">NeMo Framework </a> <br>
+	    <li><a href="/?ncid=no-ncid" target="_blank">NeMo Framework </a> <br>
       Collection of all open-source NeMo libraries for training and aligning LLMs and multimodal models efficiently at scale. </li>
   </ul>
 </div></td> 
@@ -2331,31 +2331,31 @@ Use the feedback and data gathered from monitoring to create a data-driven flywh
 </th> 
         <td data-cell-value="<div class=&quot;nv-text&quot;>
   <ul>
-    <li><a href=&quot;https://docs.nvidia.com/nemo/rl/latest/index.html&quot; target=&quot;_blank&quot;>NeMo RL  </a> <br>
+    <li><a href=&quot;/; target=&quot;_blank&quot;>NeMo RL  </a> <br>
     Post-train and align models at scale with advanced reinforcement learning (RL) techniques.    </li>
      
-    <li><a href=&quot;https://docs.nvidia.com/nemo/gym/0.1.0/index.html&quot; target=&quot;_blank&quot;>NeMo Gym  </a> <br>
+    <li><a href=&quot;/; target=&quot;_blank&quot;>NeMo Gym  </a> <br>
     Simulated RL training environments to generate high-quality agentic RL training data/rollouts. </li>
 	  
-	     <li><a href=&quot;http://developer.nvidia.com/nemo-evaluator/&quot; target=&quot;_blank&quot;>NeMo Evaluator  </a> <br>
+	     <li><a href=&quot;./assets/developer.nvidia.com/nemo-evaluator/&quot; target=&quot;_blank&quot;>NeMo Evaluator  </a> <br>
        Benchmark and test models and agents using academic, LLM-as-a-judge, and custom evaluations. </li>
 	  
-	  	     <li><a href=&quot;https://developer.nvidia.com/nemo-customizer&quot; target=&quot;_blank&quot;>NeMo Customizer   </a> <br>
+	  	     <li><a href=&quot;./assets/developer.nvidia.com/nemo-customizer&quot; target=&quot;_blank&quot;>NeMo Customizer   </a> <br>
        Microservice to fine-tune and align models with domain data. </li>
 	  
   </ul>
 </div>" data-col-index="1" data-row-index="9" class="even-column even-row second-column"><div class="nv-text">
   <ul>
-    <li><a href="https://docs.nvidia.com/nemo/rl/latest/index.html?ncid=no-ncid" target="_blank">NeMo RL  </a> <br>
+    <li><a href="/?ncid=no-ncid" target="_blank">NeMo RL  </a> <br>
     Post-train and align models at scale with advanced reinforcement learning (RL) techniques.    </li>
      
-    <li><a href="https://docs.nvidia.com/nemo/gym/0.1.0/index.html?ncid=no-ncid" target="_blank">NeMo Gym  </a> <br>
+    <li><a href="/?ncid=no-ncid" target="_blank">NeMo Gym  </a> <br>
     Simulated RL training environments to generate high-quality agentic RL training data/rollouts. </li>
 	  
-	     <li><a href="http://developer.nvidia.com/nemo-evaluator/?ncid=no-ncid" target="_blank">NeMo Evaluator  </a> <br>
+	     <li><a href="./assets/developer.nvidia.com/nemo-evaluator/?ncid=no-ncid" target="_blank">NeMo Evaluator  </a> <br>
        Benchmark and test models and agents using academic, LLM-as-a-judge, and custom evaluations. </li>
 	  
-	  	     <li><a href="https://developer.nvidia.com/nemo-customizer?ncid=no-ncid" target="_blank">NeMo Customizer   </a> <br>
+	  	     <li><a href="./assets/developer.nvidia.com/nemo-customizer?ncid=no-ncid" target="_blank">NeMo Customizer   </a> <br>
        Microservice to fine-tune and align models with domain data. </li>
 	  
   </ul>
@@ -3234,7 +3234,7 @@ th.first-column.odd-column.odd-row {
     <div id="nv-text-cdcc13630b" class="general-container-text            ">
 			<div class="text-left lap-text-left tab-text-left mob-text-left">
 				<div class="description ">
-                	<p>Businesses are deploying AI assistants to efficiently address the queries of millions of customers and employees around the clock. Powered by customized NVIDIA NIM™ microservices for <a href="https://developer.nvidia.com/blog/develop-custom-enterprise-generative-ai-with-nvidia-nemo/?ncid=no-ncid" target="_blank">LLMs</a>, <a href="https://developer.nvidia.com/blog/how-to-take-a-rag-application-from-pilot-to-production-in-four-steps/?ncid=no-ncid" target="_blank">RAG</a>, and <a href="https://developer.nvidia.com/blog/an-easy-introduction-to-speech-ai/?ncid=no-ncid" target="_blank">speech </a>and translation AI, these AI teammates deliver immediate and accurate spoken responses, even in the presence of background noise, poor sound quality, and diverse dialects and accents.</p>
+                	<p>Businesses are deploying AI assistants to efficiently address the queries of millions of customers and employees around the clock. Powered by customized NVIDIA NIM™ microservices for <a href="./assets/developer.nvidia.com/blog/develop-custom-enterprise-generative-ai-with-nvidia-nemo/?ncid=no-ncid" target="_blank">LLMs</a>, <a href="./assets/developer.nvidia.com/blog/how-to-take-a-rag-application-from-pilot-to-production-in-four-steps/?ncid=no-ncid" target="_blank">RAG</a>, and <a href="./assets/developer.nvidia.com/blog/an-easy-introduction-to-speech-ai/?ncid=no-ncid" target="_blank">speech </a>and translation AI, these AI teammates deliver immediate and accurate spoken responses, even in the presence of background noise, poor sound quality, and diverse dialects and accents.</p>
                 </div>
 			</div>
 	</div>
@@ -3258,7 +3258,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-80b0a82001" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/ai-virtual-assistant-for-customer-service?ncid=no-ncid">
+  <a id="nv-button-80b0a82001" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -3472,7 +3472,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-small nv-button-caret aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--5">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-affd133d06" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://build.nvidia.com/nvidia/aiq?ncid=no-ncid">
+  <a id="nv-button-affd133d06" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -5081,7 +5081,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-secondary-button nv-teaser-cta-small " target="_blank" id="teaser-2045c1401f-cta-5395b4e13a" rel="noopener noreferrer" href="https://build.nvidia.com/explore/discover?ncid=no-ncid">Try Now
+    <a class="cmp-teaser__action-link nv-teaser-secondary-button nv-teaser-cta-small " target="_blank" id="teaser-2045c1401f-cta-5395b4e13a" rel="noopener noreferrer" href="/?ncid=no-ncid">Try Now
          
     </a>
 
@@ -5191,7 +5191,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-secondary-button nv-teaser-cta-small " target="_blank" id="teaser-4b99eeeedc-cta-8ea6246c1b" rel="noopener noreferrer" href="https://build.nvidia.com/blueprints?ncid=no-ncid">Try the Blueprints
+    <a class="cmp-teaser__action-link nv-teaser-secondary-button nv-teaser-cta-small " target="_blank" id="teaser-4b99eeeedc-cta-8ea6246c1b" rel="noopener noreferrer" href="/?ncid=no-ncid">Try the Blueprints
          
     </a>
 
@@ -8074,7 +8074,7 @@ th.first-column.odd-column.odd-row {
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-1b25b654fe" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/nvidia-nemo/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" nvidia-nemo"="" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;faceted_search_products_str=NeMo&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
+<div id="nv-newsfeed-1b25b654fe" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/nvidia-nemo/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-loadmore=" data-cmp-newskeywords=" nvidia-nemo"="" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;faceted_search_products_str=NeMo&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="/" data-cmp-pressreleasecount="3" data-cmp-graphql-url="./assets/api-prod.nvidia.com/services/content-hub/graphql" data-cmp-single-slide="false">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -8088,8 +8088,8 @@ th.first-column.odd-column.odd-row {
     	<div class="latest-news latest-news--large three-grid">
         	<div class="latest-news__items">
 				<div class="latest-news__item ">						
-					<div class="latest-news__item__key-visual"><a href="https://developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><img src="../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/Quantitative_Agent-e1778800484153-660x370.webp" alt="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems" title="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems"></a></div>
-					<a href="https://developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><div class="latest-news__item__body">							
+					<div class="latest-news__item__key-visual"><a href="./assets/developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><img src="../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/Quantitative_Agent-e1778800484153-660x370.webp" alt="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems" title="Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems"></a></div>
+					<a href="./assets/developer.nvidia.com/blog/automating-and-optimizing-financial-signal-discovery-with-multi-agent-systems/" target="_blank"><div class="latest-news__item__body">							
 						<div class="latest-news__item__body__date">May 21, 2026</div>
 						<div class="latest-news__item__body__title">Automating and Optimizing Financial Signal Discovery with Multi-Agent Systems</div>
 						<div class="latest-news__item__body__description">In quantitative finance, researchers build algorithms to trade assets, derivatives, and other financial instruments. A key part of that work is finding signals…</div>
@@ -8104,8 +8104,8 @@ th.first-column.odd-column.odd-row {
 						<!--/* <div class="latest-news__item_readmore"><a href="/ai-data-science/products/nemo/https:&/" target="_blank">Read More<span class="fas fa-angle-right fa-fw"></span></a></div> */-->
 					</div></a>
 				</div><div class="latest-news__item ">						
-					<div class="latest-news__item__key-visual"><a href="https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-customization/" target="_blank"><img src="../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/ai-agents-models-660x370.png" alt="Mastering Agentic Techniques: AI Agent Customization" title="Mastering Agentic Techniques: AI Agent Customization"></a></div>
-					<a href="https://developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-customization/" target="_blank"><div class="latest-news__item__body">							
+					<div class="latest-news__item__key-visual"><a href="./assets/developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-customization/" target="_blank"><img src="../../../assets/developer-blogs.nvidia.com/wp-content/uploads/2026/05/ai-agents-models-660x370.png" alt="Mastering Agentic Techniques: AI Agent Customization" title="Mastering Agentic Techniques: AI Agent Customization"></a></div>
+					<a href="./assets/developer.nvidia.com/blog/mastering-agentic-techniques-ai-agent-customization/" target="_blank"><div class="latest-news__item__body">							
 						<div class="latest-news__item__body__date">May 20, 2026</div>
 						<div class="latest-news__item__body__title">Mastering Agentic Techniques: AI Agent Customization</div>
 						<div class="latest-news__item__body__description">Autonomous AI agents are taking on all types of work for businesses: routing logistics fleets, triaging support tickets, generating code…</div>
@@ -8274,8 +8274,8 @@ th.first-column.odd-column.odd-row {
                 searchInput: {},
                 site: site,
                 language: $('html').attr('lang'),
-                voltronApiUrl: 'https://api-prod.nvidia.com/services/nod/api/v1/',
-                apiUrl:'https://api-prod.nvidia.com/search/graphql',
+                voltronApiUrl: './assets/api-prod.nvidia.com/services/nod/api/v1/',
+                apiUrl:'./assets/api-prod.nvidia.com/search/graphql',
                 playlistId: 'playList-54f387be-e581-4990-9a37-1285ee0fce3f',
                 isFeatured: true,
                 header: '',
@@ -8890,7 +8890,7 @@ th.first-column.odd-column.odd-row {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/reasoning-capable-llm-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/reasoning-capable-llm-ari.jpg" data-title="Train a Reasoning-Capable LLM in One Weekend" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=hMGikmMFLAU" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=hMGikmMFLAU" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Train a Reasoning-Capable LLM in One Weekend" title="Train a Reasoning-Capable LLM in One Weekend" data-analytics="nv-image-3b05e8d039" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/reasoning-capable-llm-ari.jpg">
@@ -8932,7 +8932,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-3b05e8d039-cta-a37013850e" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=hMGikmMFLAU">Watch Reasoning Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-3b05e8d039-cta-a37013850e" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=hMGikmMFLAU">Watch Reasoning Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -8961,7 +8961,7 @@ th.first-column.odd-column.odd-row {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/data-flywheel-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/data-flywheel-ari.jpg" data-title="Optimize AI Agents Using a Data Flywheel" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=hTYrjYbFHyU" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=hTYrjYbFHyU" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Optimize AI Agents Using a Data Flywheel" title="Optimize AI Agents Using a Data Flywheel" data-analytics="nv-image-c23ece7dea" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/data-flywheel-ari.jpg">
@@ -9003,7 +9003,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-c23ece7dea-cta-e89009bf8b" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=hTYrjYbFHyU">Watch Data Flywheel Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-c23ece7dea-cta-e89009bf8b" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=hTYrjYbFHyU">Watch Data Flywheel Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9032,7 +9032,7 @@ th.first-column.odd-column.odd-row {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/ai-agents-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/ai-agents-ari.jpg" data-title="Build AI Agents With NeMo Agent Open-Source Toolkit" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=NsogD7UhZ4Q" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=NsogD7UhZ4Q" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Build AI Agents With NeMo Agent Open-Source Toolkit" title="Build AI Agents With NeMo Agent Open-Source Toolkit" data-analytics="nv-image-0d6fa7c9c5" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/ai-agents-ari.jpg">
@@ -9074,7 +9074,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-0d6fa7c9c5-cta-197a6183ef" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=NsogD7UhZ4Q">Watch Custom AI Agent Video
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-0d6fa7c9c5-cta-197a6183ef" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=NsogD7UhZ4Q">Watch Custom AI Agent Video
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -9177,7 +9177,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn aem-GridColumn--default--12">
 <div class="nv-button-standard              button-center button-lap-center button-tab-center button-mob-center">
   
-  <a id="nv-button-55f0e87f09" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.youtube.com/results?search_query=nvidia+nemo">
+  <a id="nv-button-55f0e87f09" class="btn-content btncta    " target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/www.youtube.com/results?search_query=nvidia+nemo">
     
     
 
@@ -11438,7 +11438,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-244914937b" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/servicenow-nvidia-accenture-ai-lighthouse?ncid=no-ncid">
+  <a id="nv-button-244914937b" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -11681,7 +11681,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-dc332ce7b4" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/blog/harnessing-the-power-of-nvidia-ai-enterprise-on-azure-machine-learning/?ncid=no-ncid">
+  <a id="nv-button-dc332ce7b4" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/harnessing-the-power-of-nvidia-ai-enterprise-on-azure-machine-learning/?ncid=no-ncid">
     
     
 
@@ -12154,7 +12154,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-ad385d2b06" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.cohesity.com/press/unlock-gen-ai-capabilities-via-nvidia-collaboration/">
+  <a id="nv-button-ad385d2b06" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -12397,7 +12397,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-be1ecd3b94" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.crowdstrike.com/press-releases/crowdstrike-nvidia-generative-ai-collaboration/">
+  <a id="nv-button-be1ecd3b94" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -12640,7 +12640,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-e4c74033e8" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/dell-technologies-and-nvidia-introduce-project-helix-for-secure-on-premises-generative-ai?ncid=no-ncid">
+  <a id="nv-button-e4c74033e8" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -12883,7 +12883,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-e23e418bf6" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/strategic-alliance-with-nvidia-expanded-to-unlock-generative-ai-value-across-enterprise-software-platforms.html">
+  <a id="nv-button-e23e418bf6" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -13126,7 +13126,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-b1730bf35e" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://domino.ai/blog/beyond-hype-production-ready-generative-ai">
+  <a id="nv-button-b1730bf35e" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -13369,7 +13369,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-3b54dc5f1b" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/dropbox-and-nvidia-team-to-bring-personalized-generative-ai-to-millions-of-customers?ncid=no-ncid">
+  <a id="nv-button-3b54dc5f1b" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -13612,7 +13612,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-92abcb4896" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://developer.nvidia.com/blog/streamline-generative-ai-development-with-nvidia-nemo-on-gpu-accelerated-google-cloud?ncid=no-ncid">
+  <a id="nv-button-92abcb4896" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="./assets/developer.nvidia.com/blog/streamline-generative-ai-development-with-nvidia-nemo-on-gpu-accelerated-google-cloud?ncid=no-ncid">
     
     
 
@@ -13625,7 +13625,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-9d070eed78" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://console.cloud.google.com/marketplace/product/nvidia/nvidia-ai-enterprise-vmi?project=nvidia-vgpu-public">
+  <a id="nv-button-9d070eed78" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?project=nvidia-vgpu-public">
     
     
 
@@ -14341,7 +14341,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-2a7ed42059" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/lenovo-nvidia-hybrid-ai?ncid=no-ncid">
+  <a id="nv-button-2a7ed42059" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -14584,7 +14584,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-13f8becf44" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://quantiphi.com/partners/nvidia/#overview">
+  <a id="nv-button-13f8becf44" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/#overview">
     
     
 
@@ -14827,7 +14827,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-f74b606513" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/sap-nvidia-generative-ai-enterprise-applications?ncid=no-ncid">
+  <a id="nv-button-f74b606513" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -15070,7 +15070,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-a10d081199" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/servicenow-and-nvidia-announce-partnership-to-build-generative-ai-across-enterprise-it?ncid=no-ncid">
+  <a id="nv-button-a10d081199" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -15556,7 +15556,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-7035088935" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://nvidianews.nvidia.com/news/vmware-and-nvidia-unlock-generative-ai-for-enterprises?ncid=no-ncid">
+  <a id="nv-button-7035088935" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/?ncid=no-ncid">
     
     
 
@@ -15799,7 +15799,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-f0dce69ead" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://wandb.ai/wandb/wb-announcements/reports/Our-Growing-Partnership-with-NVIDIA--VmlldzoyMDIwMDI4">
+  <a id="nv-button-f0dce69ead" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -16285,7 +16285,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-cd11b42972" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://arize.com/blog/arize-nvidia-nemo-integration/">
+  <a id="nv-button-cd11b42972" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -16528,7 +16528,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-b9e9880d12" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.datarobot.com/solutions/partners/nvidia/">
+  <a id="nv-button-b9e9880d12" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -16771,7 +16771,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-6172277dbd" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.datastax.com/blog/ai-agent-speed-savings-langflow-nvidia-nemo-microservices">
+  <a id="nv-button-6172277dbd" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -17014,7 +17014,7 @@ th.first-column.odd-column.odd-row {
 <div class="nv-button button nv-button-text nv-button-caret aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 <div class="nv-button-standard              button-left button-lap-left button-tab-left button-mob-left">
   
-  <a id="nv-button-6490eb652c" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="https://www.galileo.ai/blog/nvidia-data-flywheel-for-de-risking-agentic-ai">
+  <a id="nv-button-6490eb652c" class="btn-content btncta    " data-title="Learn More" target="_blank" data-cmp-clickable="false " rel="noopener noreferrer" href="/">
     
     
 
@@ -17158,7 +17158,7 @@ th.first-column.odd-column.odd-row {
     
     
 
-<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="1V5_wJzTCzc" data-thumbnail="https://img.youtube.com/vi_webp/1V5_wJzTCzc/maxresdefault.webp">
+<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="1V5_wJzTCzc" data-thumbnail="./assets/img.youtube.com/vi_webp/1V5_wJzTCzc/maxresdefault.webp">
 
    
    
@@ -17181,7 +17181,7 @@ th.first-column.odd-column.odd-row {
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -17190,12 +17190,12 @@ th.first-column.odd-column.odd-row {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=1V5_wJzTCzc" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=1V5_wJzTCzc" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/1V5_wJzTCzc?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/1V5_wJzTCzc?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://img.youtube.com/vi_webp/1V5_wJzTCzc/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/1V5_wJzTCzc?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/1V5_wJzTCzc?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='./assets/img.youtube.com/vi_webp/1V5_wJzTCzc/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player1"></iframe>
     
     </div>
    </div>
@@ -17240,7 +17240,7 @@ th.first-column.odd-column.odd-row {
     
     
 
-<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="Hg2KibOvnLM" data-thumbnail="https://img.youtube.com/vi_webp/Hg2KibOvnLM/maxresdefault.webp">
+<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:100%" data-video-id="Hg2KibOvnLM" data-thumbnail="./assets/img.youtube.com/vi_webp/Hg2KibOvnLM/maxresdefault.webp">
 
    
    
@@ -17263,7 +17263,7 @@ th.first-column.odd-column.odd-row {
    <div class="nv-yt-embed__consent-overlay" role="dialog" aria-label="Consent for Optional Cookies">
       <div class="nv-yt-embed__consent-overlay-content" tabindex="-1">
          <div role="heading" aria-level="3" class="nv-yt-embed__consent-title">Consent for Optional Cookies</div>
-         <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
+         <p class="nv-yt-embed__consent-description"><a href="/" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
                <button type="button" class="btn-content nv-yt-embed__consent-cancel"><span class="btn-text">Cancel</span></button>
@@ -17272,12 +17272,12 @@ th.first-column.odd-column.odd-row {
                <button type="button" class="btn-content nv-yt-embed__consent-accept"><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
-         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=Hg2KibOvnLM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
+         <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="./assets/www.youtube.com/watch?v=Hg2KibOvnLM" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
       </div>
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/Hg2KibOvnLM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Hg2KibOvnLM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://img.youtube.com/vi_webp/Hg2KibOvnLM/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player2"></iframe>
+    <iframe src="./assets/www.youtube.com/embed/Hg2KibOvnLM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='./assets/www.youtube.com/embed/Hg2KibOvnLM?origin=%2F&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='./assets/img.youtube.com/vi_webp/Hg2KibOvnLM/maxresdefault.webp' alt=''><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false" id="player2"></iframe>
     
     </div>
    </div>
@@ -17485,7 +17485,7 @@ th.first-column.odd-column.odd-row {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/products/nemo/_jcr_content/root/responsivegrid/nv_container_2024384767/nv_container_copy_co/nv_teaser.coreimg.100.410.jpeg/1773680373492/nemo-video-2560x1440-2.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/nemo-video-2560x1440-2.jpeg" data-title="NVIDIA NeMo for Building and Deploying Generative AI Models" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://resources.nvidia.com/en-us-ai-large-language-models/watch-78?lx=Hh_Qnz&amp;ncid=no-ncid" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="/?lx=Hh_Qnz&amp;ncid=no-ncid" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA NeMo for Building and Deploying Generative AI Models" title="NVIDIA NeMo for Building and Deploying Generative AI Models" data-analytics="nv-image-ceb19d2967" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -17527,7 +17527,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ceb19d2967-cta-fd2d4dfa9b" rel="noopener noreferrer" href="https://resources.nvidia.com/en-us-ai-large-language-models/watch-78?lx=Hh_Qnz&amp;ncid=no-ncid">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-ceb19d2967-cta-fd2d4dfa9b" rel="noopener noreferrer" href="/?lx=Hh_Qnz&amp;ncid=no-ncid">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -17556,7 +17556,7 @@ th.first-column.odd-column.odd-row {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/synthetic-data-gen-llama-3.1.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/synthetic-data-gen-llama-3.1.jpg" data-title="Meta Llama 3.1 405B model" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=lqbYP6Cysgw" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=lqbYP6Cysgw" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image" itemprop="contentUrl" alt="Meta Llama 3.1 405B model" title="Meta Llama 3.1 405B model" data-analytics="nv-image-63d96da32e" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/synthetic-data-gen-llama-3.1.jpg">
@@ -17598,7 +17598,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-63d96da32e-cta-e96228a291" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=lqbYP6Cysgw">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-63d96da32e-cta-e96228a291" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=lqbYP6Cysgw">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -17627,7 +17627,7 @@ th.first-column.odd-column.odd-row {
 
 <div class="cmp-image             
         " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/products/nemo/_jcr_content/root/responsivegrid/nv_container_2024384767/nv_container_copy_co/nv_teaser_copy_1454080331.coreimg.100.410.jpeg/1773680373552/ai-virtual-assistants-rag.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/nemo-megatron/ai-virtual-assistants-rag.jpg" data-title="AI virtual assistant for customer service" data-cmp-type="renditionUpload">
-     	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=0nQ3lawmIN0" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
+     	<a class="cmp-image__link" href="./assets/www.youtube.com/watch?v=0nQ3lawmIN0" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
     <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="AI virtual assistant for customer service" title="AI virtual assistant for customer service" data-analytics="nv-image-d633fe60e0" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
@@ -17669,7 +17669,7 @@ th.first-column.odd-column.odd-row {
 	
     <div class="cmp-teaser__action-container " data-ctaexpand="false">
         
-    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-d633fe60e0-cta-3195aa3c04" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=0nQ3lawmIN0">Watch Now
+    <a class="cmp-teaser__action-link nv-teaser-text-link  " target="_blank" id="teaser-d633fe60e0-cta-3195aa3c04" rel="noopener noreferrer" href="./assets/www.youtube.com/watch?v=0nQ3lawmIN0">Watch Now
        <span class="cmp-teaser__action-link-icon fa-solid fa-angle-right"></span>  
     </a>
 
@@ -18131,11 +18131,11 @@ background-color:#C359EF;
 </div>
 </div>
 <div class="page-footer__social"><div class="page-footer__social__label">Follow NVIDIA  </div>
-<a class="page-footer__social__link facebook" href="https://www.facebook.com/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
-<a class="page-footer__social__link instagram" href="https://www.instagram.com/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
-<a class="page-footer__social__link linkedin" href="https://www.linkedin.com/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
-<a class="page-footer__social__link twitter" href="https://twitter.com/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
-<a class="page-footer__social__link youtube" href="https://www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
+<a class="page-footer__social__link facebook" href="/" target="_blank" title="Follow Facebook"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a>
+<a class="page-footer__social__link instagram" href="/" target="_blank" title="Follow Instagram"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path></svg></a>
+<a class="page-footer__social__link linkedin" href="/" target="_blank" title="Follow LinkedIn"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.23 0H1.77C.8 0 0 .77 0 1.72v20.56C0 23.23.8 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.2 0 22.23 0zM7.12 20.45H3.56V9H7.12v11.45zM5.34 7.43c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06zm15.11 13.02h-3.56v-5.6c0-1.34-.03-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.7h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29z"></path></svg></a>
+<a class="page-footer__social__link twitter" href="/" target="_blank" title="Follow Twitter"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+<a class="page-footer__social__link youtube" href="./assets/www.youtube.com/" target="_blank" title="Follow YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.53 3.545 12 3.545 12 3.545s-7.53 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.017 0 12 0 12s0 3.983.502 5.837a3.003 3.003 0 002.11 2.11c1.858.508 9.388.508 9.388.508s7.53 0 9.388-.508a3.002 3.002 0 002.11-2.11C24 15.983 24 12 24 12s0-3.983-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path></svg></a>
 </div>
 </div>
 </div>
@@ -18282,7 +18282,7 @@ window.addEventListener('load', () => {
                 elementId: 'librarian-search',
                 searchPage: false,
                 placeholder:'',
-                site : 'https://www.nvidia.com',
+                site : '/',
                 generateSummary: false,
                 page:"",  
                 searchRedirectPath: '',
@@ -18319,7 +18319,7 @@ window.addEventListener('load', () => {
 		<div id="country-selector-modal">
 			<div class="cs-modal-content">
 				<div class="cs-title h4">Select Location</div>
-				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/ai-data-science/products/nemo/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/products/nemo/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/products/nemo/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/ai-data-science/products/nemo/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/ai-data-science/products/nemo/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/ai-data-science/products/nemo/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/ai-data-science/products/nemo/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/ai-data-science/products/nemo/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/ai-data-science/products/nemo/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/ai-data-science/products/nemo/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="https://www.nvidia.cn/ai-data-science/products/nemo/?ncid=no-ncid" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/ai-data-science/products/nemo/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/ai-data-science/products/nemo/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/ai-data-science/products/nemo/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/ai-data-science/products/nemo/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/ai-data-science/products/nemo/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
+				<div class="region-section"><div class="region-title">The Americas</div><ul><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Argentina" data-clocale="es-la">Argentina</a></span></li><li class="country-locale-name"><span><a href="/pt-br/ai-data-science/products/nemo/" title="Brasil (Brazil)" data-clocale="pt-br">Brasil (Brazil)</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/products/nemo/" title="Canada" data-clocale="en-ca">Canada</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Chile" data-clocale="es-la">Chile</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Colombia" data-clocale="es-la">Colombia</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="México (Mexico)" data-clocale="es-la">México (Mexico)</a></span></li><li class="country-locale-name"><span><a href="/es-la/ai-data-science/products/nemo/" title="Peru" data-clocale="es-la">Peru</a></span></li><li class="country-locale-name"><span><a href="/ai-data-science/products/nemo/" title="United States" data-clocale="en-us">United States</a></span></li></ul></div><div class="region-section"><div class="region-title">Europe</div><ul><li class="country-locale-name"><span><a href="/nl-nl/" title="België (Belgium)" data-clocale="nl-nl">België (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/fr-be/" title="Belgique (Belgium)" data-clocale="fr-be">Belgique (Belgium)</a></span></li><li class="country-locale-name"><span><a href="/cs-cz/" title="Česká Republika (Czech Republic)" data-clocale="cs-cz">Česká Republika (Czech Republic)</a></span></li><li class="country-locale-name"><span><a href="/da-dk/" title="Danmark (Denmark)" data-clocale="da-dk">Danmark (Denmark)</a></span></li><li class="country-locale-name"><span><a href="/de-de/ai-data-science/products/nemo/" title="Deutschland (Germany)" data-clocale="de-de">Deutschland (Germany)</a></span></li><li class="country-locale-name"><span><a href="/es-es/ai-data-science/products/nemo/" title="España (Spain)" data-clocale="es-es">España (Spain)</a></span></li><li class="country-locale-name"><span><a href="/fr-fr/ai-data-science/products/nemo/" title="France" data-clocale="fr-fr">France</a></span></li><li class="country-locale-name"><span><a href="/it-it/ai-data-science/products/nemo/" title="Italia (Italy)" data-clocale="it-it">Italia (Italy)</a></span></li><li class="country-locale-name"><span><a href="/nl-nl/" title="Nederland (Netherlands)" data-clocale="nl-nl">Nederland (Netherlands)</a></span></li><li class="country-locale-name"><span><a href="/nb-no/" title="Norge (Norway)" data-clocale="nb-no">Norge (Norway)</a></span></li><li class="country-locale-name"><span><a href="/de-at/" title="Österreich (Austria)" data-clocale="de-at">Österreich (Austria)</a></span></li><li class="country-locale-name"><span><a href="/pl-pl/" title="Polska (Poland)" data-clocale="pl-pl">Polska (Poland)</a></span></li><li class="country-locale-name"><span><a href="/ro-ro/" title="România (Romania)" data-clocale="ro-ro">România (Romania)</a></span></li><li class="country-locale-name"><span><a href="/fi-fi/" title="Suomi (Finland)" data-clocale="fi-fi">Suomi (Finland)</a></span></li><li class="country-locale-name"><span><a href="/sv-se/" title="Sverige (Sweden)" data-clocale="sv-se">Sverige (Sweden)</a></span></li><li class="country-locale-name"><span><a href="/tr-tr/" title="Türkiye (Turkey)" data-clocale="tr-tr">Türkiye (Turkey)</a></span></li><li class="country-locale-name"><span><a href="/en-gb/ai-data-science/products/nemo/" title="United Kingdom" data-clocale="en-gb">United Kingdom</a></span></li><li class="country-locale-name"><span><a href="/en-eu/ai-data-science/products/nemo/" title="Rest of Europe" data-clocale="en-eu">Rest of Europe</a></span></li></ul></div><div class="region-section"><div class="region-title">Asia</div><ul><li class="country-locale-name"><span><a href="/en-au/ai-data-science/products/nemo/" title="Australia" data-clocale="en-au">Australia</a></span></li><li class="country-locale-name"><span><a href="/?ncid=no-ncid" title="中国大陆 (Mainland China)" data-clocale="zh-cn">中国大陆 (Mainland China)</a></span></li><li class="country-locale-name"><span><a href="/en-in/ai-data-science/products/nemo/" title="India" data-clocale="en-in">India</a></span></li><li class="country-locale-name"><span><a href="/ja-jp/ai-data-science/products/nemo/" title="日本 (Japan)" data-clocale="ja-jp">日本 (Japan)</a></span></li><li class="country-locale-name"><span><a href="/ko-kr/ai-data-science/products/nemo/" title="대한민국 (South Korea)" data-clocale="ko-kr">대한민국 (South Korea)</a></span></li><li class="country-locale-name"><span><a href="/en-sg/ai-data-science/products/nemo/" title="Singapore" data-clocale="en-sg">Singapore</a></span></li><li class="country-locale-name"><span><a href="/zh-tw/ai-data-science/products/nemo/" title="台灣 (Taiwan)" data-clocale="zh-tw">台灣 (Taiwan)</a></span></li></ul></div><div class="region-section"><div class="region-title">Middle East</div><ul><li class="country-locale-name"><span><a href="/en-me/" title="Middle East" data-clocale="en-me">Middle East</a></span></li></ul></div><div id="cs-end"></div>
 			</div>
 		</div>
 		<script type="text/javascript" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/country-selector/countrySelector.js"></script>
