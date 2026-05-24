@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA at Supercomputing 2025">
 <meta property="og:description" content="Join NVIDIA at SC25, Nov 16–21,St. Louis, MO, Explore AI and HPC innovation.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/nvidia-supercompution-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/nvidia-supercompution-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/events/supercomputing/">
 <meta name="twitter:description" content="Explore GPU, AI, HPC, and quantum breakthroughs with NVIDIA at Supercomputing 2025 (SC25). Join us for live demos, sessions, and innovation showcases.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/nvidia-supercompution-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/nvidia-supercompution-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -4385,11 +4385,11 @@ td.active strong {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="TACC Horizon" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/supercomputing/_jcr_content/root/responsivegrid/nv_container_1041944/nv_container_copy/nv_teaser.coreimg.100.410.jpeg/1763530558586/tacc-horizon-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/tacc-horizon-ari.jpg" data-title="TACC Horizon" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/tacc-horizon-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/tacc-horizon-ari.jpg" data-title="TACC Horizon" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="TACC Horizon" title="TACC Horizon" data-analytics="nv-image-f141705fde" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="TACC Horizon" title="TACC Horizon" data-analytics="nv-image-f141705fde" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/supercomputing/2025/tacc-horizon-ari.jpg">
 
 	    
 	    

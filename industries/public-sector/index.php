@@ -25,7 +25,7 @@
 <meta property="og:title" content="AI for the US Federal Government">
 <meta property="og:description" content="Brighter and safer future for the public sector">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/federal/us-federal-public-sector-industry-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/federal/us-federal-public-sector-industry-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/government/federal/">
 <meta name="twitter:description" content="NVIDIA provides a way to direct the power of innovation through GPUs and an AI platform that enables any federal data set to become a potential breakthrough.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/federal/us-federal-public-sector-industry-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/federal/us-federal-public-sector-industry-og.jpg">
 
 	
 
@@ -4277,10 +4277,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" government="" use-case-geospatial-intelligence-fg-i1of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-geospatial-intelligence-fg-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-geospatial-intelligence-fg-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-geospatial-intelligence-fg-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-geospatial-intelligence-fg-i1of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt=" Accelerating geospatial workflows" title=" Accelerating geospatial workflows" onload="window.initLazyLoadingImages('gallery'.concat('-', 'Geospatial Intelligence'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4327,10 +4327,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" public-sector="" signal-radar-processing-fg-i2of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/signal-radar-processing-fg-i2of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/signal-radar-processing-fg-i2of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/signal-radar-processing-fg-i2of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/signal-radar-processing-fg-i2of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt=" Use Existing Image from live page" title=" Use Existing Image from live page" onload="window.initLazyLoadingImages('gallery'.concat('-', 'Radar and Signal Processing'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4377,10 +4377,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" public-sector="" us-public-sector-industry-fg-i5of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i5of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i5of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i5of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i5of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Generative AI card" title="Generative AI card" onload="window.initLazyLoadingImages('gallery'.concat('-', 'Agentic AI'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4427,10 +4427,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" public-sector="" us-public-sector-industry-fg-i1of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/us-public-sector-industry-fg-i1of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Training and Simulation card" title="Training and Simulation card" onload="window.initLazyLoadingImages('gallery'.concat('-', 'Training and Simulation'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4477,10 +4477,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" public-sector="" autonomous-machines-fg-i4of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/autonomous-machines-fg-i4of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/autonomous-machines-fg-i4of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/autonomous-machines-fg-i4of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/public-sector/autonomous-machines-fg-i4of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Autonomous Machines" title="Autonomous Machines" onload="window.initLazyLoadingImages('gallery'.concat('-', 'Autonomous Machines'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4538,10 +4538,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" government="" use-case-energy-fg-cc-i6of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-energy-fg-cc-i6of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-energy-fg-cc-i6of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-energy-fg-cc-i6of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/government/use-case-energy-fg-cc-i6of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Advancing energy and scientific discovery" title="Advancing energy and scientific discovery" onload="window.initLazyLoadingImages('gallery'.concat('-', 'Energy'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>

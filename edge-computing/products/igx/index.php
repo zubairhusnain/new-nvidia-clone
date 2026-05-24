@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA IGX Platform">
 <meta property="og:description" content="Advanced functional safety and security for edge AI.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-orin-devkit-rtxpro-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-orin-devkit-rtxpro-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/edge-computing/products/igx/">
 <meta name="twitter:description" content="NVIDIA IGX is an industrial-grade edge AI platform that delivers high performance, advanced functional safety, and security. Purpose-built for industrial and medical environments.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-orin-devkit-rtxpro-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-orin-devkit-rtxpro-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -4266,11 +4266,11 @@ background-size:cover;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA IGX Thor Developer Kit Mini in black background" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/edge-computing/products/igx/_jcr_content/root/responsivegrid/nv_container_1381163349/nv_container/nv_teaser_1777216765_565590913.coreimg.100.410.jpeg/1773662361248/igx-thor-developer-kit-mini-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-thor-developer-kit-mini-1920x1080.jpg" data-title="NVIDIA IGX Thor Developer Kit Mini in black background" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-thor-developer-kit-mini-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-thor-developer-kit-mini-1920x1080.jpg" data-title="NVIDIA IGX Thor Developer Kit Mini in black background" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA IGX Thor Developer Kit Mini in black background" title="NVIDIA IGX Thor Developer Kit Mini in black background" data-analytics="nv-image-d2a1cac837" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA IGX Thor Developer Kit Mini in black background" title="NVIDIA IGX Thor Developer Kit Mini in black background" data-analytics="nv-image-d2a1cac837" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/edge-computing/igx/igx-thor-developer-kit-mini-1920x1080.jpg">
 
 	    
 	    

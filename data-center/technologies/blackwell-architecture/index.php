@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Blackwell Architecture">
 <meta property="og:description" content="The Engine Behind AI Factories For The Age of AI Reasoning. ">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-blackwell-architecture-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-blackwell-architecture-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/">
 <meta name="twitter:description" content="Explore the groundbreaking advancements the NVIDIA Blackwell architecture brings to generative AI and accelerated computing.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-blackwell-architecture-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-blackwell-architecture-og.jpg">
 
 	<meta property="interest" content="Developer Tools &amp; Techniques,Agentic AI / Generative AI">
 
@@ -5621,11 +5621,11 @@ flex-direction: column-reverse;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA GB300 NVL72" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/technologies/blackwell-architecture/_jcr_content/root/responsivegrid/nv_container_1760748008/nv_container/nv_teaser.coreimg.100.410.jpeg/1766023108273/nvidia-gb300-nvl72.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-gb300-nvl72.jpg" data-title="NVIDIA GB300 NVL72" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-gb300-nvl72.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-gb300-nvl72.jpg" data-title="NVIDIA GB300 NVL72" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA GB300 NVL72" title="NVIDIA GB300 NVL72" data-analytics="nv-image-f15ee057e3" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA GB300 NVL72" title="NVIDIA GB300 NVL72" data-analytics="nv-image-f15ee057e3" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/technologies/blackwell-architecture/nvidia-gb300-nvl72.jpg">
 
 	    
 	    

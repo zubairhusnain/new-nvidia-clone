@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Certified Systems">
 <meta property="og:description" content="Accelerated systems from certified partners delivering performance and scale.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/nvidia-certified-systems-og-100_.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/nvidia-certified-systems-og-100_.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/products/certified-systems/">
 <meta name="twitter:description" content="Accelerated systems from leading NVIDIA partners, certified to deliver maximum performance, reliability, and scale.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/nvidia-certified-systems-og-100_.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/nvidia-certified-systems-og-100_.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -6209,11 +6209,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA Bluefield Networking Platform " data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/certified-systems/_jcr_content/root/responsivegrid/nv_container_965787734/nv_container/nv_teaser_1314155596.coreimg.100.410.jpeg/1774458617827/bluefield-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/bluefield-1920x1080.jpg" data-title="NVIDIA Bluefield Networking Platform " data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/bluefield-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/bluefield-1920x1080.jpg" data-title="NVIDIA Bluefield Networking Platform " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA Bluefield Networking Platform " title="NVIDIA Bluefield Networking Platform " data-analytics="nv-image-c66fe0409b" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Bluefield Networking Platform " title="NVIDIA Bluefield Networking Platform " data-analytics="nv-image-c66fe0409b" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/products/certified-systems/bluefield-1920x1080.jpg">
 
 	    
 	    
@@ -18592,7 +18592,7 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--4">
 
 <div id="nv-image-532263965b" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/certified-systems/_jcr_content/root/responsivegrid/nv_modalcontainer_17_624725829/nv_container_copy/nv_image.coreimg.svg.svg/1774458624810/pure-storage-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/pure-storage-logo.svg" data-title="Pure Storage logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/pure-storage-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/pure-storage-logo.svg" data-title="Pure Storage logo" data-cmp-type="renditionUpload">
      	
            
 		   

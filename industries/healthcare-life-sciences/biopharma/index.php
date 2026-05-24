@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA AI for Healthcare and Life Sciences">
 <meta property="og:description" content="AI tools and models for healthcare innovation.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/healthcare/ai-healthcare-life-sciences-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/healthcare/ai-healthcare-life-sciences-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/healthcare-life-sciences/">
 <meta name="twitter:description" content="Explore open-source tools, APIs, frameworks, and GPU-accelerated pipelines designed for developers building solutions in drug discovery, medical imaging, genomics, healthcare robotics, and digital health.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/healthcare/ai-healthcare-life-sciences-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/healthcare/ai-healthcare-life-sciences-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 

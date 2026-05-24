@@ -236,7 +236,7 @@ function cw_rewrite_asset_urls_in_html(string $html): string
     ) ?? $html;
 
     // AEM root paths saved offline → local assets tree
-    $assetAttrs = 'href|src|srcset|content|poster|data-cmp-src|data-cmp-srcset|data-cmp-desktopimage|data-cmp-mobileimage|data-cmp-tabletimage|data-cmp-laptopimage|data-cmp-desktopretinaimage|data-cmp-mobileretinaimage|data-cmp-tabletretinaimage|data-cmp-laptopretinaimage|data-asset|data-src|data-srcset|data-background';
+    $assetAttrs = 'href|src|srcset|content|poster|data-cmp-src|data-cmp-srcset|data-cmp-desktopimage|data-cmp-mobileimage|data-cmp-tabletimage|data-cmp-laptopimage|data-cmp-desktopretinaimage|data-cmp-mobileretinaimage|data-cmp-tabletretinaimage|data-cmp-laptopretinaimage|data-asset|data-src|data-srcset|data-background|data-srcset-desktop|data-srcset-laptop|data-srcset-tablet|data-srcset-mobile';
     $html = preg_replace(
         '~\b(' . $assetAttrs . ')=(["\'])/content/dam/~i',
         '$1=$2' . $base . '/assets/www.nvidia.com/content/dam/',

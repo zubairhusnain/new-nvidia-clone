@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA GeForce Graphics Cards">
 <meta property="og:description" content="GeForce RTX 50 series, 40 series &amp; more.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/graphics-cards/">
 <meta name="twitter:description" content="Explore NVIDIA GeForce graphics cards. RTX 50 Series, RTX 40 Series, and more.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/geforce-rtx-50series-og-1200x630.jpg">
 
 	
 
@@ -2226,7 +2226,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="GeForce RTX 40 Series" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/graphics-cards/_jcr_content/root/responsivegrid/nv_container_1965276325/nv_teaser_copy_1362348342.coreimg.100.410.jpeg/1735901765888/geforce-rtx-40-series-new.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/graphics-cards/geforce-rtx-40-series-new.jpg" data-title="GeForce RTX 40 Series" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/graphics-cards/geforce-rtx-40-series-new.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/graphics-cards/geforce-rtx-40-series-new.jpg" data-title="GeForce RTX 40 Series" data-cmp-type="renditionUpload">
      	
            
 		   

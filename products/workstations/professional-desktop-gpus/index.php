@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA RTX PRO in Desktops">
 <meta property="og:description" content="The World’s Most Powerful Platform for AI, Graphics, and Simulation.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-desktop-gpus/nvidia-rtx-pro-desktop-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-desktop-gpus/nvidia-rtx-pro-desktop-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/">
 <meta name="twitter:description" content="Unlock the ultimate desktop experience with NVIDIA RTX PRO, The Top Platform for AI, Graphics, and Simulation.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/proviz-nvidia-rtx-overview-og-1200x630.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/proviz-nvidia-rtx-overview-og-1200x630.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -5252,10 +5252,10 @@ table .nv-button {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" telecommunications="" ai="" nvidia-rtx-pro-desktop-fg-cc-i1of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telecommunications/ai/nvidia-rtx-pro-desktop-fg-cc-i1of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telecommunications/ai/nvidia-rtx-pro-desktop-fg-cc-i1of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telecommunications/ai/nvidia-rtx-pro-desktop-fg-cc-i1of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/telecommunications/ai/nvidia-rtx-pro-desktop-fg-cc-i1of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Manufacturing and Product Design" title="Manufacturing and Product Design" onload="window.initLazyLoadingImages('workloads'.concat('-', 'Manufacturing and Product Design'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5327,10 +5327,10 @@ table .nv-button {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" desktop-graphics="" nvidia-rtx-pro-laptops-fg-i2of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i2of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i2of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i2of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i2of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Media and Entertainment" title="Media and Entertainment" onload="window.initLazyLoadingImages('workloads'.concat('-', 'Media and Entertainment'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5402,10 +5402,10 @@ table .nv-button {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" desktop-graphics="" nvidia-rtx-pro-laptops-fg-i3of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i3of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i3of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i3of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i3of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Architecture, Engineering, and Construction" title="Architecture, Engineering, and Construction" onload="window.initLazyLoadingImages('workloads'.concat('-', 'Architecture, Engineering, and Construction'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5477,10 +5477,10 @@ table .nv-button {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" desktop-graphics="" nvidia-rtx-pro-laptops-fg-i4of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i4of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i4of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i4of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-i4of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="AI Development and Data Science" title="AI Development and Data Science" onload="window.initLazyLoadingImages('workloads'.concat('-', 'AI Development and Data Science'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5553,10 +5553,10 @@ table .nv-button {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" desktop-graphics="" nvidia-rtx-pro-laptops-fg-cc-i5of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-cc-i5of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-cc-i5of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-cc-i5of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-rtx-pro-laptops-fg-cc-i5of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Everyday AI" title="Everyday AI" onload="window.initLazyLoadingImages('workloads'.concat('-', 'Everyday AI'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -7657,11 +7657,11 @@ max-height: 460px;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Extended Reality (XR) Solutions" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-desktop-gpus/_jcr_content/root/responsivegrid/nv_container_copy_40/copy_of_nv_carousel_/nv_teaser_copy_88305.coreimg.100.410.jpeg/1779383301316/extended-reality-katana-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/extended-reality-katana-ari.jpg" data-title="Extended Reality (XR) Solutions" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/extended-reality-katana-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/extended-reality-katana-ari.jpg" data-title="Extended Reality (XR) Solutions" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="/design-visualization/solutions/virtual-reality/" target="_self" data-cmp-hook-image="link">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Extended Reality (XR) Solutions" title="Extended Reality (XR) Solutions" data-analytics="nv-image-f6375020f6" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Extended Reality (XR) Solutions" title="Extended Reality (XR) Solutions" data-analytics="nv-image-f6375020f6" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/extended-reality-katana-ari.jpg">
 
 	    </a>
 	    

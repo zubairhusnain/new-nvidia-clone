@@ -5190,15 +5190,15 @@ var nvidiaGDClog = function() {
 
 <div class="breadcrumb-container">
     <nav id="breadcrumb" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Automotive</span>
                 
@@ -6146,12 +6146,12 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" automotive="" automotive-use-cases-fg-i1of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i1of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
-              <img class="nv-usecase--card-img" alt="Kia Motors" title="Kia Motors" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'Content Creation'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+              <img class="nv-usecase--card-img" alt="Kia Motors" title="Kia Motors" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'Content Creation'));" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i1of6-d.jpg">
           </picture>
           
           <figcaption class="nv-usecase--img-copyright">
@@ -6217,12 +6217,12 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" automotive="" automotive-use-cases-fg-i2of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i2of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i2of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i2of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i2of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
-              <img class="nv-usecase--card-img" alt="Engineering Simulation" title="Engineering Simulation" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'Enable Hybrid Work '));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+              <img class="nv-usecase--card-img" alt="Engineering Simulation" title="Engineering Simulation" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'Enable Hybrid Work '));" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i2of6-d.jpg">
           </picture>
           
           <figcaption class="nv-usecase--img-copyright">
@@ -6288,12 +6288,12 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" automotive="" automotive-use-cases-fg-i3of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i3of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i3of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i3of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i3of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
-              <img class="nv-usecase--card-img" alt="Industrial Digital Twin" title="Industrial Digital Twin" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'Artificial Intelligence'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+              <img class="nv-usecase--card-img" alt="Industrial Digital Twin" title="Industrial Digital Twin" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'Artificial Intelligence'));" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i3of6-d.jpg">
           </picture>
           
           <figcaption class="nv-usecase--img-copyright">
@@ -6359,12 +6359,12 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" automotive="" automotive-use-cases-fg-i5of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i5of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i5of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i5of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i5of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
-              <img class="nv-usecase--card-img" alt="Intelligent Assistants" title="Intelligent Assistants" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'AI Training at Scale'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+              <img class="nv-usecase--card-img" alt="Intelligent Assistants" title="Intelligent Assistants" onload="window.initLazyLoadingImages('frm-gall'.concat('-', 'AI Training at Scale'));" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i5of6-d.jpg">
           </picture>
           
           <figcaption class="nv-usecase--img-copyright">
@@ -6441,12 +6441,12 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" automotive="" automotive-use-cases-fg-i6of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i6of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i6of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i6of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i6of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
-              <img class="nv-usecase--card-img" alt="NVIDIA DRIVE Hyperion for autonomous vehicle development" title="NVIDIA DRIVE Hyperion for autonomous vehicle development" onload="window.initLazyLoadingImages('frm-gall'.concat('-', '3D Content Anywhere'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+              <img class="nv-usecase--card-img" alt="NVIDIA DRIVE Hyperion for autonomous vehicle development" title="NVIDIA DRIVE Hyperion for autonomous vehicle development" onload="window.initLazyLoadingImages('frm-gall'.concat('-', '3D Content Anywhere'));" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/automotive/automotive-use-cases-fg-i6of6-d.jpg">
           </picture>
           
           <figcaption class="nv-usecase--img-copyright">

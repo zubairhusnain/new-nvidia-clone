@@ -25,7 +25,7 @@
 <meta property="og:title" content="Accelerated Scientific Innovation with InfiniBand | NVIDIA">
 <meta property="og:description" content="NVIDIA InfiniBand brings high-speed, low-latency, scalable solutions to supercomputers, AI and cloud data centers.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/infiniband/infiniband-ndr-og-image-1200x675.png">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/infiniband/infiniband-ndr-og-image-1200x675.png">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/products/infiniband/">
 <meta name="twitter:description" content="NVIDIA Mellanox InfiniBand solutions incorporate In-Network Computing technology up to 200Gb/s for Enterprise Data Centers, Web 2.0, Cloud Computing, and HPC.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/infiniband/infiniband-ndr-og-image-1200x675.png">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/infiniband/infiniband-ndr-og-image-1200x675.png">
 
 	<meta property="industry" content="HPC / Scientific Computing,Cloud Services,Hardware / Semiconductor,Telecommunications,Aerospace,Academia / Education">
 

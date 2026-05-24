@@ -1194,15 +1194,15 @@
 
 <div class="breadcrumb-container">
     <nav id="nv-breadcrumb-21f3677b7b" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Media and Entertainment</span>
                 
@@ -2048,10 +2048,10 @@
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" media-and-entertainment="" media-entertainment-fg-cc-i1of4-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i1of4-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i1of4-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i1of4-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i1of4-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Film and TV" title="Film and TV" onload="window.initLazyLoadingImages('case'.concat('-', 'Film and TV'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2119,10 +2119,10 @@
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" media-and-entertainment="" media-entertainment-fg-cc-i2of4-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i2of4-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i2of4-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i2of4-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i2of4-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Live Media and Sports" title="Live Media and Sports" onload="window.initLazyLoadingImages('case'.concat('-', 'Broadcast'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2201,10 +2201,10 @@
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" media-and-entertainment="" media-entertainment-fg-cc-i3of4-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i3of4-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i3of4-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i3of4-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i3of4-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Advertising and Marketing" title="Advertising and Marketing" onload="window.initLazyLoadingImages('case'.concat('-', 'Advertising'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2272,10 +2272,10 @@
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" media-and-entertainment="" media-entertainment-fg-cc-i4of4-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i4of4-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i4of4-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i4of4-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-entertainment-fg-cc-i4of4-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Game Development " title="Game Development " onload="window.initLazyLoadingImages('case'.concat('-', 'Game Development '));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -3543,7 +3543,7 @@ $(document).ready(function() {
                 <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                 
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-developer" onload="window.initLazyLoadingImages('developer');">
+                    <img src="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-bm-m460-d.jpg" alt=" title=" id="image-developer" onload="window.initLazyLoadingImages('developer');">
                 
             </picture>
         
@@ -4753,11 +4753,11 @@ $(document).ready(function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/media-and-entertainment/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs/item_1670486342038/nv_container/nv_container_1045087/nv_teaser_copy.coreimg.100.410.jpeg/1775450290482/media-resources-publication-gen-ai-media-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-resources-publication-gen-ai-media-1920x1080.jpg" data-title="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-resources-publication-gen-ai-media-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-resources-publication-gen-ai-media-1920x1080.jpg" data-title="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://resources.nvidia.com/en-us-new-media-entertainment/proviz-gen-ai-for-media?lx=N6w465" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " title="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " data-analytics="nv-image-f1957dd761" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " title="AI technologies connecting different use cases of generative AI in the media and entertainment industry. " data-analytics="nv-image-f1957dd761" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/media-and-entertainment/media-resources-publication-gen-ai-media-1920x1080.jpg">
 
 	    </a>
 	    

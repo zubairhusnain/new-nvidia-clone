@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA GeForce Game Ready Drivers">
 <meta property="og:description" content="The Best Experience For Every Game">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/game-ready-drivers/grd-ada-og-1200x630.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/game-ready-drivers/grd-ada-og-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/game-ready-drivers/">
 <meta name="twitter:description" content="GeForce Game Ready Drivers deliver the best experience for your favorite games.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/game-ready-drivers/grd-ada-og-1200x630.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/game-ready-drivers/grd-ada-og-1200x630.jpg">
 
 	<meta property="interest" content="Drivers">
 

@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Solutions for Computer-Aided Engineering (CAE) ">
 <meta property="og:description" content="Accelerate, Visualize and Deploy AI with NVIDIA to your CAE workflows.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-og-v1.jpg">
+	<meta property="og:image" content="./assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-og-v1.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/cae/">
 <meta name="twitter:description" content="NVIDIA is enabling industry developers to achieve real-time interactive design using AI-accelerated real-time digital twins. Accelerate, visualize, and deploy AI with NVIDIA to your Computer-Aided Engineering Workflows.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-og-v1.jpg">
+	<meta name="twitter:image" content="./assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/computer-aided-engineering-og-v1.jpg">
 
 	<meta property="interest" content="Simulation / Modeling / Design">
 
@@ -2931,11 +2931,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn aem-GridColumn--default--12">
 
 <div id="nv-image-405d5bddf8" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_1850844460/nv_container/nv_container/nv_image.coreimg.svg.svg/1767811907151/m48-accelerated-computing-with-cuda-python.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-accelerated-computing-with-cuda-python.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-accelerated-computing-with-cuda-python.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-accelerated-computing-with-cuda-python.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Decorative image" title="Decorative image" data-analytics="nv-image-405d5bddf8" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Decorative image" title="Decorative image" data-analytics="nv-image-405d5bddf8" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-accelerated-computing-with-cuda-python.svg">
 
 	    
 	    
@@ -3058,11 +3058,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn aem-GridColumn--default--12">
 
 <div id="nv-image-11b1a6d509" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_1850844460/nv_container/nv_container_copy/nv_image.coreimg.100.410.png/1767811907221/m48-foundational-model-cognition-256px-blk.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/solutions/robotics-and-edge-computing/m48-foundational-model-cognition-256px-blk.png" data-title="Decorative image" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/solutions/robotics-and-edge-computing/m48-foundational-model-cognition-256px-blk.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/solutions/robotics-and-edge-computing/m48-foundational-model-cognition-256px-blk.png" data-title="Decorative image" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Decorative image" title="Decorative image" data-analytics="nv-image-11b1a6d509" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Decorative image" title="Decorative image" data-analytics="nv-image-11b1a6d509" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/solutions/robotics-and-edge-computing/m48-foundational-model-cognition-256px-blk.png">
 
 	    
 	    
@@ -3184,11 +3184,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn aem-GridColumn--default--12">
 
 <div id="nv-image-89191b59ca" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_1850844460/nv_container/nv_container_copy_804510980/nv_image.coreimg.svg.svg/1767811907290/m48-monitor-visualization.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-monitor-visualization.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-monitor-visualization.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-monitor-visualization.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Decorative image" title="Decorative image" data-analytics="nv-image-89191b59ca" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Decorative image" title="Decorative image" data-analytics="nv-image-89191b59ca" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-monitor-visualization.svg">
 
 	    
 	    
@@ -3613,11 +3613,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="GPU Cloud Computing Solutions" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_1734586/nv_container/nv_teaser_copy_513940159.coreimg.100.410.jpeg/1767811907568/nvidia-a100-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-a100-1920x1080.jpg" data-title="GPU Cloud Computing Solutions" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-a100-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-a100-1920x1080.jpg" data-title="GPU Cloud Computing Solutions" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="GPU Cloud Computing Solutions" title="GPU Cloud Computing Solutions" data-analytics="nv-image-9dc6b0dcf2" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="GPU Cloud Computing Solutions" title="GPU Cloud Computing Solutions" data-analytics="nv-image-9dc6b0dcf2" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-a100-1920x1080.jpg">
 
 	    
 	    
@@ -4107,11 +4107,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-edff7ebb96" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_221599474/nv_tabs/item_1/nv_container/nv_container_1276920178/nv_image.coreimg.100.410.jpeg/1767811908124/cae-automotive-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-automotive-ari.jpg" data-title="Vehicle in wind tunnel" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-automotive-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-automotive-ari.jpg" data-title="Vehicle in wind tunnel" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Vehicle in wind tunnel" title="Vehicle in wind tunnel" data-analytics="nv-image-edff7ebb96" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Vehicle in wind tunnel" title="Vehicle in wind tunnel" data-analytics="nv-image-edff7ebb96" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-automotive-ari.jpg">
 
 	    
 	    <div>
@@ -4501,11 +4501,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-9dfa61c314" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_221599474/nv_tabs/item_2/nv_container_copy/nv_container_1276920178/nv_image.coreimg.100.410.jpeg/1767811908553/cae-manufacturing-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-manufacturing-ari.jpg" data-title="Cars being built by robots" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-manufacturing-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-manufacturing-ari.jpg" data-title="Cars being built by robots" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Cars being built by robots" title="Cars being built by robots" data-analytics="nv-image-9dfa61c314" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Cars being built by robots" title="Cars being built by robots" data-analytics="nv-image-9dfa61c314" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-manufacturing-ari.jpg">
 
 	    
 	    
@@ -4870,11 +4870,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-24b9c907a4" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_221599474/nv_tabs/item_1731560360910/nv_container_copy/nv_container_1276920178/nv_image.coreimg.100.410.jpeg/1767811908946/cae-aerospace-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-aerospace-ari.jpg" data-title="Airplane in hangar" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-aerospace-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-aerospace-ari.jpg" data-title="Airplane in hangar" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Airplane in hangar" title="Airplane in hangar" data-analytics="nv-image-24b9c907a4" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Airplane in hangar" title="Airplane in hangar" data-analytics="nv-image-24b9c907a4" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-aerospace-ari.jpg">
 
 	    
 	    
@@ -5239,11 +5239,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-c884d955b4" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_221599474/nv_tabs/item_1731560363190/nv_container_copy/nv_container_1276920178/nv_image.coreimg.100.410.jpeg/1767811909338/cae-energy-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-energy-ari.jpg" data-title="Simulated windmills" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-energy-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-energy-ari.jpg" data-title="Simulated windmills" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Simulated windmills" title="Simulated windmills" data-analytics="nv-image-c884d955b4" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Simulated windmills" title="Simulated windmills" data-analytics="nv-image-c884d955b4" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cae-energy-ari.jpg">
 
 	    
 	    <div>
@@ -5614,11 +5614,11 @@ var nvidiaGDClog = function() {
 	        <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-878a767400" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image.coreimg.svg.svg/1767811909770/altair-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/altair-logo.svg" data-title="Altair Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/altair-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/altair-logo.svg" data-title="Altair Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Altair Logo" title="Altair Logo" data-analytics="nv-image-878a767400" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Altair Logo" title="Altair Logo" data-analytics="nv-image-878a767400" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/altair-logo.svg">
 
 	    
 	    
@@ -5631,11 +5631,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-72387efa57" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy.coreimg.svg.svg/1767811909819/logo-ansys.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/partners/ansys/logo-ansys.svg" data-title="Ansys Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/partners/ansys/logo-ansys.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/partners/ansys/logo-ansys.svg" data-title="Ansys Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Ansys Logo" title="Ansys Logo" data-analytics="nv-image-72387efa57" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Ansys Logo" title="Ansys Logo" data-analytics="nv-image-72387efa57" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/industrial-sector/partners/ansys/logo-ansys.svg">
 
 	    
 	    
@@ -5648,11 +5648,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-d1095a74e0" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_787506.coreimg.svg.svg/1767811909869/autodesk-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/autodesk-logo.svg" data-title="Autodesk Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/autodesk-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/autodesk-logo.svg" data-title="Autodesk Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Autodesk Logo" title="Autodesk Logo" data-analytics="nv-image-d1095a74e0" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Autodesk Logo" title="Autodesk Logo" data-analytics="nv-image-d1095a74e0" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/autodesk-logo.svg">
 
 	    
 	    
@@ -5665,11 +5665,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-3d92ff3adb" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_610877.coreimg.svg.svg/1767811909918/beyond-math-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/beyond-math-logo.svg" data-title="Beyond Math Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/beyond-math-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/beyond-math-logo.svg" data-title="Beyond Math Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Beyond Math Logo" title="Beyond Math Logo" data-analytics="nv-image-3d92ff3adb" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Beyond Math Logo" title="Beyond Math Logo" data-analytics="nv-image-3d92ff3adb" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/beyond-math-logo.svg">
 
 	    
 	    
@@ -5716,11 +5716,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-e750020d19" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_776161.coreimg.svg.svg/1767811910067/esi-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/esi-logo.svg" data-title="ESI Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/esi-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/esi-logo.svg" data-title="ESI Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="ESI Logo" title="ESI Logo" data-analytics="nv-image-e750020d19" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="ESI Logo" title="ESI Logo" data-analytics="nv-image-e750020d19" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/esi-logo.svg">
 
 	    
 	    
@@ -5750,11 +5750,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-73fd347abe" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_1591040422.coreimg.svg.svg/1767811910145/luminary-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/luminary-logo.svg" data-title="Luminary Cloud Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/luminary-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/luminary-logo.svg" data-title="Luminary Cloud Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Luminary Cloud Logo" title="Luminary Cloud Logo" data-analytics="nv-image-73fd347abe" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Luminary Cloud Logo" title="Luminary Cloud Logo" data-analytics="nv-image-73fd347abe" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/luminary-logo.svg">
 
 	    
 	    
@@ -5767,11 +5767,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-c0acebc108" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_330109.coreimg.svg.svg/1767811910173/neural-concept-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/neural-concept-logo.svg" data-title="Neural Concept Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/neural-concept-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/neural-concept-logo.svg" data-title="Neural Concept Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Neural Concept Logo" title="Neural Concept Logo" data-analytics="nv-image-c0acebc108" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Neural Concept Logo" title="Neural Concept Logo" data-analytics="nv-image-c0acebc108" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/neural-concept-logo.svg">
 
 	    
 	    
@@ -5784,11 +5784,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-ed94933fb2" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_330109_1530831886.coreimg.svg.svg/1767811910201/ntopology-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/ntopology-logo.svg" data-title="nTopology Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/ntopology-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/ntopology-logo.svg" data-title="nTopology Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="nTopology Logo" title="nTopology Logo" data-analytics="nv-image-ed94933fb2" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="nTopology Logo" title="nTopology Logo" data-analytics="nv-image-ed94933fb2" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/ntopology-logo.svg">
 
 	    
 	    
@@ -5835,11 +5835,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-b3352e0423" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_848326585.coreimg.svg.svg/1767811910286/simscale-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/simscale-logo.svg" data-title="Simscale Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/simscale-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/simscale-logo.svg" data-title="Simscale Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Simscale Logo" title="Simscale Logo" data-analytics="nv-image-b3352e0423" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Simscale Logo" title="Simscale Logo" data-analytics="nv-image-b3352e0423" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/simscale-logo.svg">
 
 	    
 	    
@@ -5852,11 +5852,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-302ab24775" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1/nv_image_copy_2100733744.coreimg.svg.svg/1767811910314/trane-technologies-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/trane-technologies-logo.svg" data-title="Trane Technologies Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/trane-technologies-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/trane-technologies-logo.svg" data-title="Trane Technologies Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Trane Technologies Logo" title="Trane Technologies Logo" data-analytics="nv-image-302ab24775" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Trane Technologies Logo" title="Trane Technologies Logo" data-analytics="nv-image-302ab24775" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/trane-technologies-logo.svg">
 
 	    
 	    
@@ -5973,11 +5973,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-a4fe2bdf76" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_2/nv_image_copy_398422488.coreimg.svg.svg/1767811910489/microsoft-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg" data-title="Microsoft Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg" data-title="Microsoft Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Microsoft Logo" title="Microsoft Logo" data-analytics="nv-image-a4fe2bdf76" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Microsoft Logo" title="Microsoft Logo" data-analytics="nv-image-a4fe2bdf76" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/microsoft-logo.svg">
 
 	    
 	    
@@ -6007,11 +6007,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-06d9e49e7a" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_2/nv_image_copy_1809161261.coreimg.svg.svg/1767811910543/rescale-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/rescale-logo.svg" data-title="Rescale Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/rescale-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/rescale-logo.svg" data-title="Rescale Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Rescale Logo" title="Rescale Logo" data-analytics="nv-image-06d9e49e7a" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Rescale Logo" title="Rescale Logo" data-analytics="nv-image-06d9e49e7a" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/rescale-logo.svg">
 
 	    
 	    
@@ -6111,11 +6111,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-1d14f8de0a" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1708352221506/nv_image_copy_copy_2081499107.coreimg.svg.svg/1767811910699/gtc22-partner-logo-dell-technologies-1250x703.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc22-partner-logo-dell-technologies-1250x703.svg" data-title="Dell Technologies Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc22-partner-logo-dell-technologies-1250x703.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc22-partner-logo-dell-technologies-1250x703.svg" data-title="Dell Technologies Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Dell Technologies Logo" title="Dell Technologies Logo" data-analytics="nv-image-1d14f8de0a" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Dell Technologies Logo" title="Dell Technologies Logo" data-analytics="nv-image-1d14f8de0a" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc22-partner-logo-dell-technologies-1250x703.svg">
 
 	    
 	    
@@ -6128,11 +6128,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-bafb5369ed" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1708352221506/nv_image_copy_copy_1040676690.coreimg.svg.svg/1767811910727/fujitsu-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/ja/Solutions/logos/fujitsu-logo.svg" data-title="Fujitsu Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/ja/Solutions/logos/fujitsu-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/ja/Solutions/logos/fujitsu-logo.svg" data-title="Fujitsu Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Fujitsu Logo" title="Fujitsu Logo" data-analytics="nv-image-bafb5369ed" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Fujitsu Logo" title="Fujitsu Logo" data-analytics="nv-image-bafb5369ed" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/ja/Solutions/logos/fujitsu-logo.svg">
 
 	    
 	    
@@ -6145,11 +6145,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image nv-no-top-padding nv-no-bottom-padding">
 
 <div id="nv-image-2e77865663" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container/nv_tabs_copy/item_1708352221506/nv_image_copy_copy_1.coreimg.svg.svg/1767811910754/hewlett-packard-enterprise-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs21/enterprise/hewlett-packard-enterprise-logo.svg" data-title="Hewlett Packard Enterprise Logo" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs21/enterprise/hewlett-packard-enterprise-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs21/enterprise/hewlett-packard-enterprise-logo.svg" data-title="Hewlett Packard Enterprise Logo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Hewlett Packard Enterprise Logo" title="Hewlett Packard Enterprise Logo" data-analytics="nv-image-2e77865663" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Hewlett Packard Enterprise Logo" title="Hewlett Packard Enterprise Logo" data-analytics="nv-image-2e77865663" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs21/enterprise/hewlett-packard-enterprise-logo.svg">
 
 	    
 	    
@@ -6481,11 +6481,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Simulation of a turbo pump" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/nv_container/nv_container_copy_638934300/nv_teaser_copy_56210.coreimg.100.410.jpeg/1767811911171/cae-physical-ai-sfg.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/cae/cae-physical-ai-sfg.jpg" data-title="Simulation of a turbo pump" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/cae/cae-physical-ai-sfg.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/cae/cae-physical-ai-sfg.jpg" data-title="Simulation of a turbo pump" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Simulation of a turbo pump" title="Simulation of a turbo pump" data-analytics="nv-image-5e2c694e1a" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Simulation of a turbo pump" title="Simulation of a turbo pump" data-analytics="nv-image-5e2c694e1a" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/cae/cae-physical-ai-sfg.jpg">
 
 	    
 	    
@@ -6559,11 +6559,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA\u002DX" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/nv_container/nv_container_copy_638934300/nv_teaser_copy.coreimg.100.410.jpeg/1767811911234/industrial-manufacturing-tech-blog-eda-announcement-25-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/industrial-manufacturing-tech-blog-eda-announcement-25-1920x1080.jpg" data-title="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA-X" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/industrial-manufacturing-tech-blog-eda-announcement-25-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/industrial-manufacturing-tech-blog-eda-announcement-25-1920x1080.jpg" data-title="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA-X" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA-X" title="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA-X" data-analytics="nv-image-8cbfe59c0d" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA-X" title="Semiconductor Industry Accelerates Design Manufacturing With NVIDIA Blackwell and CUDA-X" data-analytics="nv-image-8cbfe59c0d" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/industrial-manufacturing-tech-blog-eda-announcement-25-1920x1080.jpg">
 
 	    
 	    
@@ -6630,11 +6630,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt=" image panels for13 CUDA\u002DX libraries " data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/nv_container/nv_container_copy_638934300/nv_teaser_copy_81329.coreimg.100.410.jpeg/1767811911299/cuda-x-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cuda-x-ari.jpg" data-title=" image panels for13 CUDA-X libraries " data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cuda-x-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cuda-x-ari.jpg" data-title=" image panels for13 CUDA-X libraries " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt=" image panels for13 CUDA-X libraries " title=" image panels for13 CUDA-X libraries " data-analytics="nv-image-5a24a3c2e2" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt=" image panels for13 CUDA-X libraries " title=" image panels for13 CUDA-X libraries " data-analytics="nv-image-5a24a3c2e2" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/cuda-x-ari.jpg">
 
 	    
 	    
@@ -6968,11 +6968,11 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA and Synopsys" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/nv_container_copy_269880548/nv_container/nv_teaser_copy_copy_.coreimg.100.410.jpeg/1767811911530/nvidia-synopsys.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg" data-title="NVIDIA and Synopsys" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg" data-title="NVIDIA and Synopsys" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA and Synopsys" title="NVIDIA and Synopsys" data-analytics="nv-image-ece271a385" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA and Synopsys" title="NVIDIA and Synopsys" data-analytics="nv-image-ece271a385" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg">
 
 	    
 	    
@@ -7117,11 +7117,11 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="White airplane undergoing simulation " data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_copy/nv_tabs_copy_copy/nv_container_copy_269880548/nv_container/nv_teaser_copy_81329.coreimg.100.410.jpeg/1767811911633/blackwell-accelerates-cae-ari-pr.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg" data-title="White airplane undergoing simulation " data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg" data-title="White airplane undergoing simulation " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="White airplane undergoing simulation " title="White airplane undergoing simulation " data-analytics="nv-image-6368552050" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="White airplane undergoing simulation " title="White airplane undergoing simulation " data-analytics="nv-image-6368552050" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg">
 
 	    
 	    
@@ -8291,11 +8291,11 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="White airplane undergoing simulation " data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_873180172/nv_teaser_copy_copy__140035786.coreimg.100.410.jpeg/1767811912470/blackwell-accelerates-cae-ari-pr.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg" data-title="White airplane undergoing simulation " data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg" data-title="White airplane undergoing simulation " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="White airplane undergoing simulation " title="White airplane undergoing simulation " data-analytics="nv-image-6c9b0a88df" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="White airplane undergoing simulation " title="White airplane undergoing simulation " data-analytics="nv-image-6c9b0a88df" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/blackwell-accelerates-cae-ari-pr.jpg">
 
 	    
 	    
@@ -8369,11 +8369,11 @@ body.theme-geforce .latest-news.latest-news--large .latest-news__item .latest-ne
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA and Synopsys" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/cae/_jcr_content/root/responsivegrid/nv_container_873180172/nv_teaser_copy_copy__36567535.coreimg.100.410.jpeg/1767811912521/nvidia-synopsys.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg" data-title="NVIDIA and Synopsys" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg" data-title="NVIDIA and Synopsys" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA and Synopsys" title="NVIDIA and Synopsys" data-analytics="nv-image-5a7d5419a1" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA and Synopsys" title="NVIDIA and Synopsys" data-analytics="nv-image-5a7d5419a1" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-and-simulation/cae/nvidia-synopsys.jpg">
 
 	    
 	    

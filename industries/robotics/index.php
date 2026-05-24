@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Robotics Platform">
 <meta property="og:description" content="Accelerate the Next Wave of AI Robots.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-industry-og-100_.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-industry-og-100_.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/robotics/">
 <meta name="twitter:description" content="AI robots can adapt, learn, and perform complex tasks with precision. This is made possible by advancements in AI, accelerated computing, physically based simulation, and a vast ecosystem of sensors and actuators.  ">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-industry-og-100_.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-industry-og-100_.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -8036,15 +8036,15 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
 
 <div class="breadcrumb-container">
     <nav id="nv-breadcrumb-512daa4a47" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Robotics</span>
                 
@@ -8893,10 +8893,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" robotics="" humanoid-robots-fg-i1of5-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/humanoid-robots-fg-i1of5-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/humanoid-robots-fg-i1of5-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/humanoid-robots-fg-i1of5-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/humanoid-robots-fg-i1of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Humanoid robot in a kitchen" title="Humanoid robot in a kitchen" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'humanoid-robots'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -8964,10 +8964,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" robotics="" robot-learning-fg-i2of5-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-learning-fg-i2of5-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-learning-fg-i2of5-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-learning-fg-i2of5-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-learning-fg-i2of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Simulation-trained robot navigating warehouse" title="Simulation-trained robot navigating warehouse" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'robot-learning'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -9035,10 +9035,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" robotics="" robotics-simulation-fg-i3of5-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-simulation-fg-i3of5-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-simulation-fg-i3of5-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-simulation-fg-i3of5-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robotics-simulation-fg-i3of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Robotics simulation: warehouse robots moving boxes" title="Robotics simulation: warehouse robots moving boxes" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'robotics-simulation'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -9106,10 +9106,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" robotics="" synthetic-data-generation-fg-i3of5-alt-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/synthetic-data-generation-fg-i3of5-alt-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/synthetic-data-generation-fg-i3of5-alt-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/synthetic-data-generation-fg-i3of5-alt-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/synthetic-data-generation-fg-i3of5-alt-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Synthetic Data Generation" title="Synthetic Data Generation" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'synthetic-data-generation '));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -9177,10 +9177,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" robotics="" virtual-facility-integration-fg-i5of5-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/virtual-facility-integration-fg-i5of5-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/virtual-facility-integration-fg-i5of5-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/virtual-facility-integration-fg-i5of5-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/virtual-facility-integration-fg-i5of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt=" AI-powered virtual factory robots" title=" AI-powered virtual factory robots" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'industrial-facility-digital-twins'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -9248,10 +9248,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" robotics="" robot-safety-fg-i6of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-safety-fg-i6of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-safety-fg-i6of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-safety-fg-i6of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/robotics/robot-safety-fg-i6of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Build Functional Safety AI Agents for Industrial Robots" title="Build Functional Safety AI Agents for Industrial Robots" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'robot-safety'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>

@@ -6746,7 +6746,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -7092,7 +7092,7 @@ var nvidiaGDClog = function() {
          
          
 	<div class="nv-video-as-bg nv-video-load-src t-video-c-center p-video-c-bottom  ">
-		<video id="video-bm-uf-ge-lo-video" muted=" playsinline=" preload="meta" data-video-source="{&quot;desktop&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-d.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-d.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;laptop&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;tablet&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-medium-large-efffect-left-only-light-bm-l440-t.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-medium-large-efffect-left-only-light-bm-l440-t.webm&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;mobile&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-uf1080-p.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-uf1080-p.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}]}" loop=" class="nv-video-src-loaded"><source src="https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.webm" type="video/webm"><source src="https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.mp4" type="video/mp4"></video>
+		<video id="video-bm-uf-ge-lo-video" muted=" playsinline=" preload="meta" data-video-source="{&quot;desktop&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-d.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-d.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;laptop&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;tablet&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-medium-large-efffect-left-only-light-bm-l440-t.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-medium-large-efffect-left-only-light-bm-l440-t.webm&quot;,&quot;type&quot;:&quot;video/mp4&quot;}],&quot;mobile&quot;:[{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-uf1080-p.webm&quot;,&quot;type&quot;:&quot;video/webm&quot;},{&quot;src&quot;:&quot;https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-uf1080-p.mp4&quot;,&quot;type&quot;:&quot;video/mp4&quot;}]}" loop=" class=" nv-video-src-loaded"=""><source src="https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.webm" type="video/webm"><source src="https://images.nvidia.com/aem-dam/sg-ce/style-guide/patterns/banner/sample-banner-large-glass-efffect-left-only-light-bm-l580-l.mp4" type="video/mp4"></video>
 		<script>
 			window.initBuildVideo("bm-uf-ge-lo-video");
 		</script>
@@ -9158,7 +9158,7 @@ var nvidiaGDClog = function() {
     	
 		
 
-    <div> <script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/casestudies_widget.js"></script> 
+    <div> <script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" case-studies="" casestudies_widget.js"=""></script> 
 <script defer="">
  setTimeout(() => {
      LPCS.Home.mount({
@@ -9639,7 +9639,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Bryan Catanzaro, VP of applied research, discussing Nemotron" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/_jcr_content/root/responsivegrid/nv_container_4585444/nv_tabs/item_1741350375380_c_930008688/item_1741363241951_c/nv_teaser_copy_62396_772915589.coreimg.100.410.jpeg/1761626355483/bryan-catanzaro-nvidia-nemotron-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/use-case/bryan-catanzaro-nvidia-nemotron-ari.jpg" data-title="Bryan Catanzaro, VP of applied research, discussing Nemotron" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/use-case/bryan-catanzaro-nvidia-nemotron-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/use-case/bryan-catanzaro-nvidia-nemotron-ari.jpg" data-title="Bryan Catanzaro, VP of applied research, discussing Nemotron" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=_y9SEtn1lU8" target="_modal" data-cmp-hook-image="link">
            
 		   
@@ -10874,7 +10874,7 @@ var brandName = "ai"
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/9nJ-_F12Duc?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="9nJ-_F12Duc" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/9nJ-_F12Duc?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="9nJ-_F12Duc" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </template>
 
@@ -11035,7 +11035,7 @@ var brandName = "ai"
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/_y9SEtn1lU8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="_y9SEtn1lU8" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/_y9SEtn1lU8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="_y9SEtn1lU8" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </template>
 
@@ -11524,7 +11524,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

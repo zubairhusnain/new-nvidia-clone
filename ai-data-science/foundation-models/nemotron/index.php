@@ -6538,11 +6538,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--5 aem-GridColumn--tablet--none aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
 
 <div id="nv-image-fd86f0f7cb" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1179929184/nv_container_464561998/nv_container/nv_container_copy_1989782063/nv_image.coreimg.svg.svg/1777389292235/m48-nim.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-nim.svg" data-title="Icon for Open Models" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-nim.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-nim.svg" data-title="Icon for Open Models" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Icon for Open Models" title="Icon for Open Models" data-analytics="nv-image-fd86f0f7cb" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Icon for Open Models" title="Icon for Open Models" data-analytics="nv-image-fd86f0f7cb" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-nim.svg">
 
 	    
 	    
@@ -6804,11 +6804,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--5 aem-GridColumn--tablet--none aem-GridColumn--phone--10 aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
 
 <div id="nv-image-2e458ad843" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1179929184/nv_container_464561998/nv_container/nv_container_copy/nv_image.coreimg.100.410.png/1777389292585/m48-accuracy-256px-blk.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf21/riva-enterprise/m48-accuracy-256px-blk.png" data-title=" " data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf21/riva-enterprise/m48-accuracy-256px-blk.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf21/riva-enterprise/m48-accuracy-256px-blk.png" data-title=" " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt=" title=" data-analytics="nv-image-2e458ad843" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt=" title=" data-analytics="nv-image-2e458ad843" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf21/riva-enterprise/m48-accuracy-256px-blk.png">
 
 	    
 	    
@@ -7929,11 +7929,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA NIM Workflow Blueprints" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1179929_592625005/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1777389293539/nvidia-blueprints-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nvidia-blueprints-ari.jpg" data-title="NVIDIA NIM Workflow Blueprints" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nvidia-blueprints-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nvidia-blueprints-ari.jpg" data-title="NVIDIA NIM Workflow Blueprints" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA NIM Workflow Blueprints" title="NVIDIA NIM Workflow Blueprints" data-analytics="nv-image-4ba816b2bf" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA NIM Workflow Blueprints" title="NVIDIA NIM Workflow Blueprints" data-analytics="nv-image-4ba816b2bf" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/nvidia-blueprints-ari.jpg">
 
 	    
 	    
@@ -8575,11 +8575,11 @@ var nvidiaGDClog = function() {
 	        <div class="nv-image image">
 
 <div id="nv-image-9157278010" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1260862924/nv_container/nv_image.coreimg.svg.svg/1777389293869/gtc20-partner-logo-accenture-1250x703.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc20-partner-logo-accenture-1250x703.svg" data-title="Accenture" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc20-partner-logo-accenture-1250x703.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc20-partner-logo-accenture-1250x703.svg" data-title="Accenture" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Accenture" title="Accenture" data-analytics="nv-image-9157278010" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Accenture" title="Accenture" data-analytics="nv-image-9157278010" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc20-partner-logo-accenture-1250x703.svg">
 
 	    
 	    
@@ -8694,11 +8694,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-134def7169" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1260862924/nv_container/nv_image_copy_409924_172116597.coreimg.svg.svg/1777389293914/gtc24-spring-partner-logo-softserve-1250x703.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc24-spring-partner-logo-softserve-1250x703.svg" data-title="Soft Serve" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc24-spring-partner-logo-softserve-1250x703.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc24-spring-partner-logo-softserve-1250x703.svg" data-title="Soft Serve" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Soft Serve" title="Soft Serve" data-analytics="nv-image-134def7169" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Soft Serve" title="Soft Serve" data-analytics="nv-image-134def7169" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtc/sponsor-logos/gtc24-spring-partner-logo-softserve-1250x703.svg">
 
 	    
 	    
@@ -8711,11 +8711,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-a6f09b7cf7" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1260862924/nv_container/nv_image_copy_409924_1004842108.coreimg.svg.svg/1777389293921/world-wide-technology-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/world-wide-technology-logo.svg" data-title="World Wide Technology" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/world-wide-technology-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/world-wide-technology-logo.svg" data-title="World Wide Technology" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="World Wide Technology" title="World Wide Technology" data-analytics="nv-image-a6f09b7cf7" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="World Wide Technology" title="World Wide Technology" data-analytics="nv-image-a6f09b7cf7" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/world-wide-technology-logo.svg">
 
 	    
 	    
@@ -9547,11 +9547,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Reasoning agent with reasoning On vs. Off" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-data-science/foundation-models/nemotron/_jcr_content/root/responsivegrid/nv_container_1179929_1478817276/nv_tabs_copy/item_1753983240227/nv_container_copy/nv_teaser_copy_1537622048.coreimg.100.410.jpeg/1777389294281/reasoning-agent-video-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg" data-title="Reasoning agent with reasoning On vs. Off" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg" data-title="Reasoning agent with reasoning On vs. Off" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=v8SCni68w6U&amp;list=PLZHnYvH1qtObaqSjwoNRwzB2Tz_0OfX7U&amp;index=9" target="_modal" data-cmp-hook-image="link">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Reasoning agent with reasoning On vs. Off" title="Reasoning agent with reasoning On vs. Off" data-analytics="nv-image-874c828724" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Reasoning agent with reasoning On vs. Off" title="Reasoning agent with reasoning On vs. Off" data-analytics="nv-image-874c828724" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/llama-nemotron/reasoning-agent-video-ari.jpg">
 
 	    </a>
 	    

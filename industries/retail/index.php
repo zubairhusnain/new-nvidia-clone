@@ -25,7 +25,7 @@
 <meta property="og:title" content="Retail Industry Solutions Powered by AI ">
 <meta property="og:description" content="A New Era of Smarter Retail.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/retail-industry-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/retail-industry-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/retail/">
 <meta name="twitter:description" content="Leading retailers are tapping into AI to automate warehouse logistics, determine in-store promotions and real-time pricing.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/retail-industry-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/retail-industry-og.jpg">
 
 	<meta property="industry" content=",Retail / Consumer Packaged Goods">
 
@@ -4107,15 +4107,15 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
 
 <div class="breadcrumb-container">
     <nav id="nv-breadcrumb-bf51f95ff2" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Retail and CPG</span>
                 
@@ -5085,10 +5085,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" retail="" omnichannel-management-fg-i2of3-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/omnichannel-management-fg-i2of3-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/omnichannel-management-fg-i2of3-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/omnichannel-management-fg-i2of3-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/omnichannel-management-fg-i2of3-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Omnichannel Management " title="Omnichannel Management " onload="window.initLazyLoadingImages('use-cases'.concat('-', 'Omnichannel Management '));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5156,10 +5156,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" retail="" intelligent-supply-chain-fg-i3of3-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-supply-chain-fg-i3of3-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-supply-chain-fg-i3of3-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-supply-chain-fg-i3of3-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-supply-chain-fg-i3of3-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Intelligent Supply Chain" title="Intelligent Supply Chain" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'Intelligent Supply Chain'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5227,10 +5227,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" retail="" intelligent-stores-fg-i1of3-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-stores-fg-i1of3-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-stores-fg-i1of3-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-stores-fg-i1of3-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/retail/intelligent-stores-fg-i1of3-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Intelligent Stores" title="Intelligent Stores" onload="window.initLazyLoadingImages('use-cases'.concat('-', 'Intelligent Stores'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>

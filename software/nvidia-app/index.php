@@ -7247,11 +7247,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA Game Ready Drivers" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app/_jcr_content/root/responsivegrid/nv_container_1732361264/nv_container/nv_teaser.coreimg.100.410.jpeg/1770990154963/game-ready-drivers-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/game-ready-drivers-ari.jpg" data-title="NVIDIA Game Ready Drivers" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/game-ready-drivers-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/game-ready-drivers-ari.jpg" data-title="NVIDIA Game Ready Drivers" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA Game Ready Drivers" title="NVIDIA Game Ready Drivers" data-analytics="nv-image-96fd254fb9" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Game Ready Drivers" title="NVIDIA Game Ready Drivers" data-analytics="nv-image-96fd254fb9" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app/game-ready-drivers-ari.jpg">
 
 	    
 	    
@@ -9641,11 +9641,11 @@ height: auto !important;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA Broadcast" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app/_jcr_content/root/responsivegrid/nv_container_1379324183/nv_tabs/item_1768150277638/nv_teaser.coreimg.100.410.jpeg/1770990157189/geforce-broadcast-app.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-broadcast-app.jpg" data-title="NVIDIA Broadcast" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-broadcast-app.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-broadcast-app.jpg" data-title="NVIDIA Broadcast" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA Broadcast" title="NVIDIA Broadcast" data-analytics="nv-image-f257a27cfd" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Broadcast" title="NVIDIA Broadcast" data-analytics="nv-image-f257a27cfd" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/geforce-broadcast-app.jpg">
 
 	    
 	    
@@ -10162,11 +10162,11 @@ height: auto !important;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Decorative image" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app/_jcr_content/root/responsivegrid/nv_container_1968598044/nv_container/nv_teaser_543741177.coreimg.svg.svg/1770990157619/m48-controller-ffffff.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-controller-ffffff.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-controller-ffffff.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-controller-ffffff.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Decorative image" title="Decorative image" data-analytics="nv-image-4edc1088cd" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Decorative image" title="Decorative image" data-analytics="nv-image-4edc1088cd" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-controller-ffffff.svg">
 
 	    
 	    
@@ -10229,11 +10229,11 @@ height: auto !important;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Decorative image" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app/_jcr_content/root/responsivegrid/nv_container_1968598044/nv_container/nv_teaser_1635523861.coreimg.svg.svg/1770990157655/m48-announcement-megaphone-ffffff.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-announcement-megaphone-ffffff.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-announcement-megaphone-ffffff.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-announcement-megaphone-ffffff.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Decorative image" title="Decorative image" data-analytics="nv-image-dfe342e1e4" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Decorative image" title="Decorative image" data-analytics="nv-image-dfe342e1e4" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-announcement-megaphone-ffffff.svg">
 
 	    
 	    
@@ -10296,11 +10296,11 @@ height: auto !important;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Decorative image" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app/_jcr_content/root/responsivegrid/nv_container_1968598044/nv_container/nv_teaser_294291330.coreimg.svg.svg/1770990157691/m48-misc-question-faq-ffffff.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq-ffffff.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq-ffffff.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq-ffffff.svg" data-title="Decorative image" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Decorative image" title="Decorative image" data-analytics="nv-image-863b796134" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Decorative image" title="Decorative image" data-analytics="nv-image-863b796134" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq-ffffff.svg">
 
 	    
 	    

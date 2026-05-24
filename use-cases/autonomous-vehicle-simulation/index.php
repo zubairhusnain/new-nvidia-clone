@@ -6111,11 +6111,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--10 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--tablet--1">
 
 <div id="nv-image-f6e75379c4" class="cmp-image             
-     d-align-left l-align-left t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/use-cases/autonomous-vehicle-simulation/_jcr_content/root/responsivegrid/item_1708599516441_c/nv_container/nv_container_copy_co/nv_container/nv_image.coreimg.svg.svg/1775482856210/m48-auto-safety.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg" data-title=" Safety First" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg" data-title=" Safety First" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt=" title=" safety="" first"="" data-analytics="nv-image-f6e75379c4" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt=" title=" safety="" first"="" data-analytics="nv-image-f6e75379c4" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg">
 
 	    
 	    
@@ -6235,11 +6235,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--10 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--tablet--1">
 
 <div id="nv-image-c6fee20718" class="cmp-image             
-     d-align-left l-align-left t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/use-cases/autonomous-vehicle-simulation/_jcr_content/root/responsivegrid/item_1708599516441_c/nv_container/nv_container_copy_co/nv_container_1950611205/nv_image.coreimg.svg.svg/1775482856276/m48-lower-cost.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-lower-cost.svg" data-title=" Cost Efficiency" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-lower-cost.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-lower-cost.svg" data-title=" Cost Efficiency" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt=" title=" cost="" efficiency"="" data-analytics="nv-image-c6fee20718" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt=" title=" cost="" efficiency"="" data-analytics="nv-image-c6fee20718" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-lower-cost.svg">
 
 	    
 	    
@@ -6591,7 +6591,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Autonomous Vehicle with halo and multiple icons around it representing NVIDIA Alpamayo" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/referenced/alpamayo-reference/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_teaser_copy.coreimg.100.410.jpeg/1774433393812/nvidia-alpamayo-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/alpamayo/nvidia-alpamayo-ari.jpg" data-title="Autonomous Vehicle with halo and multiple icons around it representing NVIDIA Alpamayo" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/alpamayo/nvidia-alpamayo-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/alpamayo/nvidia-alpamayo-ari.jpg" data-title="Autonomous Vehicle with halo and multiple icons around it representing NVIDIA Alpamayo" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -7092,11 +7092,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--7">
 
 <div id="nv-image-532459d8f8" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/use-cases/autonomous-vehicle-simulation/_jcr_content/root/responsivegrid/item_1708599526309_c/nv_container_copy_co_700966032/nv_image.coreimg.svg.svg/1775482856924/av-sim-blueprint-update.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/av-sim-blueprint-update.svg" data-title="Diagram of Autonomous Vehicle Simulation Blueprint" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/av-sim-blueprint-update.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/av-sim-blueprint-update.svg" data-title="Diagram of Autonomous Vehicle Simulation Blueprint" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Diagram of Autonomous Vehicle Simulation Blueprint" title="Diagram of Autonomous Vehicle Simulation Blueprint" data-analytics="nv-image-532459d8f8" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Diagram of Autonomous Vehicle Simulation Blueprint" title="Diagram of Autonomous Vehicle Simulation Blueprint" data-analytics="nv-image-532459d8f8" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/av-sim-blueprint-update.svg">
 
 	    
 	    
@@ -7642,11 +7642,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="dSPACE" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/use-cases/autonomous-vehicle-simulation/_jcr_content/root/responsivegrid/nv_container_1081471/nv_container/nv_teaser_copy.coreimg.svg.svg/1775482857432/dspace-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/dspace-logo.svg" data-title="dSPACE" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/dspace-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/dspace-logo.svg" data-title="dSPACE" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="dSPACE" title="dSPACE" data-analytics="nv-image-a8a5242084" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="dSPACE" title="dSPACE" data-analytics="nv-image-a8a5242084" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/dspace-logo.svg">
 
 	    
 	    
@@ -7705,11 +7705,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="51World" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/use-cases/autonomous-vehicle-simulation/_jcr_content/root/responsivegrid/nv_container_1081471/nv_container/nv_teaser_copy_18007.coreimg.svg.svg/1775482857496/51-world-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/51-world-logo.svg" data-title="51World" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/logos/51-world-logo.svg" data-asset="../../assets/www.nvidia.com/content/dam/logos/51-world-logo.svg" data-title="51World" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="51World" title="51World" data-analytics="nv-image-2201dd69a1" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="51World" title="51World" data-analytics="nv-image-2201dd69a1" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/logos/51-world-logo.svg">
 
 	    
 	    

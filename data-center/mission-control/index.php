@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Mission Control">
 <meta property="og:description" content="Software-Defined Expertise and Intelligence for AI Factories. ">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-ai-factory-mission-control-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-ai-factory-mission-control-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/mission-control/">
 <meta name="twitter:description" content="NVIDIA Mission Control simplifies AI operations, from cluster deployment to workload orchestration to building management integration. ">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-ai-factory-mission-control-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-ai-factory-mission-control-og.jpg">
 
 	<meta property="interest" content="MLOps,Developer Tools &amp; Techniques,Data Center / Cloud">
 
@@ -1698,7 +1698,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2049,10 +2049,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-top    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-af-bottom-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-af-bottom-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg440-offset-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-af-bottom-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-af-bottom-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg440-offset-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg440-offset-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" mission-control="" nvidia-mission-control-bm-af-bottom-p.jpg,="" nvidia-mission-control-bm-af-bottom-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" mission-control="" nvidia-mission-control-bm-lg440-offset-t.jpg,="" nvidia-mission-control-bm-lg440-offset-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" mission-control="" nvidia-mission-control-bm-lg580-offset-l.jpg,="" nvidia-mission-control-bm-lg580-offset-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" mission-control="" nvidia-mission-control-bm-lg580-offset-d.jpg,="" nvidia-mission-control-bm-lg580-offset-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-d.jpg" alt=" title=" id="image-container-ea3f21300b" onload="window.initLazyLoadingImages('container-ea3f21300b');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/mission-control/nvidia-mission-control-bm-lg580-offset-d@2x.jpg 2x">
                 
@@ -5474,7 +5474,7 @@ var nvidiaGDClog = function() {
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/data-center/get-dgx/contact-us/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" data-center="" get-dgx="" contact-us="" "=""></iframe>
           </div>
         
         
@@ -5871,7 +5871,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

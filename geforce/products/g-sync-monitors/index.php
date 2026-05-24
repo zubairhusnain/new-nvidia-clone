@@ -24,7 +24,7 @@
 <meta property="og:title" content="NVIDIA G SYNC: The Best Gaming Monitors">
 <meta property="og:description" content="Full HD game monitor with up to 360Hz refresh rates. #madetogame">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-gsync-product-page/nvidia-g-sync-360-hz-og-image-1200x630.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-gsync-product-page/nvidia-g-sync-360-hz-og-image-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -33,7 +33,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/products/g-sync-monitors/">
 <meta name="twitter:description" content="Gaming monitors with exceptional performance,  lowest latency, and highest refresh rates for ultra-smooth graphics. #madetogame">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-gsync-product-page/nvidia-g-sync-360-hz-og-image-1200x630.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-gsync-product-page/nvidia-g-sync-360-hz-og-image-1200x630.jpg">
 
 	<meta property="fb:app_id" content="1679326302390190.00">
 
@@ -5173,12 +5173,12 @@ bottom: 50px;
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="EhxY1zxdjrM" data-thumbnail="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en/geforce/products/g-sync-monitors/gsync-pulsar-off-on.jpg">
+<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="EhxY1zxdjrM" data-thumbnail="../../../assets/www.nvidia.com/content/dam/en/geforce/products/g-sync-monitors/gsync-pulsar-off-on.jpg">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/EhxY1zxdjrM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/EhxY1zxdjrM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en/geforce/products/g-sync-monitors/gsync-pulsar-off-on.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/EhxY1zxdjrM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/EhxY1zxdjrM?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../../assets/www.nvidia.com/content/dam/en/geforce/products/g-sync-monitors/gsync-pulsar-off-on.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>

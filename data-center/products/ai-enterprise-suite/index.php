@@ -3676,11 +3676,11 @@ setTimeout(checkElementXt, 1000);
     <div class="nv-image image aem-GridColumn aem-GridColumn--default--12">
 
 <div id="nv-image-c5c9490299" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/_jcr_content/root/responsivegrid/nv_container_1462324459/nv_container_copy/nv_container_copy/nv_image.coreimg.svg.svg/1773240439809/m48-generative-and-agentic-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-title="Build Agentic AI with NeMo" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-title="Build Agentic AI with NeMo" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Build Agentic AI with NeMo" title="Build Agentic AI with NeMo" data-analytics="nv-image-c5c9490299" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Build Agentic AI with NeMo" title="Build Agentic AI with NeMo" data-analytics="nv-image-c5c9490299" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg">
 
 	    
 	    
@@ -5637,11 +5637,11 @@ setTimeout(checkElementXt, 1000);
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--7">
 
 <div id="nv-image-4bf9fe9f1b" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/_jcr_content/root/responsivegrid/nv_container_1147587/nv_container_1554519/nv_tabs/item_1710331750802/nv_container_copy_60_1343065680/nv_image.coreimg.100.410.jpeg/1773240442246/real-time-simulation-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg" data-title="Build a Digital Twin for Interactive Fluid Simulation" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg" data-title="Build a Digital Twin for Interactive Fluid Simulation" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Build a Digital Twin for Interactive Fluid Simulation" title="Build a Digital Twin for Interactive Fluid Simulation" data-analytics="nv-image-4bf9fe9f1b" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Build a Digital Twin for Interactive Fluid Simulation" title="Build a Digital Twin for Interactive Fluid Simulation" data-analytics="nv-image-4bf9fe9f1b" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg">
 
 	    
 	    
@@ -7319,11 +7319,11 @@ setTimeout(checkElementXt, 1000);
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="An animated image depicting a human using a virtual assistant" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_2/nv_container_copy/nv_teaser_copy_68232_1208042978.coreimg.100.410.jpeg/1773240443782/llm-ari-1920-1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/ai-enterprise/llm-ari-1920-1080.jpg" data-title="An animated image depicting a human using a virtual assistant" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/ai-enterprise/llm-ari-1920-1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/ai-enterprise/llm-ari-1920-1080.jpg" data-title="An animated image depicting a human using a virtual assistant" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="An animated image depicting a human using a virtual assistant" title="An animated image depicting a human using a virtual assistant" data-analytics="nv-image-60bfff88dd" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="An animated image depicting a human using a virtual assistant" title="An animated image depicting a human using a virtual assistant" data-analytics="nv-image-60bfff88dd" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/ai-enterprise/llm-ari-1920-1080.jpg">
 
 	    
 	    
@@ -7461,11 +7461,11 @@ setTimeout(checkElementXt, 1000);
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="An image representing NVIDIA NIM microservices." data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_2/nv_container_copy/nv_teaser_copy_68232.coreimg.100.410.jpeg/1773240443861/riva-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/riva-ari.jpg" data-title="An image representing NVIDIA NIM microservices." data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/riva-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/riva-ari.jpg" data-title="An image representing NVIDIA NIM microservices." data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="An image representing NVIDIA NIM microservices." title="An image representing NVIDIA NIM microservices." data-analytics="nv-image-c2e7aa860b" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="An image representing NVIDIA NIM microservices." title="An image representing NVIDIA NIM microservices." data-analytics="nv-image-c2e7aa860b" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/riva-ari.jpg">
 
 	    
 	    
@@ -8880,7 +8880,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 <!-- <sly data-sly-test.useIframe="false">
         <iframe id="aemFormFrame"
-            src=$1../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/jcr:content/root/responsivegrid/nv_modalcontainer/aemform.iframe.html/?dataRef=&amp;wcmmode=DISABLED"
+            src=../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/jcr:content/root/responsivegrid/nv_modalcontainer/aemform.iframe.html/?dataRef=&amp;wcmmode=DISABLED"
             width="100%"
             data-form-page-path="/content/forms/af/nvidia-forms/data-center/ai-enterprise-evaluation" data-page-locale="-"></iframe>
     <sly data-sly-test="false"

@@ -26,7 +26,7 @@
 <meta property="og:title" content="CUDA X">
 <meta property="og:description" content="NVIDIA GPU-acceleration libraries for artificial intelligence">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-og.jpg">
 
 <meta name="twitter:card">
 <meta name="twitter:site">
@@ -35,7 +35,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/technologies/cuda-x/">
 <meta name="twitter:description" content="NVIDIA GPU-acceleration libraries for AI and HPC">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-og.jpg">
 
 	<meta property="industry" content="HPC / Scientific Computing,Hardware / Semiconductor,Academia / Education,Cloud Services,Aerospace,Gaming,Telecommunications,Smart Cities / Spaces,Public Sector,Financial Services,Energy">
 
@@ -1701,7 +1701,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2528,12 +2528,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="CyP0SutKhzw" data-thumbnail="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-libraries.jpg" data-thumbnail-alt="A series of images showing the top workloads CUDA-X libraries are applied to, including bioscience, physics, LLM diagrams, and more.">
+<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="CyP0SutKhzw" data-thumbnail="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-libraries.jpg" data-thumbnail-alt="A series of images showing the top workloads CUDA-X libraries are applied to, including bioscience, physics, LLM diagrams, and more.">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/CyP0SutKhzw?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/CyP0SutKhzw?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-libraries.jpg' alt='A series of images showing the top workloads CUDA-X libraries are applied to, including bioscience, physics, LLM diagrams, and more.'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/CyP0SutKhzw?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/CyP0SutKhzw?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/nvidia-cuda-x-libraries.jpg' alt='A series of images showing the top workloads CUDA-X libraries are applied to, including bioscience, physics, LLM diagrams, and more.'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -2682,11 +2682,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0">
 
 <div id="nv-image-30fc728cf8" class="cmp-image      hide-on-laptop       
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/cuda-x/_jcr_content/root/responsivegrid/nv_container_copy_co_784487507/nv_image_copy_copy.coreimg.svg.svg/1742327711922/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-title="HGX Stack" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-title="HGX Stack" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="HGX Stack" title="HGX Stack" data-analytics="nv-image-30fc728cf8" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="HGX Stack" title="HGX Stack" data-analytics="nv-image-30fc728cf8" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg">
 
 	    
 	    
@@ -2849,11 +2849,11 @@ padding-top : 0px;
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--1">
 
 <div id="micro-services-image" class="cmp-image      hide-on-laptop       
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/cuda-x/_jcr_content/root/responsivegrid/nv_container_1767887928/nv_image_copy_copy_c.coreimg.svg.svg/1742327712165/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-title="HGX Stack" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg" data-title="HGX Stack" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="HGX Stack" title="HGX Stack" data-analytics="micro-services-image" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="HGX Stack" title="HGX Stack" data-analytics="micro-services-image" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-microservices.svg">
 
 	    
 	    
@@ -3044,11 +3044,11 @@ padding-top : 0px;
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0">
 
 <div id="nv-image-78f5b802b9" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/cuda-x/_jcr_content/root/responsivegrid/nv_container/nv_tabs/item_1/nv_image_copy_copy_c.coreimg.100.410.jpeg/1742327712439/gtc25-new-cuda-x-data-processing.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/gtc25-new-cuda-x-data-processing.jpg" data-title="CUDA-X Data Processing" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/gtc25-new-cuda-x-data-processing.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/gtc25-new-cuda-x-data-processing.jpg" data-title="CUDA-X Data Processing" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="CUDA-X Data Processing" title="CUDA-X Data Processing" data-analytics="nv-image-78f5b802b9" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="CUDA-X Data Processing" title="CUDA-X Data Processing" data-analytics="nv-image-78f5b802b9" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/gtc25-new-cuda-x-data-processing.jpg">
 
 	    
 	    
@@ -3152,11 +3152,11 @@ padding-top : 0px;
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0">
 
 <div id="nv-image-faa9e70e32" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/cuda-x/_jcr_content/root/responsivegrid/nv_container/nv_tabs/item_2/nv_image_copy_copy_c.coreimg.svg.svg/1742327712573/cuda-x-stack-diagrams-cuda-x-ai.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-ai.svg" data-title="CUDA-X AI" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-ai.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-ai.svg" data-title="CUDA-X AI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="CUDA-X AI" title="CUDA-X AI" data-analytics="nv-image-faa9e70e32" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="CUDA-X AI" title="CUDA-X AI" data-analytics="nv-image-faa9e70e32" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-ai.svg">
 
 	    
 	    
@@ -3260,11 +3260,11 @@ padding-top : 0px;
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0">
 
 <div id="nv-image-46e86cb7d1" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/cuda-x/_jcr_content/root/responsivegrid/nv_container/nv_tabs/item_1710134646528/nv_image_copy_copy_c.coreimg.svg.svg/1742327712710/cuda-x-stack-diagrams-cuda-x-hpc.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-hpc.svg" data-title="CUDA-X HPC" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-hpc.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-hpc.svg" data-title="CUDA-X HPC" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="CUDA-X HPC" title="CUDA-X HPC" data-analytics="nv-image-46e86cb7d1" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="CUDA-X HPC" title="CUDA-X HPC" data-analytics="nv-image-46e86cb7d1" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/cuda-x/cuda-x-stack-diagrams-cuda-x-hpc.svg">
 
 	    
 	    
@@ -4306,7 +4306,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

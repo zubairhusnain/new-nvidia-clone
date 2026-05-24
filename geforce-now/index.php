@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA GeForce NOW">
 <meta property="og:description" content="Your Games, Your Devices, RTX On">
 
-	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/server-status/geforce-now-50-series-announce-nv-sfg-thumbnail-1920x1080.jpg">
+	<meta property="og:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/server-status/geforce-now-50-series-announce-nv-sfg-thumbnail-1920x1080.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce-now/">
 <meta name="twitter:description" content="The ultimate cloud gaming service. Stream your favorite PC games instantly to any device, anytime, anywhere. Join the gaming revolution today!">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/server-status/geforce-now-50-series-announce-nv-sfg-thumbnail-1920x1080.jpg">
+	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/webassets/server-status/geforce-now-50-series-announce-nv-sfg-thumbnail-1920x1080.jpg">
 
 	
 
@@ -3282,7 +3282,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -3631,10 +3631,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-top      ">
         
             <picture data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-83931-geforce-now-hero-bm-xl1488-offset-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-83931-geforce-now-hero-bm-xl1488-offset-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gfn="" home="" 83931-geforce-now-hero-bm-xl1488-offset-p.jpg,="" 83931-geforce-now-hero-bm-xl1488-offset-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gfn="" home="" 83931-geforce-now-hero-bm-xl1488-offset-t.jpg,="" 83931-geforce-now-hero-bm-xl1488-offset-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gfn="" home="" 83931-83931-geforce-now-hero-bm-xl1488-offset-l.jpg,="" 83931-geforce-now-hero-bm-xl1488-offset-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gfn="" home="" 83931-geforce-now-hero-bm-xl1488-offset-d.jpg,="" 83931-geforce-now-hero-bm-xl1488-offset-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-d.jpg" alt=" title=" id="image-container-52ce34a6ed" onload="window.initLazyLoadingImages('container-52ce34a6ed');" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/83931-geforce-now-hero-bm-xl1488-offset-d@2x.jpg 2x">
                 
@@ -4804,11 +4804,11 @@ console.log("LOGO CRAWL v9.1 :: INFINITE LOOP :: RESPONSIVE CSS ANIMATION");
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-middle      ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-af-bottom-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-af-bottom-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" gfn="" home="" geforce-now-50-series-motif-bm-af-bottom-p.jpg,="" geforce-now-50-series-motif-bm-af-bottom-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/gfn/home/geforce-now-50-series-motif-bm-lg580-offset-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-container-382fbfaf49" onload="window.initLazyLoadingImages('container-382fbfaf49');">
                 
@@ -5412,7 +5412,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {
@@ -5681,7 +5681,7 @@ j.async = true;
 j.src = "http" + (document.location.protocol === "https:" ? "s://cs" : "://c") + ".ns1p.net/p.js?a=" + __nspid;
 document.body.appendChild(j);
 
-</script><script type="text/javascript" async=" src="/assets/cs.ns1p.net/p.js"></script><script>
+</script><script type="text/javascript" async=" src=" assets="" cs.ns1p.net="" p.js"=""></script><script>
 try {
     $('.nav-header a.nav-search-link').click(function() {
         ClickOmniTrack(true, 'event10', 'img:header:', 'search');

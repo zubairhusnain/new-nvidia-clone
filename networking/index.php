@@ -25,7 +25,7 @@
 <meta property="og:title" content="Accelerated Networking Solutions from NVIDIA">
 <meta property="og:description" content="High-performance, low-latency networking for AI workloads.">
 
-	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/home/networking-og.jpg">
+	<meta property="og:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/home/networking-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/">
 <meta name="twitter:description" content="Experience next-gen networking for AI. NVIDIA delivers accelerated performance, high throughput, and low latency for retrieval-augmented generation, training, and inference workloads.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/home/networking-og.jpg">
+	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/home/networking-og.jpg">
 
 	
 
@@ -1758,7 +1758,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2107,10 +2107,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-bottom    ">
             
             <picture data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-offset-bm-af-phone.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-offset-bm-af-phone@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-tablet.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-tablet@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-laptop.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-laptop@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-desktop.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-desktop@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-offset-bm-af-phone.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-offset-bm-af-phone@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-tablet.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-tablet@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-laptop.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-laptop@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-desktop.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-desktop@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" networking="" networking-offset-bm-af-phone.jpg,="" networking-offset-bm-af-phone@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" networking="" networking-md-offset-tablet.jpg,="" networking-md-offset-tablet@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" networking="" networking-md-offset-laptop.jpg,="" networking-md-offset-laptop@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" networking="" networking-md-offset-desktop.jpg,="" networking-md-offset-desktop@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                 	<img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-desktop.jpg" alt=" title=" id="image-container-87297434f0" onload="window.initLazyLoadingImages('container-87297434f0');" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-md-offset-desktop@2x.jpg 2x">
                 
@@ -2780,12 +2780,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="0TL_XyE5EsI" data-thumbnail="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-video-thumbnail.jpg">
+<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="0TL_XyE5EsI" data-thumbnail="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-video-thumbnail.jpg">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/0TL_XyE5EsI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/0TL_XyE5EsI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-video-thumbnail.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/0TL_XyE5EsI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/0TL_XyE5EsI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/networking-video-thumbnail.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -2893,11 +2893,11 @@ var nvidiaGDClog = function() {
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-uf-bottom-p.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-uf-bottom-p@2x.png 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md420-offset-t.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md420-offset-t@2x.png 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-l.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-l@2x.png 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-d.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-d@2x.png 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" networking="" bluefield-4-bm-uf-bottom-p.png,="" bluefield-4-bm-uf-bottom-p@2x.png="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md420-offset-t.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md420-offset-t@2x.png 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-l.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-l@2x.png 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-d.png, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/bluefield-4-bm-md460-offset-left-d@2x.png 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="AI factory operating system powered by NVIDIA BlueField-4 DPUs" title="AI factory operating system powered by NVIDIA BlueField-4 DPUs" id="image-container-58938373ef" onload="window.initLazyLoadingImages('container-58938373ef');">
                 
@@ -5062,7 +5062,7 @@ max-height: 460px;
   
     
     
-      <iframe src=" data-src="https://resources.nvidia.com/en-us-accelerated-networking-resource-library-ms?lb-mode=preview" width="100%" scrolling="yes" frameborder="0" class="nv-pf-frame nv-pf-frame--grid"></iframe>
+      <iframe src=" data-src=" https:="" resources.nvidia.com="" en-us-accelerated-networking-resource-library-ms?lb-mode="preview&quot;" width="100%" scrolling="yes" frameborder="0" class="nv-pf-frame nv-pf-frame--grid"></iframe>
     
   
 
@@ -5107,7 +5107,7 @@ max-height: 460px;
     	
 		
 
-    <div> <a href="#" id="contentOverlay" data-lookbook-overlay-href=" data-lookbook-overlay-width="80%" data-lookbook-overlay-height="80%" style="display:none"></a></div>	
+    <div> <a href="#" id="contentOverlay" data-lookbook-overlay-href=" data-lookbook-overlay-width=" 80%"="" data-lookbook-overlay-height="80%" style="display:none"></a></div>	
 
     </div>
 </div>
@@ -5175,7 +5175,7 @@ max-height: 460px;
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/networking/networking-contact-us-form/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" networking="" networking-contact-us-form="" "=""></iframe>
           </div>
         
         
@@ -5572,7 +5572,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

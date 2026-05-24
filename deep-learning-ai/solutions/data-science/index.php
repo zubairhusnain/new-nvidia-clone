@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA GPU Accelerated Solutions for Data Science">
 <meta property="og:description" content="The Only Hardware-to-Software Stack Optimized for Data Science.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/nvidia-rapids-social-share-image-1200x630.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/nvidia-rapids-social-share-image-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/">
 <meta name="twitter:description" content="NVIDIA GPU Accelerated Data Science is Available Everywhere-On the Laptop, in the Data Center, at the Edge, and in the Cloud.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/nvidia-rapids-social-share-image-1200x630.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/deep-learning/deep-learning-solutions/data-science/nvidia-rapids-social-share-image-1200x630.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 

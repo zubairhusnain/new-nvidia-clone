@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA BlueField Networking Platform">
 <meta property="og:description" content="Discover more ways to transform your data center.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/data-processing-unit/nvidia-bluefield-platform-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/data-processing-unit/nvidia-bluefield-platform-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIANetworking">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/networking/products/data-processing-unit/">
 <meta name="twitter:description" content="Discover the wide range of ways that the NVIDIA BlueField DPU can offload, isolate, accelerate, and transform your data center.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/data-processing-unit/nvidia-bluefield-platform-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/networking/data-processing-unit/nvidia-bluefield-platform-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -11089,11 +11089,11 @@ function tabClick(item) {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Armis" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/networking/products/data-processing-unit/_jcr_content/root/responsivegrid/nv_container_4363795_826039499/nv_tabs/item_1707949268258/nv_container_copy_co/nv_teaser.coreimg.svg.svg/1775609721115/armis-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/armis-logo.svg" data-title="Armis" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/armis-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/armis-logo.svg" data-title="Armis" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Armis" title="Armis" data-analytics="nv-image-8574f69efc" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Armis" title="Armis" data-analytics="nv-image-8574f69efc" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/armis-logo.svg">
 
 	    
 	    

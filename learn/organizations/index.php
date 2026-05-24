@@ -6420,12 +6420,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="DxabRo_Rod8" data-thumbnail="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/training-org-sarah-wagner-1920x1080.jpg">
+<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="DxabRo_Rod8" data-thumbnail="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/training-org-sarah-wagner-1920x1080.jpg">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/DxabRo_Rod8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/DxabRo_Rod8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/training-org-sarah-wagner-1920x1080.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/DxabRo_Rod8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/DxabRo_Rod8?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/learn/training-org-sarah-wagner-1920x1080.jpg' alt=''></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>

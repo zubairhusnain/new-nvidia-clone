@@ -6378,11 +6378,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--3 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--phone--5 aem-GridColumn--offset--default--1 aem-GridColumn--offset--tablet--1 aem-GridColumn--default--1">
 
 <div id="nv-image-3a1017c18b" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_copy_co_1902396338/nv_container_1013234433/nv_container_1736220/nv_container_1622547/nv_image.coreimg.svg.svg/1759808796716/m48-secure-data.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-secure-data.svg" data-title="Performant Confidential Computing" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-secure-data.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-secure-data.svg" data-title="Performant Confidential Computing" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Performant Confidential Computing" title="Performant Confidential Computing" data-analytics="nv-image-3a1017c18b" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Performant Confidential Computing" title="Performant Confidential Computing" data-analytics="nv-image-3a1017c18b" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-secure-data.svg">
 
 	    
 	    
@@ -6502,11 +6502,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--3 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--phone--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
 
 <div id="nv-image-37487152d4" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_copy_co_1902396338/nv_container_1013234433/nv_container_1736220/nv_container_copy_85/nv_image.coreimg.svg.svg/1741869614761/m48-containerized-security.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-containerized-security.svg" data-title="Increased Efficiency with Generative AI" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-containerized-security.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-containerized-security.svg" data-title="Increased Efficiency with Generative AI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Increased Efficiency with Generative AI" title="Increased Efficiency with Generative AI" data-analytics="nv-image-37487152d4" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Increased Efficiency with Generative AI" title="Increased Efficiency with Generative AI" data-analytics="nv-image-37487152d4" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-containerized-security.svg">
 
 	    
 	    
@@ -7590,11 +7590,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-ca21f85521" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1/nv_image.coreimg.100.410.jpeg/1741869615830/security-vulnerability-analysis-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/security-vulnerability-analysis-ari.jpg" data-title="Security Vulnerability Analysis AI Workflow" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/security-vulnerability-analysis-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/security-vulnerability-analysis-ari.jpg" data-title="Security Vulnerability Analysis AI Workflow" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Security Vulnerability Analysis AI Workflow" title="Security Vulnerability Analysis AI Workflow" data-analytics="nv-image-ca21f85521" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Security Vulnerability Analysis AI Workflow" title="Security Vulnerability Analysis AI Workflow" data-analytics="nv-image-ca21f85521" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/security-vulnerability-analysis-ari.jpg">
 
 	    
 	    
@@ -7804,11 +7804,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-203552a2e0" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_2/nv_image_copy.coreimg.100.410.jpeg/1741869616066/anomaly-detection-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/anomaly-detection-ari.jpg" data-title="Digital Fingerprinting for Cybersecurity Threat Detection" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/anomaly-detection-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/anomaly-detection-ari.jpg" data-title="Digital Fingerprinting for Cybersecurity Threat Detection" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Digital Fingerprinting for Cybersecurity Threat Detection" title="Digital Fingerprinting for Cybersecurity Threat Detection" data-analytics="nv-image-203552a2e0" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Digital Fingerprinting for Cybersecurity Threat Detection" title="Digital Fingerprinting for Cybersecurity Threat Detection" data-analytics="nv-image-203552a2e0" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/anomaly-detection-ari.jpg">
 
 	    
 	    
@@ -8018,11 +8018,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-31bdc56f52" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720417615773/nv_image_copy_copy.coreimg.100.410.jpeg/1741869616299/data-leakage-prevention-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/data-leakage-prevention-ari.jpg" data-title="Detect Cybersecurity Threats Instantly with NVIDIA Morpheus" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/data-leakage-prevention-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/data-leakage-prevention-ari.jpg" data-title="Detect Cybersecurity Threats Instantly with NVIDIA Morpheus" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Detect Cybersecurity Threats Instantly with NVIDIA Morpheus" title="Detect Cybersecurity Threats Instantly with NVIDIA Morpheus" data-analytics="nv-image-31bdc56f52" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Detect Cybersecurity Threats Instantly with NVIDIA Morpheus" title="Detect Cybersecurity Threats Instantly with NVIDIA Morpheus" data-analytics="nv-image-31bdc56f52" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/data-leakage-prevention-ari.jpg">
 
 	    
 	    
@@ -8232,11 +8232,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-0a28abb000" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720518790198/nv_image_copy.coreimg.100.410.jpeg/1741869616531/phising-detection-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/phising-detection-ari.jpg" data-title="Phishing email detected with Morpheus" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/phising-detection-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/phising-detection-ari.jpg" data-title="Phishing email detected with Morpheus" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Phishing email detected with Morpheus" title="Phishing email detected with Morpheus" data-analytics="nv-image-0a28abb000" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Phishing email detected with Morpheus" title="Phishing email detected with Morpheus" data-analytics="nv-image-0a28abb000" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/phising-detection-ari.jpg">
 
 	    
 	    
@@ -8446,11 +8446,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-140fb2b5ea" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720518801728/nv_image_copy.coreimg.100.410.jpeg/1741869616771/zero-trust-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/zero-trust-ari.jpg" data-title="Zero Trust security stance in the data center" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/zero-trust-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/zero-trust-ari.jpg" data-title="Zero Trust security stance in the data center" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Zero Trust security stance in the data center" title="Zero Trust security stance in the data center" data-analytics="nv-image-140fb2b5ea" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Zero Trust security stance in the data center" title="Zero Trust security stance in the data center" data-analytics="nv-image-140fb2b5ea" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/zero-trust-ari.jpg">
 
 	    
 	    
@@ -8660,11 +8660,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-4cbfe17fac" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720518806578/nv_image_copy.coreimg.100.410.jpeg/1741869617005/securing-ai-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/securing-ai-ari.jpg" data-title="NVIDIA Confidential Computing to performantly deliver confidential vector searches" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/securing-ai-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/securing-ai-ari.jpg" data-title="NVIDIA Confidential Computing to performantly deliver confidential vector searches" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA Confidential Computing to performantly deliver confidential vector searches" title="NVIDIA Confidential Computing to performantly deliver confidential vector searches" data-analytics="nv-image-4cbfe17fac" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Confidential Computing to performantly deliver confidential vector searches" title="NVIDIA Confidential Computing to performantly deliver confidential vector searches" data-analytics="nv-image-4cbfe17fac" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/securing-ai-ari.jpg">
 
 	    
 	    
@@ -9089,11 +9089,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="American Express uses AI for ultra low latency fraud detection" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_8004394/nv_container_copy/nv_teaser.coreimg.100.410.jpeg/1741869617436/amex-fsi-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/amex-fsi-ari.jpg" data-title="American Express uses AI for ultra low latency fraud detection" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/amex-fsi-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/amex-fsi-ari.jpg" data-title="American Express uses AI for ultra low latency fraud detection" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="American Express uses AI for ultra low latency fraud detection" title="American Express uses AI for ultra low latency fraud detection" data-analytics="nv-image-1c2f5b2b6f" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="American Express uses AI for ultra low latency fraud detection" title="American Express uses AI for ultra low latency fraud detection" data-analytics="nv-image-1c2f5b2b6f" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/amex-fsi-ari.jpg">
 
 	    
 	    
@@ -9233,11 +9233,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Advancing Security for Large Language Models with NVIDIA GPUs" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_8004394/nv_container_copy/nv_teaser_copy.coreimg.100.410.jpeg/1742306748709/advanced-security-llm-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/advanced-security-llm-ari.jpg" data-title="Advancing Security for Large Language Models with NVIDIA GPUs" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/advanced-security-llm-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/advanced-security-llm-ari.jpg" data-title="Advancing Security for Large Language Models with NVIDIA GPUs" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Advancing Security for Large Language Models with NVIDIA GPUs" title="Advancing Security for Large Language Models with NVIDIA GPUs" data-analytics="nv-image-9eb9ffe506" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Advancing Security for Large Language Models with NVIDIA GPUs" title="Advancing Security for Large Language Models with NVIDIA GPUs" data-analytics="nv-image-9eb9ffe506" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/advanced-security-llm-ari.jpg">
 
 	    
 	    
@@ -9579,11 +9579,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-376a1f0e66" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_1267805937.coreimg.svg.svg/1741869618018/cloudflare-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/cloudflare-logo.svg" data-title="Cloudflare" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/cloudflare-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/cloudflare-logo.svg" data-title="Cloudflare" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Cloudflare" title="Cloudflare" data-analytics="nv-image-376a1f0e66" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Cloudflare" title="Cloudflare" data-analytics="nv-image-376a1f0e66" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/cloudflare-logo.svg">
 
 	    
 	    
@@ -9613,11 +9613,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-503743088d" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_310437304.coreimg.svg.svg/1741869618041/3451129-ai-summit-india-web-homepage-logo-deloitte.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/en-in/event/ai-summit/sponsors/3451129-ai-summit-india-web-homepage-logo-deloitte.svg" data-title="Deloitte" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/en-in/event/ai-summit/sponsors/3451129-ai-summit-india-web-homepage-logo-deloitte.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/en-in/event/ai-summit/sponsors/3451129-ai-summit-india-web-homepage-logo-deloitte.svg" data-title="Deloitte" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Deloitte" title="Deloitte" data-analytics="nv-image-503743088d" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Deloitte" title="Deloitte" data-analytics="nv-image-503743088d" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/en-in/event/ai-summit/sponsors/3451129-ai-summit-india-web-homepage-logo-deloitte.svg">
 
 	    
 	    
@@ -9630,11 +9630,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-87c32af363" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_189825_95056332.coreimg.svg.svg/1741869618052/f5-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/cybersecurity/f5-logo.svg" data-title="F5" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/cybersecurity/f5-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/cybersecurity/f5-logo.svg" data-title="F5" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="F5" title="F5" data-analytics="nv-image-87c32af363" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="F5" title="F5" data-analytics="nv-image-87c32af363" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/cybersecurity/f5-logo.svg">
 
 	    
 	    
@@ -9647,11 +9647,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-1aa13e7a83" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_189825.coreimg.svg.svg/1741869618064/fortinet-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/fortinet-logo.svg" data-title="Fortinet" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/fortinet-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/fortinet-logo.svg" data-title="Fortinet" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Fortinet" title="Fortinet" data-analytics="nv-image-1aa13e7a83" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Fortinet" title="Fortinet" data-analytics="nv-image-1aa13e7a83" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/fortinet-logo.svg">
 
 	    
 	    
@@ -9664,11 +9664,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-80cd974993" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_189825_2113697574.coreimg.svg.svg/1741869618076/juniper-networks-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/juniper-networks-logo.svg" data-title="Juniper" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/juniper-networks-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/juniper-networks-logo.svg" data-title="Juniper" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Juniper" title="Juniper" data-analytics="nv-image-80cd974993" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Juniper" title="Juniper" data-analytics="nv-image-80cd974993" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/juniper-networks-logo.svg">
 
 	    
 	    
@@ -9681,11 +9681,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-9c9fbb1d55" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_189825_1051822461.coreimg.svg.svg/1741869618087/palo-alto-networks-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/palo-alto-networks-logo.svg" data-title="Palo Alto Networks" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/palo-alto-networks-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/palo-alto-networks-logo.svg" data-title="Palo Alto Networks" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Palo Alto Networks" title="Palo Alto Networks" data-analytics="nv-image-9c9fbb1d55" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Palo Alto Networks" title="Palo Alto Networks" data-analytics="nv-image-9c9fbb1d55" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/palo-alto-networks-logo.svg">
 
 	    
 	    
@@ -9698,11 +9698,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-14daa32d4e" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_189825_1489947426.coreimg.svg.svg/1741869618098/trend-micro-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/trend-micro-logo.svg" data-title="Trend Micro" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/trend-micro-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/trend-micro-logo.svg" data-title="Trend Micro" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Trend Micro" title="Trend Micro" data-analytics="nv-image-14daa32d4e" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Trend Micro" title="Trend Micro" data-analytics="nv-image-14daa32d4e" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/trend-micro-logo.svg">
 
 	    
 	    
@@ -9715,11 +9715,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-1926ececbd" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_1445888/nv_container_copy/nv_image_copy_189825_1439312341.coreimg.svg.svg/1741869618109/zscaler-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/zscaler-logo.svg" data-title="Zscaler" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/zscaler-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/zscaler-logo.svg" data-title="Zscaler" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:780" alt="Zscaler" title="Zscaler" data-analytics="nv-image-1926ececbd" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:780" alt="Zscaler" title="Zscaler" data-analytics="nv-image-1926ececbd" data-cmp-img-custom-width="780" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/zscaler-logo.svg">
 
 	    
 	    
@@ -10418,11 +10418,11 @@ box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.17) /* AO */ , 0px 6px 18px 2px rgba(0,
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Build AI\u002DBased Cybersecurity Solutions" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_2/nv_container_copy/nv_teaser_copy_68232.coreimg.100.410.jpeg/1741869618743/cybersecurity-solutions-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/cybersecurity-solutions-ari.jpg" data-title="Build AI-Based Cybersecurity Solutions" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/cybersecurity-solutions-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/cybersecurity-solutions-ari.jpg" data-title="Build AI-Based Cybersecurity Solutions" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Build AI-Based Cybersecurity Solutions" title="Build AI-Based Cybersecurity Solutions" data-analytics="nv-image-0106804aea" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Build AI-Based Cybersecurity Solutions" title="Build AI-Based Cybersecurity Solutions" data-analytics="nv-image-0106804aea" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/cybersecurity-solutions-ari.jpg">
 
 	    
 	    
@@ -10489,11 +10489,11 @@ box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.17) /* AO */ , 0px 6px 18px 2px rgba(0,
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="AI Chatbot With Retrieval\u002DAugmented Generation (RAG)" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_2/nv_container_copy/nv_teaser_copy_68232_1208042978.coreimg.100.410.jpeg/1741869618780/gen-ai-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/gen-ai-ari.jpg" data-title="AI Chatbot With Retrieval-Augmented Generation (RAG)" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/gen-ai-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/gen-ai-ari.jpg" data-title="AI Chatbot With Retrieval-Augmented Generation (RAG)" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="AI Chatbot With Retrieval-Augmented Generation (RAG)" title="AI Chatbot With Retrieval-Augmented Generation (RAG)" data-analytics="nv-image-88efbaf338" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="AI Chatbot With Retrieval-Augmented Generation (RAG)" title="AI Chatbot With Retrieval-Augmented Generation (RAG)" data-analytics="nv-image-88efbaf338" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/gen-ai-ari.jpg">
 
 	    
 	    
@@ -10560,11 +10560,11 @@ box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.17) /* AO */ , 0px 6px 18px 2px rgba(0,
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Generative AI and LLM Learning Paths" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_2/nv_container_copy/nv_teaser_copy.coreimg.100.410.jpeg/1741869618817/llm-training-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/llm-training-ari.jpg" data-title="Generative AI and LLM Learning Paths" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/llm-training-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/llm-training-ari.jpg" data-title="Generative AI and LLM Learning Paths" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Generative AI and LLM Learning Paths" title="Generative AI and LLM Learning Paths" data-analytics="nv-image-12a887fb73" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Generative AI and LLM Learning Paths" title="Generative AI and LLM Learning Paths" data-analytics="nv-image-12a887fb73" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/llm-training-ari.jpg">
 
 	    
 	    
@@ -10866,11 +10866,11 @@ box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.17) /* AO */ , 0px 6px 18px 2px rgba(0,
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Software Delivery With Event\u002DDriven RAG" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/cybersecurity/_jcr_content/root/responsivegrid/nv_container_4363795/nv_tabs_copy/item_1720418765603/nv_container_copy/nv_teaser.coreimg.100.410.jpeg/1741869618964/event-driven-rag-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/event-driven-rag-ari.jpg" data-title="Software Delivery With Event-Driven RAG" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/event-driven-rag-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/event-driven-rag-ari.jpg" data-title="Software Delivery With Event-Driven RAG" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://resources.nvidia.com/en-us-morpheus-developer/supercharge-software-delivery" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Software Delivery With Event-Driven RAG" title="Software Delivery With Event-Driven RAG" data-analytics="nv-image-90029a0c32" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Software Delivery With Event-Driven RAG" title="Software Delivery With Event-Driven RAG" data-analytics="nv-image-90029a0c32" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/cybersecurity/event-driven-rag-ari.jpg">
 
 	    </a>
 	    

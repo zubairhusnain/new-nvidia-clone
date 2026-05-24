@@ -25,7 +25,7 @@
 <meta property="og:title" content="RTX AI PCs | Next-Level AI Performance">
 <meta property="og:description" content="Unparalleled AI performance in gaming, creativity, and everyday.">
 
-	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-og-1200x630.jpg">
+	<meta property="og:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-og-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/ai-on-rtx/">
 <meta name="twitter:description" content="Upgrade to advanced AI with NVIDIA GeForce RTX™ GPUs and accelerate your gaming, creating, productivity, and development.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rtx-ai-windows-pc-1200x630.jpg">
+	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rtx-ai-windows-pc-1200x630.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1801,7 +1801,7 @@ console.log('Starfleet False');
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2145,7 +2145,7 @@ console.log('Starfleet False');
 </div>
 <div class="nv-carousel-home carousel panelcontainer nv-carousel--hide-arrows aem-GridColumn aem-GridColumn--default--12">
   
-<div id="home-wmfg-carousel" class="cmp-carousel     " role="group" aria-roledescription="carousel" data-cmp-variation="carousel-home" data-cmp-autoplay=" data-cmp-delay="7000" data-cmp-autopause-disabled=" data-cmp-autoscroll="false" data-cmp-scroll-direction="left" data-cmp-scroll-delay="5000" data-cmp-scroll-disabled="false" data-cmp-set-first-item-to-top="false" style="--carousel-slide-transition-delay: 7000ms;" data-cmp-is="carousel">
+<div id="home-wmfg-carousel" class="cmp-carousel     " role="group" aria-roledescription="carousel" data-cmp-variation="carousel-home" data-cmp-autoplay=" data-cmp-delay=" 7000"="" data-cmp-autopause-disabled=" data-cmp-autoscroll=" false"="" data-cmp-scroll-direction="left" data-cmp-scroll-delay="5000" data-cmp-scroll-disabled="false" data-cmp-set-first-item-to-top="false" style="--carousel-slide-transition-delay: 7000ms;" data-cmp-is="carousel">
      
     
 
@@ -2180,10 +2180,10 @@ console.log('Starfleet False');
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-xl-fhm-550-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-xl-fhm-550-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-xl-fhm-550-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-xl-fhm-550-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg440-offset-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-carousel-1-bm-xl-fhm-550-p.jpg,="" nv-gf-rtx-ai-pc-carousel-1-bm-xl-fhm-550-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-carousel-1-bm-lg440-offset-t.jpg,="" nv-gf-rtx-ai-pc-carousel-1-bm-lg440-offset-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-l.jpg,="" nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d.jpg,="" nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-container-200d6e9cc6" onload="window.initLazyLoadingImages('container-200d6e9cc6');" srcset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-1-bm-lg580-offset-left-d@2x.jpg 2x">
                 
@@ -2374,13 +2374,13 @@ console.log('Starfleet False');
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-xl-fhm-550-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-xl-fhm-550-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-carousel-2-bm-xl-fhm-550-p.jpg,="" nv-gf-rtx-ai-pc-carousel-2-bm-xl-fhm-550-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-container-a51e8f7453" onload="window.initLazyLoadingImages('container-a51e8f7453');">
+                    <img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-2-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-container-a51e8f7453" onload="window.initLazyLoadingImages('container-a51e8f7453');">
                 
                 
             </picture>
@@ -2569,13 +2569,13 @@ console.log('Starfleet False');
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-xl-fhm-550-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-xl-fhm-550-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rename-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rename-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-carousel-3-bm-xl-fhm-550-p.jpg,="" nv-gf-rtx-ai-pc-carousel-3-bm-xl-fhm-550-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rename-bm-lg440-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/rename-bm-lg440-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-container-eb0dcda4f2" onload="window.initLazyLoadingImages('container-eb0dcda4f2');">
+                    <img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-carousel-3-bm-lg580-offset-left-d.jpg" alt=" title=" id="image-container-eb0dcda4f2" onload="window.initLazyLoadingImages('container-eb0dcda4f2');">
                 
                 
             </picture>
@@ -2747,12 +2747,12 @@ console.log('Starfleet False');
        
     
 
-        <button class="cmp-carousel__action cmp-carousel__action--previous" type="button" aria-label="Previous" data-cmp-hook-carousel="previous" data-original-title=" title="">
+        <button class="cmp-carousel__action cmp-carousel__action--previous" type="button" aria-label="Previous" data-cmp-hook-carousel="previous" data-original-title=" title=" "="">
                 <span class="cmp-carousel__action-icon fa-regular fa-chevron-left"></span>
                 <span class="cmp-carousel__action-text">Previous</span>
             </button>
             
-            <button class="cmp-carousel__action cmp-carousel__action--next" type="button" aria-label="Next" data-cmp-hook-carousel="next" data-original-title=" title="">
+            <button class="cmp-carousel__action cmp-carousel__action--next" type="button" aria-label="Next" data-cmp-hook-carousel="next" data-original-title=" title=" "="">
                 <span class="cmp-carousel__action-icon fa-regular fa-chevron-right"></span>
                 <span class="cmp-carousel__action-text">Next</span>
             </button>
@@ -2936,13 +2936,13 @@ console.log('Starfleet False');
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-top      ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-640-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-640-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1024-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1024-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1350-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1350-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-2560-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-2560-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" nvidiaweb="" homepage="" geforce="" mfg="" nvidia-rtx-ai-pc-openclaw-gf-strip-640-p.jpg,="" nvidia-rtx-ai-pc-openclaw-gf-strip-640-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1024-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1024-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1350-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-1350-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-2560-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-2560-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-strip-banner" onload="window.initLazyLoadingImages('strip-banner');">
+                    <img src="../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/homepage/geforce/mfg/nvidia-rtx-ai-pc-openclaw-gf-strip-2560-d.jpg" alt=" title=" id="image-strip-banner" onload="window.initLazyLoadingImages('strip-banner');">
                 
                 
             </picture>
@@ -3234,7 +3234,7 @@ console.log('Starfleet False');
     
     
 
-<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:850px" data-video-id="vrkXR2ZjGGI" data-thumbnail="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-rtx-ai-pc-video-ari.jpg" data-thumbnail-alt="NVIDIA GeForce RTX AI PC Overview Video">
+<div class="youtube-video-player nv-yt-embed nv-yt-embed--active" style="max-width:850px" data-video-id="vrkXR2ZjGGI" data-thumbnail="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-rtx-ai-pc-video-ari.jpg" data-thumbnail-alt="NVIDIA GeForce RTX AI PC Overview Video">
 
    
    
@@ -3242,7 +3242,7 @@ console.log('Starfleet False');
    
    <div class="nv-yt-embed__consent-poster">
       <img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-rtx-ai-pc-video-ari.jpg" alt="NVIDIA GeForce RTX AI PC Overview Video" class="nv-yt-embed__consent-poster-img" loading="lazy">
-      <button class="nv-yt-embed__consent-poster-play nv-yt-embed__consent-poster-play--no-icon" type="button" aria-label="Play video" data-original-title=" title="">
+      <button class="nv-yt-embed__consent-poster-play nv-yt-embed__consent-poster-play--no-icon" type="button" aria-label="Play video" data-original-title=" title=" "="">
          
       </button>
    </div>
@@ -3255,10 +3255,10 @@ console.log('Starfleet False');
          <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=""><span class="btn-text">Cancel</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
             </div></div>
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=""><span class="btn-text">Accept and Play Video</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
          <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=vrkXR2ZjGGI" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
@@ -3266,7 +3266,7 @@ console.log('Starfleet False');
    </div>
 
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/vrkXR2ZjGGI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/vrkXR2ZjGGI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-rtx-ai-pc-video-ari.jpg' alt='NVIDIA GeForce RTX AI PC Overview Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/vrkXR2ZjGGI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/vrkXR2ZjGGI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-rtx-ai-pc-video-ari.jpg' alt='NVIDIA GeForce RTX AI PC Overview Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </div>
@@ -6087,12 +6087,12 @@ console.log('Starfleet False');
        
     
 
-        <button class="cmp-carousel__action cmp-carousel__action--previous" type="button" aria-label="Previous" data-cmp-hook-carousel="previous" data-original-title=" title="">
+        <button class="cmp-carousel__action cmp-carousel__action--previous" type="button" aria-label="Previous" data-cmp-hook-carousel="previous" data-original-title=" title=" "="">
                 <span class="cmp-carousel__action-icon fa-regular fa-chevron-left"></span>
                 <span class="cmp-carousel__action-text">Previous</span>
             </button>
             
-            <button class="cmp-carousel__action cmp-carousel__action--next" type="button" aria-label="Next" data-cmp-hook-carousel="next" data-original-title=" title="">
+            <button class="cmp-carousel__action cmp-carousel__action--next" type="button" aria-label="Next" data-cmp-hook-carousel="next" data-original-title=" title=" "="">
                 <span class="cmp-carousel__action-icon fa-regular fa-chevron-right"></span>
                 <span class="cmp-carousel__action-text">Next</span>
             </button>
@@ -6919,13 +6919,13 @@ console.log('Starfleet False');
     
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-top    ">
             
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-af-bottom-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-af-bottom-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl550-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl550-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nv-gf-rtx-ai-pc-agentic-ai-bm-af-bottom-p.jpg,="" nv-gf-rtx-ai-pc-agentic-ai-bm-af-bottom-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl550-offset-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl550-offset-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-agentic-ai" onload="window.initLazyLoadingImages('agentic-ai');">
+                	<img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nv-gf-rtx-ai-pc-agentic-ai-bm-xl770-offset-left-d.jpg" alt=" title=" id="image-agentic-ai" onload="window.initLazyLoadingImages('agentic-ai');">
                 
                 
             </picture>
@@ -7428,13 +7428,13 @@ console.log('Starfleet False');
     
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-top    ">
             
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-af360-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-af360-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nvidia-winai-ai-for-productivity-bm-af360-p.jpg,="" nvidia-winai-ai-for-productivity-bm-af360-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-productivity" onload="window.initLazyLoadingImages('productivity');">
+                	<img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-productivity-bm-xl770-d.jpg" alt=" title=" id="image-productivity" onload="window.initLazyLoadingImages('productivity');">
                 
                 
             </picture>
@@ -8002,13 +8002,13 @@ console.log('Starfleet False');
     
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-top  p-img-fit  ">
             
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-af360-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-af360-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nvidia-ai-on-rtx-creators-bm-af360-p.jpg,="" nvidia-ai-on-rtx-creators-bm-af360-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-creators" onload="window.initLazyLoadingImages('creators');">
+                	<img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-ai-on-rtx-creators-bm-xl770-d.jpg" alt=" title=" id="image-creators" onload="window.initLazyLoadingImages('creators');">
                 
                 
             </picture>
@@ -8576,13 +8576,13 @@ console.log('Starfleet False');
     
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-top    ">
             
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-af360-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-af360-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nvidia-winai-ai-for-gaming-bm-af360-p.jpg,="" nvidia-winai-ai-for-gaming-bm-af360-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-gamers" onload="window.initLazyLoadingImages('gamers');">
+                	<img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-gaming-bm-xl770-d.jpg" alt=" title=" id="image-gamers" onload="window.initLazyLoadingImages('gamers');">
                 
                 
             </picture>
@@ -9150,13 +9150,13 @@ console.log('Starfleet False');
     
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-c-top    ">
             
-            <picture data-nv-lazyload=" data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-af360-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-af360-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-on-rtx="" nvidia-winai-ai-for-development-bm-af360-p.jpg,="" nvidia-winai-ai-for-development-bm-af360-p@2x.jpg="" 2x"="" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl550-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl550-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-developers" onload="window.initLazyLoadingImages('developers');">
+                	<img src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/nvidia-winai-ai-for-development-bm-xl770-d.jpg" alt=" title=" id="image-developers" onload="window.initLazyLoadingImages('developers');">
                 
                 
             </picture>
@@ -9540,7 +9540,7 @@ console.log('Starfleet False');
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="AI SDKs and Models Accelerated on NVIDIA RTX" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai-on-rtx/home/_jcr_content/root/responsivegrid/nv_container_1678431_1021365380/nv_container_1345086_901995774/nv_teaser_copy_1952640989.coreimg.100.410.jpeg/1776237504408/ai-sdks-rtx-gpus-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/ai-sdks-rtx-gpus-ari.jpg" data-title="AI SDKs and Models Accelerated on NVIDIA RTX" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/ai-sdks-rtx-gpus-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-on-rtx/ai-sdks-rtx-gpus-ari.jpg" data-title="AI SDKs and Models Accelerated on NVIDIA RTX" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -13459,7 +13459,7 @@ font-size: 14px !important;
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/geforce/graphics-cards/50-series/notify-me/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" geforce="" graphics-cards="" 50-series="" notify-me="" "=""></iframe>
           </div>
         
         
@@ -13484,7 +13484,7 @@ font-size: 14px !important;
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/geforce/laptops/50-series-notify-me/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" geforce="" laptops="" 50-series-notify-me="" "=""></iframe>
           </div>
         
         
@@ -13509,7 +13509,7 @@ font-size: 14px !important;
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/geforce/laptops/40-series-notify-me/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" geforce="" laptops="" 40-series-notify-me="" "=""></iframe>
           </div>
         
         
@@ -13694,7 +13694,7 @@ font-size: 14px !important;
    
    <div class="nv-yt-embed__consent-poster">
       <img src="/assets/img.youtube.com/vi_webp/K_MnB6rrlhA/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy">
-      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title="">
+      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title=" "="">
          
          <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path>
@@ -13712,10 +13712,10 @@ font-size: 14px !important;
          <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=""><span class="btn-text">Cancel</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
             </div></div>
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=""><span class="btn-text">Accept and Play Video</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
          <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=K_MnB6rrlhA" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
@@ -13724,7 +13724,7 @@ font-size: 14px !important;
 
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/K_MnB6rrlhA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="K_MnB6rrlhA" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/K_MnB6rrlhA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="K_MnB6rrlhA" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </div>
 
@@ -13776,7 +13776,7 @@ font-size: 14px !important;
    
    <div class="nv-yt-embed__consent-poster">
       <img src="/assets/img.youtube.com/vi_webp/nR-vP_7XFHE/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy">
-      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title="">
+      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title=" "="">
          
          <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path>
@@ -13794,10 +13794,10 @@ font-size: 14px !important;
          <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=""><span class="btn-text">Cancel</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
             </div></div>
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=""><span class="btn-text">Accept and Play Video</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
          <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=nR-vP_7XFHE" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
@@ -13806,7 +13806,7 @@ font-size: 14px !important;
 
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/nR-vP_7XFHE?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="nR-vP_7XFHE" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/nR-vP_7XFHE?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="nR-vP_7XFHE" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </div>
 
@@ -13858,7 +13858,7 @@ font-size: 14px !important;
    
    <div class="nv-yt-embed__consent-poster">
       <img src="/assets/img.youtube.com/vi_webp/vrkXR2ZjGGI/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy">
-      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title="">
+      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title=" "="">
          
          <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path>
@@ -13876,10 +13876,10 @@ font-size: 14px !important;
          <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=""><span class="btn-text">Cancel</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
             </div></div>
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=""><span class="btn-text">Accept and Play Video</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
          <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=vrkXR2ZjGGI" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
@@ -13888,7 +13888,7 @@ font-size: 14px !important;
 
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/vrkXR2ZjGGI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="vrkXR2ZjGGI" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/vrkXR2ZjGGI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="vrkXR2ZjGGI" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </div>
 
@@ -13940,7 +13940,7 @@ font-size: 14px !important;
    
    <div class="nv-yt-embed__consent-poster">
       <img src="/assets/img.youtube.com/vi_webp/DgATJ38k8-M/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy">
-      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title="">
+      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title=" "="">
          
          <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path>
@@ -13958,10 +13958,10 @@ font-size: 14px !important;
          <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=""><span class="btn-text">Cancel</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
             </div></div>
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=""><span class="btn-text">Accept and Play Video</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
          <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=DgATJ38k8-M" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
@@ -13970,7 +13970,7 @@ font-size: 14px !important;
 
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/DgATJ38k8-M?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="DgATJ38k8-M" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/DgATJ38k8-M?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="DgATJ38k8-M" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </div>
 
@@ -14022,7 +14022,7 @@ font-size: 14px !important;
    
    <div class="nv-yt-embed__consent-poster">
       <img src="/assets/img.youtube.com/vi_webp/cSSSn10HgZA/maxresdefault.webp" alt="YouTube Video" class="nv-yt-embed__consent-poster-img" loading="lazy">
-      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title="">
+      <button class="nv-yt-embed__consent-poster-play" type="button" aria-label="Play video" data-original-title=" title=" "="">
          
          <svg class="nv-yt-embed__consent-play-icon" width="75.17" height="75.17" viewBox="0 0 237 237" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z" fill="white"></path>
@@ -14040,10 +14040,10 @@ font-size: 14px !important;
          <p class="nv-yt-embed__consent-description"><a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener noreferrer">YouTube sets performance, advertising, and other optional cookies</a> when you watch embedded videos. To watch this video, you need to turn on optional cookies for the site. By clicking “Accept and Play Video,” you will automatically turn on advertising and other optional cookies for the site and accept our <a href="/about-nvidia/terms-of-service/" target="_blank" rel="noopener noreferrer">Terms of Service</a> (which contains important waivers). Please see our <a href="/about-nvidia/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/about-nvidia/cookie-policy/" target="_blank" rel="noopener noreferrer">Cookie Policy</a> for more information.</p>
          <div class="nv-yt-embed__consent-buttons">
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=""><span class="btn-text">Cancel</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-cancel" data-original-title=" title=" "=""><span class="btn-text">Cancel</span></button>
             </div></div>
             <div class="nv-button nv-button-small"><div class="nv-button-standard">
-               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=""><span class="btn-text">Accept and Play Video</span></button>
+               <button type="button" class="btn-content nv-yt-embed__consent-accept" data-original-title=" title=" "=""><span class="btn-text">Accept and Play Video</span></button>
             </div></div>
          </div>
          <p class="nv-yt-embed__consent-alternative">Alternatively, you can <a href="https://www.youtube.com/watch?v=cSSSn10HgZA" target="_blank" rel="noopener noreferrer">watch this video on YouTube</a>.</p>
@@ -14052,7 +14052,7 @@ font-size: 14px !important;
 
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/cSSSn10HgZA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="cSSSn10HgZA" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/cSSSn10HgZA?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="cSSSn10HgZA" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </div>
 
@@ -14289,9 +14289,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
 		</div>
 		
 		<div id="prefill-message-logged-in" class="prefill-message logged-in" style="display: none;">Welcome back.
-			Not you? <span><a href=" class="prefill-login-clear">Log Out</a></span></div>
+			Not you? <span><a href=" class=" prefill-login-clear"="">Log Out</a></span></div>
 		<div id="prefill-message-remember-me" class="prefill-message remember-me" style="display: none;">Welcome
-			back. Not you? <span><a href=" class="prefill-remember-me-clear">Clear form</a></span>
+			back. Not you? <span><a href=" class=" prefill-remember-me-clear"="">Clear form</a></span>
 		</div>
 		<div id="form-submit-success" class="form-submit" style="display: none;"></div>
 		<div id="form-submit-error" class="form-submit" style="display: none;"></div>
@@ -14508,7 +14508,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 <div id="guide-mobile-navigator-wrapper" class="guide-mobile-navigator">
     <div class="row">
         <div class="clearfix visible-xs">
-            <button type="button" class="navigator-toggle collapsed af-icon-button" data-toggle="collapse" data-target="#guide-mobile-navigator" aria-label="menu" data-original-title=" title="">
+            <button type="button" class="navigator-toggle collapsed af-icon-button" data-toggle="collapse" data-target="#guide-mobile-navigator" aria-label="menu" data-original-title=" title=" "="">
                 <span class="guideMenuIcon"></span>
             </button>
         </div>
@@ -14576,9 +14576,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
   <div class="guide-breadcrumb" data-target-guide-content="guide-active-panel">
   </div>
   <div class="guide-nav-toolbar">
-       <div class="guide-nav-prev guide-nav-toolbar-button" data-guide-wizard-nav="{"focusOption": "prevItemDeep", "runCompletionScript": true, "skipFieldFocus": true}" aria-label="previous" role="button">
+       <div class="guide-nav-prev guide-nav-toolbar-button" data-guide-wizard-nav="{" focusoption":="" "previtemdeep",="" "runcompletionscript":="" true,="" "skipfieldfocus":="" true}"="" aria-label="previous" role="button">
        </div>
-      <div class="guide-nav-next guide-nav-toolbar-button" data-guide-wizard-nav="{"focusOption": "nextItemDeep", "runCompletionScript": true, "skipFieldFocus": true}" aria-label="next" role="button">
+      <div class="guide-nav-next guide-nav-toolbar-button" data-guide-wizard-nav="{" focusoption":="" "nextitemdeep",="" "runcompletionscript":="" true,="" "skipfieldfocus":="" true}"="" aria-label="next" role="button">
       </div>
   </div>
 </div>
@@ -14658,7 +14658,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideTextBox consumerOptIns defaultFieldLayout af-field-filled" id="guideContainer-rootPanel-panel-consumeroptintopicsh__" data-guide-view-bind="guideContainer-rootPanel-panel-consumeroptintopicsh__" style=" data-disabled="false">
+<div class="guideFieldNode guideTextBox consumerOptIns defaultFieldLayout af-field-filled" id="guideContainer-rootPanel-panel-consumeroptintopicsh__" data-guide-view-bind="guideContainer-rootPanel-panel-consumeroptintopicsh__" style=" data-disabled=" false"="">
     
         
         
@@ -14678,7 +14678,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-consumeroptintopicsh___widget" id="guideContainer-rootPanel-panel-consumeroptintopicsh___label"></label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-consumeroptintopicsh___widget" id="guideContainer-rootPanel-panel-consumeroptintopicsh___label"></label></div>
          
 
     
@@ -14693,9 +14693,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
     <div class="guideFieldWidget textField" style=" data-original-title=" title="">   
-    	<div class="optin-topics-field-name" data-name="consumerOptIns" name="guideContainer-rootPanel-panel-consumeroptintopicsh___jqName" tabindex="0" aria-label="consumerOptIns" placeholder=" value="General"></div>        
+    	<div class="optin-topics-field-name" data-name="consumerOptIns" name="guideContainer-rootPanel-panel-consumeroptintopicsh___jqName" tabindex="0" aria-label="consumerOptIns" placeholder=" value=" general"=""></div>        
     	            
-         <input type="hidden" id="guideContainer-rootPanel-panel-consumeroptintopicsh___widget" name="consumerOptIns" value="General" data-optin-topics="General" data-target-audience=" style="position: relative;">
+         <input type="hidden" id="guideContainer-rootPanel-panel-consumeroptintopicsh___widget" name="consumerOptIns" value="General" data-optin-topics="General" data-target-audience=" style=" position:="" relative;"="">
          	<label for="guideContainer-rootPanel-panel-consumeroptintopicsh___widget">consumerOptIns hidden field</label>                               
     </div>
 	
@@ -14753,7 +14753,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideCheckBoxGroup consumerOptinCheckbox defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-consumeroptincheckbo__" data-guide-view-bind="guideContainer-rootPanel-panel-consumeroptincheckbo__" style=" data-disabled="false" role="group">
+<div class="guideFieldNode guideCheckBoxGroup consumerOptinCheckbox defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-consumeroptincheckbo__" data-guide-view-bind="guideContainer-rootPanel-panel-consumeroptincheckbo__" style=" data-disabled=" false"="" role="group">
     
         
         
@@ -14784,7 +14784,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 	   
                 
                 
-                     <input type="hidden" class="marketo-hidden-optin marketo-hidden-optin-consumer optin-check" id="guideContainer-rootPanel-panel-consumeroptincheckbo___widget" name="guideContainer-rootPanel-panel-consumeroptincheckbo___jqName" data-optin-sentence="Sign up for gaming and entertainment deals, announcements, and more from NVIDIA.::true" tabindex="0" aria-label="Sign up for gaming and entertainment deals, announcements, and more from NVIDIA." value="-100" aria-checked="false" placeholder=" style="position: relative;">
+                     <input type="hidden" class="marketo-hidden-optin marketo-hidden-optin-consumer optin-check" id="guideContainer-rootPanel-panel-consumeroptincheckbo___widget" name="guideContainer-rootPanel-panel-consumeroptincheckbo___jqName" data-optin-sentence="Sign up for gaming and entertainment deals, announcements, and more from NVIDIA.::true" tabindex="0" aria-label="Sign up for gaming and entertainment deals, announcements, and more from NVIDIA." value="-100" aria-checked="false" placeholder=" style=" position:="" relative;"="">
                 
            		<span class="optin-sentence">Sign up for gaming and entertainment deals, announcements, and more from NVIDIA.
 	           		
@@ -14884,7 +14884,7 @@ $(window).load(function(){
     
     
 
-<div class="guideFieldNode guideTextBox userEmail defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-useremailtext__" data-guide-view-bind="guideContainer-rootPanel-panel-useremailtext__" style=" data-disabled="false">
+<div class="guideFieldNode guideTextBox userEmail defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-useremailtext__" data-guide-view-bind="guideContainer-rootPanel-panel-useremailtext__" style=" data-disabled=" false"="">
     
         
         
@@ -14904,7 +14904,7 @@ $(window).load(function(){
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-useremailtext___widget" id="guideContainer-rootPanel-panel-useremailtext___label">Email</label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-useremailtext___widget" id="guideContainer-rootPanel-panel-useremailtext___label">Email</label></div>
          
 
     
@@ -15023,7 +15023,7 @@ $(window).load(function(){
     
     
 
-<div class="guideFieldNode guideTextBox nvid defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co__" style=" data-disabled="false">
+<div class="guideFieldNode guideTextBox nvid defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co__" style=" data-disabled=" false"="">
     
         
         
@@ -15043,7 +15043,7 @@ $(window).load(function(){
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___widget" id="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___label">nvid hidden field</label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___widget" id="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___label">nvid hidden field</label></div>
          
 
     
@@ -15060,7 +15060,7 @@ $(window).load(function(){
         
 
         
-            <input type="text" autocomplete="off" id="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___widget" name="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___jqName" style="position: relative;" placeholder=" aria-describedby="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___widget_desc" tabindex="0" aria-label="nvid hidden field">
+            <input type="text" autocomplete="off" id="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___widget" name="guideContainer-rootPanel-panel-panel_242468312_copy-guidetextbox_copy_co___jqName" style="position: relative;" placeholder=" aria-describedby=" guidecontainer-rootpanel-panel-panel_242468312_copy-guidetextbox_copy_co___widget_desc"="" tabindex="0" aria-label="nvid hidden field">
         
     
     
@@ -15189,7 +15189,7 @@ $(window).load(function(){
     
     
 
-<div class="guideFieldNode guideTextBox ncid defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co__" style=" data-disabled="false">
+<div class="guideFieldNode guideTextBox ncid defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co__" style=" data-disabled=" false"="">
     
         
         
@@ -15209,7 +15209,7 @@ $(window).load(function(){
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___widget" id="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___label">ncid hidden field</label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___widget" id="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___label">ncid hidden field</label></div>
          
 
     
@@ -15226,7 +15226,7 @@ $(window).load(function(){
         
 
         
-            <input type="text" autocomplete="off" id="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___widget" name="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___jqName" style="position: relative;" placeholder=" aria-describedby="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___widget_desc" tabindex="0" aria-label="ncid hidden field">
+            <input type="text" autocomplete="off" id="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___widget" name="guideContainer-rootPanel-panel-panel_2102951987_cop-guidetextbox_copy_co___jqName" style="position: relative;" placeholder=" aria-describedby=" guidecontainer-rootpanel-panel-panel_2102951987_cop-guidetextbox_copy_co___widget_desc"="" tabindex="0" aria-label="ncid hidden field">
         
     
     
@@ -15469,7 +15469,7 @@ $(window).load(function(){
     
     
 
-<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_general text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox__" data-guide-view-bind="guideContainer-rootPanel-panel-submit_panel-guidecheckbox__" style=" data-mandatory="true" data-disabled="false" role="group">
+<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_general text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox__" data-guide-view-bind="guideContainer-rootPanel-panel-submit_panel-guidecheckbox__" style=" data-mandatory=" true"="" data-disabled="false" role="group">
     
         
         
@@ -15497,9 +15497,9 @@ $(window).load(function(){
 
 <div class="guideCheckBoxGroupItems" style=";">
     
-    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title="">
-               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"><span class="checkmark optin-check-box"></span></label>
+    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
+               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a>.</label>
@@ -15563,7 +15563,7 @@ $(window).load(function(){
     
     
 
-<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_export text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091__" data-guide-view-bind="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091__" style=" data-mandatory="true" data-disabled="false" role="group">
+<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_export text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091__" data-guide-view-bind="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091__" style=" data-mandatory=" true"="" data-disabled="false" role="group">
     
         
         
@@ -15591,9 +15591,9 @@ $(window).load(function(){
 
 <div class="guideCheckBoxGroupItems" style=";">
     
-    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_export guideFieldHorizontalAlignment text-left" data-original-title=" title="">
-               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091___desc" tabindex="0" aria-label="I agree that the above information will be transferred to NVIDIA Corporation in the United States and stored in a manner consistent with <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a> due to necessities for research, event organization and corresponding NVIDIA internal management and system operation need. You may contact us by sending an email to <a href="mailto:privacy@nvidia.com">privacy@nvidia.com</a> to resolve related problems." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"><span class="checkmark optin-check-box"></span></label>
+    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_export guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
+               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091___1_widget" name="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-submit_panel-guidecheckbox_232212091___desc" tabindex="0" aria-label="I agree that the above information will be transferred to NVIDIA Corporation in the United States and stored in a manner consistent with <a href=" https:="" www.nvidia.com="" en-us="" about-nvidia="" privacy-policy="" ?deeplink="visiting-our-website&quot;" target="_blank">NVIDIA Privacy Policy due to necessities for research, event organization and corresponding NVIDIA internal management and system operation need. You may contact us by sending an email to <a href="mailto:privacy@nvidia.com">privacy@nvidia.com</a> to resolve related problems." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree that the above information will be transferred to NVIDIA Corporation in the United States and stored in a manner consistent with <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a> due to necessities for research, event organization and corresponding NVIDIA internal management and system operation need. You may contact us by sending an email to <a href="mailto:privacy@nvidia.com">privacy@nvidia.com</a> to resolve related problems.</label>
@@ -15693,7 +15693,7 @@ $(window).load(function(){
     
     
 
-<div class="guideFieldNode guideButton submit text-right defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-submit_panel-panel_1196154342-submit__" data-guide-view-bind="guideContainer-rootPanel-panel-submit_panel-panel_1196154342-submit__" style=" data-disabled="false">
+<div class="guideFieldNode guideButton submit text-right defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-submit_panel-panel_1196154342-submit__" data-guide-view-bind="guideContainer-rootPanel-panel-submit_panel-panel_1196154342-submit__" style=" data-disabled=" false"="">
     
         
         
@@ -16327,7 +16327,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {
@@ -16588,7 +16588,7 @@ j.async = true;
 j.src = "http" + (document.location.protocol === "https:" ? "s://cs" : "://c") + ".ns1p.net/p.js?a=" + __nspid;
 document.body.appendChild(j);
 
-</script><script type="text/javascript" async=" src="/assets/cs.ns1p.net/p.js"></script><script>
+</script><script type="text/javascript" async=" src=" assets="" cs.ns1p.net="" p.js"=""></script><script>
 try {
     $('.nav-header a.nav-search-link').click(function() {
         ClickOmniTrack(true, 'event10', 'img:header:', 'search');

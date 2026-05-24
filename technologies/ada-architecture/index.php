@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Ada Lovelace for Professional Visualization">
 <meta property="og:description" content="Engineered to perfection and featuring cutting-edge innovations.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/Ada-Lovelace-Architecture/nvidia-ada-lovelace-architecture-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/Ada-Lovelace-Architecture/nvidia-ada-lovelace-architecture-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/technologies/ada-architecture/">
 <meta name="twitter:description" content="The all new NVIDIA Ada Lovelace GPU architecture takes RTX to new heights for professional workloads.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/Ada-Lovelace-Architecture/nvidia-ada-lovelace-architecture-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf22/Ada-Lovelace-Architecture/nvidia-ada-lovelace-architecture-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1685,7 +1685,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2034,10 +2034,10 @@ var nvidiaGDClog = function() {
            <div class="nv-img-as-bg d-image-center l-image-center t-image-center p-image-center    ">
             
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" technologies="" ada-architecture="" nvidia-ada-lovelace-architecture-bb460_420-p.jpg,="" nvidia-ada-lovelace-architecture-bb460_420-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" technologies="" ada-architecture="" nvidia-ada-lovelace-architecture-bb460_420-t.jpg,="" nvidia-ada-lovelace-architecture-bb460_420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" technologies="" ada-architecture="" nvidia-ada-lovelace-architecture-bb460_420-l.jpg,="" nvidia-ada-lovelace-architecture-bb460_420-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" design-visualization="" technologies="" ada-architecture="" nvidia-ada-lovelace-architecture-bb460_420-d.jpg,="" nvidia-ada-lovelace-architecture-bb460_420-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                 	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-d.jpg" alt=" title=" id="image-container-dac29f9970" onload="window.initLazyLoadingImages('container-dac29f9970');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/nvidia-ada-lovelace-architecture-bb460_420-d@2x.jpg 2x">
                 
@@ -2941,11 +2941,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-da4973d596" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container/nv_image.coreimg.100.410.jpeg/1681146610675/third-generation-rt-cores-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/third-generation-rt-cores-2560x1440.jpg" data-title="Third-generation RT Cores" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/third-generation-rt-cores-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/third-generation-rt-cores-2560x1440.jpg" data-title="Third-generation RT Cores" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Third-generation RT Cores" title="Third-generation RT Cores" data-analytics="nv-image-da4973d596" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Third-generation RT Cores" title="Third-generation RT Cores" data-analytics="nv-image-da4973d596" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/third-generation-rt-cores-2560x1440.jpg">
 
 	    
 	    
@@ -3027,11 +3027,11 @@ var nvidiaGDClog = function() {
 	        <div class="nv-image image">
 
 <div id="nv-image-247a292683" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container_331383467/nv_image.coreimg.100.410.jpeg/1681146610743/fourth-generation-tensor-cores-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/fourth-generation-tensor-cores-2560x1440.jpg" data-title="Fourth-Generation Tensor Cores" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/fourth-generation-tensor-cores-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/fourth-generation-tensor-cores-2560x1440.jpg" data-title="Fourth-Generation Tensor Cores" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Fourth-Generation Tensor Cores" title="Fourth-Generation Tensor Cores" data-analytics="nv-image-247a292683" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Fourth-Generation Tensor Cores" title="Fourth-Generation Tensor Cores" data-analytics="nv-image-247a292683" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/fourth-generation-tensor-cores-2560x1440.jpg">
 
 	    
 	    
@@ -3329,11 +3329,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-b9defd1988" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container_2029683193/nv_image.coreimg.100.410.jpeg/1681146610901/cuda-cores-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/cuda-cores-2560x1440.jpg" data-title="CUDA Cores" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/cuda-cores-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/cuda-cores-2560x1440.jpg" data-title="CUDA Cores" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="CUDA Cores" title="CUDA Cores" data-analytics="nv-image-b9defd1988" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="CUDA Cores" title="CUDA Cores" data-analytics="nv-image-b9defd1988" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/cuda-cores-2560x1440.jpg">
 
 	    
 	    
@@ -3415,11 +3415,11 @@ var nvidiaGDClog = function() {
 	        <div class="nv-image image">
 
 <div id="nv-image-e775d47e6d" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container_3313834/nv_image.coreimg.100.410.jpeg/1681146610969/advanced-video-vision-ai-acceleration-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/advanced-video-vision-ai-acceleration-2560x1440.jpg" data-title="Advanced Video and Vision AI Acceleration" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/advanced-video-vision-ai-acceleration-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/advanced-video-vision-ai-acceleration-2560x1440.jpg" data-title="Advanced Video and Vision AI Acceleration" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Advanced Video and Vision AI Acceleration" title="Advanced Video and Vision AI Acceleration" data-analytics="nv-image-e775d47e6d" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Advanced Video and Vision AI Acceleration" title="Advanced Video and Vision AI Acceleration" data-analytics="nv-image-e775d47e6d" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/advanced-video-vision-ai-acceleration-2560x1440.jpg">
 
 	    
 	    
@@ -3717,11 +3717,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-1d7d20cce8" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container_2029683/nv_image.coreimg.100.410.jpeg/1681146611125/deep-learning-super-sampling-3-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/deep-learning-super-sampling-3-2560x1440.jpg" data-title="Deep Learning Super Sampling 3.0 (DLSS 3)" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/deep-learning-super-sampling-3-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/deep-learning-super-sampling-3-2560x1440.jpg" data-title="Deep Learning Super Sampling 3.0 (DLSS 3)" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Deep Learning Super Sampling 3.0 (DLSS 3)" title="Deep Learning Super Sampling 3.0 (DLSS 3)" data-analytics="nv-image-1d7d20cce8" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Deep Learning Super Sampling 3.0 (DLSS 3)" title="Deep Learning Super Sampling 3.0 (DLSS 3)" data-analytics="nv-image-1d7d20cce8" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/deep-learning-super-sampling-3-2560x1440.jpg">
 
 	    
 	    
@@ -3803,11 +3803,11 @@ var nvidiaGDClog = function() {
 	        <div class="nv-image image">
 
 <div id="nv-image-1fab4ab5a8" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container_3313834_691002379/nv_image.coreimg.100.410.jpeg/1681146611195/virtualization-ready-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/virtualization-ready-2560x1440.jpg" data-title="Virtualization-Ready" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/virtualization-ready-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/virtualization-ready-2560x1440.jpg" data-title="Virtualization-Ready" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Virtualization-Ready" title="Virtualization-Ready" data-analytics="nv-image-1fab4ab5a8" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Virtualization-Ready" title="Virtualization-Ready" data-analytics="nv-image-1fab4ab5a8" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/virtualization-ready-2560x1440.jpg">
 
 	    
 	    
@@ -4105,11 +4105,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-fbf77c71c7" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_1317825/nv_container_2029683_1975051450/nv_image.coreimg.100.410.jpeg/1681146611350/data-center-efficiency-security-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/data-center-efficiency-security-2560x1440.jpg" data-title="Data Center Efficiency and Security" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/data-center-efficiency-security-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/data-center-efficiency-security-2560x1440.jpg" data-title="Data Center Efficiency and Security" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Data Center Efficiency and Security" title="Data Center Efficiency and Security" data-analytics="nv-image-fbf77c71c7" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Data Center Efficiency and Security" title="Data Center Efficiency and Security" data-analytics="nv-image-fbf77c71c7" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/ada-architecture/data-center-efficiency-security-2560x1440.jpg">
 
 	    
 	    
@@ -4284,11 +4284,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--laptop--none aem-GridColumn aem-GridColumn--offset--laptop--1 aem-GridColumn--default--12 aem-GridColumn--laptop--11">
 
 <div id="nv-image-4627f5edb4" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/technologies/ada-architecture/_jcr_content/root/responsivegrid/nv_container_7749710/nv_container/nv_image.coreimg.svg.svg/1691737293981/m48-document-120x120.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/turing-architecture/m48-document-120x120.svg" data-title="NVIDIA Ada Lovelace Architecture White Paper" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/turing-architecture/m48-document-120x120.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/turing-architecture/m48-document-120x120.svg" data-title="NVIDIA Ada Lovelace Architecture White Paper" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://images.nvidia.com/aem-dam/en-zz/Solutions/technologies/NVIDIA-ADA-GPU-PROVIZ-Architecture-Whitepaper_1.1.pdf" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="NVIDIA Ada Lovelace Architecture White Paper" title="NVIDIA Ada Lovelace Architecture White Paper" data-analytics="nv-image-4627f5edb4" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="NVIDIA Ada Lovelace Architecture White Paper" title="NVIDIA Ada Lovelace Architecture White Paper" data-analytics="nv-image-4627f5edb4" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/technologies/turing-architecture/m48-document-120x120.svg">
 
 	    </a>
 	    
@@ -4977,7 +4977,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA HGX Platform">
 <meta property="og:description" content="Supercharging AI and high-performance computing for every data center.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-og-new.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-og-new.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/hgx/">
 <meta name="twitter:description" content="The platform brings together the full power of NVIDIA GPUs, NVLink, NVIDIA networking, and fully optimized AI and high-performance computing (HPC) software stacks.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-og-new.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-og-new.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1707,7 +1707,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2058,10 +2058,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-af-bottom-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-af-bottom-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md420-offset-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md420-offset-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-af-bottom-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-af-bottom-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md420-offset-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md420-offset-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" hgx="" nvidia-hgx-platform-bm-af-bottom-p.jpg,="" nvidia-hgx-platform-bm-af-bottom-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" hgx="" nvidia-hgx-platform-bm-md420-offset-t.jpg,="" nvidia-hgx-platform-bm-md420-offset-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" hgx="" nvidia-hgx-platform-bm-md460-offset-left-l.jpg,="" nvidia-hgx-platform-bm-md460-offset-left-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" hgx="" nvidia-hgx-platform-bm-md460-offset-left-d.jpg,="" nvidia-hgx-platform-bm-md460-offset-left-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-d.jpg" alt=" title=" id="image-container-5fe2a4f9de" onload="window.initLazyLoadingImages('container-5fe2a4f9de');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/nvidia-hgx-platform-bm-md460-offset-left-d@2x.jpg 2x">
                 
@@ -3843,11 +3843,11 @@ padding-left:0px;
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-bottom    p-image-fit-contain  ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-af-bottom-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-af-bottom-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md420-offset-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md420-offset-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" hgx="" vera-cpu-bm-af-bottom-p.jpg,="" vera-cpu-bm-af-bottom-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md420-offset-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md420-offset-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/HGX/vera-cpu-bm-md460-offset-left-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-vera-cpu" onload="window.initLazyLoadingImages('vera-cpu');">
                 
@@ -6327,7 +6327,7 @@ $("#sub-brand .sub-brand-label").text($("#sub-brand .sub-brand-label").text().re
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/data-center/technologies/rubin/notify-me/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" data-center="" technologies="" rubin="" notify-me="" "=""></iframe>
           </div>
         
         
@@ -6724,7 +6724,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

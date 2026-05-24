@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA GeForce RTX">
 <meta property="og:description" content="Revolutionizing the ways we play and create.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/gforce-rtx-ray-tracing-ai-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/gforce-rtx-ray-tracing-ai-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/rtx/">
 <meta name="twitter:description" content="The Most advanced platform for ray tracing and AI technologies.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/gforce-rtx-ray-tracing-ai-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/gforce-rtx-ray-tracing-ai-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -2541,12 +2541,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="M3fglmDxD2U" data-thumbnail="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-700-games-2.jpg" data-thumbnail-alt="Check out RTX in today’s biggest games">
+<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="M3fglmDxD2U" data-thumbnail="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-700-games-2.jpg" data-thumbnail-alt="Check out RTX in today’s biggest games">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/M3fglmDxD2U?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/M3fglmDxD2U?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce'><img src='https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-700-games-2.jpg' alt='Check out RTX in today’s biggest games'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/M3fglmDxD2U?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/M3fglmDxD2U?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0&amp;ab_channel=NVIDIAGeForce'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-700-games-2.jpg' alt='Check out RTX in today’s biggest games'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -3182,12 +3182,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="uRHBzE7TvtU" data-thumbnail="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png" data-thumbnail-alt="Play Video">
+<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="uRHBzE7TvtU" data-thumbnail="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png" data-thumbnail-alt="Play Video">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/uRHBzE7TvtU?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/dlss/geforce-dlss4-multi-frame-generation-cybperpunk-2077-1920x1080-video.png' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -3972,11 +3972,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Battlefield 6" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_2004863011/nv_container_580549440/nv_teaser_1360876537.coreimg.100.410.jpeg/1768978901771/geforce-battlefield6-keyart-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-battlefield6-keyart-1920x1080.jpg" data-title="Battlefield 6" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-battlefield6-keyart-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-battlefield6-keyart-1920x1080.jpg" data-title="Battlefield 6" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Battlefield 6" title="Battlefield 6" data-analytics="nv-image-10e1cfe6f0" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Battlefield 6" title="Battlefield 6" data-analytics="nv-image-10e1cfe6f0" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-battlefield6-keyart-1920x1080.jpg">
 
 	    
 	    
@@ -4362,11 +4362,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="CINDER CITY" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_2004863011/nv_container_580549440/nv_teaser_copy.coreimg.100.410.jpeg/1768978902062/rtx-games-cinder-city-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/rtx-games-cinder-city-ari.jpg" data-title="CINDER CITY" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/rtx-games-cinder-city-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/rtx-games-cinder-city-ari.jpg" data-title="CINDER CITY" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="CINDER CITY" title="CINDER CITY" data-analytics="nv-image-1280ae17c9" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="CINDER CITY" title="CINDER CITY" data-analytics="nv-image-1280ae17c9" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/rtx-games-cinder-city-ari.jpg">
 
 	    
 	    
@@ -4596,11 +4596,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Alan Wake 2 " data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_2004863011/nv_container_580549440/nv_teaser_1700041530.coreimg.100.410.jpeg/1768978902241/alan-awake-2-2560x1440-1.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/alan-awake-2-2560x1440-1.jpg" data-title="Alan Wake 2 " data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/alan-awake-2-2560x1440-1.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/alan-awake-2-2560x1440-1.jpg" data-title="Alan Wake 2 " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Alan Wake 2 " title="Alan Wake 2 " data-analytics="nv-image-df535e6ea2" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Alan Wake 2 " title="Alan Wake 2 " data-analytics="nv-image-df535e6ea2" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/alan-awake-2-2560x1440-1.jpg">
 
 	    
 	    
@@ -5337,11 +5337,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Vampire: The Masquerade \u002D Bloodelines 2" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1449960145/nv_container_2051033_1441953206/nv_teaser_1638254666_543081146.coreimg.100.410.jpeg/1768978903719/geforce-vampire-the-masquerade-bloodlines2-keyart-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-vampire-the-masquerade-bloodlines2-keyart-1920x1080.jpg" data-title="Vampire: The Masquerade - Bloodelines 2" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-vampire-the-masquerade-bloodlines2-keyart-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-vampire-the-masquerade-bloodlines2-keyart-1920x1080.jpg" data-title="Vampire: The Masquerade - Bloodelines 2" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Vampire: The Masquerade - Bloodelines 2" title="Vampire: The Masquerade - Bloodelines 2" data-analytics="nv-image-e73bf7e32c" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Vampire: The Masquerade - Bloodelines 2" title="Vampire: The Masquerade - Bloodelines 2" data-analytics="nv-image-e73bf7e32c" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-vampire-the-masquerade-bloodlines2-keyart-1920x1080.jpg">
 
 	    
 	    
@@ -10714,11 +10714,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="DOOM Eternal" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1449960145/nv_container_2051033_1441953206/nv_teaser_1093736511.coreimg.100.410.jpeg/1768978907783/geforce-rtx-games-doom-eternal.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-doom-eternal.jpg" data-title="DOOM Eternal" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-doom-eternal.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-doom-eternal.jpg" data-title="DOOM Eternal" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="DOOM Eternal" title="DOOM Eternal" data-analytics="nv-image-7dcf3cf19f" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="DOOM Eternal" title="DOOM Eternal" data-analytics="nv-image-7dcf3cf19f" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-doom-eternal.jpg">
 
 	    
 	    
@@ -10870,11 +10870,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Red Dead Redemption" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/geforce/rtx/_jcr_content/root/responsivegrid/nv_container_1449960145/nv_container_2051033_1441953206/nv_teaser_1688183313.coreimg.100.410.jpeg/1768978907900/geforce-rtx-games-red-dead-redemption.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-red-dead-redemption.jpg" data-title="Red Dead Redemption" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-red-dead-redemption.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-red-dead-redemption.jpg" data-title="Red Dead Redemption" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Red Dead Redemption" title="Red Dead Redemption" data-analytics="nv-image-01beb4d7f4" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Red Dead Redemption" title="Red Dead Redemption" data-analytics="nv-image-01beb4d7f4" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx/geforce-rtx-games-red-dead-redemption.jpg">
 
 	    
 	    
@@ -12148,7 +12148,7 @@ const $container = $('#loading-cards');
                 <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                 <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
-                	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-ai-pcs" onload="window.initLazyLoadingImages('ai-pcs');">
+                	<img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/graphic-cards/50-series/rtx-5080/geforce-rtx-ai-pc-banner-xl-offset-desktop.jpg" alt=" title=" id="image-ai-pcs" onload="window.initLazyLoadingImages('ai-pcs');">
                 
                 
             </picture>

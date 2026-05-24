@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Dynamo">
 <meta property="og:description" content="Deploy, run, and scale AI for any application on any platform.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/ai/dynamo/">
 <meta name="twitter:description" content="Supports all major AI inference backends. Features LLM-specific optimizations, such as disaggregated serving. Available with NVIDIA AI Enterprise. Learn more.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1700,7 +1700,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2049,10 +2049,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-c-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-offset-bm-af-bottom-phone.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-offset-bm-af-bottom-phone-2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-tablet.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-tablet@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-laptop.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-laptop@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-offset-bm-af-bottom-phone.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-offset-bm-af-bottom-phone-2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-tablet.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-tablet@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-laptop.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-laptop@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" products="" triton-inference-server="" nvidia-dynamo-offset-bm-af-bottom-phone.jpg,="" nvidia-dynamo-offset-bm-af-bottom-phone-2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" products="" triton-inference-server="" nvidia-dynamo-lg-offset-tablet.jpg,="" nvidia-dynamo-lg-offset-tablet@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" products="" triton-inference-server="" nvidia-dynamo-lg-offset-laptop.jpg,="" nvidia-dynamo-lg-offset-laptop@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" ai-data-science="" products="" triton-inference-server="" nvidia-dynamo-lg-offset-desktop.jpg,="" nvidia-dynamo-lg-offset-desktop@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop.jpg" alt=" title=" id="image-container-7db14e0472" onload="window.initLazyLoadingImages('container-7db14e0472');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/nvidia-dynamo-lg-offset-desktop@2x.jpg 2x">
@@ -7736,7 +7736,7 @@ var nvidiaGDClog = function() {
     	
 		
 
-    <div> <script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/casestudies_widget.js"></script> 
+    <div> <script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" case-studies="" casestudies_widget.js"=""></script> 
 <script defer="">
  setTimeout(() => {
      LPCS.Home.mount({
@@ -11126,11 +11126,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Kubernetes\u002DNative AI Serving" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai/dynamo/_jcr_content/root/responsivegrid/nv_container_950728026/nv_tabs_copy/item_1741973286233/item_1741938533807_c/nv_teaser_copy_copy.coreimg.100.410.jpeg/1775640184529/kubernetes-native-ai-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/kubernetes-native-ai-ari.jpg" data-title="Kubernetes-Native AI Serving" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/kubernetes-native-ai-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/kubernetes-native-ai-ari.jpg" data-title="Kubernetes-Native AI Serving" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=AXASqOBWlKQ" target="_modal" data-cmp-hook-image="link">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Kubernetes-Native AI Serving" title="Kubernetes-Native AI Serving" data-analytics="nv-image-c2d1e065eb" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Kubernetes-Native AI Serving" title="Kubernetes-Native AI Serving" data-analytics="nv-image-c2d1e065eb" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/kubernetes-native-ai-ari.jpg">
 
 	    </a>
 	    
@@ -11719,11 +11719,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/ai/dynamo/_jcr_content/root/responsivegrid/nv_container_950728026/nv_tabs_copy/item_1741973296239/item_1741938542289_c/nv_teaser_copy.coreimg.100.410.jpeg/1773662272392/dynamo-aiconfigurator-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/dynamo-aiconfigurator-ari.jpg" data-title="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/dynamo-aiconfigurator-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/dynamo-aiconfigurator-ari.jpg" data-title="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=KuZXeol0fKk" target="_modal" data-cmp-hook-image="link">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" title="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" data-analytics="nv-image-c216e156b3" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" title="How to Optimize AI Serving With NVIDIA Dynamo AIConfigurator" data-analytics="nv-image-c216e156b3" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/triton-inference-server/dynamo-aiconfigurator-ari.jpg">
 
 	    </a>
 	    
@@ -12990,7 +12990,7 @@ var nvidiaGDClog = function() {
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
     
-    <iframe width="100%" src="https://www.youtube.com/embed/1kOaYiNVgFs?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="1kOaYiNVgFs" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
+    <iframe width="100%" src="https://www.youtube.com/embed/1kOaYiNVgFs?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" loading="1kOaYiNVgFs" aria-label="YouTube Video" data-modal-autoplay="true"></iframe>
     </div>
    </template>
 
@@ -15090,7 +15090,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

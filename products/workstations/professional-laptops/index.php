@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA RTX PRO in Laptops">
 <meta property="og:description" content="AI and visual computing accelerated anywhere.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptop-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptop-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/professional-laptops/">
 <meta name="twitter:description" content="Access the most powerful AI and visual computing capabilities in thin and light mobile workstations anytime, anywhere.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptop-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptop-og.jpg">
 
 	<meta property="interest" content="Content Creation / Rendering">
 
@@ -2306,7 +2306,7 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-3ccc0a12b0" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_container/nv_container_757444931/nv_image.coreimg.100.410.jpeg/1779246926462/geforce-rtx-50-series-architecture-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/geforce-rtx-50-series-architecture-ari.jpg" data-title="NVIDIA Blackwell Architecture" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/geforce-rtx-50-series-architecture-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/geforce-rtx-50-series-architecture-ari.jpg" data-title="NVIDIA Blackwell Architecture" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -2854,7 +2854,7 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--10 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8">
 
 <div id="nv-image-2bf9671cb3" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container_copy_co_1498370964/nv_container_copy/nv_image.coreimg.100.410.jpeg/1779246926858/geforce-max-q-dynamic-boost.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/geforce-max-q-dynamic-boost.jpg" data-title="NVIDIA Max-Q Technologies" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/geforce-max-q-dynamic-boost.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/geforce-max-q-dynamic-boost.jpg" data-title="NVIDIA Max-Q Technologies" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -3870,10 +3870,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" products="" workstations="" professional-laptops="" nvidia-rtx-pro-desktop-fg-cc-i1of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-desktop-fg-cc-i1of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-desktop-fg-cc-i1of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-desktop-fg-cc-i1of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-desktop-fg-cc-i1of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Accelerate Your Product Design, Simulation, and Visualization Workflows" title="Accelerate Your Product Design, Simulation, and Visualization Workflows" onload="window.initLazyLoadingImages('gallery-frame'.concat('-', 'Manufacturing and Industrial'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -3945,10 +3945,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" products="" workstations="" professional-laptops="" nvidia-rtx-pro-laptops-fg-i2of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i2of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i2of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i2of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i2of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Next-Gen AI Solutions for Media and Entertainment" title="Next-Gen AI Solutions for Media and Entertainment" onload="window.initLazyLoadingImages('gallery-frame'.concat('-', 'Media and Entertainment'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4020,10 +4020,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" products="" workstations="" professional-laptops="" nvidia-rtx-pro-laptops-fg-i3of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i3of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i3of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i3of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i3of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Design the Future of Architecture, Engineering, Construction, and Operations" title="Design the Future of Architecture, Engineering, Construction, and Operations" onload="window.initLazyLoadingImages('gallery-frame'.concat('-', 'Architecture, Engineering, and Construction'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4095,10 +4095,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" products="" workstations="" professional-laptops="" nvidia-rtx-pro-laptops-fg-i4of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i4of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i4of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i4of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-i4of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="NVIDIA-Accelerated Data Science" title="NVIDIA-Accelerated Data Science" onload="window.initLazyLoadingImages('gallery-frame'.concat('-', 'AI Development and Data Science'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4170,10 +4170,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" products="" workstations="" professional-laptops="" nvidia-rtx-pro-laptops-fg-cc-i5of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-cc-i5of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-cc-i5of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-cc-i5of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-rtx-pro-laptops-fg-cc-i5of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="NVIDIA Broadcast App" title="NVIDIA Broadcast App" onload="window.initLazyLoadingImages('gallery-frame'.concat('-', 'Everyday AI'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4609,7 +4609,7 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--0 aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-235f0a2cde" class="cmp-image             
-     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container_1470050637/nv_container_copy_co/nv_container/nv_container_copy/nv_image.coreimg.svg.svg/1779246928092/m48-pc-window-application-browser.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-pc-window-application-browser.svg" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-pc-window-application-browser.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-pc-window-application-browser.svg" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -4817,7 +4817,7 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0 aem-GridColumn--default--3">
 
 <div id="nv-image-f8d06afd9f" class="cmp-image             
-     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container_1470050637/nv_container_copy_co/nv_container/nv_container_copy_1704802649/nv_image.coreimg.svg.svg/1779246928241/m48-download.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-download.svg" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-download.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-download.svg" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -5528,7 +5528,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA CloudXR" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container/copy_of_nv_carousel_/item_1741268769639.coreimg.100.410.jpeg/1779246928682/nvidia-cloudxr-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-cloudxr-ari.jpg" data-title="NVIDIA CloudXR" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-cloudxr-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-cloudxr-ari.jpg" data-title="NVIDIA CloudXR" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -5604,7 +5604,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA Broadcast app" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container/copy_of_nv_carousel_/item_1741268931436.coreimg.100.410.jpeg/1779246928706/nvidia-broadcast-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-broadcast-ari.jpg" data-title="NVIDIA Broadcast app" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-broadcast-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/desktop-graphics/nvidia-broadcast-ari.jpg" data-title="NVIDIA Broadcast app" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -5680,7 +5680,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA Omniverse NVIDIA libraries and microservices for developing physical AI applications" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container/copy_of_nv_carousel_/item_1741268941532.coreimg.100.410.jpeg/1779246928730/ov-libraries-sfg.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/ov-libraries-sfg.jpg" data-title="NVIDIA Omniverse NVIDIA libraries and microservices for developing physical AI applications" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/ov-libraries-sfg.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/ov-libraries-sfg.jpg" data-title="NVIDIA Omniverse NVIDIA libraries and microservices for developing physical AI applications" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -5756,7 +5756,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Build Agentic AI With NVIDIA NIM and NeMo" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container/copy_of_nv_carousel_/item_1741268946298.coreimg.100.410.jpeg/1779246928754/nvidia-nim-blueprints-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-nim-blueprints-ari.jpg" data-title="Build Agentic AI With NVIDIA NIM and NeMo" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-nim-blueprints-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvidia-nim-blueprints-ari.jpg" data-title="Build Agentic AI With NVIDIA NIM and NeMo" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -5832,7 +5832,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Software platform for production AI" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container/copy_of_nv_carousel_/item_1741268949808.coreimg.100.410.png/1779246928779/nvaie-kv-press-tech-blog-1920x1080.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvaie-kv-press-tech-blog-1920x1080.png" data-title="Software platform for production AI" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvaie-kv-press-tech-blog-1920x1080.png" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/professional-laptops/nvaie-kv-press-tech-blog-1920x1080.png" data-title="Software platform for production AI" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -6211,7 +6211,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="HP logo" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container_copy_co_1224989090/nv_container/nv_teaser_copy_copy_471039269.coreimg.svg.svg/1779246929038/hp-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/hp-logo.svg" data-title="HP logo" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/hp-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/hp-logo.svg" data-title="HP logo" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/?category=laptop&amp;manufacturer=HP&amp;page=1&amp;limit=15" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
@@ -6274,7 +6274,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Lenovo logo" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/professional-laptops/_jcr_content/root/responsivegrid/nv_container_copy_co_1224989090/nv_container/nv_teaser_copy_copy_1133367013.coreimg.svg.svg/1779246929050/lenovo-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/computex/partners/ec/lenovo-logo.svg" data-title="Lenovo logo" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/computex/partners/ec/lenovo-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/computex/partners/ec/lenovo-logo.svg" data-title="Lenovo logo" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://marketplace.nvidia.com/en-us/enterprise/laptops-workstations/?category=laptop&amp;manufacturer=Lenovo&amp;page=1&amp;limit=15" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   

@@ -7657,7 +7657,7 @@ a {
 } */
 </style>
 <style type="text/css" id="nv-accordion-styles">.cmp-accordion__panel--hidden{max-height:0}</style>
-</head><body style="overflow: hidden auto;" class="body-page  nv-page-body theme-en-us theme-deeplearning  enterprise page basicpage"><a href="#" id="contentOverlay" data-lookbook-overlay-href=" data-lookbook-overlay-width="80%" data-lookbook-overlay-height="80%" style="display:none"></a>
+</head><body style="overflow: hidden auto;" class="body-page  nv-page-body theme-en-us theme-deeplearning  enterprise page basicpage"><a href="#" id="contentOverlay" data-lookbook-overlay-href=" data-lookbook-overlay-width=" 80%"="" data-lookbook-overlay-height="80%" style="display:none"></a>
 
     
 <script src="../assets/www.nvidia.com/etc.clientlibs/clientlibs/granite/jquery.min.cee8557e8779d371fe722bbcdd3b3eb7.js"></script>
@@ -9257,7 +9257,7 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -9608,10 +9608,10 @@ body.v4_design.base_v4 .navigation .global-nav .nav-header-container .nav-tools-
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-glass-bm-uf-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-glass-bm-uf-p@2x.jpg 2x" data-srcset-tablet="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg440-glass-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg440-glass-t@2x.jpg 2x" data-srcset-laptop="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg-offset-glass-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg-offset-glass-l@2x.jpg 2x" data-srcset-desktop="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg580-glass-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg580-glass-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-glass-bm-uf-p.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-glass-bm-uf-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg440-glass-t.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg440-glass-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg-offset-glass-l.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg-offset-glass-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg580-glass-d.jpg, ../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg580-glass-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" home="" data-center-glass-bm-uf-p.jpg,="" data-center-glass-bm-uf-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" home="" data-center-bm-lg440-glass-t.jpg,="" data-center-bm-lg440-glass-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" home="" data-center-bm-lg-offset-glass-l.jpg,="" data-center-bm-lg-offset-glass-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" home="" data-center-bm-lg580-glass-d.jpg,="" data-center-bm-lg580-glass-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg580-glass-d.jpg" alt="Data Center Solutions for AI Reasoning at Scale" title="Data Center Solutions for AI Reasoning at Scale" id="image-container-faa7363d81" onload="window.initLazyLoadingImages('container-faa7363d81');" srcset="../assets/www.nvidia.com/content/dam/en-zz/solutions/data-center/home/data-center-bm-lg580-glass-d@2x.jpg 2x">
                 
@@ -12624,7 +12624,7 @@ display: block !important;
     	
 		
 
-    <div> <script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/use-case/usecasesExplorerCatalogWidget.js"></script> 
+    <div> <script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" use-case="" usecasesexplorercatalogwidget.js"=""></script> 
 <script defer="">
 setTimeout(() => {
     LP.Home.mount({
@@ -12785,7 +12785,7 @@ setTimeout(() => {
     	
 		
 
-    <div> <script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/casestudies_widget.js"></script> 
+    <div> <script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" case-studies="" casestudies_widget.js"=""></script> 
 <script defer="">
  setTimeout(() => {
      LPCS.Home.mount({
@@ -13422,7 +13422,7 @@ setTimeout(() => {
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/data-center/subscribe/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" data-center="" subscribe="" "=""></iframe>
           </div>
         
         
@@ -13819,7 +13819,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

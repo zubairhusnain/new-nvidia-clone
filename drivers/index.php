@@ -25,7 +25,7 @@
 <meta property="og:title" content="Download The Latest Official NVIDIA Drivers">
 <meta property="og:description" content="Download the latest official NVIDIA drivers to enhance your PC gaming experience and run apps faster.">
 
-	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/drivers/cut-graphics/nvidia-geforce-drivers-meta-image-1200x627.jpg">
+	<meta property="og:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/drivers/cut-graphics/nvidia-geforce-drivers-meta-image-1200x627.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/drivers/">
 <meta name="twitter:description" content="Get automatic notifications of new driver releases from NVIDIA.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/drivers/cut-graphics/nvidia-geforce-drivers-meta-image-1200x627.jpg">
+	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/drivers/cut-graphics/nvidia-geforce-drivers-meta-image-1200x627.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1705,7 +1705,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -3619,7 +3619,7 @@ div#driver-search-form {
   var Drupal = Drupal || { 'settings': {}, 'behaviors': {}, 'locale': {} };
   </script><div class="rawHtml section"> 
  <!-- BEGIN Driver Manual Lookup Drop Down Menus--> 
- <form class="minHeight" action=" method="post" id="manualSearchForm" style="padding: 5px 40px;"> 
+ <form class="minHeight" action=" method=" post"="" id="manualSearchForm" style="padding: 5px 40px;"> 
   <div id="manualSearchElements" style="z-index: 1"> 
    <div id="manualSearchElementsSpinner" style="visibility: visible;"> 
     <div class="brand-spinner" style="margin: 15vh 30vh; position: absolute; opacity: 1;"></div> 
@@ -3634,16 +3634,16 @@ div#driver-search-form {
   <div id="driverDropdowns" style="z-index: 2; visibility: hidden; opacity: 0;"> 
    <div class="drvrContainer"> 
     <!-- RVC label for="productTypeLbl" class="drvrLabelLeft">Product Type:</label --> 
-    <select class="drvrtoField" name="manualSearch-0" id="manualSearch-0" style="display: none;"> <option value=" id="">Select Product Category</option> <option value="11" id="manualSearch-0-0">dflt TITAN</option> </select><span tabindex="0" id="manualSearch-0-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="manualSearch-0-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Select Product Category</span></span> 
+    <select class="drvrtoField" name="manualSearch-0" id="manualSearch-0" style="display: none;"> <option value=" id=" "="">Select Product Category</option> <option value="11" id="manualSearch-0-0">dflt TITAN</option> </select><span tabindex="0" id="manualSearch-0-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="manualSearch-0-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Select Product Category</span></span> 
    </div> 
    <div class="drvrContainer"> 
     <!-- RVC label for="productSeriesLbl" class="drvrLabelLeft">Product Series:</label --> 
-    <select class="drvrtoField" name="manualSearch-1" id="manualSearch-1" style="display: none;"> <option value=" id="">Select Product Series</option> <option value="104" id="manualSearch-1-0">dflt GeForce MX100 Series (Notebook)</option> </select><span tabindex="0" id="manualSearch-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="manualSearch-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Select Product Series</span></span> 
+    <select class="drvrtoField" name="manualSearch-1" id="manualSearch-1" style="display: none;"> <option value=" id=" "="">Select Product Series</option> <option value="104" id="manualSearch-1-0">dflt GeForce MX100 Series (Notebook)</option> </select><span tabindex="0" id="manualSearch-1-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="manualSearch-1-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Select Product Series</span></span> 
     <!-- RVC a  class="btn-content btncta" target="_modal" href="#product-category"><span class="fal fa-info-circle" id="IdentifyGpuSeries"></span></a --> 
    </div> 
    <div class="drvrContainer"> 
     <!-- RVC label for="productLbl" class="drvrLabelLeft">Product:</label --> 
-    <select class="drvrtoField" name="manualSearch-2" id="manualSearch-2" style="display: none;"> <option value=" id="">Select Product</option> <option value="853" id="dflt manualSearch-2-0">GeForce MX150</option> </select><span tabindex="0" id="manualSearch-2-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="manualSearch-2-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Select Product</span></span> 
+    <select class="drvrtoField" name="manualSearch-2" id="manualSearch-2" style="display: none;"> <option value=" id=" "="">Select Product</option> <option value="853" id="dflt manualSearch-2-0">GeForce MX150</option> </select><span tabindex="0" id="manualSearch-2-button" role="combobox" aria-expanded="false" aria-autocomplete="list" aria-owns="manualSearch-2-menu" aria-haspopup="true" class="ui-selectmenu-button ui-selectmenu-button-closed ui-corner-all ui-button ui-widget"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">Select Product</span></span> 
    </div> 
    <div class="drvrContainer"> 
     <!-- RVC label for="operatingSystemLbl" class="drvrLabelLeft">Operating System:</label --> 
@@ -3664,7 +3664,7 @@ div#driver-search-form {
     <a href="#"><span class="fa fa-question-circle" id="WindowsDownloadTypes"></span></a> 
    </div> 
    <div class="drvrContainer drvrContainerBtn text-right"> 
-    <a href="#" data-href=" data-analytics="btn-manual:" target="_self" onclick="#"> 
+    <a href="#" data-href=" data-analytics=" btn-manual:"="" target="_self" onclick="#"> 
      <div id="search-btn" class="btn">
       Find DriversPOC
      </div> </a> 
@@ -7630,7 +7630,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

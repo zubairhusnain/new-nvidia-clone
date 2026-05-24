@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Solutions for Higher Education and Research">
 <meta property="og:description" content="Explore Limitless Learning in Academia.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/higher-education-research-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/higher-education-research-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/higher-education-research/">
 <meta name="twitter:description" content="Explore our diverse set of resources including hands-on workshops, self-paced courses, certifications, webinars, blogs, live events, grants, and developer news.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/higher-education-research-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/higher-education-research-og.jpg">
 
 	<meta property="interest" content="Data Center / Cloud,Networking / Communications,Developer Tools &amp; Techniques">
 
@@ -1670,15 +1670,15 @@ var nvidiaGDClog = function() {
 
 <div class="breadcrumb-container">
     <nav id="nv-breadcrumb-8921bc3225" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Higher Education Research</span>
                 
@@ -2650,10 +2650,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" higher-education-research="" use-cases-physical-ai-robotics-fg-i1of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-physical-ai-robotics-fg-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-physical-ai-robotics-fg-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-physical-ai-robotics-fg-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-physical-ai-robotics-fg-i1of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="physical AI and robotics" title="physical AI and robotics" onload="window.initLazyLoadingImages('gall'.concat('-', 'Physical AI and Robotics'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2721,10 +2721,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" higher-education-research="" her-usecases-fg-cc-i2of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i2of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i2of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i2of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i2of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Accelerate drug discovery with NVIDIA BioNeMo" title="Accelerate drug discovery with NVIDIA BioNeMo" onload="window.initLazyLoadingImages('gall'.concat('-', 'Life Sciences  '));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2792,10 +2792,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" higher-education-research="" her-usecases-fg-cc-i3of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i3of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i3of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i3of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i3of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Mitigating Urban Climate Change" title="Mitigating Urban Climate Change" onload="window.initLazyLoadingImages('gall'.concat('-', 'Climate'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2863,10 +2863,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="precise-cropping">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" higher-education-research="" her-usecases-fg-cc-i4of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i4of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i4of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i4of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-usecases-fg-cc-i4of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Accelerated Quantum Supercomputer" title="Accelerated Quantum Supercomputer" onload="window.initLazyLoadingImages('gall'.concat('-', 'Quantum-Computing'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2934,10 +2934,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" higher-education-research="" use-cases-agentic-ai-fg-i5of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-agentic-ai-fg-i5of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-agentic-ai-fg-i5of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-agentic-ai-fg-i5of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-agentic-ai-fg-i5of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="agentic AI" title="agentic AI" onload="window.initLazyLoadingImages('gall'.concat('-', 'Agentic AI'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -3005,10 +3005,10 @@ var nvidiaGDClog = function() {
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" higher-education-research="" use-cases-telecommunications-fg-i6of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-telecommunications-fg-i6of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-telecommunications-fg-i6of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-telecommunications-fg-i6of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/use-cases-telecommunications-fg-i6of6-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Telecommunications and AI-native 6G" title="Telecommunications and AI-native 6G" onload="window.initLazyLoadingImages('gall'.concat('-', 'Telecommunications'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -5835,11 +5835,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="GPU Cloud Computing Solutions from NVIDIA" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/higher-education-research/_jcr_content/root/responsivegrid/nv_container_1694289817/nv_container_7749710_806039700/nv_teaser_copy.coreimg.100.410.jpeg/1779467450303/her-technology-cloud-2560x1440.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-technology-cloud-2560x1440.jpg" data-title="GPU Cloud Computing Solutions from NVIDIA" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-technology-cloud-2560x1440.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-technology-cloud-2560x1440.jpg" data-title="GPU Cloud Computing Solutions from NVIDIA" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="GPU Cloud Computing Solutions from NVIDIA" title="GPU Cloud Computing Solutions from NVIDIA" data-analytics="nv-image-67118581cd" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="GPU Cloud Computing Solutions from NVIDIA" title="GPU Cloud Computing Solutions from NVIDIA" data-analytics="nv-image-67118581cd" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/her-technology-cloud-2560x1440.jpg">
 
 	    
 	    
@@ -6800,11 +6800,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="certifications" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/industries/higher-education-research/_jcr_content/root/responsivegrid/nv_container_2059349241/nv_tabs/item_2/nv_teaser_copy_copy__1964792210.coreimg.100.410.jpeg/1779467452955/nvidia-certifications-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/nvidia-certifications-ari.jpg" data-title="certifications" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/nvidia-certifications-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/nvidia-certifications-ari.jpg" data-title="certifications" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="certifications" title="certifications" data-analytics="nv-image-6f336b2f87" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="certifications" title="certifications" data-analytics="nv-image-6f336b2f87" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/higher-education-research/nvidia-certifications-ari.jpg">
 
 	    
 	    

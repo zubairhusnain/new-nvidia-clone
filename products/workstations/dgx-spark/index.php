@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA DGX Spark: AI Supercomputer on Your Desk">
 <meta property="og:description" content="Run autonomous AI agents from your desktop.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/DGX-Spark-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/DGX-Spark-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">
 <meta name="twitter:description" content="DGX Spark is a personal AI supercomputer that’s powered by the NVIDIA GB10 Superchip. With NVIDIA OpenShell, you can build and run autonomous agents securely from your desktop.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/DGX-Spark-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/DGX-Spark-og.jpg">
 
 	
 
@@ -4692,10 +4692,10 @@ margin: 10px 0 !important;
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" project-digits="" nvidia-project-digits-prototyping-fg-i1of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-prototyping-fg-i1of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-prototyping-fg-i1of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-prototyping-fg-i1of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-prototyping-fg-i1of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Prototyping" title="Prototyping" onload="window.initLazyLoadingImages('l40s-workloads'.concat('-', 'card-1'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4752,10 +4752,10 @@ margin: 10px 0 !important;
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" project-digits="" nvidia-project-digits-fine-tuning-fg-i2of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-fine-tuning-fg-i2of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-fine-tuning-fg-i2of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-fine-tuning-fg-i2of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-fine-tuning-fg-i2of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Fine-Tuning" title="Fine-Tuning" onload="window.initLazyLoadingImages('l40s-workloads'.concat('-', 'card-2'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4812,10 +4812,10 @@ margin: 10px 0 !important;
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" project-digits="" nvidia-project-digits-inference-fg-i3of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-inference-fg-i3of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-inference-fg-i3of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-inference-fg-i3of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-inference-fg-i3of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Inference" title="Inference" onload="window.initLazyLoadingImages('l40s-workloads'.concat('-', 'card-3'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4872,10 +4872,10 @@ margin: 10px 0 !important;
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" dgx-spark="" data-science-fg-i4of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/data-science-fg-i4of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/data-science-fg-i4of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/data-science-fg-i4of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/data-science-fg-i4of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Data Science" title="Data Science" onload="window.initLazyLoadingImages('l40s-workloads'.concat('-', 'card-4'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -4932,10 +4932,10 @@ margin: 10px 0 !important;
         </div>
         <figure class="autofit">
           <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" project-digits="" nvidia-project-digits-edge-applications-fg-i5of5-p.jpg"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-edge-applications-fg-i5of5-t.jpg" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-edge-applications-fg-i5of5-l.jpg" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-edge-applications-fg-i5of5-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/project-digits/nvidia-project-digits-edge-applications-fg-i5of5-d.jpg 2x">
-            <source data-source-mobile=" media=" (max-width:="" 639px)"="">
-            <source data-source-tablet=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
-            <source data-source-laptop=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
-            <source data-source-desktop=" media=" (min-width:1350px)"="">
+            <source data-source-mobile="" media=" (max-width:=" "="" 639px)"="">
+            <source data-source-tablet="" media=" (min-width:640px)=" "="" and="" (max-width:1023px)"="">
+            <source data-source-laptop="" media=" (min-width:1024px)=" "="" and="" (max-width:1349px)"="">
+            <source data-source-desktop="" media=" (min-width:1350px)" =""="">
             
               <img class="nv-usecase--card-img" alt="Edge Applications" title="Edge Applications" onload="window.initLazyLoadingImages('l40s-workloads'.concat('-', 'card-5'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -6574,11 +6574,11 @@ margin: 10px 0 !important;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Artistic rendering depicting the Inception ecosystem." data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/dgx-spark/_jcr_content/root/responsivegrid/nv_container_section/nv_tabs_resources_10/nv_container_tab1_docs_4/nv_container_docs_inner_4/nv_teaser_2_copy.coreimg.100.410.jpeg/1773687923604/dgx-spark-resources-inception-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/dgx-spark-resources-inception-1920x1080.jpg" data-title="Artistic rendering depicting the Inception ecosystem." data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/dgx-spark-resources-inception-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/dgx-spark-resources-inception-1920x1080.jpg" data-title="Artistic rendering depicting the Inception ecosystem." data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Artistic rendering depicting the Inception ecosystem." title="Artistic rendering depicting the Inception ecosystem." data-analytics="nv-image-fdb5ba450d" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Artistic rendering depicting the Inception ecosystem." title="Artistic rendering depicting the Inception ecosystem." data-analytics="nv-image-fdb5ba450d" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/dgx-spark/dgx-spark-resources-inception-1920x1080.jpg">
 
 	    
 	    

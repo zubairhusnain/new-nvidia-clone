@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA at Hannover Messe 2026, April 20–24">
 <meta property="og:description" content="Hannover Exhibition Grounds, Germany #HM26">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/hannover-messe-event-lp-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/hannover-messe-event-lp-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/events/hannover-messe/">
 <meta name="twitter:description" content="The next era of industrial digitalization and software-defined manufacturing has arrived. At Hannover Messe 2026, join NVIDIA and our partners to explore the latest breakthroughs in industrial AI. #HM26">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/hannover-messe-event-lp-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/events/hannover-messe/hannover-messe-event-lp-og.jpg">
 
 	
 
@@ -6567,11 +6567,11 @@ div#headshots {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Interactive Computer\u002DAided Engineering Simulations" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/hannover-messe/_jcr_content/root/responsivegrid/nv_container_copy_co_1405179907/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1776421102880/omniverse-blueprint-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/omniverse-blueprint-ari.jpeg" data-title="Interactive Computer-Aided Engineering Simulations" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/omniverse-blueprint-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/omniverse-blueprint-ari.jpeg" data-title="Interactive Computer-Aided Engineering Simulations" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Interactive Computer-Aided Engineering Simulations" title="Interactive Computer-Aided Engineering Simulations" data-analytics="nv-image-6856248c2f" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Interactive Computer-Aided Engineering Simulations" title="Interactive Computer-Aided Engineering Simulations" data-analytics="nv-image-6856248c2f" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/omniverse-blueprint-ari.jpeg">
 
 	    
 	    
@@ -6638,11 +6638,11 @@ div#headshots {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Advance Next\u002DGeneration Robots and Edge AI Solutions" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/events/hannover-messe/_jcr_content/root/responsivegrid/nv_container_copy_co_1405179907/nv_container/nv_teaser_copy_13951.coreimg.100.410.jpeg/1776421102921/issac-robotics-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/issac-robotics-1920x1080.jpg" data-title="Advance Next-Generation Robots and Edge AI Solutions" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/issac-robotics-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/issac-robotics-1920x1080.jpg" data-title="Advance Next-Generation Robots and Edge AI Solutions" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Advance Next-Generation Robots and Edge AI Solutions" title="Advance Next-Generation Robots and Edge AI Solutions" data-analytics="nv-image-6c4f655da0" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Advance Next-Generation Robots and Edge AI Solutions" title="Advance Next-Generation Robots and Edge AI Solutions" data-analytics="nv-image-6c4f655da0" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/events/hannover-messe/2025/issac-robotics-1920x1080.jpg">
 
 	    
 	    

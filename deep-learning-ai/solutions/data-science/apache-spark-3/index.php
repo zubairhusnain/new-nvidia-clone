@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Apache Spark™ 3.0 For Analytics &amp; ML Data Pipelines">
 <meta property="og:description" content="More Work can be Done on a GPU than a CPU, with Inherent Parallelism.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/Datacenter-AI_Accelerated-407@2x.jpg">
+	<meta property="og:image" content="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/Datacenter-AI_Accelerated-407@2x.jpg">
 
 <meta name="twitter:card" content="Summary_large_image">
 <meta name="twitter:site" content="@NVIDIAAI">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/apache-spark-3/">
 <meta name="twitter:description" content="Apache Spark™ 3.0 Provides a set of Easy to use API's for ETL, Machine Learning, and Graph from Massive Processing.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/Datacenter-AI_Accelerated-407@2x.jpg">
+	<meta name="twitter:image" content="../../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/Datacenter-AI_Accelerated-407@2x.jpg">
 
 	<meta property="interest" content="Developer Tools &amp; Techniques">
 

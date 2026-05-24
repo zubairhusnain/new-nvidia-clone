@@ -25,7 +25,7 @@
 <meta property="og:title" content="Find the Best GPU for Creative Workflows">
 <meta property="og:description" content="Explore NVIDIA Studio laptops and desktops built for creators.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/studio/help-me-choose/">
 <meta name="twitter:description" content="Whether you’re into editing video, livestreaming, designing in 3D, or more, NVIDIA RTX-powered hardware delivers the speed, reliability and performance your projects demand.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
 
 	
 
@@ -1638,7 +1638,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -1987,10 +1987,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-bottom l-image-center l-image-bottom t-image-center t-image-middle p-image-center p-image-top d-image-fit-cover l-image-fit-cover  p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-640x440-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-640x440-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1024x440-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1024x440-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1350x580-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1350x580-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-2560x580-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-2560x580-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-640x440-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-640x440-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1024x440-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1024x440-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1350x580-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-1350x580-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-2560x580-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-2560x580-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" studio="" help-me-choose="" nvidia-studio-light-motif-bg-640x440-p.jpg,="" nvidia-studio-light-motif-bg-640x440-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" studio="" help-me-choose="" nvidia-studio-light-motif-bg-1024x440-t.jpg,="" nvidia-studio-light-motif-bg-1024x440-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" studio="" help-me-choose="" nvidia-studio-light-motif-bg-1350x580-l.jpg,="" nvidia-studio-light-motif-bg-1350x580-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" studio="" help-me-choose="" nvidia-studio-light-motif-bg-2560x580-d.jpg,="" nvidia-studio-light-motif-bg-2560x580-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-2560x580-d.jpg" alt=" title=" id="image-container-e3f446c917" onload="window.initLazyLoadingImages('container-e3f446c917');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/studio/help-me-choose/nvidia-studio-light-motif-bg-2560x580-d@2x.jpg 2x">
                 
@@ -6546,11 +6546,11 @@ var nvidiaGDClog = function() {
 	        <div class="nv-image image">
 
 <div id="facebook-icon" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/studio/home/_jcr_content/root/responsivegrid/nv_container_9622935_1024762792/nv_container/nv_image_copy.coreimg.svg.svg/1767619008734/facebook-icon.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/irbot/investor-site/Facebook-icon.svg" data-title="Facebook" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/irbot/investor-site/Facebook-icon.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/irbot/investor-site/Facebook-icon.svg" data-title="Facebook" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.facebook.com/NVIDIAStudio" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:24px" alt="Facebook" title="Facebook" data-analytics="facebook-icon" data-cmp-img-custom-width="24px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:24px" alt="Facebook" title="Facebook" data-analytics="facebook-icon" data-cmp-img-custom-width="24px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/irbot/investor-site/Facebook-icon.svg">
 
 	    </a>
 	    
@@ -6563,11 +6563,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-d9ade9f671" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/studio/home/_jcr_content/root/responsivegrid/nv_container_9622935_1024762792/nv_container/nv_image.coreimg.svg.svg/1767619008747/social-icons-twitter-07.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/audio2face/social-icons-twitter-07.svg" data-title="X" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/audio2face/social-icons-twitter-07.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/audio2face/social-icons-twitter-07.svg" data-title="X" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://twitter.com/NVIDIAStudio" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:48px" alt="X" title="X" data-analytics="nv-image-d9ade9f671" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:48px" alt="X" title="X" data-analytics="nv-image-d9ade9f671" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/audio2face/social-icons-twitter-07.svg">
 
 	    </a>
 	    
@@ -6580,11 +6580,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-719952e768" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/studio/home/_jcr_content/root/responsivegrid/nv_container_9622935_1024762792/nv_container/nv_image_copy_1628329487.coreimg.svg.svg/1767619008760/social-icon-instagram-747474.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/studio/home/social-icon-instagram-747474.svg" data-title="Instagram" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/studio/home/social-icon-instagram-747474.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/studio/home/social-icon-instagram-747474.svg" data-title="Instagram" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.instagram.com/nvidiastudio/" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:48px" alt="Instagram" title="Instagram" data-analytics="nv-image-719952e768" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:48px" alt="Instagram" title="Instagram" data-analytics="nv-image-719952e768" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ces-2023/studio/home/social-icon-instagram-747474.svg">
 
 	    </a>
 	    
@@ -6597,11 +6597,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-f6306e5cf7" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/studio/home/_jcr_content/root/responsivegrid/nv_container_9622935_1024762792/nv_container/nv_image_copy_879217214.coreimg.svg.svg/1767619008772/icon-footer-youtube-hover.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/creators/studio-ready/icon-footer-youtube-hover.svg" data-title="YouTube" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/creators/studio-ready/icon-footer-youtube-hover.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/creators/studio-ready/icon-footer-youtube-hover.svg" data-title="YouTube" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.youtube.com/channel/UCDeQdW6Lt6nhq3mLM4oLGWw" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:48px" alt="YouTube" title="YouTube" data-analytics="nv-image-f6306e5cf7" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:48px" alt="YouTube" title="YouTube" data-analytics="nv-image-f6306e5cf7" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/creators/studio-ready/icon-footer-youtube-hover.svg">
 
 	    </a>
 	    
@@ -6614,11 +6614,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image">
 
 <div id="nv-image-61943b81e2" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/studio/home/_jcr_content/root/responsivegrid/nv_container_9622935_1024762792/nv_container/nv_image_copy_888046653.coreimg.svg.svg/1767619008785/icons-social-threads.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-greats/icons-social-threads.svg" data-title="Threads" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-greats/icons-social-threads.svg" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-greats/icons-social-threads.svg" data-title="Threads" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.threads.net/@nvidiastudio" target="_blank" data-cmp-hook-image="link" rel="noopener noreferrer">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:48px" alt="Threads" title="Threads" data-analytics="nv-image-61943b81e2" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:48px" alt="Threads" title="Threads" data-analytics="nv-image-61943b81e2" data-cmp-img-custom-width="48px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/geforce-greats/icons-social-threads.svg">
 
 	    </a>
 	    
@@ -6975,9 +6975,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
 		</div>
 		
 		<div id="prefill-message-logged-in" class="prefill-message logged-in" style="display: none;">Welcome back.
-			Not you? <span><a href=" class="prefill-login-clear" style="font-weight: 700;">Log Out</a></span></div>
+			Not you? <span><a href=" class=" prefill-login-clear"="" style="font-weight: 700;">Log Out</a></span></div>
 		<div id="prefill-message-remember-me" class="prefill-message remember-me" style="display: none;">Welcome
-			back. Not you? <span><a href=" class="prefill-remember-me-clear" style="font-weight: 700;">Clear form</a></span>
+			back. Not you? <span><a href=" class=" prefill-remember-me-clear"="" style="font-weight: 700;">Clear form</a></span>
 		</div>
 		<div id="form-submit-success" class="form-submit" style="display: none;"></div>
 		<div id="form-submit-error" class="form-submit" style="display: none;"></div>
@@ -7194,7 +7194,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
 <div id="guide-mobile-navigator-wrapper" class="guide-mobile-navigator">
     <div class="row">
         <div class="clearfix visible-xs">
-            <button type="button" class="navigator-toggle collapsed af-icon-button" data-toggle="collapse" data-target="#guide-mobile-navigator" aria-label="menu" data-original-title=" title="">
+            <button type="button" class="navigator-toggle collapsed af-icon-button" data-toggle="collapse" data-target="#guide-mobile-navigator" aria-label="menu" data-original-title=" title=" "="">
                 <span class="guideMenuIcon"></span>
             </button>
         </div>
@@ -7261,9 +7261,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
 <div class="guide-header-bar visible-xs">
   <div class="guide-breadcrumb" data-target-guide-content="guide-active-panel">Section</div>
   <div class="guide-nav-toolbar">
-       <div class="guide-nav-prev guide-nav-toolbar-button" data-guide-wizard-nav="{"focusOption": "prevItemDeep", "runCompletionScript": true, "skipFieldFocus": true}" aria-label="previous" role="button">
+       <div class="guide-nav-prev guide-nav-toolbar-button" data-guide-wizard-nav="{" focusoption":="" "previtemdeep",="" "runcompletionscript":="" true,="" "skipfieldfocus":="" true}"="" aria-label="previous" role="button">
        </div>
-      <div class="guide-nav-next guide-nav-toolbar-button" data-guide-wizard-nav="{"focusOption": "nextItemDeep", "runCompletionScript": true, "skipFieldFocus": true}" aria-label="next" role="button">
+      <div class="guide-nav-next guide-nav-toolbar-button" data-guide-wizard-nav="{" focusoption":="" "nextitemdeep",="" "runcompletionscript":="" true,="" "skipfieldfocus":="" true}"="" aria-label="next" role="button">
       </div>
   </div>
 </div>
@@ -7343,7 +7343,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideCheckBoxGroup consumerOptIns defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-consumeroptinfield__" data-guide-view-bind="guideContainer-rootPanel-panel-consumeroptinfield__" style=" data-disabled="false" role="group" aria-labelledby="guideContainer-rootPanel-panel-consumeroptinfield___label">
+<div class="guideFieldNode guideCheckBoxGroup consumerOptIns defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-consumeroptinfield__" data-guide-view-bind="guideContainer-rootPanel-panel-consumeroptinfield__" style=" data-disabled=" false"="" role="group" aria-labelledby="guideContainer-rootPanel-panel-consumeroptinfield___label">
     
         
         
@@ -7363,7 +7363,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-consumeroptinfield__" id="guideContainer-rootPanel-panel-consumeroptinfield___label"></label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-consumeroptinfield__" id="guideContainer-rootPanel-panel-consumeroptinfield___label"></label></div>
          
 
     
@@ -7379,7 +7379,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         
                 
                 
-                        <input type="hidden" value="-100" class="marketo-hidden-optin marketo-hidden-optin-consumer" id="guideContainer-rootPanel-panel-consumeroptinfield___widget" name="guideContainer-rootPanel-panel-consumeroptinfield___jqName" data-optins="Games::Sign up for gaming and entertainment deals, announcements, and more from NVIDIA.::true" tabindex="0" aria-label="Sign up for gaming and entertainment deals, announcements, and more from NVIDIA." aria-checked="false" placeholder=" style="position: relative;">
+                        <input type="hidden" value="-100" class="marketo-hidden-optin marketo-hidden-optin-consumer" id="guideContainer-rootPanel-panel-consumeroptinfield___widget" name="guideContainer-rootPanel-panel-consumeroptinfield___jqName" data-optins="Games::Sign up for gaming and entertainment deals, announcements, and more from NVIDIA.::true" tabindex="0" aria-label="Sign up for gaming and entertainment deals, announcements, and more from NVIDIA." aria-checked="false" placeholder=" style=" position:="" relative;"="">
                 
            		<span class="optin-sentence">Sign up for gaming and entertainment deals, announcements, and more from NVIDIA.
 	           		
@@ -7486,7 +7486,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideTextBox userEmail defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel-useremailtext__" data-guide-view-bind="guideContainer-rootPanel-panel-panel-useremailtext__" style=" data-mandatory="true" data-disabled="false">
+<div class="guideFieldNode guideTextBox userEmail defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel-useremailtext__" data-guide-view-bind="guideContainer-rootPanel-panel-panel-useremailtext__" style=" data-mandatory=" true"="" data-disabled="false">
     
         
         
@@ -7506,7 +7506,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-panel-useremailtext___widget" id="guideContainer-rootPanel-panel-panel-useremailtext___label">Email Address</label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-panel-useremailtext___widget" id="guideContainer-rootPanel-panel-panel-useremailtext___label">Email Address</label></div>
          
 
     
@@ -7651,7 +7651,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideTextBox ncid defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-ncidfield__" data-guide-view-bind="guideContainer-rootPanel-panel-ncidfield__" style=" data-disabled="false">
+<div class="guideFieldNode guideTextBox ncid defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-ncidfield__" data-guide-view-bind="guideContainer-rootPanel-panel-ncidfield__" style=" data-disabled=" false"="">
     
         
         
@@ -7671,7 +7671,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-    <div class="guideFieldLabel top" style=" data-richtext="false"><label for="guideContainer-rootPanel-panel-ncidfield___widget" id="guideContainer-rootPanel-panel-ncidfield___label"></label></div>
+    <div class="guideFieldLabel top" style=" data-richtext=" false"=""><label for="guideContainer-rootPanel-panel-ncidfield___widget" id="guideContainer-rootPanel-panel-ncidfield___label"></label></div>
          
 
     
@@ -7899,7 +7899,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_general text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox__" style=" data-mandatory="true" data-disabled="false" role="group">
+<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_general text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox__" style=" data-mandatory=" true"="" data-disabled="false" role="group">
     
         
         
@@ -7927,9 +7927,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 <div class="guideCheckBoxGroupItems" style=";">
     
-    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title="">
-               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"><span class="checkmark optin-check-box"></span></label>
+    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_general guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
+               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox___1_widget" name="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox___desc" tabindex="0" aria-label="I agree to the collection and processing of the above information by NVIDIA <span class=" corporation-txt="" hidden"="">Corporation for the purposes of research and event organization, and I have read and agree to <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a>." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree to the collection and processing of the above information by NVIDIA <span class="corporation-txt hidden">Corporation </span>for the purposes of research and event organization, and I have read and agree to <a href="/about-nvidia/privacy-policy/" target="_blank">NVIDIA Privacy Policy</a>.</label>
@@ -7993,7 +7993,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_export text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091__" style=" data-mandatory="true" data-disabled="false" role="group">
+<div class="guideFieldNode guideCheckBoxGroup china_pipl_data_export text-left defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091__" style=" data-mandatory=" true"="" data-disabled="false" role="group">
     
         
         
@@ -8021,9 +8021,9 @@ var NVIDIAGDC = NVIDIAGDC || {};
 
 <div class="guideCheckBoxGroupItems" style=";">
     
-    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_export guideFieldHorizontalAlignment text-left" data-original-title=" title="">
-               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title="">
-                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091___1_widget" name="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091___desc" tabindex="0" aria-label="I agree that the above information will be transferred to NVIDIA Corporation in the United States and stored in a manner consistent with <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/?deeplink=visiting-our-website" target="_blank">NVIDIA Privacy Policy</a> due to necessities for research, event organization and corresponding NVIDIA internal management and system operation need. You may contact us by sending an email to <a href="mailto:privacy@nvidia.com">privacy@nvidia.com</a> to resolve related problems." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"><span class="checkmark optin-check-box"></span></label>
+    <div class="guideCheckBoxItem afCheckBoxItem china_pipl_data_export guideFieldHorizontalAlignment text-left" data-original-title=" title=" "="">
+               <div class="guideFieldWidget left XfaCheckBox" data-id="1" data-original-title=" title=" "="">
+                <label class="checkbox-container"><input type="checkbox" id="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091___1_widget" name="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091___jqName" value="-100" aria-describedby="guideContainer-rootPanel-panel-panel_131852478-guidecheckbox_232212091___desc" tabindex="0" aria-label="I agree that the above information will be transferred to NVIDIA Corporation in the United States and stored in a manner consistent with <a href=" https:="" www.nvidia.com="" en-us="" about-nvidia="" privacy-policy="" ?deeplink="visiting-our-website&quot;" target="_blank">NVIDIA Privacy Policy due to necessities for research, event organization and corresponding NVIDIA internal management and system operation need. You may contact us by sending an email to <a href="mailto:privacy@nvidia.com">privacy@nvidia.com</a> to resolve related problems." aria-required="true" aria-checked="false" placeholder=" style="position: relative;"&gt;<span class="checkmark optin-check-box"></span></label>
             </div>
             <div class="guideWidgetLabel right">
                 <label>I agree that the above information will be transferred to NVIDIA Corporation in the United States and stored in a manner consistent with <a href="/about-nvidia/privacy-policy/" target="_blank" style="font-weight: 700;">NVIDIA Privacy Policy</a> due to necessities for research, event organization and corresponding NVIDIA internal management and system operation need. You may contact us by sending an email to <a href="mailto:privacy@nvidia.com" style="font-weight: 700;">privacy@nvidia.com</a> to resolve related problems.</label>
@@ -8123,7 +8123,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     
     
 
-<div class="guideFieldNode guideButton submit text-right defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_131852478-panel_1196154342-submit__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_131852478-panel_1196154342-submit__" style=" data-disabled="false">
+<div class="guideFieldNode guideButton submit text-right defaultFieldLayout af-field-empty" id="guideContainer-rootPanel-panel-panel_131852478-panel_1196154342-submit__" data-guide-view-bind="guideContainer-rootPanel-panel-panel_131852478-panel_1196154342-submit__" style=" data-disabled=" false"="">
     
         
         
@@ -8785,7 +8785,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {
@@ -9046,7 +9046,7 @@ j.async = true;
 j.src = "http" + (document.location.protocol === "https:" ? "s://cs" : "://c") + ".ns1p.net/p.js?a=" + __nspid;
 document.body.appendChild(j);
 
-</script><script type="text/javascript" async=" src="/assets/cs.ns1p.net/p.js"></script><script>
+</script><script type="text/javascript" async=" src=" assets="" cs.ns1p.net="" p.js"=""></script><script>
 try {
     $('.nav-header a.nav-search-link').click(function() {
         ClickOmniTrack(true, 'event10', 'img:header:', 'search');

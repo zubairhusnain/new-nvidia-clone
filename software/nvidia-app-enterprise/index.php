@@ -7277,11 +7277,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--default--2 aem-GridColumn--offset--phone--0">
 
 <div id="nv-image-154f80715b" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app-enterprise/_jcr_content/root/responsivegrid/nv_container_1056631597/nv_image.coreimg.100.410.jpeg/1742989048410/enterprise-ready-drivers-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app-enterprise/enterprise-ready-drivers-ari.jpg" data-title="NVIDIA RTX Enterprise Drivers" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app-enterprise/enterprise-ready-drivers-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app-enterprise/enterprise-ready-drivers-ari.jpg" data-title="NVIDIA RTX Enterprise Drivers" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA RTX Enterprise Drivers" title="NVIDIA RTX Enterprise Drivers" data-analytics="nv-image-154f80715b" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA RTX Enterprise Drivers" title="NVIDIA RTX Enterprise Drivers" data-analytics="nv-image-154f80715b" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/software/nvidia-app-enterprise/enterprise-ready-drivers-ari.jpg">
 
 	    
 	    
@@ -7869,11 +7869,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--4 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--phone--5 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
 
 <div id="nv-image-c145dda626" class="cmp-image             
-     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/software/nvidia-app-enterprise/_jcr_content/root/responsivegrid/nv_container_1628000929/nv_container_1736220/nv_container/nv_image.coreimg.svg.svg/1742989049027/m48-misc-question-faq.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq.svg" data-title="FAQ" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq.svg" data-asset="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq.svg" data-title="FAQ" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="FAQ" title="FAQ" data-analytics="nv-image-c145dda626" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="FAQ" title="FAQ" data-analytics="nv-image-c145dda626" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/icons/m48-misc-question-faq.svg">
 
 	    
 	    

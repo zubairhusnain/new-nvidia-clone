@@ -25,7 +25,7 @@
 <meta property="og:title" content="Extended Reality (XR) Solutions | NVIDIA">
 <meta property="og:description" content="NVIDIA powers Extended Reality (XR) with NVIDIA RTX GPUs, cutting-edge XR tools, and advanced development software. ">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/social-media/proviz-social-vr.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/social-media/proviz-social-vr.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/design-visualization/solutions/virtual-reality/">
 <meta name="twitter:description" content="NVIDIA powers Extended Reality (XR) with NVIDIA RTX GPUs, cutting-edge XR tools, and advanced development software. ">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/social-media/proviz-social-vr.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/design-visualization/social-media/proviz-social-vr.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 

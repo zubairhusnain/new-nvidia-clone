@@ -8470,11 +8470,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--tablet--10 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--offset--default--2 aem-GridColumn--phone--5 aem-GridColumn--default--3">
 
 <div id="nv-image-2b24ed7b03" class="cmp-image             
-     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_6294155/nv_container/nv_container/nv_container/nv_image.coreimg.svg.svg/1773654841423/m48-generative-and-agentic-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-title="Decorative" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-title="Decorative" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Decorative" title="Decorative" data-analytics="nv-image-2b24ed7b03" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Decorative" title="Decorative" data-analytics="nv-image-2b24ed7b03" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg">
 
 	    
 	    
@@ -9311,11 +9311,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="AI Agent Development Suite" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_copy_10/nv_container/nv_teaser_copy_1193270404.coreimg.100.410.jpeg/1773654843022/ai-agent-development-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/ai-agent-development-ari.jpg" data-title="AI Agent Development Suite" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/ai-agent-development-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/ai-agent-development-ari.jpg" data-title="AI Agent Development Suite" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="AI Agent Development Suite" title="AI Agent Development Suite" data-analytics="nv-image-4b8b7a65bc" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="AI Agent Development Suite" title="AI Agent Development Suite" data-analytics="nv-image-4b8b7a65bc" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/ai-agent-development-ari.jpg">
 
 	    
 	    
@@ -9944,11 +9944,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-28f5a5344f" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_tabs/item_1741580739013/nv_image.coreimg.100.410.jpeg/1773654843887/synthetic-data-generation-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/synthetic-data-generation-ari.jpg" data-title="Synthetic Data Generation for Agentic AI" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/synthetic-data-generation-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/synthetic-data-generation-ari.jpg" data-title="Synthetic Data Generation for Agentic AI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Synthetic Data Generation for Agentic AI" title="Synthetic Data Generation for Agentic AI" data-analytics="nv-image-28f5a5344f" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Synthetic Data Generation for Agentic AI" title="Synthetic Data Generation for Agentic AI" data-analytics="nv-image-28f5a5344f" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/synthetic-data-generation-ari.jpg">
 
 	    
 	    
@@ -10179,11 +10179,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-5b660fb0e8" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_tabs/item_1741580741332/nv_image_copy.coreimg.100.410.jpeg/1773654844225/video-analytics-ai-agents-1902x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/video-analytics-ai-agents-1902x1080.jpg" data-title="Generative AI-Powered Video Analytics AI Agents" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/video-analytics-ai-agents-1902x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/video-analytics-ai-agents-1902x1080.jpg" data-title="Generative AI-Powered Video Analytics AI Agents" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Generative AI-Powered Video Analytics AI Agents" title="Generative AI-Powered Video Analytics AI Agents" data-analytics="nv-image-5b660fb0e8" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Generative AI-Powered Video Analytics AI Agents" title="Generative AI-Powered Video Analytics AI Agents" data-analytics="nv-image-5b660fb0e8" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/video-analytics-ai-agents-1902x1080.jpg">
 
 	    
 	    
@@ -10414,11 +10414,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-99fec0dafe" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_tabs/item_1741580744093/nv_image_copy.coreimg.100.410.jpeg/1773654844557/use-case-content-generation.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-content-generation.jpg" data-title="GenAI for Content Creation" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-content-generation.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-content-generation.jpg" data-title="GenAI for Content Creation" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="GenAI for Content Creation" title="GenAI for Content Creation" data-analytics="nv-image-99fec0dafe" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="GenAI for Content Creation" title="GenAI for Content Creation" data-analytics="nv-image-99fec0dafe" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-content-generation.jpg">
 
 	    
 	    
@@ -10662,11 +10662,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-c392f62c3a" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_tabs/item_1741580746677/nv_image_copy.coreimg.100.410.jpeg/1773654844908/use-case-biomolecular-generation.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-biomolecular-generation.jpg" data-title="AI Agents for Healthcare" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-biomolecular-generation.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-biomolecular-generation.jpg" data-title="AI Agents for Healthcare" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="AI Agents for Healthcare" title="AI Agents for Healthcare" data-analytics="nv-image-c392f62c3a" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="AI Agents for Healthcare" title="AI Agents for Healthcare" data-analytics="nv-image-c392f62c3a" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/use-case-biomolecular-generation.jpg">
 
 	    
 	    
@@ -10897,11 +10897,11 @@ var nvidiaGDClog = function() {
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-be3816cab7" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_tabs/item_1745210550899/nv_image_copy_copy.coreimg.100.410.jpeg/1773654845231/intelligent-document-processing-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/intelligent-document-processing-ari.jpg" data-title="Generative AI for Network Operations Centers" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/intelligent-document-processing-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/intelligent-document-processing-ari.jpg" data-title="Generative AI for Network Operations Centers" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Generative AI for Network Operations Centers" title="Generative AI for Network Operations Centers" data-analytics="nv-image-be3816cab7" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Generative AI for Network Operations Centers" title="Generative AI for Network Operations Centers" data-analytics="nv-image-be3816cab7" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/intelligent-document-processing-ari.jpg">
 
 	    
 	    
@@ -12366,11 +12366,11 @@ $(document).ready(function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="\x22why\x22 and \x22how\x22 of building agentic AI" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/agentic-ai/_jcr_content/root/responsivegrid/nv_container_1788625/nv_tabs/item_1741765854058/nv_container/nv_teaser_copy_copy.coreimg.100.410.jpeg/1773654846647/build-rag-agent-nemotron-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/build-rag-agent-nemotron-ari.jpg" data-title="&quot;why&quot; and &quot;how&quot; of building agentic AI" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/build-rag-agent-nemotron-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/build-rag-agent-nemotron-ari.jpg" data-title="&quot;why&quot; and &quot;how&quot; of building agentic AI" data-cmp-type="renditionUpload">
      	<a class="cmp-image__link" href="https://www.youtube.com/watch?v=f0utW0eLueY" target="_modal" data-cmp-hook-image="link">
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="&quot;why&quot; and &quot;how&quot; of building agentic AI" title="&quot;why&quot; and &quot;how&quot; of building agentic AI" data-analytics="nv-image-d83ee7ec0d" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="&quot;why&quot; and &quot;how&quot; of building agentic AI" title="&quot;why&quot; and &quot;how&quot; of building agentic AI" data-analytics="nv-image-d83ee7ec0d" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai/agentic-ai/build-rag-agent-nemotron-ari.jpg">
 
 	    </a>
 	    

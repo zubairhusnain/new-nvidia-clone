@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA RTX Remix Modding Platform">
 <meta property="og:description" content="Create stunning RTX remasters of classic games. Download Now!">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-remix/35755-nvidia-rtx-remix-og-1200x630.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-remix/35755-nvidia-rtx-remix-og-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/rtx-remix/">
 <meta name="twitter:description" content="Built on NVIDIA Omniverse, RTX Remix is an open-sourced platform that allows modders to easily capture game assets, automatically enhance materials with generative AI tools, and more.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-remix/35755-nvidia-rtx-remix-og-1200x630.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-remix/35755-nvidia-rtx-remix-og-1200x630.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -3700,7 +3700,7 @@ var nvidiaGDClog = function() {
                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                    <img alt="RTX Remix Logic" title="RTX Remix Logic" class="slide-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-thumbnail-id="vg-nv-playlist-c1be753da9-thumbnail-1" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
+                    <img alt="RTX Remix Logic" title="RTX Remix Logic" class="slide-image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-remix/geforce-rtx-remix-ces26-gfo-vid-thm-ari.jpg" data-thumbnail-id="vg-nv-playlist-c1be753da9-thumbnail-1" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-c1be753da9-radio-1" data-slide="vg-nv-playlist-c1be753da9-slide-1" data-id="FbcTf1l9acE"></span>
             </div>

@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA AI Grids for Distributed AI Infrastructure">
 <meta property="og:description" content="The Connective Tissue for Modern AI.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/industries/telecommunications/ai-grid/nvidia-ai-grids-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/industries/telecommunications/ai-grid/nvidia-ai-grids-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/telecommunications/ai-grid/">
 <meta name="twitter:description" content="Connect AI factories, regional hubs, and edge sites into a unified platform—securely orchestrating workloads to power generative, agentic, and physical AI applications worldwide.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/industries/telecommunications/ai-grid/nvidia-ai-grids-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/industries/telecommunications/ai-grid/nvidia-ai-grids-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 

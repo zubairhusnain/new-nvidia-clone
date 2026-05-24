@@ -25,7 +25,7 @@
 <meta property="og:title" content="AI Solutions for Game Development">
 <meta property="og:description" content="Drive new possibilities for game development with AI.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-development-industry-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-development-industry-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIAGameDev">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/game-development/">
 <meta name="twitter:description" content="Drive new possibilities for game development with AI.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-development-industry-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-development-industry-og.jpg">
 
 	<meta property="industry" content="Gaming,Media &amp; Entertainment">
 
@@ -114,7 +114,7 @@
 
 <link rel="alternate" type="text/markdown" title="AI Solutions for Game Development" href="/industries/game-development.md/">
 
-<script async=" src="/assets/cdn-app.pathfactory.com/production/jukebox/current/jukebox.js"></script><script src="/assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.js"></script>
+<script async=" src=" assets="" cdn-app.pathfactory.com="" production="" jukebox="" current="" jukebox.js"=""></script><script src="/assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.js"></script>
 <link href="/assets/app.cdn.lookbookhq.com/libraries/overlay/overlay.css" rel="stylesheet" type="text/css">
 
 <script type="text/javascript">
@@ -1175,7 +1175,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -1534,15 +1534,15 @@ var nvidiaGDClog = function() {
 
 <div class="breadcrumb-container">
     <nav id="breadcrumb" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype="http://schema.org/BreadcrumbList">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype="http://schema.org/ListItem">
+        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype="http://schema.org/ListItem">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
                 
                     <span itemprop="name">Game Development</span>
                 
@@ -1576,11 +1576,11 @@ var nvidiaGDClog = function() {
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-uf1080-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-uf1080-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development-new="" game-industry-bm-uf1080-p.jpg,="" game-industry-bm-uf1080-p@2x.jpg="" 2x"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/game-industry-bm-m460-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-container-118b957d8c" onload="window.initLazyLoadingImages('container-118b957d8c');">
                 
@@ -2428,11 +2428,11 @@ var nvidiaGDClog = function() {
           </div>
         </div>
         <figure class="autofit">
-          <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-p.jpg" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-d.jpg 2x">
-            <source data-source-mobile=" media="(max-width: 639px)">
-            <source data-source-tablet=" media="(min-width:640px) and (max-width:1023px)">
-            <source data-source-laptop=" media="(min-width:1024px) and (max-width:1349px)">
-            <source data-source-desktop=" media="(min-width:1350px)">
+          <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development="" gaming-industry-fg-cc-i1of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i1of6-d.jpg 2x">
+            <source data-source-mobile="" media="(max-width: 639px)">
+            <source data-source-tablet="" media="(min-width:640px) and (max-width:1023px)">
+            <source data-source-laptop="" media="(min-width:1024px) and (max-width:1349px)">
+            <source data-source-desktop="" media="(min-width:1350px)">
             
               <img class="nv-usecase--card-img" alt="Activision game " title="Activision game " onload="window.initLazyLoadingImages('     '.concat('-', 'High-Memory Workloads'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2478,11 +2478,11 @@ var nvidiaGDClog = function() {
           </div>
         </div>
         <figure class="autofit">
-          <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-p.jpg" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-d.jpg 2x">
-            <source data-source-mobile=" media="(max-width: 639px)">
-            <source data-source-tablet=" media="(min-width:640px) and (max-width:1023px)">
-            <source data-source-laptop=" media="(min-width:1024px) and (max-width:1349px)">
-            <source data-source-desktop=" media="(min-width:1350px)">
+          <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development-new="" content-creation-fg-cc-i1of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/content-creation-fg-cc-i1of6-d.jpg 2x">
+            <source data-source-mobile="" media="(max-width: 639px)">
+            <source data-source-tablet="" media="(min-width:640px) and (max-width:1023px)">
+            <source data-source-laptop="" media="(min-width:1024px) and (max-width:1349px)">
+            <source data-source-desktop="" media="(min-width:1350px)">
             
               <img class="nv-usecase--card-img" alt="Paul Phoenix from Bandai Namco Entertainment’s Tekken" title="Paul Phoenix from Bandai Namco Entertainment’s Tekken" onload="window.initLazyLoadingImages('     '.concat('-', 'Intelligent Content Creation'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2528,11 +2528,11 @@ var nvidiaGDClog = function() {
           </div>
         </div>
         <figure class="precise-cropping">
-          <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-p.jpg" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-d.jpg 2x">
-            <source data-source-mobile=" media="(max-width: 639px)">
-            <source data-source-tablet=" media="(min-width:640px) and (max-width:1023px)">
-            <source data-source-laptop=" media="(min-width:1024px) and (max-width:1349px)">
-            <source data-source-desktop=" media="(min-width:1350px)">
+          <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development="" gaming-industry-fg-cc-i3of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i3of6-d.jpg 2x">
+            <source data-source-mobile="" media="(max-width: 639px)">
+            <source data-source-tablet="" media="(min-width:640px) and (max-width:1023px)">
+            <source data-source-laptop="" media="(min-width:1024px) and (max-width:1349px)">
+            <source data-source-desktop="" media="(min-width:1350px)">
             
               <img class="nv-usecase--card-img" alt="Remove work collaboration" title="Remove work collaboration" onload="window.initLazyLoadingImages('     '.concat('-', 'Remote Work and Collaboration'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2578,11 +2578,11 @@ var nvidiaGDClog = function() {
           </div>
         </div>
         <figure class="precise-cropping">
-          <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-p.jpg" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-d.jpg 2x">
-            <source data-source-mobile=" media="(max-width: 639px)">
-            <source data-source-tablet=" media="(min-width:640px) and (max-width:1023px)">
-            <source data-source-laptop=" media="(min-width:1024px) and (max-width:1349px)">
-            <source data-source-desktop=" media="(min-width:1350px)">
+          <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development="" gaming-industry-fg-cc-i4of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-cc-i4of6-d.jpg 2x">
+            <source data-source-mobile="" media="(max-width: 639px)">
+            <source data-source-tablet="" media="(min-width:640px) and (max-width:1023px)">
+            <source data-source-laptop="" media="(min-width:1024px) and (max-width:1349px)">
+            <source data-source-desktop="" media="(min-width:1350px)">
             
               <img class="nv-usecase--card-img" alt=" RAG chabot" title=" RAG chabot" onload="window.initLazyLoadingImages('     '.concat('-', 'AI Chatbots With Retrieval-Augmented Generation (RAG)'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2628,11 +2628,11 @@ var nvidiaGDClog = function() {
           </div>
         </div>
         <figure class="autofit">
-          <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-p.jpg" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-d.jpg 2x">
-            <source data-source-mobile=" media="(max-width: 639px)">
-            <source data-source-tablet=" media="(min-width:640px) and (max-width:1023px)">
-            <source data-source-laptop=" media="(min-width:1024px) and (max-width:1349px)">
-            <source data-source-desktop=" media="(min-width:1350px)">
+          <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development="" gaming-industry-fg-i5of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development/gaming-industry-fg-i5of6-d.jpg 2x">
+            <source data-source-mobile="" media="(max-width: 639px)">
+            <source data-source-tablet="" media="(min-width:640px) and (max-width:1023px)">
+            <source data-source-laptop="" media="(min-width:1024px) and (max-width:1349px)">
+            <source data-source-desktop="" media="(min-width:1350px)">
             
               <img class="nv-usecase--card-img" alt="NVIDIA AI Enterprise " title="NVIDIA AI Enterprise " onload="window.initLazyLoadingImages('     '.concat('-', 'Anti-Toxicity'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2678,11 +2678,11 @@ var nvidiaGDClog = function() {
           </div>
         </div>
         <figure class="autofit">
-          <picture data-nv-lazyload=" data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-p.jpg" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-d.jpg 2x">
-            <source data-source-mobile=" media="(max-width: 639px)">
-            <source data-source-tablet=" media="(min-width:640px) and (max-width:1023px)">
-            <source data-source-laptop=" media="(min-width:1024px) and (max-width:1349px)">
-            <source data-source-desktop=" media="(min-width:1350px)">
+          <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" industries="" game-development-new="" artificial-intelligence-fg-cc-i3of6-p.jpg"="" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-t.jpg" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-l.jpg" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/industries/game-development-new/artificial-intelligence-fg-cc-i3of6-d.jpg 2x">
+            <source data-source-mobile="" media="(max-width: 639px)">
+            <source data-source-tablet="" media="(min-width:640px) and (max-width:1023px)">
+            <source data-source-laptop="" media="(min-width:1024px) and (max-width:1349px)">
+            <source data-source-desktop="" media="(min-width:1350px)">
             
               <img class="nv-usecase--card-img" alt="NVIDIA ACE for games sparks life into virtual characters with generative AI" title="NVIDIA ACE for games sparks life into virtual characters with generative AI" onload="window.initLazyLoadingImages('     '.concat('-', 'Digital Humans'));" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
           </picture>
@@ -2780,7 +2780,7 @@ var nvidiaGDClog = function() {
     
     <div class="nv-carousel carousel panelcontainer nv-carousel--full-nav aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--1">
   
-<div id="quote-slides" class="cmp-carousel     " role="group" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-autoplay=" data-cmp-delay="5000" data-cmp-autoscroll="false" data-cmp-scroll-height="120px" data-cmp-scroll-direction="left" data-cmp-scroll-delay="5000" data-cmp-scroll-disabled="false">
+<div id="quote-slides" class="cmp-carousel     " role="group" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-autoplay=" data-cmp-delay=" 5000"="" data-cmp-autoscroll="false" data-cmp-scroll-height="120px" data-cmp-scroll-direction="left" data-cmp-scroll-delay="5000" data-cmp-scroll-disabled="false">
      
      
      
@@ -4060,7 +4060,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

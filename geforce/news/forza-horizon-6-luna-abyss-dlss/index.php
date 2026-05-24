@@ -16,14 +16,14 @@
   <meta property="og:url" content="https://www.nvidia.com/en-us/geforce/news/forza-horizon-6-luna-abyss-dlss/">
   <meta property="og:title" content="Forza Horizon 6 Is Available Now With DLSS &amp; Luna Abyss Launches May 21st">
   <meta property="og:description" content="Also, get the ultimate upgrade with the 007 First Light GeForce RTX 50 Series Bundle.">
-  <meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-luna-abyss-dlss/forza-horizon-6-dlss-super-res-multi-frame-gen-ogimage.jpg">
+  <meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-luna-abyss-dlss/forza-horizon-6-dlss-super-res-multi-frame-gen-ogimage.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@NVIDIAGeForce">
   <meta name="twitter:creator" content="@NVIDIAGeForce">
   <meta name="twitter:title" content="Forza Horizon 6 Is Available Now With DLSS &amp; Luna Abyss Launches May 21st">
   <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/news/forza-horizon-6-luna-abyss-dlss/">
   <meta name="twitter:description" content="Also, get the ultimate upgrade with the 007 First Light GeForce RTX 50 Series Bundle.">
-  <meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-luna-abyss-dlss/forza-horizon-6-dlss-super-res-multi-frame-gen-ogimage.jpg">
+  <meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-luna-abyss-dlss/forza-horizon-6-dlss-super-res-multi-frame-gen-ogimage.jpg">
   <meta property="fb:app_id" content="1679326302390196">
   <link rel="canonical" href="/geforce/news/forza-horizon-6-luna-abyss-dlss/">
   <link rel="alternate" hreflang="en-gr" href="/en-eu/geforce/news/forza-horizon-6-luna-abyss-dlss/">
@@ -2090,7 +2090,7 @@
                      <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                      <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                      <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                     <img alt=" title=" id="image-nv-image-91ef649252" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" onload="window.initLazyLoadingImages('nv-image-91ef649252');"> 
+                     <img alt=" title=" id="image-nv-image-91ef649252" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-3840x2160-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-91ef649252');"> 
                     </picture>
                    </div>
                   </div>
@@ -2110,7 +2110,7 @@
                      <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                      <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                      <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                     <img alt=" title=" id="image-nv-image-51f7bc09c7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" onload="window.initLazyLoadingImages('nv-image-51f7bc09c7');"> 
+                     <img alt=" title=" id="image-nv-image-51f7bc09c7" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1440-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-51f7bc09c7');"> 
                     </picture>
                    </div>
                   </div>
@@ -2131,7 +2131,7 @@
                      <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                      <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                      <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                     <img alt=" title=" id="image-nv-image-5f40b23b66" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" onload="window.initLazyLoadingImages('nv-image-5f40b23b66');"> 
+                     <img alt=" title=" id="image-nv-image-5f40b23b66" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-desktop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-5f40b23b66');"> 
                     </picture>
                    </div>
                   </div>
@@ -2151,7 +2151,7 @@
                      <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                      <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                      <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                     <img alt=" title=" id="image-nv-image-0b68712157" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" onload="window.initLazyLoadingImages('nv-image-0b68712157');"> 
+                     <img alt=" title=" id="image-nv-image-0b68712157" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-2560x1600-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-0b68712157');"> 
                     </picture>
                    </div>
                   </div>
@@ -2171,7 +2171,7 @@
                      <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                      <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                      <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                     <img alt=" title=" id="image-nv-image-3e1edef841" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" onload="window.initLazyLoadingImages('nv-image-3e1edef841');"> 
+                     <img alt=" title=" id="image-nv-image-3e1edef841" src="../../../assets/www.nvidia.com/content/dam/en-zz/nvidiaweb/geforce/news/forza-horizon-6-dlss-4-5-super-resolution-multi-frame-gen/forza-horizon-6-geforce-rtx-1920x1080-nvidia-dlss-4-multi-frame-generation-laptop-gpu-performance.png" onload="window.initLazyLoadingImages('nv-image-3e1edef841');"> 
                     </picture>
                    </div>
                   </div>

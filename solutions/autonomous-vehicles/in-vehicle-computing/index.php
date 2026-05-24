@@ -25,7 +25,7 @@
 <meta property="og:title" content="In-Vehicle Computing for Autonomous Vehicles">
 <meta property="og:description" content="Driving Next-Generation AV Breakthroughs.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/in-vehicle-computing/high-performance-in-vehicle-computing-for-autonomous-vehicles-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/in-vehicle-computing/high-performance-in-vehicle-computing-for-autonomous-vehicles-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/solutions/autonomous-vehicles/in-vehicle-computing/">
 <meta name="twitter:description" content="NVIDIA DRIVE AGX powers AI-driven, safe driving, while DriveOS ensures real-time processing, security, and monitoring to meet functional safety standards.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/in-vehicle-computing/high-performance-in-vehicle-computing-for-autonomous-vehicles-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/in-vehicle-computing/high-performance-in-vehicle-computing-for-autonomous-vehicles-og.jpg">
 
 	<meta property="interest" content="Robotics">
 

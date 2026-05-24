@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA for Government : AI Innovation">
 <meta property="og:description" content="AI and accelerated computing solutions">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/industries/government/">
 <meta name="twitter:description" content="See how NVIDIA AI and accelerated computing enable smarter, more efficient government services across national and global agencies.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/graphics/nvidia-key-visual-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -2007,15 +2007,15 @@ var nvidiaGDClog = function() {
 
 <div class="breadcrumb-container">
     <nav id="nv-breadcrumb-9ed3c6f561" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/industries/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Industries</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Government</span>
                 

@@ -25,7 +25,7 @@
 <meta property="og:title" content="What Is a Digital Twin?">
 <meta property="og:description" content="Check the NVIDIA Glossary for more details.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/digital-twin-glossary-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/digital-twin-glossary-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/glossary/digital-twin/">
 <meta name="twitter:description" content="Digital twins are virtual representations of products, processes, and facilities that enterprises use to design, simulate, and operate their physical counterparts.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/digital-twin-glossary-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/digital-twin-glossary-og.jpg">
 
 	<meta property="interest" content="Simulation / Modeling / Design">
 
@@ -2020,15 +2020,15 @@ var nvidiaGDClog = function() {
 
 <div class="breadcrumb-container">
     <nav id="nv-breadcrumb-e046081c64" class="cmp-breadcrumb" aria-label="Breadcrumb">
-        <ol class="cmp-breadcrumb__list" itemscope=" itemtype=" http:="" schema.org="" breadcrumblist"="">
-            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+        <ol class="cmp-breadcrumb__list" itemscope="" itemtype="http://schema.org/Breadcrumblist">
+            <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 <a href="/glossary/" class="cmp-breadcrumb__item-link" itemprop="item">
                     <span itemprop="name">Glossary</span>
                 </a>
                 <meta itemprop="position" content="1">
             </li>
         
-            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope=" itemtype=" http:="" schema.org="" listitem"="">
+            <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Listitem">
                 
                     <span itemprop="name">Digital Twins</span>
                 
@@ -4069,12 +4069,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="Dq9rUtaESRY" data-thumbnail="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/gtcdc25-foxconn-demo-yt-ari.jpg" data-thumbnail-alt="NVIDIA Omniverse, Isaac™, and Metropolis bring the power of AI robots to Foxconn’s factory digital twin.">
+<div class="youtube-video-player nv-yt-embed" style="max-width:100%" data-video-id="Dq9rUtaESRY" data-thumbnail="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/gtcdc25-foxconn-demo-yt-ari.jpg" data-thumbnail-alt="NVIDIA Omniverse, Isaac™, and Metropolis bring the power of AI robots to Foxconn’s factory digital twin.">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/Dq9rUtaESRY?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Dq9rUtaESRY?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/gtcdc25-foxconn-demo-yt-ari.jpg' alt='NVIDIA Omniverse, Isaac™, and Metropolis bring the power of AI robots to Foxconn’s factory digital twin.'><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/Dq9rUtaESRY?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Dq9rUtaESRY?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=0&amp;loop=0&amp;controls=1&amp;enablejsapi=1'><img src='../../assets/www.nvidia.com/content/dam/en-zz/Solutions/case-studies/digital-twin/gtcdc25-foxconn-demo-yt-ari.jpg' alt='NVIDIA Omniverse, Isaac™, and Metropolis bring the power of AI robots to Foxconn’s factory digital twin.'><span class='play-button-container'><span class='play-button'><svg width='75' height='75' viewBox='0 0 237 237' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 118.25C0 52.9423 52.9423 0 118.25 0C183.558 0 236.5 52.9423 236.5 118.25C236.5 183.558 183.558 236.5 118.25 236.5C52.9423 236.5 0 183.558 0 118.25Z' fill='white'></path><path d='M179.037 118.25L77.6562 59.1115V177.389L179.037 118.25Z' fill='rgb(99,99,99)'></path></svg></span></span></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>

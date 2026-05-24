@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA RTX PRO Platform">
 <meta property="og:description" content="Accelerating professional AI, graphics, rendering, and compute workloads.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-overview-og-1200x630.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-overview-og-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/products/workstations/">
 <meta name="twitter:description" content="From breathtaking architectural and industrial design to advanced special effects, AI tasks, and more, the NVIDIA RTX PRO platform is the heart of the world’s most powerful and efficient professional computing solutions.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-overview-og-1200x630.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-overview-og-1200x630.jpg">
 
 	<meta property="interest" content="Data Center / Cloud,Developer Tools &amp; Techniques,Content Creation / Rendering">
 
@@ -3076,11 +3076,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="RTX PRO laptops" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/_jcr_content/root/responsivegrid/nv_container/nv_container/nv_teaser_copy.coreimg.100.410.jpeg/1779187338366/nvidia-rtx-pro-laptops-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-laptops-1920x1080.jpg" data-title="RTX PRO laptops" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-laptops-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-laptops-1920x1080.jpg" data-title="RTX PRO laptops" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="RTX PRO laptops" title="RTX PRO laptops" data-analytics="nv-image-d4945a1c6d" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="RTX PRO laptops" title="RTX PRO laptops" data-analytics="nv-image-d4945a1c6d" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-laptops-1920x1080.jpg">
 
 	    
 	    
@@ -4758,11 +4758,11 @@ max-height: 460px;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA Blackwell RTX PRO Workstations and Servers" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/_jcr_content/root/responsivegrid/nv_container_1788625090/nv_tabs/item_1741765846457/nv_container/nv_teaser_copy_505907961.coreimg.100.410.jpeg/1779187339147/nvidia-rtx-pro-blackwell-workstations-servers-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-blackwell-workstations-servers-1920x1080.jpg" data-title="NVIDIA Blackwell RTX PRO Workstations and Servers" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-blackwell-workstations-servers-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-blackwell-workstations-servers-1920x1080.jpg" data-title="NVIDIA Blackwell RTX PRO Workstations and Servers" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA Blackwell RTX PRO Workstations and Servers" title="NVIDIA Blackwell RTX PRO Workstations and Servers" data-analytics="nv-image-f7dedbde81" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA Blackwell RTX PRO Workstations and Servers" title="NVIDIA Blackwell RTX PRO Workstations and Servers" data-analytics="nv-image-f7dedbde81" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/nvidia-rtx-pro-blackwell-workstations-servers-1920x1080.jpg">
 
 	    
 	    
@@ -4900,11 +4900,11 @@ max-height: 460px;
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" data-altvaluefromdam="false">
 
 <div class="cmp-image   hide-on-desktop   hide-on-laptop   hide-on-tablet   hide-on-mob 
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/products/workstations/_jcr_content/root/responsivegrid/nv_container_1788625090/nv_tabs/item_1741765846457/nv_container/nv_teaser_copy_copy.coreimg.100.410.jpeg/1779187339233/rtx-pro-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/rtx-pro-ari.jpg" data-title="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/rtx-pro-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/rtx-pro-ari.jpg" data-title="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" title="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" data-analytics="nv-image-ef967fd5c8" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" title="Mini Footprint, Mighty AI: NVIDIA Blackwell Architecture Powers AI Acceleration in Compact Workstations" data-analytics="nv-image-ef967fd5c8" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/products/workstations/rtx-pro-ari.jpg">
 
 	    
 	    

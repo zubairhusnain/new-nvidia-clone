@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA Reflex 2 Introduces Frame Warp ">
 <meta property="og:description" content="Reduces latency based on the game’s latest mouse input. ">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/reflex/geforce-rtx-reflex2-og-1200x630@2x.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/reflex/geforce-rtx-reflex2-og-1200x630@2x.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/technologies/reflex/">
 <meta name="twitter:description" content="Reflex technologies optimize the graphics pipeline for ultimate responsiveness, providing faster target acquisition, quicker reaction times, and improved aim precision in competitive games. ">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/reflex/geforce-rtx-reflex2-og-1200x630@2x.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/technologies/reflex/geforce-rtx-reflex2-og-1200x630@2x.jpg">
 
 	
 
@@ -3525,12 +3525,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="Ye9-s65InLI" data-thumbnail="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/laptops/50-series/geforce-reflex-2-on-off-ari.jpg" data-thumbnail-alt="Play Video">
+<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="Ye9-s65InLI" data-thumbnail="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/laptops/50-series/geforce-reflex-2-on-off-ari.jpg" data-thumbnail-alt="Play Video">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/Ye9-s65InLI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Ye9-s65InLI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/laptops/50-series/geforce-reflex-2-on-off-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/Ye9-s65InLI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Ye9-s65InLI?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/laptops/50-series/geforce-reflex-2-on-off-ari.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -3808,12 +3808,12 @@ var nvidiaGDClog = function() {
     
     
 
-<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="Yd7Wmgl2oow" data-thumbnail="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/video-thumbnail-3.jpg" data-thumbnail-alt="Play Video">
+<div class="youtube-video-player nv-yt-embed" style="max-width:850px" data-video-id="Yd7Wmgl2oow" data-thumbnail="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/video-thumbnail-3.jpg" data-thumbnail-alt="Play Video">
 
    
    <template class="nv-yt-embed__tpl">
    <div class="iframe-wrapper">
-    <iframe src="https://www.youtube.com/embed/Yd7Wmgl2oow?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Yd7Wmgl2oow?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/video-thumbnail-3.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
+    <iframe src="https://www.youtube.com/embed/Yd7Wmgl2oow?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen=" allow=" accelerometer;="" autoplay;="" encrypted-media;="" gyroscope;="" picture-in-picture"="" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}.play-button-container{display:flex;justify-content:center;cursor:pointer;}.play-button{width:75px;height:75px;opacity:0.5;}.play-button-container:hover .play-button{opacity:0.9;}</style><a href='https://www.youtube.com/embed/Yd7Wmgl2oow?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1?origin=https%3A%2F%2Fwww.nvidia.com&amp;hl=en_US&amp;mute=1&amp;autoplay=1&amp;loop=0&amp;controls=1&amp;enablejsapi=1&amp;rel=0'><img src='../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ada/rtx-4090/video-thumbnail-3.jpg' alt='Play Video'></a>" loading="lazy" aria-label="YouTube Video" data-modal-autoplay="false"></iframe>
     
     </div>
    </template>
@@ -4252,7 +4252,7 @@ var nvidiaGDClog = function() {
                 <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                 <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                 <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                <img alt="Reflex Developer Testimonial Video" title="Reflex Developer Testimonial Video" class="slide-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-slide-id="vg-nv-playlist-40db51ce8a-slide-1" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
+                <img alt="Reflex Developer Testimonial Video" title="Reflex Developer Testimonial Video" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/reflex/geforce-nvidia-reflex-video-testimonials-1cn-d@2x.jpg" data-slide-id="vg-nv-playlist-40db51ce8a-slide-1" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-40db51ce8a-radio-1" data-slide="vg-nv-playlist-40db51ce8a-slide-1" data-id="uphkMC7fZx8"></span></div>
             <div class="description-conteiner">
@@ -4272,7 +4272,7 @@ var nvidiaGDClog = function() {
                 <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                 <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                 <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                <img alt="NVIDIA Reflex GeForce Trailer" title="NVIDIA Reflex GeForce Trailer" class="slide-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-slide-id="vg-nv-playlist-40db51ce8a-slide-2" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
+                <img alt="NVIDIA Reflex GeForce Trailer" title="NVIDIA Reflex GeForce Trailer" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/reflex/geforce-fwg-video-reflex-games-4c25-d@2x.jpg" data-slide-id="vg-nv-playlist-40db51ce8a-slide-2" onload="window.initLazyLoadingImages(this.getAttribute('data-slide-id'));">
             </picture>
             <div class="nv-vg-mask"><span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-40db51ce8a-radio-2" data-slide="vg-nv-playlist-40db51ce8a-slide-2" data-id="WEfBMZ4ls5k"></span></div>
             <div class="description-conteiner">
@@ -4402,7 +4402,7 @@ var nvidiaGDClog = function() {
                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                    <img alt="Reflex Developer Testimonial Video" title="Reflex Developer Testimonial Video" class="slide-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-thumbnail-id="vg-nv-playlist-40db51ce8a-thumbnail-1" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
+                    <img alt="Reflex Developer Testimonial Video" title="Reflex Developer Testimonial Video" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/reflex/geforce-nvidia-reflex-video-testimonials-1cn-d@2x.jpg" data-thumbnail-id="vg-nv-playlist-40db51ce8a-thumbnail-1" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-40db51ce8a-radio-1" data-slide="vg-nv-playlist-40db51ce8a-slide-1" data-id="uphkMC7fZx8"></span>
             </div>
@@ -4416,7 +4416,7 @@ var nvidiaGDClog = function() {
                     <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
                     <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
                     <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
-                    <img alt="NVIDIA Reflex GeForce Trailer" title="NVIDIA Reflex GeForce Trailer" class="slide-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-thumbnail-id="vg-nv-playlist-40db51ce8a-thumbnail-2" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
+                    <img alt="NVIDIA Reflex GeForce Trailer" title="NVIDIA Reflex GeForce Trailer" class="slide-image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/reflex/geforce-fwg-video-reflex-games-4c25-d@2x.jpg" data-thumbnail-id="vg-nv-playlist-40db51ce8a-thumbnail-2" onload="window.initLazyLoadingImages(this.getAttribute('data-thumbnail-id'));">
                 </picture>
                 <span class="vg-play-button fab far fa-play-circle" data-item="vg-nv-playlist-40db51ce8a-radio-2" data-slide="vg-nv-playlist-40db51ce8a-slide-2" data-id="WEfBMZ4ls5k"></span>
             </div>
@@ -5181,8 +5181,8 @@ var nvidiaGDClog = function() {
 .next.sfg-btn-next.active, .previous.sfg-btn-prev.active,.activedot{margin-top:37%;}
 }
 
-.sfg-btn-prev{position:absolute;width:42px;height:42px;left:0;top:106px;background-color:#76b900;background-image:url("https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_left_fff_24px.svg");background-position:center center;background-size:cover;background-repeat:no-repeat;float:left;z-index:19;cursor:pointer;border-radius:0 2px 2px 0;opacity:0;transition:all .2s}
-.sfg-btn-next{position:absolute;width:42px;height:42px;right:0;top:106px;background-color:#76b900;background-image:url("https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_right_fff_24px.svg");background-position:center center;background-size:cover;background-repeat:no-repeat;float:right;z-index:20;cursor:pointer;border-radius:2px 0 0 2px;opacity:1;transition:all .2s}
+.sfg-btn-prev{position:absolute;width:42px;height:42px;left:0;top:106px;background-color:#76b900;background-image:url("./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_left_fff_24px.svg");background-position:center center;background-size:cover;background-repeat:no-repeat;float:left;z-index:19;cursor:pointer;border-radius:0 2px 2px 0;opacity:0;transition:all .2s}
+.sfg-btn-next{position:absolute;width:42px;height:42px;right:0;top:106px;background-color:#76b900;background-image:url("./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_right_fff_24px.svg");background-position:center center;background-size:cover;background-repeat:no-repeat;float:right;z-index:20;cursor:pointer;border-radius:2px 0 0 2px;opacity:1;transition:all .2s}
 .sfg-btn-prev:hover, .sfg-btn-next:hover{width:44px;background-color:#76b900;transition:all .1s}
 
 */
@@ -5422,7 +5422,7 @@ button:hover {
     }
 
     i.previous {
-        background: url(https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_left_fff_24px.svg) no-repeat;
+        background: url(./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_left_fff_24px.svg) no-repeat;
         background-color: #76b900;
         background-position: center center;
         background-size: cover;
@@ -5441,7 +5441,7 @@ button:hover {
     }
 
     i.next {
-        background: url(https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_right_fff_24px.svg) no-repeat;
+        background: url(./assets/images.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/ic_chevron_right_fff_24px.svg) no-repeat;
         background-color: #76b900;
         background-position: center center;
         background-size: cover;

@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA Technologies &amp; Architectures">
 <meta property="og:description" content="The richest portfolio of graphics IP in the world.">
 
-	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/nvidia-technologies-og-image.jpg">
+	<meta property="og:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/nvidia-technologies-og-image.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/technologies/">
 <meta name="twitter:description" content="Learn more about NVIDIA technologies. We hold about 7,000 patent assets — the richest portfolio of graphics IP in the world.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/nvidia-technologies-og-image.jpg">
+	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/technologies/nvidia-technologies-og-image.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 

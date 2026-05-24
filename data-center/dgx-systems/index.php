@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA DGX Platform">
 <meta property="og:description" content="The best of NVIDIA AI - All in One Place.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/73466-dgx-platform-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/73466-dgx-platform-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/dgx-platform/">
 <meta name="twitter:description" content="Built from the ground up for enterprise AI, the NVIDIA DGX platform, featuring NVIDIA DGX SuperPOD. ">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/73466-dgx-platform-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/73466-dgx-platform-og.jpg">
 
 	<meta property="interest" content="Data Science,MLOps,Data Center / Cloud,Developer Tools &amp; Techniques">
 
@@ -1695,7 +1695,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -2044,10 +2044,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-middle    p-image-fit-contain  ">
         
             <picture data-srcset-mobile="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-wmfg-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-wmfg-p@2x.jpg 2x" data-srcset-tablet="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m420-t@2x.jpg 2x" data-srcset-laptop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-ge-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-ge-m460-l@2x.jpg 2x" data-srcset-desktop="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-wmfg-p.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-wmfg-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m420-t.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m420-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-ge-m460-l.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-ge-m460-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m460-d.jpg, ../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m460-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" dgx-platform-bm-wmfg-p.jpg,="" dgx-platform-bm-wmfg-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" dgx-platform-bm-m420-t.jpg,="" dgx-platform-bm-m420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" dgx-platform-bm-ge-m460-l.jpg,="" dgx-platform-bm-ge-m460-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" dgx-platform-bm-m460-d.jpg,="" dgx-platform-bm-m460-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m460-d.jpg" alt=" title=" id="image-container-10f26a4e20" onload="window.initLazyLoadingImages('container-10f26a4e20');" srcset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/dgx-platform-bm-m460-d@2x.jpg 2x">
                 
@@ -6905,11 +6905,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="NVIDIA AI Enterprise Software Suite" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/dgx-platform/_jcr_content/root/responsivegrid/nv_container_7286648/nv_container/nv_teaser_1090722334_462455351.coreimg.100.410.jpeg/1773697033982/ai-software-suite-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/ai-software-suite-1920x1080.jpg" data-title="NVIDIA AI Enterprise Software Suite" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/ai-software-suite-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/ai-software-suite-1920x1080.jpg" data-title="NVIDIA AI Enterprise Software Suite" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NVIDIA AI Enterprise Software Suite" title="NVIDIA AI Enterprise Software Suite" data-analytics="nv-image-d689572007" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NVIDIA AI Enterprise Software Suite" title="NVIDIA AI Enterprise Software Suite" data-analytics="nv-image-d689572007" data-cmp-hook-image="image" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/dgx-platform/ai-software-suite-1920x1080.jpg">
 
 	    
 	    
@@ -8649,7 +8649,7 @@ var nvidiaGDClog = function() {
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/data-center/dgx-platform/contact-us/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" data-center="" dgx-platform="" contact-us="" "=""></iframe>
           </div>
         
         
@@ -8695,7 +8695,7 @@ align-items: center;
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="https://resources.nvidia.com/en-us-dgx-platform/eos-data-center-video"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" https:="" resources.nvidia.com="" en-us-dgx-platform="" eos-data-center-video"=""></iframe>
           </div>
         
         
@@ -9092,7 +9092,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

@@ -23,7 +23,7 @@
 <meta property="og:title" content="NVIDIA GeForce">
 <meta property="og:description" content="Ultimate gaming, creating, and AI with GeForce RTX">
 
-	<meta property="og:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/geforce/geforce-ecosystem-og-image-1200x630.jpg">
+	<meta property="og:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/geforce/geforce-ecosystem-og-image-1200x630.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -32,7 +32,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/geforce/">
 <meta name="twitter:description" content="Explore the world's most advanced graphics cards, gaming solutions, AI technology, and more.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/geforce/geforce-ecosystem-og-image-1200x630.jpg">
+	<meta name="twitter:image" content="../assets/www.nvidia.com/content/dam/en-zz/Solutions/homepage/v2/geforce/geforce-ecosystem-og-image-1200x630.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 

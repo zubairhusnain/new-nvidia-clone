@@ -2277,11 +2277,11 @@
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--3 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--phone--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
 
 <div id="nv-image-0fdf02d849" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_copy/nv_container_1013234433/nv_container_1736220/nv_container_copy_co/nv_image.coreimg.svg.svg/1773590526910/m48-natural-language-processing-conversational-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-natural-language-processing-conversational-ai.svg" data-title="pending" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-natural-language-processing-conversational-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-natural-language-processing-conversational-ai.svg" data-title="pending" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="pending" title="pending" data-analytics="nv-image-0fdf02d849" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="pending" title="pending" data-analytics="nv-image-0fdf02d849" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-natural-language-processing-conversational-ai.svg">
 
 	    
 	    
@@ -2401,11 +2401,11 @@
     <div class="nv-image image aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--3 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--phone--5 aem-GridColumn--offset--default--1 aem-GridColumn--offset--tablet--1 aem-GridColumn--default--1">
 
 <div id="nv-image-6984b6ef60" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_copy/nv_container_1013234433/nv_container_1736220/nv_container_1622547/nv_image.coreimg.svg.svg/1773590527119/m48-communication-chat.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-communication-chat.svg" data-title="24/7 Availability" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-communication-chat.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-communication-chat.svg" data-title="24/7 Availability" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="24/7 Availability" title="24/7 Availability" data-analytics="nv-image-6984b6ef60" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="24/7 Availability" title="24/7 Availability" data-analytics="nv-image-6984b6ef60" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-communication-chat.svg">
 
 	    
 	    
@@ -2525,11 +2525,11 @@
     <div class="nv-image image aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--tablet--3 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--offset--phone--1 aem-GridColumn--phone--4 aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
 
 <div id="nv-image-c86291c6a2" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_copy/nv_container_1013234433/nv_container_1736220/nv_container_copy_85/nv_image.coreimg.svg.svg/1773590527341/m48-people-speech.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-people-speech.svg" data-title="Engaging Experiences" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-people-speech.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-people-speech.svg" data-title="Engaging Experiences" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:96px" alt="Engaging Experiences" title="Engaging Experiences" data-analytics="nv-image-c86291c6a2" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:96px" alt="Engaging Experiences" title="Engaging Experiences" data-analytics="nv-image-c86291c6a2" data-cmp-img-custom-width="96px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/icons/m48-people-speech.svg">
 
 	    
 	    
@@ -3541,11 +3541,11 @@
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-ad8b7031eb" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1/nv_image.coreimg.100.410.jpeg/1773590528115/conversational-ai-usecase-healthcare-ari-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-usecase-healthcare-ari-1920x1080.jpg" data-title="Generative AI for Content Generation" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-usecase-healthcare-ari-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-usecase-healthcare-ari-1920x1080.jpg" data-title="Generative AI for Content Generation" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Generative AI for Content Generation" title="Generative AI for Content Generation" data-analytics="nv-image-ad8b7031eb" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Generative AI for Content Generation" title="Generative AI for Content Generation" data-analytics="nv-image-ad8b7031eb" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-usecase-healthcare-ari-1920x1080.jpg">
 
 	    
 	    
@@ -3768,11 +3768,11 @@
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-e549e4c646" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_2/nv_image_copy.coreimg.100.410.jpeg/1773590528304/qa-assistants.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/qa-assistants.jpg" data-title="Q&amp;A Assistants for Customer Billing" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/qa-assistants.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/qa-assistants.jpg" data-title="Q&amp;A Assistants for Customer Billing" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Q&amp;A Assistants for Customer Billing" title="Q&amp;A Assistants for Customer Billing" data-analytics="nv-image-e549e4c646" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Q&amp;A Assistants for Customer Billing" title="Q&amp;A Assistants for Customer Billing" data-analytics="nv-image-e549e4c646" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/qa-assistants.jpg">
 
 	    
 	    
@@ -3995,11 +3995,11 @@
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-03a00d09d7" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720417615773/nv_image_copy_copy.coreimg.100.410.jpeg/1773590528493/contact-center-agent-assists.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/contact-center-agent-assists.jpg" data-title="Agent Assist Technology" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/contact-center-agent-assists.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/contact-center-agent-assists.jpg" data-title="Agent Assist Technology" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Agent Assist Technology" title="Agent Assist Technology" data-analytics="nv-image-03a00d09d7" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Agent Assist Technology" title="Agent Assist Technology" data-analytics="nv-image-03a00d09d7" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/contact-center-agent-assists.jpg">
 
 	    
 	    
@@ -4222,11 +4222,11 @@
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-12c1e981ca" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720518801728/nv_image_copy.coreimg.100.410.jpeg/1773590528763/video-conferencing-transcription.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/video-conferencing-transcription.jpg" data-title="Speech AI for the Best Video Conferencing Experience" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/video-conferencing-transcription.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/video-conferencing-transcription.jpg" data-title="Speech AI for the Best Video Conferencing Experience" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Speech AI for the Best Video Conferencing Experience" title="Speech AI for the Best Video Conferencing Experience" data-analytics="nv-image-12c1e981ca" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Speech AI for the Best Video Conferencing Experience" title="Speech AI for the Best Video Conferencing Experience" data-analytics="nv-image-12c1e981ca" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/video-conferencing-transcription.jpg">
 
 	    
 	    
@@ -4436,11 +4436,11 @@
 <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-a117fef370" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701/nv_tabs/item_1720518806578/nv_image_copy.coreimg.100.410.jpeg/1773590528933/service-robots.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/service-robots.jpg" data-title="Service Robot in a Retail Store" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/service-robots.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/service-robots.jpg" data-title="Service Robot in a Retail Store" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Service Robot in a Retail Store" title="Service Robot in a Retail Store" data-analytics="nv-image-a117fef370" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Service Robot in a Retail Store" title="Service Robot in a Retail Store" data-analytics="nv-image-a117fef370" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/service-robots.jpg">
 
 	    
 	    
@@ -5003,11 +5003,11 @@
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Yum! Brands Customer Service Voice Agents" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_8004394/nv_container_copy/nv_teaser_copy.coreimg.100.410.jpeg/1773590529303/conversational-ai-story-yumi-ari-1920x1080.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-story-yumi-ari-1920x1080.jpg" data-title="Yum! Brands Customer Service Voice Agents" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-story-yumi-ari-1920x1080.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-story-yumi-ari-1920x1080.jpg" data-title="Yum! Brands Customer Service Voice Agents" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Yum! Brands Customer Service Voice Agents" title="Yum! Brands Customer Service Voice Agents" data-analytics="nv-image-e54fed9455" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Yum! Brands Customer Service Voice Agents" title="Yum! Brands Customer Service Voice Agents" data-analytics="nv-image-e54fed9455" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/products/nemo/conversational-ai-story-yumi-ari-1920x1080.jpg">
 
 	    
 	    
@@ -5347,11 +5347,11 @@
 	        <div class="nv-image image">
 
 <div id="nv-image-482461dff2" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image.coreimg.svg.svg/1773590529834/logo-artisight.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-artisight.svg" data-title="Artisight" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-artisight.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-artisight.svg" data-title="Artisight" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Artisight" title="Artisight" data-analytics="nv-image-482461dff2" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Artisight" title="Artisight" data-analytics="nv-image-482461dff2" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-artisight.svg">
 
 	    
 	    
@@ -5364,11 +5364,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-4f990a906c" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy.coreimg.svg.svg/1773590529844/logo-botpress.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-botpress.svg" data-title="Botpress" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-botpress.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-botpress.svg" data-title="Botpress" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Botpress" title="Botpress" data-analytics="nv-image-4f990a906c" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Botpress" title="Botpress" data-analytics="nv-image-4f990a906c" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-botpress.svg">
 
 	    
 	    
@@ -5381,11 +5381,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-2138852418" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_1172445814.coreimg.svg.svg/1773590529853/logo-computacenter.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-computacenter.svg" data-title="Computa Center DE" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-computacenter.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-computacenter.svg" data-title="Computa Center DE" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Computa Center DE" title="Computa Center DE" data-analytics="nv-image-2138852418" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Computa Center DE" title="Computa Center DE" data-analytics="nv-image-2138852418" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-computacenter.svg">
 
 	    
 	    
@@ -5415,11 +5415,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-af8e12f494" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_2129475353.coreimg.svg.svg/1773590529872/logo-exigent-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-exigent-ai.svg" data-title="Exigent AI" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-exigent-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-exigent-ai.svg" data-title="Exigent AI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:300px" alt="Exigent AI" title="Exigent AI" data-analytics="nv-image-af8e12f494" data-cmp-img-custom-width="300px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:300px" alt="Exigent AI" title="Exigent AI" data-analytics="nv-image-af8e12f494" data-cmp-img-custom-width="300px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-exigent-ai.svg">
 
 	    
 	    
@@ -5449,11 +5449,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-98fceb102a" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286.coreimg.svg.svg/1773590529891/insta-deep-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/insta-deep-logo.svg" data-title="Insta Deep" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/insta-deep-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/insta-deep-logo.svg" data-title="Insta Deep" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Insta Deep" title="Insta Deep" data-analytics="nv-image-98fceb102a" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Insta Deep" title="Insta Deep" data-analytics="nv-image-98fceb102a" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/insta-deep-logo.svg">
 
 	    
 	    
@@ -5466,11 +5466,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-49225fcb46" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1045234900.coreimg.svg.svg/1773590529900/logo-intelligent-voice.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-intelligent-voice.svg" data-title="Intelligent Voice" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-intelligent-voice.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-intelligent-voice.svg" data-title="Intelligent Voice" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:300px" alt="Intelligent Voice" title="Intelligent Voice" data-analytics="nv-image-49225fcb46" data-cmp-img-custom-width="300px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:300px" alt="Intelligent Voice" title="Intelligent Voice" data-analytics="nv-image-49225fcb46" data-cmp-img-custom-width="300px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-intelligent-voice.svg">
 
 	    
 	    
@@ -5483,11 +5483,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-c83cc3bc54" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_540876028.coreimg.svg.svg/1773590529910/logo-interactions.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-interactions.svg" data-title="Interactions" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-interactions.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-interactions.svg" data-title="Interactions" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Interactions" title="Interactions" data-analytics="nv-image-c83cc3bc54" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Interactions" title="Interactions" data-analytics="nv-image-c83cc3bc54" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-interactions.svg">
 
 	    
 	    
@@ -5500,11 +5500,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-ea59f741b7" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_989581477.coreimg.svg.svg/1773590529920/logo-kensho.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kensho.svg" data-title="Kensho" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kensho.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kensho.svg" data-title="Kensho" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Kensho" title="Kensho" data-analytics="nv-image-ea59f741b7" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Kensho" title="Kensho" data-analytics="nv-image-ea59f741b7" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kensho.svg">
 
 	    
 	    
@@ -5517,11 +5517,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-3265db5175" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_869453549.coreimg.svg.svg/1773590529930/logo-kore-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kore-ai.svg" data-title="Kore ai" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kore-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kore-ai.svg" data-title="Kore ai" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Kore ai" title="Kore ai" data-analytics="nv-image-3265db5175" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Kore ai" title="Kore ai" data-analytics="nv-image-3265db5175" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-kore-ai.svg">
 
 	    
 	    
@@ -5534,11 +5534,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-072cbf304a" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1394777824.coreimg.svg.svg/1773590529940/logo-latitude.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-latitude.svg" data-title="Latitude" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-latitude.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-latitude.svg" data-title="Latitude" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Latitude" title="Latitude" data-analytics="nv-image-072cbf304a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Latitude" title="Latitude" data-analytics="nv-image-072cbf304a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-latitude.svg">
 
 	    
 	    
@@ -5551,11 +5551,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-b7e8174e1c" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_190543355.coreimg.svg.svg/1773590529954/logo-lexistems.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-lexistems.svg" data-title="Lexistem " data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-lexistems.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-lexistems.svg" data-title="Lexistem " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Lexistem " title="Lexistem " data-analytics="nv-image-b7e8174e1c" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Lexistem " title="Lexistem " data-analytics="nv-image-b7e8174e1c" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-lexistems.svg">
 
 	    
 	    
@@ -5568,11 +5568,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-308af04cf3" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_841683966.coreimg.svg.svg/1773590529964/logo-malamute.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-malamute.svg" data-title="Malamute" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-malamute.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-malamute.svg" data-title="Malamute" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Malamute" title="Malamute" data-analytics="nv-image-308af04cf3" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Malamute" title="Malamute" data-analytics="nv-image-308af04cf3" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-malamute.svg">
 
 	    
 	    
@@ -5585,11 +5585,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-fcedc842bf" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1122105722.coreimg.svg.svg/1773590529976/meetkai-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/meetkai-logo.svg" data-title="MeetKai" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/meetkai-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/meetkai-logo.svg" data-title="MeetKai" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="MeetKai" title="MeetKai" data-analytics="nv-image-fcedc842bf" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="MeetKai" title="MeetKai" data-analytics="nv-image-fcedc842bf" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/meetkai-logo.svg">
 
 	    
 	    
@@ -5602,11 +5602,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-7f35703d1a" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1871265755.coreimg.svg.svg/1773590529988/minervacq-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/minervacq-logo.svg" data-title="Minervacq" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/logos/minervacq-logo.svg" data-asset="../../../assets/www.nvidia.com/content/dam/logos/minervacq-logo.svg" data-title="Minervacq" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Minervacq" title="Minervacq" data-analytics="nv-image-7f35703d1a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Minervacq" title="Minervacq" data-analytics="nv-image-7f35703d1a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/logos/minervacq-logo.svg">
 
 	    
 	    
@@ -5619,11 +5619,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-6b7251f8ec" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1178960126.coreimg.svg.svg/1773590529998/logo-moneypenny.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-moneypenny.svg" data-title="MoneyPenny" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-moneypenny.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-moneypenny.svg" data-title="MoneyPenny" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="MoneyPenny" title="MoneyPenny" data-analytics="nv-image-6b7251f8ec" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="MoneyPenny" title="MoneyPenny" data-analytics="nv-image-6b7251f8ec" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-moneypenny.svg">
 
 	    
 	    
@@ -5636,11 +5636,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-d2adfc4c40" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1082953751.coreimg.svg.svg/1773590530009/logo-morningstar.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-morningstar.svg" data-title="Morning Star" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-morningstar.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-morningstar.svg" data-title="Morning Star" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Morning Star" title="Morning Star" data-analytics="nv-image-d2adfc4c40" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Morning Star" title="Morning Star" data-analytics="nv-image-d2adfc4c40" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-morningstar.svg">
 
 	    
 	    
@@ -5653,11 +5653,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-d86e0d8b1d" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_895208449.coreimg.svg.svg/1773590530020/logo-mts.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-mts.svg" data-title="MTS" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-mts.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-mts.svg" data-title="MTS" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="MTS" title="MTS" data-analytics="nv-image-d86e0d8b1d" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="MTS" title="MTS" data-analytics="nv-image-d86e0d8b1d" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-mts.svg">
 
 	    
 	    
@@ -5670,11 +5670,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-f92c5ae733" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1982978432.coreimg.svg.svg/1773590530029/logo-netapp.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-netapp.svg" data-title="NetApp" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-netapp.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-netapp.svg" data-title="NetApp" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="NetApp" title="NetApp" data-analytics="nv-image-f92c5ae733" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="NetApp" title="NetApp" data-analytics="nv-image-f92c5ae733" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-netapp.svg">
 
 	    
 	    
@@ -5687,11 +5687,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-f412d940c1" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_238292870.coreimg.svg.svg/1773590530039/logo-pendulum.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-pendulum.svg" data-title="Pendulum" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-pendulum.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-pendulum.svg" data-title="Pendulum" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Pendulum" title="Pendulum" data-analytics="nv-image-f412d940c1" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Pendulum" title="Pendulum" data-analytics="nv-image-f412d940c1" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-pendulum.svg">
 
 	    
 	    
@@ -5704,11 +5704,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-2184d5ad3c" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_632659667.coreimg.svg.svg/1773590530051/logo-plabook.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-plabook.svg" data-title="Plabook " data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-plabook.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-plabook.svg" data-title="Plabook " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Plabook " title="Plabook " data-analytics="nv-image-2184d5ad3c" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Plabook " title="Plabook " data-analytics="nv-image-2184d5ad3c" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-plabook.svg">
 
 	    
 	    
@@ -5721,11 +5721,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-5a6299ed3d" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_267541134.coreimg.svg.svg/1773590530061/logo-qunatiphi.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-qunatiphi.svg" data-title="QuantiPhi" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-qunatiphi.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-qunatiphi.svg" data-title="QuantiPhi" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="QuantiPhi" title="QuantiPhi" data-analytics="nv-image-5a6299ed3d" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="QuantiPhi" title="QuantiPhi" data-analytics="nv-image-5a6299ed3d" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-qunatiphi.svg">
 
 	    
 	    
@@ -5738,11 +5738,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-a66d6ff305" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_352462719.coreimg.svg.svg/1773590530072/logo-read.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-read.svg" data-title="Read AI " data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-read.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-read.svg" data-title="Read AI " data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" style="max-width:300px" alt="Read AI " title="Read AI " data-analytics="nv-image-a66d6ff305" data-cmp-img-custom-width="300px" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" style="max-width:300px" alt="Read AI " title="Read AI " data-analytics="nv-image-a66d6ff305" data-cmp-img-custom-width="300px" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-read.svg">
 
 	    
 	    
@@ -5755,11 +5755,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-ef34dd49e6" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_123802517.coreimg.svg.svg/1773590530083/logo-samespace.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-samespace.svg" data-title="Samespace" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-samespace.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-samespace.svg" data-title="Samespace" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Samespace" title="Samespace" data-analytics="nv-image-ef34dd49e6" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Samespace" title="Samespace" data-analytics="nv-image-ef34dd49e6" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-samespace.svg">
 
 	    
 	    
@@ -5772,11 +5772,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-d88777221a" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1462906281.coreimg.svg.svg/1773590530093/logo-siminsights.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-siminsights.svg" data-title="Siminsights" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-siminsights.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-siminsights.svg" data-title="Siminsights" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Siminsights" title="Siminsights" data-analytics="nv-image-d88777221a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Siminsights" title="Siminsights" data-analytics="nv-image-d88777221a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-siminsights.svg">
 
 	    
 	    
@@ -5789,11 +5789,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-a827bb67bb" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_2082428347.coreimg.svg.svg/1773590530103/logo-slicex-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-slicex-ai.svg" data-title="SliceX AI" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-slicex-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-slicex-ai.svg" data-title="SliceX AI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="SliceX AI" title="SliceX AI" data-analytics="nv-image-a827bb67bb" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="SliceX AI" title="SliceX AI" data-analytics="nv-image-a827bb67bb" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-slicex-ai.svg">
 
 	    
 	    
@@ -5806,11 +5806,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-4d9df15991" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_2010527759.coreimg.svg.svg/1773590530113/logo-smartcow.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-smartcow.svg" data-title="Smartcow" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-smartcow.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-smartcow.svg" data-title="Smartcow" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Smartcow" title="Smartcow" data-analytics="nv-image-4d9df15991" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Smartcow" title="Smartcow" data-analytics="nv-image-4d9df15991" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-smartcow.svg">
 
 	    
 	    
@@ -5823,11 +5823,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-24f286f744" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_557496633.coreimg.svg.svg/1773590530125/logo-softserve.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-softserve.svg" data-title="Softserve" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-softserve.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-softserve.svg" data-title="Softserve" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Softserve" title="Softserve" data-analytics="nv-image-24f286f744" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Softserve" title="Softserve" data-analytics="nv-image-24f286f744" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-softserve.svg">
 
 	    
 	    
@@ -5840,11 +5840,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-d5bea9e634" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_2045432370.coreimg.svg.svg/1773590530134/logo-sva.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-sva.svg" data-title="SVA" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-sva.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-sva.svg" data-title="SVA" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="SVA" title="SVA" data-analytics="nv-image-d5bea9e634" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="SVA" title="SVA" data-analytics="nv-image-d5bea9e634" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-sva.svg">
 
 	    
 	    
@@ -5857,11 +5857,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-9cab2ba391" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_987405071.coreimg.svg.svg/1773590530144/logo-talkwalker.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-talkwalker.svg" data-title="Talkwaker" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-talkwalker.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-talkwalker.svg" data-title="Talkwaker" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Talkwaker" title="Talkwaker" data-analytics="nv-image-9cab2ba391" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Talkwaker" title="Talkwaker" data-analytics="nv-image-9cab2ba391" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-talkwalker.svg">
 
 	    
 	    
@@ -5874,11 +5874,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-88a736afad" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_209853718.coreimg.svg.svg/1773590530154/logo-tarteel-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-tarteel-ai.svg" data-title="Tarteel AI" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-tarteel-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-tarteel-ai.svg" data-title="Tarteel AI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Tarteel AI" title="Tarteel AI" data-analytics="nv-image-88a736afad" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Tarteel AI" title="Tarteel AI" data-analytics="nv-image-88a736afad" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-tarteel-ai.svg">
 
 	    
 	    
@@ -5891,11 +5891,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-b0940d76e3" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1117009682.coreimg.svg.svg/1773590530164/logo-text-cortex.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-text-cortex.svg" data-title="Text.cortex" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-text-cortex.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-text-cortex.svg" data-title="Text.cortex" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Text.cortex" title="Text.cortex" data-analytics="nv-image-b0940d76e3" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Text.cortex" title="Text.cortex" data-analytics="nv-image-b0940d76e3" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-text-cortex.svg">
 
 	    
 	    
@@ -5908,11 +5908,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-a5c857c5ac" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_1556804540.coreimg.svg.svg/1773590530175/logo-vector-ventures.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-vector-ventures.svg" data-title="VectorVentures" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-vector-ventures.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-vector-ventures.svg" data-title="VectorVentures" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="VectorVentures" title="VectorVentures" data-analytics="nv-image-a5c857c5ac" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="VectorVentures" title="VectorVentures" data-analytics="nv-image-a5c857c5ac" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-vector-ventures.svg">
 
 	    
 	    
@@ -5925,11 +5925,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-1558b51383" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_599160800.coreimg.svg.svg/1773590530186/logo-verneek.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-verneek.svg" data-title="Verneek" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-verneek.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-verneek.svg" data-title="Verneek" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Verneek" title="Verneek" data-analytics="nv-image-1558b51383" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Verneek" title="Verneek" data-analytics="nv-image-1558b51383" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-verneek.svg">
 
 	    
 	    
@@ -5942,11 +5942,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-e10342bb3a" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_444453982.coreimg.svg.svg/1773590530196/logo-voca-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-voca-ai.svg" data-title="Voca.ai" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-voca-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-voca-ai.svg" data-title="Voca.ai" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Voca.ai" title="Voca.ai" data-analytics="nv-image-e10342bb3a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Voca.ai" title="Voca.ai" data-analytics="nv-image-e10342bb3a" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-voca-ai.svg">
 
 	    
 	    
@@ -5959,11 +5959,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-b5172d9460" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_1/nv_container/nv_image_copy_213286_480072424.coreimg.svg.svg/1773590530207/logo-wasp.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-wasp.svg" data-title="WASP" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-wasp.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-wasp.svg" data-title="WASP" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="WASP" title="WASP" data-analytics="nv-image-b5172d9460" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="WASP" title="WASP" data-analytics="nv-image-b5172d9460" data-cmp-img-custom-width=" " data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-wasp.svg">
 
 	    
 	    
@@ -6170,11 +6170,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-080000a209" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_2/nv_container/nv_image_copy_1265323947.coreimg.svg.svg/1773590530361/logo-espnet.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-espnet.svg" data-title="ESPNet" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-espnet.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-espnet.svg" data-title="ESPNet" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="ESPNet" title="ESPNet" data-analytics="nv-image-080000a209" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="ESPNet" title="ESPNet" data-analytics="nv-image-080000a209" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-espnet.svg">
 
 	    
 	    
@@ -6187,11 +6187,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-b89b83eb0f" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_2/nv_container/nv_image_copy_2144181652.coreimg.svg.svg/1773590530371/logo-hugging-face.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-hugging-face.svg" data-title="Hugging Face" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-hugging-face.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-hugging-face.svg" data-title="Hugging Face" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Hugging Face" title="Hugging Face" data-analytics="nv-image-b89b83eb0f" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Hugging Face" title="Hugging Face" data-analytics="nv-image-b89b83eb0f" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-hugging-face.svg">
 
 	    
 	    
@@ -6204,11 +6204,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-96371e48a2" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_2/nv_container/nv_image_copy_379062332.coreimg.svg.svg/1773590530380/logo-ludwig.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-ludwig.svg" data-title="Ludwig" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-ludwig.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-ludwig.svg" data-title="Ludwig" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Ludwig" title="Ludwig" data-analytics="nv-image-96371e48a2" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Ludwig" title="Ludwig" data-analytics="nv-image-96371e48a2" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-ludwig.svg">
 
 	    
 	    
@@ -6221,11 +6221,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-8dd4699dba" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_2/nv_container/nv_image_copy_1463752372.coreimg.svg.svg/1773590530390/perceptilabs-logo-final-web-clr.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/PerceptiLabs_Logo_final-web-clr.svg" data-title="PerceptiLabs" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/PerceptiLabs_Logo_final-web-clr.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/PerceptiLabs_Logo_final-web-clr.svg" data-title="PerceptiLabs" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="PerceptiLabs" title="PerceptiLabs" data-analytics="nv-image-8dd4699dba" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="PerceptiLabs" title="PerceptiLabs" data-analytics="nv-image-8dd4699dba" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/gtcf20/Conversational-AI/PerceptiLabs_Logo_final-web-clr.svg">
 
 	    
 	    
@@ -6238,11 +6238,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-994f4481ce" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_2/nv_container/nv_image_copy_1784954819.coreimg.svg.svg/1773590530399/logo-spacy.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-spacy.svg" data-title="Spacy" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-spacy.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-spacy.svg" data-title="Spacy" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Spacy" title="Spacy" data-analytics="nv-image-994f4481ce" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Spacy" title="Spacy" data-analytics="nv-image-994f4481ce" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-spacy.svg">
 
 	    
 	    
@@ -6255,11 +6255,11 @@
 <div class="nv-image image">
 
 <div id="nv-image-dfb5b20d37" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_9381701_525767072/nv_tabs/item_2/nv_container/nv_image_copy_1407632872.coreimg.svg.svg/1773590530418/logo-rasa.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-rasa.svg" data-title="RASA" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-rasa.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-rasa.svg" data-title="RASA" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="RASA" title="RASA" data-analytics="nv-image-dfb5b20d37" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="RASA" title="RASA" data-analytics="nv-image-dfb5b20d37" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/logo-rasa.svg">
 
 	    
 	    
@@ -6941,11 +6941,11 @@
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Speech AI on NVIDIA DLI" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/ai/conversational-ai/_jcr_content/root/responsivegrid/nv_container_2589706/nv_tabs/item_2/nv_container_copy_co/nv_teaser.coreimg.100.410.jpeg/1773590530826/speech-ai-nvidia-riva.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-nvidia-riva.jpg" data-title="Speech AI on NVIDIA DLI" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-nvidia-riva.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-nvidia-riva.jpg" data-title="Speech AI on NVIDIA DLI" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Speech AI on NVIDIA DLI" title="Speech AI on NVIDIA DLI" data-analytics="nv-image-50c6b14f72" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Speech AI on NVIDIA DLI" title="Speech AI on NVIDIA DLI" data-analytics="nv-image-50c6b14f72" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-homepage/conversational-ai/speech-ai-nvidia-riva.jpg">
 
 	    
 	    

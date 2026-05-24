@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA AI Enterprise">
 <meta property="og:description" content="The Software Platform for Enterprise Generative AI">
 
-	<meta property="og:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/nvaie-og.jpg">
+	<meta property="og:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/nvaie-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/products/ai-enterprise/">
 <meta name="twitter:description" content="Easy-to-use microservices provide optimized model performance with enterprise-grade security, support, and stability.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/nvaie-og.jpg">
+	<meta name="twitter:image" content="../../../assets/www.nvidia.com/content/dam/en-zz/Data-Center/products/nvaie-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1138,7 +1138,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -1487,10 +1487,10 @@ var nvidiaGDClog = function() {
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
             <picture data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-uf1080-p.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-uf1080-p@2x.jpg 2x" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m420-t.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m420-t@2x.jpg 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-l.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-l@2x.jpg 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-uf1080-p.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-uf1080-p@2x.jpg 2x" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m420-t.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m420-t@2x.jpg 2x" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-l.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-l@2x.jpg 2x" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-d@2x.jpg 2x" media="(min-width:1350px)">
+                <source data-source-mobile=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" ai-enterprise="" ai-enterprise-license-activation-bm-uf1080-p.jpg,="" ai-enterprise-license-activation-bm-uf1080-p@2x.jpg="" 2x"="" media="(max-width: 639px)">
+                <source data-source-tablet=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" ai-enterprise="" ai-enterprise-license-activation-bm-m420-t.jpg,="" ai-enterprise-license-activation-bm-m420-t@2x.jpg="" 2x"="" media="(min-width:640px) and (max-width:1023px)">
+                <source data-source-laptop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" ai-enterprise="" ai-enterprise-license-activation-bm-m460-l.jpg,="" ai-enterprise-license-activation-bm-m460-l@2x.jpg="" 2x"="" media="(min-width:1024px) and (max-width:1349px)">
+                <source data-source-desktop=" srcset=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" ai-enterprise="" ai-enterprise-license-activation-bm-m460-d.jpg,="" ai-enterprise-license-activation-bm-m460-d@2x.jpg="" 2x"="" media="(min-width:1350px)">
                 
                     <img src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-d.jpg" alt=" title=" id="image-container-161b7df53e" onload="window.initLazyLoadingImages('container-161b7df53e');" srcset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/products/ai-enterprise/ai-enterprise-license-activation-bm-m460-d@2x.jpg 2x">
                 
@@ -3683,11 +3683,11 @@ var nvidiaGDClog = function() {
     
     <div class="nv-img-as-bg d-image-center d-image-middle l-image-center l-image-middle t-image-center t-image-middle p-image-center p-image-bottom    p-image-fit-cover  ">
         
-            <picture data-nv-lazyload=" data-srcset-mobile="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-banner-offset-bm-uf-bottom-p.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-banner-offset-bm-uf-bottom-p@2x.jpg 2x" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md420-offset-t.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md420-offset-t@2x.jpg 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-l.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-l@2x.jpg 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-d@2x.jpg 2x">
-                <source data-source-mobile=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 639px)">
-                <source data-source-tablet=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:640px) and (max-width:1023px)">
-                <source data-source-laptop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1024px) and (max-width:1349px)">
-                <source data-source-desktop=" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(min-width:1350px)">
+            <picture data-nv-lazyload=" data-srcset-mobile=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" data-center="" products="" ai-enterprise="" plus-partner-hero-banner-banner-offset-bm-uf-bottom-p.jpg,="" plus-partner-hero-banner-banner-offset-bm-uf-bottom-p@2x.jpg="" 2x"="" data-srcset-tablet="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md420-offset-t.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md420-offset-t@2x.jpg 2x" data-srcset-laptop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-l.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-l@2x.jpg 2x" data-srcset-desktop="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-d.jpg, ../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/plus-partner-hero-banner-md460-offset-d@2x.jpg 2x">
+                <source data-source-mobile=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (max-width:="" 639px)"="">
+                <source data-source-tablet=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:640px)="" and="" (max-width:1023px)"="">
+                <source data-source-laptop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1024px)="" and="" (max-width:1349px)"="">
+                <source data-source-desktop=" srcset=" data:image="" png;base64,ivborw0kggoaaaansuheugaaaaeaaaabcaqaaac1hawcaaaac0leqvr42mnkyaaaaayaajcb0c8aaaaasuvork5cyii=" media=" (min-width:1350px)"="">
                 
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt=" title=" id="image-container-f78f7c6c6b" onload="window.initLazyLoadingImages('container-f78f7c6c6b');">
                 
@@ -3940,7 +3940,7 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn aem-GridColumn--default--12">
 
 <div id="nv-image-c5c9490299" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/_jcr_content/root/responsivegrid/nv_container_1462324459/nv_container_copy/nv_container_copy/nv_image.coreimg.svg.svg/1773240439809/m48-generative-and-agentic-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-title="Build Agentic AI with NeMo" data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-asset="../../../assets/www.nvidia.com/content/dam/icons/m48-generative-and-agentic-ai.svg" data-title="Build Agentic AI with NeMo" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -5934,7 +5934,7 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--phone--12 aem-GridColumn aem-GridColumn--default--7">
 
 <div id="nv-image-4bf9fe9f1b" class="cmp-image             
-     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/data-center/products/ai-enterprise/_jcr_content/root/responsivegrid/nv_container_1147587/nv_container_1554519/nv_tabs/item_1710331750802/nv_container_copy_60_1343065680/nv_image.coreimg.100.410.jpeg/1773240442246/real-time-simulation-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg" data-title="Build a Digital Twin for Interactive Fluid Simulation" data-cmp-type="renditionUpload">
+     d-align-left l-align-left t-align-left m-align-left" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-is="nv-image" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/products/ai-enterprise/real-time-simulation-ari.jpg" data-title="Build a Digital Twin for Interactive Fluid Simulation" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -7267,7 +7267,7 @@ var nvidiaGDClog = function() {
     
     <div class="nv-newsfeed aem-GridColumn aem-GridColumn--default--12">
 
-<div id="nv-newsfeed-aff39fcd3d" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/nvidia-ai-enterprise/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="nvidia-ai-enterprise" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl="https://developer.nvidia.com/blog/wp-json/faceted-search/v1/select/?page=0&amp;sort=post_date&amp;sortDir=desc&amp;faceted_search_products_str=AI+Enterprise" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql">
+<div id="nv-newsfeed-aff39fcd3d" class="nv-newsfeed-comp     " data-cmp-is="nv-newsfeed-component" data-cmp-feedcount="3" data-cmp-feedsource="tagged-blogs-feed" data-cmp-feedurl="//blogs.nvidia.com/blog/tag/nvidia-ai-enterprise/feed/" data-cmp-tileorientation="latest-news--large" data-cmp-newskeywords="nvidia-ai-enterprise" data-cmp-readmore="Read More" data-cmp-istechblog=" data-cmp-techblogfeedurl=" https:="" developer.nvidia.com="" blog="" wp-json="" faceted-search="" v1="" select="" ?page="0&amp;sort=post_date&amp;sortDir=desc&amp;faceted_search_products_str=AI+Enterprise&quot;" data-cmp-techblogcount="3" data-cmp-gridlayout="three-grid" data-cmp-pressreleasefeedurl="https://nvidianews.nvidia.com/cats/press_release.xml" data-cmp-pressreleasecount="3" data-cmp-graphql-url="https://api-prod.nvidia.com/services/content-hub/graphql">
   
   <div class="nv-newsfeed-title-container ">
     
@@ -7834,7 +7834,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

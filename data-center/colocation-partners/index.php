@@ -25,7 +25,7 @@
 <meta property="og:title" content="NVIDIA DGX-Ready Colocation Data Centers">
 <meta property="og:description" content="Accelerate the scaling of AI across your organization.">
 
-	<meta property="og:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/colocation-partners/dgx-colocation-og.jpg">
+	<meta property="og:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/colocation-partners/dgx-colocation-og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@NVIDIA">
@@ -34,7 +34,7 @@
 <meta name="twitter:url" content="https://www.nvidia.com/en-us/data-center/colocation-partners/">
 <meta name="twitter:description" content="Connect with a partner to host your DGX infrastructure.">
 
-	<meta name="twitter:image" content="https://www.nvidia.com../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/colocation-partners/dgx-colocation-og.jpg">
+	<meta name="twitter:image" content="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/data-center/colocation-partners/dgx-colocation-og.jpg">
 
 	<meta property="fb:app_id" content="1679326302390196">
 
@@ -1707,7 +1707,7 @@ var nvidiaGDClog = function() {
 <ul aria-label="Menu Tools" class="nav-header-list" role="list">
 
 <li class="nav-header-item profile-item">
-<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled="true" id="acc-menu-dropdown">
+<div class="navglobicon dropdown-enabled" data-is-gatted="false" data-login-gate=" data-sso-enabled=" true"="" id="acc-menu-dropdown">
 <ul>
 
 </ul>
@@ -4074,7 +4074,7 @@ var nvidiaGDClog = function() {
   </div>
 <div class="nv-carousel carousel panelcontainer nv-carousel--full-nav aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--10 aem-GridColumn--offset--default--1">
   
-<div id="quote-slides" class="cmp-carousel     " role="group" aria-roledescription="carousel" data-cmp-autoplay=" data-cmp-delay="5000" data-cmp-autoscroll="false" data-cmp-scroll-height="120px" data-cmp-scroll-direction="left" data-cmp-scroll-delay="5000" data-cmp-scroll-disabled="false" style="--carousel-slide-transition-delay: 5000ms;" data-cmp-is="carousel">
+<div id="quote-slides" class="cmp-carousel     " role="group" aria-roledescription="carousel" data-cmp-autoplay=" data-cmp-delay=" 5000"="" data-cmp-autoscroll="false" data-cmp-scroll-height="120px" data-cmp-scroll-direction="left" data-cmp-scroll-delay="5000" data-cmp-scroll-disabled="false" style="--carousel-slide-transition-delay: 5000ms;" data-cmp-is="carousel">
      
      
      
@@ -9728,7 +9728,7 @@ span.fa.fa-external-link {
         
           <div class="nv-iframe-container">
             <div class="nv-iframe-spinner"></div>
-            <iframe class="nv-responsive-iframe" src=" data-src="/data-center/get-dgx/contact-us/"></iframe>
+            <iframe class="nv-responsive-iframe" src=" data-src=" data-center="" get-dgx="" contact-us="" "=""></iframe>
           </div>
         
         
@@ -23019,7 +23019,7 @@ $(document).ready(function(){
   opacity: 1;
 }
 </style>
-<script defer=" src="../../assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js"></script>
+<script defer=" src=" ..="" assets="" www.nvidia.com="" content="" dam="" en-zz="" solutions="" librarian="" bundle-search-prod-pub-v3.1.js"=""></script>
 <div id="librarian-search"><div></div></div>
 <script defer="">
 window.addEventListener('load', () => {

@@ -6255,7 +6255,7 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Autonomous Vehicle with halo and multiple icons around it representing NVIDIA Alpamayo" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/referenced/alpamayo-reference/_jcr_content/root/responsivegrid/nv_container_copy_co/nv_teaser_copy.coreimg.100.410.jpeg/1774433393812/nvidia-alpamayo-ari.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/alpamayo/nvidia-alpamayo-ari.jpg" data-title="Autonomous Vehicle with halo and multiple icons around it representing NVIDIA Alpamayo" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/alpamayo/nvidia-alpamayo-ari.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/ai-data-science/alpamayo/nvidia-alpamayo-ari.jpg" data-title="Autonomous Vehicle with halo and multiple icons around it representing NVIDIA Alpamayo" data-cmp-type="renditionUpload">
      	
            
 		   
@@ -6678,11 +6678,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt=" AI Software and Frameworks" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/autonomous-vehicles/ai-training/_jcr_content/root/responsivegrid/nv_container_copy_co_1918773729/nv_container/nv_teaser_copy.coreimg.svg.svg/1773696542912/m48-auto-safety.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg" data-title=" AI Software and Frameworks" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg" data-title=" AI Software and Frameworks" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt=" AI Software and Frameworks" title=" AI Software and Frameworks" data-analytics="nv-image-83df53dc72" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt=" AI Software and Frameworks" title=" AI Software and Frameworks" data-analytics="nv-image-83df53dc72" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/use-cases/autonomous-vehicle-simulation/m48-auto-safety.svg">
 
 	    
 	    
@@ -9052,11 +9052,11 @@ var nvidiaGDClog = function() {
     <div class="nv-image image aem-GridColumn--tablet--12 aem-GridColumn--offset--tablet--0 aem-GridColumn--default--none aem-GridColumn--phone--none aem-GridColumn--phone--12 aem-GridColumn--tablet--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--phone--0 aem-GridColumn--offset--default--0">
 
 <div id="nv-image-416a333cd9" class="cmp-image             
-     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/autonomous-vehicles/ai-training/_jcr_content/root/responsivegrid/nv_container_copy_co_1411407406/nv_container_720496089/nv_image_copy.coreimg.100.410.jpeg/1773696544727/largest-synthetic-dataset.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/largest-synthetic-dataset.jpg" data-title="Image of robots and object detection software." data-cmp-type="renditionUpload">
+     d-align-center l-align-center t-align-center m-align-center" itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/largest-synthetic-dataset.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/largest-synthetic-dataset.jpg" data-title="Image of robots and object detection software." data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Image of robots and object detection software." title="Image of robots and object detection software." data-analytics="nv-image-416a333cd9" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Image of robots and object detection software." title="Image of robots and object detection software." data-analytics="nv-image-416a333cd9" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/largest-synthetic-dataset.jpg">
 
 	    
 	    
@@ -9418,11 +9418,11 @@ var nvidiaGDClog = function() {
     <div class="cmp-teaser__image" data-type="renditionUpload" data-alt="Wayve" data-altvaluefromdam="false">
 
 <div class="cmp-image             
-        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/nvidiaGDC/us/en_US/solutions/autonomous-vehicles/ai-training/_jcr_content/root/responsivegrid/nv_container_copy_409170424/copy_of_nv_carousel_/item_1741268946298.coreimg.100.410.jpeg/1773696544998/customer-stories-wayve.jpeg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/customer-stories-wayve.jpg" data-title="Wayve" data-cmp-type="renditionUpload">
+        " itemscope="" itemtype="http://schema.org/ImageObject" data-cmp-lazy="" data-cmp-lazythreshold="300" data-cmp-src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/customer-stories-wayve.jpg" data-cmp-widths="190,410,630,850,1070,1290" data-asset="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/customer-stories-wayve.jpg" data-title="Wayve" data-cmp-type="renditionUpload">
      	
            
 		   
-    <img class="cmp-image__image cmp-image__image--is-loading" itemprop="contentUrl" alt="Wayve" title="Wayve" data-analytics="nv-image-88adb76947" data-cmp-hook-image="image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+    <img class="cmp-image__image" itemprop="contentUrl" alt="Wayve" title="Wayve" data-analytics="nv-image-88adb76947" data-cmp-hook-image="image" src="../../../assets/www.nvidia.com/content/dam/en-zz/Solutions/self-driving-cars/infrastructure/customer-stories-wayve.jpg">
 
 	    
 	    
