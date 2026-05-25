@@ -295,3 +295,71 @@ function cw_disable_forms_in_html(string $html): string
 
     return $html;
 }
+
+/**
+ * Fix offline-only runtime errors: CSRF JSON parse, starfleet chunks, LIBRARIAN search.
+ */
+function cw_inject_offline_runtime_fixes(string $html): string
+{
+    $base = CW_BASE_URL;
+    $libSrc = $base . '/assets/www.nvidia.com/content/dam/en-zz/Solutions/librarian/bundle-search-prod-pub-v3.1.js';
+
+    // Corrupted librarian script tags from HTML→PHP conversion
+    $html = preg_replace(
+        '~<script defer="[^>]*bundle-search-prod-pub-v3\.1\.js[^>]*></script>~i',
+        '<script defer src="' . htmlspecialchars($libSrc, ENT_QUOTES) . '"></script>',
+        $html
+    ) ?? $html;
+
+    // Avoid ReferenceError when the search bundle did not load
+    $html = preg_replace(
+        '~LIBRARIAN\.Home\.mount\(\{~',
+        '(typeof LIBRARIAN!==\'undefined\'&&LIBRARIAN.Home?LIBRARIAN.Home.mount:Function.prototype)({',
+        $html
+    ) ?? $html;
+
+    if (!str_contains($html, 'id="cw-offline-runtime"')) {
+        $runtime = '<script id="cw-offline-runtime">(function(){'
+            . 'var b=window.__CW_ASSET_ROOT||' . json_encode($base) . ';'
+            . 'window.__webpack_public_path__=b+"/assets/www.nvidia.com/assets/account-wrapper/";'
+            . 'var g=window.Granite=window.Granite||{};'
+            . 'g.HTTP=g.HTTP||{};'
+            . 'g.csrf={initialised:true,initialized:true,token:"offline",_isFresh:true,'
+            . '_refreshToken:function(){return Promise.resolve("offline");},'
+            . 'getToken:function(){return Promise.resolve("offline")},'
+            . 'refreshToken:function(){return Promise.resolve("offline")}};'
+            . 'var oOpen=XMLHttpRequest.prototype.open,oSend=XMLHttpRequest.prototype.send;'
+            . 'XMLHttpRequest.prototype.open=function(m,u){this._cwUrl=u;return oOpen.apply(this,arguments);};'
+            . 'XMLHttpRequest.prototype.send=function(){'
+            . 'var u=String(this._cwUrl||"");'
+            . 'if(u.indexOf("csrf")>=0||u.indexOf("/libs/granite/")>=0){'
+            . 'var s=this;setTimeout(function(){'
+            . 'try{s.readyState=4;s.status=200;s.responseText=\'{"token":"offline"}\';}catch(e){}'
+            . 'if(typeof s.onreadystatechange==="function")s.onreadystatechange();'
+            . 'if(typeof s.onload==="function")s.onload();},0);return;}'
+            . 'return oSend.apply(this,arguments);};'
+            . 'if(window.fetch){var oF=window.fetch;window.fetch=function(u,opts){'
+            . 'var url=typeof u==="string"?u:(u&&u.url)||"";'
+            . 'if(url.indexOf("csrf")>=0||url.indexOf("/libs/granite/")>=0){'
+            . 'return Promise.resolve(new Response(\'{"token":"offline"}\',{status:200,headers:{"Content-Type":"application/json"}}));}'
+            . 'return oF.apply(this,arguments);};}'
+            . '})();</script>';
+
+        if (preg_match('~</head>~i', $html)) {
+            $html = preg_replace('~</head>~i', $runtime . '</head>', $html, 1) ?? $html;
+        }
+    }
+
+    if (str_contains($html, 'id="starfleet-script"') && !str_contains($html, 'id="cw-webpack-account-wrapper"')) {
+        $webpack = '<script id="cw-webpack-account-wrapper">window.__webpack_public_path__=(window.__CW_ASSET_ROOT||'
+            . json_encode($base) . ')+"/assets/www.nvidia.com/assets/account-wrapper/";</script>';
+        $html = preg_replace(
+            '~(<script id="starfleet-script")~i',
+            $webpack . '$1',
+            $html,
+            1
+        ) ?? $html;
+    }
+
+    return $html;
+}

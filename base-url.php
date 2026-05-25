@@ -641,6 +641,7 @@ function cw_rewrite_asset_urls_in_html(string $html): string
         $html = preg_replace('~</head>~i', $hydrate . '</head>', $html, 1) ?? $html;
     }
 
+    $html = cw_inject_offline_runtime_fixes($html);
     $html = cw_sanitize_html($html);
 
     return $html;
