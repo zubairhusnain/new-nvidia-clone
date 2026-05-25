@@ -359,6 +359,19 @@ function cw_rewrite_external_url(string $url, string $base): string
         return $url;
     }
 
+    $cdnHosts = [
+        'code.jquery.com',
+        'cdnjs.cloudflare.com',
+        'fonts.googleapis.com',
+        'fonts.gstatic.com',
+        'ajax.googleapis.com',
+    ];
+    if (in_array($host, $cdnHosts, true)) {
+        $scheme = $parsed['scheme'] ?? 'https';
+
+        return $scheme . '://' . ($parsed['host'] ?? $host) . $path . $query . $fragment;
+    }
+
     if (is_string($baseHost) && $baseHost !== '' && $host === strtolower($baseHost)) {
         $basePath = parse_url($base, PHP_URL_PATH) ?? '';
         if ($basePath === '' || $basePath === '/' || str_starts_with($path, $basePath)) {
@@ -566,7 +579,7 @@ function cw_rewrite_asset_urls_in_html(string $html): string
         $headInsert .= '<script id="cw-asset-root">window.__CW_ASSET_ROOT=' . json_encode($base) . ';</script>';
     }
     if (!str_contains($html, 'id="cw-fix-links"')) {
-        $headInsert .= '<script id="cw-fix-links">(function(){var b=' . json_encode($base) . ';function isAsset(p){return/\\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json|map)(\\?|$)/i.test(p);}function u(v){if(!v||typeof v!=="string")return v;var t=v.trim();if(/^https?:\\/\\//i.test(t)||t.indexOf("//")===0){if(t.indexOf("//")===0)t="https:"+t;var m=t.match(/^https?:\\/\\/([^\\/]+)(\\/[^?#]*)?/i);if(!m)return b+"/";var h=m[1].toLowerCase(),p=m[2]||"/",q=t.indexOf("?")>=0?t.slice(t.indexOf("?")):"";if(/^(?:www\\.)?nvidia\\.com$/i.test(h)||/^www\\.nvidia\\.[a-z]{2,3}$/i.test(h)){if(/^\\/content\\/(dam|nvidiaGDC)\\//i.test(p)||isAsset(p))return b+"/assets/www.nvidia.com"+p+q;var r=t.match(/^https?:\\/\\/(?:www\\.)?nvidia\\.com\\/(?:en-us\\/|en-[a-z]{2}\\/)?([^?#]*)/i);if(r){var x="/"+r[1];if(x.slice(-11)==="/index.html")x=x.slice(0,-10);if(x!=="/"&&!x.endsWith("/")&&!isAsset(x))x+="/";return b+x+q;}return b+"/"+q;}if(h==="blogs.nvidia.com"){return b+(p.indexOf("/blog/")===0?"/blog/blog"+p.slice(5):"/blog/blog"+p)+q;}if(/^(?:www\\.)?youtube(?:-nocookie)?\\.com$/i.test(h)||/^youtu\\.be$/i.test(h)||/^(?:player\\.)?vimeo\\.com$/i.test(h)){if(/^\\/(?:embed|watch|playlist|shorts|v|video)\\//i.test(p)||h==="youtu.be")return t;}if(t.indexOf(b)===0)return t;return b+"/"+q;}if(/\\/assets\\/www\\.youtube\\.com\\/embed\\/([A-Za-z0-9_-]{11})/i.test(t)){var yt=t.match(/\\/embed\\/([A-Za-z0-9_-]{11})/);if(yt)return"https://www.youtube-nocookie.com/embed/"+yt[1];}if(t==="index.html"||t==="./index.html")return b+"/";if(t.slice(-11)==="/index.html")return b+t.slice(0,-10);if(t.charAt(0)==="/"&&t.indexOf("/assets/")!==0)return b+t;return v;}function f(e){if(!e||!e.getAttribute)return;var a=["href","src","action","data-href","data-url","data-link","cite","poster","formaction"];for(var i=0;i<a.length;i++){var k=a[i],v=e.getAttribute(k);if(!v)continue;var nv=u(v);if(nv!==v)e.setAttribute(k,nv);}}function s(){try{document.querySelectorAll("[href],[src],[action],[data-href],[data-url],[data-link]").forEach(f);}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s);}else{s();}setTimeout(s,500);setTimeout(s,1500);})();</script>';
+        $headInsert .= '<script id="cw-fix-links">(function(){var b=' . json_encode($base) . ';function isAsset(p){return/\\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json|map)(\\?|$)/i.test(p);}function u(v){if(!v||typeof v!=="string")return v;var t=v.trim();if(/^https?:\\/\\//i.test(t)||t.indexOf("//")===0){if(t.indexOf("//")===0)t="https:"+t;var m=t.match(/^https?:\\/\\/([^\\/]+)(\\/[^?#]*)?/i);if(!m)return b+"/";var h=m[1].toLowerCase(),p=m[2]||"/",q=t.indexOf("?")>=0?t.slice(t.indexOf("?")):"";if(/^(?:www\\.)?nvidia\\.com$/i.test(h)||/^www\\.nvidia\\.[a-z]{2,3}$/i.test(h)){if(/^\\/content\\/(dam|nvidiaGDC)\\//i.test(p)||isAsset(p))return b+"/assets/www.nvidia.com"+p+q;var r=t.match(/^https?:\\/\\/(?:www\\.)?nvidia\\.com\\/(?:en-us\\/|en-[a-z]{2}\\/)?([^?#]*)/i);if(r){var x="/"+r[1];if(x.slice(-11)==="/index.html")x=x.slice(0,-10);if(x!=="/"&&!x.endsWith("/")&&!isAsset(x))x+="/";return b+x+q;}return b+"/"+q;}if(h==="blogs.nvidia.com"){return b+(p.indexOf("/blog/")===0?"/blog/blog"+p.slice(5):"/blog/blog"+p)+q;}if(/^(?:www\\.)?youtube(?:-nocookie)?\\.com$/i.test(h)||/^youtu\\.be$/i.test(h)||/^(?:player\\.)?vimeo\\.com$/i.test(h)){if(/^\\/(?:embed|watch|playlist|shorts|v|video)\\//i.test(p)||h==="youtu.be")return t;}if(/^(?:code\\.)?jquery\\.com$/i.test(h)||/^cdnjs\\.cloudflare\\.com$/i.test(h)||/^fonts\\.(?:googleapis|gstatic)\\.com$/i.test(h)||/^ajax\\.googleapis\\.com$/i.test(h))return t;if(t.indexOf(b)===0)return t;return b+"/"+q;}if(/\\/assets\\/www\\.youtube\\.com\\/embed\\/([A-Za-z0-9_-]{11})/i.test(t)){var yt=t.match(/\\/embed\\/([A-Za-z0-9_-]{11})/);if(yt)return"https://www.youtube-nocookie.com/embed/"+yt[1];}if(t==="index.html"||t==="./index.html")return b+"/";if(t.slice(-11)==="/index.html")return b+t.slice(0,-10);if(t.charAt(0)==="/"&&t.indexOf("/assets/")!==0)return b+t;return v;}function f(e){if(!e||!e.getAttribute)return;var a=["href","src","action","data-href","data-url","data-link","cite","poster","formaction"];for(var i=0;i<a.length;i++){var k=a[i],v=e.getAttribute(k);if(!v)continue;var nv=u(v);if(nv!==v)e.setAttribute(k,nv);}}function s(){try{document.querySelectorAll("[href],[src],[action],[data-href],[data-url],[data-link]").forEach(f);}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s);}else{s();}setTimeout(s,500);setTimeout(s,1500);})();</script>';
     }
     if ($headInsert !== '') {
         $html = cw_inject_after_head_open($html, $headInsert);

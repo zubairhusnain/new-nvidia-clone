@@ -245,7 +245,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
   <!-- Compressed Styles --> 
   <link href="/assets/images-remote/nv-story-tool/nv-story-09132023/css/slides.min.css" rel="stylesheet" type="text/css" id="js-slides-css"> 
   <!-- Fonts and Material Icons --> 
-  <link rel="stylesheet" as="font" href="/?family=Inter:wght@400;500;700&amp;family=Material+Icons&amp;display=swap" id="js-google-fonts"> 
+  <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;family=Material+Icons&amp;display=swap" id="js-google-fonts"> 
   <style type="text/css" id="js-slides-fonts">
     .slides,
     .slides p {
@@ -635,7 +635,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div class="background"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/mask-group-2-min.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/mask-group-2-min.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide03.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide03.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -651,7 +651,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
        <p class="ae-2 medium"><span class="opacity-8">Accelerated computing and AI have fully arrived. The acceleration of deep learning ignited the Big Bang of AI. <br>Now, generative AI is a new computing platform, like the PC, internet, and mobile-cloud. </span></p> 
        <p style="padding-top:20px" class="ae-2 smallest opacity-8">Credit: Runway AI, Adobe, Tabnine, WPP</p> 
       </div> 
-      <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/the-iphone-moment-of-ai-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+      <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/the-iphone-moment-of-ai-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.webm?p=Og5JyLeI" type="video/webm"> 
        <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.mp4?p=Og5JyLeI" type="video/mp4"> 
       </video> 
@@ -659,7 +659,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div class="hideForPhone  background" style="opacity: 0.85;"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/the-iphone-moment-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/the-iphone-moment-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide04.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -676,7 +676,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <h2 class="ae-1 medium margin-bottom-2">NVIDIA is the Engine of AI</h2> 
         <p class="ae-2 medium"><span class="opacity-8">NVIDIA engineers the most advanced chips, systems, and software for the AI factories of the future. We build new AI services that help companies create their own AI factories. </span></p> 
        </div> 
-       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nvidia-is-the-engine-of-ai-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nvidia-is-the-engine-of-ai-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.webm?p=Og5JyLeI" type="video/webm"> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
@@ -685,7 +685,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div class="hideForPhone background"> 
-    <video poster="../assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nvidia-is-the-engine-of-ai-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nvidia-is-the-engine-of-ai-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide05.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -702,7 +702,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <h2 class="ae-1 medium margin-bottom-2">Reinventing Modern Graphics</h2> 
         <p class="ae-2 medium"><span class="opacity-8">NVIDIA RTX™ taps into AI and ray tracing to deliver a whole new level of realism in graphics. This year, we introduced the next breakthrough in AI-powered graphics: DLSS 3. </span></p> 
        </div> 
-       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/reinventing-modern-graphics-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/reinventing-modern-graphics-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.webm?p=Og5JyLeI" type="video/webm"> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
@@ -711,7 +711,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div style="opacity:0.85" class="background hideForPhone"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/reinventing-modern-graphics-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/reinventing-modern-graphics-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide06.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -727,7 +727,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <h2 class="ae-1 medium margin-bottom-2">Connecting Our Physical and Digital Worlds</h2> 
         <p class="ae-2 medium"><span class="opacity-8">Omniverse, our platform for industrial digitalization, enables industries grounded in physical processes to become software-defined and connect large, highly skilled teams. </span></p> 
        </div> 
-       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/connecting-our-pyscial-worlds-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/connecting-our-pyscial-worlds-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.webm?p=Og5JyLeI" type="video/webm"> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
@@ -736,7 +736,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div style="opacity:0.9" class="hideForPhone background"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/connecting-our-pyscial-worlds-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/connecting-our-pyscial-worlds-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide07.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -754,7 +754,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <p class="ae-2 medium"><span class="opacity-8">Generative AI and digitalization are reshaping the $3 trillion automotive industry, from design and engineering to manufacturing, autonomous driving, and customer experience. NVIDIA is at the epicenter of this industrial transformation. </span></p> 
         <p style="padding-top:20px" class="ae-2 smallest opacity-8">Credit: WPP, McLaren; Koenigsegg; BMW; Rimac </p> 
        </div> 
-       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/driving-automotive-growth-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/driving-automotive-growth-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.webm?p=Og5JyLeI" type="video/webm"> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
@@ -763,7 +763,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div style="opacity:0.85" class="hideForPhone background"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/driving-automotive-growth-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/driving-automotive-growth-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide08.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -780,7 +780,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <h2 class="ae-1 medium margin-bottom-2">Supercharging Healthcare</h2> 
         <p class="ae-2 medium"><span class="opacity-8">With NVIDIA, healthcare institutions can harness the power of AI and high-performance computing to define the future of medicine. </span></p> 
        </div> 
-       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/supercharging-healthcare-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/supercharging-healthcare-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.webm?p=Og5JyLeI" type="video/webm"> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
@@ -789,7 +789,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div style="opacity:0.85" class="hideForPhone background"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/supercharging-healthcare-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/supercharging-healthcare-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide09.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -806,7 +806,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
         <h2 class="ae-1 medium margin-bottom-2">Accelerated Computing Is Sustainable Computing</h2> 
         <p class="ae-2 medium"><span class="opacity-8">Data centers are already about 1-2% of global electricity consumption and growing. This is not sustainable for operating budgets and our planet. Acceleration is the best way to reclaim power and achieve sustainability and net zero. </span></p> 
        </div> 
-       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/accelerated-computing-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+       <video class="showForPhone hideForTablet hideForLaptop hideForDesktop videoMobFix" poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/accelerated-computing-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.webm?p=Og5JyLeI" type="video/webm"> 
         <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.mp4?p=Og5JyLeI" type="video/mp4"> 
        </video> 
@@ -815,7 +815,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
     </div> 
    </div> 
    <div class="background hideForPhone"> 
-    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/accelerated-computing-fallback.jpg" autoplay=" muted=" loop=" playsinline=" webkit-playsinline=""> 
+    <video poster="../assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/accelerated-computing-fallback.jpg" autoplay muted loop playsinline webkit-playsinline> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.webm?p=Og5JyLeI" type="video/webm"> 
      <source src="./assets/images.nvidia.com/nv-story-tool/nv-story-09132023/assets/uploads/nv-brochure-2023-08-slide10.mp4?p=Og5JyLeI" type="video/mp4"> 
     </video> 
@@ -834,7 +834,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
        </div> 
       </div> 
      </div> 
-     <div class="wrap left fromRight ae-1 tFixHead" style="background-image: url(" ..=" assets=" images-remote=" nv-story-tool=" nv-story-09132023=" uploads=" like-no-place-youve-ever-worked.jpg");"=""> 
+     <div class="wrap left fromRight ae-1 tFixHead" style="background-image: url('/assets/images-remote/nv-story-tool/nv-story-09132023/assets/uploads/like-no-place-youve-ever-worked.jpg')"> 
      </div> 
     </div> 
    </div> 
@@ -954,7 +954,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
    </div> 
   </section> 
   <!-- jQuery 3.6.0 --> 
-  <script src="/"></script> 
+  <script src="/assets/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
   <!-- Compressed Scripts --> 
   <script src="/assets/images-remote/nv-story-tool/nv-story-09132023/js/slides.min.js" type="text/javascript"></script>
 <style>
@@ -1108,7 +1108,7 @@ var NVIDIAGDC = NVIDIAGDC || {};
   </style> 
   <div class="nv-story__modal hidden"> 
    <div class="nv-story__modal-content"> 
-    <iframe class="nv-story__signup visuallyhidden" frameborder="0" name="sign up" allowfullscreen=" data-src="/about-nvidia/our-story/our-story-form/"></iframe> 
+    <iframe class="nv-story__signup visuallyhidden" frameborder="0" name="sign up" allowfullscreen data-src="/about-nvidia/our-story/our-story-form/"></iframe> 
     <div class="nv-spinner-container"> 
      <div class="nv-spinner"></div> 
     </div> 

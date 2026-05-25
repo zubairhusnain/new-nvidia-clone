@@ -377,6 +377,56 @@ function cw_inject_offline_runtime_fixes(string $html): string
 
     $html = cw_fix_footer_for_offline($html);
     $html = cw_fix_corrupted_picture_tags($html);
+    $html = cw_fix_nv_story_html_corruption($html);
+
+    return $html;
+}
+
+/**
+ * Repair nv-story / about-nvidia markup broken during HTML→PHP conversion.
+ */
+function cw_fix_nv_story_html_corruption(string $html): string
+{
+    $base = CW_BASE_URL;
+    $baseQ = preg_quote(rtrim($base, '/'), '~');
+
+    $html = preg_replace(
+        '~\bautoplay="\s*muted="\s*loop="\s*playsinline="\s*webkit-playsinline=""~i',
+        'autoplay muted loop playsinline webkit-playsinline',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~\ballowfullscreen="\s*data-src=(["\'])([^"\']+)\1~i',
+        'allowfullscreen data-src=$1$2$1',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~(<!--\s*jQuery[^>]*-->\s*<script\s+src=)(["\'])(?:/|' . $baseQ . '/?)\2~i',
+        '$1$2' . $base . '/assets/cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js$2',
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~href=(["\'])/\?family=([^"\']+)\1~i',
+        'href=$1https://fonts.googleapis.com/css2?family=$2$1',
+        $html
+    ) ?? $html;
+
+    if (str_contains($html, '..="" assets=""') && str_contains($html, 'background-image')) {
+        $html = preg_replace_callback(
+            '~style="background-image:\s*url\("\s*\.\.=" assets=" ((?:[^"]+=" )+)([^"]+)"\);?""?>~i',
+            static function (array $m) use ($base): string {
+                $segments = preg_split('/="\s*/', trim($m[1], ' ="')) ?: [];
+                $segments = array_values(array_filter($segments, static fn (string $s): bool => $s !== ''));
+                $path = implode('/', $segments) . '/' . $m[2];
+
+                return 'style="background-image: url(\'' . $base . '/assets/' . $path . '\')"';
+            },
+            $html
+        ) ?? $html;
+    }
 
     return $html;
 }
