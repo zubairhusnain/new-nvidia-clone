@@ -248,10 +248,21 @@ function cw_sanitize_html(string $html): string
     return $html;
 }
 
-/** True unless CW_ENABLE_FORMS=1 is set in the environment. */
+/** True unless CW_ENABLE_FORMS=1 or includes/forms-enabled.local.php returns true. */
 function cw_forms_disabled(): bool
 {
-    return getenv('CW_ENABLE_FORMS') !== '1';
+    if (getenv('CW_ENABLE_FORMS') === '1') {
+        return false;
+    }
+
+    $flag = __DIR__ . '/forms-enabled.local.php';
+    if (is_file($flag)) {
+        $enabled = require $flag;
+
+        return $enabled !== true;
+    }
+
+    return true;
 }
 
 /**

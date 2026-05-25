@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Enable contact form and allow POST submissions (see includes/forms-enabled.local.php)
+SetEnv CW_ENABLE_FORMS 1
+
 # If the site lives in a subdirectory (not domain docroot), uncomment and set:
 # RewriteBase /your-subfolder/
 

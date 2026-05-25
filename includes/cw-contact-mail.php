@@ -69,30 +69,10 @@ function cw_contact_smtp_ready(array $config): bool
     return $user !== '' && $pass !== '';
 }
 
-/** True when SMTP is on and real credentials (not placeholders) are set. */
+/** True when site forms are enabled (SMTP is validated on send, not here). */
 function cw_contact_form_enabled(): bool
 {
-    if (cw_forms_disabled()) {
-        return false;
-    }
-
-    $config = cw_contact_mail_config();
-    if (!cw_contact_smtp_ready($config)) {
-        return false;
-    }
-
-    $from = trim((string)($config['from_email'] ?? ''));
-    $user = trim((string)($config['smtp']['username'] ?? ''));
-    if (!filter_var($from, FILTER_VALIDATE_EMAIL) || !filter_var($user, FILTER_VALIDATE_EMAIL)) {
-        return false;
-    }
-
-    $placeholders = '/your\.email|your-gmail|example\.com|changeme|xxx/i';
-    if (preg_match($placeholders, $from) || preg_match($placeholders, $user)) {
-        return false;
-    }
-
-    return true;
+    return !cw_forms_disabled();
 }
 
 function cw_contact_send_smtp(
