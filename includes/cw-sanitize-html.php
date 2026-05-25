@@ -213,9 +213,23 @@ function cw_sanitize_html(string $html): string
         }
     }
 
-    // Inline loaders that pull third-party marketing scripts from mirrored assets
+    // Third-party script tags (src must reference vendor; do not span past </script>)
     $html = preg_replace(
-        '~<script\b[^>]*>[\s\S]*?(?:pathfactory|lookbookhq|lbhq|datadoghq|datadog\.init|DD_RUM)[\s\S]*?</script>~i',
+        '~<script\b[^>]*\bsrc=(["\'])[^"\']*(?:pathfactory|lookbookhq|lbhq|datadoghq)[^"\']*\1[^>]*>\s*</script>~is',
+        '',
+        $html
+    ) ?? $html;
+
+    // Inline loaders that pull third-party marketing scripts (keyword only inside script body)
+    $html = preg_replace(
+        '~<script\b[^>]*>(?:(?!</script>)[\s\S])*(?:pathfactory|lookbookhq|lbhq|datadoghq|datadog\.init|DD_RUM)(?:(?!</script>)[\s\S])*</script>~i',
+        '',
+        $html
+    ) ?? $html;
+
+    // Lookbook / PathFactory overlay CSS saved in mirrored HTML
+    $html = preg_replace(
+        '~<link\b[^>]*(?:pathfactory|lookbookhq|lbhq)[^>]*>\s*~i',
         '',
         $html
     ) ?? $html;
@@ -356,6 +370,127 @@ function cw_inject_offline_runtime_fixes(string $html): string
         $html = preg_replace(
             '~(<script id="starfleet-script")~i',
             $webpack . '$1',
+            $html,
+            1
+        ) ?? $html;
+    }
+
+    $html = cw_fix_footer_for_offline($html);
+    $html = cw_fix_corrupted_picture_tags($html);
+
+    return $html;
+}
+
+/**
+ * Repair picture/source tags broken during HTML→PHP conversion (data-srcset-mobile split into bogus attributes).
+ */
+function cw_fix_corrupted_picture_tags(string $html): string
+{
+    if (!str_contains($html, '..="" assets=""')) {
+        return $html;
+    }
+
+    $html = preg_replace_callback(
+        '~<picture\s+[^>]*\.\.="" assets=""[^>]*data-srcset-tablet=(["\'])([^"\']+)\1[^>]*data-srcset-laptop=(["\'])([^"\']+)\3[^>]*data-srcset-desktop=(["\'])([^"\']+)\5[^>]*>~i',
+        static function (array $m): string {
+            $tablet = preg_replace('~\s*,\s*[^"\']+$~', '', $m[2]) ?? $m[2];
+            $laptop = preg_replace('~\s*,\s*[^"\']+$~', '', $m[4]) ?? $m[4];
+            $desktop = $m[6];
+            if (preg_match('~^([^"\']+\.jpg)~i', $desktop, $dm)) {
+                $desktop = $dm[1];
+            }
+            $mobile = preg_replace('~-t\.jpg$~i', '-p.jpg', $tablet) ?? $tablet;
+            if (!str_contains($mobile, '-p.jpg')) {
+                $mobile = preg_replace('~-l\.jpg$~i', '-p.jpg', $laptop) ?? $mobile;
+            }
+
+            return '<picture data-nv-lazyload data-srcset-mobile="' . $mobile . '"'
+                . ' data-srcset-tablet="' . $tablet . '"'
+                . ' data-srcset-laptop="' . $laptop . '"'
+                . ' data-srcset-desktop="' . $desktop . '">';
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace(
+        '~<source data-source-mobile="" media=" \(max-width:=["\s]*639px\)[^>]*>~i',
+        '<source data-source-mobile media="(max-width: 639px)">',
+        $html
+    ) ?? $html;
+    $html = preg_replace(
+        '~<source data-source-tablet="" media=" \(min-width:640px\)=[^>]*>~i',
+        '<source data-source-tablet media="(min-width: 640px) and (max-width: 1023px)">',
+        $html
+    ) ?? $html;
+    $html = preg_replace(
+        '~<source data-source-laptop="" media=" \(min-width:1024px\)=[^>]*>~i',
+        '<source data-source-laptop media="(min-width: 1024px) and (max-width: 1349px)">',
+        $html
+    ) ?? $html;
+    $html = preg_replace(
+        '~<source data-source-desktop="" media=" \(min-width:1350px\)[^>]*>~i',
+        '<source data-source-desktop media="(min-width: 1350px)">',
+        $html
+    ) ?? $html;
+
+    return $html;
+}
+
+/**
+ * Use the same static AEM footer as the homepage on brand/solution pages.
+ * brandfooter.css hides .page-footer-wrapper unless API-injected #nv-footer loads.
+ */
+function cw_fix_footer_for_offline(string $html): string
+{
+    $base = CW_BASE_URL;
+    $baseQ = preg_quote($base, '~');
+    $blog = $base . '/blog/blog/';
+
+    $html = preg_replace('~<script[^>]*\bbrandfooter\.js\b[^>]*>\s*</script>~i', '', $html) ?? $html;
+    $html = preg_replace('~<link[^>]*\bbrandfooter\.css\b[^>]*>~i', '', $html) ?? $html;
+    $html = preg_replace('~<script[^>]*>\s*var\s+brandName\s*=\s*["\'][^"\']*["\']\s*</script>~i', '', $html) ?? $html;
+
+    if (!str_contains($html, 'id="cw-show-page-footer"')) {
+        $style = '<style id="cw-show-page-footer">'
+            . '#brandFooter .page-footer-wrapper,.page-footer-wrapper{display:block!important;visibility:visible!important;}'
+            . '#nv-footer{display:none!important;}'
+            . '</style>';
+        if (preg_match('~</head>~i', $html)) {
+            $html = preg_replace('~</head>~i', $style . '</head>', $html, 1) ?? $html;
+        }
+    }
+
+    $html = preg_replace(
+        '~href=(["\'])' . $baseQ . '/\1(\s+target="_blank"[^>]*>\s*Company\s+Blog\s*</a>)~i',
+        'href=$1' . $blog . '$1$2',
+        $html
+    ) ?? $html;
+    $html = preg_replace(
+        '~href=(["\'])/\1(\s+target="_blank"[^>]*>\s*Company\s+Blog\s*</a>)~i',
+        'href=$1' . $blog . '$1$2',
+        $html
+    ) ?? $html;
+
+    if (str_contains($html, 'class="global-footer__links"') && !str_contains($html, 'id="cw-global-footer-links"')) {
+        $items = [
+            ['/about-nvidia/privacy-policy/', 'Privacy Policy', true],
+            ['/about-nvidia/privacy-center/', 'Your Privacy Choices', true],
+            ['/about-nvidia/terms-of-service/', 'Terms of Service', true],
+            ['/about-nvidia/accessibility/', 'Accessibility', true],
+            ['/about-nvidia/company-policies/', 'Corporate Policies', false],
+            ['/product-security/', 'Product Security', true],
+            ['/contact/', 'Contact', true],
+        ];
+        $lis = '';
+        foreach ($items as [$path, $label, $blank]) {
+            $href = $base . $path;
+            $tgt = $blank ? ' target="_blank"' : ' target="_self"';
+            $lis .= '<li><a href="' . htmlspecialchars($href, ENT_QUOTES) . '"' . $tgt . '>'
+                . htmlspecialchars($label, ENT_QUOTES) . '</a></li>';
+        }
+        $html = preg_replace(
+            '~<ul class="global-footer__links">\s*</ul>~i',
+            '<ul class="global-footer__links" id="cw-global-footer-links">' . $lis . '</ul>',
             $html,
             1
         ) ?? $html;

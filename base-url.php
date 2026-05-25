@@ -237,6 +237,94 @@ function cw_is_asset_file_path(string $path): bool
     return (bool)preg_match('~\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|otf|eot|mp4|webm|pdf|json|map|xml|txt)(\?|$)~i', $path);
 }
 
+/** Hosts for YouTube/Vimeo player pages that are not stored in the offline mirror. */
+function cw_is_streaming_video_host(string $host): bool
+{
+    $host = strtolower($host);
+
+    return in_array($host, [
+        'www.youtube.com',
+        'youtube.com',
+        'm.youtube.com',
+        'www.youtube-nocookie.com',
+        'youtube-nocookie.com',
+        'youtu.be',
+        'www.youtu.be',
+        'vimeo.com',
+        'www.vimeo.com',
+        'player.vimeo.com',
+    ], true);
+}
+
+/** Paths that must stay external (embed/watch), not rewritten to assets/{host}/. */
+function cw_is_non_mirrored_streaming_path(string $host, string $path): bool
+{
+    if (preg_match('~^/(?:embed|watch|playlist|shorts|v|live|clip)/~i', $path)) {
+        return true;
+    }
+
+    if (in_array(strtolower($host), ['youtu.be', 'www.youtu.be'], true) && $path !== '/' && $path !== '') {
+        return true;
+    }
+
+    if (str_contains(strtolower($host), 'vimeo') && preg_match('~^/(?:video|embed)/~i', $path)) {
+        return true;
+    }
+
+    return false;
+}
+
+/** Build a privacy-friendly YouTube embed URL from a mirrored or relative embed path. */
+function cw_youtube_nocookie_embed_from_path(string $embedPath): ?string
+{
+    if (preg_match('~(?:^|/)embed/([A-Za-z0-9_-]{11})(?:[?&#]|$)~', $embedPath, $m)) {
+        return 'https://www.youtube-nocookie.com/embed/' . $m[1];
+    }
+
+    return null;
+}
+
+/**
+ * Replace broken local YouTube iframe targets (router 404 → no-page) with live embed URLs.
+ */
+function cw_fix_youtube_embeds_in_html(string $html, string $base): string
+{
+    $baseQ = preg_quote(rtrim($base, '/'), '~');
+
+    $html = preg_replace_callback(
+        '~(<iframe\b[^>]*\bsrc=)(["\'])(?:https?://[^/"\']+)?(?:' . $baseQ . ')?/assets/www\.youtube\.com/embed/([A-Za-z0-9_-]{11})([^"\']*)\2~i',
+        static function (array $m): string {
+            $url = cw_youtube_nocookie_embed_from_path('/embed/' . $m[3]);
+
+            return $url !== null ? $m[1] . $m[2] . $url . $m[4] . $m[2] : $m[0];
+        },
+        $html
+    ) ?? $html;
+
+    $html = preg_replace_callback(
+        '~(<iframe\b[^>]*\bsrc=)(["\'])\./assets/www\.youtube\.com/embed/([A-Za-z0-9_-]{11})([^"\']*)\2~i',
+        static function (array $m): string {
+            $url = cw_youtube_nocookie_embed_from_path('/embed/' . $m[3]);
+
+            return $url !== null ? $m[1] . $m[2] . $url . $m[4] . $m[2] : $m[0];
+        },
+        $html
+    ) ?? $html;
+
+    if (
+        !str_contains($html, 'id="cw-youtube-embed"')
+        && (str_contains($html, 'youtube-nocookie.com/embed') || str_contains($html, 'youtube.com/embed'))
+    ) {
+        $css = '<style id="cw-youtube-embed">'
+            . '.full-width-layout__content iframe[src*="youtube"],'
+            . '.wp-block-embed iframe{max-width:100%;width:100%;aspect-ratio:16/9;height:auto;min-height:12rem;border:0}'
+            . '</style>';
+        $html = preg_replace('~</head>~i', $css . '</head>', $html, 1) ?? $html;
+    }
+
+    return $html;
+}
+
 /** Rewrite any absolute external URL to a local base URL or mirrored asset path. */
 function cw_rewrite_external_url(string $url, string $base): string
 {
@@ -296,6 +384,12 @@ function cw_rewrite_external_url(string $url, string $base): string
         }
 
         return $base . '/blog/blog/' . ltrim($path, '/') . $query . $fragment;
+    }
+
+    if (cw_is_streaming_video_host($host) && cw_is_non_mirrored_streaming_path($host, $path)) {
+        $scheme = $parsed['scheme'] ?? 'https';
+
+        return $scheme . '://' . ($parsed['host'] ?? $host) . $path . $query . $fragment;
     }
 
     $mirrored = cw_mirrored_asset_hosts();
@@ -472,7 +566,7 @@ function cw_rewrite_asset_urls_in_html(string $html): string
         $headInsert .= '<script id="cw-asset-root">window.__CW_ASSET_ROOT=' . json_encode($base) . ';</script>';
     }
     if (!str_contains($html, 'id="cw-fix-links"')) {
-        $headInsert .= '<script id="cw-fix-links">(function(){var b=' . json_encode($base) . ';function isAsset(p){return/\\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json|map)(\\?|$)/i.test(p);}function u(v){if(!v||typeof v!=="string")return v;var t=v.trim();if(/^https?:\\/\\//i.test(t)||t.indexOf("//")===0){if(t.indexOf("//")===0)t="https:"+t;var m=t.match(/^https?:\\/\\/([^\\/]+)(\\/[^?#]*)?/i);if(!m)return b+"/";var h=m[1].toLowerCase(),p=m[2]||"/",q=t.indexOf("?")>=0?t.slice(t.indexOf("?")):"";if(/^(?:www\\.)?nvidia\\.com$/i.test(h)||/^www\\.nvidia\\.[a-z]{2,3}$/i.test(h)){if(/^\\/content\\/(dam|nvidiaGDC)\\//i.test(p)||isAsset(p))return b+"/assets/www.nvidia.com"+p+q;var r=t.match(/^https?:\\/\\/(?:www\\.)?nvidia\\.com\\/(?:en-us\\/|en-[a-z]{2}\\/)?([^?#]*)/i);if(r){var x="/"+r[1];if(x.slice(-11)==="/index.html")x=x.slice(0,-10);if(x!=="/"&&!x.endsWith("/")&&!isAsset(x))x+="/";return b+x+q;}return b+"/"+q;}if(h==="blogs.nvidia.com"){return b+(p.indexOf("/blog/")===0?"/blog/blog"+p.slice(5):"/blog/blog"+p)+q;}if(t.indexOf(b)===0)return t;return b+"/"+q;}if(t==="index.html"||t==="./index.html")return b+"/";if(t.slice(-11)==="/index.html")return b+t.slice(0,-10);if(t.charAt(0)==="/"&&t.indexOf("/assets/")!==0)return b+t;return v;}function f(e){if(!e||!e.getAttribute)return;var a=["href","src","action","data-href","data-url","data-link","cite","poster","formaction"];for(var i=0;i<a.length;i++){var k=a[i],v=e.getAttribute(k);if(!v)continue;var nv=u(v);if(nv!==v)e.setAttribute(k,nv);}}function s(){try{document.querySelectorAll("[href],[src],[action],[data-href],[data-url],[data-link]").forEach(f);}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s);}else{s();}setTimeout(s,500);setTimeout(s,1500);})();</script>';
+        $headInsert .= '<script id="cw-fix-links">(function(){var b=' . json_encode($base) . ';function isAsset(p){return/\\.(css|js|mjs|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|mp4|webm|pdf|json|map)(\\?|$)/i.test(p);}function u(v){if(!v||typeof v!=="string")return v;var t=v.trim();if(/^https?:\\/\\//i.test(t)||t.indexOf("//")===0){if(t.indexOf("//")===0)t="https:"+t;var m=t.match(/^https?:\\/\\/([^\\/]+)(\\/[^?#]*)?/i);if(!m)return b+"/";var h=m[1].toLowerCase(),p=m[2]||"/",q=t.indexOf("?")>=0?t.slice(t.indexOf("?")):"";if(/^(?:www\\.)?nvidia\\.com$/i.test(h)||/^www\\.nvidia\\.[a-z]{2,3}$/i.test(h)){if(/^\\/content\\/(dam|nvidiaGDC)\\//i.test(p)||isAsset(p))return b+"/assets/www.nvidia.com"+p+q;var r=t.match(/^https?:\\/\\/(?:www\\.)?nvidia\\.com\\/(?:en-us\\/|en-[a-z]{2}\\/)?([^?#]*)/i);if(r){var x="/"+r[1];if(x.slice(-11)==="/index.html")x=x.slice(0,-10);if(x!=="/"&&!x.endsWith("/")&&!isAsset(x))x+="/";return b+x+q;}return b+"/"+q;}if(h==="blogs.nvidia.com"){return b+(p.indexOf("/blog/")===0?"/blog/blog"+p.slice(5):"/blog/blog"+p)+q;}if(/^(?:www\\.)?youtube(?:-nocookie)?\\.com$/i.test(h)||/^youtu\\.be$/i.test(h)||/^(?:player\\.)?vimeo\\.com$/i.test(h)){if(/^\\/(?:embed|watch|playlist|shorts|v|video)\\//i.test(p)||h==="youtu.be")return t;}if(t.indexOf(b)===0)return t;return b+"/"+q;}if(/\\/assets\\/www\\.youtube\\.com\\/embed\\/([A-Za-z0-9_-]{11})/i.test(t)){var yt=t.match(/\\/embed\\/([A-Za-z0-9_-]{11})/);if(yt)return"https://www.youtube-nocookie.com/embed/"+yt[1];}if(t==="index.html"||t==="./index.html")return b+"/";if(t.slice(-11)==="/index.html")return b+t.slice(0,-10);if(t.charAt(0)==="/"&&t.indexOf("/assets/")!==0)return b+t;return v;}function f(e){if(!e||!e.getAttribute)return;var a=["href","src","action","data-href","data-url","data-link","cite","poster","formaction"];for(var i=0;i<a.length;i++){var k=a[i],v=e.getAttribute(k);if(!v)continue;var nv=u(v);if(nv!==v)e.setAttribute(k,nv);}}function s(){try{document.querySelectorAll("[href],[src],[action],[data-href],[data-url],[data-link]").forEach(f);}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",s);}else{s();}setTimeout(s,500);setTimeout(s,1500);})();</script>';
     }
     if ($headInsert !== '') {
         $html = cw_inject_after_head_open($html, $headInsert);
@@ -640,6 +734,8 @@ function cw_rewrite_asset_urls_in_html(string $html): string
         $hydrate = '<script id="cw-hydrate-images">(function(){var b=' . json_encode($base) . ';function fix(u){if(!u||typeof u!=="string")return u;if(u.indexOf("data:image")===0)return u;if(/^https?:\\/\\//i.test(u))return u;if(u.indexOf("/content/dam/")===0)return b+"/assets/www.nvidia.com/content/dam/"+u.slice(13);if(u.indexOf("/content/nvidiaGDC/")===0)return b+"/assets/www.nvidia.com/content/nvidiaGDC/"+u.slice(18);if(u.indexOf("./assets/")===0)return b+u.slice(1);if(u.indexOf("../assets/")===0||u.indexOf("assets/")===0){var i=u.indexOf("assets/");if(i>=0)return b+"/"+u.slice(i);}return u;}function pickSrc(el){var a=el.getAttribute("data-asset");if(a&&a.indexOf("assets/")>=0)return fix(a);var c=el.getAttribute("data-cmp-src");if(c)return fix(c);return null;}function run(){try{document.querySelectorAll("[data-cmp-src],[data-cmp-desktopimage],[data-cmp-mobileimage],[data-src],img.cmp-image__image--is-loading").forEach(function(el){var attrs=["data-cmp-src","data-cmp-desktopimage","data-cmp-mobileimage","data-src","data-asset","src"];for(var i=0;i<attrs.length;i++){var a=attrs[i];var v=el.getAttribute(a);if(!v)continue;var nv=fix(v);if(nv!==v)el.setAttribute(a,nv);}var use=pickSrc(el);if(!use&&el.tagName==="IMG")use=fix(el.getAttribute("src"));if(use){var img=el.tagName==="IMG"?el:el.querySelector("img");if(img){var s=img.getAttribute("src")||"";if(!s||s.indexOf("data:image/gif")===0||/cmp-image__image--is-loading/.test(img.className)){img.setAttribute("src",use);img.classList.remove("cmp-image__image--is-loading");}}}});}catch(e){}}if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",run);}else{run();}setTimeout(run,400);setTimeout(run,1500);})();</script>';
         $html = preg_replace('~</head>~i', $hydrate . '</head>', $html, 1) ?? $html;
     }
+
+    $html = cw_fix_youtube_embeds_in_html($html, $base);
 
     $html = cw_inject_offline_runtime_fixes($html);
     $html = cw_sanitize_html($html);
